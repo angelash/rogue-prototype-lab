@@ -1,0 +1,8 @@
+{
+  "name": "SnakeHatchery.Tests.EditMode",
+  "rootNamespace": "SnakeHatchery.Tests",
+  "references": ["SnakeHatchery.Core", "Prototype.Support"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

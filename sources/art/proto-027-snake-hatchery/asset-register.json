@@ -1,0 +1,355 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "creator": "Project assistant, original parameterized C# meshes and material design",
+  "route": "Original Unity Built-in runtime procedural 3D tabletop hatchery; discrete 8x6 rule and original 2D source retained",
+  "external_media_inputs": [],
+  "rights": "Project-original modeling code/parameters; no third-party art pack copied; Unity engine and separately registered font/audio rights remain separate",
+  "generator": {
+    "path": "prototypes/proto-027-snake-hatchery/game/SnakeHatchery/Assets/SnakeHatchery/Presentation/SnakeSceneView.cs",
+    "sha256": "ff7ba6e2f849af5dd5d7262e42d0a9337b872e3e5afc4105b82423ee8dc70e37",
+    "unity_version": "2022.3.62f3c1",
+    "internal_recipe_reference": {
+      "path": "prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Assets/SushiWorkshop/Presentation/SushiSceneView.cs",
+      "commit": "afee539",
+      "scope": "project-original rounded prism/sphere/annulus/TextMesh recipes only; no sushi scene or gameplay copied"
+    }
+  },
+  "engine_dependencies": [
+    "UnityEngine built-in Cylinder primitive",
+    "Unity Built-in Standard shader"
+  ],
+  "units": "visual meters; Core owns discrete coordinates, module ownership, routes and all transactions",
+  "rule_source": "SnakeHatchery Core Rules/Session v0.2.0",
+  "coordinate_contract": {
+    "size_source": "Rules.Width/Rules.Height",
+    "size_at_creation": [
+      8,
+      6
+    ],
+    "id": "y * Rules.Width + x",
+    "core_ui": "Core X0..7/Y0..5, UI columns1..8/rows1..6; x left-to-right, y front-to-back",
+    "cell_spacing_m": 0.84,
+    "center": "((x-(Rules.Width-1)/2)*.84,.17,(y-(Rules.Height-1)/2)*.84)",
+    "tile_size_m": [
+      0.806,
+      0.05,
+      0.806
+    ],
+    "tile_top_y_m": 0.17,
+    "pick_proxy_size_m": [
+      0.78,
+      0.28,
+      0.78
+    ],
+    "pick_proxy_center": "cell center + (0,.12,0)",
+    "dock_cell_source": "Rules.DockX/Rules.DockY",
+    "dock_cell_at_creation": [
+      1,
+      1
+    ],
+    "left_stand_position_m": [
+      -4.19,
+      0.015,
+      -1.26
+    ],
+    "inventory_box_position_m": [
+      4.22,
+      0.02,
+      -1.26
+    ],
+    "stand_box_z_source": "CellPosition(Rules.DockX,Rules.DockY).z",
+    "dock_label_offset_m": [
+      -0.35,
+      0.06,
+      -0.31
+    ],
+    "stand_label_y_m": 1.1,
+    "cut_label_perpendicular_offset_m": 0.44,
+    "cut_label_height_above_cell_m": 0.15,
+    "row_label_x_m": 3.68,
+    "column_label_z_m": -2.96,
+    "route_node_offset_m": [
+      0.3,
+      0.018,
+      0.3
+    ],
+    "decorative_colliders": false,
+    "reclaim_authority": "Core adjacent main/clone-head condition; stand art grants no extra reclaim location or rule"
+  },
+  "mesh_recipes": {
+    "rounded_prism": {
+      "outline_points": 16,
+      "height_layers": 4,
+      "triangles": 128,
+      "edge_bevel_max_m": 0.018
+    },
+    "sphere": {
+      "longitudes": 12,
+      "latitudes": 8,
+      "effective_triangles": 168
+    },
+    "annulus": {
+      "segments": 64,
+      "surfaces": 4,
+      "triangles": 512
+    },
+    "route_solid_segment": {
+      "quads": 1,
+      "triangles": 2
+    },
+    "route_draft_segment": {
+      "quads": 4,
+      "triangles": 8
+    }
+  },
+  "palette_count": 21,
+  "palette_source": "BuildPalette/AddMaterial in generator; Standard metallic0, glossiness.22, selected/draft emission color*.10",
+  "world_text": {
+    "font_resource": "Fonts/NotoSansCJKsc-Regular",
+    "font_rights_source": "runtime-resource-register.json",
+    "atlas_px": 64,
+    "character_size": "requested world glyph height * 10 / 64",
+    "body_type_order_glyph_height_m": 0.22,
+    "ground_glyph_height_m": 0.2,
+    "outer_coordinate_glyph_height_m": 0.23,
+    "ground_label_lines_max": 2,
+    "labels": "基/采/仓 + order; 主/分 + stable entity ID; 货×N/模×N quantities, two lines only when coexisting; blocked=墙; module box=盒N; dock=交; candidate cut=切"
+  },
+  "camera": {
+    "projection": "orthographic fixed oblique",
+    "position_m": [
+      0.3,
+      8.8,
+      -9.0
+    ],
+    "look_at_m": [
+      0,
+      0.25,
+      0.2
+    ],
+    "size": "max(3.35, 5.15 / max(.6, final pixelRect aspect))",
+    "rect_owner": "Runtime; Build preserves provided camera.rect",
+    "coordinator_rect_at_creation": [
+      0.225,
+      0.14,
+      0.775,
+      0.66
+    ],
+    "ambient_rgb": [
+      0.64,
+      0.69,
+      0.66
+    ],
+    "key_intensity": 0.78
+  },
+  "render_contract": {
+    "independent_root": "SnakeHatchery_OriginalArt",
+    "snapshot": "Session.State deep-copy, read-only",
+    "segment_cache_key": "actual ModuleId; ownership/order/coordinates from actual snake Segments",
+    "local_rebuild": "cell contents, links, routes and inventory only when their signatures change",
+    "ground_module_coexistence": "actual Location=Ground; sorted IDs; may coexist with bodies, cargo and other modules",
+    "ground_module_shape_display_cap": 3,
+    "cargo_shape_display_cap": 4,
+    "precise_quantity_owner": "actual CellState.Cargo, module counts, inventory ID array; not visible piece counts",
+    "cut_selection": "selectedCut=keepSegments, boundary between Main.Segments[N-1] and [N]; candidate is not a legality promise",
+    "clone_selection": "stable SnakeState.Id",
+    "routes": "actual Route/RouteIndex solid; coordinator-supplied draft dashed; no pathfinding or commands",
+    "draft_interface": "SetDraftRoute copies supplied GridPoint values; null clears",
+    "motion": "immediate presentation of confirmed grid positions; no inferred rule motion or speculative particles"
+  },
+  "assets": [
+    {
+      "id": "SNK-ART-TABLE",
+      "name": "生态桌面与盘沿",
+      "shape": "暖木桌/奶油底盘/淡绿低沿/场牌/双盆植",
+      "mapping": "static outside-grid packaging",
+      "dimensions_m": {
+        "table": [
+          10.1,
+          0.2,
+          7.1
+        ],
+        "tray": [
+          7.18,
+          0.14,
+          5.5
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-GRID",
+      "name": "八乘六苔垫",
+      "shape": "双色低苔垫/列1..8/行1..6",
+      "mapping": "Rules Width/Height and Cells",
+      "dimensions_m": {
+        "spacing": 0.84,
+        "tile": [
+          0.806,
+          0.05,
+          0.806
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-BASIC",
+      "name": "基础双叶节",
+      "shape": "绿椭球/双叶帽/基+身体序号",
+      "mapping": "SegmentKind.Basic",
+      "dimensions_m": {
+        "body": [
+          0.63,
+          0.3,
+          0.58
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-COLLECTOR",
+      "name": "采集三叉节",
+      "shape": "蓝椭球/三叉顶/采+身体序号",
+      "mapping": "SegmentKind.Collector",
+      "dimensions_m": {
+        "body": [
+          0.63,
+          0.3,
+          0.58
+        ],
+        "fork_top_y_local": 0.428
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-WAREHOUSE",
+      "name": "仓库盖节",
+      "shape": "橙椭球/木箱盖/浅锁扣/仓+身体序号",
+      "mapping": "SegmentKind.Warehouse",
+      "dimensions_m": {
+        "body": [
+          0.63,
+          0.3,
+          0.58
+        ],
+        "cap": [
+          0.31,
+          0.14,
+          0.28
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-HEAD",
+      "name": "头部与稳定身份",
+      "shape": "鼻口/双眼/椭圆圈/主或分ID徽章",
+      "mapping": "actual Segments[0], Direction, IsMain, Id, selectedClone",
+      "dimensions_m": {
+        "badge": [
+          0.47,
+          0.23,
+          0.025
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-LINK",
+      "name": "真实身体连接",
+      "shape": "短绿圆柱",
+      "mapping": "actual adjacent ordered segments; no new body geometry authority",
+      "dimensions_m": {
+        "radius": 0.098
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-CARGO",
+      "name": "地面果货",
+      "shape": "桃色果实/绿梗/低木床/货×N数量标签",
+      "mapping": "CellState.Cargo",
+      "dimensions_m": {
+        "fruit": [
+          0.17,
+          0.15,
+          0.17
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-GROUND-MODULE",
+      "name": "地面模块",
+      "shape": "半尺度真实三类模块/模×N数量标签",
+      "mapping": "ModuleState Location=Ground and X/Y; sorted IDs",
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-INVENTORY",
+      "name": "模块浅盒",
+      "shape": "暖木盒/墨绿凹口/真实库存小模块/盒N",
+      "mapping": "InventoryModuleIds resolved against Modules",
+      "dimensions_m": {
+        "box": [
+          0.75,
+          0.21,
+          0.72
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-DOCK",
+      "name": "交付功能包装",
+      "shape": "交字格圈/网格外木台与三容器/货物交付文字",
+      "mapping": "Rules dock cell for delivery; reclaim legal condition remains Core adjacent heads, not a stand operation",
+      "dimensions_m": {
+        "stand": [
+          0.89,
+          0.33,
+          0.72
+        ],
+        "dock_radius": 0.34
+      },
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-ROCK",
+      "name": "低岩障碍",
+      "shape": "灰岩/小岩片/苔叶/墙字",
+      "mapping": "CellState.Blocked",
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-CUT",
+      "name": "候选断尾界线",
+      "shape": "红色剪叉/切字",
+      "mapping": "actual index-valid selected keepSegments boundary; Root PreviewSplit owns validity",
+      "source": "generator"
+    },
+    {
+      "id": "SNK-ART-PATH",
+      "name": "实际与草案路线",
+      "shape": "格角蓝紫实线/金色虚线/点阵/公开索引圈",
+      "mapping": "clone Route/RouteIndex and Root draft point array",
+      "source": "generator"
+    }
+  ],
+  "review": {
+    "code_api": "read and matched actual Core Rules/Session v0.2.0 DTOs; art owner did not run Unity",
+    "mesh_orientation": "directed recipe review, shared original rounded/sphere/annulus winding; tiny-axis bevel constrained; new route strips face upward",
+    "unity_compile": "coordinator completed final build and reported 32/32 tests passed (28 Core + 4 storage); art owner did not run Unity; full build counts and Builder hash remain coordinator-owned",
+    "actual_game_camera": "2026-10-10 personally viewed final 1600x900 capture: initial-state 48-cell composition, row/column coordinates, module forms/body order, main identity, walls, 货×N/模×N quantities, inventory box, raised delivery title/dock frame and separated cut caption passed; only initial-state visual acceptance",
+    "camera_evidence_path": "docs/development/proto-027/evidence/scene.png",
+    "camera_evidence_sha256": "dc6763560ae004eb5f2741d58103fa5c92e860bc445497eafcb4968e60d4a979",
+    "first_camera_sha256": "5091f054ab23f81dcb28cb821bcdbf2e85ad1a88fa6d3ccb14fc2931fed5e145",
+    "directed_fix": "initial capture showed bottle-overlapped delivery title, dock word near main body and crowded cut caption; coordinator renamed stand to 货物交付; art owner raised title .74->1.10m, moved dock label to front-left (-.35,.06,-.31), moved cut caption perpendicular .29->.44m and height .39->.15m; coordinator made ground quantity labels 货×N/模×N with newline when coexisting; no rule/camera/proxy change",
+    "dynamic_feedback": "pending short/long presets, movement/growth, cut confirmation, both clone behaviors, selected paths/waiting, reclaim drops and inventory",
+    "native_window_input_and_hud": "pending; recent coordinator Windows security permission modal blocked native QA; no security UI operated",
+    "listening": "pending actual Player listening; independently registered audio file checks do not prove playback/feedback quality",
+    "performance": "pending actual Player frame/draw/mesh measurement",
+    "full_art_or_release": "not claimed"
+  }
+}

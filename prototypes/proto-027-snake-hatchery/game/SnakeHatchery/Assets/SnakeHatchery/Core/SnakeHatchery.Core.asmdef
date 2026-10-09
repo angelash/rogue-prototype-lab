@@ -1,0 +1,7 @@
+{
+  "name": "SnakeHatchery.Core",
+  "rootNamespace": "SnakeHatchery",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

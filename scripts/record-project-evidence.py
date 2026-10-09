@@ -28,7 +28,7 @@ for dirname in ('Assets','Packages','ProjectSettings'):
 manifest={'project':a.project,'mode':'Windows x64 Mono StrictMode standalone','summary':summary,
           'tests':{k:run.attrib.get(k) for k in ('total','passed','failed','result','start-time','end-time')},
           'files':[entry(f,build) for f in sorted(build.rglob('*')) if f.is_file()],
-          'projectSources':sources,'productionTools':[entry(ROOT/'scripts'/f,ROOT) for f in ('create-first-batch-project.py','create_first_batch_config.py','run-unity-project.ps1','generate-first-batch-music.py','register-project-resources.py','record-project-evidence.py','unity-templates/ProjectBuilder.cs.txt','unity-templates/PrototypeToolkit.cs')]}
+          'projectSources':sources,'productionTools':[entry(ROOT/'scripts'/f,ROOT) for f in ('create-first-batch-project.py','create_first_batch_config.py','run-unity-project.ps1','capture-project-scene.ps1','generate-first-batch-music.py','register-project-resources.py','record-project-evidence.py','unity-templates/ProjectBuilder.cs.txt','unity-templates/PrototypeToolkit.cs')]}
 (out/'test-results.xml').write_bytes(xml)
 if a.capture:
     data=a.capture.read_bytes();(out/'scene.png').write_bytes(data)

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="32" result="Passed" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.2695565">
+  <test-suite type="TestSuite" id="1041" name="Snake Hatchery Prototype" fullname="Snake Hatchery Prototype" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.269557" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1078" name="SnakeHatchery.Tests.EditMode.dll" fullname="F:/workspace/rogue-prototype-lab/prototypes/proto-027-snake-hatchery/game/SnakeHatchery/Library/ScriptAssemblies/SnakeHatchery.Tests.EditMode.dll" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.256229" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="69092" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1079" name="SnakeHatchery" fullname="SnakeHatchery" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.255940" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1080" name="Tests" fullname="SnakeHatchery.Tests" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.252482" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1042" name="PersistenceTests" fullname="SnakeHatchery.Tests.PersistenceTests" classname="SnakeHatchery.Tests.PersistenceTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.134935" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1044" name="InterruptedSaveLeavesOldCompleteSnake" fullname="SnakeHatchery.Tests.PersistenceTests.InterruptedSaveLeavesOldCompleteSnake" methodname="InterruptedSaveLeavesOldCompleteSnake" classname="SnakeHatchery.Tests.PersistenceTests" runstate="Runnable" seed="2089778428" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.049815" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1045" name="InvalidNewDeliveryNeverReplacesLegalWorld" fullname="SnakeHatchery.Tests.PersistenceTests.InvalidNewDeliveryNeverReplacesLegalWorld" methodname="InvalidNewDeliveryNeverReplacesLegalWorld" classname="SnakeHatchery.Tests.PersistenceTests" runstate="Runnable" seed="830481798" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.010932" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1046" name="RecoveryThenSavePreservesOnlyValidOldSnake" fullname="SnakeHatchery.Tests.PersistenceTests.RecoveryThenSavePreservesOnlyValidOldSnake" methodname="RecoveryThenSavePreservesOnlyValidOldSnake" classname="SnakeHatchery.Tests.PersistenceTests" runstate="Runnable" seed="144094784" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.050065" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1043" name="RestoredSnakeAndBudgetMatchCommittedAction" fullname="SnakeHatchery.Tests.PersistenceTests.RestoredSnakeAndBudgetMatchCommittedAction" methodname="RestoredSnakeAndBudgetMatchCommittedAction" classname="SnakeHatchery.Tests.PersistenceTests" runstate="Runnable" seed="876650528" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.011419" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1047" name="SessionTests" fullname="SnakeHatchery.Tests.SessionTests" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" testcasecount="28" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.113556" total="28" passed="28" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1052" name="A01GrowthAppendsActualModuleAtOldTailAndCapacityChangesOnlyOnIngestion" fullname="SnakeHatchery.Tests.SessionTests.A01GrowthAppendsActualModuleAtOldTailAndCapacityChangesOnlyOnIngestion" methodname="A01GrowthAppendsActualModuleAtOldTailAndCapacityChangesOnlyOnIngestion" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1244293301" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.010787" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1054" name="A02SplitTransfersOnlyExistingTailAndNewCloneDoesNotMoveThatAction" fullname="SnakeHatchery.Tests.SessionTests.A02SplitTransfersOnlyExistingTailAndNewCloneDoesNotMoveThatAction" methodname="A02SplitTransfersOnlyExistingTailAndNewCloneDoesNotMoveThatAction" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1452929332" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.004469" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1056" name="A03ThirdCloneIsRejectedWithoutAdvancingAnyEntity" fullname="SnakeHatchery.Tests.SessionTests.A03ThirdCloneIsRejectedWithoutAdvancingAnyEntity" methodname="A03ThirdCloneIsRejectedWithoutAdvancingAnyEntity" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1114224272" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.004529" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1060" name="A04PatrolReclaimDropsActualModuleWhenInventoryFullAndDoesNotReattach" fullname="SnakeHatchery.Tests.SessionTests.A04PatrolReclaimDropsActualModuleWhenInventoryFullAndDoesNotReattach" methodname="A04PatrolReclaimDropsActualModuleWhenInventoryFullAndDoesNotReattach" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1836033837" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.006899" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1068" name="BudgetAndCollisionFailExplicitlyAndRetryUsesFreshSamePreset" fullname="SnakeHatchery.Tests.SessionTests.BudgetAndCollisionFailExplicitlyAndRetryUsesFreshSamePreset" methodname="BudgetAndCollisionFailExplicitlyAndRetryUsesFreshSamePreset" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1504999154" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002599" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1067" name="FinalEffectiveDeliveryWinsBeforeBudgetExpiry" fullname="SnakeHatchery.Tests.SessionTests.FinalEffectiveDeliveryWinsBeforeBudgetExpiry" methodname="FinalEffectiveDeliveryWinsBeforeBudgetExpiry" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1025752683" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.009804" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1077" name="ForgedOrPartialSnapshotsAreRejected" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.012320" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1071" name="ForgedOrPartialSnapshotsAreRejected(&quot;budget&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;budget&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="243346118" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002919" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1072" name="ForgedOrPartialSnapshotsAreRejected(&quot;cargo&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;cargo&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1999061832" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.001629" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1073" name="ForgedOrPartialSnapshotsAreRejected(&quot;ownership&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;ownership&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="118912045" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.000419" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1074" name="ForgedOrPartialSnapshotsAreRejected(&quot;version&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;version&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1935239055" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.000307" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1075" name="ForgedOrPartialSnapshotsAreRejected(&quot;phase&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;phase&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1808143520" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002618" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1076" name="ForgedOrPartialSnapshotsAreRejected(&quot;route&quot;)" fullname="SnakeHatchery.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejected(&quot;route&quot;)" methodname="ForgedOrPartialSnapshotsAreRejected" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1883747236" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.003563" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1066" name="FullCargoLeavesUncollectedGroundAndRefusedCollectCostsNothing" fullname="SnakeHatchery.Tests.SessionTests.FullCargoLeavesUncollectedGroundAndRefusedCollectCostsNothing" methodname="FullCargoLeavesUncollectedGroundAndRefusedCollectCostsNothing" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="947557822" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002600" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1070" name="FullRestoreReplaysProductionCommandsButGivesNoNewEventsOrRewards" fullname="SnakeHatchery.Tests.SessionTests.FullRestoreReplaysProductionCommandsButGivesNoNewEventsOrRewards" methodname="FullRestoreReplaysProductionCommandsButGivesNoNewEventsOrRewards" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1452095904" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.008150" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1065" name="InvalidMenusAndEmptyCapacityActionsDoNotAdvanceClonesOrBudget" fullname="SnakeHatchery.Tests.SessionTests.InvalidMenusAndEmptyCapacityActionsDoNotAdvanceClonesOrBudget" methodname="InvalidMenusAndEmptyCapacityActionsDoNotAdvanceClonesOrBudget" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="264995405" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.001932" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1057" name="MainOccupancyAndStableCloneOccupancyCauseVisibleWaitWithoutDamage" fullname="SnakeHatchery.Tests.SessionTests.MainOccupancyAndStableCloneOccupancyCauseVisibleWaitWithoutDamage" methodname="MainOccupancyAndStableCloneOccupancyCauseVisibleWaitWithoutDamage" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1133978794" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002960" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1058" name="OlderCloneBlockedByNewCloneWaitsAndUsesStableIds" fullname="SnakeHatchery.Tests.SessionTests.OlderCloneBlockedByNewCloneWaitsAndUsesStableIds" methodname="OlderCloneBlockedByNewCloneWaitsAndUsesStableIds" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="2123020812" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002103" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1053" name="OrdinaryMoveMayEnterOldTailButGrowthMoveCannot" fullname="SnakeHatchery.Tests.SessionTests.OrdinaryMoveMayEnterOldTailButGrowthMoveCannot" methodname="OrdinaryMoveMayEnterOldTailButGrowthMoveCannot" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="128016476" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.003266" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1064" name="PickupAndDropDoNotGivePassiveCapacityOrCopyModules" fullname="SnakeHatchery.Tests.SessionTests.PickupAndDropDoNotGivePassiveCapacityOrCopyModules" methodname="PickupAndDropDoNotGivePassiveCapacityOrCopyModules" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1134734644" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002138" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="PublicWallInPatrolRouteWaitsInsteadOfHarmingMain" fullname="SnakeHatchery.Tests.SessionTests.PublicWallInPatrolRouteWaitsInsteadOfHarmingMain" methodname="PublicWallInPatrolRouteWaitsInsteadOfHarmingMain" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="631302629" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.003183" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1062" name="ReclaimWithEmptyInventoryKeepsActualModuleWithoutRestoringBodyCapacity" fullname="SnakeHatchery.Tests.SessionTests.ReclaimWithEmptyInventoryKeepsActualModuleWithoutRestoringBodyCapacity" methodname="ReclaimWithEmptyInventoryKeepsActualModuleWithoutRestoringBodyCapacity" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1153266106" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.001875" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1061" name="ReclaimWithFullMainCargoLeavesOverflowVisibleAndUnique" fullname="SnakeHatchery.Tests.SessionTests.ReclaimWithFullMainCargoLeavesOverflowVisibleAndUnique" methodname="ReclaimWithFullMainCargoLeavesOverflowVisibleAndUnique" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1204381358" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.004240" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1050" name="SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget" fullname="SnakeHatchery.Tests.SessionTests.SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.013943" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1048" name="SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget(Short)" fullname="SnakeHatchery.Tests.SessionTests.SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget(Short)" methodname="SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="438553605" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.006600" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1049" name="SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget(Long)" fullname="SnakeHatchery.Tests.SessionTests.SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget(Long)" methodname="SameInputNoCloneGoldenCompletesWithIndependent52ActionBudget" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="844312940" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.005823" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1063" name="ShuttleAutomaticallyDeliversOnlyActualCargoAtDock" fullname="SnakeHatchery.Tests.SessionTests.ShuttleAutomaticallyDeliversOnlyActualCargoAtDock" methodname="ShuttleAutomaticallyDeliversOnlyActualCargoAtDock" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1831496038" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.003127" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1069" name="TwoSegmentMainStillCannotReverseThroughItsNeck" fullname="SnakeHatchery.Tests.SessionTests.TwoSegmentMainStillCannotReverseThroughItsNeck" methodname="TwoSegmentMainStillCannotReverseThroughItsNeck" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="2145406815" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002523" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1051" name="WarehouseCapacitySupportsIndependentlyDerived28ActionRoute" fullname="SnakeHatchery.Tests.SessionTests.WarehouseCapacitySupportsIndependentlyDerived28ActionRoute" methodname="WarehouseCapacitySupportsIndependentlyDerived28ActionRoute" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1228828002" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.003347" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1055" name="WarehouseSplitLosesCapacityAndTransfersOverflowToActualClone" fullname="SnakeHatchery.Tests.SessionTests.WarehouseSplitLosesCapacityAndTransfersOverflowToActualClone" methodname="WarehouseSplitLosesCapacityAndTransfersOverflowToActualClone" classname="SnakeHatchery.Tests.SessionTests" runstate="Runnable" seed="1304497306" result="Passed" start-time="2026-10-09 17:29:27Z" end-time="2026-10-09 17:29:27Z" duration="0.002957" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
