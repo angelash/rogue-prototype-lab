@@ -5,7 +5,7 @@
 ## 1. 现状检查
 
 - [check-development-readiness.ps1](check-development-readiness.ps1)：核对已配置的 Unity/Mono、Blender 文件、命令路径、计划工程是否存在及基础主机信息。文件存在与编译/导入/运行通过分别报告。可通过 `-UnityEditorPath`、`-BlenderPath` 覆盖机器路径；相对 `-OutputPath` 按仓库根解析，报告可写到受忽略的 `.local/`。
-- [check-docs.py](check-docs.py)：Python 标准库检查中文 Markdown 的 UTF-8/非空、本地文件链接及来源登记 SHA-256。默认跳过仓外绝对引用，换电脑无需具备参考仓；`--check-external` 可核对本机所有来源路径。它不验证网页内容、Markdown 锚点、排版、游戏规则或玩法可达性。
+- [check-docs.py](check-docs.py)：Python 标准库检查中文 Markdown 的 UTF-8/非空、本地文件链接及来源登记 SHA-256；同时要求共同规范、模板、持续规则和所有 `proto-*` 项目根 `DEVELOPMENT.md` 存在，项目 README 链接专属合同、合同链接共同规范。默认跳过仓外绝对引用，换电脑无需具备参考仓；`--check-external` 可核对本机所有来源路径。它不验证规范已实际执行、网页内容、Markdown 锚点、排版、游戏规则或玩法可达性。
 
 在仓库根目录执行：
 

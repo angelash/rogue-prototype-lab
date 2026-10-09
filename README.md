@@ -12,6 +12,17 @@
 
 ## 先读这些文档
 
+后续所有项目默认执行根目录 [制作准备与开发规范](DEVELOPMENT_STANDARD.md)，开始或继续开发前再读目标项目根目录的 `DEVELOPMENT.md`。新项目用 [开发要求模板](DEVELOPMENT_TEMPLATE.md) 建立专属合同；默认规则已写入 [AGENTS.md](AGENTS.md) 和 `.cursor/rules/project-development-standard.mdc`。
+
+第一批的项目开发要求与真实落地快照：
+
+- [013 套圈改造摊](prototypes/proto-013-ring-toss/DEVELOPMENT.md)
+- [027 贪吃蛇孵化场](prototypes/proto-027-snake-hatchery/DEVELOPMENT.md)
+- [032 回转寿司工坊](prototypes/proto-032-sushi-workshop/DEVELOPMENT.md)
+- [051 回收保洁队](prototypes/proto-051-recycling-cleaners/DEVELOPMENT.md)
+- [121 磁铁拾荒者](prototypes/proto-121-magnet-scavenger/DEVELOPMENT.md)
+- [126 收割机自己铺路](prototypes/proto-126-harvester-paths/DEVELOPMENT.md)
+
 最新入口：[第一批项目需求与设计总览](docs/design/first-batch/README.md)，包含回转寿司工坊、套圈改造摊、回收保洁队、贪吃蛇孵化场、磁铁拾荒者、收割机自己铺路。
 
 方案入口：[套圈改造摊完整方案 v0.6](docs/design/first-batch/proto-013-ring-toss/full-game/README.md)，覆盖完整设计、Unity PC/Steam，以及当前缺口和内容生产验证。用户已选择 Unity、现有安装、PC 单机与 Steam 目标，并于 2026-10-09 授权按计划开始实现、素材接入、测试和 Windows 构建；本机核实为 2022.3.62f3c1。随后明确要求真实三维、斜视场景、玩家近处向前抛圈，替代旧二维占位与固定正交 2.5D；具体镜头、布局、造型与材质仍是助手建议，见 [三维方向合同](docs/development/proto-013/3d-scene-direction.md)。
@@ -35,7 +46,7 @@
 | [本地设置状态](docs/setup-status.md) | 实际完成状态与项目绑定步骤 |
 | [仓库与备份管理](docs/version-control.md) | 忽略规则、上传、工作簿校验及恢复步骤 |
 
-第一批名单来自优先推荐与用户追加项，名单解释、用户明确决定与助手建议见总览。013 已获授权开始开发；其他候选仍处于方案阶段，玩法价值尚待各自原型和试玩验证，31 案不代表同时开发。013 的引擎、PC 单机与 Steam 目标已指定；其他项目的技术/平台选择、各项目商业模式与预算另行记录。
+第一批名单来自优先推荐与用户追加项，名单解释、用户明确决定与助手建议见总览。013 已获授权开始开发；其他候选仍处于方案阶段，玩法价值尚待各自原型和试玩验证，31 案不代表同时开发。本次用户要求将已有制作准备与要求归档为后续项目默认规范；其它项目默认从现有 Unity、Windows PC 单机及面向 Steam 的制作基线起步，项目专属平台覆盖、视觉维度、商业模式与预算另行记录，不能把套圈镜头和规则自动照搬。
 
 ## 目录结构
 

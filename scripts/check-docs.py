@@ -43,6 +43,26 @@ for path in docs:
         if not destination.exists():
             errors.append({'file': str(path.relative_to(root)), 'target': target, 'error': 'missing local reference'})
 
+project_contracts = []
+for name in ('DEVELOPMENT_STANDARD.md', 'DEVELOPMENT_TEMPLATE.md', 'AGENTS.md', '.cursor/rules/project-development-standard.mdc'):
+    if not (root / name).is_file():
+        errors.append({'file': name, 'error': 'missing default development guidance'})
+for project in sorted((root / 'prototypes').glob('proto-*')):
+    if not project.is_dir():
+        continue
+    contract, readme = project / 'DEVELOPMENT.md', project / 'README.md'
+    project_contracts.append(str(contract.relative_to(root)))
+    for path, required_link in ((contract, 'DEVELOPMENT_STANDARD.md'), (readme, 'DEVELOPMENT.md')):
+        if not path.is_file():
+            errors.append({'file': str(path.relative_to(root)), 'error': 'missing project development entry'})
+            continue
+        try:
+            content = path.read_text(encoding='utf-8-sig')
+        except UnicodeError:
+            continue  # The Markdown check above reports the decoding failure.
+        if not re.search(r'\[[^\]]+\]\([^\n)]*' + re.escape(required_link) + r'(?:#[^\n)]*)?>?\)', content):
+            errors.append({'file': str(path.relative_to(root)), 'error': 'missing development guidance link', 'target': required_link})
+
 source_results = []
 register = root / 'sources/chatgpt/checksums.sha256'
 try:
@@ -65,5 +85,5 @@ if not source_results:
 
 if not docs:
     errors.append({'error': 'no Markdown documents found'})
-print(json.dumps({'markdownFiles': len(docs), 'checkedLocalLinks': checked_links, 'externalLocalReferencesSkipped': len(skipped_external), 'externalCheckEnabled': args.check_external, 'sources': source_results, 'errors': errors}, ensure_ascii=False, indent=2))
+print(json.dumps({'markdownFiles': len(docs), 'checkedLocalLinks': checked_links, 'externalLocalReferencesSkipped': len(skipped_external), 'externalCheckEnabled': args.check_external, 'projectDevelopmentContracts': project_contracts, 'sources': source_results, 'errors': errors}, ensure_ascii=False, indent=2))
 raise SystemExit(bool(errors))

@@ -15,7 +15,11 @@
 
 本地 `.git/config` 已设置：仅允许快进拉取、清理失效的远程分支引用、默认推送当前同名分支、直接显示中文路径；配置只作用于此仓库。
 
-2026-10-09 技术方案补充后，Unity 缓存与生成构建的忽略规则已用计划工程路径核对；正式 Assets、ProjectSettings、Packages 锁文件和 `.meta` 需要保留。Blender `.blend`、导出 `.fbx`、`.tga/.exr` 与 `.otf` 增加二进制属性，自动 `.blend1/.blend2` 排除，正式制作源仍提交。当前仅补文档与规则，没有真实模型或 Unity 工程；大体量资产是否用 Git LFS 待实际文件出现后评估。
+2026-10-09 技术方案准备阶段先核对 Unity 缓存与构建的忽略规则，后续已实际建立 013 工程、五件 Blender 制作源/FBX/预览、七个短音效及中文字体。源码、正式 Assets、必要 ProjectSettings、Packages 锁文件、`.meta`、许可与事实记录已随 `d086cfc` 提交并推送；构建和完整工具日志留在忽略目录，证据摘要见 [开发记录](development/proto-013/2026-10-09-p0.md)。
+
+Blender `.blend`、`.fbx`、`.tga/.exr`、音频、图片与字体按二进制保存，自动 `.blend1/.blend2`、Unity IDE 生成工程及缓存/构建排除。Unity 自动 YAML 的空值尾随空格由文件属性允许，保持 `.meta` GUID；大体量资产是否采用 LFS 按实际文件和远程限制评估，不能忽略正式制作源代替备份。
+
+后续各项目默认执行根 [共同开发规范](../DEVELOPMENT_STANDARD.md)，项目根 `DEVELOPMENT.md` 保存落地与证据入口。已有 Git 备份授权持续适用；按任务完成必要定向检查、核对暂存内容、提交推送并确认远程同步，不把本机开发包已生成写成它已经上传。
 
 后续能力审计的探针模型、音视频、原始日志与回归样本仅在忽略的 `.local/readiness-2026-10-09/`，本仓保存其 [规格与证据登记](../sources/references/development-capability-audit-2026-10-09.md)。正式制作时提交源文件和发行来源记录，不能把探针目录整批加入仓库。已有 [准备检查脚本](../scripts/README.md) 可校验文档与登记源字节；它不证明游戏构建或发行通过。
 

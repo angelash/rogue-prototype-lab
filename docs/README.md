@@ -2,9 +2,11 @@
 
 设计归档从 [design/README.md](design/README.md) 开始。
 
+全项目制作准备、制作要求、验证与备份默认按根 [DEVELOPMENT_STANDARD.md](../DEVELOPMENT_STANDARD.md) 执行；专属开发合同与当前落地在各 `prototypes/<项目>/DEVELOPMENT.md`，入口见 [项目总览](../prototypes/README.md)。新项目按 [模板](../DEVELOPMENT_TEMPLATE.md) 建立合同，通用规则不在每个项目重复复制。
+
 本轮最新入口：[第一批项目需求与设计](design/first-batch/README.md)。六个项目都有独立文档目录，分别保存 requirements.md 和 design.md；prototypes/ 中各项目 README 链接对应正文。
 
-013 后续补充：[套圈改造摊完整方案 v0.4](design/first-batch/proto-013-ring-toss/full-game/README.md)。独立保留十四个专题与总入口，原型 v0.1 仍作为最小验证范围。用户已指定本机 Unity、PC 单机与 Steam，并明确后续开发全部由助手处理；没有可玩构建、正式资产或试玩通过记录。
+013 后续补充：[套圈改造摊完整方案 v0.6](design/first-batch/proto-013-ring-toss/full-game/README.md)。独立保留十四个专题与总入口，原型 v0.1 保留为历史最小范围；用户随后明确真实三维斜视地摊。已有独立 Unity 工程、原创模型与短音效、48 项测试和 Windows 开发构建，实际范围见 [开发记录](development/proto-013/2026-10-09-p0.md)；游戏相机渲染已目检，三维正常窗口输入及完整正式内容尚未验收。其余五项仍为文档准备阶段。
 
 当前不足与后续产物见 [12 缺口与补齐计划](design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md)；正式配置、覆盖、可达证据、文本和故障数据按 [13 内容与验证合同](design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md) 生产。已有 [准备检查脚本](../scripts/README.md) 和 [实际能力探针登记](../sources/references/development-capability-audit-2026-10-09.md)，工具通过与游戏通过分别记录。
 

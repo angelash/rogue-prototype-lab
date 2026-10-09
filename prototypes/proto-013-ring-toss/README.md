@@ -4,6 +4,7 @@
 
 核心问题：稳定投掷能否通过练习改善，兑现或留场是否随回款压力改变。
 
+- [开发要求、规范与落地状态](DEVELOPMENT.md)：本项目实施基线、已完成证据与下一阶段验收；通用要求引用仓库开发规范。
 - [P0 Unity 工程、运行命令与操作说明](game/RingTossWorkshop/README.md)
 - [三维场景方向与首组范围](../../docs/development/proto-013/3d-scene-direction.md)：用户明确方向、助手方案与新三维验证合同。
 - [2026-10-09 首轮开发结果](../../docs/development/proto-013/2026-10-09-p0.md)：实现范围、实际验证证据与接续点。
