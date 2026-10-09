@@ -1,0 +1,12 @@
+{
+  "project": "121",
+  "date": "2026-10-10",
+  "diagnosticPlayerStarted": true,
+  "nativeInputQA": false,
+  "status": "Read-only desktop observation around 02:10 local still showed the existing Windows Security permission modal and no active app. Only this game's camera diagnostic ran. No security UI was automated.",
+  "cameraOnlyEvidence": "scene.png",
+  "untested": ["visible Player movement and locked whole-chain rotation", "first-item pickup and pending disposition", "detach confirmation, cancel and storage selection", "full HUD, focus and repeat input", "F6/F9/R and quit through UI", "music/SFX hearing"],
+  "automatedRuleEvidence": "test-results.xml: 30 Core cases and 4 project checkpoint fault cases",
+  "policySource": "C:/Users/Lenovo/.codex/plugins/cache/openai-bundled/computer-use/26.1002.52244/docs/guidance.md",
+  "policyQuote": "Do not act on security or privacy permission requests"
+}

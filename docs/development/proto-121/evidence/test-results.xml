@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="34" result="Passed" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-09 18:02:40Z" end-time="2026-10-09 18:02:41Z" duration="0.272808">
+  <test-suite type="TestSuite" id="1042" name="Magnet Scavenger Prototype" fullname="Magnet Scavenger Prototype" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-09 18:02:40Z" end-time="2026-10-09 18:02:41Z" duration="0.272808" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1080" name="MagnetScavenger.Tests.EditMode.dll" fullname="F:/workspace/rogue-prototype-lab/prototypes/proto-121-magnet-scavenger/game/MagnetScavenger/Library/ScriptAssemblies/MagnetScavenger.Tests.EditMode.dll" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.258285" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="76348" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1081" name="MagnetScavenger" fullname="MagnetScavenger" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.257901" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1082" name="Tests" fullname="MagnetScavenger.Tests" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.253983" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1043" name="PersistenceTests" fullname="MagnetScavenger.Tests.PersistenceTests" classname="MagnetScavenger.Tests.PersistenceTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.157228" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1045" name="InterruptedSaveLeavesOldCompleteChain" fullname="MagnetScavenger.Tests.PersistenceTests.InterruptedSaveLeavesOldCompleteChain" methodname="InterruptedSaveLeavesOldCompleteChain" classname="MagnetScavenger.Tests.PersistenceTests" runstate="Runnable" seed="330671937" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.059761" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1046" name="InvalidNewWalletNeverReplacesLegalOwnership" fullname="MagnetScavenger.Tests.PersistenceTests.InvalidNewWalletNeverReplacesLegalOwnership" methodname="InvalidNewWalletNeverReplacesLegalOwnership" classname="MagnetScavenger.Tests.PersistenceTests" runstate="Runnable" seed="226118142" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.010053" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1047" name="RecoveryThenSavePreservesOnlyValidOldChain" fullname="MagnetScavenger.Tests.PersistenceTests.RecoveryThenSavePreservesOnlyValidOldChain" methodname="RecoveryThenSavePreservesOnlyValidOldChain" classname="MagnetScavenger.Tests.PersistenceTests" runstate="Runnable" seed="382089163" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.060847" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1044" name="RestoredGeometryAndEnergyMatchCommittedAction" fullname="MagnetScavenger.Tests.PersistenceTests.RestoredGeometryAndEnergyMatchCommittedAction" methodname="RestoredGeometryAndEnergyMatchCommittedAction" classname="MagnetScavenger.Tests.PersistenceTests" runstate="Runnable" seed="593959187" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.011195" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1048" name="SessionTests" fullname="MagnetScavenger.Tests.SessionTests" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.091566" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1052" name="A01RetainedRodChangesUniqueEndAndActualReachAtSameRoot" fullname="MagnetScavenger.Tests.SessionTests.A01RetainedRodChangesUniqueEndAndActualReachAtSameRoot" methodname="A01RetainedRodChangesUniqueEndAndActualReachAtSameRoot" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1726061081" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.011392" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1055" name="A02OverweightFirstHeavyNeverJumpsToShortBehind" fullname="MagnetScavenger.Tests.SessionTests.A02OverweightFirstHeavyNeverJumpsToShortBehind" methodname="A02OverweightFirstHeavyNeverJumpsToShortBehind" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="155687018" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.003143" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1057" name="A03SellRemovedToolCannotExtendOrGiveRepeatedMoney" fullname="MagnetScavenger.Tests.SessionTests.A03SellRemovedToolCannotExtendOrGiveRepeatedMoney" methodname="A03SellRemovedToolCannotExtendOrGiveRepeatedMoney" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1375736769" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.003682" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1060" name="A04MiddleDetachStoresWholeSuffixAndReattachHasRealCost" fullname="MagnetScavenger.Tests.SessionTests.A04MiddleDetachStoresWholeSuffixAndReattachHasRealCost" methodname="A04MiddleDetachStoresWholeSuffixAndReattachHasRealCost" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="882751914" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.003858" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1062" name="A05NarrowGapRequiresActualShorteningBeforeMovingIntoWallRow" fullname="MagnetScavenger.Tests.SessionTests.A05NarrowGapRequiresActualShorteningBeforeMovingIntoWallRow" methodname="A05NarrowGapRequiresActualShorteningBeforeMovingIntoWallRow" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="46466354" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.003294" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1066" name="BlockedRootAndUnknownCommandsLeaveWholeStateAndEnergyUnchanged" fullname="MagnetScavenger.Tests.SessionTests.BlockedRootAndUnknownCommandsLeaveWholeStateAndEnergyUnchanged" methodname="BlockedRootAndUnknownCommandsLeaveWholeStateAndEnergyUnchanged" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1721330462" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001196" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1067" name="CompletedSnapshotRestoreIsValidAndRetryStartsSameOrderWithFreshOwnership" fullname="MagnetScavenger.Tests.SessionTests.CompletedSnapshotRestoreIsValidAndRetryStartsSameOrderWithFreshOwnership" methodname="CompletedSnapshotRestoreIsValidAndRetryStartsSameOrderWithFreshOwnership" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="120480674" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.005589" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1053" name="ElbowChangesExitDirectionAndNextConnectorGeometry" fullname="MagnetScavenger.Tests.SessionTests.ElbowChangesExitDirectionAndNextConnectorGeometry" methodname="ElbowChangesExitDirectionAndNextConnectorGeometry" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1286902262" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001966" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1065" name="FinalEffectiveSaleCompletesOrderBeforeEnergyDeadline" fullname="MagnetScavenger.Tests.SessionTests.FinalEffectiveSaleCompletesOrderBeforeEnergyDeadline" methodname="FinalEffectiveSaleCompletesOrderBeforeEnergyDeadline" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="563345936" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.005929" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1079" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.011304" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1070" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;energy&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;energy&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="2071919839" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.002879" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1071" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;wallet&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;wallet&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1755923783" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001081" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1072" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;ownership&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;ownership&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1430976148" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.000225" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1073" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;end&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;end&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="567259835" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.000966" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1074" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;order&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;order&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1963745894" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001011" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1075" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;phase&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;phase&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="935437100" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001063" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1076" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;version&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;version&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="539306161" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.000212" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1077" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;cells&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;cells&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="2049754193" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001031" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1078" name="ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;args&quot;)" fullname="MagnetScavenger.Tests.SessionTests.ForgedOrPartialSnapshotsAreRejectedByProductionReplay(&quot;args&quot;)" methodname="ForgedOrPartialSnapshotsAreRejectedByProductionReplay" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="36591992" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.000638" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1051" name="HeavyEmptyHeadGoldenHasIndependent39EnergyAnd22Wallet" fullname="MagnetScavenger.Tests.SessionTests.HeavyEmptyHeadGoldenHasIndependent39EnergyAnd22Wallet" methodname="HeavyEmptyHeadGoldenHasIndependent39EnergyAnd22Wallet" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="818954690" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.006161" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1064" name="InsufficientDetachRejectsWholeSuffixThenRealLastSaleCanFailOrder" fullname="MagnetScavenger.Tests.SessionTests.InsufficientDetachRejectsWholeSuffixThenRealLastSaleCanFailOrder" methodname="InsufficientDetachRejectsWholeSuffixThenRealLastSaleCanFailOrder" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="956724823" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.008415" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1061" name="MiddleSaleAndOutsideDepotDetachAreRefusedAsWholeTransactions" fullname="MagnetScavenger.Tests.SessionTests.MiddleSaleAndOutsideDepotDetachAreRefusedAsWholeTransactions" methodname="MiddleSaleAndOutsideDepotDetachAreRefusedAsWholeTransactions" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1476669642" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001693" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1049" name="PartsChainGoldenHasIndependent12EnergyAnd15Wallet" fullname="MagnetScavenger.Tests.SessionTests.PartsChainGoldenHasIndependent12EnergyAnd15Wallet" methodname="PartsChainGoldenHasIndependent12EnergyAnd15Wallet" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1547028740" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001725" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1050" name="PartsEmptyHeadGoldenDoesNotRequireRetainedTool" fullname="MagnetScavenger.Tests.SessionTests.PartsEmptyHeadGoldenDoesNotRequireRetainedTool" methodname="PartsEmptyHeadGoldenDoesNotRequireRetainedTool" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1909378324" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.003093" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1058" name="PendingMayMoveRotateButNeverExtendReAttractOrBypassDisposition" fullname="MagnetScavenger.Tests.SessionTests.PendingMayMoveRotateButNeverExtendReAttractOrBypassDisposition" methodname="PendingMayMoveRotateButNeverExtendReAttractOrBypassDisposition" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1442181219" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001246" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1068" name="PendingRestoreAndDuplicateIdentityGiveNoNewMoneyOrEnergy" fullname="MagnetScavenger.Tests.SessionTests.PendingRestoreAndDuplicateIdentityGiveNoNewMoneyOrEnergy" methodname="PendingRestoreAndDuplicateIdentityGiveNoNewMoneyOrEnergy" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="2063403624" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.002677" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="PendingSaleOutsideDepotRemainsOwnedWithoutMoneyOrOrderProgress" fullname="MagnetScavenger.Tests.SessionTests.PendingSaleOutsideDepotRemainsOwnedWithoutMoneyOrOrderProgress" methodname="PendingSaleOutsideDepotRemainsOwnedWithoutMoneyOrOrderProgress" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1529732844" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.002542" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1054" name="RootRotationMovesEntireLockedRodAndRootMovementPreservesRelativeShape" fullname="MagnetScavenger.Tests.SessionTests.RootRotationMovesEntireLockedRodAndRootMovementPreservesRelativeShape" methodname="RootRotationMovesEntireLockedRodAndRootMovementPreservesRelativeShape" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1966828289" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001739" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1069" name="SnapshotAndPreviewNestedArraysAreDeepCopies" fullname="MagnetScavenger.Tests.SessionTests.SnapshotAndPreviewNestedArraysAreDeepCopies" methodname="SnapshotAndPreviewNestedArraysAreDeepCopies" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="221356257" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001199" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1063" name="StorageAttachRechecksWeightAndRefusedAttemptKeepsBothOwners" fullname="MagnetScavenger.Tests.SessionTests.StorageAttachRechecksWeightAndRefusedAttemptKeepsBothOwners" methodname="StorageAttachRechecksWeightAndRefusedAttemptKeepsBothOwners" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1798658268" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.004728" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1056" name="WallStopsRayBeforeBehindItemAndNoEnergyIsCharged" fullname="MagnetScavenger.Tests.SessionTests.WallStopsRayBeforeBehindItemAndNoEnergyIsCharged" methodname="WallStopsRayBeforeBehindItemAndNoEnergyIsCharged" classname="MagnetScavenger.Tests.SessionTests" runstate="Runnable" seed="1357089137" result="Passed" start-time="2026-10-09 18:02:41Z" end-time="2026-10-09 18:02:41Z" duration="0.001469" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

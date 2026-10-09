@@ -1,0 +1,330 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "creator": "Project assistant, original parameterized C# meshes and material design",
+  "route": "Original Unity Built-in runtime procedural 3D salvage box; discrete 12x8 rules and original design source retained",
+  "external_media_inputs": [],
+  "rights": "Project-original modeling code/parameters; no third-party art pack copied; Unity engine and separately registered font/audio rights remain separate",
+  "generator": {
+    "path": "prototypes/proto-121-magnet-scavenger/game/MagnetScavenger/Assets/MagnetScavenger/Presentation/MagnetSceneView.cs",
+    "sha256": "a18c6725cd44cbcf8aea73477b3740eaca233a470440f6d8fa04d006e3ce82e3",
+    "unity_version": "2022.3.62f3c1",
+    "internal_recipe_reference": {
+      "path": "prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Assets/SushiWorkshop/Presentation/SushiSceneView.cs",
+      "commit": "afee539",
+      "scope": "project-original rounded prism/sphere/annulus/TextMesh recipes only; no sushi scene or gameplay copied"
+    }
+  },
+  "engine_dependencies": [
+    "UnityEngine built-in Cylinder primitive",
+    "Unity Built-in Standard shader"
+  ],
+  "rule_source": "MagnetScavenger Core Rules/Session v0.2.0",
+  "units": "visual meters; Core owns cells, poses, connection, ray, load and all transactions",
+  "coordinate_contract": {
+    "size_source": "Rules.Width/Rules.Height",
+    "size_at_creation": [
+      12,
+      8
+    ],
+    "id": "y * Rules.Width + x",
+    "core_ui": "Core X0..11/Y0..7, UI columns1..12/rows1..8; x left-to-right, y front-to-back",
+    "cell_spacing_m": 0.66,
+    "center": "((x-(Rules.Width-1)/2)*.66,.045,(y-(Rules.Height-1)/2)*.66)",
+    "tile_size_m": [
+      0.636,
+      0.045,
+      0.636
+    ],
+    "tile_top_y_m": 0.045,
+    "pick_proxy_size_m": [
+      0.62,
+      0.28,
+      0.62
+    ],
+    "pick_proxy_center": "cell center + (0,.12,0)",
+    "depot_source": "Rules.IsDepot(x,y)",
+    "blocked_source": "Rules.IsBlocked(x,y)",
+    "item_pose_source": "ItemState.Cells, EntryX/Y, ExitX/Y, ExitDirection, Facing",
+    "end_source": "RoundSnapshot.EndX/Y/EndDirection; Pending never extends end",
+    "row_label_x_m": 4.39,
+    "column_label_z_m": -3.15,
+    "entry_marker_offset_m": [
+      -0.18,
+      0.38,
+      0.18
+    ],
+    "exit_marker": "Exit cell + Y.385, arrow within cell along actual ExitDirection by .18m",
+    "item_label_anchor": "actual Entry cell center + (0,.47,-.47), camera-facing cream tag",
+    "item_label_back_size_m": [
+      0.74,
+      0.24,
+      0.024
+    ],
+    "depot_title_y_m": 1.3,
+    "depot_actions_y_m": 1.02,
+    "decorative_colliders": false
+  },
+  "mesh_recipes": {
+    "rounded_prism": {
+      "outline_points": 16,
+      "height_layers": 4,
+      "triangles": 128,
+      "edge_bevel_max_m": 0.018
+    },
+    "sphere": {
+      "longitudes": 12,
+      "latitudes": 8,
+      "effective_triangles": 168,
+      "use": "available shared original helper, no independent bitmap/model source"
+    },
+    "annulus": {
+      "segments": 64,
+      "surfaces": 4,
+      "triangles": 512
+    },
+    "arrow": {
+      "triangles": 1
+    },
+    "ray_segment": {
+      "quads": 1,
+      "triangles": 2
+    },
+    "full_frame": {
+      "rounded_bars": 4
+    },
+    "corner_frame": {
+      "rounded_bars": 8
+    }
+  },
+  "palette_count": 24,
+  "palette_source": "BuildPalette/AddMaterial; Standard metallic0 by default, glossiness.27, iron metallic.33-.38, emphasis emission color*.10",
+  "world_text": {
+    "font_resource": "Fonts/NotoSansCJKsc-Regular",
+    "font_rights_source": "runtime-resource-register.json",
+    "atlas_px": 64,
+    "character_size": "requested world glyph height * 10 / 64",
+    "item_glyph_height_m": 0.19,
+    "outer_coordinate_glyph_height_m": 0.21,
+    "root_glyph_height_m": 0.2,
+    "labels": "短/杆/弯/重#actual ID on cream tag with dark ink; Pending adds 待; root 磁·末 or 磁头, committed end 末端 with dark ink; depot 回收区/出售·拆装; storage 暂存N; obstacle 墙; yellow ring entry, blue arrow exit"
+  },
+  "camera": {
+    "projection": "orthographic fixed oblique",
+    "position_m": [
+      0.3,
+      10.2,
+      -10.2
+    ],
+    "look_at_m": [
+      0,
+      0.25,
+      0.1
+    ],
+    "size": "max(3.70,5.95/max(.6,final pixelRect aspect))",
+    "rect_owner": "Runtime; Build preserves provided camera.rect",
+    "coordinator_rect_at_creation": [
+      0.225,
+      0.14,
+      0.775,
+      0.66
+    ],
+    "ambient_rgb": [
+      0.67,
+      0.7,
+      0.72
+    ],
+    "key_intensity": 0.85
+  },
+  "render_contract": {
+    "independent_root": "MagnetSalvage_OriginalArt",
+    "snapshot": "Session.State deep-copy, read-only",
+    "preview": "Session.PreviewAttract() only, no target override or commands",
+    "geometry": "actual ItemState.Cells; connectors only between actual same-item adjacent cells; no local shape rule copied",
+    "local_rebuild": "item pose/location, preview points or storage ID signature changes only",
+    "ownership": "Crate iron, Chain full cyan frame, Pending orange corner frame, selected item green ring; Storage/Sold omitted from board",
+    "storage": "actual StorageIds resolve to Items; off-board type icon plus stable ID, not board footprint",
+    "first_item": "AttractPreview.ItemId and FirstX/Y, white frame on first intersected cell",
+    "ray": "exact RayCells, skips only drawing out-of-board cells without changing query",
+    "candidate": "exact CandidateCells corner frame, legal gold/illegal red; not a duplicated live item",
+    "block": "exact in-bounds BlockX/Y red cross; out-of-bounds remains Runtime reason, no edge clamping",
+    "motion": "immediate presentation of confirmed positions, no speculative attraction particles or transactions"
+  },
+  "assets": [
+    {
+      "id": "MAG-ART-TABLE",
+      "name": "废料工作台",
+      "shape": "暖灰台/深蓝低盒/场牌",
+      "dimensions_m": {
+        "table": [
+          11.5,
+          0.28,
+          7.6
+        ],
+        "crate": [
+          8.5,
+          0.11,
+          5.95
+        ]
+      },
+      "mapping": "static",
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-GRID",
+      "name": "十二乘八格",
+      "shape": "双色奶油地砖/行列/浅金Depot区及外缘",
+      "mapping": "Rules size/IsDepot/IsBlocked",
+      "dimensions_m": {
+        "spacing": 0.66,
+        "tile": [
+          0.636,
+          0.045,
+          0.636
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-MAGNET",
+      "name": "U形磁头",
+      "shape": "黄U体/红白双极/简短深色根标签",
+      "mapping": "RootX/Y/Facing, root=end label only without committed extension",
+      "dimensions_m": {
+        "bridge": [
+          0.47,
+          0.25,
+          0.16
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-SHORT",
+      "name": "短片",
+      "shape": "单格钢片/双铆钉",
+      "mapping": "actual ShortPlate Cells",
+      "dimensions_m": {
+        "cell_body": [
+          0.47,
+          0.13,
+          0.46
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-ROD",
+      "name": "长杆",
+      "shape": "实际三格钢轨/顶缝/连接",
+      "mapping": "actual LongRod Cells and Facing",
+      "dimensions_m": {
+        "cell_body": [
+          0.28,
+          0.16,
+          0.54
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-ELBOW",
+      "name": "L形件",
+      "shape": "实际三格青灰折线/连接",
+      "mapping": "actual Elbow Cells and Facing",
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-HEAVY",
+      "name": "重块",
+      "shape": "实际四格低铁块/浅顶带",
+      "mapping": "actual HeavyBlock Cells",
+      "dimensions_m": {
+        "cell_body": [
+          0.51,
+          0.31,
+          0.51
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-PORTS",
+      "name": "入口出口",
+      "shape": "黄环/蓝箭/前沿文字图例",
+      "mapping": "actual Entry/Exit coordinate and locked ExitDirection",
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-STATE",
+      "name": "归属与选择轮廓",
+      "shape": "青实框/橙角框/绿选环/入口前方米白底牌稳定ID",
+      "mapping": "ItemLocation and coordinator selectedItemId; label position from actual Entry cell",
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-RAY",
+      "name": "唯一末端首件预告",
+      "shape": "末端箭/白点线/首交格白框/候选金红角框/阻断红叉",
+      "mapping": "snapshot End, actual AttractPreview fields",
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-DEPOT",
+      "name": "回收台",
+      "shape": "木柜/浅台/蓝料盆/回收区与出售拆装标题",
+      "mapping": "decorates actual Rules Depot; not another legal location",
+      "dimensions_m": {
+        "base": [
+          0.88,
+          0.39,
+          1.2
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-STORAGE",
+      "name": "暂存托盘",
+      "shape": "木托/蓝底/实际类型图标与ID/暂存计数",
+      "mapping": "StorageIds and Items; off-grid icons",
+      "dimensions_m": {
+        "tray": [
+          1.02,
+          0.2,
+          2.45
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "MAG-ART-WALL",
+      "name": "矮挡块",
+      "shape": "深灰块/浅顶带/墙字",
+      "mapping": "Rules.IsBlocked",
+      "dimensions_m": {
+        "body": [
+          0.52,
+          0.49,
+          0.52
+        ]
+      },
+      "source": "generator"
+    }
+  ],
+  "review": {
+    "code_api": "read actual Rules/Session v0.2.0 DTOs and PreviewAttract; art owner did not run Unity",
+    "mesh_orientation": "directed shared original recipe review; tiny-axis bevel constrained; new ray quads face upward",
+    "unity_compile": "coordinator completed final build 2026-10-09T18:09:09.2901734Z, 86919920 bytes, 0 errors/0 warnings; art owner did not run Unity; tests/Builder hash and detailed evidence belong to project records",
+    "actual_game_camera": "2026-10-10 personally viewed final 1600x900 capture: initial-state 96-cell composition, row/column coordinates, four shapes/cream ID tags, entry rings/exit arrows, short dark 磁·末, first-cell white frame, raised depot labels and empty storage tray passed; only initial-state visual acceptance",
+    "camera_evidence_path": "docs/development/proto-121/evidence/scene.png",
+    "camera_evidence_sha256": "aaec965e579404d31790fe0b2cab529a079405c0197a01001e76b8cf753dd12e",
+    "first_camera_sha256": "1510956c974d73fa7335883476e197f3b9182f29dec68ace689ebd0925896fd6",
+    "directed_fix": "short dark root/end labels; cream item-ID tags at actual entry-cell front offset instead of shape centroid; raised depot title/actions away from bin; no rule/camera/proxy/iron geometry or port/ray change",
+    "dynamic_feedback": "pending root movement/rotation, pending versus retained end, both orders, overload/wall, split-to-storage, attach/sell and disappearance",
+    "native_window_input_and_hud": "pending; recent coordinator Windows security permission modal blocked native QA; no security UI operated",
+    "listening": "pending actual Player listening; resource file/hash checks do not prove playback quality",
+    "performance": "pending actual Player frame/draw/mesh measurement",
+    "full_art_or_release": "not claimed"
+  }
+}

@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import uuid
 from pathlib import Path
 from create_first_batch_config import PROJECTS
 
@@ -32,6 +33,9 @@ for source in sorted((baseline/'ProjectSettings').glob('*.asset')):
         for key in ('cloudProjectId', 'organizationId', 'projectName'):
             import re
             text = re.sub(r'(?m)^(  '+key+r':).*$', r'\1', text)
+        # Keep independent project identities while making reruns byte-stable.
+        product_guid = uuid.uuid5(uuid.NAMESPACE_URL, 'https://github.com/angelash/rogue-prototype-lab/tree/main/prototypes/' + folder).hex
+        text = re.sub(r'(?m)^  productGUID:.*$', '  productGUID: ' + product_guid, text)
     put(project/'ProjectSettings'/source.name, text.encode('utf-8'))
 assets = project/'Assets'/product
 for kind, glob in (('Fonts','*.otf'), ('Audio','*.wav')):
