@@ -1,6 +1,6 @@
 # 回转寿司工坊：Unity首次可玩纵切
 
-版本：v0.2；日期：2026-10-10（Asia/Shanghai）；任务开始：2026-10-09。工程使用Unity2022.3.62f3c1，目标Windows x64 Mono开发构建/PC单机。本轮只做032首次纵切，实际验证与交付见 [开发记录](../../../../docs/development/proto-032/2026-10-10-slice-01.md)，没有结果不表示通过。
+版本：v0.2；日期：2026-10-10（Asia/Shanghai）；任务开始：2026-10-09。工程使用Unity2022.3.62f3c1，目标Windows x64普通Mono Strict构建/PC单机。当前为首次可玩候选实现：Prepare成功，30/30规则/存储测试通过，已完成构建0错误/0警告；最终包与初态相机图已归档，原生操作尚待补，未完成完整纵切验收。实际分项结果见 [开发记录](../../../../docs/development/proto-032/2026-10-10-slice-01.md)。
 
 ## 范围与权威入口
 
@@ -20,11 +20,13 @@
 ./scripts/run-unity-project.ps1 -ProjectPath prototypes/proto-032-sushi-workshop/game/SushiWorkshop -Mode Build
 ```
 
-入口为 `PrototypeBuild.Editor.ProjectBuilder.Prepare` / `BuildWindows`；Prepare只在不存在时创建 `Assets/SushiWorkshop/Scenes/Bootstrap.unity`，保留已有场景文件并设置本工程构建清单。Test执行本工程EditMode测试；报告/日志写仓库 `.local/unity/SushiWorkshop-<时间>-<模式>/`。Build写 `Builds/Windows64/SushiWorkshop.exe`、配套文件及 `build-summary.json`，真实结果以开发记录和BuildReport为准。
+入口为 `PrototypeBuild.Editor.ProjectBuilder.Prepare` / `BuildWindows`；Prepare只在不存在时创建 `Assets/SushiWorkshop/Scenes/Bootstrap.unity`，保留已有场景文件并设置本工程构建清单。Test执行本工程EditMode测试；报告/日志写仓库 `.local/unity/SushiWorkshop-<时间>-<模式>/`。Build采用 `BuildOptions.StrictMode` 普通Mono包，已去掉Development调试包选项以避免调试网络，写 `Builds/Windows64/SushiWorkshop.exe`、配套文件及 `build-summary.json`；真实结果以开发记录和BuildReport为准。
 
 Player启动需携带完整构建目录；不能只复制exe。相机诊断的 `-captureOnce` / `-captureDirectory <目录>` 只捕获镜头，不提交玩法命令，也不证明UI、真实输入或声音通过。无须用该模式游玩。
 
 实际测试/构建和相机证据可由 `scripts/record-project-evidence.py --project 032 --tests <真实XML路径> --capture <真实相机图路径>` 归档为开发记录目录的 `evidence/test-results.xml`、`scene.png` 和 `build-manifest.json`；该脚本检查测试/构建结果并记录来源/运行哈希，不替代真实窗口QA。首次工程初始化工具为 `scripts/create-first-batch-project.py --project 032`，已存在工程不为重试而重新生成。
+
+最终测试 [XML](../../../../docs/development/proto-032/evidence/test-results.xml) 已核对30项通过/0失败：22项规则覆盖SUS-A01–A05、整份30/Quick27黄金输入，8项存储覆盖恢复/故障/有效备份与非法新Save拒绝。最终普通Mono Strict包86,844,673字节、0错误/0警告；完整输出与源码哈希见开发记录。
 
 ## 控制合同
 
@@ -41,7 +43,9 @@ H显示最近十条加工、切分、切分阻塞、拒收、离席、交付，�
 
 ## 完整保存与未实现内容
 
-Core安全点快照包括订单、等待、盘/料理/份量/标记/归属、入口队列/库存、工站/调整预算、资金/收入、步数/阶段及事件/命令记录；每次成功领域命令后自动保存，S可手动保存。磁盘目录为 `Application.persistentDataPath/checkpoints`，使用 `PrototypeKit.CheckpointStore<T>`：Save先校验新领域状态，再将 `session.json` 完整payload/格式版本/SHA256写入pending并替换。仅当旧主档经摘要/领域校验合法时才更新 `.bak`，坏主档不能覆盖唯一有效备份；读取验证后回退。恢复不重新抽单或返还消费。自动保存失败原因优先保留，“保存并退出”失败不关窗口，允许返回/重试；最终故障与真实路径结果见开发记录，不因修复代码就称通过，也不承诺硬件断电绝对安全。
+Core安全点快照包括订单、等待、盘/料理/份量/标记/归属、入口队列/库存、工站/调整预算、资金/收入、步数/阶段及事件/命令记录；每次成功领域命令后自动保存，S可手动保存。磁盘目录为 `Application.persistentDataPath/checkpoints`，使用 `PrototypeKit.CheckpointStore<T>`：Save先校验新领域状态，再将 `session.json` 完整payload/格式版本/SHA256写入pending并替换。仅当旧主档经摘要/领域校验合法时才更新 `.bak`，坏主档不能覆盖唯一有效备份；读取验证后回退。恢复不重新抽单或返还消费。自动保存失败原因优先保留，“保存并退出”失败不关窗口，允许返回/重试；存储定向回归已通过，实际窗口保存/退出待补，不承诺硬件断电绝对安全。
+
+字体现用资源、七项本仓原创程序短音与原创BGM共九份源/运行副本逐一SHA256一致，两份字体声明哈希匹配，见 [运行资源登记](../../../../sources/art/proto-032-sushi-workshop/runtime-resource-register.json)。真实相机文字尺寸已正常；最终包与初态相机图已归档，实际听感未验。普通Player窗口启动遭Windows防火墙安全权限弹窗阻挡，工具政策不能代理代操作，已请求用户手动取消但仍未关闭，所有原生操作待补，不能称完整UI/QA通过。
 
 本轮不是完整Steam游戏。多环、员工/餐厅经营、随机局外成长、真实切菜、完整音乐/配音/剧情、完整手柄与低配优化/Steam上传均未随本纵切完成。SUS-H01–H03策略与乐趣仍需玩家证据；自动测试数量、构建和相机图各自只证明相应范围。
 

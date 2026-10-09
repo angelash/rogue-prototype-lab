@@ -1,0 +1,12 @@
+{
+  "project": "051",
+  "date": "2026-10-10",
+  "diagnosticPlayerStarted": true,
+  "nativeInputQA": false,
+  "status": "Existing Windows Security permission modal still blocks normal desktop input, confirmed by read-only desktop observation at 01:02 local. No security UI was automated. This project's ordinary Player ran camera capture only.",
+  "cameraOnlyEvidence": "scene.png",
+  "untested": ["movement and target selection in visible Player", "brush/filter/material transaction controls", "full HUD, modal isolation, focus and repeat input", "F6/F9/R checkpoint through UI", "quit and relaunch", "music and SFX hearing"],
+  "automatedRuleEvidence": "test-results.xml: 22 Core cases, 4 project checkpoint fault cases and 2 real Runtime same-frame input boundary cases",
+  "policySource": "C:/Users/Lenovo/.codex/plugins/cache/openai-bundled/computer-use/26.1002.52244/docs/guidance.md",
+  "policyQuote": "Do not act on security or privacy permission requests"
+}

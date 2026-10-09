@@ -1,0 +1,82 @@
+{
+  "project": "051",
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "copies": [
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/bounce.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/bounce.wav",
+      "bytes": 21164,
+      "sha256": "bd63cb3a3bfbf9a74eef51ea7ef670b005f32be5232b458ec2394081b57711dc",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/cash.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/cash.wav",
+      "bytes": 46124,
+      "sha256": "ac3fa6f139f735c3a8dd1e294638ff5e2066df270b8544498c6b223e51e8289c",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/hit.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/hit.wav",
+      "bytes": 40364,
+      "sha256": "1c32010244fd326010f5957c3a9531c57eaa6ff8ab0948ec1659c2694db3cd7c",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/launch.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/launch.wav",
+      "bytes": 23084,
+      "sha256": "fb916fb1c41718ddfe51e10235f3b4b12f9fc9cd9537debf215484465a9cbdda",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/miss.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/miss.wav",
+      "bytes": 26924,
+      "sha256": "2608c71a2cb3aaf06edcde2a5d9e8417e94ceccf561d1f741cd6f5a63884f6b1",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/retain.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/retain.wav",
+      "bytes": 38444,
+      "sha256": "eb5cb669566a268780dee3ba4e65b3022d0a50bf5dc91e9e6815d49c8cfe3a83",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-013-ring-toss/audio/original/ui_confirm.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/ui_confirm.wav",
+      "bytes": 11564,
+      "sha256": "ae32245a531adaa3659ba96f90cb3fcd0ab22b4f6b33be4ea8eae034df9d0812",
+      "rights": "Original project procedural sound; synthesis source scripts/generate-prototype-audio.py. No third-party media."
+    },
+    {
+      "source": "assets/proto-051-recycling-cleaners/audio/original/loop.wav",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Audio/music.wav",
+      "bytes": 1772352,
+      "sha256": "436792f9004b27c33b5b9c6afcb279c59188031f2407c0ebab362e330f5ca9be",
+      "rights": "Original fixed-score composition; synthesis script and music-register.json preserve parameters/seed; candidate mix."
+    },
+    {
+      "source": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Fonts/NotoSansCJKsc-Regular.otf",
+      "runtime": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Resources/Fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "rights": "Unmodified Noto Sans CJK SC 2.004; Adobe 2014-2021, OFL1.1; original readonly highschool source. Upstream https://github.com/notofonts/noto-cjk ; notices preserved in this project StreamingAssets/ThirdPartyNotices."
+    }
+  ],
+  "notices": [
+    {
+      "path": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/StreamingAssets/ThirdPartyNotices/NotoSansCJK-Copyright.txt",
+      "sha256": "d36343bfc864783ae982cb21d5bc5b1cb2e2a7b1ece388bd31bef674fbbe7345"
+    },
+    {
+      "path": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/StreamingAssets/ThirdPartyNotices/NotoSansCJK-OFL-1.1.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  ],
+  "eventAuthority": "Actual project Presentation runtime and committed Core events; no reward authority in audio",
+  "audioQA": "File/copy/decode and playback invocation are distinct from actual listening; see development record."
+}

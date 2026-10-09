@@ -1,0 +1,107 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "creator": "Project assistant, original parameterized C# meshes and material design",
+  "route": "Original Unity Built-in runtime procedural 3D room; discrete grid rule and original 2D design source retained",
+  "external_media_inputs": [],
+  "rights": "Project-original modeling code/parameters; no third-party art pack copied; Unity engine and separately registered font/audio rights remain separate",
+  "generator": {
+    "path": "prototypes/proto-051-recycling-cleaners/game/RecyclingCleaners/Assets/RecyclingCleaners/Presentation/CleanerSceneView.cs",
+    "sha256": "0dd973f94046c1185e3178db7e104253c54608a5ec40647e5e41310e0e29768a",
+    "unity_version": "2022.3.62f3c1",
+    "internal_recipe_reference": {
+      "path": "prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Assets/SushiWorkshop/Presentation/SushiSceneView.cs",
+      "commit": "afee539",
+      "scope": "project-original rounded prism/sphere/annulus/TextMesh construction recipes only; no sushi scene or gameplay copied"
+    }
+  },
+  "engine_dependencies": ["UnityEngine built-in Cylinder primitive", "Unity Built-in Standard shader"],
+  "units": "visual meters; Core owns discrete coordinates and all cleaning/inventory transactions",
+  "rule_source": "RecyclingCleaners Core Rules/Session v0.2.0",
+  "coordinate_contract": {
+    "size_source": "Rules.Size",
+    "id": "y * Rules.Size + x",
+    "core_ui": "Core 0..5, UI 1..6; x left-to-right, y front-to-back",
+    "cell_spacing_m": 0.90,
+    "center": "((x - (Rules.Size - 1)/2) * .90, .035, (y - (Rules.Size - 1)/2) * .90)",
+    "tile_size_m": [0.872, 0.048, 0.872],
+    "tile_top_y_m": 0.035,
+    "pick_proxy_size_m": [0.84, 0.28, 0.84],
+    "pick_proxy_center": "cell center + (0,.12,0)",
+    "supply_cell_source": "Rules.SupplyX/Rules.SupplyY",
+    "supply_counter_position_m": [-3.48, 0.01, -2.25],
+    "supply_counter_z_source": "CellPosition(Rules.SupplyX,Rules.SupplyY).z",
+    "row_label_x_m": -2.82,
+    "coverage_source": "Session.PreviewCoverage(targetX,targetY)",
+    "decorative_colliders": false
+  },
+  "mesh_recipes": {
+    "rounded_prism": {"outline_points": 16, "height_layers": 4, "triangles": 128, "edge_bevel_max_m": 0.018},
+    "sphere": {"longitudes": 12, "latitudes": 8, "effective_triangles": 168},
+    "annulus": {"segments": 64, "surfaces": 4, "triangles": 512},
+    "target_frame": {"strips": 4, "triangles": 8},
+    "coverage_corners": {"strips": 8, "triangles": 16},
+    "clean_check": {"quads": 2, "triangles": 4}
+  },
+  "palette_count": 21,
+  "palette_source": "BuildPalette/AddMaterial in generator; Standard metallic 0 by default, glossiness .24, optional emission color * .10",
+  "world_text": {
+    "font_resource": "Fonts/NotoSansCJKsc-Regular",
+    "font_rights_source": "runtime-resource-register.json",
+    "atlas_px": 64,
+    "character_size": "requested world glyph height * 10 / 64",
+    "cell_glyph_height_m": 0.21,
+    "outer_coordinate_glyph_height_m": 0.23,
+    "cell_label_lines_max": 1,
+    "labels": "ordinary debris=片 N; convertible debris=环 N; water=水 N; stubborn=渍 N; previously dirty now zero=净; blocked=障碍"
+  },
+  "camera": {
+    "projection": "orthographic fixed oblique",
+    "position_m": [0.35, 9.0, -8.8],
+    "look_at_m": [0, 0.60, 0.40],
+    "size": "max(3.65, 4.65 / max(.6, final pixelRect aspect))",
+    "rect_owner": "Runtime; Build preserves provided camera.rect",
+    "coordinator_rect_at_creation": [0.225, 0.14, 0.775, 0.66]
+  },
+  "render_contract": {
+    "independent_root": "CleanerRoom_OriginalArt",
+    "snapshot": "Session.State deep-copy, read-only",
+    "local_rebuild": "dirt only if remaining/kind/material/blocked changes; bucket pieces only if inventory changes",
+    "cart_motion_s": 0.20,
+    "motion_authority": "visual interpolation only; no Core command, reward or dirt reduction",
+    "bucket_piece_display_cap_each_type": 4,
+    "precise_inventory_owner": "Runtime HUD uses snapshot values, not visible mesh counts",
+    "detergent_gauge_capacity_source": "Rules.DetergentCapacity",
+    "speculative_particles": false
+  },
+  "assets": [
+    {"id": "CLN-ART-ROOM", "name": "清晨房间", "shape": "暖木地基/奶油墙/格窗/回收队牌/图例/矮绿植", "mapping": "static", "dimensions_m": {"foundation": [8.2, 0.24, 7.1], "wall_height": 2.48}, "source": "generator"},
+    {"id": "CLN-ART-GRID", "name": "六乘六地砖", "shape": "奶油棋盘砖/脏态材质/行列号", "mapping": "CellState.Remaining and Blocked", "dimensions_m": {"spacing": 0.90, "tile": [0.872, 0.048, 0.872]}, "source": "generator"},
+    {"id": "CLN-ART-SUPPLY", "name": "回收滤芯台", "shape": "蓝柜/白台面/方圆料孔/滤芯瓶/补给垫", "mapping": "decorates Rules supply cell; does not add another supply position", "dimensions_m": {"counter_case": [1.01, 0.62, 0.76], "pad": [0.73, 0.012, 0.73]}, "source": "generator"},
+    {"id": "CLN-ART-CART", "name": "蓝白工具车", "shape": "低车体/轮子/收料桶/把手/滤芯灯/清洁剂条", "mapping": "PlayerX/Y, Ordinary/Convertible, FilterEnabled, FilterChargesRemaining, Detergent", "dimensions_m": {"case": [0.48, 0.30, 0.46], "handle_top_y_local": 0.77}, "source": "generator"},
+    {"id": "CLN-ART-DIRT-01", "name": "普通方片碎料", "shape": "浅灰方片固定散布", "mapping": "Debris + Ordinary; actual Remaining", "dimensions_m": {"piece": [0.14, 0.028, 0.14]}, "source": "generator"},
+    {"id": "CLN-ART-DIRT-02", "name": "可转圆环碎料", "shape": "浅灰圆环与开孔", "mapping": "Debris + Convertible; actual Remaining", "dimensions_m": {"radius": 0.068, "width": 0.025, "height": 0.026}, "source": "generator"},
+    {"id": "CLN-ART-DIRT-03", "name": "水渍", "shape": "蓝色双叶浅斑/短反光条", "mapping": "Water; positive area scales by Remaining/InitialAmount, removed only at zero", "source": "generator"},
+    {"id": "CLN-ART-DIRT-04", "name": "顽渍", "shape": "暖棕双叶斑/深色结壳划痕", "mapping": "Stubborn; actual Remaining and ratio", "source": "generator"},
+    {"id": "CLN-ART-BRUSH-01", "name": "窄刷头", "shape": "白壳蓝面/三组深刷毛", "mapping": "BrushKind.Narrow", "dimensions_m": {"width": 0.32}, "source": "generator"},
+    {"id": "CLN-ART-BRUSH-02", "name": "广域刷头", "shape": "白壳蓝面/七组深刷毛", "mapping": "BrushKind.Wide", "dimensions_m": {"width": 0.68}, "source": "generator"},
+    {"id": "CLN-ART-TARGET", "name": "目标完整框", "shape": "蓝色完整方框", "mapping": "Runtime targetX/targetY selection only", "dimensions_m": {"width": 0.76, "stroke": 0.026}, "source": "generator"},
+    {"id": "CLN-ART-COVERAGE", "name": "刷头覆盖角框", "shape": "金色四角括号", "mapping": "Session.PreviewCoverage only; invalid target yields no coverage", "dimensions_m": {"width": 0.85, "stroke": 0.026}, "source": "generator"},
+    {"id": "CLN-ART-CLEAN", "name": "实际清空反馈", "shape": "恢复砖色/净文字/勾形", "mapping": "InitialAmount > 0 and Remaining == 0", "source": "generator"},
+    {"id": "CLN-ART-OBSTACLE", "name": "低矮储物箱", "shape": "木箱/顶板条/前横带", "mapping": "CellState.Blocked only", "dimensions_m": {"case": [0.62, 0.32, 0.60]}, "source": "generator"}
+  ],
+  "review": {
+    "code_api": "read and matched actual Core Rules/Session v0.2.0 fields and PreviewCoverage; no Unity run by art owner",
+    "mesh_orientation": "directed recipe review, shared original rounded/sphere/annulus winding; tiny-axis bevel constrained; new flat frames/check face upward",
+    "unity_compile": "first Player exposed stripped Standard shader; coordinator corrected explicit shader build inclusion, then rebuilt successfully after label/counter placement fix; Builder hash/counts belong to coordinator build manifest",
+    "actual_game_camera": "2026-10-10 personally viewed final 1600x900 rendered capture: initial-state 36-cell composition, row/column 1..6, supply label separation, three dirt kinds, two material shapes and one-line remaining labels passed; shader renders normally; only initial-state visual acceptance",
+    "camera_evidence_path": "docs/development/proto-051/evidence/scene.png",
+    "camera_evidence_sha256": "78c335dd40141cb97747cb4ad74af7d2a3490d4ceecd91698788032ddb7045c1",
+    "build_warning": "coordinator identified one -nographics AmbientProbe update warning; distinct from first Player runtime shader exception, final actual count belongs to build record",
+    "dynamic_feedback": "pending both layouts/capacities, three dirt remaining values, both brushes, clean tile restoration, full-bucket residue and inventory/filter feedback",
+    "native_window_input_and_hud": "pending; current coordinator Windows security permission modal blocks native QA; no security UI operated",
+    "listening": "pending actual Player listening; independently registered audio file checks do not prove playback/feedback quality",
+    "performance": "pending actual Player frame/draw/mesh measurement",
+    "full_art_or_release": "not claimed"
+  }
+}

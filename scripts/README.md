@@ -59,6 +59,8 @@ Python 路径按当前可用运行时选择，上述检查无需 pip 安装。�
 
 此入口的 Windows 构建采用 Mono + StrictMode 普通单机包，关闭 Development 调试监听，避免原型开发包的网络调试请求；日志仍可用 `-logFile` 指定。它仍是纵切候选，不是Steam发行验收。每次实际错误、警告和包大小读取对应 BuildReport。
 
+051 首次实际 Player 暴露空场景的程序材质会被 shader 剥离。模板现由 Prepare 明确建立 Resources/RuntimeDefault.mat 引用 Standard，并打印 BuildReport 的具体警告；既有工程按需要定向同步，不能仅凭编译通过认定渲染可用。无图形批处理的 AmbientProbe 警告与实际 Player 异常分开记录。
+
 ```powershell
 & 'C:\Python310\python.exe' -X utf8 './scripts/create-first-batch-project.py' --project 032
 & './scripts/run-unity-project.ps1' -ProjectPath 'prototypes/proto-032-sushi-workshop/game/SushiWorkshop' -Mode Test
