@@ -66,3 +66,10 @@ yarn-error.log*
 /prototypes/proto-013-ring-toss/game/RingTossWorkshop/*.slnx
 /prototypes/proto-013-ring-toss/game/RingTossWorkshop/*.unityproj
 /prototypes/proto-013-ring-toss/game/RingTossWorkshop/*.userprefs
+
+# 其余独立 Unity 工程的 IDE 生成文件
+/prototypes/**/game/*/*.csproj
+/prototypes/**/game/*/*.sln
+/prototypes/**/game/*/*.slnx
+/prototypes/**/game/*/*.unityproj
+/prototypes/**/game/*/*.userprefs

@@ -1,6 +1,6 @@
 # 开发检查与原型工具
 
-版本：v0.5；日期：2026-10-09。已有准备检查与本次授权新增的素材生成、Unity 准备/测试/构建入口分别说明。用户现已授权 013 游戏实现、必要素材接入、测试与 Windows 构建；这些脚本不安装软件、不创建远程仓库或操作发行账户。
+版本：v0.6；日期：2026-10-10。已有准备检查与已授权的素材生成、Unity 准备/测试/构建入口分别说明。013 已有三维 P0，用户后续授权其余首批项目按规范逐个开发、每项单独提交；这些脚本不安装软件、不创建远程仓库或操作发行账户。
 
 ## 1. 现状检查
 
@@ -50,3 +50,25 @@ Python 路径按当前可用运行时选择，上述检查无需 pip 安装。�
 每次运行创建独立 `.local/unity/<时间戳>-<模式>/` 日志目录，包含 `unity.log`，Test 模式另含结果 XML；失败以非零退出或脚本错误报告。三种模式均启动 Unity，并可能导入/更新工程；与第一节的现状检查分开使用。
 
 当前测试与构建的事实以运行日志和结果文件为准，本 README 不预先声明已通过。内容覆盖、故障注入、实际 Player 输入/听感/性能、Blender 正式资产及发行打包仍按 [缺口与推进计划](../docs/design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 验收。
+
+## 4. 其余首批项目的独立工程入口
+
+[create-first-batch-project.py](create-first-batch-project.py) 每次只建立一个明确编号的独立 Unity 工程，核对已有文件字节，不覆盖不同内容；仅沿本仓已核实的编辑器/模块、已清理设置、原创短音和字体声明，不复制其它游戏规则、缓存、账号或导入 GUID。稳定产品标识在 [配置](create_first_batch_config.py)，通用构建与薄保存/UI源在 [模板目录](unity-templates/)。模板不是所有游戏共用的玩法引擎，规则仍归各项目 Core。
+
+[run-unity-project.ps1](run-unity-project.ps1) 接收仓库内 `-ProjectPath`，验证路径在 prototypes 内及准确编辑器版本，支持 Prepare/Test/Build；实际项目需具备生成的 `PrototypeBuild.Editor.ProjectBuilder`。此入口不适用于仍使用独立 RingToss Builder 的013。
+
+此入口的 Windows 构建采用 Mono + StrictMode 普通单机包，关闭 Development 调试监听，避免原型开发包的网络调试请求；日志仍可用 `-logFile` 指定。它仍是纵切候选，不是Steam发行验收。每次实际错误、警告和包大小读取对应 BuildReport。
+
+```powershell
+& 'C:\Python310\python.exe' -X utf8 './scripts/create-first-batch-project.py' --project 032
+& './scripts/run-unity-project.ps1' -ProjectPath 'prototypes/proto-032-sushi-workshop/game/SushiWorkshop' -Mode Test
+& './scripts/run-unity-project.ps1' -ProjectPath 'prototypes/proto-032-sushi-workshop/game/SushiWorkshop' -Mode Build
+```
+
+新工程复制完成后，不在已修改的工程上强行重跑脚手架；按明确源码/模板版本维护，保留现有 `.meta`。其它编号仅在轮到该项目时生成，不以脚本支持其编号声称已有实现。
+
+[generate-first-batch-music.py](generate-first-batch-music.py) 每次为一个项目生产原创固定谱/seed的短循环 WAV，保留独立 `music-register.json` 与同字节 Resources 副本；是候选音乐，不代表正式混音或实际听检通过。[record-project-evidence.py](record-project-evidence.py) 必须接收实际通过的 `--tests` XML，并读取成功的 BuildReport摘要，保存各项目独立测试、整包/源码哈希及可选 `--capture` 相机图。相机证据固定标为 cameraOnly，不能自动填入真实输入 QA。
+
+实际游戏按F5生成的完整窗口图可用 `--window-capture` 归档；`--input-log` 仅抽取本游戏的规则命令、检查点和准备日志。正常操作的输入步骤/结果与未执行项另存 `evidence/native-qa.json`，由实际观察填写，脚本不自动宣布原生操作通过。
+
+[register-project-resources.py](register-project-resources.py) 接收单个 `--project`，核对九份实际音频/字体源与运行副本同字节，登记来源、适用许可和本项目随包字体声明。事件采用范围以运行代码/开发记录为准；音频哈希不能替代实际听检。

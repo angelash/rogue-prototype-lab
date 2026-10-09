@@ -1,0 +1,22 @@
+{
+  "project": "032",
+  "date": "2026-10-10",
+  "windowStarted": true,
+  "nativeInputQA": false,
+  "status": "Blocked by actual Windows Security firewall permission modal. Development debug build terminated; final ordinary standalone disables development debugging. The existing system modal still requires human dismissal. No security UI was automated.",
+  "skyInitFailure": "windows sandbox failed: helper_unknown_error: setup refresh had errors",
+  "fallback": "Windows MCP actual desktop observations",
+  "cameraOnlyEvidence": "scene.png",
+  "untested": [
+    "key/mouse station configuration",
+    "actual full HUD input/focus",
+    "whole and quick production traces in Player window",
+    "S/L/R checkpoint through UI",
+    "quit/return/relaunch",
+    "H modal isolation",
+    "ear/headphone music/SFX review"
+  ],
+  "automatedRuleEvidence": "test-results.xml; includes both production traces and checkpoint fault cases",
+  "policySource": "C:/Users/Lenovo/.codex/plugins/cache/openai-bundled/computer-use/26.1002.52244/docs/guidance.md",
+  "policyQuote": "Do not act on security or privacy permission requests"
+}

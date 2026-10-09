@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="30" result="Passed" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.3129116">
+  <test-suite type="TestSuite" id="1039" name="Sushi Workshop Prototype" fullname="Sushi Workshop Prototype" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.312912" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1074" name="SushiWorkshop.Tests.EditMode.dll" fullname="F:/workspace/rogue-prototype-lab/prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Library/ScriptAssemblies/SushiWorkshop.Tests.EditMode.dll" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.299580" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="62748" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1075" name="SushiWorkshop" fullname="SushiWorkshop" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.298248" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1076" name="Tests" fullname="SushiWorkshop.Tests" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.296744" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1040" name="PersistenceTests" fullname="SushiWorkshop.Tests.PersistenceTests" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.256520" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1044" name="CorruptPrimaryFallsBackToLastValidBackup" fullname="SushiWorkshop.Tests.PersistenceTests.CorruptPrimaryFallsBackToLastValidBackup" methodname="CorruptPrimaryFallsBackToLastValidBackup" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="1828785001" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.054350" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1043" name="InterruptedCommitDoesNotReplaceCurrent" fullname="SushiWorkshop.Tests.PersistenceTests.InterruptedCommitDoesNotReplaceCurrent" methodname="InterruptedCommitDoesNotReplaceCurrent" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="1836342466" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.025103" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1045" name="InvalidDomainStateFallsBackRatherThanApplying" fullname="SushiWorkshop.Tests.PersistenceTests.InvalidDomainStateFallsBackRatherThanApplying" methodname="InvalidDomainStateFallsBackRatherThanApplying" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="663848687" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.027621" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1041" name="InvalidNewSnapshotDoesNotCommit" fullname="SushiWorkshop.Tests.PersistenceTests.InvalidNewSnapshotDoesNotCommit" methodname="InvalidNewSnapshotDoesNotCommit" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="1906256748" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.014180" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1042" name="RoundTripReturnsCommittedValues" fullname="SushiWorkshop.Tests.PersistenceTests.RoundTripReturnsCommittedValues" methodname="RoundTripReturnsCommittedValues" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="349351483" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.013716" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1049" name="SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid" fullname="SushiWorkshop.Tests.PersistenceTests.SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.093716" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1047" name="SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid(False)" fullname="SushiWorkshop.Tests.PersistenceTests.SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid(False)" methodname="SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="1238031269" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.047571" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1048" name="SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid(True)" fullname="SushiWorkshop.Tests.PersistenceTests.SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid(True)" methodname="SaveAfterBackupRecoveryPreservesThatBackupWhenPrimaryIsInvalid" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="873854317" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.044359" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1046" name="UnknownSchemaDoesNotConsumePendingOrInventState" fullname="SushiWorkshop.Tests.PersistenceTests.UnknownSchemaDoesNotConsumePendingOrInventState" methodname="UnknownSchemaDoesNotConsumePendingOrInventState" classname="SushiWorkshop.Tests.PersistenceTests" runstate="Runnable" seed="907566870" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.015231" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1050" name="SessionTests" fullname="SushiWorkshop.Tests.SessionTests" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.035685" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1060" name="InsufficientIngredientFundsLeaveAvailableCleanPlateAndMoneyUntouched" fullname="SushiWorkshop.Tests.SessionTests.InsufficientIngredientFundsLeaveAvailableCleanPlateAndMoneyUntouched" methodname="InsufficientIngredientFundsLeaveAvailableCleanPlateAndMoneyUntouched" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1289465493" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.003742" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="InvalidActionsAndDuplicateCommandsNeverSpendTwiceOrDestroyStations" fullname="SushiWorkshop.Tests.SessionTests.InvalidActionsAndDuplicateCommandsNeverSpendTwiceOrDestroyStations" methodname="InvalidActionsAndDuplicateCommandsNeverSpendTwiceOrDestroyStations" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="26968060" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.002682" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1073" name="RestoreRejectsStateThatCannotBeProducedByItsCommands" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.007970" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1062" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;wallet&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;wallet&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1376678888" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.004000" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1063" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;balanced-wallet&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;balanced-wallet&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="673374578" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000572" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1064" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;free-clean&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;free-clean&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="699747729" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000193" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1065" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;duplicate-plate&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;duplicate-plate&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="196280131" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.001311" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1066" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;boundary&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;boundary&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1865153493" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000134" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1067" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;finished&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;finished&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="687766199" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000118" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1068" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;order&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;order&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1913834591" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000140" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1069" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;wait&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;wait&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1834292764" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000154" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1070" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;event&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;event&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="476436701" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000138" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1071" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;duplicate-command&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;duplicate-command&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1979155138" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000130" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1072" name="RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;version&quot;)" fullname="SushiWorkshop.Tests.SessionTests.RestoreRejectsStateThatCannotBeProducedByItsCommands(&quot;version&quot;)" methodname="RestoreRejectsStateThatCannotBeProducedByItsCommands" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="294650510" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000095" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1051" name="SUS_A01_SameStationsExposeMutuallyExclusiveOrdersAndReplayIndependently" fullname="SushiWorkshop.Tests.SessionTests.SUS_A01_SameStationsExposeMutuallyExclusiveOrdersAndReplayIndependently" methodname="SUS_A01_SameStationsExposeMutuallyExclusiveOrdersAndReplayIndependently" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="644994069" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.004253" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1053" name="SUS_A02_CleanPlateSplitIsAtomicAndNewPlateWaitsUntilFollowingStep" fullname="SushiWorkshop.Tests.SessionTests.SUS_A02_CleanPlateSplitIsAtomicAndNewPlateWaitsUntilFollowingStep" methodname="SUS_A02_CleanPlateSplitIsAtomicAndNewPlateWaitsUntilFollowingStep" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1561645248" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000845" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1054" name="SUS_A02_NoCleanPlateSplitPreservesOriginalFoodMoneyAndSixEntities" fullname="SushiWorkshop.Tests.SessionTests.SUS_A02_NoCleanPlateSplitPreservesOriginalFoodMoneyAndSixEntities" methodname="SUS_A02_NoCleanPlateSplitPreservesOriginalFoodMoneyAndSixEntities" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="946246390" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.002130" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1055" name="SUS_A03_RetainedMatchingPlateNeedsNextCircleMarkAndDirtyPlateNeedsPaidWash" fullname="SushiWorkshop.Tests.SessionTests.SUS_A03_RetainedMatchingPlateNeedsNextCircleMarkAndDirtyPlateNeedsPaidWash" methodname="SUS_A03_RetainedMatchingPlateNeedsNextCircleMarkAndDirtyPlateNeedsPaidWash" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="32878467" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.001299" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1056" name="SUS_A04_MissingRollingStationAndReducedFundsCanUseThreeExplicitRescues" fullname="SushiWorkshop.Tests.SessionTests.SUS_A04_MissingRollingStationAndReducedFundsCanUseThreeExplicitRescues" methodname="SUS_A04_MissingRollingStationAndReducedFundsCanUseThreeExplicitRescues" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1889063410" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.003936" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1057" name="SUS_A05_FinalStepDeliveryPrecedesTimeoutAndRoundEndsExactlyOnce" fullname="SushiWorkshop.Tests.SessionTests.SUS_A05_FinalStepDeliveryPrecedesTimeoutAndRoundEndsExactlyOnce" methodname="SUS_A05_FinalStepDeliveryPrecedesTimeoutAndRoundEndsExactlyOnce" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1660635826" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.003484" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1058" name="SUS_A05_TimeoutProvidesCauseAndRetryIsFreshIndependentRound" fullname="SushiWorkshop.Tests.SessionTests.SUS_A05_TimeoutProvidesCauseAndRetryIsFreshIndependentRound" methodname="SUS_A05_TimeoutProvidesCauseAndRetryIsFreshIndependentRound" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="589984643" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.001235" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1061" name="ValidBoundaryAndFinishedSnapshotsRestoreWithoutRewardsOrFreeCleaning" fullname="SushiWorkshop.Tests.SessionTests.ValidBoundaryAndFinishedSnapshotsRestoreWithoutRewardsOrFreeCleaning" methodname="ValidBoundaryAndFinishedSnapshotsRestoreWithoutRewardsOrFreeCleaning" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="1755426324" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.001641" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1052" name="WholeOrderHasReachableTwoPortionProductionTrace" fullname="SushiWorkshop.Tests.SessionTests.WholeOrderHasReachableTwoPortionProductionTrace" methodname="WholeOrderHasReachableTwoPortionProductionTrace" classname="SushiWorkshop.Tests.SessionTests" runstate="Runnable" seed="43793536" result="Passed" start-time="2026-10-09 16:19:04Z" end-time="2026-10-09 16:19:04Z" duration="0.000801" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

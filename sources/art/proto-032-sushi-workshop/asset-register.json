@@ -1,0 +1,361 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "creator": "Project assistant, original parameterized C# mesh and material design",
+  "route": "Unity Built-in runtime procedural meshes; not Blender/FBX or generated raster artwork",
+  "external_media_inputs": [],
+  "engine_dependencies": [
+    "UnityEngine built-in Cylinder primitive",
+    "Unity Built-in Standard shader"
+  ],
+  "rights": "Project-original modeling code/parameters; no third-party art package is copied; engine and independently registered font/audio rights remain separate",
+  "generator": {
+    "path": "prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Assets/SushiWorkshop/Presentation/SushiSceneView.cs",
+    "sha256": "aa0839bbc7958fa6404a69d461e9fedd0b69325aea97138ced30b0ff29646c94",
+    "unity_version": "2022.3.62f3c1"
+  },
+  "unit": "visual meter; gameplay is discrete six-slot state, never geometry collision",
+  "mesh_recipes": {
+    "rounded_prism": {
+      "corner_segments": 3,
+      "outline_points": 16,
+      "height_layers": 4,
+      "triangles": 128,
+      "edge_bevel_max_m": 0.018
+    },
+    "oval_band": {
+      "segments": 64,
+      "surfaces": 4,
+      "triangles": 512
+    },
+    "sphere": {
+      "longitudes": 12,
+      "latitudes": 8,
+      "effective_triangles": 168
+    },
+    "arrow": {
+      "triangles": 1
+    }
+  },
+  "palette_srgb_components": {
+    "wood": [
+      0.57,
+      0.32,
+      0.16
+    ],
+    "woodTop": [
+      0.77,
+      0.55,
+      0.32
+    ],
+    "cream": [
+      0.91,
+      0.88,
+      0.74
+    ],
+    "rice": [
+      0.98,
+      0.95,
+      0.82
+    ],
+    "track": [
+      0.045,
+      0.23,
+      0.19
+    ],
+    "ink": [
+      0.065,
+      0.13,
+      0.13
+    ],
+    "nori": [
+      0.09,
+      0.18,
+      0.075
+    ],
+    "salmon": [
+      0.94,
+      0.36,
+      0.25
+    ],
+    "cucumber": [
+      0.36,
+      0.57,
+      0.12
+    ],
+    "gold": [
+      0.93,
+      0.61,
+      0.17
+    ],
+    "grilled": [
+      0.45,
+      0.23,
+      0.085
+    ],
+    "steel": [
+      0.56,
+      0.66,
+      0.64
+    ],
+    "wall": [
+      0.78,
+      0.81,
+      0.69
+    ],
+    "floor": [
+      0.33,
+      0.4,
+      0.35
+    ],
+    "customer": [
+      0.4,
+      0.62,
+      0.62
+    ],
+    "skin": [
+      0.85,
+      0.6,
+      0.4
+    ],
+    "selection": [
+      0.28,
+      0.82,
+      0.59
+    ],
+    "lamp": [
+      1.0,
+      0.72,
+      0.34
+    ]
+  },
+  "materials_count": 18,
+  "camera": {
+    "projection": "orthographic oblique top-down",
+    "position": [
+      0.3,
+      8.3,
+      -9.3
+    ],
+    "look_at": [
+      0,
+      0.65,
+      0.45
+    ],
+    "ortho_min": 3.7,
+    "fit": "max(3.7,5.15/pixelRectAspect)",
+    "preserves_runtime_rect": true
+  },
+  "slot_mapping": {
+    "core_slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ui_labels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "angle_formula_degrees": "-90-slot*60",
+    "entry_slot": 0,
+    "customer_slot": 5,
+    "direction": "clockwise"
+  },
+  "presentation": {
+    "plate_move_seconds": 0.28,
+    "stable_plate_ids": true,
+    "static_geometry_built_once": true,
+    "models_have_gameplay_colliders": false,
+    "pick_proxy_fixed": true,
+    "commands_or_rewards_emitted": false
+  },
+  "assets": [
+    {
+      "id": "SUS-ART-ROOM",
+      "name": "厨房包装",
+      "shape": "圆角岛台/店招/暖帘/吊灯/地板/盆栽",
+      "mapping": "static",
+      "dimensions_m": {
+        "counter_width": 7.65,
+        "counter_depth": 5.85,
+        "wall_width": 9.9,
+        "wall_height": 3.6
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-TRACK",
+      "name": "单环盘轨",
+      "shape": "椭圆64段环带、双边沿、24接缝与6方向箭头",
+      "mapping": "static",
+      "dimensions_m": {
+        "radius_x": 2.45,
+        "radius_z": 1.55,
+        "width": 0.68,
+        "center_y": 1.02,
+        "top_y": 1.0575,
+        "thickness": 0.075
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-PLATE",
+      "name": "共享实体盘",
+      "shape": "米白盘/墨绿沿/交或留牌/独立选择环",
+      "mapping": "state-read-only",
+      "dimensions_m": {
+        "plate_radius": 0.345,
+        "plate_origin_y": 1.095,
+        "selection_proxy": [
+          0.82,
+          0.5,
+          0.82
+        ]
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-01",
+      "name": "米基底",
+      "shape": "压米圆角形体与米粒",
+      "mapping": "FoodState.RiceBase",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-02",
+      "name": "卷料",
+      "shape": "外露鱼条/绿料与未卷海苔",
+      "mapping": "FoodState.FilledRice",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-03",
+      "name": "成卷",
+      "shape": "圆柱海苔与米/鱼/绿料截面",
+      "mapping": "FoodState.Roll",
+      "dimensions_m": {
+        "length": 0.445,
+        "radius": 0.115
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-04",
+      "name": "熟卷",
+      "shape": "褐色烤卷/炙纹/短蒸气",
+      "mapping": "FoodState.HeatedRoll",
+      "dimensions_m": {
+        "length": 0.445,
+        "radius": 0.115
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-05",
+      "name": "小份卷",
+      "shape": "半卷、半份文字及金色标记",
+      "mapping": "FoodState.SmallRoll",
+      "dimensions_m": {
+        "length": 0.215,
+        "radius": 0.115
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-FOOD-06",
+      "name": "小份熟卷",
+      "shape": "半熟卷、炙纹与短蒸气",
+      "mapping": "FoodState.SmallHeatedRoll",
+      "dimensions_m": {
+        "length": 0.215,
+        "radius": 0.115
+      },
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-STATION-01",
+      "name": "加料",
+      "shape": "碗/料与鱼条托盘",
+      "mapping": "StationKind.Filling",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-STATION-02",
+      "name": "卷制",
+      "shape": "竹帘/卷轴/海苔片",
+      "mapping": "StationKind.Rolling",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-STATION-03",
+      "name": "加热",
+      "shape": "小烤炉/炉光/格栅",
+      "mapping": "StationKind.Heating",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-STATION-04",
+      "name": "切分",
+      "shape": "木刀板/金属刀/切样",
+      "mapping": "StationKind.Cutting",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-INVENTORY",
+      "name": "盘库存与清洗",
+      "shape": "盘栈/污渍/金属水槽/数量",
+      "mapping": "state-read-only",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    },
+    {
+      "id": "SUS-ART-CUSTOMER",
+      "name": "顾客与订单样件",
+      "shape": "低模顾客/木凳/请求料理/数量与等待文字",
+      "mapping": "state-read-only",
+      "dimensions_m": {},
+      "source": "generator",
+      "status": "created; Unity and Player visual acceptance recorded by coordinator"
+    }
+  ],
+  "review": {
+    "code_api": "matched current Rules.cs/Session.cs",
+    "mesh_orientation": "manual directed review; thin-axis bevel bounded, sphere zero-area pole triangles removed",
+    "unity_compile": "coordinator reported Prepare/import/compile passed, detailed report in project development record",
+    "actual_game_camera": "2026-10-10 final 1600x900 rendered GameCamera capture personally viewed: initial-state composition, glyph scale, six slot numbers and four station labels passed; not full gameplay visual acceptance",
+    "world_text": "64px font atlas; characterSize=requested glyph height * 10 / 64; shop 0.28m, stations/inventory 0.18m, slots 0.21m, dishes 0.145m, delivery marks 0.12m; initial-state actual readability passed; rear station captions use cream against dark conveyor, front captions use ink against wood",
+    "label_layout": "slot numbers share fixed slot angles at visual radii 2.95/2.05m and y1.17m, billboard; front station captions local (0,.12,-.34), back (0,.47,.25); gameplay pick proxies unchanged",
+    "six_food_states_and_motion": "pending actual runtime review of all six food states, whole/half portion distinction, plate movement/staging feedback and dynamic label occlusion",
+    "native_window_input_and_hud": "not actually verified: coordinator runtime blocked by Windows system security permission modal; no security UI operated; GameCamera capture excludes complete HUD and cannot prove real keyboard/mouse input",
+    "listening": "pending actual listening; source audio generation and file checks do not establish in-game audio feedback quality",
+    "performance": "pending Player measurement",
+    "full_art_or_release": "not claimed"
+  }
+}
