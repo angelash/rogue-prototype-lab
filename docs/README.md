@@ -4,7 +4,9 @@
 
 本轮最新入口：[第一批项目需求与设计](design/first-batch/README.md)。六个项目都有独立文档目录，分别保存 requirements.md 和 design.md；prototypes/ 中各项目 README 链接对应正文。
 
-013 后续补充：[套圈改造摊完整游戏设计 v0.2](design/first-batch/proto-013-ring-toss/full-game/README.md)。独立保留八个专题与总入口，原型 v0.1 仍作为最小验证范围；本轮是文档设计，没有可玩构建或试玩通过记录。
+013 后续补充：[套圈改造摊完整方案 v0.3](design/first-batch/proto-013-ring-toss/full-game/README.md)。独立保留十二个专题与总入口，原型 v0.1 仍作为最小验证范围。用户已指定本机 Unity、PC 单机与 Steam，新增技术、美术生产、开发流程和发行方案；没有可玩构建、正式资产或试玩通过记录。
+
+执行入口见 [08 Unity PC](design/first-batch/proto-013-ring-toss/full-game/08-unity-pc-technical-plan.md)、[09 资产生产](design/first-batch/proto-013-ring-toss/full-game/09-art-and-asset-production.md)、[10 流程与技能](design/first-batch/proto-013-ring-toss/full-game/10-development-workflow-and-skills.md)、[11 Steam](design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md)。只读参考快照见 [来源登记](../sources/references/local-project-reference-register.md)。
 
 | 位置 | 用途 |
 | --- | --- |

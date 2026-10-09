@@ -14,6 +14,10 @@ Desktop.ini
 *.tmp
 *.temp
 
+# Blender 自动备份；正式 .blend 制作源保留并由 Git 管理
+*.blend1
+*.blend2
+
 # 本机配置与凭据；示例配置可以提交
 .env
 .env.*

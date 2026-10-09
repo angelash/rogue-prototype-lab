@@ -26,6 +26,11 @@
 *.ogg binary
 *.mp4 binary
 *.glb binary
+*.blend binary
+*.fbx binary
+*.tga binary
+*.exr binary
 *.ttf binary
+*.otf binary
 *.woff binary
 *.woff2 binary

@@ -8,3 +8,7 @@
 - 初始目录设置与资料归档不授权实现游戏、安装软件、创建远程仓库、提交或推送；该阶段原始内容保存在首次提交中。
 - 2026-10-09 用户已另行授权初始化本地 Git、设置忽略规则，并将现有内容提交、推送到用户创建的 https://github.com/angelash/rogue-prototype-lab.git。此授权不包含游戏实现或软件安装；后续工作以用户的新指令为准。
 - 2026-10-09 用户要求将标星优先项目加上贪吃蛇孵化场整理为第一批，建立独立项目目录、需求与设计文档并提交。本轮范围及名单解释见 docs/design/first-batch/README.md；沿用原方案编号，新增规则和实施顺序保留为助手建议。本轮仅整理文档，实际游戏实现以用户后续指令为准。
+- 2026-10-09 用户已为 013 套圈改造摊指定 Unity、本地已有版本、PC 单机与 Steam 目标；实机基线为 Unity 2022.3.62f3c1，D:\Program files\2022.3.62f3c1\Editor\Unity.exe，已具备 Windows x64 Mono 模块。其他原型的技术选择另行记录。
+- 013 的技术、资产、开发流程与 Steam 文档位于 docs/design/first-batch/proto-013-ring-toss/full-game/08–11；固定正交 2.5D 与 Blender/生图分工是助手建议，二维规则与数值仍以 02/04 为准。
+- 本仓可复用技能位于 .agents/skills/unity-pc-prototype/SKILL.md 和 .agents/skills/ring-toss-asset-pipeline/SKILL.md；相关任务先读取对应技能及其文档入口，不假定未核实的插件、服务或密钥可用。
+- highschool 与 world-of-claudecraft 作为只读参考；来源版本及筛选理由见 sources/references/local-project-reference-register.md。复用资产逐项核对许可和来源，代码仓库的许可证不自动覆盖媒体。当前轮为方案与能力文档补充，实际实现/安装/批量生产/上架以具体后续指令为准。
