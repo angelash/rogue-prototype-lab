@@ -4,6 +4,8 @@
 
 本轮最新入口：[第一批项目需求与设计](design/first-batch/README.md)。六个项目都有独立文档目录，分别保存 requirements.md 和 design.md；prototypes/ 中各项目 README 链接对应正文。
 
+013 后续补充：[套圈改造摊完整游戏设计 v0.2](design/first-batch/proto-013-ring-toss/full-game/README.md)。独立保留八个专题与总入口，原型 v0.1 仍作为最小验证范围；本轮是文档设计，没有可玩构建或试玩通过记录。
+
 | 位置 | 用途 |
 | --- | --- |
 | design/ | 2026-10-09 最终修订结论、31 个候选、验证计划和版本记录 |
