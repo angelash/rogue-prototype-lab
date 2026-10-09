@@ -1,6 +1,6 @@
 # 回转寿司工坊：Unity首次可玩纵切
 
-版本：v0.2；日期：2026-10-10（Asia/Shanghai）；任务开始：2026-10-09。工程使用Unity2022.3.62f3c1，目标Windows x64普通Mono Strict构建/PC单机。当前为首次可玩候选实现：Prepare成功，30/30规则/存储测试通过，已完成构建0错误/0警告；最终包与初态相机图已归档，原生操作尚待补，未完成完整纵切验收。实际分项结果见 [开发记录](../../../../docs/development/proto-032/2026-10-10-slice-01.md)。
+版本：v0.2；日期：2026-10-10（Asia/Shanghai）；任务开始：2026-10-09。工程使用Unity2022.3.62f3c1，目标Windows x64普通Mono Strict构建/PC单机。当前为首次可玩候选实现：Prepare成功，30/30规则/存储测试通过，已完成构建0错误/1警告；最终包与初态相机图已归档，原生操作尚待补，未完成完整纵切验收。实际分项结果见 [开发记录](../../../../docs/development/proto-032/2026-10-10-slice-01.md)。
 
 ## 范围与权威入口
 
@@ -26,7 +26,7 @@ Player启动需携带完整构建目录；不能只复制exe。相机诊断的 `
 
 实际测试/构建和相机证据可由 `scripts/record-project-evidence.py --project 032 --tests <真实XML路径> --capture <真实相机图路径>` 归档为开发记录目录的 `evidence/test-results.xml`、`scene.png` 和 `build-manifest.json`；该脚本检查测试/构建结果并记录来源/运行哈希，不替代真实窗口QA。首次工程初始化工具为 `scripts/create-first-batch-project.py --project 032`，已存在工程不为重试而重新生成。
 
-最终测试 [XML](../../../../docs/development/proto-032/evidence/test-results.xml) 已核对30项通过/0失败：22项规则覆盖SUS-A01–A05、整份30/Quick27黄金输入，8项存储覆盖恢复/故障/有效备份与非法新Save拒绝。最终普通Mono Strict包86,844,673字节、0错误/0警告；完整输出与源码哈希见开发记录。
+最终测试 [XML](../../../../docs/development/proto-032/evidence/test-results.xml) 已核对30项通过/0失败：22项规则覆盖SUS-A01–A05、整份30/Quick27黄金输入，8项存储覆盖恢复/故障/有效备份与非法新Save拒绝。最终普通Mono Strict包86,842,449字节、0错误/1警告；完整输出与源码哈希见开发记录。
 
 ## 控制合同
 
@@ -49,4 +49,9 @@ Core安全点快照包括订单、等待、盘/料理/份量/标记/归属、入
 
 本轮不是完整Steam游戏。多环、员工/餐厅经营、随机局外成长、真实切菜、完整音乐/配音/剧情、完整手柄与低配优化/Steam上传均未随本纵切完成。SUS-H01–H03策略与乐趣仍需玩家证据；自动测试数量、构建和相机图各自只证明相应范围。
 
-当前候选已实测30/30规则/存储测试与Windows构建0错误0警告，构建86,844,673字节；初态场景图已目检，原生键鼠/听感受系统安全权限弹窗阻挡而待补。运行本机Builds/Windows64/SushiWorkshop.exe，需保留完整同目录Player文件；Git保存源码/源资产/证据，按上述Build命令可重建。
+当前候选已实测30/30规则/存储测试与Windows构建0错误1警告，构建86,842,449字节；初态场景图已目检，原生键鼠/听感受系统安全权限弹窗阻挡而待补。运行本机Builds/Windows64/SushiWorkshop.exe，需保留完整同目录Player文件；Git保存源码/源资产/证据，按上述Build命令可重建。
+
+
+## 2026-10-10 工程身份与备份复核
+
+2026-10-10工程身份复核：productGUID改为独立UUID5 `0886d11784ca5aa68a5a556f89533227`；最新普通Mono包86,842,449字节、0错误/1警告，UTC `2026-10-09T18:42:23.3657002Z`，日志 `.local/unity/SushiWorkshop-20261010-024207-652-Build/unity.log`。最新相机初态已实际目检，PNG SHA `f5e4e1bc93fd368840e078bc331142728f241feab4703b251d4f1265722555bb`；完整原生/HUD/动态/听感仍未验。规则/API/初值未改，沿用本项目已通过的30项真实XML，未重复计次；032仅两文本换行归一，不改变游戏语义。详见[本批复核](../../../../docs/development/first-batch-backup-audit.md)。

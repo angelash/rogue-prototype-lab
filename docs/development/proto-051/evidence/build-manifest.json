@@ -4,7 +4,7 @@
   "summary": {
     "unityVersion": "2022.3.62f3c1",
     "result": "Succeeded",
-    "builtAtUtc": "2026-10-09T17:05:57.4679486Z",
+    "builtAtUtc": "2026-10-09T18:43:27.2086612Z",
     "totalBytes": 86881541,
     "errors": 0,
     "warnings": 1
@@ -21,7 +21,7 @@
     {
       "path": "build-summary.json",
       "bytes": 180,
-      "sha256": "4528e1bb0b67102e948b2f29c10cfec3f302a3e2560d3b3997c1cddb4c77fa89"
+      "sha256": "5a0d66770f8e828a44d11aed035f1183a59230ce16e49186d5ce538cf3dffc61"
     },
     {
       "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -136,12 +136,12 @@
     {
       "path": "RecyclingCleaners_Data/boot.config",
       "bytes": 164,
-      "sha256": "75e0a611ebf506f52fce2f19756064751a482e6079f26628c401ecc71f004b11"
+      "sha256": "a3b4b06637c07e03c20aef135832a917acba1e24fede14a0318e1eab54e12638"
     },
     {
       "path": "RecyclingCleaners_Data/globalgamemanagers",
       "bytes": 26268,
-      "sha256": "eb47017a1719ac479df966cd10e9806105bbc3f9a72290ce86c8aa7d3bf86edd"
+      "sha256": "d00f865747dbd18aa673f3c4eba0c49ac8a0d1f8c6dcac56e7ae68f81b1804b3"
     },
     {
       "path": "RecyclingCleaners_Data/globalgamemanagers.assets",
@@ -1073,7 +1073,7 @@
     {
       "path": "ProjectSettings/ProjectSettings.asset",
       "bytes": 23329,
-      "sha256": "82517b36c6ffe272940ad92f046f187d99596efa1f6dcbf5e6d865e0da0e828c"
+      "sha256": "5df1bb50108913cd191fd3e75a2682262f4acb2ebc16ab7853e585d6905f64b9"
     },
     {
       "path": "ProjectSettings/ProjectVersion.txt",
@@ -1119,8 +1119,8 @@
   "productionTools": [
     {
       "path": "scripts/create-first-batch-project.py",
-      "bytes": 3259,
-      "sha256": "203f486b67521f1e3172d22146ea2a2a366f9ddff0a642ae87cf318b6026787b"
+      "bytes": 3579,
+      "sha256": "afa20e18e1a3bee74c8c280dff636afceabe7e5295b356743a042f556f291c57"
     },
     {
       "path": "scripts/create_first_batch_config.py",
@@ -1133,19 +1133,24 @@
       "sha256": "727abaa6115c59e7ed127f68a4a2776ef3abfefac7f4ef67e50e176d0b22c47e"
     },
     {
+      "path": "scripts/capture-project-scene.ps1",
+      "bytes": 1828,
+      "sha256": "16a972ba2d9987dbee2bd2fab4e72445f34d2d8690fa673d7c25ca9b4cb8f762"
+    },
+    {
       "path": "scripts/generate-first-batch-music.py",
       "bytes": 3039,
       "sha256": "e5cbe803ae644a7904d7e486b0a75e01f8039d3b31085a53531696410235bb82"
     },
     {
       "path": "scripts/register-project-resources.py",
-      "bytes": 2513,
-      "sha256": "41f1d3eb3759f0f937b4961071a29ddd74a49c47b4a1c4f9b4e0b5f8bf159096"
+      "bytes": 2491,
+      "sha256": "7a0666c723a99b07058aea0fafadfb1f65bc24e5eff423f89f9b1a4f8a2e48a4"
     },
     {
       "path": "scripts/record-project-evidence.py",
-      "bytes": 3239,
-      "sha256": "0639f34838d4aff4a472adbfe2569aa779e9f91dc1cd78746fe37ce338c098dc"
+      "bytes": 3267,
+      "sha256": "c5ee0b8bb1aae78d919e24cedd29cc62dc86ed01fe33637e097cd0303e2449fe"
     },
     {
       "path": "scripts/unity-templates/ProjectBuilder.cs.txt",
@@ -1160,7 +1165,7 @@
   ],
   "cameraEvidence": {
     "path": "scene.png",
-    "sha256": "78c335dd40141cb97747cb4ad74af7d2a3490d4ceecd91698788032ddb7045c1",
+    "sha256": "0906dbe62b56264b323d488c08b24a846b217ce76cad3481f2becf2702b60ee8",
     "cameraOnly": true,
     "nativeInputQA": false
   }

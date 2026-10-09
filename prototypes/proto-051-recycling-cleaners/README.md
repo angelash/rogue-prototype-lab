@@ -16,4 +16,9 @@
 
 沿用原方案编号051容量与再利用版本。2026-10-09 v0.1归档时尚无实现/已选引擎；本轮以Unity2022.3.62f3c1、Windows x64普通Mono Strict/PC单机实施，三维斜俯视房间表现原二维单房间的离散网格规则。题材建议为“清晨回收小队：把废料留给下一次清洁”，不恢复元素战斗，不扩成长商店。
 
-遵循 [共同规范](../../DEVELOPMENT_STANDARD.md)。首次可玩候选Core/表现/完整保存已落盘，Unity2022.3.62f3c1 Prepare成功，EditMode28/28通过（22规则+4实际RoundSnapshot故障存储+2Runtime帧边界）；最终普通Mono Strict构建成功、0错1警，见 [测试报告](../../docs/development/proto-051/evidence/test-results.xml) / [构建清单](../../docs/development/proto-051/evidence/build-manifest.json)。Standard shader剥离、标签重叠和恢复/重试同帧移动三项缺陷已闭环；[最终相机图](../../docs/development/proto-051/evidence/scene.png) 污物/残量可读，隔离诊断无Exception/fontTrue且未发玩法命令。九份资源同字节已核对，实际听感未验。既有系统安全权限modal目前阻挡正常窗口原生路径，见 [欠证记录](../../docs/development/proto-051/evidence/native-qa.json)；功能美术和玩法体验尚未验收，不称完整纵切/Steam完成，不借013/032成绩。提交备份待root执行。
+遵循 [共同规范](../../DEVELOPMENT_STANDARD.md)。首次可玩候选Core/表现/完整保存已落盘，Unity2022.3.62f3c1 Prepare成功，EditMode28/28通过（22规则+4实际RoundSnapshot故障存储+2Runtime帧边界）；最终普通Mono Strict构建成功、0错1警，见 [测试报告](../../docs/development/proto-051/evidence/test-results.xml) / [构建清单](../../docs/development/proto-051/evidence/build-manifest.json)。Standard shader剥离、标签重叠和恢复/重试同帧移动三项缺陷已闭环；[最终相机图](../../docs/development/proto-051/evidence/scene.png) 污物/残量可读，隔离诊断无Exception/fontTrue且未发玩法命令。九份资源同字节已核对，实际听感未验。既有系统安全权限modal目前阻挡正常窗口原生路径，见 [欠证记录](../../docs/development/proto-051/evidence/native-qa.json)；功能美术和玩法体验尚未验收，不称完整纵切/Steam完成，不借013/032成绩。已完成本项目独立提交推送。
+
+
+## 2026-10-10 工程身份与备份复核
+
+2026-10-10工程身份复核：productGUID改为独立UUID5 `4d31d65c78865e8e998124ac5584b97e`；最新普通Mono包86,881,541字节、0错误/1警告，UTC `2026-10-09T18:43:27.2086612Z`，日志 `.local/unity/RecyclingCleaners-20261010-024313-968-Build/unity.log`。最新相机初态已实际目检，PNG SHA `0906dbe62b56264b323d488c08b24a846b217ce76cad3481f2becf2702b60ee8`；完整原生/HUD/动态/听感仍未验。规则/API/初值未改，沿用本项目已通过的28项真实XML，未重复计次；032仅两文本换行归一，不改变游戏语义。详见[本批复核](../../docs/development/first-batch-backup-audit.md)。

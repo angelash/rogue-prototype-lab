@@ -4,10 +4,10 @@
   "summary": {
     "unityVersion": "2022.3.62f3c1",
     "result": "Succeeded",
-    "builtAtUtc": "2026-10-09T17:36:07.3966927Z",
+    "builtAtUtc": "2026-10-09T18:44:53.4373616Z",
     "totalBytes": 86888473,
     "errors": 0,
-    "warnings": 0
+    "warnings": 1
   },
   "tests": {
     "total": "32",
@@ -21,7 +21,7 @@
     {
       "path": "build-summary.json",
       "bytes": 180,
-      "sha256": "8ba3a323e004cb83df453a30aa8e84534fe7a39d3d2eab268936419741b3bef9"
+      "sha256": "44057b179f9441a881cd6f03d7236f0c0bec823039878c8da2b7e7136dea54ab"
     },
     {
       "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -136,12 +136,12 @@
     {
       "path": "SnakeHatchery_Data/boot.config",
       "bytes": 164,
-      "sha256": "256515817b89566b9e7edd81931b1ca8afe60a732d04e82dc7db07209890f4d4"
+      "sha256": "cc9b5c1253bd0be37b93eb19c4a3d295ea5d344535021c22bc77b68fc2533cdd"
     },
     {
       "path": "SnakeHatchery_Data/globalgamemanagers",
       "bytes": 26260,
-      "sha256": "41758acc6e0fd2d6f39c32e1b128e6d08ccfb579b9c8cff35359c15c15ad4bd0"
+      "sha256": "24f77662a23fba118c8b0bec2f34f0712a7efb619cdfcebc0d20559b66b7649b"
     },
     {
       "path": "SnakeHatchery_Data/globalgamemanagers.assets",
@@ -1053,7 +1053,7 @@
     {
       "path": "ProjectSettings/ProjectSettings.asset",
       "bytes": 23325,
-      "sha256": "24d9c4554a00913861ba56691f586badebdc3a06d1a0c9f1816db0a5e75b5930"
+      "sha256": "aea8867e0943ec2257d9ab50c1b1cce05d5bd9e9d6e8bccec154b3b1fbb0f647"
     },
     {
       "path": "ProjectSettings/ProjectVersion.txt",
@@ -1099,8 +1099,8 @@
   "productionTools": [
     {
       "path": "scripts/create-first-batch-project.py",
-      "bytes": 3259,
-      "sha256": "203f486b67521f1e3172d22146ea2a2a366f9ddff0a642ae87cf318b6026787b"
+      "bytes": 3579,
+      "sha256": "afa20e18e1a3bee74c8c280dff636afceabe7e5295b356743a042f556f291c57"
     },
     {
       "path": "scripts/create_first_batch_config.py",
@@ -1124,8 +1124,8 @@
     },
     {
       "path": "scripts/register-project-resources.py",
-      "bytes": 2513,
-      "sha256": "41f1d3eb3759f0f937b4961071a29ddd74a49c47b4a1c4f9b4e0b5f8bf159096"
+      "bytes": 2491,
+      "sha256": "7a0666c723a99b07058aea0fafadfb1f65bc24e5eff423f89f9b1a4f8a2e48a4"
     },
     {
       "path": "scripts/record-project-evidence.py",

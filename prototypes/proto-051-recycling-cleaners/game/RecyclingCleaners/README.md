@@ -47,3 +47,8 @@
 三维房间为原创C#参数网格，14类资产/21共用材质见 [资产来源](../../../../sources/art/proto-051-recycling-cleaners/README.md) / [配方哈希](../../../../sources/art/proto-051-recycling-cleaners/asset-register.json)，不冒称Blender/FBX或外部模型。字体/七原创短音/原创BGM九份副本见 [运行资源登记](../../../../sources/art/proto-051-recycling-cleaners/runtime-resource-register.json)，源/运行同字节已重新核对、字体声明保留；Player报告fontTrue，实际音频听感仍未验。
 
 首Player的Standard shader剥离null异常、行号3与柜标题重叠、恢复/重试同帧移动三项缺陷已修复；最终隔离相机诊断无Exception/PLAYER_READY fontTrue，最终图三污物/残量可读且标签无该重叠，诊断未提交玩法命令。现有系统安全权限modal当前阻挡原生输入，不代理代操作；正常可操控窗口与真实动作/保存/退出/听感尚未验、欠证。28项规则/故障存储/Runtime自动输入适配通过不等于功能美术、玩法体验或完整纵切QA通过，不借032成绩，不称Steam接入/发行完成。完整手柄/低配性能、成长商店与完整音画内容为后续；提交备份由root实际执行。
+
+
+## 2026-10-10 工程身份与备份复核
+
+2026-10-10工程身份复核：productGUID改为独立UUID5 `4d31d65c78865e8e998124ac5584b97e`；最新普通Mono包86,881,541字节、0错误/1警告，UTC `2026-10-09T18:43:27.2086612Z`，日志 `.local/unity/RecyclingCleaners-20261010-024313-968-Build/unity.log`。最新相机初态已实际目检，PNG SHA `0906dbe62b56264b323d488c08b24a846b217ce76cad3481f2becf2702b60ee8`；完整原生/HUD/动态/听感仍未验。规则/API/初值未改，沿用本项目已通过的28项真实XML，未重复计次；032仅两文本换行归一，不改变游戏语义。详见[本批复核](../../../../docs/development/first-batch-backup-audit.md)。

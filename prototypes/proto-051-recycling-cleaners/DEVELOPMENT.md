@@ -47,3 +47,8 @@
 v0.1“只有文档、未实现”是2026-10-09归档状态。当前Core/Runtime/房间样件与保存适配已落盘，Prepare成功、EditMode28/28通过（22规则+4实际RoundSnapshot故障存储+2Runtime同帧边界），见 [测试报告](../../docs/development/proto-051/evidence/test-results.xml)。最终普通Mono Strict包0错1警，摘要与哈希见 [构建清单](../../docs/development/proto-051/evidence/build-manifest.json)；shader剥离、行号与柜标题重叠、恢复/重试同帧移动三项缺陷已闭环。隔离诊断无Exception/fontTrue，[最终图](../../docs/development/proto-051/evidence/scene.png) 污物/残量可读。九份源/运行资源同字节已核对、字体声明保留，听感未验。系统安全权限modal目前阻原生输入，正常可操控窗口与实际原生路径未验，见 [欠证记录](../../docs/development/proto-051/evidence/native-qa.json)，不代理代操作该系统弹窗。
 
 当前接续是root核查并提交/推送本候选及独立证据，实际commit在后续ledger登记；尚未提前写为已备份。原生输入/实际听感在外部桌面条件恢复后补验，规则/故障存储/自动输入适配结果不能代替功能美术或完整纵切放行，不宣称Steam完成。地图/容量、转换效率、行动/耐久是否重复负担与CLN-H01–H03体验仍需真人证据，不以进度数字代替。
+
+
+## 2026-10-10 工程身份与备份复核
+
+2026-10-10工程身份复核：productGUID改为独立UUID5 `4d31d65c78865e8e998124ac5584b97e`；最新普通Mono包86,881,541字节、0错误/1警告，UTC `2026-10-09T18:43:27.2086612Z`，日志 `.local/unity/RecyclingCleaners-20261010-024313-968-Build/unity.log`。最新相机初态已实际目检，PNG SHA `0906dbe62b56264b323d488c08b24a846b217ce76cad3481f2becf2702b60ee8`；完整原生/HUD/动态/听感仍未验。规则/API/初值未改，沿用本项目已通过的28项真实XML，未重复计次；032仅两文本换行归一，不改变游戏语义。详见[本批复核](../../docs/development/first-batch-backup-audit.md)。

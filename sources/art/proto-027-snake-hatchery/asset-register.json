@@ -351,5 +351,23 @@
     "listening": "pending actual Player listening; independently registered audio file checks do not prove playback/feedback quality",
     "performance": "pending actual Player frame/draw/mesh measurement",
     "full_art_or_release": "not claimed"
+  },
+  "metadata_rebuild": {
+    "date": "2026-10-10",
+    "productGUID": "bef4ab206ac850c39b9c186ac1924ec1",
+    "sourceRecipeUnchanged": true,
+    "build": {
+      "unityVersion": "2022.3.62f3c1",
+      "result": "Succeeded",
+      "builtAtUtc": "2026-10-09T18:44:53.4373616Z",
+      "totalBytes": 86888473,
+      "errors": 0,
+      "warnings": 1
+    },
+    "final_camera_sha256": "dc6763560ae004eb5f2741d58103fa5c92e860bc445497eafcb4968e60d4a979",
+    "initialCameraPersonallyReviewed": true,
+    "nativeInputQA": false,
+    "completeHUDDynamicHearingQA": false,
+    "note": "Historical review retained; latest candidate has independent product identity; see project record/audit."
   }
 }

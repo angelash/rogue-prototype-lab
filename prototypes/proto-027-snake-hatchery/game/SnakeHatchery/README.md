@@ -22,7 +22,7 @@
 
 Editor入口 `PrototypeBuild.Editor.ProjectBuilder.Prepare` / `BuildWindows` 已存在；Prepare只在不存在时创建Bootstrap场景，不覆盖已有场景，并确保 `Resources/RuntimeDefault.mat` 的Standard shader引用。构建使用Mono/StrictMode、无Development调试选项；完整Player目录位于 `Builds/Windows64/`，不是仅复制 `SnakeHatchery.exe`。
 
-日志/XML位于仓库 `.local/unity/SnakeHatchery-<时间>-<模式>/`；Prepare成功，32/32 Unity测试通过，最终普通Windows构建86,888,473字节0错0警告。实际证据可由 `scripts/record-project-evidence.py --project 027 --tests <真实XML> --capture <真实图>` 归档，当前真实报告见开发记录的证据链接。隔离相机诊断只证明镜头，不证明正常窗口/HUD/键鼠/听感。
+日志/XML位于仓库 `.local/unity/SnakeHatchery-<时间>-<模式>/`；Prepare成功，32/32 Unity测试通过，最终普通Windows构建86,888,473字节0错1警告。实际证据可由 `scripts/record-project-evidence.py --project 027 --tests <真实XML> --capture <真实图>` 归档，当前真实报告见开发记录的证据链接。隔离相机诊断只证明镜头，不证明正常窗口/HUD/键鼠/听感。
 
 ## 操作、保存与资产
 
@@ -40,4 +40,9 @@ Editor入口 `PrototypeBuild.Editor.ProjectBuilder.Prepare` / `BuildWindows` 已
 
 三维生态盘采用原创C#程序样件，[SnakeSceneView.cs](Assets/SnakeHatchery/Presentation/SnakeSceneView.cs) 已接入并初态目检，格距.84m、底面Y.17，模块ID/归属、货物、实线路径/虚线草案和真切点读Core。来源登记已归档并核对脚本/初态图哈希；本轮不假称Blender/FBX/生图已制作。字体/七本仓原创短音/独立原创BGM九份副本见 [运行资源登记](../../../../sources/art/proto-027-snake-hatchery/runtime-resource-register.json)，九副本同字节及字体声明随包已核对，听感待验，无配音服务。
 
-当前Prepare成功、32/32 Unity测试、普通Mono构建0错0警告及初态相机已核对；正常窗口未验。既有系统安全权限modal阻原生阶段，工具不代操作；独立制作和验证继续，正常窗口/原生/听感欠证保留。候选备份不等于完整纵切或Steam发行完成。
+当前Prepare成功、32/32 Unity测试、普通Mono构建0错1警告及初态相机已核对；正常窗口未验。既有系统安全权限modal阻原生阶段，工具不代操作；独立制作和验证继续，正常窗口/原生/听感欠证保留。候选备份不等于完整纵切或Steam发行完成。
+
+
+## 2026-10-10 工程身份与备份复核
+
+2026-10-10工程身份复核：productGUID改为独立UUID5 `bef4ab206ac850c39b9c186ac1924ec1`；最新普通Mono包86,888,473字节、0错误/1警告，UTC `2026-10-09T18:44:53.4373616Z`，日志 `.local/unity/SnakeHatchery-20261010-024439-982-Build/unity.log`。最新相机初态已实际目检，PNG SHA `dc6763560ae004eb5f2741d58103fa5c92e860bc445497eafcb4968e60d4a979`；完整原生/HUD/动态/听感仍未验。规则/API/初值未改，沿用本项目已通过的32项真实XML，未重复计次；032仅两文本换行归一，不改变游戏语义。详见[本批复核](../../../../docs/development/first-batch-backup-audit.md)。

@@ -1,6 +1,6 @@
 # 开发检查与原型工具
 
-版本：v0.8；日期：2026-10-10。已有准备检查与已授权的素材生成、Unity 准备/测试/构建入口分别说明。013 已有三维 P0，用户后续授权其余首批项目按规范逐个开发、每项单独提交；这些脚本不安装软件、不创建远程仓库或操作发行账户。
+版本：v0.9；日期：2026-10-10。已有准备检查与已授权的素材生成、Unity 准备/测试/构建入口分别说明。013 已有三维 P0，用户后续授权其余首批项目按规范逐个开发、每项单独提交；这些脚本不安装软件、不创建远程仓库或操作发行账户。
 
 ## 1. 现状检查
 
@@ -69,7 +69,7 @@ Python 路径按当前可用运行时选择，上述检查无需 pip 安装。�
 
 新工程复制完成后，不在已修改的工程上强行重跑脚手架；按明确源码/模板版本维护，保留现有 `.meta`。其它编号仅在轮到该项目时生成，不以脚本支持其编号声称已有实现。
 
-产品GUID使用仓库URL与独立项目目录推导的稳定UUID5，不能沿用013的productGUID。121已核对新身份与对应最终Windows包；此前工程的产品元数据在本批候选备份完成后逐项核对，改变已构建源码时须更新对应构建清单，不用旧包证明新设置。
+产品GUID使用仓库URL与独立项目目录推导的稳定UUID5，不能沿用013的productGUID。五项已核对各自新身份与对应Windows包；前三工程复制身份/032两文本换行已修，独立重建及证据见[备份复核](../docs/development/first-batch-backup-audit.md)。改变已构建源码时更新对应构建清单，不用旧包证明新设置。
 
 [generate-first-batch-music.py](generate-first-batch-music.py) 每次为一个项目生产原创固定谱/seed的短循环 WAV，保留独立 `music-register.json` 与同字节 Resources 副本；是候选音乐，不代表正式混音或实际听检通过。[record-project-evidence.py](record-project-evidence.py) 必须接收实际通过的 `--tests` XML，并读取成功的 BuildReport摘要，保存各项目独立测试、整包/源码哈希及可选 `--capture` 相机图。相机证据固定标为 cameraOnly，不能自动填入真实输入 QA。
 
@@ -78,3 +78,5 @@ Python 路径按当前可用运行时选择，上述检查无需 pip 安装。�
 [register-project-resources.py](register-project-resources.py) 接收单个 `--project`，核对九份实际音频/字体源与运行副本同字节，登记来源、适用许可和本项目随包字体声明。事件采用范围以运行代码/开发记录为准；音频哈希不能替代实际听检。
 
 [capture-project-scene.ps1](capture-project-scene.ps1) 对已构建的仓库内独立工程运行明确的 `-captureOnce` 相机诊断，三十秒内退出，异常或缺少准备/出图日志报错。只启动/超时停止本次自己的Player；返回相机图和本游戏日志路径，仍须实际目检，不能自动宣称完整HUD、键鼠输入或听感通过。
+
+[verify-project-evidence.py](verify-project-evidence.py)只读检查完整源码/包路径集合与byte/SHA、XML/BuildReport、登记媒体和字体声明随包、生成器/相机/可选完整窗口图、独立UUID5。单项用 --project 032，全部用 --all，提交后加 --git-ref HEAD 核对Git原始blob，暂存用 --git-ref :。历史productionTools可以对应旧版本；不能以该检查宣布native/听感/真实玩家通过。

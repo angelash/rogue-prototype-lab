@@ -4,10 +4,10 @@
   "summary": {
     "unityVersion": "2022.3.62f3c1",
     "result": "Succeeded",
-    "builtAtUtc": "2026-10-09T16:32:36.9101625Z",
-    "totalBytes": 86844673,
+    "builtAtUtc": "2026-10-09T18:42:23.3657002Z",
+    "totalBytes": 86842449,
     "errors": 0,
-    "warnings": 0
+    "warnings": 1
   },
   "tests": {
     "total": "30",
@@ -21,7 +21,7 @@
     {
       "path": "build-summary.json",
       "bytes": 180,
-      "sha256": "f75d64b235b9f8e2a9a1e6f57fd5da02d89e2de72718852d3caf8a7583ae2e74"
+      "sha256": "369bb79292259b396e0ca1c6ebfbb90339f7887f2da6f56832505cc10a115c14"
     },
     {
       "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -136,22 +136,22 @@
     {
       "path": "SushiWorkshop_Data/boot.config",
       "bytes": 164,
-      "sha256": "4e2add2df9a6a9499f1e7a5fa621cca3f3f85dcb74d11c91e9fcdcb0e805600b"
+      "sha256": "cbb10ff21b30b49574a762d6309e3f054b01206135cf5dbc7117bfff84e563c9"
     },
     {
       "path": "SushiWorkshop_Data/globalgamemanagers",
       "bytes": 26172,
-      "sha256": "81f72582f953e7139beb8511da49b817081a21684b4657821f7f5d9803f66c11"
+      "sha256": "aa58006bce591719d0b03c42a79f802dd9106c58f48761071fa2bddf0034cc7c"
     },
     {
       "path": "SushiWorkshop_Data/globalgamemanagers.assets",
-      "bytes": 20384,
-      "sha256": "fe99afa6a89bbb6cded9969b6196322821d9b64744a57c9b045a0f4a44d9ed8b"
+      "bytes": 20208,
+      "sha256": "155730c09b48a1a8a793c75d791257fbe9a5eabbaa6ec50500521be878aefad9"
     },
     {
       "path": "SushiWorkshop_Data/globalgamemanagers.assets.resS",
-      "bytes": 2798288,
-      "sha256": "ebf0f91664c0aa69e3b92e93d4d4e6feae1a9152529b0efeac047e3c9c3b0fc0"
+      "bytes": 2796240,
+      "sha256": "39dd38fcd8dd95d41d6d55fe16a448d29fe2c31d9a162c825c24c6d99a893d7a"
     },
     {
       "path": "SushiWorkshop_Data/level0",
@@ -161,7 +161,7 @@
     {
       "path": "SushiWorkshop_Data/Managed/Assembly-CSharp.dll",
       "bytes": 40960,
-      "sha256": "0ad3cd6c0100bd94ea6123a6227ccb8891485a71bab6a8855ef29dbb957ba156"
+      "sha256": "dd68e477d483263730e59ab6c341581d248484d427b1c2d090adb23abfbbf963"
     },
     {
       "path": "SushiWorkshop_Data/Managed/Mono.Security.dll",
@@ -767,8 +767,8 @@
     },
     {
       "path": "Assets/SushiWorkshop/Presentation/SushiRuntime.cs",
-      "bytes": 11355,
-      "sha256": "6b9dd0f5001d9d2e5b2e0bfdbed6aaa1864c7c8f720f5bcaccb7b4e6a26ac47e"
+      "bytes": 11274,
+      "sha256": "5dc0e8c9c231d1c4bddc38b5d0dea167a11d3b8d40f15fc0d6e894ad0a1de213"
     },
     {
       "path": "Assets/SushiWorkshop/Presentation/SushiRuntime.cs.meta",
@@ -937,8 +937,8 @@
     },
     {
       "path": "Assets/SushiWorkshop/Tests/PersistenceTests.cs",
-      "bytes": 4186,
-      "sha256": "c5c10c37930675a7db01674b13d90dd4876cbccfede0174352f9e2f5bbc07b74"
+      "bytes": 4144,
+      "sha256": "2bc0d9fa00aeace4c04e8b29fdbce537fbb6994d0f2b8705e2dc815cd4617c03"
     },
     {
       "path": "Assets/SushiWorkshop/Tests/PersistenceTests.cs.meta",
@@ -1043,7 +1043,7 @@
     {
       "path": "ProjectSettings/ProjectSettings.asset",
       "bytes": 23325,
-      "sha256": "b52ee8c3fa16c6be7cf50dae6b11d203af14c1e3024e2e319b38133b4634a112"
+      "sha256": "0365f2b563ee96561da3cc6e08bff752d85a3ef5cbc3b01e3a976bfeaca25790"
     },
     {
       "path": "ProjectSettings/ProjectVersion.txt",
@@ -1089,8 +1089,8 @@
   "productionTools": [
     {
       "path": "scripts/create-first-batch-project.py",
-      "bytes": 3259,
-      "sha256": "203f486b67521f1e3172d22146ea2a2a366f9ddff0a642ae87cf318b6026787b"
+      "bytes": 3579,
+      "sha256": "afa20e18e1a3bee74c8c280dff636afceabe7e5295b356743a042f556f291c57"
     },
     {
       "path": "scripts/create_first_batch_config.py",
@@ -1103,24 +1103,29 @@
       "sha256": "727abaa6115c59e7ed127f68a4a2776ef3abfefac7f4ef67e50e176d0b22c47e"
     },
     {
+      "path": "scripts/capture-project-scene.ps1",
+      "bytes": 1828,
+      "sha256": "16a972ba2d9987dbee2bd2fab4e72445f34d2d8690fa673d7c25ca9b4cb8f762"
+    },
+    {
       "path": "scripts/generate-first-batch-music.py",
       "bytes": 3039,
       "sha256": "e5cbe803ae644a7904d7e486b0a75e01f8039d3b31085a53531696410235bb82"
     },
     {
       "path": "scripts/register-project-resources.py",
-      "bytes": 2513,
-      "sha256": "41f1d3eb3759f0f937b4961071a29ddd74a49c47b4a1c4f9b4e0b5f8bf159096"
+      "bytes": 2491,
+      "sha256": "7a0666c723a99b07058aea0fafadfb1f65bc24e5eff423f89f9b1a4f8a2e48a4"
     },
     {
       "path": "scripts/record-project-evidence.py",
-      "bytes": 3239,
-      "sha256": "0639f34838d4aff4a472adbfe2569aa779e9f91dc1cd78746fe37ce338c098dc"
+      "bytes": 3267,
+      "sha256": "c5ee0b8bb1aae78d919e24cedd29cc62dc86ed01fe33637e097cd0303e2449fe"
     },
     {
       "path": "scripts/unity-templates/ProjectBuilder.cs.txt",
-      "bytes": 2325,
-      "sha256": "eb04dc7f39e445bf7394a027e929bb1680e4483a9fe0120818e1de8937ca4a88"
+      "bytes": 3079,
+      "sha256": "04e7126546c31546411cb3cd77fce2a2d5e7f08a4887a58491b8a4ba9ba4d60b"
     },
     {
       "path": "scripts/unity-templates/PrototypeToolkit.cs",
@@ -1130,7 +1135,7 @@
   ],
   "cameraEvidence": {
     "path": "scene.png",
-    "sha256": "1038938c843f96b5473ba07f270d6855e48aaacd1f2d2c30c4e97c22fad21531",
+    "sha256": "f5e4e1bc93fd368840e078bc331142728f241feab4703b251d4f1265722555bb",
     "cameraOnly": true,
     "nativeInputQA": false
   }

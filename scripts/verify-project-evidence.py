@@ -44,7 +44,18 @@ for number in numbers:
     if manifest['summary']['result'] != 'Succeeded' or manifest['summary']['errors'] != 0:
         errors.append(number + ': unsuccessful build report')
     build = project / 'Builds' / 'Windows64'
+    summary = json.loads((build / 'build-summary.json').read_text(encoding='utf-8-sig'))
+    if summary != manifest['summary']:
+        errors.append(number + ': current BuildReport summary differs from manifest')
     for group, base in (('projectSources', project), ('files', build)):
+        declared = [e['path'] for e in manifest[group]]
+        actual_files = ([f for dirname in ('Assets', 'Packages', 'ProjectSettings')
+                         for f in (project / dirname).rglob('*') if f.is_file()]
+                        if group == 'projectSources' else [f for f in build.rglob('*') if f.is_file()])
+        actual = {f.relative_to(base).as_posix() for f in actual_files}
+        if not declared or len(declared) != len(set(declared)) or set(declared) != actual:
+            errors.append(number + ': incomplete or duplicate ' + group + ' inventory; missing=' +
+                          repr(sorted(actual - set(declared))) + '; extra=' + repr(sorted(set(declared) - actual)))
         for entry in manifest[group]:
             path = path_inside(base, entry['path'])
             if not path.is_file():
@@ -69,17 +80,26 @@ for number in numbers:
             if sha(data) != entry['sha256']:
                 errors.append(number + ': Git byte mismatch ' + git_path)
     register = json.loads((ROOT / 'sources/art' / folder / 'runtime-resource-register.json').read_text(encoding='utf-8-sig'))
+    if not register['copies'] or not register['notices']:
+        errors.append(number + ': empty resource or notice register')
     for entry in register['copies']:
         source = path_inside(ROOT, entry['source']).read_bytes()
         runtime = path_inside(ROOT, entry['runtime']).read_bytes()
         if source != runtime or sha(runtime) != entry['sha256'] or len(runtime) != entry['bytes']:
             errors.append(number + ': registered media byte mismatch ' + entry['runtime'])
+    for entry in register['notices']:
+        path = path_inside(ROOT, entry['path'])
+        data = path.read_bytes()
+        packed_path = build / (product + '_Data') / path.relative_to(project / 'Assets')
+        if sha(data) != entry['sha256'] or not packed_path.is_file() or packed_path.read_bytes() != data:
+            errors.append(number + ': registered or packed notice mismatch ' + entry['path'])
     art = json.loads((ROOT / 'sources/art' / folder / 'asset-register.json').read_text(encoding='utf-8-sig'))
     if sha(path_inside(ROOT, art['generator']['path']).read_bytes()) != art['generator']['sha256']:
         errors.append(number + ': art generator hash mismatch')
-    if 'cameraEvidence' in manifest:
-        if sha((evidence / manifest['cameraEvidence']['path']).read_bytes()) != manifest['cameraEvidence']['sha256']:
-            errors.append(number + ': camera evidence hash mismatch')
+    for kind in ('cameraEvidence', 'windowEvidence'):
+        if kind in manifest:
+            if sha(path_inside(evidence, manifest[kind]['path']).read_bytes()) != manifest[kind]['sha256']:
+                errors.append(number + ': ' + kind + ' hash mismatch')
     settings = (project / 'ProjectSettings/ProjectSettings.asset').read_text(encoding='utf-8')
     guid = re.search(r'^  productGUID: (\w+)$', settings, re.MULTILINE).group(1)
     expected_guid = uuid.uuid5(uuid.NAMESPACE_URL, 'https://github.com/angelash/rogue-prototype-lab/tree/main/prototypes/' + folder).hex

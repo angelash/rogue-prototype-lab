@@ -357,5 +357,23 @@
     "listening": "pending actual listening; source audio generation and file checks do not establish in-game audio feedback quality",
     "performance": "pending Player measurement",
     "full_art_or_release": "not claimed"
+  },
+  "metadata_rebuild": {
+    "date": "2026-10-10",
+    "productGUID": "0886d11784ca5aa68a5a556f89533227",
+    "sourceRecipeUnchanged": true,
+    "build": {
+      "unityVersion": "2022.3.62f3c1",
+      "result": "Succeeded",
+      "builtAtUtc": "2026-10-09T18:42:23.3657002Z",
+      "totalBytes": 86842449,
+      "errors": 0,
+      "warnings": 1
+    },
+    "final_camera_sha256": "f5e4e1bc93fd368840e078bc331142728f241feab4703b251d4f1265722555bb",
+    "initialCameraPersonallyReviewed": true,
+    "nativeInputQA": false,
+    "completeHUDDynamicHearingQA": false,
+    "note": "Historical review retained; latest candidate has independent product identity; see project record/audit."
   }
 }
