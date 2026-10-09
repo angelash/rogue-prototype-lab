@@ -2,6 +2,8 @@
 
 设计归档从 [design/README.md](design/README.md) 开始。
 
+本轮最新入口：[第一批项目需求与设计](design/first-batch/README.md)。六个项目都有独立文档目录，分别保存 requirements.md 和 design.md；prototypes/ 中各项目 README 链接对应正文。
+
 | 位置 | 用途 |
 | --- | --- |
 | design/ | 2026-10-09 最终修订结论、31 个候选、验证计划和版本记录 |
