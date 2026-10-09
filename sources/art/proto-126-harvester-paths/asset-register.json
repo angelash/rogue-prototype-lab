@@ -1,0 +1,289 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-10",
+  "creator": "Project assistant, original parameterized C# meshes and material design",
+  "route": "Original Unity Built-in runtime procedural 3D miniature farm; discrete 10x10 and persistent three-round rule retained",
+  "external_media_inputs": [],
+  "rights": "Project-original modeling code/parameters; no third-party art pack copied; Unity engine and independently registered font/audio rights remain separate",
+  "generator": {
+    "path": "prototypes/proto-126-harvester-paths/game/HarvesterPaths/Assets/HarvesterPaths/Presentation/HarvesterSceneView.cs",
+    "sha256": "681df743a1b67af7490a92014049d7219ebf0896138fa126417759506ddeabe8",
+    "encoding": "UTF8 without BOM, LF; verified CR byte count 0",
+    "unity_version": "2022.3.62f3c1",
+    "internal_recipe_reference": {
+      "path": "prototypes/proto-032-sushi-workshop/game/SushiWorkshop/Assets/SushiWorkshop/Presentation/SushiSceneView.cs",
+      "commit": "afee539",
+      "scope": "project-original rounded prism/sphere/annulus/TextMesh recipes only; no sushi scene or gameplay copied"
+    }
+  },
+  "engine_dependencies": [
+    "UnityEngine built-in Cylinder primitive",
+    "Unity Built-in Standard shader"
+  ],
+  "rule_source": "HarvesterPaths Core Rules/Session v0.2.0",
+  "units": "visual meters; Core owns grid, terrain, harvest, modules, cargo and all costs",
+  "coordinate_contract": {
+    "size_source": "Rules.Width/Rules.Height",
+    "size_at_creation": [
+      10,
+      10
+    ],
+    "id": "y*Rules.Width+x",
+    "core_ui": "Core X/Y0..9, UI columns/rows1..10; x left-to-right, y front-to-back",
+    "cell_spacing_m": 0.72,
+    "center": "((x-(Rules.Width-1)/2)*.72,.045,(y-(Rules.Height-1)/2)*.72)",
+    "tile_size_m": [
+      0.696,
+      0.045,
+      0.696
+    ],
+    "tile_top_y_m": 0.045,
+    "pick_proxy_size_m": [
+      0.68,
+      0.28,
+      0.68
+    ],
+    "pick_proxy_center": "cell center + (0,.12,0)",
+    "depot_source": "Rules.DepotX/Y and IsDepot",
+    "depot_cell_at_creation": [
+      1,
+      1
+    ],
+    "depot_label_offset_m": [
+      -0.28,
+      0.085,
+      -0.28
+    ],
+    "row_label_x_m": 4.07,
+    "column_label_z_m": -3.97,
+    "decorative_colliders": false
+  },
+  "mesh_recipes": {
+    "rounded_prism": {
+      "outline_points": 16,
+      "height_layers": 4,
+      "triangles": 128,
+      "edge_bevel_max_m": 0.018
+    },
+    "sphere": {
+      "longitudes": 12,
+      "latitudes": 8,
+      "effective_triangles": 168
+    },
+    "annulus": {
+      "segments": 64,
+      "surfaces": 4,
+      "triangles": 512
+    },
+    "arrow": {
+      "triangles": 1
+    },
+    "full_frame": {
+      "rounded_bars": 4
+    },
+    "corner_frame": {
+      "rounded_bars": 8
+    }
+  },
+  "palette_count": 25,
+  "palette_source": "BuildPalette/AddMaterial; Standard metallic0 by default, glossiness.24, tooth metal.30, emphasis emission color*.10",
+  "world_text": {
+    "font_resource": "Fonts/NotoSansCJKsc-Regular",
+    "font_rights_source": "runtime-resource-register.json",
+    "atlas_px": 64,
+    "character_size": "requested world glyph height*10/64",
+    "outer_coordinate_glyph_height_m": 0.22,
+    "module_name_glyph_height_m": 0.18,
+    "cargo_count_glyph_height_m": 0.17,
+    "module_label_offset_m": [
+      0,
+      1.04,
+      0
+    ],
+    "module_label_back_width_m": 0.74,
+    "cargo_label_world_offset_m": [
+      0,
+      0.25,
+      -0.8
+    ],
+    "cargo_label_back_width_m": 0.68,
+    "terrain_glyph_height_m": 0.16,
+    "caption": "camera-facing dark text on cream back; terrain 泥/路, depot 仓/粮仓, actual 箱used/capacity independently below module label, module names, actual StoredStraw"
+  },
+  "camera": {
+    "projection": "orthographic fixed oblique",
+    "position_m": [
+      0.3,
+      11.0,
+      -11.4
+    ],
+    "look_at_m": [
+      0,
+      0.25,
+      0.35
+    ],
+    "size": "max(3.95,5.65/max(.6,final pixelRect aspect))",
+    "rect_owner": "Runtime; Build preserves provided camera.rect",
+    "coordinator_rect_at_creation": [
+      0.225,
+      0.14,
+      0.775,
+      0.66
+    ],
+    "ambient_rgb": [
+      0.7,
+      0.73,
+      0.68
+    ],
+    "key_intensity": 0.85
+  },
+  "render_contract": {
+    "independent_root": "HarvesterFarm_OriginalArt",
+    "snapshot": "Session.State deep-copy, read-only",
+    "terrain": "TileState.Kind/Harvested/Paved; no regeneration on new round",
+    "harvest_coverage": "exact PreviewHarvest.CoverageCells full blue frame; out-of-board points only omitted from drawing",
+    "actual_targets": "exact PreviewHarvest.TargetCells gold corners; no crop or yield inference from meshes",
+    "selection": "coordinator-selected cell white ring; does not promise PreviewPave legality",
+    "cargo": "one box, actual Grain+Straw units; grain spheres and straw bundles share Capacity slots; precise counts owned by Core/HUD",
+    "capacity_source": "Vehicle.Capacity/CargoUsed",
+    "fuel_source": "Vehicle.Fuel/Rules.MaxFuel; no initial-fuel value copied into view",
+    "module_samples": "off-grid explanatory samples only, do not install or stack abilities",
+    "local_rebuild": "terrain signatures, module selection, cargo count/capacity and preview signatures only",
+    "lifecycle": "module rebuild destroys old box/count caption together; own meshes/materials released",
+    "motion": "immediate confirmed cell/facing presentation; no speculative transactions or particles"
+  },
+  "assets": [
+    {
+      "id": "HRV-ART-FIELD",
+      "name": "十乘十农田台景",
+      "shape": "暖木底/草土格/行列/图例",
+      "dimensions_m": {
+        "base": [
+          11.1,
+          0.28,
+          9.35
+        ],
+        "tile": [
+          0.696,
+          0.045,
+          0.696
+        ]
+      },
+      "mapping": "Rules size, actual tile state",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-CROP",
+      "name": "低麦束",
+      "shape": "五株麦秆/金麦头/绿叶",
+      "mapping": "TileKind.Crop only; stalk count not yield",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-HARVESTED",
+      "name": "收后通路",
+      "shape": "浅土地/四土垄/三残茬",
+      "mapping": "actual Harvested with Ground, no duplicate harvest",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-MUD",
+      "name": "泥地",
+      "shape": "双湿斑/浅轮辙/泥字浅牌",
+      "mapping": "TileKind.Mud",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-PAVED",
+      "name": "秸秆路",
+      "shape": "七条横秸秆/路字浅牌",
+      "mapping": "actual Paved, replaces mud display",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-VEHICLE",
+      "name": "青白收割车",
+      "shape": "车体/驾驶室/窗/轮子/方向箭/燃料条",
+      "mapping": "Vehicle X/Y/Facing/Fuel",
+      "dimensions_m": {
+        "chassis": [
+          0.44,
+          0.26,
+          0.52
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-HEADER",
+      "name": "窄宽割台",
+      "shape": "横割台/卷筒/5或11齿",
+      "mapping": "Vehicle.Module; coverage authority remains Core",
+      "dimensions_m": {
+        "narrow_width": 0.55,
+        "wide_width": 1.86
+      },
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-ROLLER",
+      "name": "滚轮履带",
+      "shape": "两长壳/六条凸带",
+      "mapping": "ModuleKind.Roller only",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-CARGO",
+      "name": "双货共享箱",
+      "shape": "一开口箱/粮圆粒与秸短条束/实际容量牌",
+      "mapping": "Grain/Straw/Capacity/CargoUsed, CargoBox changes box",
+      "dimensions_m": {
+        "base_width_height": [
+          0.38,
+          0.14
+        ],
+        "large_width_height": [
+          0.48,
+          0.25
+        ]
+      },
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-DEPOT",
+      "name": "仓库功能点与小粮仓",
+      "shape": "蓝垫/白圈/仓字/奶油房/蓝门/斜顶/库存秸牌",
+      "mapping": "actual Depot and StoredStraw; not fourth terrain type",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-MODULE-SAMPLES",
+      "name": "三改装小样",
+      "shape": "滚轮/宽切头/大箱体微型模型与浅名牌",
+      "mapping": "explanatory off-grid shapes, no installed rule effect",
+      "source": "generator"
+    },
+    {
+      "id": "HRV-ART-PREVIEW",
+      "name": "切幅与选点",
+      "shape": "蓝完整框/金角括号/白环",
+      "mapping": "Core CoverageCells/TargetCells and coordinator selection",
+      "source": "generator"
+    }
+  ],
+  "review": {
+    "code_api": "read actual Rules/Session v0.2.0 DTOs and PreviewHarvest; art owner did not run Unity",
+    "source_bytes": "UTF8 without BOM and LF verified; CR byte count0",
+    "mesh_orientation": "directed original shared recipe review; tiny-axis bevel constrained; captions dark on light backs",
+    "unity_compile": "Coordinator actual39/39 Unity passed; revised-label ordinary Mono final package86907600bytes,0 errors/0 warnings, UTC2026-10-09T18:37:43.7513022Z. Initial1 Ambient Probe warning preserved in project record.",
+    "actual_game_camera": "Coordinator personally viewed revised1600x900 GameCamera: separated upper module name/lower shared-capacity plate readable;100 cells/ten crop tiles/mud/depot/vehicle/coverage/selection/module samples visible. Initial-state camera only; no complete HUD/native/dynamic claim.",
+    "first_camera_sha256": "88a2ec76ed4ecdaad961783791ab2a73070283ce8a1484f6941d985b0ab723da",
+    "directed_fix": "vehicle module label raised .88->1.04m, glyph .20->.18 and width .82->.74; cargo count prefix箱, glyph.17/width.68 at world vehicle-cell+(0,.25,-.80), independent of facing; no model/tile/rule/camera/proxy change",
+    "dynamic_feedback": "pending terrain harvest/paving, actual dual cargo, fuel, all modules, three persistent rounds, depot unloading/refuel and restore",
+    "native_window_input_and_hud": "pending; recent coordinator Windows security permission modal blocked native QA; no security UI operated",
+    "listening": "pending actual Player listening; resource hash checks do not prove playback quality",
+    "performance": "pending actual Player frame/draw/mesh measurement",
+    "full_art_or_release": "not claimed",
+    "final_camera_sha256": "6b62a763c2efd20e5eb339a683cad6ff8098c12bc0cf16029c35bd231a5bfffe"
+  }
+}

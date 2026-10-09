@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="39" result="Passed" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.3106561">
+  <test-suite type="TestSuite" id="1050" name="Harvester Paths Prototype" fullname="Harvester Paths Prototype" runstate="Runnable" testcasecount="39" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.310656" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1096" name="HarvesterPaths.Tests.EditMode.dll" fullname="F:/workspace/rogue-prototype-lab/prototypes/proto-126-harvester-paths/game/HarvesterPaths/Library/ScriptAssemblies/HarvesterPaths.Tests.EditMode.dll" runstate="Runnable" testcasecount="39" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.293276" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="81932" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1097" name="HarvesterPaths" fullname="HarvesterPaths" runstate="Runnable" testcasecount="39" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.292870" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1098" name="Tests" fullname="HarvesterPaths.Tests" runstate="Runnable" testcasecount="39" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.289279" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1051" name="PersistenceTests" fullname="HarvesterPaths.Tests.PersistenceTests" classname="HarvesterPaths.Tests.PersistenceTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.210486" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1053" name="InterruptedSaveLeavesOldCompleteField" fullname="HarvesterPaths.Tests.PersistenceTests.InterruptedSaveLeavesOldCompleteField" methodname="InterruptedSaveLeavesOldCompleteField" classname="HarvesterPaths.Tests.PersistenceTests" runstate="Runnable" seed="326676428" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.065482" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1054" name="InvalidNewWalletNeverReplacesLegalResourceLedger" fullname="HarvesterPaths.Tests.PersistenceTests.InvalidNewWalletNeverReplacesLegalResourceLedger" methodname="InvalidNewWalletNeverReplacesLegalResourceLedger" classname="HarvesterPaths.Tests.PersistenceTests" runstate="Runnable" seed="1312243563" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.023953" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1055" name="RecoveryThenSavePreservesOnlyValidOldField" fullname="HarvesterPaths.Tests.PersistenceTests.RecoveryThenSavePreservesOnlyValidOldField" methodname="RecoveryThenSavePreservesOnlyValidOldField" classname="HarvesterPaths.Tests.PersistenceTests" runstate="Runnable" seed="149791578" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.074017" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1052" name="RestoredRoundVehicleAndPersistentFieldMatchCommittedAction" fullname="HarvesterPaths.Tests.PersistenceTests.RestoredRoundVehicleAndPersistentFieldMatchCommittedAction" methodname="RestoredRoundVehicleAndPersistentFieldMatchCommittedAction" classname="HarvesterPaths.Tests.PersistenceTests" runstate="Runnable" seed="647445835" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.029836" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1056" name="SessionTests" fullname="HarvesterPaths.Tests.SessionTests" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" testcasecount="35" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.074276" total="35" passed="35" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1083" name="BudgetExhaustionFailsAndRetryResetsWholeRun" fullname="HarvesterPaths.Tests.SessionTests.BudgetExhaustionFailsAndRetryResetsWholeRun" methodname="BudgetExhaustionFailsAndRetryResetsWholeRun" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="640407542" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.002491" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1084" name="CompletedRoundOnlyAllowsOldBudgetMaintenanceAndCapacityCheckedContinue" fullname="HarvesterPaths.Tests.SessionTests.CompletedRoundOnlyAllowsOldBudgetMaintenanceAndCapacityCheckedContinue" methodname="CompletedRoundOnlyAllowsOldBudgetMaintenanceAndCapacityCheckedContinue" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="690380592" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.003070" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1072" name="DeliveryAmountOutsideActualCargoOrOrderRejects" fullname="HarvesterPaths.Tests.SessionTests.DeliveryAmountOutsideActualCargoOrOrderRejects" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.001374" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1069" name="DeliveryAmountOutsideActualCargoOrOrderRejects(0)" fullname="HarvesterPaths.Tests.SessionTests.DeliveryAmountOutsideActualCargoOrOrderRejects(0)" methodname="DeliveryAmountOutsideActualCargoOrOrderRejects" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1547772910" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000412" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1070" name="DeliveryAmountOutsideActualCargoOrOrderRejects(-1)" fullname="HarvesterPaths.Tests.SessionTests.DeliveryAmountOutsideActualCargoOrOrderRejects(-1)" methodname="DeliveryAmountOutsideActualCargoOrOrderRejects" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1883915803" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000158" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1071" name="DeliveryAmountOutsideActualCargoOrOrderRejects(4)" fullname="HarvesterPaths.Tests.SessionTests.DeliveryAmountOutsideActualCargoOrOrderRejects(4)" methodname="DeliveryAmountOutsideActualCargoOrOrderRejects" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="787296080" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000147" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1073" name="DepotCommandsCannotRunRemotely" fullname="HarvesterPaths.Tests.SessionTests.DepotCommandsCannotRunRemotely" methodname="DepotCommandsCannotRunRemotely" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="745160489" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.002209" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1095" name="FailedRunRestoreIsSafeAndRestoredDuplicateCommandDoesNotConsumeAgain" fullname="HarvesterPaths.Tests.SessionTests.FailedRunRestoreIsSafeAndRestoredDuplicateCommandDoesNotConsumeAgain" methodname="FailedRunRestoreIsSafeAndRestoredDuplicateCommandDoesNotConsumeAgain" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="2017493747" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.006247" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1082" name="FinalActionDeliveryCompletesAllThreeAtZeroBudget" fullname="HarvesterPaths.Tests.SessionTests.FinalActionDeliveryCompletesAllThreeAtZeroBudget" methodname="FinalActionDeliveryCompletesAllThreeAtZeroBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1850993366" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.001395" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1086" name="FullReplayRestoreAtRoundBoundaryAndActiveRunContinuesIdentically" fullname="HarvesterPaths.Tests.SessionTests.FullReplayRestoreAtRoundBoundaryAndActiveRunContinuesIdentically" methodname="FullReplayRestoreAtRoundBoundaryAndActiveRunContinuesIdentically" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="31660499" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.017815" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1058" name="HarvestChangesPassageAndCannotProduceTwice" fullname="HarvesterPaths.Tests.SessionTests.HarvestChangesPassageAndCannotProduceTwice" methodname="HarvestChangesPassageAndCannotProduceTwice" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="145322584" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000900" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1067" name="InvalidPaveTargetsDoNotConsumeCargoOrBudget" fullname="HarvesterPaths.Tests.SessionTests.InvalidPaveTargetsDoNotConsumeCargoOrBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.003585" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1063" name="InvalidPaveTargetsDoNotConsumeCargoOrBudget(-1,0)" fullname="HarvesterPaths.Tests.SessionTests.InvalidPaveTargetsDoNotConsumeCargoOrBudget(-1,0)" methodname="InvalidPaveTargetsDoNotConsumeCargoOrBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="289485076" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000543" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1064" name="InvalidPaveTargetsDoNotConsumeCargoOrBudget(10,0)" fullname="HarvesterPaths.Tests.SessionTests.InvalidPaveTargetsDoNotConsumeCargoOrBudget(10,0)" methodname="InvalidPaveTargetsDoNotConsumeCargoOrBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="2002343574" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.001551" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1065" name="InvalidPaveTargetsDoNotConsumeCargoOrBudget(2,1)" fullname="HarvesterPaths.Tests.SessionTests.InvalidPaveTargetsDoNotConsumeCargoOrBudget(2,1)" methodname="InvalidPaveTargetsDoNotConsumeCargoOrBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="979759315" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000378" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1066" name="InvalidPaveTargetsDoNotConsumeCargoOrBudget(8,8)" fullname="HarvesterPaths.Tests.SessionTests.InvalidPaveTargetsDoNotConsumeCargoOrBudget(8,8)" methodname="InvalidPaveTargetsDoNotConsumeCargoOrBudget" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="20259684" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000272" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1081" name="LastActionDeliveryCompletesRoundBeforeDeadlineAndContinuePreservesCargo" fullname="HarvesterPaths.Tests.SessionTests.LastActionDeliveryCompletesRoundBeforeDeadlineAndContinuePreservesCargo" methodname="LastActionDeliveryCompletesRoundBeforeDeadlineAndContinuePreservesCargo" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1595057318" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000890" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1078" name="ModulesExposeCapacityAndMudCostsFromSameInitialField" fullname="HarvesterPaths.Tests.SessionTests.ModulesExposeCapacityAndMudCostsFromSameInitialField" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.001896" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1074" name="ModulesExposeCapacityAndMudCostsFromSameInitialField(None,6,2,3)" fullname="HarvesterPaths.Tests.SessionTests.ModulesExposeCapacityAndMudCostsFromSameInitialField(None,6,2,3)" methodname="ModulesExposeCapacityAndMudCostsFromSameInitialField" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="719153165" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000704" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1075" name="ModulesExposeCapacityAndMudCostsFromSameInitialField(Roller,4,1,1)" fullname="HarvesterPaths.Tests.SessionTests.ModulesExposeCapacityAndMudCostsFromSameInitialField(Roller,4,1,1)" methodname="ModulesExposeCapacityAndMudCostsFromSameInitialField" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="49258570" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000202" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1076" name="ModulesExposeCapacityAndMudCostsFromSameInitialField(WideHead,6,2,3)" fullname="HarvesterPaths.Tests.SessionTests.ModulesExposeCapacityAndMudCostsFromSameInitialField(WideHead,6,2,3)" methodname="ModulesExposeCapacityAndMudCostsFromSameInitialField" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="292906219" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000177" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1077" name="ModulesExposeCapacityAndMudCostsFromSameInitialField(CargoBox,10,2,4)" fullname="HarvesterPaths.Tests.SessionTests.ModulesExposeCapacityAndMudCostsFromSameInitialField(CargoBox,10,2,4)" methodname="ModulesExposeCapacityAndMudCostsFromSameInitialField" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1756135684" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000162" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1060" name="NarrowFullCargoRejectsWholeHarvest" fullname="HarvesterPaths.Tests.SessionTests.NarrowFullCargoRejectsWholeHarvest" methodname="NarrowFullCargoRejectsWholeHarvest" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1426347257" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000459" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1057" name="NoneGoldenAllThreeRoundsClosesIndependentLedgers" fullname="HarvesterPaths.Tests.SessionTests.NoneGoldenAllThreeRoundsClosesIndependentLedgers" methodname="NoneGoldenAllThreeRoundsClosesIndependentLedgers" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="805473245" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.002766" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1068" name="PartialDeliverAndRefuelHaveSeparateCostsNoFreeDeadline" fullname="HarvesterPaths.Tests.SessionTests.PartialDeliverAndRefuelHaveSeparateCostsNoFreeDeadline" methodname="PartialDeliverAndRefuelHaveSeparateCostsNoFreeDeadline" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="713675754" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000800" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1062" name="PavingChangesActualDriveCostAndPersistsNextRound" fullname="HarvesterPaths.Tests.SessionTests.PavingChangesActualDriveCostAndPersistsNextRound" methodname="PavingChangesActualDriveCostAndPersistsNextRound" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="777527602" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000550" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1093" name="RestoreRejectsForgedButOtherwisePlausibleState" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.020079" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1087" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;fuel&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;fuel&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1870404586" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.003328" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1088" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;phase&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;phase&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1840381649" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.004083" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1089" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;tile&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;tile&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="93298667" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.002692" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1090" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;wallet&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;wallet&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1523748698" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.003756" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1091" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;argument&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;argument&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1047857008" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000218" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1092" name="RestoreRejectsForgedButOtherwisePlausibleState(&quot;round&quot;)" fullname="HarvesterPaths.Tests.SessionTests.RestoreRejectsForgedButOtherwisePlausibleState(&quot;round&quot;)" methodname="RestoreRejectsForgedButOtherwisePlausibleState" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="982522977" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.004015" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1061" name="SameStrawBranchesConvertOrPaveAndCannotPayBoth" fullname="HarvesterPaths.Tests.SessionTests.SameStrawBranchesConvertOrPaveAndCannotPayBoth" methodname="SameStrawBranchesConvertOrPaveAndCannotPayBoth" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="142080596" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000868" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1085" name="StateAndPreviewAreDetachedAndRepeatedCommandIdHasNoReward" fullname="HarvesterPaths.Tests.SessionTests.StateAndPreviewAreDetachedAndRepeatedCommandIdHasNoReward" methodname="StateAndPreviewAreDetachedAndRepeatedCommandIdHasNoReward" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1597039247" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000452" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1094" name="UnknownVersionAndMalformedArraysAreRejectedWithoutThrowing" fullname="HarvesterPaths.Tests.SessionTests.UnknownVersionAndMalformedArraysAreRejectedWithoutThrowing" methodname="UnknownVersionAndMalformedArraysAreRejectedWithoutThrowing" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1251911024" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000684" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="WideHarvestMustFitEveryActualTargetWithoutPartialChanges" fullname="HarvesterPaths.Tests.SessionTests.WideHarvestMustFitEveryActualTargetWithoutPartialChanges" methodname="WideHarvestMustFitEveryActualTargetWithoutPartialChanges" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="1048887104" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000914" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1079" name="WideHeadPaysForWiderHarvestAndTurnCannotSwitchToNarrow" fullname="HarvesterPaths.Tests.SessionTests.WideHeadPaysForWiderHarvestAndTurnCannotSwitchToNarrow" methodname="WideHeadPaysForWiderHarvestAndTurnCannotSwitchToNarrow" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="433131959" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000602" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1080" name="ZeroFuelAllowsZeroFuelTurnUntilFixedActionDeadline" fullname="HarvesterPaths.Tests.SessionTests.ZeroFuelAllowsZeroFuelTurnUntilFixedActionDeadline" methodname="ZeroFuelAllowsZeroFuelTurnUntilFixedActionDeadline" classname="HarvesterPaths.Tests.SessionTests" runstate="Runnable" seed="126211018" result="Passed" start-time="2026-10-09 18:32:21Z" end-time="2026-10-09 18:32:21Z" duration="0.000657" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

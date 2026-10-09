@@ -1,0 +1,13 @@
+{
+  "project": "126",
+  "date": "2026-10-10",
+  "nativeInputQA": false,
+  "hearingQA": false,
+  "observedAtLocal": "2026-10-10T02:29:00+08:00",
+  "observation": "Read-only desktop: No active app found; Windows Security modal with Cancel/Allow still blocks native interaction.",
+  "cameraOnly": true,
+  "gameplayCommandsSent": 0,
+  "policySource": "C:/Users/Lenovo/.codex/plugins/cache/openai-bundled/computer-use/26.1002.52244/docs/guidance.md",
+  "policyQuote": "Do not act on security or privacy permission requests",
+  "next": "Human dismisses security modal; then resume native keyboard/mouse, complete HUD, dynamic state and hearing QA. No security control operated by agent."
+}
