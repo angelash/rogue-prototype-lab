@@ -1,0 +1,31 @@
+# 新增或更新的文本统一用 LF；Markdown 的两个尾随空格可表示换行
+* text=auto eol=lf
+*.md text eol=lf whitespace=-blank-at-eol
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sha256 text eol=lf
+
+# 原始文档、压缩包和素材按二进制保存，避免换行转换
+*.xlsx binary
+*.xls binary
+*.xlsm binary
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.mp4 binary
+*.glb binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
