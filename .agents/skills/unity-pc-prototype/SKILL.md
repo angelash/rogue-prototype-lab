@@ -15,10 +15,14 @@ description: 为本仓 Unity PC 单机原型拆分任务、实现已授权行为
 - 规则或数值：按任务读 [02 玩法](../../../docs/design/first-batch/proto-013-ring-toss/full-game/02-gameplay-systems.md)、[04 参数](../../../docs/design/first-batch/proto-013-ring-toss/full-game/04-economy-and-balance.md) 与 [06 存档合同](../../../docs/design/first-batch/proto-013-ring-toss/full-game/06-technical-save-and-accessibility.md)。不在技能中另建参数副本。
 - 素材变化：交给 [素材技能](../ring-toss-asset-pipeline/SKILL.md)，按 09 路由 Blender 三维低模旧物、二维人物/背景、UI 和音频，只读取这次涉及的资产规格。固定二维规则与三维表现分别核验，不因模型导入改变判定。
 - Steam 构建或发行准备：读 [11 Steam 计划](../../../docs/design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md)。以真实接口和授权执行，不假定已接入 SDK、取得 App ID 或具备发布权限。
+- 开工现状与缺口：读 [12 准备度](../../../docs/design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 和 [准备检查入口](../../../scripts/README.md)。先复核实际环境，区分文件存在、工具探针、Unity 编译和 Player 实测；独立 .NET 检查不能代替 Unity 兼容验证。
+- 关卡、剧情或验证数据：按任务读 [13 内容与验证合同](../../../docs/design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)。正式配置、预览、回放与可达证据共用 Core；统计合法解锁/预装覆盖，不用抽样冒充全量，不静默删掉合法难例。
 
 ## 开发方式
 
 采用 [10](../../../docs/design/first-batch/proto-013-ring-toss/full-game/10-development-workflow-and-skills.md) 的任务包：目标、现状、输入与输出、状态所有者、范围、验收、证据和接续点。小任务直接完成；跨系统工作拆成可玩的纵切，不先搭通用框架。
+
+用户已明确后续开发由助手处理。程序、内容、正式素材、测试和构建由助手完成；真实身份/签署/付款、尚未取得的设备/玩家和平台权限按实际条件记录。首个 Player 必须验证真实窗口输入与画面，自动场景驱动只能辅助复现，不能代替所有 UI 路径。
 
 投掷、命中、机关消耗、现金事务和局流程使用同一权威规则层。纯判断与数学不依赖画面帧率、角色动画、Unity 场景对象或 Steam 回调；输入和表现通过薄适配接入。修复真实行为缺陷时，先通过生产路径复现，再增加能区分正确与错误结果的回归检查。仅改文案或装饰时，采用链接、布局或视觉核验，不镜像实现堆测试。
 

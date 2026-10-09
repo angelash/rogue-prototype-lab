@@ -1,6 +1,6 @@
 # 决策与建议记录
 
-版本：2026-10-09 v5（补充 013 的 Unity PC、Steam、资产与开发能力要求）
+版本：2026-10-09 v6（登记助手承担后续开发、内容/能力审计与实际工具探针）
 
 ## 用户明确要求
 
@@ -15,6 +15,7 @@
 | 第一批项目文档 | 2026-10-09 用户要求汇总标星优先项目，追加贪吃蛇孵化场，建立独立目录、需求与设计文档，全部整理后提交；用户明确追加 027 |
 | 013 全面设计补充 | 2026-10-09 用户明确要求先补充套圈改造摊的世界观、剧情、人物、玩法、数值以及其他完整游戏必要内容；本轮完善设计文档，未要求开始实现 |
 | 013 技术与制作补充 | 同日用户进一步指定 Unity、使用本地安装版本、参考 highschool、PC 单机、目标 Steam；评估 Blender/图像生成及 world-of-claudecraft 的开源资产、文档和技能，丰富本仓开发能力与文档 |
+| 后续开发责任与缺口 | 同日用户明确后续开发全部由助手处理，要求现在检查并整理内容和能力不足；当前完成审计、规格补充、隔离工具验证和准备检查，尚未开始正式游戏实现 |
 
 目录名 rogue-prototype-lab、显示名“系列游戏原型开发”是本次委派提供的建议。目录已按建议创建，项目绑定尚未完成。
 
@@ -41,7 +42,7 @@
 
 ## 013 完整游戏草案与当前验证边界
 
-完整游戏草案初版为 v0.2，原有八个专题保留；当前 [总入口 v0.3](../design/first-batch/proto-013-ring-toss/full-game/README.md) 再增加四个技术与制作专题。用户选择先完善 013 文档，不等于指定六个项目的实际实现顺序。
+完整游戏草案初版为 v0.2，原有八个专题保留；v0.3 增加四个技术与制作专题，当前 [总入口 v0.4](../design/first-batch/proto-013-ring-toss/full-game/README.md) 再补缺口与内容验证合同，共十四个专题。用户选择先完善 013 文档，不等于指定六个项目的实际实现顺序。
 
 助手提出回湾河港旧物巡回题材、六人物、三章十二摊、三圈六机关、现金双账和有限跨摊携带；一次性购买、25–40 分钟局长仍是候选建议。桌面离线在初版中是候选，随后用户明确选择 PC 单机。所有具体价格、物理初值、解锁与放行门槛尚未由用户定案。
 
@@ -53,7 +54,15 @@
 
 助手建议固定正交 2.5D，Blender 低模圈、奖品、机关配二维人物/背景及原生 UI；规则采用纯 C# 二维模拟。工程目录、Input/TMP/URP 候选、代次快照、样件预算、音频生产、平台可选成就/云存档均为待实施和验证方案，未成为用户逐项决定。
 
-已新增 [开发流程与两项仓库技能](../design/first-batch/proto-013-ring-toss/full-game/10-development-workflow-and-skills.md)，借鉴参考仓的任务包、规则隔离、QA 与语义集成方法；[Steam 方案](../design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md) 定义发行包、商店一致性与来源披露。参考仓自有或受限媒体不直接转用，CC0 资产仍是候选未导入。本轮没有创建工程、安装软件、生产素材、上传 Steam 或上架。
+已新增 [开发流程与两项仓库技能](../design/first-batch/proto-013-ring-toss/full-game/10-development-workflow-and-skills.md)，借鉴参考仓的任务包、规则隔离、QA 与语义集成方法；[Steam 方案](../design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md) 定义发行包、商店一致性与来源披露。参考仓自有或受限媒体不直接转用，CC0 资产仍是候选未入本游戏。本轮没有创建游戏工程、安装软件、生产正式素材、上传 Steam 或上架。
+
+## 内容与能力审计、后续责任
+
+用户已明确后续开发全部由助手处理。助手承担程序、关卡配置、剧情全文、模型/图片/UI、音频、来源记录、测试修复、构建、发行材料和备份，不把未制作内容默认交回用户。后续实际开发按当前任务和既有授权连续完成必要步骤，不额外设置逐阶段确认。真实身份、签署、付款和平台权限、真实玩家与目标设备是需要实际条件和证据的事项。
+
+已登记 [12 的 16 项缺口与工作包](../design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md)，新增 [13 的内容与验证合同](../design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)，补工坊笔记/存档错误交互、音频生产和真实游戏录像规格；这些为助手实施建议，没有改变 04 参数。正式故事、布局/可达证明、资产、Unity 游戏与测试仍未生产。
+
+隔离实测通过 Blender 保存/FBX/GLB/透明渲染、单个参考码头 GLB 载入、WAV→OGG 和合成帧→MP4。Windows MCP 命令成功并确认同工作区，另一 Node REPL 桌面路线启动失败，实际 Player 输入/截图未测。证据见 [能力登记](../../sources/references/development-capability-audit-2026-10-09.md)。已新增 [可运行准备检查](../../scripts/README.md)；两项技能在本轮根会话实际发现并读取，尚无正式游戏/素材生产验证。
 
 ## 尚未作出的决定
 
@@ -68,6 +77,6 @@
 
 ## 仓库备份记录
 
-远程仓库由用户创建：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)。已按后续授权配置本地 Git、忽略规则、原始资料快照与上传管理，见 [仓库与备份管理](../version-control.md)。本地工作簿已移入 sources/chatgpt/，只读核对后内容仍未修改；当前仅整理项目与设计文档，游戏实现和软件安装以用户后续指令为准。
+远程仓库由用户创建：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)。已按既有授权管理提交和上传，见 [仓库与备份管理](../version-control.md)。本地工作簿已移入 sources/chatgpt/，只读核对后内容仍未修改；当前完成设计和开发准备，后续按用户要求由助手承担开发，安装与对外发布按届时实际授权识别。
 
 来源：[最终修订答复](https://chatgpt.com/c/6ac781cd-a38c-83ee-919d-ad5b4904149a?messageId=0f782f82-bad3-59e7-8aa2-8dd30fae291b)。

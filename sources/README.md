@@ -18,3 +18,5 @@ sources/ 保存设计方案的可追溯来源，整理后的结论放到 docs/de
 初始快照保留工作簿原来位于 `docs/` 的版本。新增资料的版本保存、上传及恢复约定见 [仓库与备份管理](../docs/version-control.md)。
 
 2026-10-09 技术与制作补充的 [本地工程参考登记](references/local-project-reference-register.md) 保存 highschool、world-of-claudecraft 的原路径/文件名、Git 快照、校验和筛选理由，以及现有 Unity/Blender 能力证据。外部原文件和媒体保持只读，没有复制整个参考仓或将候选素材入库；整理方案见 013 的 [完整设计入口](../docs/design/first-batch/proto-013-ring-toss/full-game/README.md)。
+
+同日新增 [开发能力实测登记](references/development-capability-audit-2026-10-09.md)：保留机器/运行时、桌面通道、Blender 保存与导出/透明渲染、单个候选 GLB 加载及音视频编码探针的实际结果和边界。隔离输出留在忽略的 `.local/`，来源文件没有改动；这些证据不代表正式素材入库或 Unity 导入通过。

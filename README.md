@@ -5,8 +5,8 @@
 - 本机路径：`F:\workspace\rogue-prototype-lab`
 - 计划中的 Codex 项目显示名：**系列游戏原型开发**
 - 设置日期：2026-10-09
-- 当前状态：第一批 6 个项目已有独立需求与设计 v0.1，013 套圈改造摊已补至完整方案 v0.3，包含 Unity PC、资产生产、开发技能与 Steam；原工作簿及历史结论保留，内容由 Git/GitHub 管理。Codex 项目绑定仍待确认。
-- 工作范围：目录设置、资料归档、仓库备份与游戏设计文档；尚未实现或实测游戏原型。
+- 当前状态：第一批 6 个项目已有独立需求与设计 v0.1，013 套圈改造摊完整方案入口已补至 v0.4，新增内容/能力缺口、生产验证合同和可运行准备检查；原工作簿及历史结论保留，内容由 Git/GitHub 管理。Codex 项目绑定仍待确认。
+- 当前完成范围：资料与设计、仓库备份、能力审计及隔离工具探针；尚未实现或实测游戏原型。用户已明确后续开发全部由助手处理。
 - 仓库：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)（公开）；主分支 `main`，远程名 `origin`。
 - 日常上传、校验和恢复步骤见 [仓库与备份管理](docs/version-control.md)。
 
@@ -14,7 +14,9 @@
 
 最新入口：[第一批项目需求与设计总览](docs/design/first-batch/README.md)，包含回转寿司工坊、套圈改造摊、回收保洁队、贪吃蛇孵化场、磁铁拾荒者、收割机自己铺路。
 
-本轮专项补充：[套圈改造摊完整方案 v0.3](docs/design/first-batch/proto-013-ring-toss/full-game/README.md)，覆盖世界与人物、三章十二摊、玩法和数值、音画交互、保存、Unity 工程、资产生产与 Steam 交付。用户已选择 Unity、现有安装、PC 单机与 Steam 目标；本机核实为 2022.3.62f3c1。固定正交 2.5D 和 Blender/生图分工仍为助手建议，尚未创建游戏工程或生产素材。
+本轮专项补充：[套圈改造摊完整方案 v0.4](docs/design/first-batch/proto-013-ring-toss/full-game/README.md)，覆盖完整设计、Unity PC/Steam，以及当前缺口和内容生产验证。用户已选择 Unity、现有安装、PC 单机与 Steam 目标；本机核实为 2022.3.62f3c1。固定正交 2.5D 和 Blender/生图分工仍为助手建议，尚未创建游戏工程或生产正式素材。
+
+后续开发先读 [12 缺口与补齐计划](docs/design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 和 [13 内容与验证合同](docs/design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)。程序、内容、音画、测试与构建由助手处理；16 项缺口按阶段、产物和完成证据登记。已有 [准备检查脚本](scripts/README.md)，Blender 与音视频编码的实际探针见 [能力审计](sources/references/development-capability-audit-2026-10-09.md)。
 
 开发入口：[Unity PC 技术方案](docs/design/first-batch/proto-013-ring-toss/full-game/08-unity-pc-technical-plan.md) · [美术与资产生产](docs/design/first-batch/proto-013-ring-toss/full-game/09-art-and-asset-production.md) · [开发流程与两项技能](docs/design/first-batch/proto-013-ring-toss/full-game/10-development-workflow-and-skills.md) · [Steam 发行](docs/design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md)。
 

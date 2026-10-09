@@ -2,7 +2,7 @@
 
 版本：v0.1；日期：2026-10-09（Asia/Shanghai）。本批按现有优先推荐与用户追加项整理，共 6 个项目；需求与设计已独立归档，尚未实现或实测。
 
-后续专项版本：013 套圈改造摊完整方案 v0.3（同日），按用户新要求补充完整设计、Unity PC 技术、美术生产、技能与 Steam。其余项目仍为 v0.1；本批编号、名单解释和未指定的实现顺序保持各自决策归属。
+后续专项版本：013 套圈改造摊完整方案入口 v0.4（同日），按用户新要求补充完整设计、Unity PC/Steam、素材与技能，进一步登记 [开发缺口](proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 和 [内容验证合同](proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)。用户已明确后续开发由助手处理；其余项目仍为 v0.1，本批编号、名单解释和未指定的实现顺序保持各自决策归属。
 
 ## 范围与决策归属
 
@@ -30,7 +30,7 @@
 
 [项目目录](../../../prototypes/proto-013-ring-toss/README.md) · [需求文档](proto-013-ring-toss/requirements.md) · [设计文档](proto-013-ring-toss/design.md)
 
-[完整方案 v0.3](proto-013-ring-toss/full-game/README.md)：河港旧物巡回题材、六人物、三章十二摊、三圈六机关，以及经济、音画交互、存档、无障碍、Unity 工程与 Steam 准备。用户明确选择现有 Unity、PC 单机与 Steam 目标；2.5D 低模道具配二维人物/背景、具体内容与数值仍是助手建议。保留最小原型验证门槛，再推进一章纵切。
+[完整方案入口 v0.4](proto-013-ring-toss/full-game/README.md)：完整蓝图、Unity PC/Steam、16 项开发缺口、内容生产和验证合同。用户明确选择现有 Unity、PC 单机与 Steam 目标，并由助手承担后续开发；2.5D 低模道具配二维人物/背景、具体内容与数值仍是助手建议。保留最小原型验证门槛，再推进一章纵切。
 
 ### 051 回收保洁队
 

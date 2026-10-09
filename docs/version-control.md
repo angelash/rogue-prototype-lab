@@ -17,6 +17,8 @@
 
 2026-10-09 技术方案补充后，Unity 缓存与生成构建的忽略规则已用计划工程路径核对；正式 Assets、ProjectSettings、Packages 锁文件和 `.meta` 需要保留。Blender `.blend`、导出 `.fbx`、`.tga/.exr` 与 `.otf` 增加二进制属性，自动 `.blend1/.blend2` 排除，正式制作源仍提交。当前仅补文档与规则，没有真实模型或 Unity 工程；大体量资产是否用 Git LFS 待实际文件出现后评估。
 
+后续能力审计的探针模型、音视频、原始日志与回归样本仅在忽略的 `.local/readiness-2026-10-09/`，本仓保存其 [规格与证据登记](../sources/references/development-capability-audit-2026-10-09.md)。正式制作时提交源文件和发行来源记录，不能把探针目录整批加入仓库。已有 [准备检查脚本](../scripts/README.md) 可校验文档与登记源字节；它不证明游戏构建或发行通过。
+
 ## 日常上传
 
 在 `F:\workspace\rogue-prototype-lab` 中操作。开始编辑前先确认工作区干净，再同步远程：
