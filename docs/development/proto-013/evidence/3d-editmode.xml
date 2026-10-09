@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="48" result="Passed" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.1612646">
+  <test-suite type="TestSuite" id="1060" name="Ring Toss Workshop Prototype" fullname="Ring Toss Workshop Prototype" runstate="Runnable" testcasecount="48" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.161265" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1116" name="RingToss.Tests.EditMode.dll" fullname="F:/workspace/rogue-prototype-lab/prototypes/proto-013-ring-toss/game/RingTossWorkshop/Library/ScriptAssemblies/RingToss.Tests.EditMode.dll" runstate="Runnable" testcasecount="48" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.146676" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="73184" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1117" name="RingToss" fullname="RingToss" runstate="Runnable" testcasecount="48" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.146332" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1118" name="Tests" fullname="RingToss.Tests" runstate="Runnable" testcasecount="48" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.143132" total="48" passed="48" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1061" name="PhysicsContractTests" fullname="RingToss.Tests.PhysicsContractTests" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.054017" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1071" name="AcceptanceIncludesPublishedEdgesAndRejectsUpwardOrOutsideInputs" fullname="RingToss.Tests.PhysicsContractTests.AcceptanceIncludesPublishedEdgesAndRejectsUpwardOrOutsideInputs" methodname="AcceptanceIncludesPublishedEdgesAndRejectsUpwardOrOutsideInputs" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="968956011" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.006875" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1073" name="CrossingPillarSideWithinOneTickDoesNotTunnelOrAwardPrize" fullname="RingToss.Tests.PhysicsContractTests.CrossingPillarSideWithinOneTickDoesNotTunnelOrAwardPrize" methodname="CrossingPillarSideWithinOneTickDoesNotTunnelOrAwardPrize" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="446758512" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.009796" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1072" name="DownwardTopHitWinsOverPillarBodyAtSameContact" fullname="RingToss.Tests.PhysicsContractTests.DownwardTopHitWinsOverPillarBodyAtSameContact" methodname="DownwardTopHitWinsOverPillarBodyAtSameContact" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1528789266" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002264" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1063" name="EmptyFieldMatchesIndependentAnalyticArcAfterSixtyTicks" fullname="RingToss.Tests.PhysicsContractTests.EmptyFieldMatchesIndependentAnalyticArcAfterSixtyTicks" methodname="EmptyFieldMatchesIndependentAnalyticArcAfterSixtyTicks" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1344365444" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002301" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1082" name="IdenticalInputsAndSnapshotsProduceIdenticalOrderedEvents" fullname="RingToss.Tests.PhysicsContractTests.IdenticalInputsAndSnapshotsProduceIdenticalOrderedEvents" methodname="IdenticalInputsAndSnapshotsProduceIdenticalOrderedEvents" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1254925757" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002648" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1079" name="InactiveFanKeepsSupportBodyAndInactiveBoardKeepsItsFace" fullname="RingToss.Tests.PhysicsContractTests.InactiveFanKeepsSupportBodyAndInactiveBoardKeepsItsFace" methodname="InactiveFanKeepsSupportBodyAndInactiveBoardKeepsItsFace" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="2090267918" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000673" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1062" name="InputQuantizesBeforeSimulationAndRejectsInvalidValues" fullname="RingToss.Tests.PhysicsContractTests.InputQuantizesBeforeSimulationAndRejectsInvalidValues" methodname="InputQuantizesBeforeSimulationAndRejectsInvalidValues" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="934323209" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002265" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1078" name="OneFanTriggersOncePerThrowAndOnlyItsOwnDurabilityChanges" fullname="RingToss.Tests.PhysicsContractTests.OneFanTriggersOncePerThrowAndOnlyItsOwnDurabilityChanges" methodname="OneFanTriggersOncePerThrowAndOnlyItsOwnDurabilityChanges" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="498965182" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000788" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1070" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.007981" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1064" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(0,4.58d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(0,4.58d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="443334132" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001676" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1065" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(1,5.98d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(1,5.98d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="35601429" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000362" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1066" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(2,7.16d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(2,7.16d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="999284488" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002877" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1067" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(3,8.18d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(3,8.18d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1350322453" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000456" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1068" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(4,9.08d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(4,9.08d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1546187158" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000457" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1069" name="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(5,9.9d)" fullname="RingToss.Tests.PhysicsContractTests.QuantizedOrdinaryThrowHasAReachableRouteToEachSlot(5,9.9d)" methodname="QuantizedOrdinaryThrowHasAReachableRouteToEachSlot" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="998284286" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000494" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1077" name="SameBoardAllowsTwoSeparatedBouncesThenItsFaceTerminatesTheThrow" fullname="RingToss.Tests.PhysicsContractTests.SameBoardAllowsTwoSeparatedBouncesThenItsFaceTerminatesTheThrow" methodname="SameBoardAllowsTwoSeparatedBouncesThenItsFaceTerminatesTheThrow" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="327360498" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000923" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1081" name="SimultaneousOverlappingFansUseStableItemIdsRatherThanArrayOrder" fullname="RingToss.Tests.PhysicsContractTests.SimultaneousOverlappingFansUseStableItemIdsRatherThanArrayOrder" methodname="SimultaneousOverlappingFansUseStableItemIdsRatherThanArrayOrder" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1608582393" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000445" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1080" name="SixFanChainHonorsSpeedAndEffectCaps" fullname="RingToss.Tests.PhysicsContractTests.SixFanChainHonorsSpeedAndEffectCaps" methodname="SixFanChainHonorsSpeedAndEffectCaps" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="2079317990" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002608" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1076" name="ThinBoardReflectsFromEitherSideAtContinuousContact" fullname="RingToss.Tests.PhysicsContractTests.ThinBoardReflectsFromEitherSideAtContinuousContact" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001332" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1074" name="ThinBoardReflectsFromEitherSideAtContinuousContact(2.1d,16)" fullname="RingToss.Tests.PhysicsContractTests.ThinBoardReflectsFromEitherSideAtContinuousContact(2.1d,16)" methodname="ThinBoardReflectsFromEitherSideAtContinuousContact" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="62074815" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000764" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1075" name="ThinBoardReflectsFromEitherSideAtContinuousContact(2.3d,-16)" fullname="RingToss.Tests.PhysicsContractTests.ThinBoardReflectsFromEitherSideAtContinuousContact(2.3d,-16)" methodname="ThinBoardReflectsFromEitherSideAtContinuousContact" classname="RingToss.Tests.PhysicsContractTests" runstate="Runnable" seed="1971159747" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000117" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1083" name="StageTransactionTests" fullname="RingToss.Tests.StageTransactionTests" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.032688" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1085" name="CashAndRetainAreExclusiveAndDuplicateCommandCannotPayTwice" fullname="RingToss.Tests.StageTransactionTests.CashAndRetainAreExclusiveAndDuplicateCommandCannotPayTwice" methodname="CashAndRetainAreExclusiveAndDuplicateCommandCannotPayTwice" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="28981263" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002983" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1094" name="DepletedPreinstallAndMissingCandidatesAreRejected" fullname="RingToss.Tests.StageTransactionTests.DepletedPreinstallAndMissingCandidatesAreRejected" methodname="DepletedPreinstallAndMissingCandidatesAreRejected" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="1413726226" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000429" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1090" name="FinalRingMustFinishDispositionBeforeSuccessOrFailureCheck" fullname="RingToss.Tests.StageTransactionTests.FinalRingMustFinishDispositionBeforeSuccessOrFailureCheck" methodname="FinalRingMustFinishDispositionBeforeSuccessOrFailureCheck" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="1237499284" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.007266" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1084" name="FirstStallFreezesActualFreshValueAndStartsWithSeparateAccounts" fullname="RingToss.Tests.StageTransactionTests.FirstStallFreezesActualFreshValueAndStartsWithSeparateAccounts" methodname="FirstStallFreezesActualFreshValueAndStartsWithSeparateAccounts" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="18887336" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000320" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1088" name="InvalidAdjustmentCostsNothingAndValidSwitchesUseExactlyTwoActions" fullname="RingToss.Tests.StageTransactionTests.InvalidAdjustmentCostsNothingAndValidSwitchesUseExactlyTwoActions" methodname="InvalidAdjustmentCostsNothingAndValidSwitchesUseExactlyTwoActions" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="2136493110" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001428" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1087" name="OldSnapshotSalvageChangesWalletAndCannotPayFrozenTarget" fullname="RingToss.Tests.StageTransactionTests.OldSnapshotSalvageChangesWalletAndCannotPayFrozenTarget" methodname="OldSnapshotSalvageChangesWalletAndCannotPayFrozenTarget" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="899988002" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000586" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1093" name="PreparationAdjustmentsAreFreeUntilExplicitOpenStageBoundary" fullname="RingToss.Tests.StageTransactionTests.PreparationAdjustmentsAreFreeUntilExplicitOpenStageBoundary" methodname="PreparationAdjustmentsAreFreeUntilExplicitOpenStageBoundary" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="857246401" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000659" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1089" name="RelocationCanSetDirectionForOneActionAndNeverMovesPrize" fullname="RingToss.Tests.StageTransactionTests.RelocationCanSetDirectionForOneActionAndNeverMovesPrize" methodname="RelocationCanSetDirectionForOneActionAndNeverMovesPrize" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="171515802" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002505" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1092" name="ReplayUsesBeforeThrowSnapshotWithoutMutatingFormalDurabilityOrAccounts" fullname="RingToss.Tests.StageTransactionTests.ReplayUsesBeforeThrowSnapshotWithoutMutatingFormalDurabilityOrAccounts" methodname="ReplayUsesBeforeThrowSnapshotWithoutMutatingFormalDurabilityOrAccounts" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="313718292" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.005352" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1091" name="RescueIsOncePerStallWalletOnlyAndAvailableAfterFinalMiss" fullname="RingToss.Tests.StageTransactionTests.RescueIsOncePerStallWalletOnlyAndAvailableAfterFinalMiss" methodname="RescueIsOncePerStallWalletOnlyAndAvailableAfterFinalMiss" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="1560746417" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.007278" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1086" name="RetainOccupiesOriginalSlotAndCurrentStageSalvagePaysHalfExactlyOnce" fullname="RingToss.Tests.StageTransactionTests.RetainOccupiesOriginalSlotAndCurrentStageSalvagePaysHalfExactlyOnce" methodname="RetainOccupiesOriginalSlotAndCurrentStageSalvagePaysHalfExactlyOnce" classname="RingToss.Tests.StageTransactionTests" runstate="Runnable" seed="751452748" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001139" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1095" name="ThreeDimensionalContractTests" fullname="RingToss.Tests.ThreeDimensionalContractTests" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.052079" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1106" name="AcceptanceIsACircleWithInclusiveAxisEdgesAndPublishedDownwardThreshold" fullname="RingToss.Tests.ThreeDimensionalContractTests.AcceptanceIsACircleWithInclusiveAxisEdgesAndPublishedDownwardThreshold" methodname="AcceptanceIsACircleWithInclusiveAxisEdgesAndPublishedDownwardThreshold" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="849178490" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000808" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1110" name="CompleteSixPrizeCashRouteUsesTheSharedEconomyAndEndsAt210" fullname="RingToss.Tests.ThreeDimensionalContractTests.CompleteSixPrizeCashRouteUsesTheSharedEconomyAndEndsAt210" methodname="CompleteSixPrizeCashRouteUsesTheSharedEconomyAndEndsAt210" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1453801893" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.010617" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1097" name="EmptyThreeDimensionalFieldMatchesIndependentAnalyticCoordinates" fullname="RingToss.Tests.ThreeDimensionalContractTests.EmptyThreeDimensionalFieldMatchesIndependentAnalyticCoordinates" methodname="EmptyThreeDimensionalFieldMatchesIndependentAnalyticCoordinates" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="870443622" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000487" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1115" name="FinalThreeDimensionalRingDisposesBeforeEndAndDoesNotAlterTheTarget" fullname="RingToss.Tests.ThreeDimensionalContractTests.FinalThreeDimensionalRingDisposesBeforeEndAndDoesNotAlterTheTarget" methodname="FinalThreeDimensionalRingDisposesBeforeEndAndDoesNotAlterTheTarget" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="860667726" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.007734" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1109" name="FiniteThreeDimensionalBoardReflectsItsNormalAndRetainsTangentialX" fullname="RingToss.Tests.ThreeDimensionalContractTests.FiniteThreeDimensionalBoardReflectsItsNormalAndRetainsTangentialX" methodname="FiniteThreeDimensionalBoardReflectsItsNormalAndRetainsTangentialX" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1274858517" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000905" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1104" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.014407" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1098" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(0,-25.25d,5.96d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(0,-25.25d,5.96d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="336541730" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002558" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1099" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(1,0,5.64d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(1,0,5.64d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1307107980" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000965" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1100" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(2,25.25d,5.96d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(2,25.25d,5.96d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="663254936" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002021" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1101" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(3,-16,7.46d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(3,-16,7.46d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="44436958" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002925" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1102" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(4,0,7.32d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(4,0,7.32d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="602391815" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.003720" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1103" name="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(5,16,7.46d)" fullname="RingToss.Tests.ThreeDimensionalContractTests.GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout(5,16,7.46d)" methodname="GoldenInputReachesEverySlotInTheCompleteFreshSixSlotLayout" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="27710270" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001376" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1105" name="HorizontalMisalignmentCanPassBesidePrizeWithoutHiddenRecentering" fullname="RingToss.Tests.ThreeDimensionalContractTests.HorizontalMisalignmentCanPassBesidePrizeWithoutHiddenRecentering" methodname="HorizontalMisalignmentCanPassBesidePrizeWithoutHiddenRecentering" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1502420426" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001878" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1114" name="RepeatedThreeDimensionalInputsReproduceEventsWithoutMutatingFormalReplayState" fullname="RingToss.Tests.ThreeDimensionalContractTests.RepeatedThreeDimensionalInputsReproduceEventsWithoutMutatingFormalReplayState" methodname="RepeatedThreeDimensionalInputsReproduceEventsWithoutMutatingFormalReplayState" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1352363171" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.008120" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1113" name="RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash" fullname="RingToss.Tests.ThreeDimensionalContractTests.RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.004211" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1111" name="RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash(0,-25.25d,5.96d,4)" fullname="RingToss.Tests.ThreeDimensionalContractTests.RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash(0,-25.25d,5.96d,4)" methodname="RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1045857322" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.002486" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1112" name="RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash(1,0,5.64d,6)" fullname="RingToss.Tests.ThreeDimensionalContractTests.RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash(1,0,5.64d,6)" methodname="RetainedThreeDimensionalPrizeHasFullDurabilityAndCannotAlsoCash" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1798644440" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.001214" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1108" name="ThreeDimensionalFanNeverPullsHorizontalVelocityTowardItsCenter" fullname="RingToss.Tests.ThreeDimensionalContractTests.ThreeDimensionalFanNeverPullsHorizontalVelocityTowardItsCenter" methodname="ThreeDimensionalFanNeverPullsHorizontalVelocityTowardItsCenter" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="17736465" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000527" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1096" name="ThreeDimensionalInputQuantizesAndDoesNotSilentlyUseTwoDimensionalLaunch" fullname="RingToss.Tests.ThreeDimensionalContractTests.ThreeDimensionalInputQuantizesAndDoesNotSilentlyUseTwoDimensionalLaunch" methodname="ThreeDimensionalInputQuantizesAndDoesNotSilentlyUseTwoDimensionalLaunch" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="196241838" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000516" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1107" name="VerticalTopAcceptsBeforeCylinderBodyAndFastSideCrossingCannotTunnel" fullname="RingToss.Tests.ThreeDimensionalContractTests.VerticalTopAcceptsBeforeCylinderBodyAndFastSideCrossingCannotTunnel" methodname="VerticalTopAcceptsBeforeCylinderBodyAndFastSideCrossingCannotTunnel" classname="RingToss.Tests.ThreeDimensionalContractTests" runstate="Runnable" seed="1577022019" result="Passed" start-time="2026-10-09 10:24:00Z" end-time="2026-10-09 10:24:00Z" duration="0.000358" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

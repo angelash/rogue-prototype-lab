@@ -1,0 +1,465 @@
+{
+  "version": "0.1",
+  "date": "2026-10-09",
+  "phase": "P0 original presentation candidates",
+  "creator": "Project assistant using original procedural geometry; no third-party meshes, images or textures",
+  "rights": "Original project assets for use and modification in rogue-prototype-lab; no third-party attribution obligation is introduced",
+  "blender": {
+    "version": "5.2.2 LTS",
+    "build_hash": "d13f752e3b9c"
+  },
+  "script": {
+    "path": "scripts/build-stall-models.py",
+    "sha256": "bd2bbbed2472f805bc595eb14eb80b0fbcc0a868158665a0f4b23fa055ee314b"
+  },
+  "export": {
+    "format": "FBX",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "unit": "meter",
+    "global_scale": 1,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "bake_space_transform": false
+  },
+  "unity_import": "Resources/Models/*.fbx; initial Player camera render reviewed on 2026-10-09: imported axes, upright fan/board, decorative props, colors and framing checked; native input, activated mechanisms and performance remain pending",
+  "scene_review": {
+    "date": "2026-10-09",
+    "evidence": "docs/development/proto-013/evidence/3d-scene.png",
+    "camera_only": true,
+    "native_input_qa": false,
+    "scope": "Initial scene only; per-asset preview review entries below record the earlier Blender review"
+  },
+  "assets": [
+    {
+      "id": "RING-P0-3D-fan",
+      "name": "fan",
+      "source_dimensions_xyz_m": [
+        0.343,
+        0.2125,
+        0.5465
+      ],
+      "unity_dimensions_width_height_depth_m": [
+        0.343,
+        0.5465,
+        0.2125
+      ],
+      "source_bounds_min_xyz_m": [
+        -0.1715,
+        -0.10625,
+        0.0
+      ],
+      "source_bounds_max_xyz_m": [
+        0.1715,
+        0.10625,
+        0.5465
+      ],
+      "triangles": 1452,
+      "mesh_objects": 18,
+      "materials": [
+        {
+          "name": "P0_blue",
+          "rgba": [
+            0.08500000089406967,
+            0.3199999928474426,
+            0.44999998807907104,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_cream",
+          "rgba": [
+            0.9100000262260437,
+            0.8299999833106995,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_ink",
+          "rgba": [
+            0.054999999701976776,
+            0.09000000357627869,
+            0.11999999731779099,
+            1.0
+          ]
+        }
+      ],
+      "origin": "bottom bounding-box center; local (0,0,0)",
+      "source_front": "-Y",
+      "unity_resource_key": "Models/fan",
+      "visual_collision": "none; no gameplay physics in FBX",
+      "source": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/fan.blend",
+        "sha256": "638631d20bc78140f1869c723d8b83cbb11b952ce687119c96c95cbcab6e8ed0"
+      },
+      "fbx": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/fan.fbx",
+        "sha256": "11fb085e5fc7068f5a465d0426b94daf3a21ca87f0d9830f694d4ec0cd5a4081"
+      },
+      "runtime_fbx": {
+        "path": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Models/fan.fbx",
+        "sha256": "11fb085e5fc7068f5a465d0426b94daf3a21ca87f0d9830f694d4ec0cd5a4081",
+        "synchronized": true
+      },
+      "preview": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/fan-preview.png",
+        "sha256": "84c5ce7f6dcf81027aa94ed081f787cd1466c6b9d9d5c443415c4c5f44b81e35"
+      },
+      "review": "2026-10-09 final 640x640 preview viewed with view_image: silhouette/material colors/base and visible detail passed; Unity/Player review pending",
+      "blender_fbx_round_trip": {
+        "result": "pass",
+        "meshes": 18,
+        "reimport_dimensions_xyz_m": [
+          0.343,
+          0.2125,
+          0.5465
+        ],
+        "root_at_zero": true,
+        "tolerance_m": 0.0001
+      }
+    },
+    {
+      "id": "RING-P0-3D-rebound_board",
+      "name": "rebound_board",
+      "source_dimensions_xyz_m": [
+        0.532,
+        0.23,
+        0.496
+      ],
+      "unity_dimensions_width_height_depth_m": [
+        0.532,
+        0.496,
+        0.23
+      ],
+      "source_bounds_min_xyz_m": [
+        -0.266,
+        -0.115,
+        0.0
+      ],
+      "source_bounds_max_xyz_m": [
+        0.266,
+        0.115,
+        0.496
+      ],
+      "triangles": 1140,
+      "mesh_objects": 15,
+      "materials": [
+        {
+          "name": "P0_wood",
+          "rgba": [
+            0.3199999928474426,
+            0.1599999964237213,
+            0.05999999865889549,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_ochre",
+          "rgba": [
+            0.9700000286102295,
+            0.4300000071525574,
+            0.03500000014901161,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_cream",
+          "rgba": [
+            0.9100000262260437,
+            0.8299999833106995,
+            0.6499999761581421,
+            1.0
+          ]
+        }
+      ],
+      "origin": "bottom bounding-box center; local (0,0,0)",
+      "source_front": "-Y",
+      "unity_resource_key": "Models/rebound_board",
+      "visual_collision": "none; no gameplay physics in FBX",
+      "source": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/rebound_board.blend",
+        "sha256": "7b0a528561d6a860560dafe2003a7deab6bbacc9e9b45b365b09141a4bf7f9ad"
+      },
+      "fbx": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/rebound_board.fbx",
+        "sha256": "f9006bf7176bd5e82d96f5cec9f79edf7c4ddc9caabe3037ef3b61ba235a4d00"
+      },
+      "runtime_fbx": {
+        "path": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Models/rebound_board.fbx",
+        "sha256": "f9006bf7176bd5e82d96f5cec9f79edf7c4ddc9caabe3037ef3b61ba235a4d00",
+        "synchronized": true
+      },
+      "preview": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/rebound_board-preview.png",
+        "sha256": "c61814d388078e1be337f5640761598843c4b475bbe3f416047b2bc0ecf35b06"
+      },
+      "review": "2026-10-09 final 640x640 preview viewed with view_image: silhouette/material colors/base and visible detail passed; Unity/Player review pending",
+      "blender_fbx_round_trip": {
+        "result": "pass",
+        "meshes": 15,
+        "reimport_dimensions_xyz_m": [
+          0.532,
+          0.23,
+          0.496
+        ],
+        "root_at_zero": true,
+        "tolerance_m": 0.0001
+      }
+    },
+    {
+      "id": "RING-P0-3D-toy_duck",
+      "name": "toy_duck",
+      "source_dimensions_xyz_m": [
+        0.27272,
+        0.422,
+        0.317
+      ],
+      "unity_dimensions_width_height_depth_m": [
+        0.27272,
+        0.317,
+        0.422
+      ],
+      "source_bounds_min_xyz_m": [
+        -0.13636,
+        -0.211,
+        0.0
+      ],
+      "source_bounds_max_xyz_m": [
+        0.13636,
+        0.211,
+        0.317
+      ],
+      "triangles": 1856,
+      "mesh_objects": 8,
+      "materials": [
+        {
+          "name": "P0_duck",
+          "rgba": [
+            1.0,
+            0.38999998569488525,
+            0.02500000037252903,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_orange",
+          "rgba": [
+            0.9399999976158142,
+            0.11500000208616257,
+            0.008999999612569809,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_ink",
+          "rgba": [
+            0.054999999701976776,
+            0.09000000357627869,
+            0.11999999731779099,
+            1.0
+          ]
+        }
+      ],
+      "origin": "bottom bounding-box center; local (0,0,0)",
+      "source_front": "-Y",
+      "unity_resource_key": "Models/toy_duck",
+      "visual_collision": "none; no gameplay physics in FBX",
+      "source": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/toy_duck.blend",
+        "sha256": "b71de8581e6c6790830af04b3d78dbdfa57a8ee05abb1b78c253a07cef3503c0"
+      },
+      "fbx": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/toy_duck.fbx",
+        "sha256": "7d400cb893df5f0d64d4d8e79c70769c00451ea6a2999dbcc3d8f4537a9236d9"
+      },
+      "runtime_fbx": {
+        "path": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Models/toy_duck.fbx",
+        "sha256": "7d400cb893df5f0d64d4d8e79c70769c00451ea6a2999dbcc3d8f4537a9236d9",
+        "synchronized": true
+      },
+      "preview": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/toy_duck-preview.png",
+        "sha256": "fb37887688c0e265b7380dbdef0c405f51b4601e6eaf581829ff0599775dadb7"
+      },
+      "review": "2026-10-09 final 640x640 preview viewed with view_image: silhouette/material colors/base and visible detail passed; Unity/Player review pending",
+      "blender_fbx_round_trip": {
+        "result": "pass",
+        "meshes": 8,
+        "reimport_dimensions_xyz_m": [
+          0.27272,
+          0.422,
+          0.317
+        ],
+        "root_at_zero": true,
+        "tolerance_m": 0.0001
+      }
+    },
+    {
+      "id": "RING-P0-3D-ceramic_cup",
+      "name": "ceramic_cup",
+      "source_dimensions_xyz_m": [
+        0.3025,
+        0.209,
+        0.27679
+      ],
+      "unity_dimensions_width_height_depth_m": [
+        0.3025,
+        0.27679,
+        0.209
+      ],
+      "source_bounds_min_xyz_m": [
+        -0.15125,
+        -0.1045,
+        0.0
+      ],
+      "source_bounds_max_xyz_m": [
+        0.15125,
+        0.1045,
+        0.27679
+      ],
+      "triangles": 1196,
+      "mesh_objects": 4,
+      "materials": [
+        {
+          "name": "P0_cream",
+          "rgba": [
+            0.9100000262260437,
+            0.8299999833106995,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_ochre",
+          "rgba": [
+            0.9700000286102295,
+            0.4300000071525574,
+            0.03500000014901161,
+            1.0
+          ]
+        }
+      ],
+      "origin": "bottom bounding-box center; local (0,0,0)",
+      "source_front": "-Y",
+      "unity_resource_key": "Models/ceramic_cup",
+      "visual_collision": "none; no gameplay physics in FBX",
+      "source": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/ceramic_cup.blend",
+        "sha256": "714ff84b1fc0cee99ee2ea866f77ff210cb5d2dcae893383f01ab2791115e255"
+      },
+      "fbx": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/ceramic_cup.fbx",
+        "sha256": "b44fb76ab87f3b567aa2e6a68b3b13d38aacee5655684fef971e793baaf9bdee"
+      },
+      "runtime_fbx": {
+        "path": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Models/ceramic_cup.fbx",
+        "sha256": "b44fb76ab87f3b567aa2e6a68b3b13d38aacee5655684fef971e793baaf9bdee",
+        "synchronized": true
+      },
+      "preview": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/ceramic_cup-preview.png",
+        "sha256": "08a25a236f76cece9f15b4f59226299e7f87d0f2bb38d705e049ee4b241e8203"
+      },
+      "review": "2026-10-09 final 640x640 preview viewed with view_image: silhouette/material colors/base and visible detail passed; Unity/Player review pending",
+      "blender_fbx_round_trip": {
+        "result": "pass",
+        "meshes": 4,
+        "reimport_dimensions_xyz_m": [
+          0.3025,
+          0.209,
+          0.27679
+        ],
+        "root_at_zero": true,
+        "tolerance_m": 0.0001
+      }
+    },
+    {
+      "id": "RING-P0-3D-radio",
+      "name": "radio",
+      "source_dimensions_xyz_m": [
+        0.35,
+        0.1875,
+        0.386
+      ],
+      "unity_dimensions_width_height_depth_m": [
+        0.35,
+        0.386,
+        0.1875
+      ],
+      "source_bounds_min_xyz_m": [
+        -0.175,
+        -0.09375,
+        0.0
+      ],
+      "source_bounds_max_xyz_m": [
+        0.175,
+        0.09375,
+        0.386
+      ],
+      "triangles": 2204,
+      "mesh_objects": 26,
+      "materials": [
+        {
+          "name": "P0_red",
+          "rgba": [
+            0.5699999928474426,
+            0.03500000014901161,
+            0.017999999225139618,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_cream",
+          "rgba": [
+            0.9100000262260437,
+            0.8299999833106995,
+            0.6499999761581421,
+            1.0
+          ]
+        },
+        {
+          "name": "P0_ink",
+          "rgba": [
+            0.054999999701976776,
+            0.09000000357627869,
+            0.11999999731779099,
+            1.0
+          ]
+        }
+      ],
+      "origin": "bottom bounding-box center; local (0,0,0)",
+      "source_front": "-Y",
+      "unity_resource_key": "Models/radio",
+      "visual_collision": "none; no gameplay physics in FBX",
+      "source": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/radio.blend",
+        "sha256": "d064164ea052e0c36a707b94f4f9c57744601945c56db569bf8f68d2be200fdc"
+      },
+      "fbx": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/radio.fbx",
+        "sha256": "f99ef2e192ea41ebceaf3a8a029686cbd95f1966cc8ac89d88ef90f03c85c9fe"
+      },
+      "runtime_fbx": {
+        "path": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Models/radio.fbx",
+        "sha256": "f99ef2e192ea41ebceaf3a8a029686cbd95f1966cc8ac89d88ef90f03c85c9fe",
+        "synchronized": true
+      },
+      "preview": {
+        "path": "sources/art/proto-013-ring-toss/3d-p0/radio-preview.png",
+        "sha256": "0f430390866e0e20a20f61bda0358d4ce2f5cff13a0a2687813e547ca0e62e95"
+      },
+      "review": "2026-10-09 final 640x640 preview viewed with view_image: silhouette/material colors/base and visible detail passed; Unity/Player review pending",
+      "blender_fbx_round_trip": {
+        "result": "pass",
+        "meshes": 26,
+        "reimport_dimensions_xyz_m": [
+          0.35,
+          0.1875,
+          0.386
+        ],
+        "root_at_zero": true,
+        "tolerance_m": 0.0001
+      }
+    }
+  ]
+}

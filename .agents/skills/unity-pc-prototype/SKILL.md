@@ -13,7 +13,7 @@ description: 为本仓 Unity PC 单机原型拆分任务、实现已授权行为
 
 - 环境、工程组织和模拟边界：读 [08 Unity 技术方案](../../../docs/design/first-batch/proto-013-ring-toss/full-game/08-unity-pc-technical-plan.md)。工具路径、引擎版本和已安装模块以该文档的实读证据及当前机器为准，不自行升级或照抄其他项目设置。
 - 规则或数值：按任务读 [02 玩法](../../../docs/design/first-batch/proto-013-ring-toss/full-game/02-gameplay-systems.md)、[04 参数](../../../docs/design/first-batch/proto-013-ring-toss/full-game/04-economy-and-balance.md) 与 [06 存档合同](../../../docs/design/first-batch/proto-013-ring-toss/full-game/06-technical-save-and-accessibility.md)。不在技能中另建参数副本。
-- 素材变化：交给 [素材技能](../ring-toss-asset-pipeline/SKILL.md)，按 09 路由 Blender 三维低模旧物、二维人物/背景、UI 和音频，只读取这次涉及的资产规格。固定二维规则与三维表现分别核验，不因模型导入改变判定。
+- 素材变化：交给 [素材技能](../ring-toss-asset-pipeline/SKILL.md)，按 09 路由 Blender 三维场景与旧物、可选二维人物、UI 和音频，只读取这次涉及的资产规格。用户已要求真实三维斜视地摊；当前权威为 Flight3D/Rules3D，同一三维锚点驱动接触和表现。旧二维用例只作历史回归，不证明三维命中；模型导入不能改变规则。
 - Steam 构建或发行准备：读 [11 Steam 计划](../../../docs/design/first-batch/proto-013-ring-toss/full-game/11-steam-release-plan.md)。以真实接口和授权执行，不假定已接入 SDK、取得 App ID 或具备发布权限。
 - 开工现状与缺口：读 [12 准备度](../../../docs/design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 和 [准备检查入口](../../../scripts/README.md)。先复核实际环境，区分文件存在、工具探针、Unity 编译和 Player 实测；独立 .NET 检查不能代替 Unity 兼容验证。
 - 关卡、剧情或验证数据：按任务读 [13 内容与验证合同](../../../docs/design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)。正式配置、预览、回放与可达证据共用 Core；统计合法解锁/预装覆盖，不用抽样冒充全量，不静默删掉合法难例。

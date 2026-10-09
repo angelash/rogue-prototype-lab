@@ -1,8 +1,8 @@
 # 套圈改造摊：Unity、PC 与工程技术方案
 
-版本：v0.3；日期：2026-10-09（Asia/Shanghai）。状态：基于本机和参考工程只读核验的技术设计，尚未创建本游戏 Unity 工程。
+版本：v0.6；日期：2026-10-09（Asia/Shanghai）。状态：已建立独立原型工程，当前按用户明确的三维斜视地摊方向迭代首个单摊场景；实际实现、测试和 Player 结果见 [开发记录](../../../../development/proto-013/2026-10-09-p0.md)。
 
-用户已明确采用 Unity、使用本地已安装版本、参考 `F:\workspace\highschool`，制作 PC 单机游戏并以 Steam 为发行目标。下文的工程目录、包选择、程序集、场景、渲染与实现方案是助手建议；本轮只补文档，没有启动 Unity、安装软件、导入新包、修改外部参考工程或编写游戏代码。Steam 发行与平台接入详见 [11 发行方案](11-steam-release-plan.md)；玩法和数值仍以 [02](02-gameplay-systems.md)、[04](04-economy-and-balance.md) 为准，存档行为以 [06](06-technical-save-and-accessibility.md) 为准。
+用户已明确采用 Unity、使用本地已安装版本、参考 `F:\workspace\highschool`，制作 PC 单机游戏并以 Steam 为发行目标；随后明确要求真实三维场景、斜视镜头、玩家在镜头前向前抛圈，像真实地摊。旧二维展示与固定正交 2.5D 建议已被这一方向替换，历史验证仍保留。镜头参数、三维几何实现、材质和完整工程分层是助手建议，首组三维范围见 [场景方向合同](../../../../development/proto-013/3d-scene-direction.md)。Steam 发行与平台接入详见 [11 发行方案](11-steam-release-plan.md)；玩法与经济仍以 [02](02-gameplay-systems.md)、[04](04-economy-and-balance.md) 为准，存档行为以 [06](06-technical-save-and-accessibility.md) 为准。本次文档同步没有运行 Unity、安装软件或改动外部参考工程。
 
 ## 1. 本机版本与能力证据
 
@@ -14,7 +14,7 @@
 - **不认定 Windows IL2CPP 已可用**：[modules.json](<D:/Program files/2022.3.62f3c1/modules.json>) 中 `windows-il2cpp`、`windows-server` 的 `selected=false`；检查的 Windows Player 变体只有 Mono，没有 IL2CPP 变体。此处是文件与模块记录核验，不能推导出已经拥有 IL2CPP 所需的完整工具链。
 - **参考项目具有历史构建证据**：[构建说明](F:/workspace/highschool/production/BUILD_INSTRUCTIONS.zh-CN.md) 指定同一路径、同一编辑器与 Windows x64 Mono；[历史日志](F:/workspace/highschool/artifacts/unity-build-full.log:3003) 记录 `Windows full build complete`，总输出大小 312,297,628 字节。现存 `Builds/WindowsFull/SheGuessedItAgain.exe` 为 666,624 字节、同目录 `UnityPlayer.dll` 为 31,200,080 字节；这些是参考项目既有文件，本轮没有重新构建或运行它们。
 
-上述证据确认编辑器与 Mono Player 模块文件存在，并与参考项目的版本、历史构建路径相符。它们不代表套圈改造摊已能启动、编译或通过测试，也没有验证当前许可证状态、包解析、Steam 客户端或目标 PC 性能。后续首次工程验证要分别记录这些结果，不能把“本机有模块”写成“新游戏构建已通过”。
+上述是创建工程前的只读环境基线，确认编辑器与 Mono Player 模块文件存在，并与参考项目的版本、历史构建路径相符。它们本身没有验证许可证、包解析或本游戏运行；后续工程已有独立验证过程，事实以开发记录为准。旧二维 P0 的结果不能直接作为新三维命中、输入或画面的验收；Steam 客户端和目标 PC 性能也需各自记录。
 
 ## 2. 参考工程读取范围与取舍
 
@@ -34,7 +34,7 @@
 
 ## 3. 工程根目录与最小依赖建议
 
-建议后续工程放在 `prototypes/proto-013-ring-toss/game/RingTossWorkshop/`。以下只是计划目录，本轮未生成 Assets、Packages、ProjectSettings 或场景：
+独立工程已位于 `prototypes/proto-013-ring-toss/game/RingTossWorkshop/`，已有 Assets、Packages、ProjectSettings 和准备/测试/构建入口。以下是完整制作的目标目录，不表示每个服务、场景和测试层都已实现；当前目录与使用方法见 [工程 README](../../../../../prototypes/proto-013-ring-toss/game/RingTossWorkshop/README.md)。
 
 ```text
 prototypes/proto-013-ring-toss/
@@ -50,7 +50,8 @@ prototypes/proto-013-ring-toss/
       Art/Materials/        确定渲染管线后的材质
       Art/Textures/         十二奖品皮肤及功能标记
       Art/Portraits/        六人物的二维半身像
-      Art/Backgrounds/      三章分层二维远景
+      Art/Scenes/           可复用三维棚、摊地、灯和远景部件
+      Art/Backgrounds/      可选远景图片，不承担主场景或判定
       Audio/                已授权音乐和功能音效
       Fonts/                已授权中文字体与 TMP 配置
       Prefabs/              六槽视图、机关、圈、UI组件
@@ -69,9 +70,9 @@ prototypes/proto-013-ring-toss/
 
 建议最小依赖分两步，不为了仿照参考工程导入整套包：
 
-- **P0 规则和最小 Unity 展示**：uGUI 1.0.0、Test Framework 1.1.33、必要的音频/JSON/UI 内置模块；TMP 3.0.6 是中文产品界面的优先候选。可先用占位材质的 Built-in 管线验证规则；所有版本均须在实际创建工程后解析、编译并锁定，本轮没有新建 manifest。
+- **P0 已有依赖与后续 UI 候选**：现有 manifest 使用 Test Framework 1.1.33 与音频、图像转换、IMGUI、JSON、截图及三维 Physics 内置模块；Physics 用于场中鼠标选取，功能真值仍由规则层计算。当前包文件是实际依赖依据。uGUI 1.0.0、TMP 3.0.6 是后续产品界面的候选，不能写成已经接入。首个三维场景可使用 Built-in 管线与受控材质；新包必须有明确用途并经解析、编译和包锁定核验。
 - **正式输入候选**：Input System 1.6.1，以 [Unity 2022.3 中文手册](https://docs.unity3d.com/cn/2022.3/Manual/com.unity.inputsystem.html) 列出的 released 版本作为匹配候选，不称其为当前最新包。后续验证键鼠、手柄、重映射、断连和 UI 焦点后锁入包文件；本轮未导入。使用一个输入后端为主，不长期通过 `Both` 让同一操作被两套后端重复发射。
-- **2.5D 纵切渲染候选**：URP 14.0.x，优先评估 Universal Renderer 的三维网格/灯光路径；纵切前选择并锁定与本编辑器匹配的小版本。官方说明 14.0.x 对应 2022.x；这只支持兼容方向，不等于该本机已经解析、导入或测试成功。[URP 14 兼容要求](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/requirements.html)
+- **后续三维渲染候选**：URP 14.0.x 可评估三维网格/灯光路径，采用前选择并锁定与本编辑器匹配的小版本；真实三维并不要求先新增 URP。官方说明 14.0.x 对应 2022.x；这只支持兼容方向，不等于本机已经解析、导入或测试成功。[URP 14 兼容要求](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/requirements.html)
 - **暂不列入最小依赖**：Addressables、Timeline、Cinemachine、DOTS/Burst、联网框架和完整 Steam wrapper。固定相机、十二模板和有限资产可以先用普通场景/Prefab 与明确内容清单；发现实际加载或生产需求后再单独评估，不依据参考 manifest 自动引入。
 
 TMP 的 Essential Resources、中文字体授权、缺字回退、动态字库与构建字形均需后续实际验证；“参考缓存有包”不能代替中文界面测试。URP 与 Built-in 的材质不能混为同一资产规格，必须在正式材质生产前过渲染选择门槛，不在出包前临时切换管线。
@@ -80,7 +81,7 @@ TMP 的 Essential Resources、中文字体授权、缺字回退、动态字库�
 
 推荐五个程序集边界：`RingToss.Core`、`RingToss.Application`、`RingToss.UnityPresentation`、`RingToss.Platform`、`RingToss.Editor`，以及 EditMode/PlayMode 测试程序集。Core 关闭 UnityEngine 引用；Editor 代码仅进入编辑器，测试程序集不进入发行 Player。
 
-- **Core** 使用自有二维 double 坐标和速度、整数圈/耐久/金额、唯一对象编号、显式种子和有序事件。它定义 04 的圈中心质点、接受区、实体线段/矩形、风场、冲量和 6 s 上限，不依赖 Rigidbody、Physics2D、三维 MeshCollider 或 MonoBehaviour 回调顺序。
+- **Core** 建议使用自有三维 double 坐标、速度和投掷方向，以及整数圈/耐久/金额、唯一对象编号、显式种子和有序事件。真实三维的接受体、接触面和作用体必须有版本化定义，并与场景锚点一致；不能用不可见的二维平面计算中奖。04 的经济、耐久、圈额、时间步及已登记标量建议保持，旧二维线段/矩形与单排槽坐标只作历史基线。三维求交和事件排序需独立验证，不依赖 MonoBehaviour 回调顺序或让装饰 MeshCollider 更改规则。
 - **Application** 接收 `Aim/Launch/Move/Toggle/Cash/Retain/Salvage/Buy/Repair/EndStage` 等受阶段约束的命令，协调当前摊与本局状态、幂等事务及存档提交。界面不能自己增金币或把旧物变成本摊新奖品。
 - **UnityPresentation** 把状态与事件映射成 Transform、圈模型、价签、作用区、UI、音效和角色对白。只读模拟结果；拖拽、焦点或按钮发出命令后等规则确认，不先把物件挪走再尝试修正真值。
 - **Platform** 暴露可选成就、云存档入口和平台状态接口；默认离线空实现。Core 不引用 Steam SDK，平台不可用时本地新局、存档、笔记和结算照常工作。
@@ -92,7 +93,7 @@ TMP 的 Essential Resources、中文字体授权、缺字回退、动态字库�
 
 04 的 `dt=1/120 s` 是自有模拟步，不直接依赖 Unity 默认 FixedUpdate 节奏。建议用累计时间推进 runner，完整步计算真值、两步间插值只给展示。每步可以做有限子步处理首次接触；规则事件排序和同一奖品顶部接受优先关系沿用 02/04，不因 GameObject 遍历顺序变化。
 
-输入先以 04 的角度 0.25°、速度 0.02 m/s 建议精度量化并保存，再交给模拟。保存真实量化输入和规则版本，不拿 UI 四舍五入的文字倒推出回放输入。机关布置、风况、圈型、耐久、圈级触发次数、挡风罩本圈保护记录和本投初态一并进入复现资料。
+三维输入明确分成左右瞄准、仰角与力度；建议仰角和速度沿用 04 的 0.25°、0.02 m/s 精度，左右瞄准范围与精度由三维实现登记，不能从旧二维发射角推断。保存真实量化输入、三维位置/方向、布局与接触版本，不拿 UI 四舍五入的文字倒推出回放输入。机关布置、风况、圈型、耐久、圈级触发次数、挡风罩本圈保护记录和本投初态一并进入复现资料。
 
 渲染卡顿时可以少绘制帧、分批赶上模拟；不得丢弃已经接受的规则步、重复发射或跳过跨接受线的事件。暂停冻结推进；0.5× 观察改变播放推进速度而不改变每步 dt、重力、判定和事务。若性能不足而延迟展示，显示一致的状态，不用增大 dt 敷衍。
 
@@ -100,21 +101,19 @@ TMP 的 Essential Resources、中文字体授权、缺字回退、动态字库�
 
 目标是同一规则版本、同一 Mono Windows 构建内稳定复现 04 的事件、命中与账目。使用 double 和固定步本身不保证不同 CPU、后端或未来版本位级相同；跨平台、IL2CPP 或数值算法切换要另做回归，不用“确定性”一词省略验证。
 
-## 6. 二维规则与 2.5D 固定正交画面的兼容
+## 6. 三维地摊与共同规则锚点
 
-推荐低模圈、奖品、机关和功能摊位，配二维人物半身像与分层远景，资产路线见 [09](09-art-and-asset-production.md)。模型可以有厚度、阴影、扇叶和轻量动画；发射和判定仍在统一 `(x,y)` 平面，模型深度、网格轮廓、镜头透视和装饰摆动不改变 04 的几何真值。
+首个场景采用真实三维奖品、圈和摊位，相机建议固定在玩家后上方，以透视斜视角看向地面两排三列奖品。近处显示投掷手与圈，左右瞄准、仰角、力度控制向前投掷；无自由漫游。暖灯夜市、条纹棚、帆布摊地和暖色实体旧物是首组包装建议，详见 [方向合同](../../../../development/proto-013/3d-scene-direction.md) 与 [09](09-art-and-asset-production.md)。二维人物半身像只用于可选对白/UI。
 
-建议坐标映射为 `UnityPosition=(规则x,规则y,展示深度z)`；规则平面为 `z=0`。固定正交相机沿 Z 轴看向 XY，最初可以以 `(6,3.5,-20)`、正交半高约 4.2 为画面校准建议；这是表现初值，不是新增场地高度或判定参数。以 16:9 画框保留六槽、0.6 m 发射点与 12×7 m 规则区域，其他宽高比扩展装饰/留边，不挤压规则坐标。
+建议内部与 Unity 共用 Y 向上、X 左右、Z 指向奖品的坐标约定，1 Unity unit 对应 1 标定 m。具体槽位、相机位置/视场、投掷点和尺寸由三维版本配置登记，不沿用旧正交相机与单排 XY 布局。画幅改变只影响取景与 UI，不能移动真值或补偿透视远近。
 
-需要展示侧面的物件可以局部旋转外观网格或错开装饰层，功能锚点、板面方向、入口/出口和圈中心投影始终来自规则。不得把模型倾斜之后的可见顶面当作新的领奖平面；相机不绕场自由移动，不允许“看见后面”生成额外投掷路线。
+- 圈的真实三维中心、奖品接受体、板面法线、风场和机关入口等从同一版本配置生成视图与规则；训练/复盘可投影显示它们。可见功能位置与求交位置相符，不在隐藏二维平面中奖。
+- 可采用公开、稳定的三维几何简化，不要求首轮实现完整环体刚体。圈装饰转动、阴影和手部动画不独立领奖、扣圈、扣耐久或重复发射。
+- 鼠标选物的 Collider 只返回 itemId/slotId 并经阶段校验；它与功能接触体职责分开。功能接触来自登记的三维几何，不能由导入模型时自动附加的任意 Collider 改写。
+- 背景灯、棚、货箱和人物默认无功能接触。需要真实障碍时先登记规则类型、几何、版本与验证；低画质只能删装饰，不能删功能或改变接受体。
+- 三种圈、六机关和十二皮肤的完整计划继续共用规则锚点；当前只制作首组单摊资产，不把全量清单写成已完成。
 
-- 规则接受区、风扇/罩矩形、板面法线、滑槽入口与支架等轮廓由同一配置投影绘制，能在训练与复盘显示；宽轻圈的容差只按内半径规则改变。
-- 圈旋转、收缩、弹性、阴影和镜头轻动属于表现；圈中心轨迹由模拟给出。模型碰撞、Animator root motion 或粒子事件不能领奖、扣耐久或把失手改为命中。
-- 三维 Collider 若用于鼠标选物，只处于独立“视图选取”层，回传 itemId/slotId 后仍要经阶段校验。它不承担投掷接触；手柄和键盘通过槽位焦点完成相同命令。
-- 背景货箱、桥柱与人物默认无规则碰撞。前景/深度排序不得盖住飞行圈、当前接受区和触发标记；需要真实障碍时必须先定义并登记在 04 的规则模型，而非仅放一个 MeshCollider。
-- 三种圈、六机关和十二皮肤共用校准锚点。网格 LOD、贴图压缩、不同材质或降低画质不得改变几何与数值。
-
-验证必须同时展示二维调试层与 2.5D 画面，对照同一投输入、接触点和事件；一张漂亮三维截图不能证明套圈几何正确。
+验证要将三维调试体、同一投输入、实际接触点、事件与 Player 画面对应。近排/远排、左右偏移、高低弧线和受机关影响的投掷需分别核对；旧二维测试或一张三维截图均不能替代这些证据。
 
 ## 7. 三种场景与资源载入
 
@@ -144,38 +143,28 @@ Unity 编辑期可用 ScriptableObject 提供受约束的配置入口；开局�
 
 ## 9. 测试分层与验收资料
 
-规则测试先在 EditMode 运行不依赖场景的 Core/Application，再以 PlayMode 和 Windows Player 对照 UI/表现。测试项目、报告与实际通过记录要分开，本轮尚未编写或执行 Unity 测试。
+规则测试先在 EditMode 运行不依赖场景的 Core/Application，再以 PlayMode 和 Windows Player 对照 UI/表现。已有二维 P0 验证作为历史基线保留；新三维测试、报告、构建和 Player 结果分别以开发记录登记，不在本方案预填成功结果。
 
 - **纯规则 EditMode**：04 的无风/恒风闭式对照、接受边界、步内首次事件、机关触发去重、罩末耐久本圈保护、0 耐久、固定候选/解锁 fallback/预装覆盖、旧物快照、目标冻结、最后一圈与补救时序、同物多次处分和跨局编号。12 摊例账保持新收入 2336、旧残值 190、总收入 2526、支出 151、末钱包 2375。
+- **首个三维场景补充**：两排三列锚点、左右与深度接受边界、下降穿越、板面法线与风场三维方向、首次接触排序、落地/越界，以及同输入的三维轨迹复现。新增布局不能沿用旧单排可达性结论；当前两根源机关与普通圈先验收，再扩完整内容。
 - **存档与经济 EditMode**：一笔事务前后和清单提交前后中断；恢复到完整 Run/Profile；章/通关奖励去重；恢复时不补回已发射圈、不重置特殊圈额度、不使商店物拥有收据资格；坏档备份保留。
 - **Unity PlayMode**：相同投掷在正常/0.5×/暂停、不同展示帧率下事件一致；三维模型中心/入口/轮廓与 Core 相符；键鼠/手柄发射只扣一次；待处置和保存错误恢复不重复动画/奖励；TMP 缺字与低分辨率缩放可读。
 - **实际 Windows x64 Player**：干净输出目录启动、离线游玩、中文路径存档、窗口/分辨率切换、输入断连、保存空间不足和异常退出恢复；分别验证开发构建与发布构建。Steam 包装后的情况由 11 增补，不用编辑器里通过代替 Player 验证。
 
 报告保存编辑器精确版本、代码/内容/参数摘要、包锁定摘要、测试 XML、日志、BuildReport、输出哈希和失败复现输入。首轮重点对照 RNG/TECH/FULL 验收，不写只重复实现代码的数量测试，也不编造目标 PC 的实际帧率。
 
-## 10. 批构建方案与未来命令模板
+## 10. 已有批构建入口与复现合同
 
-参考 ProjectBuilder 的入口和日志方式，后续自建 `RingToss.Editor.ProjectBuilder.BuildWindows` 静态 Editor 方法：校验内容/包/场景清单，明确设置 Windows x64、Mono，构建后检查 `BuildReport.summary.result`，失败抛出构建异常或显式返回非零。产品名与公司名由本项目配置确定，不沿用参考影游名。
+本仓已有 `RingToss.Editor.ProjectBuilder.Prepare/BuildWindows` 静态 Editor 方法与 `scripts/run-unity-prototype.ps1` 的 Prepare/Test/Build 入口，参考了外部工程的入口与日志组织并独立实现。当前准备只在 Bootstrap 场景不存在时创建空场景；构建使用 Windows x64 Mono，检查 `BuildReport.summary.result`，失败抛出构建异常。完整内容/包/场景清单的自动验证仍需随制作补齐，不能把入口存在当作完整发行审查。
 
 构建不重建已制作的 Bootstrap/舞台场景，不生成原始素材，不重抽内容，不修改经济参数。首轮 Mono 选择来自当前模块证据；不能把未核验的 IL2CPP 当作 Steam 硬性前置。构建输出在受忽略目录，来源、版本、测试结果与输出哈希以文本记录。
 
-以下是后续工程和构建方法存在之后才可执行的命令模板；本轮没有执行，所指新工程路径和 Editor 方法尚不存在：
+推荐在本仓根目录使用以下已存在的脚本入口；每次调用生成独立 `.local/unity/<时间>-<模式>/` 日志/测试目录，实际结果见开发记录。新三维实现更改后需重新验证，不引用旧输出作为新包：
 
 ```powershell
-& 'D:\Program files\2022.3.62f3c1\Editor\Unity.exe' `
-  -batchmode -nographics `
-  -projectPath 'F:\workspace\rogue-prototype-lab\prototypes\proto-013-ring-toss\game\RingTossWorkshop' `
-  -runTests -testPlatform EditMode `
-  -testResults 'F:\workspace\rogue-prototype-lab\.local\ring-toss-tests.xml' `
-  -logFile 'F:\workspace\rogue-prototype-lab\.local\ring-toss-tests.log'
-```
-
-```powershell
-& 'D:\Program files\2022.3.62f3c1\Editor\Unity.exe' `
-  -batchmode -nographics -quit `
-  -projectPath 'F:\workspace\rogue-prototype-lab\prototypes\proto-013-ring-toss\game\RingTossWorkshop' `
-  -executeMethod RingToss.Editor.ProjectBuilder.BuildWindows `
-  -logFile 'F:\workspace\rogue-prototype-lab\.local\ring-toss-build.log'
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-unity-prototype.ps1 -Mode Prepare
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-unity-prototype.ps1 -Mode Test
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-unity-prototype.ps1 -Mode Build
 ```
 
 保留参考说明“不向 Test Framework 测试命令附加 `-quit`”的约定；测试结果要检查 XML 与错误日志，不仅看进程码。测试入口与平台选项依据 [Test Framework 1.1 命令行](https://docs.unity3d.com/Packages/com.unity.test-framework@1.1/manual/reference-command-line.html)。静态 Editor 方法、路径和失败返回合同依据 [Unity 2022.3 命令行](https://docs.unity3d.com/2022.3/Documentation/Manual/EditorCommandLineArguments.html)。
@@ -190,14 +179,14 @@ Unity 编辑期可用 ScriptableObject 提供受约束的配置入口；开局�
 
 云存档候选只复用本地存储协议和经验证的快照边界，不把远端文件当作新的奖品或笔记来源；启用范围、冲突方案、SDK 与上传发布流程由 11 决定。本轮不搭 Web 服务、不引入账号登录，不把包文件或构建日志上传到平台。
 
-## 12. 从文件核验到可用工程的下一轮门槛
+## 12. 当前单摊三维迭代与后续门槛
 
-当前完成的是编辑器、Mono 模块、参考包/代码和历史构建证据读取，以及这份可审阅方案。下列均为后续实际制作门槛：
+环境核验、独立工程和原型脚本已建立；此前二维 P0 的实际结果保持为历史。当前转向首个真实三维单摊，不代表完整三章十二摊已经制作。后续门槛为：
 
-1. 用已安装 2022.3.62f3c1 创建独立工程，锁最小包并验证编译；记录当时包解析与许可/编辑器启动结果。
-2. 完成只有普通圈、六槽和精度标尺的 P0，验证同输入复现与接受边界，再接两种根源机关。保留二维规则真值，不先以网格物理代替核心验证。
-3. 在 PresentationTest 比较固定正交 2.5D 模型、TMP、输入和 URP 14 候选；在正式模型/材质量产前冻结管线和包小版本。
-4. 先得到一个可运行 Windows x64 Mono 构建，再实现恢复、事务与本章内容纵切；文件存在、导入成功、编译成功、测试通过、Player 通过分别记录。
+1. 为新三维输入、两排三列布局和接受/接触几何登记版本，隔离旧二维回放；保持 04 账本、圈数、耐久等标量合同。
+2. 普通圈、六槽、风扇与反弹板先通过三维轨迹、同锚点和经济隔离验证，再扩大机关/圈型与内容；不能以装饰网格碰撞替代明确规则。
+3. 验证固定斜视相机、近处手/圈、棚/摊地/灯和轻覆盖 UI 的实际 Player 可读性；正式材质量产前锁定管线和所需包。
+4. 记录本轮 Windows x64 Mono 构建和实际 Player 验证，再逐步实现恢复、事务与本章内容纵切；文件存在、导入成功、编译成功、测试通过、Player 通过分别记录。
 5. 全部允许的候选池与预装组合获得实际回放可达证据之后，扩到完整十二摊；Steam 集成和发行验证保持独立门槛，不用平台包装掩盖未验证规则。
 
-这些门槛不代表本轮已经实施。当前没有套圈改造摊 Unity 工程、C# 游戏程序集、可玩场景、新测试 XML、Windows Player 或 Steam 上传结果；外部 highschool 工程和本机软件保持原状。
+本文件描述方向与验证合同，不预填新三维实现完成、测试数量、构建或 Player 成功。实际证据统一进入开发记录；完整存档、跨摊、全量内容与 Steam 接入仍各有独立工作。外部 highschool 工程不因借鉴而改写。

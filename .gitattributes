@@ -6,6 +6,11 @@
 *.yaml text eol=lf
 *.sha256 text eol=lf
 
+# Unity 自动生成的 YAML 空值会保留尾随空格；避免导入后反复改写这些值
+*.meta text eol=lf whitespace=-blank-at-eol
+*.unity text eol=lf whitespace=-blank-at-eol
+*.asset text eol=lf whitespace=-blank-at-eol
+
 # 原始文档、压缩包和素材按二进制保存，避免换行转换
 *.xlsx binary
 *.xls binary

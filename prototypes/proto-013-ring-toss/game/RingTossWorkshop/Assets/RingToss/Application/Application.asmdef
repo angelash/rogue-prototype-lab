@@ -1,0 +1,6 @@
+{
+  "name": "RingToss.Application",
+  "rootNamespace": "RingToss.Application",
+  "references": ["RingToss.Core"],
+  "noEngineReferences": true
+}

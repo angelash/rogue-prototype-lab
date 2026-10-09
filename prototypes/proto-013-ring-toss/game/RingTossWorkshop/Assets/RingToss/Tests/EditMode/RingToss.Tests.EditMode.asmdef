@@ -1,0 +1,8 @@
+{
+  "name": "RingToss.Tests.EditMode",
+  "rootNamespace": "RingToss.Tests",
+  "references": ["RingToss.Core", "RingToss.Application"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "noEngineReferences": true
+}

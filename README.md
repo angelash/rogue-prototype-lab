@@ -5,8 +5,8 @@
 - 本机路径：`F:\workspace\rogue-prototype-lab`
 - 计划中的 Codex 项目显示名：**系列游戏原型开发**
 - 设置日期：2026-10-09
-- 当前状态：第一批 6 个项目已有独立需求与设计 v0.1，013 套圈改造摊完整方案入口已补至 v0.4，新增内容/能力缺口、生产验证合同和可运行准备检查；原工作簿及历史结论保留，内容由 Git/GitHub 管理。Codex 项目绑定仍待确认。
-- 当前完成范围：资料与设计、仓库备份、能力审计及隔离工具探针；尚未实现或实测游戏原型。用户已明确后续开发全部由助手处理。
+- 当前状态：第一批 6 个项目已有独立需求与设计 v0.1，013 套圈改造摊完整方案入口为 v0.6，已有首个真实三维单摊 Unity 原型；原工作簿、历史结论、内容/能力缺口及生产验证合同保留，内容由 Git/GitHub 管理。Codex 项目绑定仍待确认。
+- 当前完成范围：资料与设计、仓库备份、能力审计、隔离工具探针，以及 013 的首个三维单摊、初始 Blender 模型 Resources 接入与 48/48 EditMode 测试通过（旧 30 项＋新三维 18 项）。Windows x64 Mono 构建已完成，隔离相机渲染图已生成并目检；版本、大小、图与日志见 [本轮开发记录](docs/development/proto-013/2026-10-09-p0.md)。该相机图不含 IMGUI 覆盖层。旧二维窗口 QA 保留为历史；当前桌面观察到锁屏，三维正常键鼠 QA 尚未通过，隔离渲染不代替真实操作验收。用户已明确后续开发全部由助手处理。
 - 仓库：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)（公开）；主分支 `main`，远程名 `origin`。
 - 日常上传、校验和恢复步骤见 [仓库与备份管理](docs/version-control.md)。
 
@@ -14,7 +14,9 @@
 
 最新入口：[第一批项目需求与设计总览](docs/design/first-batch/README.md)，包含回转寿司工坊、套圈改造摊、回收保洁队、贪吃蛇孵化场、磁铁拾荒者、收割机自己铺路。
 
-本轮专项补充：[套圈改造摊完整方案 v0.4](docs/design/first-batch/proto-013-ring-toss/full-game/README.md)，覆盖完整设计、Unity PC/Steam，以及当前缺口和内容生产验证。用户已选择 Unity、现有安装、PC 单机与 Steam 目标；本机核实为 2022.3.62f3c1。固定正交 2.5D 和 Blender/生图分工仍为助手建议，尚未创建游戏工程或生产正式素材。
+方案入口：[套圈改造摊完整方案 v0.6](docs/design/first-batch/proto-013-ring-toss/full-game/README.md)，覆盖完整设计、Unity PC/Steam，以及当前缺口和内容生产验证。用户已选择 Unity、现有安装、PC 单机与 Steam 目标，并于 2026-10-09 授权按计划开始实现、素材接入、测试和 Windows 构建；本机核实为 2022.3.62f3c1。随后明确要求真实三维、斜视场景、玩家近处向前抛圈，替代旧二维占位与固定正交 2.5D；具体镜头、布局、造型与材质仍是助手建议，见 [三维方向合同](docs/development/proto-013/3d-scene-direction.md)。
+
+当前实现入口：[013 项目](prototypes/proto-013-ring-toss/README.md) · [P0 Unity 工程与操作说明](prototypes/proto-013-ring-toss/game/RingTossWorkshop/README.md) · [2026-10-09 首轮开发记录](docs/development/proto-013/2026-10-09-p0.md)。P0 仅含无风单摊、普通圈、地面两排三列六槽、风扇与反弹板，以及兑现/留场和两次调整；目标回款 105、基础八圈。首组已有三维摊景、近处持圈表现和 Blender 模型接入，三个输入分别控制左右方位、仰角与力度；已接七个原创程序音效。完整正式人物/皮肤/三章美术、存档、跨摊流程与 Steam 接入仍未完成。
 
 后续开发先读 [12 缺口与补齐计划](docs/design/first-batch/proto-013-ring-toss/full-game/12-development-readiness-and-gaps.md) 和 [13 内容与验证合同](docs/design/first-batch/proto-013-ring-toss/full-game/13-content-authoring-and-validation.md)。程序、内容、音画、测试与构建由助手处理；16 项缺口按阶段、产物和完成证据登记。已有 [准备检查脚本](scripts/README.md)，Blender 与音视频编码的实际探针见 [能力审计](sources/references/development-capability-audit-2026-10-09.md)。
 
@@ -33,7 +35,7 @@
 | [本地设置状态](docs/setup-status.md) | 实际完成状态与项目绑定步骤 |
 | [仓库与备份管理](docs/version-control.md) | 忽略规则、上传、工作簿校验及恢复步骤 |
 
-全部候选仍是纸面假设，尚未实测。本轮把优先推荐与用户追加项整理为第一批；名单解释、用户明确决定与助手建议见总览。实际开工顺序未指定，31 案不代表同时开发。013 的引擎、PC 单机与 Steam 目标已指定；其他项目的技术/平台选择、各项目商业模式与预算另行记录。
+第一批名单来自优先推荐与用户追加项，名单解释、用户明确决定与助手建议见总览。013 已获授权开始开发；其他候选仍处于方案阶段，玩法价值尚待各自原型和试玩验证，31 案不代表同时开发。013 的引擎、PC 单机与 Steam 目标已指定；其他项目的技术/平台选择、各项目商业模式与预算另行记录。
 
 ## 目录结构
 
@@ -45,9 +47,9 @@
 | docs/playtests/ | 后续原型试玩与验证记录 |
 | [sources/](sources/README.md) | 原始资料、来源和版本信息 |
 | sources/chatgpt/ | 《解析小丑牌设计》的对话与工作簿来源 |
-| [prototypes/](prototypes/README.md) | 第一批各项目的独立入口，目前为文档准备阶段 |
-| [assets/](assets/README.md) | 后续素材；shared/ 用于共用素材 |
+| [prototypes/](prototypes/README.md) | 第一批各项目的独立入口；013 已有 P0 Unity 工程，其余为文档准备阶段 |
+| [assets/](assets/README.md) | 原型素材与来源信息；shared/ 用于共用素材 |
 
 本地工作簿 [熟悉与意外_120个游戏方案.xlsx](sources/chatgpt/熟悉与意外_120个游戏方案.xlsx) 保留原文件名与内容。已核对文件大小、包结构、四个工作表名称和 SHA-256，本轮只读核对了六个候选及原型优先级相关单元格，定位见 [筛选登记](sources/chatgpt/first-batch-selection.md)。未与云端逐字节比对，也未全面复审全部旧 120 案。
 
-本轮只读参考 highschool 与 world-of-claudecraft；原文件名、版本、校验与筛选理由见 [工程参考登记](sources/references/local-project-reference-register.md)。仓库内的 [Unity PC 开发技能](.agents/skills/unity-pc-prototype/SKILL.md) 与 [套圈素材技能](.agents/skills/ring-toss-asset-pipeline/SKILL.md) 通过权威文档路由具体工作。
+本轮只读参考 highschool、world-of-claudecraft 与 live-avatar；原工程的版本、校验与筛选理由见 [工程参考登记](sources/references/local-project-reference-register.md)。world-of-claudecraft 的 14 项音频尚未确认可商用，未复制进游戏，结论见 [音频复用登记](sources/references/woc-audio-reuse-register.md)；live-avatar 仅作 TTS 架构参考，见 [音频能力登记](sources/references/live-avatar-audio-capability-register.md)。仓库内的 [Unity PC 开发技能](.agents/skills/unity-pc-prototype/SKILL.md) 与 [套圈素材技能](.agents/skills/ring-toss-asset-pipeline/SKILL.md) 通过权威文档路由具体工作。
