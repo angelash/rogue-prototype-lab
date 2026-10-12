@@ -1,0 +1,53 @@
+id,slug,title,setup,commands,expected,status,origin
+GOLD01,first-turn-no-work,新局首回合不工作,round=1; workers=[],BeginTurn(P0),"AP=3;coins=10;hand=5;done=[0,0,0,0,0]",specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD02,worker-two-ticks,两点帮工,C001 active remaining=2;call未受阻,两次P0 BeginTurn,第一次remaining=1；第二次done.call+=1，实例进入原属弃牌区,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD03,blocked-preserves,受阻保进度,C001 remaining=1;C051 duration=1,P0 BeginTurn; EndTurn,工作不推进；EndTurn后C051到0弃置；下一次BeginTurn工作完成,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD04,repair-start,自动修补先于工作,P0 hand C085; C047 active; C001 remaining=1,BeginTurn,不自动消耗修补牌；玩家需在行动阶段修补，已错过本次自然工作；这是对原作顺序的明确修改,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD05,finish-all,齐活只结未受阻,"C001 rem=2,C007 rem=4;call blocked",Play C072,仅C007完成，cook已完成+1；C001保留,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD06,worker-lock,首人限定岗位,"AP=3;emptyworkers;hand C001,C007",Play C001;Play C007,第二次拒绝reason.2；AP仍2；C007仍手中,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD07,unlock,解除岗位限定,"lock=call; AP=2;hand C076,C007",Play C076;Play C007,unlock=true，C007可派；AP=0,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD08,duplicate-worker,对摊同ID,P1 working C001;P0 hand own C001,Play C001,拒绝reason.6；不消耗,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD09,negative-tick,一回合停工不提前过期,P0用C051打P1,P1 BeginTurn;P1 EndTurn,先阻止call自然工作，之后duration减1并移除,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD10,negative-stack,同岗位两次受阻,C051 duration1+C052 duration1,BeginTurn;EndTurn,受阻是布尔OR；两实例分别到0；不会工作两次或多延长,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD11,repair-match,雨棚修补不修灯,"own C044,C047; hand C082",Play C082,仅C044移除，C047保留，AP减少1,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD12,no-repair,无对应障碍,own C047;hand C082,Play C082,拒绝reason.9，卡/AP保持,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD13,counter-reaction,加项被说和,P0用C089;P1手C087,P1 counter C087,P0 AP减1、市望+50；P1 AP不变；目标不变；两牌弃置,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD14,accept-inspection,接受加项,cook goal4;incomingC089,Accept,cook goal6，已完成保持；重算资格,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD15,reopen,复查扣一项,call goal2 done3,PlayC094(call);Accept,done.call=2，仍达到2；保留超额的真实价值,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD16,reduce-floor,减项目标下限,ward goal1 done0,PlayC079(ward),拒绝reason.8；目标不能低于1,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD17,score,使用与完工市望,score0;playC001;two workticks,Resolve,score175，不花市望；扣除任务不回扣市望,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD18,round-boundary-win,公平轮末开张,P0 meetsall;P1notyetacted,EndTurnP0;EndTurnP1,只在P1回合后评定；P1也合格则按胜负元组比较,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD19,tie,完全同分,bothready;doneboth12;scoreboth500;coinsboth8,RoundCheck,draw，不随机选胜者,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD20,deadline,到期限都未齐,"round20;P0ratio10/12,P1ratio9/12;两方客人都缺",RoundCheck,"比较(合格客人数,达标岗位数,整数进度比,市望,铜钱)；同客同岗前提P0比值更高赢",specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD21,deck-empty,牌堆与弃牌皆空,deck=[];discard=[];hand2,Draw3,不抽，无异常，不产生新实例,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD22,reshuffle,弃牌洗回,deck=[];discard3;hand2,Draw3,三个已有实例洗回再抽；实例总数守恒190,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD23,hand-cap,夺牌溢出,P0 hand11; steal2,PlayC063,先出牌后hand10，再得2=12，无溢出；从12手出牌再夺2最后1张入其原属弃牌区,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD24,return-progress,撤回归零,opponentworker C007 rem1;hand12,PlayC065,随机命中C007进度丢弃，因手满进入原属弃牌区,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD25,power-adjacency,供电只邻格,"F05 both slot2,F03 pump slot1,F04 play slot4",Evaluate,water有效；music无效，slot4距2为2,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD26,silent-left,静音只向左,"F05 left slot2,F04 play slot1,F03 pump slot3",Evaluate,music有效；water无效；全摊无noise,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD27,sell-power,变卖牺牲能力,"F05 both2,F03 pump1;coins8;AP2",SellF05,coins10;AP1;water立刻失效；F05售出本局禁买回,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD28,mode-cost,切用途不叠加标签,F01cook;AP3,SetModeheat,AP2；food消失，仅warmth有效,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD29,no-power-no-tag,冰柜断电,F09cold无供电,Evaluate,food和water均不提供，无局部半供电,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD30,guest-forbidden,纸客避噪,quiet+ward满足;F05both,OpeningCheckG04,纸客不合格；改静音左路且服务仍齐才合格,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD31,sold-item-stock,初装库存守恒,F01已装;stockF01=0,SellF01;BuyF01,卖出后retiredF01=1；买回拒绝,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD32,invalid-transaction,过期重复命令,revision7; commandrevision6,Apply,拒绝，资源/随机流/存档代次均不变,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD33,double-click,重复点击,samecommandID两次,Applytwice,第二次返回第一份结果，不再次扣AP/发市望,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD34,pause,暂停冻结,反应界面当前停留,Pause;Wait;Resume,不推进AI/动画时钟；反应无限时,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD35,resume-reaction,存档恢复检查,pendinginspectionC089;counterhandC087,Save;Load,恢复同检查反应，同实例/目标/随机流，不重新抽卡,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD36,write-fail,写失败保旧档,有效A代次4;B写代次5中断,Load,选择校验有效且已提交的最大代次4，不装载半写5,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD37,version,未知存档版本,saveVersion99,Load,阻止读取，显示error.saveNewer，保留文件,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD38,story-idempotent,章节奖励只一次,CH1首胜已发unlockID,ReplayWin,不重复奖励；CH2保持解锁,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD39,ai-fair,AI不看未来,对摊隐藏牌变更，公共状态相同,AI choose,选择不受敌手隐藏牌与未抽deck影响,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD40,tutorial-isolation,教程无长期奖励,tutorialwin,CommitResult,只记tutorialSeen，不写章节/正式排行,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD41,ratio-integer,期限比较不浮点,progress10 goal12 vs progress11 goal13,Compare,交叉乘10*13=130<11*12=132；第二方领先,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD42,move-empty,移动不得交换,slot0F01 slot1F02,MoveF01to1,拒绝reason.slot；不花AP,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD43,replay-isolation,种子复盘不领奖,mode=replay;newbestscore,CommitResult,结果仅展示，不写排行榜/章节；正式自由委托另记,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD44,seed-zero,种子边界,seed0或超uint32,NewGame,拒绝error.seed,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD45,autosave-before-result,结算提交顺序,双方round20;result确定,Commit,完整局面+resultTransactionID先保存；长期奖励随后幂等写入,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD46,repair-cost,修补属于行动,AP0;有修补牌与匹配障碍,PlayRepair,拒绝reason.noAP；不能免费连锁,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD47,chain-no-midwin,正向齐活后又加项,P0已达标;P1有检查,P0End;P1inspect;RoundCheck,以检查后真实状态评定，不在齐活动画结束时提前获胜,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD48,goal-upper,加项目标不封顶,goal6;C089 accepted,Resolve,goal8；uint安全，上限由有限95卡实例及20轮自然限定，不截断增加,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD49,sell-coin-cap,卖出超过钱上限,coins20;SellF05,Resolve,coins20，提示上限，确认前显示实际到账0；设施仍变卖,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD50,empty-target,夺牌空手目标,enemyhand0;ownC063,Play,拒绝reason.4，不能空刷市望,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD51,work-overflow,超额工作可储备,donecall=goalcall;activeC001 rem1,BeginTurn,继续完成并done+1；新招该岗位禁止，既有帮工不取消,specified-not-executed,本版规则独立推导的预期；非实现输出快照
+GOLD52,start-turn-save,自然工作一次,BeginTurn已committed;退出恢复,Resume,不重复收入/工作/抽牌，phaseToken记录该回合完成,specified-not-executed,本版规则独立推导的预期；非实现输出快照

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "SYS01",
+    "sourceFeature": "五软件部门",
+    "targetFeature": "招徕/灶务/供货/布置/安检",
+    "targetSpec": "data/catalog.json",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS02",
+    "sourceFeature": "英语/西语",
+    "targetFeature": "全部原创中文文本，原420键全部处置",
+    "targetSpec": "replacement/text-keys.json",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS03",
+    "sourceFeature": "五虚构平台",
+    "targetFeature": "铜铃巷/石桥街/渡口埠/灯影坊/云台坡",
+    "targetSpec": "data/catalog.json",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS04",
+    "sourceFeature": "500用卡/1250完工预算",
+    "targetFeature": "50用卡/125完工市望，仅记录；铜钱独立购物",
+    "targetSpec": "design/02-rules.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS05",
+    "sourceFeature": "95独立牌堆与随机5手",
+    "targetFeature": "每方95实例，固定五岗位初手，重洗/守恒/上限",
+    "targetSpec": "design/02-rules.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS06",
+    "sourceFeature": "第一帮工锁部门",
+    "targetFeature": "保留岗位锁，C076–078可解除，AP三次限制",
+    "targetSpec": "design/02-rules.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS07",
+    "sourceFeature": "六秒检查/四秒无牌自动过",
+    "targetFeature": "无限时说和，结束回合须明确提交",
+    "targetSpec": "design/02-rules.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS08",
+    "sourceFeature": "左键用牌/右键或Space结束/Tab加速/Esc长按退出",
+    "targetFeature": "左键确认/右键取消/E结束/F加速/退出确认",
+    "targetSpec": "design/07-ui-input.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS09",
+    "sourceFeature": "PlayerPrefs设置与30榜字段",
+    "targetFeature": "独立settings/profile/match，幂等玩家前十榜",
+    "targetSpec": "design/09-save.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS10",
+    "sourceFeature": "动画队列完成触发胜负",
+    "targetFeature": "Core公平轮末判定，Tween只播事件",
+    "targetSpec": "design/08-technical.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS11",
+    "sourceFeature": "旧91音频与原字体",
+    "targetFeature": "24原创音频，审核中文Noto，原媒体不复用",
+    "targetSpec": "design/10-audio-release.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS12",
+    "sourceFeature": "旧Sprite/TextMesh单场景",
+    "targetFeature": "uGUI/TMP二维桌面、独立场景与slot锚点",
+    "targetSpec": "design/08-technical.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS13",
+    "sourceFeature": "没有设施/客人条件",
+    "targetFeature": "五格十二双用途物件、邻接供电、变卖、五公开客类",
+    "targetSpec": "design/03-facilities-guests.md",
+    "policy": "original-redesign"
+  },
+  {
+    "id": "SYS14",
+    "sourceFeature": "无局内保存",
+    "targetFeature": "完整回合/反应/随机状态检查点与双槽恢复",
+    "targetSpec": "design/09-save.md",
+    "policy": "original-redesign"
+  }
+]

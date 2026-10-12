@@ -1,0 +1,15 @@
+id,textKey,anchor,advance,requiredAction,scenario,skipAllowed
+T01,tuto.welcome,title,click_confirm,Confirm,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T02,tuto.goal,goals,click_confirm,Confirm,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T03,tuto.worker,hand,perform_named_action,PlayWorker(call),教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T04,tuto.lock,worker-slots,perform_named_action,AttemptWorkerOtherRole(rejected),教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T05,tuto.work,worker-progress,perform_named_action,BeginOwnTurn,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T06,tuto.block,negative-slots,perform_named_action,ApplyDemoBlock(C051),教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T07,tuto.repair,hand,perform_named_action,LoadDemoBlock(C044);PlayRepair(C082),教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T08,tuto.facility,facility-row,perform_named_action,"SetMode(F01,heat)",教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T09,tuto.power,power-lines,perform_named_action,InstallAdjacentPower,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T10,tuto.sell,inventory,perform_named_action,SellFacility,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T11,tuto.guests,guest-panel,perform_named_action,ViewGuestNeeds,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T12,tuto.counter,reaction-panel,perform_named_action,PlayCounter,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T13,tuto.end,end-turn,perform_named_action,EndTurn,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True
+T14,tuto.finish,board,click_confirm,Confirm,教程专用固定状态，不写入正式对局/排行榜/章节解锁,True

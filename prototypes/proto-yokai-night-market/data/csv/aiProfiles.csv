@@ -1,0 +1,4 @@
+id,name,canSeeHidden,actionBudget,thinkSeconds,priorityWeights,easySkipFirstInspection,searchDepth,boundedNodes,randomTieBreak,status
+easy,慢火,False,3,0.4,"{""win"":90,""repair"":70,""worker"":80,""facility"":60,""inspection"":55,""positive"":50,""negative"":40}",True,1,128,False,specified
+normal,街坊,False,3,0.4,"{""win"":100,""repair"":90,""worker"":75,""facility"":65,""inspection"":55,""positive"":50,""negative"":45}",False,2,512,False,specified
+hard,老摊,False,3,0.4,"{""win"":100,""repair"":95,""worker"":85,""facility"":80,""inspection"":65,""positive"":60,""negative"":55}",False,2,512,False,specified

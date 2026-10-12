@@ -1,0 +1,1882 @@
+[
+  {
+    "contractID": "N01",
+    "guestIDs": [
+      "G01"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "shade"
+    ],
+    "commands": [],
+    "ownTurnsRequired": 0,
+    "coinsRemaining": 8,
+    "actionsUsed": 0,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N02",
+    "guestIDs": [
+      "G01",
+      "G02"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F07",
+        "slot": 1,
+        "mode": "warm"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "shade",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F07",
+        "mode": "warm",
+        "afterCoins": 8,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N03",
+    "guestIDs": [
+      "G03"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "noise",
+      "shade",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 7,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 3,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N04",
+    "guestIDs": [
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 10,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N05",
+    "guestIDs": [
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F10",
+        "slot": 1,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "shade"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 1,
+        "afterCoins": 7,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 7,
+    "actionsUsed": 1,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N06",
+    "guestIDs": [
+      "G02",
+      "G03"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "light",
+      "noise",
+      "shade",
+      "warmth",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 7,
+        "afterAP": 0
+      },
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 2,
+        "coins": 9,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 5,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 2,
+    "coinsRemaining": 5,
+    "actionsUsed": 4,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N07",
+    "guestIDs": [
+      "G01",
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F10",
+        "slot": 1,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "shade"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 1,
+        "afterCoins": 7,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 7,
+    "actionsUsed": 1,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N08",
+    "guestIDs": [
+      "G02"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "light",
+      "shade",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 10,
+    "actionsUsed": 1,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N09",
+    "guestIDs": [
+      "G01"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "shade"
+    ],
+    "commands": [],
+    "ownTurnsRequired": 0,
+    "coinsRemaining": 8,
+    "actionsUsed": 0,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N10",
+    "guestIDs": [
+      "G03",
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F04",
+        "slot": 4,
+        "mode": "play"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "noise",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SellFacility",
+        "facility": "F06",
+        "afterCoins": 11,
+        "afterAP": 2
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 11,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 8,
+        "afterAP": 0
+      },
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 2,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F04",
+        "slot": 4,
+        "afterCoins": 7,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 2,
+    "coinsRemaining": 3,
+    "actionsUsed": 5,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N11",
+    "guestIDs": [
+      "G04",
+      "G02"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F12",
+        "slot": 1,
+        "mode": "quiet"
+      }
+    ],
+    "providedTags": [
+      "quiet",
+      "shade",
+      "ward",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F12",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N12",
+    "guestIDs": [
+      "G01",
+      "G02"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F07",
+        "slot": 1,
+        "mode": "warm"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "shade",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F07",
+        "mode": "warm",
+        "afterCoins": 8,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N13",
+    "guestIDs": [
+      "G03"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "noise",
+      "shade",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 7,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 3,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N14",
+    "guestIDs": [
+      "G02",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F12",
+        "slot": 1,
+        "mode": "quiet"
+      }
+    ],
+    "providedTags": [
+      "quiet",
+      "shade",
+      "ward",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F12",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N15",
+    "guestIDs": [
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 10,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N16",
+    "guestIDs": [
+      "G05",
+      "G01"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F10",
+        "slot": 1,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "shade"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 1,
+        "afterCoins": 7,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 7,
+    "actionsUsed": 1,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N17",
+    "guestIDs": [
+      "G03",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 0,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 1,
+        "mode": "left"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F07",
+        "slot": 3,
+        "mode": "ward"
+      }
+    ],
+    "providedTags": [
+      "light",
+      "quiet",
+      "ward",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SellFacility",
+        "facility": "F01",
+        "afterCoins": 11,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 0,
+        "afterCoins": 8,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 1,
+        "afterCoins": 4,
+        "afterAP": 0
+      },
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 2,
+        "coins": 6,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F05",
+        "mode": "left",
+        "afterCoins": 6,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 6,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 3,
+        "afterCoins": 4,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 2,
+    "coinsRemaining": 4,
+    "actionsUsed": 6,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N18",
+    "guestIDs": [
+      "G01",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F07",
+        "slot": 1,
+        "mode": "ward"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N19",
+    "guestIDs": [
+      "G01",
+      "G03"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "noise",
+      "shade",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 7,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 3,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N20",
+    "guestIDs": [
+      "G02",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F12",
+        "slot": 1,
+        "mode": "quiet"
+      }
+    ],
+    "providedTags": [
+      "quiet",
+      "shade",
+      "ward",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F12",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N21",
+    "guestIDs": [
+      "G05",
+      "G03"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F04",
+        "slot": 4,
+        "mode": "play"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "noise",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SellFacility",
+        "facility": "F06",
+        "afterCoins": 11,
+        "afterAP": 2
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 11,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 8,
+        "afterAP": 0
+      },
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 2,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F04",
+        "slot": 4,
+        "afterCoins": 7,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 2,
+    "coinsRemaining": 3,
+    "actionsUsed": 5,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N22",
+    "guestIDs": [
+      "G02"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "heat"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "light",
+      "shade",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F01",
+        "mode": "heat",
+        "afterCoins": 10,
+        "afterAP": 2
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 10,
+    "actionsUsed": 1,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N23",
+    "guestIDs": [
+      "G03",
+      "G01"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 1,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 2,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 3,
+        "mode": "both"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "noise",
+      "shade",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "MoveFacility",
+        "facility": "F02",
+        "to": 1,
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 2,
+        "afterCoins": 7,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 3,
+        "afterCoins": 3,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 3,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N24",
+    "guestIDs": [
+      "G04",
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F10",
+        "slot": 1,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "music",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 1,
+        "afterCoins": 7,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 7,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N25",
+    "guestIDs": [
+      "G01",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F07",
+        "slot": 1,
+        "mode": "ward"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 1
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 8,
+    "actionsUsed": 2,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N26",
+    "guestIDs": [
+      "G02",
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "shade"
+      },
+      {
+        "facility": "F07",
+        "slot": 1,
+        "mode": "warm"
+      },
+      {
+        "facility": "F10",
+        "slot": 3,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "light",
+      "music",
+      "shade",
+      "warmth"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 1,
+        "afterCoins": 8,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F07",
+        "mode": "warm",
+        "afterCoins": 8,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 3,
+        "afterCoins": 5,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 5,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N27",
+    "guestIDs": [
+      "G03",
+      "G04"
+    ],
+    "layout": [
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "light"
+      },
+      {
+        "facility": "F03",
+        "slot": 0,
+        "mode": "pump"
+      },
+      {
+        "facility": "F05",
+        "slot": 1,
+        "mode": "left"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F07",
+        "slot": 3,
+        "mode": "ward"
+      }
+    ],
+    "providedTags": [
+      "light",
+      "quiet",
+      "ward",
+      "water"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SellFacility",
+        "facility": "F01",
+        "afterCoins": 11,
+        "afterAP": 2
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F03",
+        "slot": 0,
+        "afterCoins": 8,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F05",
+        "slot": 1,
+        "afterCoins": 4,
+        "afterAP": 0
+      },
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 2,
+        "coins": 6,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F05",
+        "mode": "left",
+        "afterCoins": 6,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 6,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F07",
+        "slot": 3,
+        "afterCoins": 4,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 2,
+    "coinsRemaining": 4,
+    "actionsUsed": 6,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  },
+  {
+    "contractID": "N28",
+    "guestIDs": [
+      "G04",
+      "G05"
+    ],
+    "layout": [
+      {
+        "facility": "F01",
+        "slot": 0,
+        "mode": "cook"
+      },
+      {
+        "facility": "F02",
+        "slot": 2,
+        "mode": "guide"
+      },
+      {
+        "facility": "F06",
+        "slot": 4,
+        "mode": "quiet"
+      },
+      {
+        "facility": "F10",
+        "slot": 1,
+        "mode": "music"
+      }
+    ],
+    "providedTags": [
+      "food",
+      "music",
+      "quiet",
+      "ward"
+    ],
+    "commands": [
+      {
+        "type": "BeginNextOwnTurn",
+        "round": 1,
+        "coins": 10,
+        "ap": 3
+      },
+      {
+        "type": "SetMode",
+        "facility": "F02",
+        "mode": "guide",
+        "afterCoins": 10,
+        "afterAP": 2
+      },
+      {
+        "type": "SetMode",
+        "facility": "F06",
+        "mode": "quiet",
+        "afterCoins": 10,
+        "afterAP": 1
+      },
+      {
+        "type": "BuyFacility",
+        "facility": "F10",
+        "slot": 1,
+        "afterCoins": 7,
+        "afterAP": 0
+      }
+    ],
+    "ownTurnsRequired": 1,
+    "coinsRemaining": 7,
+    "actionsUsed": 3,
+    "proofScope": "设计层有限设施服务/经济/行动路径；未执行游戏规则或全对局随机可达测试",
+    "status": "design-witness"
+  }
+]

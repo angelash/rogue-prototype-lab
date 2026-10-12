@@ -1,0 +1,34 @@
+{
+  "assetID": null,
+  "specVersion": "ynm-content-1",
+  "status": "specified",
+  "toolActual": null,
+  "promptFile": null,
+  "promptSha256": null,
+  "inputImages": [],
+  "originalPath": null,
+  "originalSha256": null,
+  "processingSteps": [],
+  "finalPath": null,
+  "finalSha256": null,
+  "actualSize": null,
+  "hasAlpha": null,
+  "rightsConclusion": null,
+  "inspection": {
+    "date": null,
+    "reviewer": null,
+    "fullSize": null,
+    "thumbnail128": null,
+    "identity": null,
+    "functionalStructure": null,
+    "alphaEdges": null
+  },
+  "unity": {
+    "metaGUID": null,
+    "settings": null,
+    "importEvidence": null,
+    "playerScreenshot": null,
+    "playerAccepted": false
+  },
+  "notes": null
+}

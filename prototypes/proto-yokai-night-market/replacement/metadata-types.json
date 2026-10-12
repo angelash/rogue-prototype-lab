@@ -1,0 +1,242 @@
+[
+  {
+    "sourceType": "<Module>",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "ButtonProject",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.ContractSelectView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Rumble",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.EventPresenter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Stamp",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.ResultView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "TaskIcon",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.RoleProgressView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "PlayCard",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.CardDefinition + Presentation.CardView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "ProjectCard",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.ContractDefinition + Presentation.ContractView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "ProjectCard+TextUpdate",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "ScoreCard",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.ResultView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "AI",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.AIController",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Loader",
+    "policy": "business-role-mapped",
+    "targetRole": "Editor.CatalogImporter + Application.Bootstrap",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Tutorial",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.TutorialSession",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "hGameState",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.MatchPhase",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "hGameVars",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.MatchState",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "TextInfo",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.CardDetailView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "ObjectToMove",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.EventPresenter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "hLanguage",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.StringCatalog",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Statistics",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.ResultCommitter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Action",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.Command + Core.DomainEvent",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "ActionManager",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.CommandBus + Presentation.EventPresenter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "CardManager",
+    "policy": "business-role-mapped",
+    "targetRole": "Core.CardInstances + Core.TurnReducer",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "CardManager+PlayersCards",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "MusicManager",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.AudioRouter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "SoundManager",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.AudioRouter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "TitleManager",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.ScreenRouter",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Button",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.FocusNavigator",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Continue",
+    "policy": "business-role-mapped",
+    "targetRole": "Application.GameSession",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Fader",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.ScreenTransition",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "OptionFlags",
+    "policy": "business-role-mapped",
+    "targetRole": "Storage.SettingsDTO",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Option",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.SettingsControl",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Options",
+    "policy": "business-role-mapped",
+    "targetRole": "Storage.SettingsStore + Presentation.SettingsView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Progressive",
+    "policy": "business-role-mapped",
+    "targetRole": "Presentation.TextPageView",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "TextOutline",
+    "policy": "business-role-mapped",
+    "targetRole": "TMP SDF Font Material",
+    "reason": "业务类职责见code-roles"
+  },
+  {
+    "sourceType": "Action+fncCallback",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "Action+fncCallbackWArg",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "Action+fncCallbackW2Arg",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "Action+fncDelay",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "Button+fncCallback",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "<PrivateImplementationDetails>",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  },
+  {
+    "sourceType": "<PrivateImplementationDetails>+$ArrayType$20",
+    "policy": "compiler-metadata-retired",
+    "targetRole": null,
+    "reason": "原DLL模块/嵌套辅助/委托/编译器数据由新C#编译器或新DTO重建，不复制旧IL"
+  }
+]

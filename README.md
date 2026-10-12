@@ -10,6 +10,7 @@
 - 仓库：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)（公开）；主分支 `main`，远程名 `origin`。
 - 日常上传、校验和恢复步骤见 [仓库与备份管理](docs/version-control.md)。
 - 2026-10-12 新增 [Crunch Time! 逆向分析项目](prototypes/re-crunch-time/README.md)：本机指定构建的全量托管代码、内容与资产分析；报告/工具/索引备份，第三方原件与导出仅本机保存。
+- 2026-10-12 新增独立 [妖怪夜市开张完整包装与开发准备](prototypes/proto-yokai-night-market/README.md)：95卡/28委托、双用途设施、全量原作替换、完整生图规范与提示词；设计准备与实际游戏制作状态分别登记。
 
 ## 先读这些文档
 

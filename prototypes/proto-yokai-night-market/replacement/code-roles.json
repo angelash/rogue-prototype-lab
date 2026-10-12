@@ -1,0 +1,212 @@
+[
+  {
+    "sourceClass": "ButtonProject",
+    "targetRole": "Presentation.ContractSelectView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Rumble",
+    "targetRole": "Presentation.EventPresenter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Stamp",
+    "targetRole": "Presentation.ResultView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "TaskIcon",
+    "targetRole": "Presentation.RoleProgressView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "PlayCard",
+    "targetRole": "Core.CardDefinition + Presentation.CardView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "ProjectCard",
+    "targetRole": "Core.ContractDefinition + Presentation.ContractView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "ScoreCard",
+    "targetRole": "Presentation.ResultView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "AI",
+    "targetRole": "Application.AIController",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Loader",
+    "targetRole": "Editor.CatalogImporter + Application.Bootstrap",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Tutorial",
+    "targetRole": "Application.TutorialSession",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "hGameState",
+    "targetRole": "Core.MatchPhase",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "hGameVars",
+    "targetRole": "Core.MatchState",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "TextInfo",
+    "targetRole": "Presentation.CardDetailView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "ObjectToMove",
+    "targetRole": "Presentation.EventPresenter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "hLanguage",
+    "targetRole": "Application.StringCatalog",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Statistics",
+    "targetRole": "Application.ResultCommitter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Action",
+    "targetRole": "Core.Command + Core.DomainEvent",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "ActionManager",
+    "targetRole": "Application.CommandBus + Presentation.EventPresenter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "CardManager",
+    "targetRole": "Core.CardInstances + Core.TurnReducer",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "MusicManager",
+    "targetRole": "Presentation.AudioRouter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "SoundManager",
+    "targetRole": "Presentation.AudioRouter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "TitleManager",
+    "targetRole": "Presentation.ScreenRouter",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Button",
+    "targetRole": "Presentation.FocusNavigator",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Continue",
+    "targetRole": "Application.GameSession",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Fader",
+    "targetRole": "Presentation.ScreenTransition",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "OptionFlags",
+    "targetRole": "Storage.SettingsDTO",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Option",
+    "targetRole": "Presentation.SettingsControl",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Options",
+    "targetRole": "Storage.SettingsStore + Presentation.SettingsView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "Progressive",
+    "targetRole": "Presentation.TextPageView",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  },
+  {
+    "sourceClass": "TextOutline",
+    "targetRole": "TMP SDF Font Material",
+    "policy": "rewrite-original",
+    "targetSpec": "design/08-technical.md",
+    "reason": "以本版状态/命令/事件重写接口；不复制第三方实现；表现不能结算规则"
+  }
+]

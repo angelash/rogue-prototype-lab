@@ -1,0 +1,445 @@
+{
+  "date": "2026-10-12",
+  "scope": "design-preparation-only",
+  "contentVersion": "ynm-content-1",
+  "rulesVersion": "ynm-rules-1",
+  "catalogSha256": "564b6fe8140650811e20fb781c8feec1ec654ac281b40d220e495195e3bcc773",
+  "result": "passed",
+  "checksPassed": 54,
+  "checksFailed": 0,
+  "checksNotExecuted": 0,
+  "coverage": {
+    "sourceCards": 95,
+    "sourceProjects": 28,
+    "sourceTextKeys": 420,
+    "sourceResourceKeys": 74,
+    "sourceObjects": 1985,
+    "sourceBusinessClasses": 30,
+    "sourceMetadataTypes": 40,
+    "sourceFlowStates": 18,
+    "sourceNonemptyExportFiles": 345,
+    "newCards": 95,
+    "newContracts": 28,
+    "newFacilities": 12,
+    "newModes": 24,
+    "newGuests": 5,
+    "newStrings": 707,
+    "rasterPrompts": 150,
+    "editPrompts": 150,
+    "allAssetSpecs": 196,
+    "audioSpecs": 24,
+    "goldenRuleCases": 52,
+    "facilityWitnesses": 28,
+    "maxFacilityWitnessTurns": 2,
+    "catalogSha256": "564b6fe8140650811e20fb781c8feec1ec654ac281b40d220e495195e3bcc773"
+  },
+  "checks": [
+    {
+      "name": "catalog_structure_schema",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "count_and_unique_cards",
+      "status": "passed",
+      "detail": {
+        "expected": 95,
+        "actual": 95,
+        "unique": 95
+      }
+    },
+    {
+      "name": "count_and_unique_contracts",
+      "status": "passed",
+      "detail": {
+        "expected": 28,
+        "actual": 28,
+        "unique": 28
+      }
+    },
+    {
+      "name": "count_and_unique_facilities",
+      "status": "passed",
+      "detail": {
+        "expected": 12,
+        "actual": 12,
+        "unique": 12
+      }
+    },
+    {
+      "name": "count_and_unique_guests",
+      "status": "passed",
+      "detail": {
+        "expected": 5,
+        "actual": 5,
+        "unique": 5
+      }
+    },
+    {
+      "name": "count_and_unique_characters",
+      "status": "passed",
+      "detail": {
+        "expected": 46,
+        "actual": 46,
+        "unique": 46
+      }
+    },
+    {
+      "name": "count_and_unique_chapters",
+      "status": "passed",
+      "detail": {
+        "expected": 7,
+        "actual": 7,
+        "unique": 7
+      }
+    },
+    {
+      "name": "count_and_unique_tutorial",
+      "status": "passed",
+      "detail": {
+        "expected": 14,
+        "actual": 14,
+        "unique": 14
+      }
+    },
+    {
+      "name": "count_and_unique_assets",
+      "status": "passed",
+      "detail": {
+        "expected": 196,
+        "actual": 196,
+        "unique": 196
+      }
+    },
+    {
+      "name": "count_and_unique_audio",
+      "status": "passed",
+      "detail": {
+        "expected": 24,
+        "actual": 24,
+        "unique": 24
+      }
+    },
+    {
+      "name": "count_and_unique_aiProfiles",
+      "status": "passed",
+      "detail": {
+        "expected": 3,
+        "actual": 3,
+        "unique": 3
+      }
+    },
+    {
+      "name": "count_and_unique_screens",
+      "status": "passed",
+      "detail": {
+        "expected": 12,
+        "actual": 12,
+        "unique": 12
+      }
+    },
+    {
+      "name": "count_and_unique_requirements",
+      "status": "passed",
+      "detail": {
+        "expected": 18,
+        "actual": 18,
+        "unique": 18
+      }
+    },
+    {
+      "name": "count_and_unique_goldenCases",
+      "status": "passed",
+      "detail": {
+        "expected": 52,
+        "actual": 52,
+        "unique": 52
+      }
+    },
+    {
+      "name": "card_semantics_references_and_text",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "all_card_effects_covered",
+      "status": "passed",
+      "detail": [
+        "add_goal",
+        "advance_all",
+        "block",
+        "cancel_inspection",
+        "discard_hand",
+        "finish_all",
+        "reduce_goal",
+        "reopen_task",
+        "repair",
+        "return_workers",
+        "steal_hand",
+        "unlock_department",
+        "work"
+      ]
+    },
+    {
+      "name": "worker_original_duration_distribution",
+      "status": "passed",
+      "detail": {
+        "twoTurn": 21,
+        "fourTurn": 21
+      }
+    },
+    {
+      "name": "repair_groups_exact",
+      "status": "passed",
+      "detail": "雨棚4种/灯线2种，5张修补牌"
+    },
+    {
+      "name": "contract_goals_original_fix_and_references",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "chapter_content_partition",
+      "status": "passed",
+      "detail": {
+        "chapters": 7,
+        "contractsPerChapter": 4
+      }
+    },
+    {
+      "name": "facilities_modes_prices_and_guest_tags",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "input_and_ui_minimum",
+      "status": "passed",
+      "detail": "全键鼠与最小文字定义"
+    },
+    {
+      "name": "all_28_facility_paths_replayed_independently",
+      "status": "passed",
+      "detail": {
+        "witnesses": 28,
+        "failures": [],
+        "scope": "设施设计路径，不是Unity/整局测试"
+      }
+    },
+    {
+      "name": "replacement_cards.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 95,
+        "mapped": 95
+      }
+    },
+    {
+      "name": "replacement_targets_cards.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_contracts.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 28,
+        "mapped": 28
+      }
+    },
+    {
+      "name": "replacement_targets_contracts.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_resource-keys.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 74,
+        "mapped": 74
+      }
+    },
+    {
+      "name": "replacement_targets_resource-keys.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_objects.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 1985,
+        "mapped": 1985
+      }
+    },
+    {
+      "name": "replacement_targets_objects.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_code-roles.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 30,
+        "mapped": 30
+      }
+    },
+    {
+      "name": "replacement_targets_code-roles.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_metadata-types.json",
+      "status": "passed",
+      "detail": {
+        "sourceCount": 40,
+        "mapped": 40
+      }
+    },
+    {
+      "name": "replacement_targets_metadata-types.json",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "replacement_all420_text_keys",
+      "status": "passed",
+      "detail": {
+        "mapped": 420,
+        "retired": 2
+      }
+    },
+    {
+      "name": "source_nonempty_export_coverage",
+      "status": "passed",
+      "detail": "全部345非空导出所属对象有处置"
+    },
+    {
+      "name": "all_18_source_flow_states_mapped",
+      "status": "passed",
+      "detail": "原18状态逐项改为新流程；自动修补与动画胜负明确替换"
+    },
+    {
+      "name": "all_system_replacement_decisions_defined",
+      "status": "passed",
+      "detail": {
+        "systems": 14
+      }
+    },
+    {
+      "name": "all_150_expanded_generation_and_edit_prompts",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "asset_reference_graph_no_cycle",
+      "status": "passed",
+      "detail": {
+        "assets": 196
+      }
+    },
+    {
+      "name": "asset_paths_unique_and_production_status_truthful",
+      "status": "passed",
+      "detail": {
+        "specs": 196,
+        "generated": 0,
+        "imported": 0
+      }
+    },
+    {
+      "name": "all_41_native_vector_construction_specs",
+      "status": "passed",
+      "detail": {
+        "vectorSpecs": 41,
+        "sourceFilesProduced": 0
+      }
+    },
+    {
+      "name": "rng_numeric_contract",
+      "status": "passed",
+      "detail": "四玩法流与一个独立装饰流；非零输出域"
+    },
+    {
+      "name": "audio_event_mapping_and_specs",
+      "status": "passed",
+      "detail": {
+        "events": 24,
+        "audio": 24,
+        "production": "not-executed"
+      }
+    },
+    {
+      "name": "public_information_ai",
+      "status": "passed",
+      "detail": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "name": "save_identity_and_schema",
+      "status": "passed",
+      "detail": {
+        "rules": "ynm-rules-1",
+        "format": 1
+      }
+    },
+    {
+      "name": "strings_variables_screens_tutorial_closed",
+      "status": "passed",
+      "detail": {
+        "strings": 707,
+        "failures": []
+      }
+    },
+    {
+      "name": "all_golden_cases_not_claimed_executed",
+      "status": "passed",
+      "detail": {
+        "specified": 52,
+        "gameTestsExecuted": 0
+      }
+    },
+    {
+      "name": "all_requirements_to_specs_and_acceptance",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "all_csv_authority_values_match",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "all_local_document_links_exist",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "font_all_current_text_glyphs",
+      "status": "passed",
+      "detail": {
+        "uniqueCodepoints": 702,
+        "missing": [],
+        "fontHashMatches": true
+      }
+    },
+    {
+      "name": "derived_outputs_current_catalog_hash",
+      "status": "passed",
+      "detail": "564b6fe8140650811e20fb781c8feec1ec654ac281b40d220e495195e3bcc773"
+    }
+  ],
+  "excludedClaims": [
+    "Unity规则实现/编译/测试",
+    "素材生成/导入/Player目检",
+    "音频生产/听感",
+    "实际键鼠/试玩/性能",
+    "构建/Steam发行"
+  ],
+  "designCoveragePercent": 100
+}

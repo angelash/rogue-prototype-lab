@@ -1,0 +1,3150 @@
+[
+  {
+    "assetID": "REF.style",
+    "referenceIDs": [],
+    "mode": "generate",
+    "transparent_background": false,
+    "promptFile": "art/prompts/REF.style.txt",
+    "editPromptFile": "art/prompts/REF.style.edit.txt",
+    "promptSha256": "ea009f5eea3d9d08528bfe8f1ce9be698af00d5937cd26d66c102763a2cb9817",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/REF.style.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.001",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.001.txt",
+    "editPromptFile": "art/prompts/CHR.001.edit.txt",
+    "promptSha256": "b82efaeb2f6a12ccd139ac18a867f08301d963bc86e637e5c26c8639525784a4",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.001.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.002",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.002.txt",
+    "editPromptFile": "art/prompts/CHR.002.edit.txt",
+    "promptSha256": "b6497f3934d7633c8f14cb0c64f490ab94182fe7375876cc068fd4c7cef9a35b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.002.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.003",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.003.txt",
+    "editPromptFile": "art/prompts/CHR.003.edit.txt",
+    "promptSha256": "7a2e474460f81dc0a76f1020e2763bf0cd0ddf22a3880ec0b5343b26a98431c8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.003.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.004",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.004.txt",
+    "editPromptFile": "art/prompts/CHR.004.edit.txt",
+    "promptSha256": "ecc8d96b7c84edb1299227d1f0a2f02bed760a92836accc15253c31239a9c2d8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.004.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.005",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.005.txt",
+    "editPromptFile": "art/prompts/CHR.005.edit.txt",
+    "promptSha256": "0191b0897816bd7bd627e97233570e079b88c36b90c23a3c786025c43b184edb",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.005.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.006",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.006.txt",
+    "editPromptFile": "art/prompts/CHR.006.edit.txt",
+    "promptSha256": "1a04e47ad8c32eb85a353ea81cd8e3d1c1652ad265e3437d17c5839cbb482871",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.006.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.007",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.007.txt",
+    "editPromptFile": "art/prompts/CHR.007.edit.txt",
+    "promptSha256": "032f690994be1e6067407eb55b6737cf1ba3ae988269fb549de57fddd26d7228",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.007.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.008",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.008.txt",
+    "editPromptFile": "art/prompts/CHR.008.edit.txt",
+    "promptSha256": "963631cd31eb2b9a44c72ede361a3ab86e9ca998cbb32b037bf66e5ec8461908",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.008.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.009",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.009.txt",
+    "editPromptFile": "art/prompts/CHR.009.edit.txt",
+    "promptSha256": "2bea1c264c1a57296c9b137347b40b29d23f24d25d87f79949b2a26b8e84e42e",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.009.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.010",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.010.txt",
+    "editPromptFile": "art/prompts/CHR.010.edit.txt",
+    "promptSha256": "a8bd4194722ba0729445e7daefcfc5b60ad8665bf7903bd90ae947c0387a2e01",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.010.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.011",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.011.txt",
+    "editPromptFile": "art/prompts/CHR.011.edit.txt",
+    "promptSha256": "01739dae12be936cc8237497f863a29ae82e5a9353368122227f624bd272cccb",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.011.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.012",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.012.txt",
+    "editPromptFile": "art/prompts/CHR.012.edit.txt",
+    "promptSha256": "3c4c64fc33ce3fafaab12c99b040b3f9a062eb659ce2117595e291699b349424",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.012.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.013",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.013.txt",
+    "editPromptFile": "art/prompts/CHR.013.edit.txt",
+    "promptSha256": "8ade7e84384d26d10d16d1b87427c68a07bc8257d363b5659f81e2197737f30c",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.013.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.014",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.014.txt",
+    "editPromptFile": "art/prompts/CHR.014.edit.txt",
+    "promptSha256": "e92ef0ace6d6ff1103b6e389442176d58c72e12ad26fa5d71206789fef8a6a2d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.014.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.015",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.015.txt",
+    "editPromptFile": "art/prompts/CHR.015.edit.txt",
+    "promptSha256": "4f6a77ebd4c4c571a21ebfc7e7dd25193e1aaaf8e2b8debbab9086e9f94fabcd",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.015.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.016",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.016.txt",
+    "editPromptFile": "art/prompts/CHR.016.edit.txt",
+    "promptSha256": "2e0b40b2a8bd8077801cc8fd0ce71c630f2893f706f56bc894d915ccef6c895c",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.016.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.017",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.017.txt",
+    "editPromptFile": "art/prompts/CHR.017.edit.txt",
+    "promptSha256": "6034a8352f48d04534e5be71c85a9beb862b64a8a0ebfa658d0d5367c1c7fe1e",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.017.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.018",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.018.txt",
+    "editPromptFile": "art/prompts/CHR.018.edit.txt",
+    "promptSha256": "95e94a55adc74156e70f56d98635f40ed1603b28e74f671dfb89c629b3aa5446",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.018.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.019",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.019.txt",
+    "editPromptFile": "art/prompts/CHR.019.edit.txt",
+    "promptSha256": "d1752a7eae1f184df0ba28d65b7024e61048ba8c9bca724f7ccc7b14a62c3616",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.019.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.020",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.020.txt",
+    "editPromptFile": "art/prompts/CHR.020.edit.txt",
+    "promptSha256": "d7e8a81e4f2dbeee69ffb1c4b9ef331e2cbc135e575d0342ac587cd620c512c7",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.020.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.021",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.021.txt",
+    "editPromptFile": "art/prompts/CHR.021.edit.txt",
+    "promptSha256": "a76e03db36046a48f34c993a3e10dbe3763d0d69a919f92b4cd53dfcd1d20197",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.021.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.022",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.022.txt",
+    "editPromptFile": "art/prompts/CHR.022.edit.txt",
+    "promptSha256": "64081e5054c57edd40fe77977c32d677596a8026ecf111b8bc060524a222459d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.022.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.023",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.023.txt",
+    "editPromptFile": "art/prompts/CHR.023.edit.txt",
+    "promptSha256": "56937ce3b27d483b1bc3f71f9bf761039ece82bb11df63192d14782c840e0b87",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.023.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.024",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.024.txt",
+    "editPromptFile": "art/prompts/CHR.024.edit.txt",
+    "promptSha256": "bfa39b9588af799fd7957d7514308c942324daddc829f9a5e541d410d60f530b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.024.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.025",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.025.txt",
+    "editPromptFile": "art/prompts/CHR.025.edit.txt",
+    "promptSha256": "888439c0f5af5611ce2d733bb93a613be736e2a0dd87571a96bb4aaba9dea957",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.025.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.026",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.026.txt",
+    "editPromptFile": "art/prompts/CHR.026.edit.txt",
+    "promptSha256": "3f57f7c665d20cd2ea0a1f743c87a155b1b16d43315c9409ba47f0b7786f2fc6",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.026.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.027",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.027.txt",
+    "editPromptFile": "art/prompts/CHR.027.edit.txt",
+    "promptSha256": "3422b9c74d4a9b542145f0a5f6895ac02e9292d7dea5f9b4a74149a778145be8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.027.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.028",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.028.txt",
+    "editPromptFile": "art/prompts/CHR.028.edit.txt",
+    "promptSha256": "7d12ac32555e7da07b901c9f53821edde07e24c0bf711702e2bd9ed08656838c",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.028.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.029",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.029.txt",
+    "editPromptFile": "art/prompts/CHR.029.edit.txt",
+    "promptSha256": "6c770223902ea35f79dac46deae18df6c0e73a2ff583d452e918e90211c7d645",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.029.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.030",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.030.txt",
+    "editPromptFile": "art/prompts/CHR.030.edit.txt",
+    "promptSha256": "820c3724bc85448fcee94cdce7ca6178f942dcfc1155516adf69679ed438efaa",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.030.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.031",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.031.txt",
+    "editPromptFile": "art/prompts/CHR.031.edit.txt",
+    "promptSha256": "ba9bddc79e3ab1dfa48c8f4e0ce7e7fda712d901281a49909af8d4ad3f3647f7",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.031.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.032",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.032.txt",
+    "editPromptFile": "art/prompts/CHR.032.edit.txt",
+    "promptSha256": "1349fb41a26b966a0e3d265f8ba0a50b2a268227adfcb604e1948e558f171136",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.032.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.033",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.033.txt",
+    "editPromptFile": "art/prompts/CHR.033.edit.txt",
+    "promptSha256": "d9d87456c9790a186c8861e140ecd1f58e2e0295f37a73ccd2cccba38b388c8a",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.033.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.034",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.034.txt",
+    "editPromptFile": "art/prompts/CHR.034.edit.txt",
+    "promptSha256": "76f7554c370f27399f18d88bf7b03f4d1779600cfc9f63e5b04c0263fd297d25",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.034.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.035",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.035.txt",
+    "editPromptFile": "art/prompts/CHR.035.edit.txt",
+    "promptSha256": "31dbab747417fd416f013990d970547129fb6ec6b69bb9f5c612fed2b315b1de",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.035.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.036",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.036.txt",
+    "editPromptFile": "art/prompts/CHR.036.edit.txt",
+    "promptSha256": "68532178fd05cc0e393b3aaf0b883ae8083569229dbeb0e65b1932bf203260fc",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.036.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.037",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.037.txt",
+    "editPromptFile": "art/prompts/CHR.037.edit.txt",
+    "promptSha256": "bdd0bde3873c1bbb23cd13967479d7b78ee262e4c33940f4754f547fa2c79c85",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.037.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.038",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.038.txt",
+    "editPromptFile": "art/prompts/CHR.038.edit.txt",
+    "promptSha256": "5d249a0e33add498f534c322ba8166905beae386a87087658ce55567a35bf829",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.038.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.039",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.039.txt",
+    "editPromptFile": "art/prompts/CHR.039.edit.txt",
+    "promptSha256": "4ffffe599d4ad4f22b24c65463a4619b477d03d2440cef11fbfc97980319c623",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.039.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.040",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.040.txt",
+    "editPromptFile": "art/prompts/CHR.040.edit.txt",
+    "promptSha256": "eef4ce4ef317932cd0710bbaf473896d3dd68f585327e435e7efa486465087d1",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.040.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.041",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.041.txt",
+    "editPromptFile": "art/prompts/CHR.041.edit.txt",
+    "promptSha256": "26bca178ef23e35bf61b34a460227a8cd2c3ac79af72fe771b551884fb40f42d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.041.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "CHR.042",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/CHR.042.txt",
+    "editPromptFile": "art/prompts/CHR.042.edit.txt",
+    "promptSha256": "b8f71bfe015e0b39ba018cf9b86c6364a1c2b8beea4923ff86bbd83f4d0d9269",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/CHR.042.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.043",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.043.txt",
+    "editPromptFile": "art/prompts/EVT.043.edit.txt",
+    "promptSha256": "eed08b903570e2e4e85640ccb409788e7a2e28dff0ab0042c8a69c429ced7ad3",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.043.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.044",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.044.txt",
+    "editPromptFile": "art/prompts/EVT.044.edit.txt",
+    "promptSha256": "03c6bede37fac4c40be139ce5e93754142dd886a699e5149384cdc4a92d42828",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.044.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.045",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.045.txt",
+    "editPromptFile": "art/prompts/EVT.045.edit.txt",
+    "promptSha256": "5cd156444852e615675edc7cb26494e5a6d81625c8e77a8e12d694c4c72033cd",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.045.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.046",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.046.txt",
+    "editPromptFile": "art/prompts/EVT.046.edit.txt",
+    "promptSha256": "fee1f2f263b47ad06832f1434d4a2853db869f470881cb7075014120a650bb5b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.046.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.047",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.047.txt",
+    "editPromptFile": "art/prompts/EVT.047.edit.txt",
+    "promptSha256": "f2aa54e015070256110f160ba9445292b3aabff9c42fd0387cd37427b1ba84e8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.047.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.048",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.048.txt",
+    "editPromptFile": "art/prompts/EVT.048.edit.txt",
+    "promptSha256": "05c7d50ec91f2c6848337b5e05768519f11c37f86fcc1ac51339f1863c1b9ed3",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.048.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.049",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.049.txt",
+    "editPromptFile": "art/prompts/EVT.049.edit.txt",
+    "promptSha256": "dd1cab9acda122e5bbb1d02e3a803a3e28a8120cab74506f337b9a31c0c74d43",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.049.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.050",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.050.txt",
+    "editPromptFile": "art/prompts/EVT.050.edit.txt",
+    "promptSha256": "7a8c9ee30be4afa8c9e1ea163ab95a66ee43bd1f9616a0f037d583d1b67bd74d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.050.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.051",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.051.txt",
+    "editPromptFile": "art/prompts/EVT.051.edit.txt",
+    "promptSha256": "2e6a393c825ea38b018c60bfebffa117e0111f0c55802e543f946b3c1cf64004",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.051.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.052",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.052.txt",
+    "editPromptFile": "art/prompts/EVT.052.edit.txt",
+    "promptSha256": "fd964d78beae897d381b238ab06b8d863bfbc9251a90333fdc071a2c430f31f0",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.052.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.053",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.053.txt",
+    "editPromptFile": "art/prompts/EVT.053.edit.txt",
+    "promptSha256": "efa16f9b2d5646833c86d0ab156d96f0f2b31924369e9e787779aa2777394fca",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.053.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.054",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.054.txt",
+    "editPromptFile": "art/prompts/EVT.054.edit.txt",
+    "promptSha256": "3f03495d42588ad28fb86872fb86577b85585ba1cc61f28ebfc71a86d7bde336",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.054.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.055",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.055.txt",
+    "editPromptFile": "art/prompts/EVT.055.edit.txt",
+    "promptSha256": "04125b66dcd461a45a168548b2ff99cc5619347f3a7148f32e8a37913240440d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.055.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.056",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.056.txt",
+    "editPromptFile": "art/prompts/EVT.056.edit.txt",
+    "promptSha256": "be66f940570736e88bdac97a99528305ae8d9e59d88623b8d2f4423d735df19b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.056.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.057",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.057.txt",
+    "editPromptFile": "art/prompts/EVT.057.edit.txt",
+    "promptSha256": "67d21dea59be870388ac5ed2aa6aa08e92cdb12ff60e7ccbb523a68b2bea4c86",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.057.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.058",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.058.txt",
+    "editPromptFile": "art/prompts/EVT.058.edit.txt",
+    "promptSha256": "205db86e4f02469325cd58c602af50e3379547f144d5f62ea2770eab1213507b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.058.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.059",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.059.txt",
+    "editPromptFile": "art/prompts/EVT.059.edit.txt",
+    "promptSha256": "4bdcede70a9d468fe18fc37aa4dddf954a947d31edfe2fa09820852832cb08a4",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.059.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.060",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.060.txt",
+    "editPromptFile": "art/prompts/EVT.060.edit.txt",
+    "promptSha256": "1731fc3e50689325df05e70a726fd552f42dd00f15a05d975d577b5ec5f63bc9",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.060.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.061",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.061.txt",
+    "editPromptFile": "art/prompts/EVT.061.edit.txt",
+    "promptSha256": "7921713f90503d625a23b997f81925df0fa97a48cfd18bf9c33f0c1bd98428f4",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.061.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.062",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.062.txt",
+    "editPromptFile": "art/prompts/EVT.062.edit.txt",
+    "promptSha256": "8e9124cbd22aa8d7a07acdd062c415eb5d057010fdaba126a838c3cd13290b04",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.062.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.063",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.063.txt",
+    "editPromptFile": "art/prompts/EVT.063.edit.txt",
+    "promptSha256": "766f0e02890e62dc268b1ea4ed4dc332ad70b3e0c14b142936c687718570fb5f",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.063.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.064",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.064.txt",
+    "editPromptFile": "art/prompts/EVT.064.edit.txt",
+    "promptSha256": "4c731a27d7f51d670c320217bd5c28dc66ceb8a6740ef48f7c29e7975d78965c",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.064.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.065",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.065.txt",
+    "editPromptFile": "art/prompts/EVT.065.edit.txt",
+    "promptSha256": "debbe32e1261f02505a7eb7411bc844d6a99f67f7a4d8e8a82007c51385cb335",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.065.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.066",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.066.txt",
+    "editPromptFile": "art/prompts/EVT.066.edit.txt",
+    "promptSha256": "a6d7199bb6139beacc8b9ed43b17a9e0de48e6138f376d57a2d56ee0602e2411",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.066.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.067",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.067.txt",
+    "editPromptFile": "art/prompts/EVT.067.edit.txt",
+    "promptSha256": "761a18ad071b253f8e35eb499bd0b279130ffc9d506ee5d9a50899af37e236b8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.067.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.068",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.068.txt",
+    "editPromptFile": "art/prompts/EVT.068.edit.txt",
+    "promptSha256": "46b3873da2d7931ec69e236323b2de1e25f8823a78e1832c441e7395d4f04e81",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.068.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.069",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.069.txt",
+    "editPromptFile": "art/prompts/EVT.069.edit.txt",
+    "promptSha256": "a36f62ef5db646f834d5825ba484697c397bb08a8db2352177532ab2f93dad04",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.069.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.070",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.070.txt",
+    "editPromptFile": "art/prompts/EVT.070.edit.txt",
+    "promptSha256": "b17de89b92da8a799dead6a4af9ccd524b241ea3c5a8105ca706f0580e55e8ee",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.070.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.071",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.071.txt",
+    "editPromptFile": "art/prompts/EVT.071.edit.txt",
+    "promptSha256": "b999e2412f8d5973fd956a4e37960625e3f1ecdbb0167307b3c18d882f715950",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.071.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.072",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.072.txt",
+    "editPromptFile": "art/prompts/EVT.072.edit.txt",
+    "promptSha256": "13d22537307907a725fdbb32c6ce30d40198c465f05965f86e8a6c7c324415d3",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.072.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.073",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.073.txt",
+    "editPromptFile": "art/prompts/EVT.073.edit.txt",
+    "promptSha256": "3adc19ac2655e4eb6e9322612959acc3804c42ec6a8a6e300e1f919d99f49efa",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.073.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.074",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.074.txt",
+    "editPromptFile": "art/prompts/EVT.074.edit.txt",
+    "promptSha256": "51faf334070aba106cd22f5db432610d0b431e01dd20e42596ae94b60e35e281",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.074.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.075",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.075.txt",
+    "editPromptFile": "art/prompts/EVT.075.edit.txt",
+    "promptSha256": "b926e6ae9461866e4e419dfe02ecb79eabe9b2312a436ddbc6eedf1a99a72d97",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.075.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.076",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.076.txt",
+    "editPromptFile": "art/prompts/EVT.076.edit.txt",
+    "promptSha256": "242a52a5c6495748aa378baf73e973621dedbad502338fef31a6b081ac6b8326",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.076.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.077",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.077.txt",
+    "editPromptFile": "art/prompts/EVT.077.edit.txt",
+    "promptSha256": "486169a337bbed6d9847175a283443b63077a978967e2947bc56b2abf6cda877",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.077.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.078",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.078.txt",
+    "editPromptFile": "art/prompts/EVT.078.edit.txt",
+    "promptSha256": "286f129ea21e998dff4979d568b04ef9e4e29d3135561361e4d4b43bad26be12",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.078.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.079",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.079.txt",
+    "editPromptFile": "art/prompts/EVT.079.edit.txt",
+    "promptSha256": "0be279062cf6e4ed0be7a6b2ec611dd4bdfc8f6594609f075d26ef3bddae3e1e",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.079.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.080",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.080.txt",
+    "editPromptFile": "art/prompts/EVT.080.edit.txt",
+    "promptSha256": "ae61201d9e97b956d791a287822982615a24e921299a6cd219b0b61e5f7d3f14",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.080.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.081",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.081.txt",
+    "editPromptFile": "art/prompts/EVT.081.edit.txt",
+    "promptSha256": "6eed11b8f647fbac9516456aba683e27369c8bb11e7228f168bd187b4818edc7",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.081.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.082",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.082.txt",
+    "editPromptFile": "art/prompts/EVT.082.edit.txt",
+    "promptSha256": "d0acb97195113a4b42b9cf8270639fadabc294526398790a54864b7a78dd00f3",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.082.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.083",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.083.txt",
+    "editPromptFile": "art/prompts/EVT.083.edit.txt",
+    "promptSha256": "126a7671f9748ff69148bdb2bf04215ac9f590e439fe8447c379f2bb3bfcbe46",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.083.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.084",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.084.txt",
+    "editPromptFile": "art/prompts/EVT.084.edit.txt",
+    "promptSha256": "5d115a01e5ace6d9eb02feb4613bf23cd2e155271a2177ef26c99b82dbf5881c",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.084.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.085",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.085.txt",
+    "editPromptFile": "art/prompts/EVT.085.edit.txt",
+    "promptSha256": "7447b76c5175ab51ec67dd0d29bfd84cfa6ec9d1685369b092fec3876b31fe4b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.085.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.086",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.086.txt",
+    "editPromptFile": "art/prompts/EVT.086.edit.txt",
+    "promptSha256": "ef88952283da301a3cc5d597795a4709f07547f50ba0bb678333c13002d33ceb",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.086.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.087",
+    "referenceIDs": [
+      "NPC.host"
+    ],
+    "mode": "edit-identity",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.087.txt",
+    "editPromptFile": "art/prompts/EVT.087.edit.txt",
+    "promptSha256": "0d2a346f8c64f47a30320690683f4a6e67daf5fe17c7bbfafb07f33112797db7",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.087.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.088",
+    "referenceIDs": [
+      "NPC.clerk"
+    ],
+    "mode": "edit-identity",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.088.txt",
+    "editPromptFile": "art/prompts/EVT.088.edit.txt",
+    "promptSha256": "a3441fb9d44a4be582e4c10a00372c4b595e86453becfe9ec60fd7fabe558316",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.088.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.089",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.089.txt",
+    "editPromptFile": "art/prompts/EVT.089.edit.txt",
+    "promptSha256": "b9a059e1f6a7089ae4f4a8228cb7744a7c5a1429fec9b0a9660ef74eea1e2f6a",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.089.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.090",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.090.txt",
+    "editPromptFile": "art/prompts/EVT.090.edit.txt",
+    "promptSha256": "0d9f018d7d4108d68f7dbfb9bd73c978d86c9face962002e9b785ddefa49d567",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.090.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.091",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.091.txt",
+    "editPromptFile": "art/prompts/EVT.091.edit.txt",
+    "promptSha256": "16d0479912da86307d1d1bb4708983d3ab0d037252518b917f7b880361f5d901",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.091.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.092",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.092.txt",
+    "editPromptFile": "art/prompts/EVT.092.edit.txt",
+    "promptSha256": "2635a791b8259fbab655633672762ec30cf560b72f4fa1802411655d3a8686d8",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.092.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.093",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.093.txt",
+    "editPromptFile": "art/prompts/EVT.093.edit.txt",
+    "promptSha256": "bbb585eec35cff1511319821abbc032148a16bdcf5a889106d7691d806291386",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.093.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.094",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.094.txt",
+    "editPromptFile": "art/prompts/EVT.094.edit.txt",
+    "promptSha256": "9214b71ec80e2ad40c70eadafd1e0e11253434d2b36ae371e09992cd219c20dc",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.094.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "EVT.095",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/EVT.095.txt",
+    "editPromptFile": "art/prompts/EVT.095.edit.txt",
+    "promptSha256": "a5a28591c658ac6a1044c91d52968e5a3b95d481a88d8a61e57b9339f5c28b82",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/EVT.095.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F01",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F01.txt",
+    "editPromptFile": "art/prompts/FAC.F01.edit.txt",
+    "promptSha256": "f78a0e6501f66a1e8b49bef79045d0b45209f609c86cf11f6eaa07035d39458d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F01.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F02",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F02.txt",
+    "editPromptFile": "art/prompts/FAC.F02.edit.txt",
+    "promptSha256": "26fa26ed4ac75fcf725a512599ad681cab74565ad1b21e2dfe30122541186034",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F02.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F03",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F03.txt",
+    "editPromptFile": "art/prompts/FAC.F03.edit.txt",
+    "promptSha256": "6f5b9f515526b5323c956538664f89890b920c71438575824f4f3fbee1dc3231",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F03.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F04",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F04.txt",
+    "editPromptFile": "art/prompts/FAC.F04.edit.txt",
+    "promptSha256": "a1acb32b7d6fbac8c49993ae78db20f64c6a545d9f4690bc9316e304bf74469b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F04.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F05",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F05.txt",
+    "editPromptFile": "art/prompts/FAC.F05.edit.txt",
+    "promptSha256": "db8610b7eab21894eafb56a81144136c17c15f726eded85cc50f583317443594",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F05.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F06",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F06.txt",
+    "editPromptFile": "art/prompts/FAC.F06.edit.txt",
+    "promptSha256": "28a4cdaaa2ab6ae79ab5653bf6ff294a0adb43d70da982bbaa3cf850f2db55b1",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F06.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F07",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F07.txt",
+    "editPromptFile": "art/prompts/FAC.F07.edit.txt",
+    "promptSha256": "da1bc0b862cb727feedf20707b0c85353cfb7410a5f2a7beb7f611987f388f2e",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F07.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F08",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F08.txt",
+    "editPromptFile": "art/prompts/FAC.F08.edit.txt",
+    "promptSha256": "f9287310f28afaa02986ce04515f56a5cb3692b4332cc7b4c3e129e5ba96e64a",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F08.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F09",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F09.txt",
+    "editPromptFile": "art/prompts/FAC.F09.edit.txt",
+    "promptSha256": "2988b5492271cdd1bedaa8918e7159248a8d2effa3f82cc784a0b5e7dfb6c612",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F09.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F10",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F10.txt",
+    "editPromptFile": "art/prompts/FAC.F10.edit.txt",
+    "promptSha256": "9ca8c039b59f7cd115659336be95b372ab21fb49badbc420ab52515e2ea6fc75",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F10.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F11",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F11.txt",
+    "editPromptFile": "art/prompts/FAC.F11.edit.txt",
+    "promptSha256": "32aa41dba76983a1719b01c7d91062310ec02f9dfc0bddf253a7c4101f3ad797",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F11.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "FAC.F12",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/FAC.F12.txt",
+    "editPromptFile": "art/prompts/FAC.F12.edit.txt",
+    "promptSha256": "5cf169fab63a8e0832bb2343fc7b0342ba406992ed988b6609cd0071f1f93046",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/FAC.F12.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "GST.G01",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/GST.G01.txt",
+    "editPromptFile": "art/prompts/GST.G01.edit.txt",
+    "promptSha256": "13f3fa85b6e6e9d3748339a70c33dabd05fdea2c43b8b3f3396b71c7b88619d0",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/GST.G01.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "GST.G02",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/GST.G02.txt",
+    "editPromptFile": "art/prompts/GST.G02.edit.txt",
+    "promptSha256": "f3e754bf30d46f55b184a53e766d86e97cc6c48c9939a82dffaff8e26c562f23",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/GST.G02.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "GST.G03",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/GST.G03.txt",
+    "editPromptFile": "art/prompts/GST.G03.edit.txt",
+    "promptSha256": "8e6dcc23c33dcc87385972dd40b0bda73884821fdda8166f725cf0b98d266ca1",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/GST.G03.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "GST.G04",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/GST.G04.txt",
+    "editPromptFile": "art/prompts/GST.G04.edit.txt",
+    "promptSha256": "1c49bf757b4fdd5640b4173380764b60c1ffad44142baf05b517a302004f233d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/GST.G04.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "GST.G05",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/GST.G05.txt",
+    "editPromptFile": "art/prompts/GST.G05.edit.txt",
+    "promptSha256": "d7ba11a5671bca9ed0c42276ac8be51da39807f859a0ec24bcd015efe75165d7",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/GST.G05.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.01",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.01.txt",
+    "editPromptFile": "art/prompts/NIGHT.01.edit.txt",
+    "promptSha256": "80beb36999291fd8470d949a4b928834f791343a88559de11aa9cba2e581db65",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.01.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.02",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.02.txt",
+    "editPromptFile": "art/prompts/NIGHT.02.edit.txt",
+    "promptSha256": "6eaf120b43388497dca2c51a094db1149a12a6a0994cd85bda2e99802807ecbf",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.02.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.03",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.03.txt",
+    "editPromptFile": "art/prompts/NIGHT.03.edit.txt",
+    "promptSha256": "8fdf5e6f4aae94223edc5292f7f5f35cd150eaa6287e656bda047b9585bf5317",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.03.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.04",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.04.txt",
+    "editPromptFile": "art/prompts/NIGHT.04.edit.txt",
+    "promptSha256": "eb40667ac217043e42c2f172e41e2e344e479d6d50f78ff96f49e3c8625c8e62",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.04.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.05",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.05.txt",
+    "editPromptFile": "art/prompts/NIGHT.05.edit.txt",
+    "promptSha256": "ff24add16f76bd71336628072982856e77cd9689d955311404d6292c6e5e7aff",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.05.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.06",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.06.txt",
+    "editPromptFile": "art/prompts/NIGHT.06.edit.txt",
+    "promptSha256": "00746a4bb684e27712ff0a2b37774d351aa13c9b19a6473a9b8c1e266b1a2eb2",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.06.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.07",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.07.txt",
+    "editPromptFile": "art/prompts/NIGHT.07.edit.txt",
+    "promptSha256": "665e4f2da4807c35381d94a95cca679ec1b1e26962027575c24a8e95b6656531",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.07.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.08",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.08.txt",
+    "editPromptFile": "art/prompts/NIGHT.08.edit.txt",
+    "promptSha256": "0afa682ee0b69fa43ee9246b5cf627656aec6fd3796ca393e325664c42a6a079",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.08.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.09",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.09.txt",
+    "editPromptFile": "art/prompts/NIGHT.09.edit.txt",
+    "promptSha256": "64867304d824d328c1e86bc40bc943067c74ab3aa7c4b6f969f12ee71f7e5752",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.09.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.10",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.10.txt",
+    "editPromptFile": "art/prompts/NIGHT.10.edit.txt",
+    "promptSha256": "22cca7e6da5e6eb7511d32984966858622dd65b43eb01277b8063021342854ac",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.10.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.11",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.11.txt",
+    "editPromptFile": "art/prompts/NIGHT.11.edit.txt",
+    "promptSha256": "ea8a8ed7ebae8cb8b8c04c2846864ac4fb0737601f8dda5ea946cb646baff8ed",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.11.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.12",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.12.txt",
+    "editPromptFile": "art/prompts/NIGHT.12.edit.txt",
+    "promptSha256": "99602a3f8f8cbc4cb95be582e7dd903d2ee3d505d32d47b03b4b850ea9ff5305",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.12.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.13",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.13.txt",
+    "editPromptFile": "art/prompts/NIGHT.13.edit.txt",
+    "promptSha256": "2a3b471079ea740dcd8fd1044cffcad270dae4e8e3becdf49021f78e37c68cb7",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.13.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.14",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.14.txt",
+    "editPromptFile": "art/prompts/NIGHT.14.edit.txt",
+    "promptSha256": "4500c30a55a8b8752b02b5fed164d019fa76dd737ff55de2eedd2446fe99acdf",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.14.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.15",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.15.txt",
+    "editPromptFile": "art/prompts/NIGHT.15.edit.txt",
+    "promptSha256": "683a3b080617fc0427c08f19b25efb6fb3d0c0b564b991307903b53ae0f2aab8",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.15.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.16",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.16.txt",
+    "editPromptFile": "art/prompts/NIGHT.16.edit.txt",
+    "promptSha256": "56e2714edc5fa0c852abaa18c7a03cf9ec22967c7500f4bf615df2f56529a20a",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.16.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.17",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.17.txt",
+    "editPromptFile": "art/prompts/NIGHT.17.edit.txt",
+    "promptSha256": "b3b42091531b12d152aa6e4abb7690a5d06c2fc77038cca7d6dcd52544da5dad",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.17.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.18",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.18.txt",
+    "editPromptFile": "art/prompts/NIGHT.18.edit.txt",
+    "promptSha256": "7f4fbbb7cb28141162f791cab65f379a5d4ef2d6c624afebce66478e5f7690c8",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.18.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.19",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.19.txt",
+    "editPromptFile": "art/prompts/NIGHT.19.edit.txt",
+    "promptSha256": "85fe5713231bbe9bc38667f763da0052447616186022e7a21bf04b28f3e50515",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.19.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.20",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.20.txt",
+    "editPromptFile": "art/prompts/NIGHT.20.edit.txt",
+    "promptSha256": "9faf238f9bf3bb8fba42846ac363360bf079d4521b882337c3df52dfa978236a",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.20.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.21",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.21.txt",
+    "editPromptFile": "art/prompts/NIGHT.21.edit.txt",
+    "promptSha256": "56138508cbbe839ae57144057be218747b653ab6c7d3e5ef6e7103cb996d6897",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.21.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.22",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.22.txt",
+    "editPromptFile": "art/prompts/NIGHT.22.edit.txt",
+    "promptSha256": "b7e75b3acc4b5416cd05550e7b3df37025f1e53d18a78935ea93b01c352770fa",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.22.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.23",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.23.txt",
+    "editPromptFile": "art/prompts/NIGHT.23.edit.txt",
+    "promptSha256": "c2e00efdb0f2db8b5f80cf0b42e4830160f1b2fae2c583e833b7a2d7b27c037f",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.23.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.24",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.24.txt",
+    "editPromptFile": "art/prompts/NIGHT.24.edit.txt",
+    "promptSha256": "1dd31e35282028fc58d4f7bd363fa3ca7c8059afb173a2cce7a7321e623b0310",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.24.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.25",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.25.txt",
+    "editPromptFile": "art/prompts/NIGHT.25.edit.txt",
+    "promptSha256": "3f02bea3e616da129da2ab53d2beb80fdb249807b8e5b5af057285814e666e36",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.25.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.26",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.26.txt",
+    "editPromptFile": "art/prompts/NIGHT.26.edit.txt",
+    "promptSha256": "54747343aeba87de8f2bd3b20b53d28fde076f2fdd0baed78605a876769cfe72",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.26.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.27",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.27.txt",
+    "editPromptFile": "art/prompts/NIGHT.27.edit.txt",
+    "promptSha256": "a40ed38d088ce7bbd8887ed5ee089668a836ec74c0035511cd7ea6b9fce01ead",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.27.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NIGHT.28",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/NIGHT.28.txt",
+    "editPromptFile": "art/prompts/NIGHT.28.edit.txt",
+    "promptSha256": "d80b662dfb17969606a9f6f6086eaa90e37c361824e988e77db7214fcd01dc0c",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtimeSize": [
+      1536,
+      1024
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NIGHT.28.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NPC.host",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/NPC.host.txt",
+    "editPromptFile": "art/prompts/NPC.host.edit.txt",
+    "promptSha256": "0b75334243dc1687d5cf3208c12e81ffe73de03248a4b154474a87fcfa8cb97d",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NPC.host.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NPC.guide",
+    "referenceIDs": [
+      "CHR.007"
+    ],
+    "mode": "edit-identity",
+    "transparent_background": true,
+    "promptFile": "art/prompts/NPC.guide.txt",
+    "editPromptFile": "art/prompts/NPC.guide.edit.txt",
+    "promptSha256": "f3bbb9e84d1874c0b156526f35d256baf0c840b27030d9bf8913aad2bff84524",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NPC.guide.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NPC.rival",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/NPC.rival.txt",
+    "editPromptFile": "art/prompts/NPC.rival.edit.txt",
+    "promptSha256": "c306dd9b4ca4a102fc11bd7ab87abbd8c5eb61c8b738a745e9a320cf1c6cc46e",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NPC.rival.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "NPC.clerk",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": true,
+    "promptFile": "art/prompts/NPC.clerk.txt",
+    "editPromptFile": "art/prompts/NPC.clerk.edit.txt",
+    "promptSha256": "5853cf222e7b4dd935a196fcfd8a372de7b6c7f0b1b150b15927456173e19b9b",
+    "sourceSize": [
+      1024,
+      1024
+    ],
+    "runtimeSize": [
+      512,
+      512
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/NPC.clerk.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "BG.title",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/BG.title.txt",
+    "editPromptFile": "art/prompts/BG.title.edit.txt",
+    "promptSha256": "8fb625ce8970cf65ec05b97368195f779a7a41a0d9b5c7df86af329a91bb1045",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "runtimeSize": [
+      1920,
+      1080
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/BG.title.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "BG.board",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/BG.board.txt",
+    "editPromptFile": "art/prompts/BG.board.edit.txt",
+    "promptSha256": "c7ae5064d49f2f20e6f69a660f88cdeb9733093d8433304cc6e99de302f2492f",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "runtimeSize": [
+      1920,
+      1080
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/BG.board.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "BG.result",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/BG.result.txt",
+    "editPromptFile": "art/prompts/BG.result.edit.txt",
+    "promptSha256": "fade53f0ac2948160fe4c7443e9ffbcb0a4caab8cd8f61df71ac565d8b7fe152",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "runtimeSize": [
+      1920,
+      1080
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/BG.result.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "BG.chapter",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/BG.chapter.txt",
+    "editPromptFile": "art/prompts/BG.chapter.edit.txt",
+    "promptSha256": "1b315c42d3f771f42530b1d881120acfe9711434e12714306f2d25d6df401887",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "runtimeSize": [
+      1920,
+      1080
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/BG.chapter.png",
+    "status": "specified-not-generated"
+  },
+  {
+    "assetID": "KEY.cover",
+    "referenceIDs": [
+      "REF.style"
+    ],
+    "mode": "generate-reference",
+    "transparent_background": false,
+    "promptFile": "art/prompts/KEY.cover.txt",
+    "editPromptFile": "art/prompts/KEY.cover.edit.txt",
+    "promptSha256": "31af9cecfa1ea869ac2a9f2b3cf05f41e0d5c2310a16c564321ad746526c27ad",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "runtimeSize": [
+      1920,
+      1080
+    ],
+    "runtimePath": "UnityProject/Assets/Game/Art/KEY.cover.png",
+    "status": "specified-not-generated"
+  }
+]

@@ -1,0 +1,6 @@
+id,name,requiredTags,forbiddenTags,art,request
+G01,狐客,"[""food"",""light""]",[],GST.G01,饭要热，回去的路要亮。
+G02,伞客,"[""shade"",""warmth""]",[],GST.G02,我喜欢听雨，不喜欢淋雨。
+G03,河客,"[""water"",""light""]",[],GST.G03,有一碗清水，就能歇脚。
+G04,纸客,"[""quiet"",""ward""]","[""noise""]",GST.G04,话说轻些，符结系稳些。
+G05,鼓客,"[""music"",""food""]",[],GST.G05,有节拍的饭，吃着最香。

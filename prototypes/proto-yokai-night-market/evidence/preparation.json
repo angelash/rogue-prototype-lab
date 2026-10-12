@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "unityEditorExists": true,
+  "monoModulesPathExists": true,
+  "python": "3.10.8",
+  "fontPath": "prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Fonts/NotoSansCJKsc-Regular.otf",
+  "fontBytes": 16437364,
+  "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "fontVersion": [
+    "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603"
+  ],
+  "unityImport": "not-executed",
+  "gameCompile": "not-executed",
+  "rasterGeneration": "not-executed",
+  "audioProduction": "not-executed",
+  "nativeQA": "not-executed"
+}

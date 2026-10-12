@@ -1,0 +1,708 @@
+key,zh-CN
+ui.title,妖怪夜市开张
+ui.new,开始筹备
+ui.continue,继续筹备
+ui.free,自由委托
+ui.settings,设置
+ui.quit,退出游戏
+ui.resume,返回夜市
+ui.endTurn,结束回合
+ui.playAgain,再摆一摊
+ui.next,继续
+ui.chapter,巷口记事
+ui.contract,开张委托
+ui.player,你的摊位
+ui.ai,伞老六的摊位
+ui.win,今夜先开张
+ui.lose,隔壁先亮灯
+ui.draw,两摊一同开张
+ui.week,筹备轮
+ui.coin,铜钱
+ui.score,市望
+ui.record,新市望记录
+ui.rank,开张记录
+ui.inspect,巡摊检查
+ui.reaction,有人来加项：是否请掌柜说和？
+ui.accept,接受检查
+ui.counter,请人说和
+ui.ap,行动
+ui.fast,加速表现
+ui.autopause,失焦自动暂停
+ui.sound,音效
+ui.music,音乐
+ui.master,总音量
+ui.tutorial,开摊教学
+ui.language,语言
+ui.language.zh,简体中文
+ui.help,查看规矩
+ui.skip,跳过剧情
+ui.replayStory,重看记事
+ui.recruit,安排帮工
+ui.chooseContract,选择今晚的委托
+ui.use,确认使用
+ui.edit,更改摊名
+ui.stallName,旧货夜摊
+ui.cancel,取消
+ui.confirm,确认
+ui.sell,变卖设施
+ui.buy,买入设施
+ui.move,移动设施
+ui.mode,切换用途
+ui.stock,旧货车库存
+ui.guests,今夜来客
+ui.ready,来客条件已齐
+ui.notReady,仍缺来客条件
+ui.power,供电连线
+ui.noise,发电机噪声
+ui.log,筹备记录
+ui.viewCard,查看卡牌
+ui.save,保存并回主菜单
+ui.saved,筹备已保存
+ui.loading,正在摆好夜摊
+ui.cleanExit,退出前保存筹备
+ui.deleteConfirm,删除此筹备存档？章节进度仍会保留。
+ui.resetConfirm,重置全部进度？此操作会先生成一份本地备份。
+ui.reduceMotion,减少动态
+ui.textScale,文字大小
+ui.remap,重新绑定按键
+ui.turnConfirm,尚有行动可用，仍要结束回合吗？
+ui.tags,当前服务
+ui.roundLimit,鬼门将开，最后一轮。
+ui.deadline,筹备期限到了，比较合格项与进度。
+ui.seed,对局种子
+ui.seedReplay,用此种子重新筹备
+ui.saveUnavailable,无法保存。可继续本局，退出后可能丢失未保存的筹备。
+ui.resultReason,开张原因
+ui.credits,制作与许可
+ui.returnTitle,回主菜单
+ui.nomoreCards,牌堆暂空，本次未抽到牌。
+ui.openCheck,查看开张条件
+ui.moveHint,选择一个空设施格
+ui.departmentHint,选择一个岗位
+ui.counterHint,说和牌只在收到检查时使用
+ui.missing,缺少：{tags}
+ui.facilitySellConfirm,变卖 {name} 得到 {coins} 铜钱。该设施本局不能再次买回。
+ui.inspectionWarning,未满足开张条件，不能宣告开张。
+ui.aiThinking,隔壁正在安排
+ui.inputWaiting,等待你确认目标
+ui.autoSave,自动保存
+ui.lowFlash,低闪烁：本版无快速频闪
+ui.pause,已暂停
+ui.exitIn,再次确认退出
+ui.noCurrentGame,没有可继续的筹备
+ui.contentMismatch,存档使用的内容版本不同，请从备份恢复或新开一摊。
+ui.settingsSaved,设置已保存
+ui.readable,颜色同时配有图标与文字
+ui.storyFinish,灯下记事已收好
+ui.noVoice,本版剧情以文字呈现
+ui.affected,影响岗位
+reason.0,现在不是你安排的回合。
+reason.1,五个帮工位已满，先等工作完成或让帮工撤回。
+reason.2,本回合已限定岗位，或目标已完成。
+reason.3,对摊的五个停工位已满。
+reason.4,对摊没有可撤回的帮工。
+reason.5,对摊没有已完成的岗位可复查。
+reason.6,这名帮工正在对摊工作，暂不能重复派出。
+reason.7,没有可推进的未受阻帮工。
+reason.8,手中没有可派出的帮工，或没有可降低的目标。
+reason.9,这张牌只在对应检查或停工事件出现时使用。
+reason.noAP,行动已用完，可结束回合。
+reason.noCoins,铜钱不足，先变卖一件不需要的设施。
+reason.slot,该设施格已被占用。
+reason.sold,这件设施已变卖，本局不能再次买回。
+reason.badCommand,操作已过期，请重新选择。
+reason.fullHand,手牌已达上限，多出的牌进入其原属弃牌区。
+reason.noPower,没有相邻有效供电，该用途暂不提供服务。
+reason.sameMode,设施已经处于这个用途。
+reason.invalidName,摊名限 1–12 个可显示字符。
+error.saveCorrupt,存档损坏。可读取上一份有效备份或另开一摊。
+error.saveNewer,存档来自更新版本，本版不能读取。
+error.asset,必要内容缺失，请验证游戏文件。
+error.binding,该按键已用于另一个动作，请交换或取消。
+error.seed,种子必须是 1–4294967295 的整数。
+error.io,保存失败，现有备份保留。
+error.noBackup,没有有效备份，可保留损坏文件后另开一摊。
+tuto.welcome,把一车旧物，摆成能招待妖怪的夜市。
+tuto.goal,五项筹备达到目标，设施满足所有来客，才算能开张。
+tuto.worker,每回合有三次行动。先派一名招徕帮工。
+tuto.lock,第一名帮工决定本回合能继续派出的岗位；其他类型卡仍可使用。
+tuto.work,帮工在自己下次回合开始工作；两点或四点填满后完成一项筹备。
+tuto.block,停工只暂停工作，不抹掉已做进度。
+tuto.repair,雨棚与灯线各有对应修补牌，认清事件图标再动手。
+tuto.facility,五个设施格会占空间。铁锅可以掌勺，也可以改成暖灶。
+tuto.power,水泵与留声机需要相邻供电。线会指出是谁让它开始工作。
+tuto.sell,变卖换铜钱，也会失去它的服务；本局不能买回。
+tuto.guests,客人的要求全部显示。纸客还会避开发电机的噪声。
+tuto.counter,巡摊加项时可以说和；反应不计时，想清楚再决定。
+tuto.end,结束回合前可以核对缺少的工作和服务。
+tuto.finish,现在轮到你把旧物摆成自己的办法。
+role.call,招徕
+role.cook,灶务
+role.stock,供货
+role.dress,布置
+role.ward,安检
+card.C001.name,阿铃·快工
+card.C001.description,派入己方空帮工位；招徕工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C001.quote,铃声不用大，让路口先听见。
+card.C002.name,小哨·快工
+card.C002.description,派入己方空帮工位；招徕工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C002.quote,我只叫醒该醒的那条街。
+card.C003.name,鼓豆·慢工
+card.C003.description,派入己方空帮工位；招徕工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C003.quote,慢一点，客人才听得清。
+card.C004.name,柳声·慢工
+card.C004.description,派入己方空帮工位；招徕工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C004.quote,风走到哪里，消息就到哪里。
+card.C005.name,铜姨·快工
+card.C005.description,派入己方空帮工位；招徕工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C005.quote,旧铃的音，最认得回家的路。
+card.C006.name,苔笛·慢工
+card.C006.description,派入己方空帮工位；招徕工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C006.quote,石头也有想说的话。
+card.C007.name,锅青·快工
+card.C007.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C007.quote,热汤先给怕冷的客人。
+card.C008.name,火栗·快工
+card.C008.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C008.quote,火候一急，味道就跑。
+card.C009.name,面团·快工
+card.C009.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C009.quote,我把夜风揉进面里。
+card.C010.name,荷婶·快工
+card.C010.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C010.quote,掀盖之前，先等一口气。
+card.C011.name,盐尾·慢工
+card.C011.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C011.quote,有些味道，一小撮就够。
+card.C012.name,炭伯·快工
+card.C012.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C012.quote,我守小火，你守好心。
+card.C013.name,姜黄·快工
+card.C013.description,派入己方空帮工位；灶务工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C013.quote,凉意来了，添一片姜。
+card.C014.name,米满·慢工
+card.C014.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C014.quote,盛饭的手要稳。
+card.C015.name,汤白·慢工
+card.C015.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C015.quote,碗里盛着一段暖路。
+card.C016.name,藕节·慢工
+card.C016.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C016.quote,刀放稳，故事慢慢切。
+card.C017.name,椒九·慢工
+card.C017.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C017.quote,辣不辣，先问客人。
+card.C018.name,灶婆·慢工
+card.C018.description,派入己方空帮工位；灶务工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C018.quote,旧锅认火，新摊认人。
+card.C019.name,筐子·快工
+card.C019.description,派入己方空帮工位；供货工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C019.quote,留一点空，才装得下意外。
+card.C020.name,苇舟·快工
+card.C020.description,派入己方空帮工位；供货工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C020.quote,水路来的货，先晾一晾。
+card.C021.name,账梨·快工
+card.C021.description,派入己方空帮工位；供货工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C021.quote,记清来处，就不怕走错。
+card.C022.name,石背·慢工
+card.C022.description,派入己方空帮工位；供货工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C022.quote,重的放底下，心就稳了。
+card.C023.name,麻绳·慢工
+card.C023.description,派入己方空帮工位；供货工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C023.quote,拴住货，别拴住路。
+card.C024.name,纸秤·慢工
+card.C024.description,派入己方空帮工位；供货工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C024.quote,秤的是货，称呼要留情。
+card.C025.name,灯芽·快工
+card.C025.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C025.quote,一盏灯，也能认出整条街。
+card.C026.name,布云·快工
+card.C026.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C026.quote,棚下面，雨也会轻一点。
+card.C027.name,墨角·快工
+card.C027.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C027.quote,量过两遍，再落第一笔。
+card.C028.name,伞扣·慢工
+card.C028.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C028.quote,别让好看的东西堵住路。
+card.C029.name,绣点·慢工
+card.C029.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C029.quote,花纹可以热闹，边线要干净。
+card.C030.name,竹影·慢工
+card.C030.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C030.quote,支架稳，灯才敢亮。
+card.C031.name,漆月·快工
+card.C031.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C031.quote,旧木头也能接住月光。
+card.C032.name,帘子·快工
+card.C032.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C032.quote,把杂声拦在帘外。
+card.C033.name,瓦圆·快工
+card.C033.description,派入己方空帮工位；布置工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C033.quote,敲轻一些，夜还没睡。
+card.C034.name,线雀·慢工
+card.C034.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C034.quote,一根线，也要有来有回。
+card.C035.name,叶牌·慢工
+card.C035.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C035.quote,招牌先站稳，再说开张。
+card.C036.name,色婆·慢工
+card.C036.description,派入己方空帮工位；布置工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C036.quote,颜色要让人看懂路。
+card.C037.name,符青·快工
+card.C037.description,派入己方空帮工位；安检工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C037.quote,规矩不是吓人的。
+card.C038.name,门石·快工
+card.C038.description,派入己方空帮工位；安检工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C038.quote,路要留给晚到的人。
+card.C039.name,绳七·快工
+card.C039.description,派入己方空帮工位；安检工作 2 次后完成 1 项筹备。受阻时不推进。
+card.C039.quote,一个结，记住一种麻烦。
+card.C040.name,夜巡·慢工
+card.C040.description,派入己方空帮工位；安检工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C040.quote,我巡的是路，不是热闹。
+card.C041.name,砂眼·慢工
+card.C041.description,派入己方空帮工位；安检工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C041.quote,细小的缝，也要看见。
+card.C042.name,印婆·慢工
+card.C042.description,派入己方空帮工位；安检工作 4 次后完成 1 项筹备。受阻时不推进。
+card.C042.quote,盖过的印，要经得起雨。
+card.C043.name,小鬼闹场
+card.C043.description,让对摊所有岗位停工 1 个对摊回合。
+card.C043.quote,夜市的麻烦，也要一件件收拾。
+card.C044.name,阴雨漏棚
+card.C044.description,让对摊所有岗位停工 2 个对摊回合。
+card.C044.quote,夜市的麻烦，也要一件件收拾。
+card.C045.name,暴雨封街
+card.C045.description,让对摊所有岗位停工 3 个对摊回合。
+card.C045.quote,夜市的麻烦，也要一件件收拾。
+card.C046.name,无名怪风
+card.C046.description,让对摊所有岗位停工 1 个对摊回合。
+card.C046.quote,夜市的麻烦，也要一件件收拾。
+card.C047.name,灯线短路
+card.C047.description,让对摊所有岗位停工 2 个对摊回合。
+card.C047.quote,夜市的麻烦，也要一件件收拾。
+card.C048.name,灯芯熄灭
+card.C048.description,让对摊所有岗位停工 1 个对摊回合。
+card.C048.quote,夜市的麻烦，也要一件件收拾。
+card.C049.name,河雾淹摊
+card.C049.description,让对摊所有岗位停工 3 个对摊回合。
+card.C049.quote,夜市的麻烦，也要一件件收拾。
+card.C050.name,伞海堵门
+card.C050.description,让对摊所有岗位停工 2 个对摊回合。
+card.C050.quote,夜市的麻烦，也要一件件收拾。
+card.C051.name,嗓子冒烟
+card.C051.description,让对摊招徕停工 1 个对摊回合。
+card.C051.quote,夜市的麻烦，也要一件件收拾。
+card.C052.name,铜铃失声
+card.C052.description,让对摊招徕停工 1 个对摊回合。
+card.C052.quote,夜市的麻烦，也要一件件收拾。
+card.C053.name,锅底结冰
+card.C053.description,让对摊灶务停工 1 个对摊回合。
+card.C053.quote,夜市的麻烦，也要一件件收拾。
+card.C054.name,灶火离家
+card.C054.description,让对摊灶务停工 1 个对摊回合。
+card.C054.quote,夜市的麻烦，也要一件件收拾。
+card.C055.name,汤勺打结
+card.C055.description,让对摊灶务停工 1 个对摊回合。
+card.C055.quote,夜市的麻烦，也要一件件收拾。
+card.C056.name,货单迷路
+card.C056.description,让对摊供货停工 1 个对摊回合。
+card.C056.quote,夜市的麻烦，也要一件件收拾。
+card.C057.name,筐底漏风
+card.C057.description,让对摊供货停工 1 个对摊回合。
+card.C057.quote,夜市的麻烦，也要一件件收拾。
+card.C058.name,灯笼乱跑
+card.C058.description,让对摊布置停工 1 个对摊回合。
+card.C058.quote,夜市的麻烦，也要一件件收拾。
+card.C059.name,彩布褪色
+card.C059.description,让对摊布置停工 1 个对摊回合。
+card.C059.quote,夜市的麻烦，也要一件件收拾。
+card.C060.name,招牌倒挂
+card.C060.description,让对摊布置停工 1 个对摊回合。
+card.C060.quote,夜市的麻烦，也要一件件收拾。
+card.C061.name,符绳打结
+card.C061.description,让对摊安检停工 1 个对摊回合。
+card.C061.quote,夜市的麻烦，也要一件件收拾。
+card.C062.name,安检瞌睡
+card.C062.description,让对摊安检停工 1 个对摊回合。
+card.C062.quote,夜市的麻烦，也要一件件收拾。
+card.C063.name,夜风顺手
+card.C063.description,随机取走对摊最多 2 张手牌，放入自己手中。
+card.C063.quote,风一转，手上的安排就变了。
+card.C064.name,借路狐狸
+card.C064.description,随机取走对摊最多 2 张手牌，放入自己手中。
+card.C064.quote,风一转，手上的安排就变了。
+card.C065.name,临时散工
+card.C065.description,随机让对摊最多 2 名帮工回到其手中，工作进度归零。
+card.C065.quote,风一转，手上的安排就变了。
+card.C066.name,热汤歇脚
+card.C066.description,随机让对摊最多 2 名帮工回到其手中，工作进度归零。
+card.C066.quote,风一转，手上的安排就变了。
+card.C067.name,错贴货签
+card.C067.description,随机丢弃对摊最多 2 张手牌。
+card.C067.quote,风一转，手上的安排就变了。
+card.C068.name,夜雾藏单
+card.C068.description,随机丢弃对摊最多 2 张手牌。
+card.C068.quote,风一转，手上的安排就变了。
+card.C069.name,齐心搭把手
+card.C069.description,己方全部未受阻帮工立即工作 1 次。
+card.C069.quote,手边的旧物，今天又派上用场。
+card.C070.name,趁月赶工
+card.C070.description,己方全部未受阻帮工立即工作 1 次。
+card.C070.quote,手边的旧物，今天又派上用场。
+card.C071.name,顺风开干
+card.C071.description,己方全部未受阻帮工立即工作 1 次。
+card.C071.quote,手边的旧物，今天又派上用场。
+card.C072.name,百妖搭棚
+card.C072.description,己方全部未受阻帮工立即完成当前筹备。
+card.C072.quote,手边的旧物，今天又派上用场。
+card.C073.name,邻摊来帮
+card.C073.description,己方全部未受阻帮工立即完成当前筹备。
+card.C073.quote,手边的旧物，今天又派上用场。
+card.C074.name,一夜收齐
+card.C074.description,己方全部未受阻帮工立即完成当前筹备。
+card.C074.quote,手边的旧物，今天又派上用场。
+card.C075.name,旧物显灵
+card.C075.description,己方全部未受阻帮工立即完成当前筹备。
+card.C075.quote,手边的旧物，今天又派上用场。
+card.C076.name,随手好活
+card.C076.description,本回合解除首名帮工限定岗位，可再派任意岗位帮工。
+card.C076.quote,手边的旧物，今天又派上用场。
+card.C077.name,跨摊支援
+card.C077.description,本回合解除首名帮工限定岗位，可再派任意岗位帮工。
+card.C077.quote,手边的旧物，今天又派上用场。
+card.C078.name,多面帮工
+card.C078.description,本回合解除首名帮工限定岗位，可再派任意岗位帮工。
+card.C078.quote,手边的旧物，今天又派上用场。
+card.C079.name,以小见好
+card.C079.description,指定己方一个尚未完成岗位，目标减少 1，最低为 1。
+card.C079.quote,手边的旧物，今天又派上用场。
+card.C080.name,减一道手续
+card.C080.description,指定己方一个尚未完成岗位，目标减少 1，最低为 1。
+card.C080.quote,手边的旧物，今天又派上用场。
+card.C081.name,够用就行
+card.C081.description,指定己方一个尚未完成岗位，目标减少 1，最低为 1。
+card.C081.quote,手边的旧物，今天又派上用场。
+card.C082.name,补雨布
+card.C082.description,移除己方全部符合 雨棚组 的停工事件；事件弃入其原属牌堆的弃牌区。
+card.C082.quote,把来处看清，才知道从哪补起。
+card.C083.name,扎好棚角
+card.C083.description,移除己方全部符合 雨棚组 的停工事件；事件弃入其原属牌堆的弃牌区。
+card.C083.quote,把来处看清，才知道从哪补起。
+card.C084.name,疏开水路
+card.C084.description,移除己方全部符合 雨棚组 的停工事件；事件弃入其原属牌堆的弃牌区。
+card.C084.quote,把来处看清，才知道从哪补起。
+card.C085.name,换灯芯
+card.C085.description,移除己方全部符合 灯线组 的停工事件；事件弃入其原属牌堆的弃牌区。
+card.C085.quote,把来处看清，才知道从哪补起。
+card.C086.name,接好灯线
+card.C086.description,移除己方全部符合 灯线组 的停工事件；事件弃入其原属牌堆的弃牌区。
+card.C086.quote,把来处看清，才知道从哪补起。
+card.C087.name,狸掌柜说和
+card.C087.description,只在自己收到加项或复查时反应使用，抵消该检查；双方卡牌弃置。
+card.C087.quote,开张前，先把话说顺。
+card.C088.name,纸书记调停
+card.C088.description,只在自己收到加项或复查时反应使用，抵消该检查；双方卡牌弃置。
+card.C088.quote,开张前，先把话说顺。
+card.C089.name,加一道热食
+card.C089.description,对摊 灶务 目标增加 2。可被说和抵消。
+card.C089.quote,多查一步，给晚来的客人留条路。
+card.C090.name,加一批货架
+card.C090.description,对摊 供货 目标增加 1。可被说和抵消。
+card.C090.quote,多查一步，给晚来的客人留条路。
+card.C091.name,加一组灯彩
+card.C091.description,对摊 布置 目标增加 2。可被说和抵消。
+card.C091.quote,多查一步，给晚来的客人留条路。
+card.C092.name,加一轮巡摊
+card.C092.description,对摊 安检 目标增加 1。可被说和抵消。
+card.C092.quote,多查一步，给晚来的客人留条路。
+card.C093.name,加一阵招呼
+card.C093.description,对摊 招徕 目标增加 1。可被说和抵消。
+card.C093.quote,多查一步，给晚来的客人留条路。
+card.C094.name,门牌复查
+card.C094.description,指定对摊已完成的岗位，扣除 1 项已完成筹备。可被说和抵消。
+card.C094.quote,多查一步，给晚来的客人留条路。
+card.C095.name,通路复核
+card.C095.description,指定对摊已完成的岗位，扣除 1 项已完成筹备。可被说和抵消。
+card.C095.quote,多查一步，给晚来的客人留条路。
+contract.N01.name,巷口第一盏
+contract.N01.subtitle,先让路口有光，再让锅里有热气。
+contract.N01.openingLine,今晚在铜铃巷开摊。先把狐客安顿好。
+contract.N01.successLine,巷口第一盏亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N01.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N02.name,两碗热汤
+contract.N02.subtitle,热汤之外，还要给客人一处避雨地。
+contract.N02.openingLine,今晚在铜铃巷开摊。先把狐客、伞客安顿好。
+contract.N02.successLine,两碗热汤亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N02.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N03.name,桥头候月
+contract.N03.subtitle,把清水送到亮处，渡口就有人停步。
+contract.N03.openingLine,今晚在铜铃巷开摊。先把河客安顿好。
+contract.N03.successLine,桥头候月亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N03.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N04.name,风来旧货摊
+contract.N04.subtitle,一面帘、一根符绳，给纸客留个安静角。
+contract.N04.openingLine,今晚在石桥街开摊。先把纸客安顿好。
+contract.N04.successLine,风来旧货摊亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N04.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N05.name,河雾补棚
+contract.N05.subtitle,锅和风琴都摆好，今晚来客爱热闹。
+contract.N05.openingLine,今晚在渡口埠开摊。先把鼓客安顿好。
+contract.N05.successLine,河雾补棚亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N05.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N06.name,灯下裁衣会
+contract.N06.subtitle,雨打棚角，灯要先站稳。
+contract.N06.openingLine,今晚在灯影坊开摊。先把伞客、河客安顿好。
+contract.N06.successLine,灯下裁衣会亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N06.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N07.name,柳街小戏台
+contract.N07.subtitle,两种手艺在同一张桌上相遇。
+contract.N07.openingLine,今晚在灯影坊开摊。先把狐客、鼓客安顿好。
+contract.N07.successLine,柳街小戏台亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N07.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N08.name,回家的纸伞
+contract.N08.subtitle,先让路口有光，再让锅里有热气。
+contract.N08.openingLine,今晚在灯影坊开摊。先把伞客安顿好。
+contract.N08.successLine,回家的纸伞亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N08.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N09.name,子时干粮铺
+contract.N09.subtitle,热汤之外，还要给客人一处避雨地。
+contract.N09.openingLine,今晚在渡口埠开摊。先把狐客安顿好。
+contract.N09.successLine,子时干粮铺亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N09.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N10.name,铜铃过石桥
+contract.N10.subtitle,把清水送到亮处，渡口就有人停步。
+contract.N10.openingLine,今晚在石桥街开摊。先把河客、鼓客安顿好。
+contract.N10.successLine,铜铃过石桥亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N10.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N11.name,静巷借火
+contract.N11.subtitle,一面帘、一根符绳，给纸客留个安静角。
+contract.N11.openingLine,今晚在渡口埠开摊。先把纸客、伞客安顿好。
+contract.N11.successLine,静巷借火亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N11.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N12.name,狐尾暖锅局
+contract.N12.subtitle,锅和风琴都摆好，今晚来客爱热闹。
+contract.N12.openingLine,今晚在石桥街开摊。先把狐客、伞客安顿好。
+contract.N12.successLine,狐尾暖锅局亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N12.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N13.name,渡口亮水摊
+contract.N13.subtitle,雨打棚角，灯要先站稳。
+contract.N13.openingLine,今晚在石桥街开摊。先把河客安顿好。
+contract.N13.successLine,渡口亮水摊亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N13.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N14.name,月影布篷会
+contract.N14.subtitle,两种手艺在同一张桌上相遇。
+contract.N14.openingLine,今晚在云台坡开摊。先把伞客、纸客安顿好。
+contract.N14.successLine,月影布篷会亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N14.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N15.name,纸窗安睡摊
+contract.N15.subtitle,先让路口有光，再让锅里有热气。
+contract.N15.openingLine,今晚在灯影坊开摊。先把纸客安顿好。
+contract.N15.successLine,纸窗安睡摊亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N15.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N16.name,敲碗会朋友
+contract.N16.subtitle,热汤之外，还要给客人一处避雨地。
+contract.N16.openingLine,今晚在石桥街开摊。先把鼓客、狐客安顿好。
+contract.N16.successLine,敲碗会朋友亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N16.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N17.name,黑水桥守夜
+contract.N17.subtitle,把清水送到亮处，渡口就有人停步。
+contract.N17.openingLine,今晚在渡口埠开摊。先把河客、纸客安顿好。
+contract.N17.successLine,黑水桥守夜亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N17.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N18.name,旧木柜开箱
+contract.N18.subtitle,一面帘、一根符绳，给纸客留个安静角。
+contract.N18.openingLine,今晚在灯影坊开摊。先把狐客、纸客安顿好。
+contract.N18.successLine,旧木柜开箱亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N18.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N19.name,灯火引归客
+contract.N19.subtitle,锅和风琴都摆好，今晚来客爱热闹。
+contract.N19.openingLine,今晚在灯影坊开摊。先把狐客、河客安顿好。
+contract.N19.successLine,灯火引归客亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N19.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N20.name,落帘听小雨
+contract.N20.subtitle,雨打棚角，灯要先站稳。
+contract.N20.openingLine,今晚在渡口埠开摊。先把伞客、纸客安顿好。
+contract.N20.successLine,落帘听小雨亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N20.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N21.name,鼓声绕长街
+contract.N21.subtitle,两种手艺在同一张桌上相遇。
+contract.N21.openingLine,今晚在石桥街开摊。先把鼓客、河客安顿好。
+contract.N21.successLine,鼓声绕长街亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N21.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N22.name,两把伞留座
+contract.N22.subtitle,先让路口有光，再让锅里有热气。
+contract.N22.openingLine,今晚在铜铃巷开摊。先把伞客安顿好。
+contract.N22.successLine,两把伞留座亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N22.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N23.name,河灯照归途
+contract.N23.subtitle,热汤之外，还要给客人一处避雨地。
+contract.N23.openingLine,今晚在渡口埠开摊。先把河客、狐客安顿好。
+contract.N23.successLine,河灯照归途亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N23.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N24.name,纸符护小路
+contract.N24.subtitle,把清水送到亮处，渡口就有人停步。
+contract.N24.openingLine,今晚在灯影坊开摊。先把纸客、鼓客安顿好。
+contract.N24.successLine,纸符护小路亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N24.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N25.name,锅边叙旧夜
+contract.N25.subtitle,一面帘、一根符绳，给纸客留个安静角。
+contract.N25.openingLine,今晚在渡口埠开摊。先把狐客、纸客安顿好。
+contract.N25.successLine,锅边叙旧夜亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N25.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N26.name,秋风摆旧货
+contract.N26.subtitle,锅和风琴都摆好，今晚来客爱热闹。
+contract.N26.openingLine,今晚在石桥街开摊。先把伞客、鼓客安顿好。
+contract.N26.successLine,秋风摆旧货亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N26.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N27.name,五巷同开张
+contract.N27.subtitle,雨打棚角，灯要先站稳。
+contract.N27.openingLine,今晚在灯影坊开摊。先把河客、纸客安顿好。
+contract.N27.successLine,五巷同开张亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N27.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+contract.N28.name,鬼门前最后一摊
+contract.N28.subtitle,两种手艺在同一张桌上相遇。
+contract.N28.openingLine,今晚在灯影坊开摊。先把纸客、鼓客安顿好。
+contract.N28.successLine,鬼门前最后一摊亮起了第一盏灯。客人点头，今晚可以开张。
+contract.N28.failureLine,隔壁先挂出了开张牌。收好未完成的安排，下次从这里再试。
+facility.F01.name,旧铁锅
+facility.F01.cook,掌勺
+facility.F01.heat,暖灶
+facility.F02.name,纸灯笼
+facility.F02.light,照路
+facility.F02.guide,引符
+facility.F03.name,旧水泵
+facility.F03.pump,抽水
+facility.F03.dry,搭棚
+facility.F04.name,留声机
+facility.F04.play,奏乐
+facility.F04.closed,静柜
+facility.F05.name,旧发电机
+facility.F05.both,双路供电
+facility.F05.left,静音左路
+facility.F06.name,补丁布篷
+facility.F06.shade,遮雨
+facility.F06.quiet,落帘
+facility.F07.name,陶香炉
+facility.F07.ward,引香
+facility.F07.warm,温炉
+facility.F08.name,旧木柜
+facility.F08.food,摆货
+facility.F08.shade,翻檐
+facility.F09.name,旧冰柜
+facility.F09.cold,凉食
+facility.F09.sealed,封符
+facility.F10.name,脚踏风琴
+facility.F10.music,奏曲
+facility.F10.light,挂灯
+facility.F11.name,瓦火盆
+facility.F11.warm,烘暖
+facility.F11.ward,围灰
+facility.F12.name,折纸屏
+facility.F12.quiet,挡声
+facility.F12.shade,挡风
+guest.G01.name,狐客
+guest.G01.request,饭要热，回去的路要亮。
+guest.G02.name,伞客
+guest.G02.request,我喜欢听雨，不喜欢淋雨。
+guest.G03.name,河客
+guest.G03.request,有一碗清水，就能歇脚。
+guest.G04.name,纸客
+guest.G04.request,话说轻些，符结系稳些。
+guest.G05.name,鼓客
+guest.G05.request,有节拍的饭，吃着最香。
+chapter.CH1.name,先点一盏灯
+chapter.CH1.intro,你推着祖传旧货车走到铜铃巷。狸掌柜递来一块空门牌：“鬼门打开前，先让客人有地方坐。”
+chapter.CH1.outro,第一位狐客端起了热汤。空门牌有了名字。
+chapter.CH2.name,棚下有热汤
+chapter.CH2.intro,雨沿棚边滴下来。伞客收起一只脚：“我不挑新东西，只想找一片不漏的屋檐。”
+chapter.CH2.outro,雨停之前，棚下已坐满愿意等的人。
+chapter.CH3.name,旧物有新用
+chapter.CH3.intro,水泵、风琴和旧灯线堆成一角。锅青说：“接好一根线，比多喊十声有用。”
+chapter.CH3.outro,旧物没有变新，却多了一种用法。
+chapter.CH4.name,客人有规矩
+chapter.CH4.intro,纸客把声音压得很低：“热闹留在外面，我在帘后等你。”
+chapter.CH4.outro,帘里安静，帘外灯亮。规矩也可以很温柔。
+chapter.CH5.name,把通路留出来
+chapter.CH5.intro,街口多了几张旧门牌。夜巡提醒：“牌子能挂，路不能堵。”
+chapter.CH5.outro,晚来的客人顺着通路走进摊前。
+chapter.CH6.name,五巷来相会
+chapter.CH6.intro,五巷客人循着灯影来串门。每一件旧物，都要在有限的格子里找到自己的位置。
+chapter.CH6.outro,五巷的灯连成一条路。你的小摊也在里面。
+chapter.CH7.name,鬼门今夜开
+chapter.CH7.intro,鬼门缓缓露出一线光。狸掌柜拍拍车沿：“最后一摊。把你学会的手艺摆出来。”
+chapter.CH7.outro,鬼门打开，旧货车留在灯下。你终于知道，开张是把别人需要的东西摆到对的地方。
+character.W001.name,阿铃
+character.W002.name,小哨
+character.W003.name,鼓豆
+character.W004.name,柳声
+character.W005.name,铜姨
+character.W006.name,苔笛
+character.W007.name,锅青
+character.W008.name,火栗
+character.W009.name,面团
+character.W010.name,荷婶
+character.W011.name,盐尾
+character.W012.name,炭伯
+character.W013.name,姜黄
+character.W014.name,米满
+character.W015.name,汤白
+character.W016.name,藕节
+character.W017.name,椒九
+character.W018.name,灶婆
+character.W019.name,筐子
+character.W020.name,苇舟
+character.W021.name,账梨
+character.W022.name,石背
+character.W023.name,麻绳
+character.W024.name,纸秤
+character.W025.name,灯芽
+character.W026.name,布云
+character.W027.name,墨角
+character.W028.name,伞扣
+character.W029.name,绣点
+character.W030.name,竹影
+character.W031.name,漆月
+character.W032.name,帘子
+character.W033.name,瓦圆
+character.W034.name,线雀
+character.W035.name,叶牌
+character.W036.name,色婆
+character.W037.name,符青
+character.W038.name,门石
+character.W039.name,绳七
+character.W040.name,夜巡
+character.W041.name,砂眼
+character.W042.name,印婆
+character.NPC.host.name,狸掌柜
+character.NPC.guide.name,锅青
+character.NPC.rival.name,伞老六
+character.NPC.clerk.name,纸书记
+tag.food,餐食
+tag.light,照明
+tag.warmth,暖意
+tag.music,乐声
+tag.water,清水
+tag.ward,护符
+tag.quiet,安静
+tag.shade,遮蔽
+tag.noise,噪声
+ui.drawStory,今夜的灯一起亮了。换一种摆法，再试一次。
+ui.environment,环境音量
+ui.checklist,五项筹备达标，所有来客合格，轮末才能开张。
+ui.restoreBackup,读取有效备份
+ui.keepDamagedNew,保留损坏文件，另开一摊
+ui.retrySave,重试保存
+ui.noSaveExit,不保存退出
+ui.saveAndExit,保存后退出
+ui.slotA,选择备份A
+ui.slotB,选择备份B
+error.saveConflict,两份存档代次相同而内容不同。请查看委托与轮次，选择一份继续。
+ui.swapBinding,交换按键
+ui.textReadMore,查看完整说明
+ui.tagNone,暂无有效服务
+ui.allGuestsReady,所有来客条件已齐
+ui.openingLocked,五项筹备仍未全部完成
+ui.resetProgress,重置进度
+ui.saveBusy,正在保存，请稍候。

@@ -1,0 +1,4905 @@
+{
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "englishTitle": {
+          "type": "string"
+        },
+        "contentVersion": {
+          "type": "string"
+        },
+        "rulesVersion": {
+          "type": "string",
+          "const": "ynm-rules-1"
+        },
+        "saveVersion": {
+          "type": "integer",
+          "const": 1
+        },
+        "date": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "unityVersion": {
+          "type": "string"
+        },
+        "productName": {
+          "type": "string"
+        },
+        "companyName": {
+          "type": "string"
+        },
+        "productGuid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "englishTitle",
+        "contentVersion",
+        "rulesVersion",
+        "saveVersion",
+        "date",
+        "authority",
+        "stage",
+        "unityVersion",
+        "productName",
+        "companyName",
+        "productGuid"
+      ],
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "maxRounds": {
+          "type": "integer"
+        },
+        "initialHand": {
+          "type": "integer"
+        },
+        "refillTo": {
+          "type": "integer"
+        },
+        "minimumDraw": {
+          "type": "integer"
+        },
+        "maxHand": {
+          "type": "integer"
+        },
+        "workerSlots": {
+          "type": "integer"
+        },
+        "negativeSlots": {
+          "type": "integer"
+        },
+        "facilitySlots": {
+          "type": "integer"
+        },
+        "actionsPerTurn": {
+          "type": "integer"
+        },
+        "initialCoins": {
+          "type": "integer"
+        },
+        "incomePerTurn": {
+          "type": "integer"
+        },
+        "coinCap": {
+          "type": "integer"
+        },
+        "cardCostCoins": {
+          "type": "integer"
+        },
+        "cardCostAP": {
+          "type": "integer"
+        },
+        "facilityActionAP": {
+          "type": "integer"
+        },
+        "initialWorkerIDs": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "initialFacilities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "facility": {
+                "type": "string"
+              },
+              "slot": {
+                "type": "integer"
+              },
+              "mode": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "facility",
+              "slot",
+              "mode"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "scorePerCard": {
+          "type": "integer"
+        },
+        "scorePerTask": {
+          "type": "integer"
+        },
+        "reactionTimerSeconds": {
+          "type": "integer"
+        },
+        "aiThinkSeconds": {
+          "type": "number"
+        },
+        "presentationSeconds": {
+          "type": "object",
+          "properties": {
+            "card": {
+              "type": "number"
+            },
+            "work": {
+              "type": "number"
+            },
+            "block": {
+              "type": "number"
+            },
+            "round": {
+              "type": "number"
+            },
+            "result": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "card",
+            "work",
+            "block",
+            "round",
+            "result"
+          ],
+          "additionalProperties": false
+        },
+        "fastPresentationMultiplier": {
+          "type": "number"
+        },
+        "normalDifficulty": {
+          "type": "string"
+        },
+        "musicDefault": {
+          "type": "number"
+        },
+        "sfxDefault": {
+          "type": "number"
+        },
+        "masterDefault": {
+          "type": "number"
+        },
+        "ambienceDefault": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "maxRounds",
+        "initialHand",
+        "refillTo",
+        "minimumDraw",
+        "maxHand",
+        "workerSlots",
+        "negativeSlots",
+        "facilitySlots",
+        "actionsPerTurn",
+        "initialCoins",
+        "incomePerTurn",
+        "coinCap",
+        "cardCostCoins",
+        "cardCostAP",
+        "facilityActionAP",
+        "initialWorkerIDs",
+        "initialFacilities",
+        "scorePerCard",
+        "scorePerTask",
+        "reactionTimerSeconds",
+        "aiThinkSeconds",
+        "presentationSeconds",
+        "fastPresentationMultiplier",
+        "normalDifficulty",
+        "musicDefault",
+        "sfxDefault",
+        "masterDefault",
+        "ambienceDefault"
+      ],
+      "additionalProperties": false
+    },
+    "departments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "index": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "shape": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "props": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "index",
+          "name",
+          "source",
+          "icon",
+          "color",
+          "shape",
+          "purpose",
+          "props"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceID": {
+            "type": "integer"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "department": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "turns": {
+            "type": "integer"
+          },
+          "target": {
+            "type": "string"
+          },
+          "effect": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "integer"
+          },
+          "repairIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "character": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "art": {
+            "type": "string"
+          },
+          "ap": {
+            "type": "integer"
+          },
+          "coins": {
+            "type": "integer"
+          },
+          "description": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sourceID",
+          "kind",
+          "name",
+          "department",
+          "turns",
+          "target",
+          "effect",
+          "amount",
+          "repairIDs",
+          "character",
+          "art",
+          "ap",
+          "coins",
+          "description",
+          "quote"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 95,
+      "maxItems": 95
+    },
+    "contracts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceID": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "chapter": {
+            "type": "integer"
+          },
+          "district": {
+            "type": "string"
+          },
+          "goals": {
+            "type": "object",
+            "properties": {
+              "call": {
+                "type": "integer"
+              },
+              "cook": {
+                "type": "integer"
+              },
+              "stock": {
+                "type": "integer"
+              },
+              "dress": {
+                "type": "integer"
+              },
+              "ward": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "call",
+              "cook",
+              "stock",
+              "dress",
+              "ward"
+            ],
+            "additionalProperties": false
+          },
+          "guests": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "roundLimit": {
+            "type": "integer"
+          },
+          "art": {
+            "type": "string"
+          },
+          "sourceEffectiveGoals": {
+            "type": "object",
+            "properties": {
+              "Sound": {
+                "type": "integer"
+              },
+              "Programming": {
+                "type": "integer"
+              },
+              "Design": {
+                "type": "integer"
+              },
+              "Art": {
+                "type": "integer"
+              },
+              "Testing": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "Sound",
+              "Programming",
+              "Design",
+              "Art",
+              "Testing"
+            ],
+            "additionalProperties": false
+          },
+          "sourceAnimation": {
+            "type": "integer"
+          },
+          "numericDecision": {
+            "type": "string"
+          },
+          "openingLine": {
+            "type": "string"
+          },
+          "successLine": {
+            "type": "string"
+          },
+          "failureLine": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sourceID",
+          "name",
+          "subtitle",
+          "chapter",
+          "district",
+          "goals",
+          "guests",
+          "roundLimit",
+          "art",
+          "sourceEffectiveGoals",
+          "sourceAnimation",
+          "numericDecision",
+          "openingLine",
+          "successLine",
+          "failureLine"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 28,
+      "maxItems": 28
+    },
+    "facilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "buyCoins": {
+            "type": "integer"
+          },
+          "sellCoins": {
+            "type": "integer"
+          },
+          "stockPerPlayer": {
+            "type": "integer"
+          },
+          "art": {
+            "type": "string"
+          },
+          "modes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "requiresPower": {
+                  "type": "boolean"
+                },
+                "powerOffsets": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "noise": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "tags",
+                "requiresPower",
+                "powerOffsets",
+                "noise"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "buyCoins",
+          "sellCoins",
+          "stockPerPlayer",
+          "art",
+          "modes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 12,
+      "maxItems": 12
+    },
+    "guests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "requiredTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "forbiddenTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "art": {
+            "type": "string"
+          },
+          "request": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "requiredTags",
+          "forbiddenTags",
+          "art",
+          "request"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 5,
+      "maxItems": 5
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "species": {
+            "type": "string"
+          },
+          "identity": {
+            "type": "string"
+          },
+          "costume": {
+            "type": "string"
+          },
+          "prop": {
+            "type": "string"
+          },
+          "department": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "portrait": {
+            "type": "string"
+          },
+          "voice": {
+            "type": "string"
+          },
+          "motivation": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "species",
+          "identity",
+          "costume",
+          "prop",
+          "department",
+          "portrait",
+          "voice",
+          "motivation",
+          "quote"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 46,
+      "maxItems": 46
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "contracts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unlock": {
+            "type": "string"
+          },
+          "intro": {
+            "type": "string"
+          },
+          "outro": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "background": {
+            "type": "string"
+          },
+          "reward": {
+            "type": "string"
+          },
+          "fail": {
+            "type": "string"
+          },
+          "replay": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "contracts",
+          "unlock",
+          "intro",
+          "outro",
+          "speaker",
+          "background",
+          "reward",
+          "fail",
+          "replay"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 7,
+      "maxItems": 7
+    },
+    "tutorial": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "textKey": {
+            "type": "string"
+          },
+          "anchor": {
+            "type": "string"
+          },
+          "advance": {
+            "type": "string"
+          },
+          "requiredAction": {
+            "type": "string"
+          },
+          "scenario": {
+            "type": "string"
+          },
+          "skipAllowed": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "textKey",
+          "anchor",
+          "advance",
+          "requiredAction",
+          "scenario",
+          "skipAllowed"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 14,
+      "maxItems": 14
+    },
+    "strings": {
+      "type": "object",
+      "properties": {
+        "ui.title": {
+          "type": "string"
+        },
+        "ui.new": {
+          "type": "string"
+        },
+        "ui.continue": {
+          "type": "string"
+        },
+        "ui.free": {
+          "type": "string"
+        },
+        "ui.settings": {
+          "type": "string"
+        },
+        "ui.quit": {
+          "type": "string"
+        },
+        "ui.resume": {
+          "type": "string"
+        },
+        "ui.endTurn": {
+          "type": "string"
+        },
+        "ui.playAgain": {
+          "type": "string"
+        },
+        "ui.next": {
+          "type": "string"
+        },
+        "ui.chapter": {
+          "type": "string"
+        },
+        "ui.contract": {
+          "type": "string"
+        },
+        "ui.player": {
+          "type": "string"
+        },
+        "ui.ai": {
+          "type": "string"
+        },
+        "ui.win": {
+          "type": "string"
+        },
+        "ui.lose": {
+          "type": "string"
+        },
+        "ui.draw": {
+          "type": "string"
+        },
+        "ui.week": {
+          "type": "string"
+        },
+        "ui.coin": {
+          "type": "string"
+        },
+        "ui.score": {
+          "type": "string"
+        },
+        "ui.record": {
+          "type": "string"
+        },
+        "ui.rank": {
+          "type": "string"
+        },
+        "ui.inspect": {
+          "type": "string"
+        },
+        "ui.reaction": {
+          "type": "string"
+        },
+        "ui.accept": {
+          "type": "string"
+        },
+        "ui.counter": {
+          "type": "string"
+        },
+        "ui.ap": {
+          "type": "string"
+        },
+        "ui.fast": {
+          "type": "string"
+        },
+        "ui.autopause": {
+          "type": "string"
+        },
+        "ui.sound": {
+          "type": "string"
+        },
+        "ui.music": {
+          "type": "string"
+        },
+        "ui.master": {
+          "type": "string"
+        },
+        "ui.tutorial": {
+          "type": "string"
+        },
+        "ui.language": {
+          "type": "string"
+        },
+        "ui.language.zh": {
+          "type": "string"
+        },
+        "ui.help": {
+          "type": "string"
+        },
+        "ui.skip": {
+          "type": "string"
+        },
+        "ui.replayStory": {
+          "type": "string"
+        },
+        "ui.recruit": {
+          "type": "string"
+        },
+        "ui.chooseContract": {
+          "type": "string"
+        },
+        "ui.use": {
+          "type": "string"
+        },
+        "ui.edit": {
+          "type": "string"
+        },
+        "ui.stallName": {
+          "type": "string"
+        },
+        "ui.cancel": {
+          "type": "string"
+        },
+        "ui.confirm": {
+          "type": "string"
+        },
+        "ui.sell": {
+          "type": "string"
+        },
+        "ui.buy": {
+          "type": "string"
+        },
+        "ui.move": {
+          "type": "string"
+        },
+        "ui.mode": {
+          "type": "string"
+        },
+        "ui.stock": {
+          "type": "string"
+        },
+        "ui.guests": {
+          "type": "string"
+        },
+        "ui.ready": {
+          "type": "string"
+        },
+        "ui.notReady": {
+          "type": "string"
+        },
+        "ui.power": {
+          "type": "string"
+        },
+        "ui.noise": {
+          "type": "string"
+        },
+        "ui.log": {
+          "type": "string"
+        },
+        "ui.viewCard": {
+          "type": "string"
+        },
+        "ui.save": {
+          "type": "string"
+        },
+        "ui.saved": {
+          "type": "string"
+        },
+        "ui.loading": {
+          "type": "string"
+        },
+        "ui.cleanExit": {
+          "type": "string"
+        },
+        "ui.deleteConfirm": {
+          "type": "string"
+        },
+        "ui.resetConfirm": {
+          "type": "string"
+        },
+        "ui.reduceMotion": {
+          "type": "string"
+        },
+        "ui.textScale": {
+          "type": "string"
+        },
+        "ui.remap": {
+          "type": "string"
+        },
+        "ui.turnConfirm": {
+          "type": "string"
+        },
+        "ui.tags": {
+          "type": "string"
+        },
+        "ui.roundLimit": {
+          "type": "string"
+        },
+        "ui.deadline": {
+          "type": "string"
+        },
+        "ui.seed": {
+          "type": "string"
+        },
+        "ui.seedReplay": {
+          "type": "string"
+        },
+        "ui.saveUnavailable": {
+          "type": "string"
+        },
+        "ui.resultReason": {
+          "type": "string"
+        },
+        "ui.credits": {
+          "type": "string"
+        },
+        "ui.returnTitle": {
+          "type": "string"
+        },
+        "ui.nomoreCards": {
+          "type": "string"
+        },
+        "ui.openCheck": {
+          "type": "string"
+        },
+        "ui.moveHint": {
+          "type": "string"
+        },
+        "ui.departmentHint": {
+          "type": "string"
+        },
+        "ui.counterHint": {
+          "type": "string"
+        },
+        "ui.missing": {
+          "type": "string"
+        },
+        "ui.facilitySellConfirm": {
+          "type": "string"
+        },
+        "ui.inspectionWarning": {
+          "type": "string"
+        },
+        "ui.aiThinking": {
+          "type": "string"
+        },
+        "ui.inputWaiting": {
+          "type": "string"
+        },
+        "ui.autoSave": {
+          "type": "string"
+        },
+        "ui.lowFlash": {
+          "type": "string"
+        },
+        "ui.pause": {
+          "type": "string"
+        },
+        "ui.exitIn": {
+          "type": "string"
+        },
+        "ui.noCurrentGame": {
+          "type": "string"
+        },
+        "ui.contentMismatch": {
+          "type": "string"
+        },
+        "ui.settingsSaved": {
+          "type": "string"
+        },
+        "ui.readable": {
+          "type": "string"
+        },
+        "ui.storyFinish": {
+          "type": "string"
+        },
+        "ui.noVoice": {
+          "type": "string"
+        },
+        "ui.affected": {
+          "type": "string"
+        },
+        "reason.0": {
+          "type": "string"
+        },
+        "reason.1": {
+          "type": "string"
+        },
+        "reason.2": {
+          "type": "string"
+        },
+        "reason.3": {
+          "type": "string"
+        },
+        "reason.4": {
+          "type": "string"
+        },
+        "reason.5": {
+          "type": "string"
+        },
+        "reason.6": {
+          "type": "string"
+        },
+        "reason.7": {
+          "type": "string"
+        },
+        "reason.8": {
+          "type": "string"
+        },
+        "reason.9": {
+          "type": "string"
+        },
+        "reason.noAP": {
+          "type": "string"
+        },
+        "reason.noCoins": {
+          "type": "string"
+        },
+        "reason.slot": {
+          "type": "string"
+        },
+        "reason.sold": {
+          "type": "string"
+        },
+        "reason.badCommand": {
+          "type": "string"
+        },
+        "reason.fullHand": {
+          "type": "string"
+        },
+        "reason.noPower": {
+          "type": "string"
+        },
+        "reason.sameMode": {
+          "type": "string"
+        },
+        "reason.invalidName": {
+          "type": "string"
+        },
+        "error.saveCorrupt": {
+          "type": "string"
+        },
+        "error.saveNewer": {
+          "type": "string"
+        },
+        "error.asset": {
+          "type": "string"
+        },
+        "error.binding": {
+          "type": "string"
+        },
+        "error.seed": {
+          "type": "string"
+        },
+        "error.io": {
+          "type": "string"
+        },
+        "error.noBackup": {
+          "type": "string"
+        },
+        "tuto.welcome": {
+          "type": "string"
+        },
+        "tuto.goal": {
+          "type": "string"
+        },
+        "tuto.worker": {
+          "type": "string"
+        },
+        "tuto.lock": {
+          "type": "string"
+        },
+        "tuto.work": {
+          "type": "string"
+        },
+        "tuto.block": {
+          "type": "string"
+        },
+        "tuto.repair": {
+          "type": "string"
+        },
+        "tuto.facility": {
+          "type": "string"
+        },
+        "tuto.power": {
+          "type": "string"
+        },
+        "tuto.sell": {
+          "type": "string"
+        },
+        "tuto.guests": {
+          "type": "string"
+        },
+        "tuto.counter": {
+          "type": "string"
+        },
+        "tuto.end": {
+          "type": "string"
+        },
+        "tuto.finish": {
+          "type": "string"
+        },
+        "role.call": {
+          "type": "string"
+        },
+        "role.cook": {
+          "type": "string"
+        },
+        "role.stock": {
+          "type": "string"
+        },
+        "role.dress": {
+          "type": "string"
+        },
+        "role.ward": {
+          "type": "string"
+        },
+        "card.C001.name": {
+          "type": "string"
+        },
+        "card.C001.description": {
+          "type": "string"
+        },
+        "card.C001.quote": {
+          "type": "string"
+        },
+        "card.C002.name": {
+          "type": "string"
+        },
+        "card.C002.description": {
+          "type": "string"
+        },
+        "card.C002.quote": {
+          "type": "string"
+        },
+        "card.C003.name": {
+          "type": "string"
+        },
+        "card.C003.description": {
+          "type": "string"
+        },
+        "card.C003.quote": {
+          "type": "string"
+        },
+        "card.C004.name": {
+          "type": "string"
+        },
+        "card.C004.description": {
+          "type": "string"
+        },
+        "card.C004.quote": {
+          "type": "string"
+        },
+        "card.C005.name": {
+          "type": "string"
+        },
+        "card.C005.description": {
+          "type": "string"
+        },
+        "card.C005.quote": {
+          "type": "string"
+        },
+        "card.C006.name": {
+          "type": "string"
+        },
+        "card.C006.description": {
+          "type": "string"
+        },
+        "card.C006.quote": {
+          "type": "string"
+        },
+        "card.C007.name": {
+          "type": "string"
+        },
+        "card.C007.description": {
+          "type": "string"
+        },
+        "card.C007.quote": {
+          "type": "string"
+        },
+        "card.C008.name": {
+          "type": "string"
+        },
+        "card.C008.description": {
+          "type": "string"
+        },
+        "card.C008.quote": {
+          "type": "string"
+        },
+        "card.C009.name": {
+          "type": "string"
+        },
+        "card.C009.description": {
+          "type": "string"
+        },
+        "card.C009.quote": {
+          "type": "string"
+        },
+        "card.C010.name": {
+          "type": "string"
+        },
+        "card.C010.description": {
+          "type": "string"
+        },
+        "card.C010.quote": {
+          "type": "string"
+        },
+        "card.C011.name": {
+          "type": "string"
+        },
+        "card.C011.description": {
+          "type": "string"
+        },
+        "card.C011.quote": {
+          "type": "string"
+        },
+        "card.C012.name": {
+          "type": "string"
+        },
+        "card.C012.description": {
+          "type": "string"
+        },
+        "card.C012.quote": {
+          "type": "string"
+        },
+        "card.C013.name": {
+          "type": "string"
+        },
+        "card.C013.description": {
+          "type": "string"
+        },
+        "card.C013.quote": {
+          "type": "string"
+        },
+        "card.C014.name": {
+          "type": "string"
+        },
+        "card.C014.description": {
+          "type": "string"
+        },
+        "card.C014.quote": {
+          "type": "string"
+        },
+        "card.C015.name": {
+          "type": "string"
+        },
+        "card.C015.description": {
+          "type": "string"
+        },
+        "card.C015.quote": {
+          "type": "string"
+        },
+        "card.C016.name": {
+          "type": "string"
+        },
+        "card.C016.description": {
+          "type": "string"
+        },
+        "card.C016.quote": {
+          "type": "string"
+        },
+        "card.C017.name": {
+          "type": "string"
+        },
+        "card.C017.description": {
+          "type": "string"
+        },
+        "card.C017.quote": {
+          "type": "string"
+        },
+        "card.C018.name": {
+          "type": "string"
+        },
+        "card.C018.description": {
+          "type": "string"
+        },
+        "card.C018.quote": {
+          "type": "string"
+        },
+        "card.C019.name": {
+          "type": "string"
+        },
+        "card.C019.description": {
+          "type": "string"
+        },
+        "card.C019.quote": {
+          "type": "string"
+        },
+        "card.C020.name": {
+          "type": "string"
+        },
+        "card.C020.description": {
+          "type": "string"
+        },
+        "card.C020.quote": {
+          "type": "string"
+        },
+        "card.C021.name": {
+          "type": "string"
+        },
+        "card.C021.description": {
+          "type": "string"
+        },
+        "card.C021.quote": {
+          "type": "string"
+        },
+        "card.C022.name": {
+          "type": "string"
+        },
+        "card.C022.description": {
+          "type": "string"
+        },
+        "card.C022.quote": {
+          "type": "string"
+        },
+        "card.C023.name": {
+          "type": "string"
+        },
+        "card.C023.description": {
+          "type": "string"
+        },
+        "card.C023.quote": {
+          "type": "string"
+        },
+        "card.C024.name": {
+          "type": "string"
+        },
+        "card.C024.description": {
+          "type": "string"
+        },
+        "card.C024.quote": {
+          "type": "string"
+        },
+        "card.C025.name": {
+          "type": "string"
+        },
+        "card.C025.description": {
+          "type": "string"
+        },
+        "card.C025.quote": {
+          "type": "string"
+        },
+        "card.C026.name": {
+          "type": "string"
+        },
+        "card.C026.description": {
+          "type": "string"
+        },
+        "card.C026.quote": {
+          "type": "string"
+        },
+        "card.C027.name": {
+          "type": "string"
+        },
+        "card.C027.description": {
+          "type": "string"
+        },
+        "card.C027.quote": {
+          "type": "string"
+        },
+        "card.C028.name": {
+          "type": "string"
+        },
+        "card.C028.description": {
+          "type": "string"
+        },
+        "card.C028.quote": {
+          "type": "string"
+        },
+        "card.C029.name": {
+          "type": "string"
+        },
+        "card.C029.description": {
+          "type": "string"
+        },
+        "card.C029.quote": {
+          "type": "string"
+        },
+        "card.C030.name": {
+          "type": "string"
+        },
+        "card.C030.description": {
+          "type": "string"
+        },
+        "card.C030.quote": {
+          "type": "string"
+        },
+        "card.C031.name": {
+          "type": "string"
+        },
+        "card.C031.description": {
+          "type": "string"
+        },
+        "card.C031.quote": {
+          "type": "string"
+        },
+        "card.C032.name": {
+          "type": "string"
+        },
+        "card.C032.description": {
+          "type": "string"
+        },
+        "card.C032.quote": {
+          "type": "string"
+        },
+        "card.C033.name": {
+          "type": "string"
+        },
+        "card.C033.description": {
+          "type": "string"
+        },
+        "card.C033.quote": {
+          "type": "string"
+        },
+        "card.C034.name": {
+          "type": "string"
+        },
+        "card.C034.description": {
+          "type": "string"
+        },
+        "card.C034.quote": {
+          "type": "string"
+        },
+        "card.C035.name": {
+          "type": "string"
+        },
+        "card.C035.description": {
+          "type": "string"
+        },
+        "card.C035.quote": {
+          "type": "string"
+        },
+        "card.C036.name": {
+          "type": "string"
+        },
+        "card.C036.description": {
+          "type": "string"
+        },
+        "card.C036.quote": {
+          "type": "string"
+        },
+        "card.C037.name": {
+          "type": "string"
+        },
+        "card.C037.description": {
+          "type": "string"
+        },
+        "card.C037.quote": {
+          "type": "string"
+        },
+        "card.C038.name": {
+          "type": "string"
+        },
+        "card.C038.description": {
+          "type": "string"
+        },
+        "card.C038.quote": {
+          "type": "string"
+        },
+        "card.C039.name": {
+          "type": "string"
+        },
+        "card.C039.description": {
+          "type": "string"
+        },
+        "card.C039.quote": {
+          "type": "string"
+        },
+        "card.C040.name": {
+          "type": "string"
+        },
+        "card.C040.description": {
+          "type": "string"
+        },
+        "card.C040.quote": {
+          "type": "string"
+        },
+        "card.C041.name": {
+          "type": "string"
+        },
+        "card.C041.description": {
+          "type": "string"
+        },
+        "card.C041.quote": {
+          "type": "string"
+        },
+        "card.C042.name": {
+          "type": "string"
+        },
+        "card.C042.description": {
+          "type": "string"
+        },
+        "card.C042.quote": {
+          "type": "string"
+        },
+        "card.C043.name": {
+          "type": "string"
+        },
+        "card.C043.description": {
+          "type": "string"
+        },
+        "card.C043.quote": {
+          "type": "string"
+        },
+        "card.C044.name": {
+          "type": "string"
+        },
+        "card.C044.description": {
+          "type": "string"
+        },
+        "card.C044.quote": {
+          "type": "string"
+        },
+        "card.C045.name": {
+          "type": "string"
+        },
+        "card.C045.description": {
+          "type": "string"
+        },
+        "card.C045.quote": {
+          "type": "string"
+        },
+        "card.C046.name": {
+          "type": "string"
+        },
+        "card.C046.description": {
+          "type": "string"
+        },
+        "card.C046.quote": {
+          "type": "string"
+        },
+        "card.C047.name": {
+          "type": "string"
+        },
+        "card.C047.description": {
+          "type": "string"
+        },
+        "card.C047.quote": {
+          "type": "string"
+        },
+        "card.C048.name": {
+          "type": "string"
+        },
+        "card.C048.description": {
+          "type": "string"
+        },
+        "card.C048.quote": {
+          "type": "string"
+        },
+        "card.C049.name": {
+          "type": "string"
+        },
+        "card.C049.description": {
+          "type": "string"
+        },
+        "card.C049.quote": {
+          "type": "string"
+        },
+        "card.C050.name": {
+          "type": "string"
+        },
+        "card.C050.description": {
+          "type": "string"
+        },
+        "card.C050.quote": {
+          "type": "string"
+        },
+        "card.C051.name": {
+          "type": "string"
+        },
+        "card.C051.description": {
+          "type": "string"
+        },
+        "card.C051.quote": {
+          "type": "string"
+        },
+        "card.C052.name": {
+          "type": "string"
+        },
+        "card.C052.description": {
+          "type": "string"
+        },
+        "card.C052.quote": {
+          "type": "string"
+        },
+        "card.C053.name": {
+          "type": "string"
+        },
+        "card.C053.description": {
+          "type": "string"
+        },
+        "card.C053.quote": {
+          "type": "string"
+        },
+        "card.C054.name": {
+          "type": "string"
+        },
+        "card.C054.description": {
+          "type": "string"
+        },
+        "card.C054.quote": {
+          "type": "string"
+        },
+        "card.C055.name": {
+          "type": "string"
+        },
+        "card.C055.description": {
+          "type": "string"
+        },
+        "card.C055.quote": {
+          "type": "string"
+        },
+        "card.C056.name": {
+          "type": "string"
+        },
+        "card.C056.description": {
+          "type": "string"
+        },
+        "card.C056.quote": {
+          "type": "string"
+        },
+        "card.C057.name": {
+          "type": "string"
+        },
+        "card.C057.description": {
+          "type": "string"
+        },
+        "card.C057.quote": {
+          "type": "string"
+        },
+        "card.C058.name": {
+          "type": "string"
+        },
+        "card.C058.description": {
+          "type": "string"
+        },
+        "card.C058.quote": {
+          "type": "string"
+        },
+        "card.C059.name": {
+          "type": "string"
+        },
+        "card.C059.description": {
+          "type": "string"
+        },
+        "card.C059.quote": {
+          "type": "string"
+        },
+        "card.C060.name": {
+          "type": "string"
+        },
+        "card.C060.description": {
+          "type": "string"
+        },
+        "card.C060.quote": {
+          "type": "string"
+        },
+        "card.C061.name": {
+          "type": "string"
+        },
+        "card.C061.description": {
+          "type": "string"
+        },
+        "card.C061.quote": {
+          "type": "string"
+        },
+        "card.C062.name": {
+          "type": "string"
+        },
+        "card.C062.description": {
+          "type": "string"
+        },
+        "card.C062.quote": {
+          "type": "string"
+        },
+        "card.C063.name": {
+          "type": "string"
+        },
+        "card.C063.description": {
+          "type": "string"
+        },
+        "card.C063.quote": {
+          "type": "string"
+        },
+        "card.C064.name": {
+          "type": "string"
+        },
+        "card.C064.description": {
+          "type": "string"
+        },
+        "card.C064.quote": {
+          "type": "string"
+        },
+        "card.C065.name": {
+          "type": "string"
+        },
+        "card.C065.description": {
+          "type": "string"
+        },
+        "card.C065.quote": {
+          "type": "string"
+        },
+        "card.C066.name": {
+          "type": "string"
+        },
+        "card.C066.description": {
+          "type": "string"
+        },
+        "card.C066.quote": {
+          "type": "string"
+        },
+        "card.C067.name": {
+          "type": "string"
+        },
+        "card.C067.description": {
+          "type": "string"
+        },
+        "card.C067.quote": {
+          "type": "string"
+        },
+        "card.C068.name": {
+          "type": "string"
+        },
+        "card.C068.description": {
+          "type": "string"
+        },
+        "card.C068.quote": {
+          "type": "string"
+        },
+        "card.C069.name": {
+          "type": "string"
+        },
+        "card.C069.description": {
+          "type": "string"
+        },
+        "card.C069.quote": {
+          "type": "string"
+        },
+        "card.C070.name": {
+          "type": "string"
+        },
+        "card.C070.description": {
+          "type": "string"
+        },
+        "card.C070.quote": {
+          "type": "string"
+        },
+        "card.C071.name": {
+          "type": "string"
+        },
+        "card.C071.description": {
+          "type": "string"
+        },
+        "card.C071.quote": {
+          "type": "string"
+        },
+        "card.C072.name": {
+          "type": "string"
+        },
+        "card.C072.description": {
+          "type": "string"
+        },
+        "card.C072.quote": {
+          "type": "string"
+        },
+        "card.C073.name": {
+          "type": "string"
+        },
+        "card.C073.description": {
+          "type": "string"
+        },
+        "card.C073.quote": {
+          "type": "string"
+        },
+        "card.C074.name": {
+          "type": "string"
+        },
+        "card.C074.description": {
+          "type": "string"
+        },
+        "card.C074.quote": {
+          "type": "string"
+        },
+        "card.C075.name": {
+          "type": "string"
+        },
+        "card.C075.description": {
+          "type": "string"
+        },
+        "card.C075.quote": {
+          "type": "string"
+        },
+        "card.C076.name": {
+          "type": "string"
+        },
+        "card.C076.description": {
+          "type": "string"
+        },
+        "card.C076.quote": {
+          "type": "string"
+        },
+        "card.C077.name": {
+          "type": "string"
+        },
+        "card.C077.description": {
+          "type": "string"
+        },
+        "card.C077.quote": {
+          "type": "string"
+        },
+        "card.C078.name": {
+          "type": "string"
+        },
+        "card.C078.description": {
+          "type": "string"
+        },
+        "card.C078.quote": {
+          "type": "string"
+        },
+        "card.C079.name": {
+          "type": "string"
+        },
+        "card.C079.description": {
+          "type": "string"
+        },
+        "card.C079.quote": {
+          "type": "string"
+        },
+        "card.C080.name": {
+          "type": "string"
+        },
+        "card.C080.description": {
+          "type": "string"
+        },
+        "card.C080.quote": {
+          "type": "string"
+        },
+        "card.C081.name": {
+          "type": "string"
+        },
+        "card.C081.description": {
+          "type": "string"
+        },
+        "card.C081.quote": {
+          "type": "string"
+        },
+        "card.C082.name": {
+          "type": "string"
+        },
+        "card.C082.description": {
+          "type": "string"
+        },
+        "card.C082.quote": {
+          "type": "string"
+        },
+        "card.C083.name": {
+          "type": "string"
+        },
+        "card.C083.description": {
+          "type": "string"
+        },
+        "card.C083.quote": {
+          "type": "string"
+        },
+        "card.C084.name": {
+          "type": "string"
+        },
+        "card.C084.description": {
+          "type": "string"
+        },
+        "card.C084.quote": {
+          "type": "string"
+        },
+        "card.C085.name": {
+          "type": "string"
+        },
+        "card.C085.description": {
+          "type": "string"
+        },
+        "card.C085.quote": {
+          "type": "string"
+        },
+        "card.C086.name": {
+          "type": "string"
+        },
+        "card.C086.description": {
+          "type": "string"
+        },
+        "card.C086.quote": {
+          "type": "string"
+        },
+        "card.C087.name": {
+          "type": "string"
+        },
+        "card.C087.description": {
+          "type": "string"
+        },
+        "card.C087.quote": {
+          "type": "string"
+        },
+        "card.C088.name": {
+          "type": "string"
+        },
+        "card.C088.description": {
+          "type": "string"
+        },
+        "card.C088.quote": {
+          "type": "string"
+        },
+        "card.C089.name": {
+          "type": "string"
+        },
+        "card.C089.description": {
+          "type": "string"
+        },
+        "card.C089.quote": {
+          "type": "string"
+        },
+        "card.C090.name": {
+          "type": "string"
+        },
+        "card.C090.description": {
+          "type": "string"
+        },
+        "card.C090.quote": {
+          "type": "string"
+        },
+        "card.C091.name": {
+          "type": "string"
+        },
+        "card.C091.description": {
+          "type": "string"
+        },
+        "card.C091.quote": {
+          "type": "string"
+        },
+        "card.C092.name": {
+          "type": "string"
+        },
+        "card.C092.description": {
+          "type": "string"
+        },
+        "card.C092.quote": {
+          "type": "string"
+        },
+        "card.C093.name": {
+          "type": "string"
+        },
+        "card.C093.description": {
+          "type": "string"
+        },
+        "card.C093.quote": {
+          "type": "string"
+        },
+        "card.C094.name": {
+          "type": "string"
+        },
+        "card.C094.description": {
+          "type": "string"
+        },
+        "card.C094.quote": {
+          "type": "string"
+        },
+        "card.C095.name": {
+          "type": "string"
+        },
+        "card.C095.description": {
+          "type": "string"
+        },
+        "card.C095.quote": {
+          "type": "string"
+        },
+        "contract.N01.name": {
+          "type": "string"
+        },
+        "contract.N01.subtitle": {
+          "type": "string"
+        },
+        "contract.N01.openingLine": {
+          "type": "string"
+        },
+        "contract.N01.successLine": {
+          "type": "string"
+        },
+        "contract.N01.failureLine": {
+          "type": "string"
+        },
+        "contract.N02.name": {
+          "type": "string"
+        },
+        "contract.N02.subtitle": {
+          "type": "string"
+        },
+        "contract.N02.openingLine": {
+          "type": "string"
+        },
+        "contract.N02.successLine": {
+          "type": "string"
+        },
+        "contract.N02.failureLine": {
+          "type": "string"
+        },
+        "contract.N03.name": {
+          "type": "string"
+        },
+        "contract.N03.subtitle": {
+          "type": "string"
+        },
+        "contract.N03.openingLine": {
+          "type": "string"
+        },
+        "contract.N03.successLine": {
+          "type": "string"
+        },
+        "contract.N03.failureLine": {
+          "type": "string"
+        },
+        "contract.N04.name": {
+          "type": "string"
+        },
+        "contract.N04.subtitle": {
+          "type": "string"
+        },
+        "contract.N04.openingLine": {
+          "type": "string"
+        },
+        "contract.N04.successLine": {
+          "type": "string"
+        },
+        "contract.N04.failureLine": {
+          "type": "string"
+        },
+        "contract.N05.name": {
+          "type": "string"
+        },
+        "contract.N05.subtitle": {
+          "type": "string"
+        },
+        "contract.N05.openingLine": {
+          "type": "string"
+        },
+        "contract.N05.successLine": {
+          "type": "string"
+        },
+        "contract.N05.failureLine": {
+          "type": "string"
+        },
+        "contract.N06.name": {
+          "type": "string"
+        },
+        "contract.N06.subtitle": {
+          "type": "string"
+        },
+        "contract.N06.openingLine": {
+          "type": "string"
+        },
+        "contract.N06.successLine": {
+          "type": "string"
+        },
+        "contract.N06.failureLine": {
+          "type": "string"
+        },
+        "contract.N07.name": {
+          "type": "string"
+        },
+        "contract.N07.subtitle": {
+          "type": "string"
+        },
+        "contract.N07.openingLine": {
+          "type": "string"
+        },
+        "contract.N07.successLine": {
+          "type": "string"
+        },
+        "contract.N07.failureLine": {
+          "type": "string"
+        },
+        "contract.N08.name": {
+          "type": "string"
+        },
+        "contract.N08.subtitle": {
+          "type": "string"
+        },
+        "contract.N08.openingLine": {
+          "type": "string"
+        },
+        "contract.N08.successLine": {
+          "type": "string"
+        },
+        "contract.N08.failureLine": {
+          "type": "string"
+        },
+        "contract.N09.name": {
+          "type": "string"
+        },
+        "contract.N09.subtitle": {
+          "type": "string"
+        },
+        "contract.N09.openingLine": {
+          "type": "string"
+        },
+        "contract.N09.successLine": {
+          "type": "string"
+        },
+        "contract.N09.failureLine": {
+          "type": "string"
+        },
+        "contract.N10.name": {
+          "type": "string"
+        },
+        "contract.N10.subtitle": {
+          "type": "string"
+        },
+        "contract.N10.openingLine": {
+          "type": "string"
+        },
+        "contract.N10.successLine": {
+          "type": "string"
+        },
+        "contract.N10.failureLine": {
+          "type": "string"
+        },
+        "contract.N11.name": {
+          "type": "string"
+        },
+        "contract.N11.subtitle": {
+          "type": "string"
+        },
+        "contract.N11.openingLine": {
+          "type": "string"
+        },
+        "contract.N11.successLine": {
+          "type": "string"
+        },
+        "contract.N11.failureLine": {
+          "type": "string"
+        },
+        "contract.N12.name": {
+          "type": "string"
+        },
+        "contract.N12.subtitle": {
+          "type": "string"
+        },
+        "contract.N12.openingLine": {
+          "type": "string"
+        },
+        "contract.N12.successLine": {
+          "type": "string"
+        },
+        "contract.N12.failureLine": {
+          "type": "string"
+        },
+        "contract.N13.name": {
+          "type": "string"
+        },
+        "contract.N13.subtitle": {
+          "type": "string"
+        },
+        "contract.N13.openingLine": {
+          "type": "string"
+        },
+        "contract.N13.successLine": {
+          "type": "string"
+        },
+        "contract.N13.failureLine": {
+          "type": "string"
+        },
+        "contract.N14.name": {
+          "type": "string"
+        },
+        "contract.N14.subtitle": {
+          "type": "string"
+        },
+        "contract.N14.openingLine": {
+          "type": "string"
+        },
+        "contract.N14.successLine": {
+          "type": "string"
+        },
+        "contract.N14.failureLine": {
+          "type": "string"
+        },
+        "contract.N15.name": {
+          "type": "string"
+        },
+        "contract.N15.subtitle": {
+          "type": "string"
+        },
+        "contract.N15.openingLine": {
+          "type": "string"
+        },
+        "contract.N15.successLine": {
+          "type": "string"
+        },
+        "contract.N15.failureLine": {
+          "type": "string"
+        },
+        "contract.N16.name": {
+          "type": "string"
+        },
+        "contract.N16.subtitle": {
+          "type": "string"
+        },
+        "contract.N16.openingLine": {
+          "type": "string"
+        },
+        "contract.N16.successLine": {
+          "type": "string"
+        },
+        "contract.N16.failureLine": {
+          "type": "string"
+        },
+        "contract.N17.name": {
+          "type": "string"
+        },
+        "contract.N17.subtitle": {
+          "type": "string"
+        },
+        "contract.N17.openingLine": {
+          "type": "string"
+        },
+        "contract.N17.successLine": {
+          "type": "string"
+        },
+        "contract.N17.failureLine": {
+          "type": "string"
+        },
+        "contract.N18.name": {
+          "type": "string"
+        },
+        "contract.N18.subtitle": {
+          "type": "string"
+        },
+        "contract.N18.openingLine": {
+          "type": "string"
+        },
+        "contract.N18.successLine": {
+          "type": "string"
+        },
+        "contract.N18.failureLine": {
+          "type": "string"
+        },
+        "contract.N19.name": {
+          "type": "string"
+        },
+        "contract.N19.subtitle": {
+          "type": "string"
+        },
+        "contract.N19.openingLine": {
+          "type": "string"
+        },
+        "contract.N19.successLine": {
+          "type": "string"
+        },
+        "contract.N19.failureLine": {
+          "type": "string"
+        },
+        "contract.N20.name": {
+          "type": "string"
+        },
+        "contract.N20.subtitle": {
+          "type": "string"
+        },
+        "contract.N20.openingLine": {
+          "type": "string"
+        },
+        "contract.N20.successLine": {
+          "type": "string"
+        },
+        "contract.N20.failureLine": {
+          "type": "string"
+        },
+        "contract.N21.name": {
+          "type": "string"
+        },
+        "contract.N21.subtitle": {
+          "type": "string"
+        },
+        "contract.N21.openingLine": {
+          "type": "string"
+        },
+        "contract.N21.successLine": {
+          "type": "string"
+        },
+        "contract.N21.failureLine": {
+          "type": "string"
+        },
+        "contract.N22.name": {
+          "type": "string"
+        },
+        "contract.N22.subtitle": {
+          "type": "string"
+        },
+        "contract.N22.openingLine": {
+          "type": "string"
+        },
+        "contract.N22.successLine": {
+          "type": "string"
+        },
+        "contract.N22.failureLine": {
+          "type": "string"
+        },
+        "contract.N23.name": {
+          "type": "string"
+        },
+        "contract.N23.subtitle": {
+          "type": "string"
+        },
+        "contract.N23.openingLine": {
+          "type": "string"
+        },
+        "contract.N23.successLine": {
+          "type": "string"
+        },
+        "contract.N23.failureLine": {
+          "type": "string"
+        },
+        "contract.N24.name": {
+          "type": "string"
+        },
+        "contract.N24.subtitle": {
+          "type": "string"
+        },
+        "contract.N24.openingLine": {
+          "type": "string"
+        },
+        "contract.N24.successLine": {
+          "type": "string"
+        },
+        "contract.N24.failureLine": {
+          "type": "string"
+        },
+        "contract.N25.name": {
+          "type": "string"
+        },
+        "contract.N25.subtitle": {
+          "type": "string"
+        },
+        "contract.N25.openingLine": {
+          "type": "string"
+        },
+        "contract.N25.successLine": {
+          "type": "string"
+        },
+        "contract.N25.failureLine": {
+          "type": "string"
+        },
+        "contract.N26.name": {
+          "type": "string"
+        },
+        "contract.N26.subtitle": {
+          "type": "string"
+        },
+        "contract.N26.openingLine": {
+          "type": "string"
+        },
+        "contract.N26.successLine": {
+          "type": "string"
+        },
+        "contract.N26.failureLine": {
+          "type": "string"
+        },
+        "contract.N27.name": {
+          "type": "string"
+        },
+        "contract.N27.subtitle": {
+          "type": "string"
+        },
+        "contract.N27.openingLine": {
+          "type": "string"
+        },
+        "contract.N27.successLine": {
+          "type": "string"
+        },
+        "contract.N27.failureLine": {
+          "type": "string"
+        },
+        "contract.N28.name": {
+          "type": "string"
+        },
+        "contract.N28.subtitle": {
+          "type": "string"
+        },
+        "contract.N28.openingLine": {
+          "type": "string"
+        },
+        "contract.N28.successLine": {
+          "type": "string"
+        },
+        "contract.N28.failureLine": {
+          "type": "string"
+        },
+        "facility.F01.name": {
+          "type": "string"
+        },
+        "facility.F01.cook": {
+          "type": "string"
+        },
+        "facility.F01.heat": {
+          "type": "string"
+        },
+        "facility.F02.name": {
+          "type": "string"
+        },
+        "facility.F02.light": {
+          "type": "string"
+        },
+        "facility.F02.guide": {
+          "type": "string"
+        },
+        "facility.F03.name": {
+          "type": "string"
+        },
+        "facility.F03.pump": {
+          "type": "string"
+        },
+        "facility.F03.dry": {
+          "type": "string"
+        },
+        "facility.F04.name": {
+          "type": "string"
+        },
+        "facility.F04.play": {
+          "type": "string"
+        },
+        "facility.F04.closed": {
+          "type": "string"
+        },
+        "facility.F05.name": {
+          "type": "string"
+        },
+        "facility.F05.both": {
+          "type": "string"
+        },
+        "facility.F05.left": {
+          "type": "string"
+        },
+        "facility.F06.name": {
+          "type": "string"
+        },
+        "facility.F06.shade": {
+          "type": "string"
+        },
+        "facility.F06.quiet": {
+          "type": "string"
+        },
+        "facility.F07.name": {
+          "type": "string"
+        },
+        "facility.F07.ward": {
+          "type": "string"
+        },
+        "facility.F07.warm": {
+          "type": "string"
+        },
+        "facility.F08.name": {
+          "type": "string"
+        },
+        "facility.F08.food": {
+          "type": "string"
+        },
+        "facility.F08.shade": {
+          "type": "string"
+        },
+        "facility.F09.name": {
+          "type": "string"
+        },
+        "facility.F09.cold": {
+          "type": "string"
+        },
+        "facility.F09.sealed": {
+          "type": "string"
+        },
+        "facility.F10.name": {
+          "type": "string"
+        },
+        "facility.F10.music": {
+          "type": "string"
+        },
+        "facility.F10.light": {
+          "type": "string"
+        },
+        "facility.F11.name": {
+          "type": "string"
+        },
+        "facility.F11.warm": {
+          "type": "string"
+        },
+        "facility.F11.ward": {
+          "type": "string"
+        },
+        "facility.F12.name": {
+          "type": "string"
+        },
+        "facility.F12.quiet": {
+          "type": "string"
+        },
+        "facility.F12.shade": {
+          "type": "string"
+        },
+        "guest.G01.name": {
+          "type": "string"
+        },
+        "guest.G01.request": {
+          "type": "string"
+        },
+        "guest.G02.name": {
+          "type": "string"
+        },
+        "guest.G02.request": {
+          "type": "string"
+        },
+        "guest.G03.name": {
+          "type": "string"
+        },
+        "guest.G03.request": {
+          "type": "string"
+        },
+        "guest.G04.name": {
+          "type": "string"
+        },
+        "guest.G04.request": {
+          "type": "string"
+        },
+        "guest.G05.name": {
+          "type": "string"
+        },
+        "guest.G05.request": {
+          "type": "string"
+        },
+        "chapter.CH1.name": {
+          "type": "string"
+        },
+        "chapter.CH1.intro": {
+          "type": "string"
+        },
+        "chapter.CH1.outro": {
+          "type": "string"
+        },
+        "chapter.CH2.name": {
+          "type": "string"
+        },
+        "chapter.CH2.intro": {
+          "type": "string"
+        },
+        "chapter.CH2.outro": {
+          "type": "string"
+        },
+        "chapter.CH3.name": {
+          "type": "string"
+        },
+        "chapter.CH3.intro": {
+          "type": "string"
+        },
+        "chapter.CH3.outro": {
+          "type": "string"
+        },
+        "chapter.CH4.name": {
+          "type": "string"
+        },
+        "chapter.CH4.intro": {
+          "type": "string"
+        },
+        "chapter.CH4.outro": {
+          "type": "string"
+        },
+        "chapter.CH5.name": {
+          "type": "string"
+        },
+        "chapter.CH5.intro": {
+          "type": "string"
+        },
+        "chapter.CH5.outro": {
+          "type": "string"
+        },
+        "chapter.CH6.name": {
+          "type": "string"
+        },
+        "chapter.CH6.intro": {
+          "type": "string"
+        },
+        "chapter.CH6.outro": {
+          "type": "string"
+        },
+        "chapter.CH7.name": {
+          "type": "string"
+        },
+        "chapter.CH7.intro": {
+          "type": "string"
+        },
+        "chapter.CH7.outro": {
+          "type": "string"
+        },
+        "character.W001.name": {
+          "type": "string"
+        },
+        "character.W002.name": {
+          "type": "string"
+        },
+        "character.W003.name": {
+          "type": "string"
+        },
+        "character.W004.name": {
+          "type": "string"
+        },
+        "character.W005.name": {
+          "type": "string"
+        },
+        "character.W006.name": {
+          "type": "string"
+        },
+        "character.W007.name": {
+          "type": "string"
+        },
+        "character.W008.name": {
+          "type": "string"
+        },
+        "character.W009.name": {
+          "type": "string"
+        },
+        "character.W010.name": {
+          "type": "string"
+        },
+        "character.W011.name": {
+          "type": "string"
+        },
+        "character.W012.name": {
+          "type": "string"
+        },
+        "character.W013.name": {
+          "type": "string"
+        },
+        "character.W014.name": {
+          "type": "string"
+        },
+        "character.W015.name": {
+          "type": "string"
+        },
+        "character.W016.name": {
+          "type": "string"
+        },
+        "character.W017.name": {
+          "type": "string"
+        },
+        "character.W018.name": {
+          "type": "string"
+        },
+        "character.W019.name": {
+          "type": "string"
+        },
+        "character.W020.name": {
+          "type": "string"
+        },
+        "character.W021.name": {
+          "type": "string"
+        },
+        "character.W022.name": {
+          "type": "string"
+        },
+        "character.W023.name": {
+          "type": "string"
+        },
+        "character.W024.name": {
+          "type": "string"
+        },
+        "character.W025.name": {
+          "type": "string"
+        },
+        "character.W026.name": {
+          "type": "string"
+        },
+        "character.W027.name": {
+          "type": "string"
+        },
+        "character.W028.name": {
+          "type": "string"
+        },
+        "character.W029.name": {
+          "type": "string"
+        },
+        "character.W030.name": {
+          "type": "string"
+        },
+        "character.W031.name": {
+          "type": "string"
+        },
+        "character.W032.name": {
+          "type": "string"
+        },
+        "character.W033.name": {
+          "type": "string"
+        },
+        "character.W034.name": {
+          "type": "string"
+        },
+        "character.W035.name": {
+          "type": "string"
+        },
+        "character.W036.name": {
+          "type": "string"
+        },
+        "character.W037.name": {
+          "type": "string"
+        },
+        "character.W038.name": {
+          "type": "string"
+        },
+        "character.W039.name": {
+          "type": "string"
+        },
+        "character.W040.name": {
+          "type": "string"
+        },
+        "character.W041.name": {
+          "type": "string"
+        },
+        "character.W042.name": {
+          "type": "string"
+        },
+        "character.NPC.host.name": {
+          "type": "string"
+        },
+        "character.NPC.guide.name": {
+          "type": "string"
+        },
+        "character.NPC.rival.name": {
+          "type": "string"
+        },
+        "character.NPC.clerk.name": {
+          "type": "string"
+        },
+        "tag.food": {
+          "type": "string"
+        },
+        "tag.light": {
+          "type": "string"
+        },
+        "tag.warmth": {
+          "type": "string"
+        },
+        "tag.music": {
+          "type": "string"
+        },
+        "tag.water": {
+          "type": "string"
+        },
+        "tag.ward": {
+          "type": "string"
+        },
+        "tag.quiet": {
+          "type": "string"
+        },
+        "tag.shade": {
+          "type": "string"
+        },
+        "tag.noise": {
+          "type": "string"
+        },
+        "ui.drawStory": {
+          "type": "string"
+        },
+        "ui.environment": {
+          "type": "string"
+        },
+        "ui.checklist": {
+          "type": "string"
+        },
+        "ui.restoreBackup": {
+          "type": "string"
+        },
+        "ui.keepDamagedNew": {
+          "type": "string"
+        },
+        "ui.retrySave": {
+          "type": "string"
+        },
+        "ui.noSaveExit": {
+          "type": "string"
+        },
+        "ui.saveAndExit": {
+          "type": "string"
+        },
+        "ui.slotA": {
+          "type": "string"
+        },
+        "ui.slotB": {
+          "type": "string"
+        },
+        "error.saveConflict": {
+          "type": "string"
+        },
+        "ui.swapBinding": {
+          "type": "string"
+        },
+        "ui.textReadMore": {
+          "type": "string"
+        },
+        "ui.tagNone": {
+          "type": "string"
+        },
+        "ui.allGuestsReady": {
+          "type": "string"
+        },
+        "ui.openingLocked": {
+          "type": "string"
+        },
+        "ui.resetProgress": {
+          "type": "string"
+        },
+        "ui.saveBusy": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ui.title",
+        "ui.new",
+        "ui.continue",
+        "ui.free",
+        "ui.settings",
+        "ui.quit",
+        "ui.resume",
+        "ui.endTurn",
+        "ui.playAgain",
+        "ui.next",
+        "ui.chapter",
+        "ui.contract",
+        "ui.player",
+        "ui.ai",
+        "ui.win",
+        "ui.lose",
+        "ui.draw",
+        "ui.week",
+        "ui.coin",
+        "ui.score",
+        "ui.record",
+        "ui.rank",
+        "ui.inspect",
+        "ui.reaction",
+        "ui.accept",
+        "ui.counter",
+        "ui.ap",
+        "ui.fast",
+        "ui.autopause",
+        "ui.sound",
+        "ui.music",
+        "ui.master",
+        "ui.tutorial",
+        "ui.language",
+        "ui.language.zh",
+        "ui.help",
+        "ui.skip",
+        "ui.replayStory",
+        "ui.recruit",
+        "ui.chooseContract",
+        "ui.use",
+        "ui.edit",
+        "ui.stallName",
+        "ui.cancel",
+        "ui.confirm",
+        "ui.sell",
+        "ui.buy",
+        "ui.move",
+        "ui.mode",
+        "ui.stock",
+        "ui.guests",
+        "ui.ready",
+        "ui.notReady",
+        "ui.power",
+        "ui.noise",
+        "ui.log",
+        "ui.viewCard",
+        "ui.save",
+        "ui.saved",
+        "ui.loading",
+        "ui.cleanExit",
+        "ui.deleteConfirm",
+        "ui.resetConfirm",
+        "ui.reduceMotion",
+        "ui.textScale",
+        "ui.remap",
+        "ui.turnConfirm",
+        "ui.tags",
+        "ui.roundLimit",
+        "ui.deadline",
+        "ui.seed",
+        "ui.seedReplay",
+        "ui.saveUnavailable",
+        "ui.resultReason",
+        "ui.credits",
+        "ui.returnTitle",
+        "ui.nomoreCards",
+        "ui.openCheck",
+        "ui.moveHint",
+        "ui.departmentHint",
+        "ui.counterHint",
+        "ui.missing",
+        "ui.facilitySellConfirm",
+        "ui.inspectionWarning",
+        "ui.aiThinking",
+        "ui.inputWaiting",
+        "ui.autoSave",
+        "ui.lowFlash",
+        "ui.pause",
+        "ui.exitIn",
+        "ui.noCurrentGame",
+        "ui.contentMismatch",
+        "ui.settingsSaved",
+        "ui.readable",
+        "ui.storyFinish",
+        "ui.noVoice",
+        "ui.affected",
+        "reason.0",
+        "reason.1",
+        "reason.2",
+        "reason.3",
+        "reason.4",
+        "reason.5",
+        "reason.6",
+        "reason.7",
+        "reason.8",
+        "reason.9",
+        "reason.noAP",
+        "reason.noCoins",
+        "reason.slot",
+        "reason.sold",
+        "reason.badCommand",
+        "reason.fullHand",
+        "reason.noPower",
+        "reason.sameMode",
+        "reason.invalidName",
+        "error.saveCorrupt",
+        "error.saveNewer",
+        "error.asset",
+        "error.binding",
+        "error.seed",
+        "error.io",
+        "error.noBackup",
+        "tuto.welcome",
+        "tuto.goal",
+        "tuto.worker",
+        "tuto.lock",
+        "tuto.work",
+        "tuto.block",
+        "tuto.repair",
+        "tuto.facility",
+        "tuto.power",
+        "tuto.sell",
+        "tuto.guests",
+        "tuto.counter",
+        "tuto.end",
+        "tuto.finish",
+        "role.call",
+        "role.cook",
+        "role.stock",
+        "role.dress",
+        "role.ward",
+        "card.C001.name",
+        "card.C001.description",
+        "card.C001.quote",
+        "card.C002.name",
+        "card.C002.description",
+        "card.C002.quote",
+        "card.C003.name",
+        "card.C003.description",
+        "card.C003.quote",
+        "card.C004.name",
+        "card.C004.description",
+        "card.C004.quote",
+        "card.C005.name",
+        "card.C005.description",
+        "card.C005.quote",
+        "card.C006.name",
+        "card.C006.description",
+        "card.C006.quote",
+        "card.C007.name",
+        "card.C007.description",
+        "card.C007.quote",
+        "card.C008.name",
+        "card.C008.description",
+        "card.C008.quote",
+        "card.C009.name",
+        "card.C009.description",
+        "card.C009.quote",
+        "card.C010.name",
+        "card.C010.description",
+        "card.C010.quote",
+        "card.C011.name",
+        "card.C011.description",
+        "card.C011.quote",
+        "card.C012.name",
+        "card.C012.description",
+        "card.C012.quote",
+        "card.C013.name",
+        "card.C013.description",
+        "card.C013.quote",
+        "card.C014.name",
+        "card.C014.description",
+        "card.C014.quote",
+        "card.C015.name",
+        "card.C015.description",
+        "card.C015.quote",
+        "card.C016.name",
+        "card.C016.description",
+        "card.C016.quote",
+        "card.C017.name",
+        "card.C017.description",
+        "card.C017.quote",
+        "card.C018.name",
+        "card.C018.description",
+        "card.C018.quote",
+        "card.C019.name",
+        "card.C019.description",
+        "card.C019.quote",
+        "card.C020.name",
+        "card.C020.description",
+        "card.C020.quote",
+        "card.C021.name",
+        "card.C021.description",
+        "card.C021.quote",
+        "card.C022.name",
+        "card.C022.description",
+        "card.C022.quote",
+        "card.C023.name",
+        "card.C023.description",
+        "card.C023.quote",
+        "card.C024.name",
+        "card.C024.description",
+        "card.C024.quote",
+        "card.C025.name",
+        "card.C025.description",
+        "card.C025.quote",
+        "card.C026.name",
+        "card.C026.description",
+        "card.C026.quote",
+        "card.C027.name",
+        "card.C027.description",
+        "card.C027.quote",
+        "card.C028.name",
+        "card.C028.description",
+        "card.C028.quote",
+        "card.C029.name",
+        "card.C029.description",
+        "card.C029.quote",
+        "card.C030.name",
+        "card.C030.description",
+        "card.C030.quote",
+        "card.C031.name",
+        "card.C031.description",
+        "card.C031.quote",
+        "card.C032.name",
+        "card.C032.description",
+        "card.C032.quote",
+        "card.C033.name",
+        "card.C033.description",
+        "card.C033.quote",
+        "card.C034.name",
+        "card.C034.description",
+        "card.C034.quote",
+        "card.C035.name",
+        "card.C035.description",
+        "card.C035.quote",
+        "card.C036.name",
+        "card.C036.description",
+        "card.C036.quote",
+        "card.C037.name",
+        "card.C037.description",
+        "card.C037.quote",
+        "card.C038.name",
+        "card.C038.description",
+        "card.C038.quote",
+        "card.C039.name",
+        "card.C039.description",
+        "card.C039.quote",
+        "card.C040.name",
+        "card.C040.description",
+        "card.C040.quote",
+        "card.C041.name",
+        "card.C041.description",
+        "card.C041.quote",
+        "card.C042.name",
+        "card.C042.description",
+        "card.C042.quote",
+        "card.C043.name",
+        "card.C043.description",
+        "card.C043.quote",
+        "card.C044.name",
+        "card.C044.description",
+        "card.C044.quote",
+        "card.C045.name",
+        "card.C045.description",
+        "card.C045.quote",
+        "card.C046.name",
+        "card.C046.description",
+        "card.C046.quote",
+        "card.C047.name",
+        "card.C047.description",
+        "card.C047.quote",
+        "card.C048.name",
+        "card.C048.description",
+        "card.C048.quote",
+        "card.C049.name",
+        "card.C049.description",
+        "card.C049.quote",
+        "card.C050.name",
+        "card.C050.description",
+        "card.C050.quote",
+        "card.C051.name",
+        "card.C051.description",
+        "card.C051.quote",
+        "card.C052.name",
+        "card.C052.description",
+        "card.C052.quote",
+        "card.C053.name",
+        "card.C053.description",
+        "card.C053.quote",
+        "card.C054.name",
+        "card.C054.description",
+        "card.C054.quote",
+        "card.C055.name",
+        "card.C055.description",
+        "card.C055.quote",
+        "card.C056.name",
+        "card.C056.description",
+        "card.C056.quote",
+        "card.C057.name",
+        "card.C057.description",
+        "card.C057.quote",
+        "card.C058.name",
+        "card.C058.description",
+        "card.C058.quote",
+        "card.C059.name",
+        "card.C059.description",
+        "card.C059.quote",
+        "card.C060.name",
+        "card.C060.description",
+        "card.C060.quote",
+        "card.C061.name",
+        "card.C061.description",
+        "card.C061.quote",
+        "card.C062.name",
+        "card.C062.description",
+        "card.C062.quote",
+        "card.C063.name",
+        "card.C063.description",
+        "card.C063.quote",
+        "card.C064.name",
+        "card.C064.description",
+        "card.C064.quote",
+        "card.C065.name",
+        "card.C065.description",
+        "card.C065.quote",
+        "card.C066.name",
+        "card.C066.description",
+        "card.C066.quote",
+        "card.C067.name",
+        "card.C067.description",
+        "card.C067.quote",
+        "card.C068.name",
+        "card.C068.description",
+        "card.C068.quote",
+        "card.C069.name",
+        "card.C069.description",
+        "card.C069.quote",
+        "card.C070.name",
+        "card.C070.description",
+        "card.C070.quote",
+        "card.C071.name",
+        "card.C071.description",
+        "card.C071.quote",
+        "card.C072.name",
+        "card.C072.description",
+        "card.C072.quote",
+        "card.C073.name",
+        "card.C073.description",
+        "card.C073.quote",
+        "card.C074.name",
+        "card.C074.description",
+        "card.C074.quote",
+        "card.C075.name",
+        "card.C075.description",
+        "card.C075.quote",
+        "card.C076.name",
+        "card.C076.description",
+        "card.C076.quote",
+        "card.C077.name",
+        "card.C077.description",
+        "card.C077.quote",
+        "card.C078.name",
+        "card.C078.description",
+        "card.C078.quote",
+        "card.C079.name",
+        "card.C079.description",
+        "card.C079.quote",
+        "card.C080.name",
+        "card.C080.description",
+        "card.C080.quote",
+        "card.C081.name",
+        "card.C081.description",
+        "card.C081.quote",
+        "card.C082.name",
+        "card.C082.description",
+        "card.C082.quote",
+        "card.C083.name",
+        "card.C083.description",
+        "card.C083.quote",
+        "card.C084.name",
+        "card.C084.description",
+        "card.C084.quote",
+        "card.C085.name",
+        "card.C085.description",
+        "card.C085.quote",
+        "card.C086.name",
+        "card.C086.description",
+        "card.C086.quote",
+        "card.C087.name",
+        "card.C087.description",
+        "card.C087.quote",
+        "card.C088.name",
+        "card.C088.description",
+        "card.C088.quote",
+        "card.C089.name",
+        "card.C089.description",
+        "card.C089.quote",
+        "card.C090.name",
+        "card.C090.description",
+        "card.C090.quote",
+        "card.C091.name",
+        "card.C091.description",
+        "card.C091.quote",
+        "card.C092.name",
+        "card.C092.description",
+        "card.C092.quote",
+        "card.C093.name",
+        "card.C093.description",
+        "card.C093.quote",
+        "card.C094.name",
+        "card.C094.description",
+        "card.C094.quote",
+        "card.C095.name",
+        "card.C095.description",
+        "card.C095.quote",
+        "contract.N01.name",
+        "contract.N01.subtitle",
+        "contract.N01.openingLine",
+        "contract.N01.successLine",
+        "contract.N01.failureLine",
+        "contract.N02.name",
+        "contract.N02.subtitle",
+        "contract.N02.openingLine",
+        "contract.N02.successLine",
+        "contract.N02.failureLine",
+        "contract.N03.name",
+        "contract.N03.subtitle",
+        "contract.N03.openingLine",
+        "contract.N03.successLine",
+        "contract.N03.failureLine",
+        "contract.N04.name",
+        "contract.N04.subtitle",
+        "contract.N04.openingLine",
+        "contract.N04.successLine",
+        "contract.N04.failureLine",
+        "contract.N05.name",
+        "contract.N05.subtitle",
+        "contract.N05.openingLine",
+        "contract.N05.successLine",
+        "contract.N05.failureLine",
+        "contract.N06.name",
+        "contract.N06.subtitle",
+        "contract.N06.openingLine",
+        "contract.N06.successLine",
+        "contract.N06.failureLine",
+        "contract.N07.name",
+        "contract.N07.subtitle",
+        "contract.N07.openingLine",
+        "contract.N07.successLine",
+        "contract.N07.failureLine",
+        "contract.N08.name",
+        "contract.N08.subtitle",
+        "contract.N08.openingLine",
+        "contract.N08.successLine",
+        "contract.N08.failureLine",
+        "contract.N09.name",
+        "contract.N09.subtitle",
+        "contract.N09.openingLine",
+        "contract.N09.successLine",
+        "contract.N09.failureLine",
+        "contract.N10.name",
+        "contract.N10.subtitle",
+        "contract.N10.openingLine",
+        "contract.N10.successLine",
+        "contract.N10.failureLine",
+        "contract.N11.name",
+        "contract.N11.subtitle",
+        "contract.N11.openingLine",
+        "contract.N11.successLine",
+        "contract.N11.failureLine",
+        "contract.N12.name",
+        "contract.N12.subtitle",
+        "contract.N12.openingLine",
+        "contract.N12.successLine",
+        "contract.N12.failureLine",
+        "contract.N13.name",
+        "contract.N13.subtitle",
+        "contract.N13.openingLine",
+        "contract.N13.successLine",
+        "contract.N13.failureLine",
+        "contract.N14.name",
+        "contract.N14.subtitle",
+        "contract.N14.openingLine",
+        "contract.N14.successLine",
+        "contract.N14.failureLine",
+        "contract.N15.name",
+        "contract.N15.subtitle",
+        "contract.N15.openingLine",
+        "contract.N15.successLine",
+        "contract.N15.failureLine",
+        "contract.N16.name",
+        "contract.N16.subtitle",
+        "contract.N16.openingLine",
+        "contract.N16.successLine",
+        "contract.N16.failureLine",
+        "contract.N17.name",
+        "contract.N17.subtitle",
+        "contract.N17.openingLine",
+        "contract.N17.successLine",
+        "contract.N17.failureLine",
+        "contract.N18.name",
+        "contract.N18.subtitle",
+        "contract.N18.openingLine",
+        "contract.N18.successLine",
+        "contract.N18.failureLine",
+        "contract.N19.name",
+        "contract.N19.subtitle",
+        "contract.N19.openingLine",
+        "contract.N19.successLine",
+        "contract.N19.failureLine",
+        "contract.N20.name",
+        "contract.N20.subtitle",
+        "contract.N20.openingLine",
+        "contract.N20.successLine",
+        "contract.N20.failureLine",
+        "contract.N21.name",
+        "contract.N21.subtitle",
+        "contract.N21.openingLine",
+        "contract.N21.successLine",
+        "contract.N21.failureLine",
+        "contract.N22.name",
+        "contract.N22.subtitle",
+        "contract.N22.openingLine",
+        "contract.N22.successLine",
+        "contract.N22.failureLine",
+        "contract.N23.name",
+        "contract.N23.subtitle",
+        "contract.N23.openingLine",
+        "contract.N23.successLine",
+        "contract.N23.failureLine",
+        "contract.N24.name",
+        "contract.N24.subtitle",
+        "contract.N24.openingLine",
+        "contract.N24.successLine",
+        "contract.N24.failureLine",
+        "contract.N25.name",
+        "contract.N25.subtitle",
+        "contract.N25.openingLine",
+        "contract.N25.successLine",
+        "contract.N25.failureLine",
+        "contract.N26.name",
+        "contract.N26.subtitle",
+        "contract.N26.openingLine",
+        "contract.N26.successLine",
+        "contract.N26.failureLine",
+        "contract.N27.name",
+        "contract.N27.subtitle",
+        "contract.N27.openingLine",
+        "contract.N27.successLine",
+        "contract.N27.failureLine",
+        "contract.N28.name",
+        "contract.N28.subtitle",
+        "contract.N28.openingLine",
+        "contract.N28.successLine",
+        "contract.N28.failureLine",
+        "facility.F01.name",
+        "facility.F01.cook",
+        "facility.F01.heat",
+        "facility.F02.name",
+        "facility.F02.light",
+        "facility.F02.guide",
+        "facility.F03.name",
+        "facility.F03.pump",
+        "facility.F03.dry",
+        "facility.F04.name",
+        "facility.F04.play",
+        "facility.F04.closed",
+        "facility.F05.name",
+        "facility.F05.both",
+        "facility.F05.left",
+        "facility.F06.name",
+        "facility.F06.shade",
+        "facility.F06.quiet",
+        "facility.F07.name",
+        "facility.F07.ward",
+        "facility.F07.warm",
+        "facility.F08.name",
+        "facility.F08.food",
+        "facility.F08.shade",
+        "facility.F09.name",
+        "facility.F09.cold",
+        "facility.F09.sealed",
+        "facility.F10.name",
+        "facility.F10.music",
+        "facility.F10.light",
+        "facility.F11.name",
+        "facility.F11.warm",
+        "facility.F11.ward",
+        "facility.F12.name",
+        "facility.F12.quiet",
+        "facility.F12.shade",
+        "guest.G01.name",
+        "guest.G01.request",
+        "guest.G02.name",
+        "guest.G02.request",
+        "guest.G03.name",
+        "guest.G03.request",
+        "guest.G04.name",
+        "guest.G04.request",
+        "guest.G05.name",
+        "guest.G05.request",
+        "chapter.CH1.name",
+        "chapter.CH1.intro",
+        "chapter.CH1.outro",
+        "chapter.CH2.name",
+        "chapter.CH2.intro",
+        "chapter.CH2.outro",
+        "chapter.CH3.name",
+        "chapter.CH3.intro",
+        "chapter.CH3.outro",
+        "chapter.CH4.name",
+        "chapter.CH4.intro",
+        "chapter.CH4.outro",
+        "chapter.CH5.name",
+        "chapter.CH5.intro",
+        "chapter.CH5.outro",
+        "chapter.CH6.name",
+        "chapter.CH6.intro",
+        "chapter.CH6.outro",
+        "chapter.CH7.name",
+        "chapter.CH7.intro",
+        "chapter.CH7.outro",
+        "character.W001.name",
+        "character.W002.name",
+        "character.W003.name",
+        "character.W004.name",
+        "character.W005.name",
+        "character.W006.name",
+        "character.W007.name",
+        "character.W008.name",
+        "character.W009.name",
+        "character.W010.name",
+        "character.W011.name",
+        "character.W012.name",
+        "character.W013.name",
+        "character.W014.name",
+        "character.W015.name",
+        "character.W016.name",
+        "character.W017.name",
+        "character.W018.name",
+        "character.W019.name",
+        "character.W020.name",
+        "character.W021.name",
+        "character.W022.name",
+        "character.W023.name",
+        "character.W024.name",
+        "character.W025.name",
+        "character.W026.name",
+        "character.W027.name",
+        "character.W028.name",
+        "character.W029.name",
+        "character.W030.name",
+        "character.W031.name",
+        "character.W032.name",
+        "character.W033.name",
+        "character.W034.name",
+        "character.W035.name",
+        "character.W036.name",
+        "character.W037.name",
+        "character.W038.name",
+        "character.W039.name",
+        "character.W040.name",
+        "character.W041.name",
+        "character.W042.name",
+        "character.NPC.host.name",
+        "character.NPC.guide.name",
+        "character.NPC.rival.name",
+        "character.NPC.clerk.name",
+        "tag.food",
+        "tag.light",
+        "tag.warmth",
+        "tag.music",
+        "tag.water",
+        "tag.ward",
+        "tag.quiet",
+        "tag.shade",
+        "tag.noise",
+        "ui.drawStory",
+        "ui.environment",
+        "ui.checklist",
+        "ui.restoreBackup",
+        "ui.keepDamagedNew",
+        "ui.retrySave",
+        "ui.noSaveExit",
+        "ui.saveAndExit",
+        "ui.slotA",
+        "ui.slotB",
+        "error.saveConflict",
+        "ui.swapBinding",
+        "ui.textReadMore",
+        "ui.tagNone",
+        "ui.allGuestsReady",
+        "ui.openingLocked",
+        "ui.resetProgress",
+        "ui.saveBusy"
+      ],
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "sourceSize": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "runtimeSize": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "transparent": {
+            "type": "boolean"
+          },
+          "pivot": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "composition": {
+            "type": "string"
+          },
+          "reference": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "method": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "sourcePath": {
+            "type": "string"
+          },
+          "runtimePath": {
+            "type": "string"
+          },
+          "promptPath": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "includeInPlayer": {
+            "type": "boolean"
+          },
+          "sourceRegister": {
+            "type": "string"
+          },
+          "licenseID": {
+            "type": "string"
+          },
+          "existingSource": {
+            "type": "string"
+          },
+          "noticeSources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "svgPaths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "svgViewBox": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "svgStrokeWidth": {
+            "type": "integer"
+          },
+          "svgStrokeColor": {
+            "type": "string"
+          },
+          "svgFill": {
+            "type": "string"
+          },
+          "stateColors": {
+            "type": "object",
+            "properties": {
+              "normal": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "pressed": {
+                "type": "string"
+              },
+              "disabled": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "normal",
+              "focus",
+              "pressed",
+              "disabled"
+            ],
+            "additionalProperties": false
+          },
+          "cornerRadius": {
+            "type": "integer"
+          },
+          "panelColor": {
+            "type": "string"
+          },
+          "nineSliceBorderPixels": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "frameBaseColor": {
+            "type": "string"
+          },
+          "borderPixels": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "subject",
+          "sourceSize",
+          "runtimeSize",
+          "transparent",
+          "pivot",
+          "reference",
+          "method",
+          "status",
+          "sourcePath",
+          "runtimePath",
+          "promptPath",
+          "includeInPlayer"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 196,
+      "maxItems": 196
+    },
+    "audio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "brief": {
+            "type": "string"
+          },
+          "durationSeconds": {
+            "type": "number"
+          },
+          "bus": {
+            "type": "string"
+          },
+          "loop": {
+            "type": "boolean"
+          },
+          "method": {
+            "type": "string"
+          },
+          "seed": {
+            "type": "integer"
+          },
+          "sampleRate": {
+            "type": "integer"
+          },
+          "channels": {
+            "type": "integer"
+          },
+          "sourcePath": {
+            "type": "string"
+          },
+          "runtimePath": {
+            "type": "string"
+          },
+          "peakDbfs": {
+            "type": "integer"
+          },
+          "lufs": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "maxVoices": {
+            "type": "integer"
+          },
+          "status": {
+            "type": "string"
+          },
+          "bpm": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "sourceBitDepth": {
+            "type": "integer"
+          },
+          "oggQuality": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "brief",
+          "durationSeconds",
+          "bus",
+          "loop",
+          "method",
+          "seed",
+          "sampleRate",
+          "channels",
+          "sourcePath",
+          "runtimePath",
+          "peakDbfs",
+          "lufs",
+          "priority",
+          "maxVoices",
+          "status",
+          "bpm",
+          "sourceBitDepth",
+          "oggQuality"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 24,
+      "maxItems": 24
+    },
+    "aiProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "canSeeHidden": {
+            "type": "boolean"
+          },
+          "actionBudget": {
+            "type": "integer"
+          },
+          "thinkSeconds": {
+            "type": "number"
+          },
+          "priorityWeights": {
+            "type": "object",
+            "properties": {
+              "win": {
+                "type": "integer"
+              },
+              "repair": {
+                "type": "integer"
+              },
+              "worker": {
+                "type": "integer"
+              },
+              "facility": {
+                "type": "integer"
+              },
+              "inspection": {
+                "type": "integer"
+              },
+              "positive": {
+                "type": "integer"
+              },
+              "negative": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "win",
+              "repair",
+              "worker",
+              "facility",
+              "inspection",
+              "positive",
+              "negative"
+            ],
+            "additionalProperties": false
+          },
+          "easySkipFirstInspection": {
+            "type": "boolean"
+          },
+          "searchDepth": {
+            "type": "integer"
+          },
+          "boundedNodes": {
+            "type": "integer"
+          },
+          "randomTieBreak": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "canSeeHidden",
+          "actionBudget",
+          "thinkSeconds",
+          "priorityWeights",
+          "easySkipFirstInspection",
+          "searchDepth",
+          "boundedNodes",
+          "randomTieBreak",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "screens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "textKeys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "background": {
+            "type": "string"
+          },
+          "defaultFocus": {
+            "type": "string"
+          },
+          "escape": {
+            "type": "string"
+          },
+          "mouseKeyboard": {
+            "type": "boolean"
+          },
+          "gamepad": {
+            "type": "boolean"
+          },
+          "actionKeys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "focusFallback": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "textKeys",
+          "background",
+          "defaultFocus",
+          "escape",
+          "mouseKeyboard",
+          "gamepad",
+          "actionKeys",
+          "focusFallback"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 12,
+      "maxItems": 12
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "implementationEvidence": {
+            "type": "null"
+          },
+          "specPaths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "acceptanceCaseIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "designReadyCriterion": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "domain",
+          "name",
+          "owner",
+          "status",
+          "evidence",
+          "implementationEvidence",
+          "specPaths",
+          "acceptanceCaseIDs",
+          "designReadyCriterion"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 18,
+      "maxItems": 18
+    },
+    "goldenCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "setup": {
+            "type": "string"
+          },
+          "commands": {
+            "type": "string"
+          },
+          "expected": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "origin": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "slug",
+          "title",
+          "setup",
+          "commands",
+          "expected",
+          "status",
+          "origin"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 52,
+      "maxItems": 52
+    },
+    "productionPlan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "deliverables": {
+            "type": "string"
+          },
+          "gate": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "deliverables",
+          "gate",
+          "status",
+          "owner"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "stringVariables": {
+      "type": "object",
+      "properties": {
+        "ui.missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ui.facilitySellConfirm": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "ui.missing",
+        "ui.facilitySellConfirm"
+      ],
+      "additionalProperties": false
+    },
+    "uiLayout": {
+      "type": "object",
+      "properties": {
+        "reference": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "minimum": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "logicalAspect": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "origin": {
+          "type": "string"
+        },
+        "zones": {
+          "type": "object",
+          "properties": {
+            "top": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "rival": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "facility": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "workers": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "hand": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          },
+          "required": [
+            "top",
+            "rival",
+            "facility",
+            "workers",
+            "hand"
+          ],
+          "additionalProperties": false
+        },
+        "facilityCell": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "workerCell": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "negativeCell": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "handCard": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "detailCard": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "buttonMin": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "fontSizes": {
+          "type": "object",
+          "properties": {
+            "body": {
+              "type": "integer"
+            },
+            "heading": {
+              "type": "integer"
+            },
+            "resource": {
+              "type": "integer"
+            },
+            "cardName": {
+              "type": "integer"
+            },
+            "footnote": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "body",
+            "heading",
+            "resource",
+            "cardName",
+            "footnote"
+          ],
+          "additionalProperties": false
+        },
+        "scaleOptions": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "focusStrokePixels": {
+          "type": "integer"
+        },
+        "minimumRenderedTextPixels": {
+          "type": "integer"
+        },
+        "minimumRenderedButtonPixels": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      },
+      "required": [
+        "reference",
+        "minimum",
+        "logicalAspect",
+        "origin",
+        "zones",
+        "facilityCell",
+        "workerCell",
+        "negativeCell",
+        "handCard",
+        "detailCard",
+        "buttonMin",
+        "fontSizes",
+        "scaleOptions",
+        "focusStrokePixels",
+        "minimumRenderedTextPixels",
+        "minimumRenderedButtonPixels"
+      ],
+      "additionalProperties": false
+    },
+    "effectOrdinal": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "budgets": {
+      "type": "object",
+      "properties": {
+        "targetFPS": {
+          "type": "integer"
+        },
+        "cpuFrameMsP95": {
+          "type": "integer"
+        },
+        "gpuFrameMsP95": {
+          "type": "integer"
+        },
+        "managedAllocBytesPerIdleFrame": {
+          "type": "integer"
+        },
+        "playerMemoryMBMax": {
+          "type": "integer"
+        },
+        "initialLoadSecondsMax": {
+          "type": "integer"
+        },
+        "saveBytesMax": {
+          "type": "integer"
+        },
+        "runtimeTexturesMBMax": {
+          "type": "integer"
+        },
+        "compressedAudioMBMax": {
+          "type": "integer"
+        },
+        "simultaneousVoicesMax": {
+          "type": "integer"
+        },
+        "minimumDevice": {
+          "type": "string"
+        },
+        "goldenWorkload": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "targetFPS",
+        "cpuFrameMsP95",
+        "gpuFrameMsP95",
+        "managedAllocBytesPerIdleFrame",
+        "playerMemoryMBMax",
+        "initialLoadSecondsMax",
+        "saveBytesMax",
+        "runtimeTexturesMBMax",
+        "compressedAudioMBMax",
+        "simultaneousVoicesMax",
+        "minimumDevice",
+        "goldenWorkload"
+      ],
+      "additionalProperties": false
+    },
+    "saveFields": {
+      "type": "object",
+      "properties": {
+        "match": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "player": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "profile": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "settings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "instance": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "match",
+        "player",
+        "profile",
+        "settings",
+        "instance"
+      ],
+      "additionalProperties": false
+    },
+    "inputBindings": {
+      "type": "object",
+      "properties": {
+        "PlaySelect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Cancel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Confirm": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "TextContinue": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "EndTurn": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "NextPanel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "PreviousPanel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Navigate": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "CardSelect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Detail": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Log": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Help": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "FastPresentation": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rebindable": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "PlaySelect",
+        "Cancel",
+        "Confirm",
+        "TextContinue",
+        "EndTurn",
+        "NextPanel",
+        "PreviousPanel",
+        "Navigate",
+        "CardSelect",
+        "Detail",
+        "Log",
+        "Help",
+        "FastPresentation",
+        "rebindable"
+      ],
+      "additionalProperties": false
+    },
+    "audioEventMap": {
+      "type": "object",
+      "properties": {
+        "CardPlayed": {
+          "type": "string"
+        },
+        "CardTransferred": {
+          "type": "string"
+        },
+        "WorkerPlaced": {
+          "type": "string"
+        },
+        "WorkerAdvanced": {
+          "type": "string"
+        },
+        "TaskCompleted": {
+          "type": "string"
+        },
+        "BlockAttached": {
+          "type": "string"
+        },
+        "BlockExpired": {
+          "type": "string"
+        },
+        "BlockRepaired": {
+          "type": "string"
+        },
+        "InspectionPending": {
+          "type": "string"
+        },
+        "InspectionCancelled": {
+          "type": "string"
+        },
+        "FacilityBought": {
+          "type": "string"
+        },
+        "FacilityMoved": {
+          "type": "string"
+        },
+        "FacilitySold": {
+          "type": "string"
+        },
+        "FacilityModeChanged": {
+          "type": "string"
+        },
+        "CoinsReceived": {
+          "type": "string"
+        },
+        "TurnEnded": {
+          "type": "string"
+        },
+        "Win": {
+          "type": "string"
+        },
+        "Lose": {
+          "type": "string"
+        },
+        "Draw": {
+          "type": "string"
+        },
+        "UIFocus": {
+          "type": "string"
+        },
+        "UIConfirm": {
+          "type": "string"
+        },
+        "UIReject": {
+          "type": "string"
+        },
+        "UIPause": {
+          "type": "string"
+        },
+        "SaveSucceeded": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "CardPlayed",
+        "CardTransferred",
+        "WorkerPlaced",
+        "WorkerAdvanced",
+        "TaskCompleted",
+        "BlockAttached",
+        "BlockExpired",
+        "BlockRepaired",
+        "InspectionPending",
+        "InspectionCancelled",
+        "FacilityBought",
+        "FacilityMoved",
+        "FacilitySold",
+        "FacilityModeChanged",
+        "CoinsReceived",
+        "TurnEnded",
+        "Win",
+        "Lose",
+        "Draw",
+        "UIFocus",
+        "UIConfirm",
+        "UIReject",
+        "UIPause",
+        "SaveSucceeded"
+      ],
+      "additionalProperties": false
+    },
+    "rngConfig": {
+      "type": "object",
+      "properties": {
+        "algorithm": {
+          "type": "string"
+        },
+        "seedMin": {
+          "type": "integer"
+        },
+        "seedMax": {
+          "type": "integer"
+        },
+        "zeroFallback": {
+          "type": "integer"
+        },
+        "salts": {
+          "type": "object",
+          "properties": {
+            "P0.draw": {
+              "type": "integer"
+            },
+            "P1.draw": {
+              "type": "integer"
+            },
+            "P0.effects": {
+              "type": "integer"
+            },
+            "P1.effects": {
+              "type": "integer"
+            },
+            "cosmetic": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "P0.draw",
+            "P1.draw",
+            "P0.effects",
+            "P1.effects",
+            "cosmetic"
+          ],
+          "additionalProperties": false
+        },
+        "uniformDomainSize": {
+          "type": "integer"
+        },
+        "shuffle": {
+          "type": "string"
+        },
+        "deckDrawEnd": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "algorithm",
+        "seedMin",
+        "seedMax",
+        "zeroFallback",
+        "salts",
+        "uniformDomainSize",
+        "shuffle",
+        "deckDrawEnd"
+      ],
+      "additionalProperties": false
+    },
+    "aiScoring": {
+      "type": "object",
+      "properties": {
+        "categoryMultiplier": {
+          "type": "integer"
+        },
+        "qualifiedGuest": {
+          "type": "integer"
+        },
+        "qualifiedRole": {
+          "type": "integer"
+        },
+        "progressPoint": {
+          "type": "integer"
+        },
+        "usefulWorkerTick": {
+          "type": "integer"
+        },
+        "coin": {
+          "type": "integer"
+        },
+        "lostRequiredTag": {
+          "type": "integer"
+        },
+        "wastedProgressTick": {
+          "type": "integer"
+        },
+        "negativeWorker": {
+          "type": "integer"
+        },
+        "negativeDuration": {
+          "type": "integer"
+        },
+        "repairUsefulTick": {
+          "type": "integer"
+        },
+        "easyEndValueThreshold": {
+          "type": "integer"
+        },
+        "easyAPMayReserve": {
+          "type": "integer"
+        },
+        "normalEndValueThreshold": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "categoryMultiplier",
+        "qualifiedGuest",
+        "qualifiedRole",
+        "progressPoint",
+        "usefulWorkerTick",
+        "coin",
+        "lostRequiredTag",
+        "wastedProgressTick",
+        "negativeWorker",
+        "negativeDuration",
+        "repairUsefulTick",
+        "easyEndValueThreshold",
+        "easyAPMayReserve",
+        "normalEndValueThreshold"
+      ],
+      "additionalProperties": false
+    },
+    "stateReplacement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sourceState": {
+            "type": "integer"
+          },
+          "sourceRole": {
+            "type": "string"
+          },
+          "targetState": {
+            "type": "string"
+          },
+          "policy": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string"
+          },
+          "targetSpec": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceState",
+          "sourceRole",
+          "targetState",
+          "policy",
+          "decision",
+          "targetSpec"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "systemReplacement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceFeature": {
+            "type": "string"
+          },
+          "targetFeature": {
+            "type": "string"
+          },
+          "targetSpec": {
+            "type": "string"
+          },
+          "policy": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sourceFeature",
+          "targetFeature",
+          "targetSpec",
+          "policy"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "rules",
+    "departments",
+    "cards",
+    "contracts",
+    "facilities",
+    "guests",
+    "characters",
+    "chapters",
+    "tutorial",
+    "strings",
+    "assets",
+    "audio",
+    "aiProfiles",
+    "screens",
+    "requirements",
+    "goldenCases",
+    "productionPlan",
+    "stringVariables",
+    "uiLayout",
+    "effectOrdinal",
+    "budgets",
+    "saveFields",
+    "inputBindings",
+    "audioEventMap",
+    "rngConfig",
+    "aiScoring",
+    "stateReplacement",
+    "systemReplacement"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rogue-prototype-lab:yokai:catalog:1",
+  "title": "妖怪夜市开张 v1 结构合同"
+}

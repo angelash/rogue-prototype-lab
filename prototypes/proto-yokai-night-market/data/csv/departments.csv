@@ -1,0 +1,6 @@
+id,index,name,source,icon,color,shape,purpose,props
+call,0,招徕,Sound,UI.role.call,#E9BC58,铃铛,声场与引路,铜铃、细绳、布旗
+cook,1,灶务,Programming,UI.role.cook,#D77854,汤勺,锅灶与餐食,汤勺、围裙、瓦锅
+stock,2,供货,Design,UI.role.stock,#72AF88,竹筐,货架与补给,竹筐、账册、木车
+dress,3,布置,Art,UI.role.dress,#9A8BC2,灯笼,棚架与灯彩,灯笼、布卷、木尺
+ward,4,安检,Testing,UI.role.ward,#70ADBF,盾符,通路与镇场,结绳、符牌、木印

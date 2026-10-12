@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "妖怪夜市开张存档信封 v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "generation",
+    "contentVersion",
+    "contentHash",
+    "payload",
+    "payloadSha256",
+    "commitMarker"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generation": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "contentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "payloadSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "commitMarker": {
+      "type": "string",
+      "const": "committed"
+    }
+  }
+}

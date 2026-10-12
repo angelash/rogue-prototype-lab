@@ -1,0 +1,2942 @@
+[
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "",
+    "policy": "retired",
+    "targetTextKey": null,
+    "reason": "旧空字符串/合法动作不显示错误，无需可见文字"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Pause",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.settings",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Resume",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.resume",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "NextTurn",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.endTurn",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "AutoPause",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.autopause",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "FastMode",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.fast",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Tutorial",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.tutorial",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "PlayAgain",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.playAgain",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "DisableAutoPause",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.autopause",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Continue",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.next",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "ClickToUse",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.use",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Recruiting",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.recruit",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "SelectingProjects",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.chooseContract",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "YourTurn",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.player",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "AITurn",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.aiThinking",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "YouWin",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.win",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "YouLose",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.lose",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "AI",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.ai",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "PLAYER",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.player",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Player",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.player",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "YOURPROJECT",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.stallName",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "EDIT",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.edit",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Design",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.stock",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Programming",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.cook",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Art",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.dress",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Testing",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.ward",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Sound",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.call",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "SOUND DESIGNER",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.call",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "SOUND DESIGNERGirl",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.call",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "PROGRAMMER",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.cook",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "PROGRAMMERGirl",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.cook",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "DESIGNER",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.stock",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "DESIGNERGirl",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.stock",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "ARTIST",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.dress",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TESTER",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.ward",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TESTERGirl",
+    "policy": "original-rewrite",
+    "targetTextKey": "role.ward",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "OUCH",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.affected",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "INSTA-OUCH",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.4",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "COOL",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.finish",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "SPECIAL",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.counter",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "DIRECTION",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.inspect",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "HEADQUARTERS",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.inspect",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "PROJECT",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.contract",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "Week",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.week",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "MoneySymbol",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.coin",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "NewRecord",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.record",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "SCORECARDTITLE",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.rank",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Welcome",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.welcome",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Obj",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.goal",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Para",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.worker",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Turno",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.end",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Cada",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.work",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Termina",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.goal",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Cont",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.work",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Dev",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.worker",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Neg",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.block",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Pos",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.finish",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Esp",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.repair",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Juega",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.lock",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO2_Buena",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.finish",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_-1",
+    "policy": "retired",
+    "targetTextKey": null,
+    "reason": "旧空字符串/合法动作不显示错误，无需可见文字"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_0",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.0",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_1",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.1",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_2",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.2",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_3",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.3",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_4",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.4",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_5",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.5",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_6",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.6",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_7",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.7",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_8",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.8",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "REASON_9",
+    "policy": "original-rewrite",
+    "targetTextKey": "reason.9",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "AFFECT",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.affected",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_Anna",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.guests",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_Abel",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.worker",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_Rosa",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.facility",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_Mikis",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.power",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_English",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.counter",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "TUTO_Dept_Marc",
+    "policy": "original-rewrite",
+    "targetTextKey": "tuto.repair",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "Texts",
+    "sourceKey": "ExitIn",
+    "policy": "original-rewrite",
+    "targetTextKey": "ui.cleanExit",
+    "reason": "原界面语义改为夜市操作"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title1",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N01.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle1",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N01.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title2",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N02.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle2",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N02.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title3",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N03.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle3",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N03.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title4",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N04.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle4",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N04.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title5",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N05.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle5",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N05.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title6",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N06.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle6",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N06.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title7",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N07.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle7",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N07.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title8",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N08.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle8",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N08.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title9",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N09.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle9",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N09.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title10",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N10.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle10",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N10.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title11",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N11.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle11",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N11.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title12",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N12.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle12",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N12.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title13",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N13.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle13",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N13.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title14",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N14.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle14",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N14.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title15",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N15.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle15",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N15.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title16",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N16.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle16",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N16.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title17",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N17.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle17",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N17.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title18",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N18.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle18",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N18.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title19",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N19.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle19",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N19.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title20",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N20.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle20",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N20.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title21",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N21.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle21",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N21.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title22",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N22.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle22",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N22.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title23",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N23.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle23",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N23.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title24",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N24.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle24",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N24.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title25",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N25.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle25",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N25.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title26",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N26.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle26",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N26.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title27",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N27.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle27",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N27.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "Title28",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N28.name",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsProjects",
+    "sourceKey": "SubTitle28",
+    "policy": "original-rewrite",
+    "targetTextKey": "contract.N28.subtitle",
+    "reason": "对应委托原创名称或开张说明"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name1",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C001.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote1",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C001.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description1",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C001.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name2",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C002.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote2",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C002.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description2",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C002.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name3",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C003.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote3",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C003.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description3",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C003.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name4",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C004.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote4",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C004.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description4",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C004.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name5",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C005.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote5",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C005.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description5",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C005.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name6",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C006.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote6",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C006.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description6",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C006.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name7",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C007.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote7",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C007.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description7",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C007.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name8",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C008.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote8",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C008.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description8",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C008.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name9",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C009.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote9",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C009.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description9",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C009.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name10",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C010.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote10",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C010.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description10",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C010.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name11",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C011.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote11",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C011.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description11",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C011.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name12",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C012.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote12",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C012.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description12",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C012.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name13",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C013.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote13",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C013.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description13",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C013.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name14",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C014.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote14",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C014.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description14",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C014.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name15",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C015.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote15",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C015.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description15",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C015.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name16",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C016.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote16",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C016.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description16",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C016.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name17",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C017.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote17",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C017.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description17",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C017.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name18",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C018.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote18",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C018.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description18",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C018.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name19",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C019.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote19",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C019.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description19",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C019.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name20",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C020.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote20",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C020.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description20",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C020.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name21",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C021.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote21",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C021.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description21",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C021.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name22",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C022.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote22",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C022.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description22",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C022.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name23",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C023.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote23",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C023.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description23",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C023.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name24",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C024.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote24",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C024.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description24",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C024.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name25",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C025.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote25",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C025.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description25",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C025.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name26",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C026.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote26",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C026.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description26",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C026.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name27",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C027.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote27",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C027.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description27",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C027.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name28",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C028.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote28",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C028.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description28",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C028.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name29",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C029.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote29",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C029.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description29",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C029.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name30",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C030.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote30",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C030.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description30",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C030.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name31",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C031.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote31",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C031.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description31",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C031.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name32",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C032.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote32",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C032.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description32",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C032.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name33",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C033.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote33",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C033.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description33",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C033.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name34",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C034.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote34",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C034.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description34",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C034.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name35",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C035.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote35",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C035.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description35",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C035.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name36",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C036.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote36",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C036.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description36",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C036.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name37",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C037.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote37",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C037.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description37",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C037.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name38",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C038.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote38",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C038.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description38",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C038.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name39",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C039.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote39",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C039.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description39",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C039.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name40",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C040.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote40",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C040.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description40",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C040.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name41",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C041.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote41",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C041.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description41",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C041.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name42",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C042.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote42",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C042.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description42",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C042.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name43",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C043.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote43",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C043.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description43",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C043.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name44",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C044.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote44",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C044.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description44",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C044.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name45",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C045.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote45",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C045.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description45",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C045.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name46",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C046.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote46",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C046.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description46",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C046.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name47",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C047.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote47",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C047.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description47",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C047.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name48",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C048.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote48",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C048.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description48",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C048.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name49",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C049.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote49",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C049.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description49",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C049.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name50",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C050.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote50",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C050.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description50",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C050.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name51",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C051.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote51",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C051.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description51",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C051.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name52",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C052.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote52",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C052.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description52",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C052.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name53",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C053.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote53",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C053.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description53",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C053.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name54",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C054.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote54",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C054.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description54",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C054.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name55",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C055.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote55",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C055.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description55",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C055.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name56",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C056.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote56",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C056.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description56",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C056.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name57",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C057.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote57",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C057.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description57",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C057.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name58",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C058.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote58",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C058.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description58",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C058.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name59",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C059.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote59",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C059.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description59",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C059.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name60",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C060.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote60",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C060.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description60",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C060.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name61",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C061.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote61",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C061.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description61",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C061.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name62",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C062.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote62",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C062.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description62",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C062.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name63",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C063.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote63",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C063.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description63",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C063.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name64",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C064.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote64",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C064.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description64",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C064.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name65",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C065.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote65",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C065.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description65",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C065.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name66",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C066.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote66",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C066.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description66",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C066.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name67",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C067.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote67",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C067.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description67",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C067.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name68",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C068.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote68",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C068.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description68",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C068.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name69",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C069.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote69",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C069.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description69",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C069.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name70",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C070.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote70",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C070.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description70",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C070.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name71",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C071.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote71",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C071.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description71",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C071.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name72",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C072.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote72",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C072.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description72",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C072.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name73",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C073.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote73",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C073.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description73",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C073.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name74",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C074.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote74",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C074.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description74",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C074.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name75",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C075.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote75",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C075.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description75",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C075.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name76",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C076.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote76",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C076.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description76",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C076.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name77",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C077.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote77",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C077.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description77",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C077.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name78",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C078.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote78",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C078.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description78",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C078.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name79",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C079.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote79",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C079.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description79",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C079.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name80",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C080.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote80",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C080.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description80",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C080.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name81",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C081.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote81",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C081.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description81",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C081.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name82",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C082.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote82",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C082.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description82",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C082.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name83",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C083.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote83",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C083.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description83",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C083.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name84",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C084.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote84",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C084.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description84",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C084.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name85",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C085.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote85",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C085.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description85",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C085.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name86",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C086.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote86",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C086.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description86",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C086.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name87",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C087.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote87",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C087.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description87",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C087.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name88",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C088.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote88",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C088.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description88",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C088.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name89",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C089.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote89",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C089.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description89",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C089.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name90",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C090.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote90",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C090.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description90",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C090.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name91",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C091.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote91",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C091.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description91",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C091.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name92",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C092.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote92",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C092.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description92",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C092.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name93",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C093.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote93",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C093.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description93",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C093.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name94",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C094.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote94",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C094.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description94",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C094.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Name95",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C095.name",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Quote95",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C095.quote",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  },
+  {
+    "sourceTable": "TextsCards",
+    "sourceKey": "Description95",
+    "policy": "original-rewrite",
+    "targetTextKey": "card.C095.description",
+    "reason": "同ID效果，重新创作夜市名称/手艺短句/精确效果"
+  }
+]

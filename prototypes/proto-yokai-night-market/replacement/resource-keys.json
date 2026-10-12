@@ -1,0 +1,799 @@
+[
+  {
+    "sourceKey": "00_art_dark",
+    "sourceObjectID": "resources.assets:1",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_art_detail",
+    "sourceObjectID": "sharedassets0.assets:9",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_dir_dark",
+    "sourceObjectID": "resources.assets:2",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_dir_detail",
+    "sourceObjectID": "resources.assets:3",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_dsg_dark",
+    "sourceObjectID": "resources.assets:4",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_dsg_detail",
+    "sourceObjectID": "resources.assets:5",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_hqt_dark",
+    "sourceObjectID": "resources.assets:6",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_hqt_detail",
+    "sourceObjectID": "resources.assets:7",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_neg_dark",
+    "sourceObjectID": "resources.assets:8",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_neg_detail",
+    "sourceObjectID": "sharedassets0.assets:10",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_pos_dark",
+    "sourceObjectID": "sharedassets0.assets:11",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_pos_detail",
+    "sourceObjectID": "sharedassets0.assets:12",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_prg_dark",
+    "sourceObjectID": "resources.assets:9",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_prg_detail",
+    "sourceObjectID": "resources.assets:10",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_snd_dark",
+    "sourceObjectID": "resources.assets:11",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_snd_detail",
+    "sourceObjectID": "sharedassets0.assets:13",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_spc_dark",
+    "sourceObjectID": "resources.assets:12",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_spc_detail",
+    "sourceObjectID": "sharedassets0.assets:14",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_tst_dark",
+    "sourceObjectID": "resources.assets:13",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "00_tst_detail",
+    "sourceObjectID": "sharedassets0.assets:15",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "10_prj_dark",
+    "sourceObjectID": "resources.assets:14",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "10_prj_detail",
+    "sourceObjectID": "sharedassets0.assets:16",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "all depts",
+    "sourceObjectID": "sharedassets0.assets:239",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.076",
+      "EVT.077",
+      "EVT.078"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "all finish",
+    "sourceObjectID": "resources.assets:58",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.072",
+      "EVT.073",
+      "EVT.074",
+      "EVT.075"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "all forward",
+    "sourceObjectID": "resources.assets:64",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.069",
+      "EVT.070",
+      "EVT.071"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "artgirl",
+    "sourceObjectID": "sharedassets0.assets:263",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.031",
+      "CHR.032",
+      "CHR.033",
+      "CHR.034",
+      "CHR.035",
+      "CHR.036"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "artguy",
+    "sourceObjectID": "sharedassets0.assets:248",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.025",
+      "CHR.026",
+      "CHR.027",
+      "CHR.028",
+      "CHR.029",
+      "CHR.030"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "attack",
+    "sourceObjectID": "resources.assets:53",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.046"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "blocked",
+    "sourceObjectID": "sharedassets0.assets:271",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.blocked"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "bug",
+    "sourceObjectID": "resources.assets:59",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.051",
+      "EVT.052",
+      "EVT.053",
+      "EVT.054",
+      "EVT.055",
+      "EVT.056",
+      "EVT.057",
+      "EVT.058",
+      "EVT.059",
+      "EVT.060",
+      "EVT.061",
+      "EVT.062"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "cancelled",
+    "sourceObjectID": "sharedassets0.assets:275",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.cancel"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "card_01_base_0t",
+    "sourceObjectID": "resources.assets:55",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_1t",
+    "sourceObjectID": "sharedassets0.assets:249",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_1t_mask",
+    "sourceObjectID": "sharedassets0.assets:279",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_2t",
+    "sourceObjectID": "sharedassets0.assets:272",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_2t_mask",
+    "sourceObjectID": "sharedassets0.assets:243",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_3t",
+    "sourceObjectID": "resources.assets:51",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_3t_mask",
+    "sourceObjectID": "resources.assets:54",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_4t",
+    "sourceObjectID": "sharedassets0.assets:241",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "card_01_base_4t_mask",
+    "sourceObjectID": "sharedassets0.assets:264",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "cardsplay",
+    "sourceObjectID": "resources.assets:46",
+    "policy": "data-replaced",
+    "targetAssetIDs": [],
+    "targetData": "data/catalog.json",
+    "reason": "五XML改为唯一JSON数据与中文文本权威"
+  },
+  {
+    "sourceKey": "cardsproject",
+    "sourceObjectID": "resources.assets:45",
+    "policy": "data-replaced",
+    "targetAssetIDs": [],
+    "targetData": "data/catalog.json",
+    "reason": "五XML改为唯一JSON数据与中文文本权威"
+  },
+  {
+    "sourceKey": "crash",
+    "sourceObjectID": "resources.assets:49",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.047",
+      "EVT.048"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "done",
+    "sourceObjectID": "resources.assets:63",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.done"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "door",
+    "sourceObjectID": "resources.assets:68",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.068"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "dsggirl",
+    "sourceObjectID": "sharedassets0.assets:238",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.019",
+      "CHR.020",
+      "CHR.023"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "dsgguy",
+    "sourceObjectID": "resources.assets:69",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.021",
+      "CHR.022",
+      "CHR.024"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "holidays",
+    "sourceObjectID": "resources.assets:60",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.066"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "hunger",
+    "sourceObjectID": "resources.assets:57",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.063",
+      "EVT.064"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "itgirl",
+    "sourceObjectID": "resources.assets:67",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.085",
+      "EVT.086"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "itguy",
+    "sourceObjectID": "resources.assets:70",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.082",
+      "EVT.083",
+      "EVT.084"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "light off",
+    "sourceObjectID": "resources.assets:56",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.044",
+      "EVT.045",
+      "EVT.049",
+      "EVT.050"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "list",
+    "sourceObjectID": "resources.assets:61",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.079",
+      "EVT.080",
+      "EVT.081"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "materials/card_01_base_1t_mask 1",
+    "sourceObjectID": "resources.assets:15",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.card-frame"
+    ],
+    "targetData": null,
+    "reason": "旧位图卡框/遮罩改原生九宫边框和工作点"
+  },
+  {
+    "sourceKey": "meeting",
+    "sourceObjectID": "sharedassets0.assets:233",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.043"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "negotiator",
+    "sourceObjectID": "resources.assets:71",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.087",
+      "EVT.088"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "optiongreen",
+    "sourceObjectID": "sharedassets0.assets:244",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.button"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "optionred",
+    "sourceObjectID": "sharedassets0.assets:232",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.button"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "phone",
+    "sourceObjectID": "resources.assets:72",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.089",
+      "EVT.090",
+      "EVT.091",
+      "EVT.092",
+      "EVT.093",
+      "EVT.094",
+      "EVT.095"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "prggirl",
+    "sourceObjectID": "resources.assets:73",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.012",
+      "CHR.013",
+      "CHR.016",
+      "CHR.017"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "prgguy",
+    "sourceObjectID": "resources.assets:74",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.007",
+      "CHR.008",
+      "CHR.009",
+      "CHR.010",
+      "CHR.011",
+      "CHR.014",
+      "CHR.015",
+      "CHR.018"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "prj_no",
+    "sourceObjectID": "sharedassets0.assets:269",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.warning"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "prj_ok",
+    "sourceObjectID": "sharedassets0.assets:262",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.done"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "prj_wip",
+    "sourceObjectID": "sharedassets0.assets:278",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.action"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "released",
+    "sourceObjectID": "resources.assets:62",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "UI.done"
+    ],
+    "targetData": null,
+    "reason": "旧状态/导航图标替换为确定原生UI或新场景"
+  },
+  {
+    "sourceKey": "resignation",
+    "sourceObjectID": "resources.assets:66",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.067"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "sick",
+    "sourceObjectID": "resources.assets:52",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "EVT.065"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "sndgirl",
+    "sourceObjectID": "sharedassets0.assets:231",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.002",
+      "CHR.005",
+      "CHR.006"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "sndguy",
+    "sourceObjectID": "resources.assets:50",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.001",
+      "CHR.003",
+      "CHR.004"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "texts",
+    "sourceObjectID": "resources.assets:47",
+    "policy": "data-replaced",
+    "targetAssetIDs": [],
+    "targetData": "data/catalog.json",
+    "reason": "五XML改为唯一JSON数据与中文文本权威"
+  },
+  {
+    "sourceKey": "textscards",
+    "sourceObjectID": "resources.assets:48",
+    "policy": "data-replaced",
+    "targetAssetIDs": [],
+    "targetData": "data/catalog.json",
+    "reason": "五XML改为唯一JSON数据与中文文本权威"
+  },
+  {
+    "sourceKey": "textsprojects",
+    "sourceObjectID": "resources.assets:44",
+    "policy": "data-replaced",
+    "targetAssetIDs": [],
+    "targetData": "data/catalog.json",
+    "reason": "五XML改为唯一JSON数据与中文文本权威"
+  },
+  {
+    "sourceKey": "tstgirl",
+    "sourceObjectID": "resources.assets:65",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.037",
+      "CHR.041",
+      "CHR.042"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  },
+  {
+    "sourceKey": "tstguy",
+    "sourceObjectID": "sharedassets0.assets:250",
+    "policy": "original-redesign",
+    "targetAssetIDs": [
+      "CHR.038",
+      "CHR.039",
+      "CHR.040"
+    ],
+    "targetData": null,
+    "reason": "原共享图片替换为对应的原创卡牌图片"
+  }
+]

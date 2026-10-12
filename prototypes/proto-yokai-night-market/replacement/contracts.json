@@ -1,0 +1,721 @@
+[
+  {
+    "sourceID": 1,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 4,
+      "Design": 1,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N01",
+    "newGoals": {
+      "call": 1,
+      "cook": 4,
+      "stock": 1,
+      "dress": 4,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01"
+    ],
+    "targetArtID": "NIGHT.01",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 2,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 4,
+      "Design": 1,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N02",
+    "newGoals": {
+      "call": 1,
+      "cook": 4,
+      "stock": 1,
+      "dress": 4,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01",
+      "G02"
+    ],
+    "targetArtID": "NIGHT.02",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 3,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 5,
+      "Design": 1,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N03",
+    "newGoals": {
+      "call": 2,
+      "cook": 5,
+      "stock": 1,
+      "dress": 3,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G03"
+    ],
+    "targetArtID": "NIGHT.03",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 4,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 5,
+      "Design": 1,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N04",
+    "newGoals": {
+      "call": 2,
+      "cook": 5,
+      "stock": 1,
+      "dress": 3,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G04"
+    ],
+    "targetArtID": "NIGHT.04",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 5,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 5,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N05",
+    "newGoals": {
+      "call": 1,
+      "cook": 3,
+      "stock": 2,
+      "dress": 5,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G05"
+    ],
+    "targetArtID": "NIGHT.05",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 6,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 5,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N06",
+    "newGoals": {
+      "call": 1,
+      "cook": 3,
+      "stock": 2,
+      "dress": 5,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G02",
+      "G03"
+    ],
+    "targetArtID": "NIGHT.06",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 7,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 4,
+      "Design": 1,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N07",
+    "newGoals": {
+      "call": 2,
+      "cook": 4,
+      "stock": 1,
+      "dress": 3,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01",
+      "G05"
+    ],
+    "targetArtID": "NIGHT.07",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 8,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 4,
+      "Design": 1,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N08",
+    "newGoals": {
+      "call": 2,
+      "cook": 4,
+      "stock": 1,
+      "dress": 3,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G02"
+    ],
+    "targetArtID": "NIGHT.08",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 9,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N09",
+    "newGoals": {
+      "call": 1,
+      "cook": 3,
+      "stock": 2,
+      "dress": 4,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01"
+    ],
+    "targetArtID": "NIGHT.09",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 10,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N10",
+    "newGoals": {
+      "call": 1,
+      "cook": 3,
+      "stock": 2,
+      "dress": 4,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G03",
+      "G05"
+    ],
+    "targetArtID": "NIGHT.10",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 11,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 5,
+      "Design": 2,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N11",
+    "newGoals": {
+      "call": 2,
+      "cook": 5,
+      "stock": 2,
+      "dress": 2,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G04",
+      "G02"
+    ],
+    "targetArtID": "NIGHT.11",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 12,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 2,
+      "Design": 2,
+      "Art": 5,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N12",
+    "newGoals": {
+      "call": 2,
+      "cook": 2,
+      "stock": 2,
+      "dress": 5,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G01",
+      "G02"
+    ],
+    "targetArtID": "NIGHT.12",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 13,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 5,
+      "Design": 2,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N13",
+    "newGoals": {
+      "call": 1,
+      "cook": 5,
+      "stock": 2,
+      "dress": 2,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G03"
+    ],
+    "targetArtID": "NIGHT.13",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 14,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 2,
+      "Design": 2,
+      "Art": 5,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N14",
+    "newGoals": {
+      "call": 2,
+      "cook": 2,
+      "stock": 2,
+      "dress": 5,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G02",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.14",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 15,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N15",
+    "newGoals": {
+      "call": 2,
+      "cook": 3,
+      "stock": 2,
+      "dress": 3,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G04"
+    ],
+    "targetArtID": "NIGHT.15",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 16,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N16",
+    "newGoals": {
+      "call": 2,
+      "cook": 3,
+      "stock": 2,
+      "dress": 3,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G05",
+      "G01"
+    ],
+    "targetArtID": "NIGHT.16",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 17,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 4,
+      "Design": 1,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N17",
+    "newGoals": {
+      "call": 2,
+      "cook": 4,
+      "stock": 1,
+      "dress": 2,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G03",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.17",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 18,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 4,
+      "Design": 2,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N18",
+    "newGoals": {
+      "call": 1,
+      "cook": 4,
+      "stock": 2,
+      "dress": 2,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G01",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.18",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 19,
+    "sourceEffectiveGoals": {
+      "Sound": 3,
+      "Programming": 2,
+      "Design": 1,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N19",
+    "newGoals": {
+      "call": 3,
+      "cook": 2,
+      "stock": 1,
+      "dress": 4,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01",
+      "G03"
+    ],
+    "targetArtID": "NIGHT.19",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 20,
+    "sourceEffectiveGoals": {
+      "Sound": 3,
+      "Programming": 2,
+      "Design": 2,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N20",
+    "newGoals": {
+      "call": 3,
+      "cook": 2,
+      "stock": 2,
+      "dress": 4,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G02",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.20",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 21,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 4,
+      "Design": 3,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N21",
+    "newGoals": {
+      "call": 2,
+      "cook": 4,
+      "stock": 3,
+      "dress": 2,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G05",
+      "G03"
+    ],
+    "targetArtID": "NIGHT.21",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 22,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 2,
+      "Design": 2,
+      "Art": 4,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N22",
+    "newGoals": {
+      "call": 1,
+      "cook": 2,
+      "stock": 2,
+      "dress": 4,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G02"
+    ],
+    "targetArtID": "NIGHT.22",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 23,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 3,
+      "Design": 2,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N23",
+    "newGoals": {
+      "call": 2,
+      "cook": 3,
+      "stock": 2,
+      "dress": 2,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G03",
+      "G01"
+    ],
+    "targetArtID": "NIGHT.23",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 24,
+    "sourceEffectiveGoals": {
+      "Sound": 2,
+      "Programming": 3,
+      "Design": 3,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N24",
+    "newGoals": {
+      "call": 2,
+      "cook": 3,
+      "stock": 3,
+      "dress": 2,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G04",
+      "G05"
+    ],
+    "targetArtID": "NIGHT.24",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 25,
+    "sourceEffectiveGoals": {
+      "Sound": 3,
+      "Programming": 2,
+      "Design": 2,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 2,
+    "targetContractID": "N25",
+    "newGoals": {
+      "call": 3,
+      "cook": 2,
+      "stock": 2,
+      "dress": 3,
+      "ward": 2
+    },
+    "newGuestIDs": [
+      "G01",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.25",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 26,
+    "sourceEffectiveGoals": {
+      "Sound": 3,
+      "Programming": 2,
+      "Design": 1,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N26",
+    "newGoals": {
+      "call": 3,
+      "cook": 2,
+      "stock": 1,
+      "dress": 3,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G02",
+      "G05"
+    ],
+    "targetArtID": "NIGHT.26",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 27,
+    "sourceEffectiveGoals": {
+      "Sound": 1,
+      "Programming": 2,
+      "Design": 3,
+      "Art": 3,
+      "Testing": 2
+    },
+    "sourceAnimation": 3,
+    "targetContractID": "N27",
+    "newGoals": {
+      "call": 1,
+      "cook": 2,
+      "stock": 3,
+      "dress": 3,
+      "ward": 3
+    },
+    "newGuestIDs": [
+      "G03",
+      "G04"
+    ],
+    "targetArtID": "NIGHT.27",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  },
+  {
+    "sourceID": 28,
+    "sourceEffectiveGoals": {
+      "Sound": 3,
+      "Programming": 3,
+      "Design": 3,
+      "Art": 2,
+      "Testing": 2
+    },
+    "sourceAnimation": 1,
+    "targetContractID": "N28",
+    "newGoals": {
+      "call": 3,
+      "cook": 3,
+      "stock": 3,
+      "dress": 2,
+      "ward": 1
+    },
+    "newGuestIDs": [
+      "G04",
+      "G05"
+    ],
+    "targetArtID": "NIGHT.28",
+    "policy": "original-redesign",
+    "reason": "保留原始五字段合计12；Animation明确改作安检目标，修正原加载器固定Testing=2的错配"
+  }
+]

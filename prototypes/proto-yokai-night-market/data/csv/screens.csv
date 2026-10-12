@@ -1,0 +1,13 @@
+id,name,textKeys,background,defaultFocus,escape,mouseKeyboard,gamepad,actionKeys,focusFallback
+title,主菜单,"[""ui.new"",""ui.continue"",""ui.free"",""ui.settings"",""ui.credits"",""ui.quit""]",BG.title,ui.new,cancel_or_parent,True,False,"[""ui.new"",""ui.continue"",""ui.free"",""ui.settings"",""ui.credits"",""ui.quit""]",
+chapter,章节记事,"[""ui.skip"",""ui.next"",""ui.replayStory""]",BG.chapter,ui.next,cancel_or_parent,True,False,"[""ui.skip"",""ui.next"",""ui.replayStory""]",
+contract,委托选择,"[""ui.contract"",""ui.guests"",""ui.confirm"",""ui.cancel""]",BG.board,ui.confirm,cancel_or_parent,True,False,"[""ui.confirm"",""ui.cancel""]",
+board,筹备桌面,"[""ui.endTurn"",""ui.stock"",""ui.log"",""ui.openCheck"",""ui.settings""]",BG.board,ui.endTurn,cancel_or_parent,True,False,"[""ui.endTurn"",""ui.stock"",""ui.log"",""ui.openCheck"",""ui.settings""]",
+reaction,检查反应,"[""ui.counter"",""ui.accept"",""ui.reaction""]",BG.board,ui.counter,cancel_or_parent,True,False,"[""ui.counter"",""ui.accept""]",ui.accept
+inventory,旧货车,"[""ui.buy"",""ui.sell"",""ui.move"",""ui.mode"",""ui.cancel""]",BG.board,ui.cancel,cancel_or_parent,True,False,"[""ui.buy"",""ui.sell"",""ui.move"",""ui.mode"",""ui.cancel""]",
+pause,暂停设置,"[""ui.resume"",""ui.save"",""ui.returnTitle"",""ui.remap"",""ui.retrySave"",""ui.noSaveExit"",""ui.saveAndExit""]",BG.board,ui.resume,cancel_or_parent,True,False,"[""ui.resume"",""ui.save"",""ui.returnTitle"",""ui.remap"",""ui.retrySave"",""ui.noSaveExit"",""ui.saveAndExit""]",
+result,开张结果,"[""ui.win"",""ui.lose"",""ui.draw"",""ui.playAgain"",""ui.returnTitle""]",BG.result,ui.playAgain,cancel_or_parent,True,False,"[""ui.playAgain"",""ui.returnTitle""]",
+recover,存档恢复,"[""error.saveCorrupt"",""error.saveNewer"",""error.noBackup"",""ui.new"",""ui.cancel"",""ui.restoreBackup"",""ui.keepDamagedNew"",""ui.slotA"",""ui.slotB""]",BG.title,ui.restoreBackup,cancel_or_parent,True,False,"[""ui.restoreBackup"",""ui.keepDamagedNew"",""ui.slotA"",""ui.slotB"",""ui.new"",""ui.cancel""]",ui.new
+help,规矩手册,"[""ui.help"",""ui.next"",""ui.cancel"",""ui.tutorial""]",BG.board,ui.next,cancel_or_parent,True,False,"[""ui.next"",""ui.cancel"",""ui.tutorial""]",
+credits,制作许可,"[""ui.credits"",""ui.returnTitle""]",BG.title,ui.returnTitle,cancel_or_parent,True,False,"[""ui.returnTitle""]",
+bindings,按键绑定,"[""ui.remap"",""ui.confirm"",""ui.cancel"",""error.binding"",""ui.swapBinding""]",BG.board,ui.cancel,cancel_or_parent,True,False,"[""ui.confirm"",""ui.cancel"",""ui.swapBinding""]",

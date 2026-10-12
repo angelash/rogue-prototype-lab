@@ -1,0 +1,25 @@
+id,brief,durationSeconds,bus,loop,method,seed,sampleRate,channels,sourcePath,runtimePath,peakDbfs,lufs,priority,maxVoices,status,bpm,sourceBitDepth,oggQuality
+MUS.title,木敲、竹笛、低音拨弦，温和的夜市招呼，72 BPM,80,music,True,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42000,48000,2,audio/source/MUS.title.wav,UnityProject/Assets/Game/Audio/MUS.title.ogg,-1,-18,50,1,specified,72,24,5
+MUS.prepare,短木敲与克制拨弦，稳定筹备节奏，96 BPM,80,music,True,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42001,48000,2,audio/source/MUS.prepare.wav,UnityProject/Assets/Game/Audio/MUS.prepare.ogg,-1,-18,50,1,specified,96,24,5
+MUS.final,更紧凑的木敲，五回合末段，108 BPM,80,music,True,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42002,48000,2,audio/source/MUS.final.wav,UnityProject/Assets/Game/Audio/MUS.final.ogg,-1,-18,50,1,specified,108,24,5
+MUS.result,竹笛短句和木铃收尾,12,music,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42003,48000,2,audio/source/MUS.result.wav,UnityProject/Assets/Game/Audio/MUS.result.ogg,-1,-18,50,3,specified,80,24,5
+AMB.market,低声风与远处无语义摊声，不含可辨人声,40,ambience,True,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42004,48000,2,audio/source/AMB.market.wav,UnityProject/Assets/Game/Audio/AMB.market.ogg,-1,-22,50,1,specified,,24,4
+SFX.card,纸卡落木桌,0.15,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42005,48000,1,audio/source/SFX.card.wav,UnityProject/Assets/Game/Audio/SFX.card.ogg,-1,,50,3,specified,,24,6
+SFX.worker,轻木敲，派工,0.22,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42006,48000,1,audio/source/SFX.worker.wav,UnityProject/Assets/Game/Audio/SFX.worker.ogg,-1,,50,3,specified,,24,6
+SFX.work,木榫入位，推进,0.2,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42007,48000,1,audio/source/SFX.work.wav,UnityProject/Assets/Game/Audio/SFX.work.ogg,-1,,50,3,specified,,24,6
+SFX.done,清脆铜铃，任务完成,0.4,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42008,48000,1,audio/source/SFX.done.wav,UnityProject/Assets/Game/Audio/SFX.done.ogg,-1,,50,3,specified,,24,6
+SFX.block,低木敲，停工,0.25,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42009,48000,1,audio/source/SFX.block.wav,UnityProject/Assets/Game/Audio/SFX.block.ogg,-1,,50,3,specified,,24,6
+SFX.repair,布绳拉紧，解障,0.28,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42010,48000,1,audio/source/SFX.repair.wav,UnityProject/Assets/Game/Audio/SFX.repair.ogg,-1,,50,3,specified,,24,6
+SFX.inspect,木印落纸,0.24,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42011,48000,1,audio/source/SFX.inspect.wav,UnityProject/Assets/Game/Audio/SFX.inspect.ogg,-1,,50,3,specified,,24,6
+SFX.counter,柔和双铃，说和,0.32,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42012,48000,1,audio/source/SFX.counter.wav,UnityProject/Assets/Game/Audio/SFX.counter.ogg,-1,,50,3,specified,,24,6
+SFX.facility,木器轻放,0.22,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42013,48000,1,audio/source/SFX.facility.wav,UnityProject/Assets/Game/Audio/SFX.facility.ogg,-1,,50,3,specified,,24,6
+SFX.mode,短木扣，切换用途,0.15,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42014,48000,1,audio/source/SFX.mode.wav,UnityProject/Assets/Game/Audio/SFX.mode.ogg,-1,,50,3,specified,,24,6
+SFX.coin,单枚铜币触木,0.18,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42015,48000,1,audio/source/SFX.coin.wav,UnityProject/Assets/Game/Audio/SFX.coin.ogg,-1,,50,3,specified,,24,6
+SFX.end,一记低鼓，回合结束,0.3,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42016,48000,1,audio/source/SFX.end.wav,UnityProject/Assets/Game/Audio/SFX.end.ogg,-1,,50,3,specified,,24,6
+SFX.win,三声递升铜铃,1.1,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42017,48000,1,audio/source/SFX.win.wav,UnityProject/Assets/Game/Audio/SFX.win.ogg,-1,,90,3,specified,,24,6
+SFX.lose,低鼓与轻木敲收尾,0.8,sfx,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42018,48000,1,audio/source/SFX.lose.wav,UnityProject/Assets/Game/Audio/SFX.lose.ogg,-1,,50,3,specified,,24,6
+HUD.focus,短干木点,0.08,ui,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42019,48000,1,audio/source/HUD.focus.wav,UnityProject/Assets/Game/Audio/HUD.focus.ogg,-1,,50,3,specified,,24,6
+HUD.confirm,轻铜点,0.12,ui,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42020,48000,1,audio/source/HUD.confirm.wav,UnityProject/Assets/Game/Audio/HUD.confirm.ogg,-1,,50,3,specified,,24,6
+HUD.error,两记低木点,0.18,ui,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42021,48000,1,audio/source/HUD.error.wav,UnityProject/Assets/Game/Audio/HUD.error.ogg,-1,,90,3,specified,,24,6
+HUD.pause,布页展开,0.15,ui,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42022,48000,1,audio/source/HUD.pause.wav,UnityProject/Assets/Game/Audio/HUD.pause.ogg,-1,,50,3,specified,,24,6
+HUD.save,单木点与轻铃,0.18,ui,False,原创本地合成/编排，保留脚本与MIDI或参数；不沿用原作音轨,42023,48000,1,audio/source/HUD.save.wav,UnityProject/Assets/Game/Audio/HUD.save.ogg,-1,,50,3,specified,,24,6

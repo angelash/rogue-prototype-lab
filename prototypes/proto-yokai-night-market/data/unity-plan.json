@@ -1,0 +1,42 @@
+{
+  "editor": "2022.3.62f3c1",
+  "editorPath": "D:/Program files/2022.3.62f3c1/Editor/Unity.exe",
+  "projectPath": "UnityProject",
+  "scene": "Assets/Game/Scenes/NightMarket.unity",
+  "buildTarget": "StandaloneWindows64",
+  "scriptingBackend": "Mono",
+  "colorSpace": "Linear",
+  "renderPipeline": "Built-in",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0"
+  },
+  "identity": {
+    "title": "妖怪夜市开张",
+    "englishTitle": "Yokai Night Market",
+    "contentVersion": "ynm-content-1",
+    "rulesVersion": "ynm-rules-1",
+    "saveVersion": 1,
+    "date": "2026-10-12",
+    "authority": "助手设计定稿；用户已确定题材及完整设计准备范围",
+    "stage": "design-ready",
+    "unityVersion": "2022.3.62f3c1",
+    "productName": "YokaiNightMarket",
+    "companyName": "RoguePrototypeLab",
+    "productGuid": "e980480b9a19473ca8a49df3e544e365"
+  },
+  "status": "specified-not-created",
+  "packageResolution": "not-executed",
+  "versionEvidence": {
+    "ugui": "Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/package.json",
+    "tmp": "F:/workspace/Demo2022/Library/PackageCache/com.unity.textmeshpro@3.0.7/package.json",
+    "testFramework": "../proto-013-ring-toss/game/RingTossWorkshop/Packages/manifest.json"
+  }
+}

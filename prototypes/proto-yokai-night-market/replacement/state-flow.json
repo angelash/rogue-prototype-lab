@@ -1,0 +1,146 @@
+[
+  {
+    "sourceState": -2,
+    "sourceRole": "退出",
+    "targetState": "退出确认＋保存后退出",
+    "policy": "redefined",
+    "decision": "移除Esc长按直接退出",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": -1,
+    "sourceRole": "重载",
+    "targetState": "Initialize或Load",
+    "policy": "redefined",
+    "decision": "确认后重开或读取完整检查点",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 0,
+    "sourceRole": "加载",
+    "targetState": "Bootstrap＋SaveValidation",
+    "policy": "redefined",
+    "decision": "唯一JSON权威与独立产品身份",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 1,
+    "sourceRole": "标题",
+    "targetState": "Title",
+    "policy": "redefined",
+    "decision": "原创夜市标题/背景/入口",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 2,
+    "sourceRole": "开始",
+    "targetState": "ChapterSelect",
+    "policy": "redefined",
+    "decision": "章解锁与教学seen判断",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 9,
+    "sourceRole": "教学",
+    "targetState": "TutorialSession",
+    "policy": "redefined",
+    "decision": "14步固定状态，共用Core，隔离奖励",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 10,
+    "sourceRole": "项目选择",
+    "targetState": "ContractSelect",
+    "policy": "redefined",
+    "decision": "28开张委托与公开来客",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 11,
+    "sourceRole": "准备手牌",
+    "targetState": "Initialize",
+    "policy": "redefined",
+    "decision": "固定五岗位手牌＋独立洗牌流",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 12,
+    "sourceRole": "开局标题",
+    "targetState": "ContractOpening",
+    "policy": "redefined",
+    "decision": "显示委托原创开场，不改变规则",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 15,
+    "sourceRole": "回合标题",
+    "targetState": "BeginTurnPresentation",
+    "policy": "redefined",
+    "decision": "事件显示，不自行推进规则",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 16,
+    "sourceRole": "自动修补",
+    "targetState": "MainAction.Repair",
+    "policy": "redefined",
+    "decision": "取消自动消耗，改为玩家花1AP修补",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 18,
+    "sourceRole": "工作推进",
+    "targetState": "BeginTurn.Work",
+    "policy": "redefined",
+    "decision": "未受阻工作先于补牌，工作序号稳定",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 25,
+    "sourceRole": "抽牌",
+    "targetState": "Draw",
+    "policy": "redefined",
+    "decision": "第二轮开始补牌，空牌堆重洗及12手上限",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 26,
+    "sourceRole": "出牌",
+    "targetState": "MainAction",
+    "policy": "redefined",
+    "decision": "三行动、设施改造、显式目标确认",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 17,
+    "sourceRole": "负面时长",
+    "targetState": "EndTurn.BlockExpiry",
+    "policy": "redefined",
+    "decision": "受影响方自己的回合末减少，独立实例到期",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 30,
+    "sourceRole": "换回合",
+    "targetState": "RoundCheck＋NextTurn",
+    "policy": "redefined",
+    "decision": "双方完成再检查，逐轮交换先后",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 50,
+    "sourceRole": "结束",
+    "targetState": "Result＋ResultCommit",
+    "policy": "redefined",
+    "decision": "核心判定，幂等奖励，玩家正式本地榜",
+    "targetSpec": "design/02-rules.md"
+  },
+  {
+    "sourceState": 80,
+    "sourceRole": "暂停",
+    "targetState": "PauseOverlay",
+    "policy": "redefined",
+    "decision": "保留底层状态/反应，不随墙钟推进",
+    "targetSpec": "design/02-rules.md"
+  }
+]

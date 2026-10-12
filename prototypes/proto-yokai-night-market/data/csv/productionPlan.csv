@@ -1,0 +1,8 @@
+id,name,deliverables,gate,status,owner
+P01,锁定设计与准备数据,本轮文档、数值、替换清单、提示词、校验报告,全部设计引用闭合，源420键/95卡/28项目/74资源/1985对象/30业务类均有处置,design-ready,assistant
+P02,独立Unity骨架与规则内核,产品身份、Core/Application/View/Storage分层、命令/状态/随机,全部黄金规则用例执行；规则不引用UnityEngine,not-started,assistant
+P03,存档与首章灰盒,首章4委托、全设施规则、95卡效果均可调用、AI、恢复,键鼠完整闭环、恢复故障通过、独立Windows候选包,not-started,assistant
+P04,代表成品资产与UI,CHR.007/FAC.F01/BG.board/EVT.044/三类音频样件与教程,Player内缩小读图、透明边缘、因果反馈和真实听感通过,not-started,assistant
+P05,全部正式内容,28委托、7章剧情、全部图片/音频/文本导入,全清单生产与来源记录、全文字形/所有事件映射通过,not-started,assistant
+P06,全量QA与平衡迭代,真实新玩家记录、难度/种子样本、存档迁移、目标机性能,假设门槛通过或有明确规则删改记录；所有阻断缺陷关闭,not-started,assistant
+P07,发行候选材料,Release、许可、真实截图/演示、商店文案、支持与恢复说明,本地发行门通过；平台账号/签署/上传另按真实条件,not-started,assistant

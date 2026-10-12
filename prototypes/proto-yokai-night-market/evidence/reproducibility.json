@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-12",
+  "catalogSha256": "564b6fe8140650811e20fb781c8feec1ec654ac281b40d220e495195e3bcc773",
+  "independentJsonSchemaErrors": 0,
+  "deterministicDerivation": true,
+  "sourceFileCountExcludingSelfAndVerification": 358,
+  "scope": "设计数据与派生字节，不是Unity测试"
+}
