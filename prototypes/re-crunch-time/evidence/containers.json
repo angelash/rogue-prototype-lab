@@ -1,0 +1,63 @@
+[
+  {
+    "name": "mainData",
+    "unityVersion": "4.5.2f1",
+    "objects": 1547,
+    "externals": [
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "resources.assets",
+    "unityVersion": "4.5.2f1",
+    "objects": 74,
+    "externals": [
+      {
+        "path": "library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets0.assets",
+    "unityVersion": "4.5.2f1",
+    "objects": 280,
+    "externals": [
+      {
+        "path": "library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources/unity_builtin_extra",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "unity default resources",
+    "unityVersion": "4.5.0f1",
+    "objects": 82,
+    "externals": []
+  },
+  {
+    "name": "unity_builtin_extra",
+    "unityVersion": "4.5.2f1",
+    "objects": 2,
+    "externals": []
+  }
+]

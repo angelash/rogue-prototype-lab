@@ -1,0 +1,236 @@
+{
+  "cards": 95,
+  "projects": 28,
+  "cardTypes": {
+    "0": 6,
+    "1": 12,
+    "2": 6,
+    "3": 12,
+    "4": 6,
+    "6": 20,
+    "7": 6,
+    "8": 13,
+    "9": 5,
+    "10": 2,
+    "11": 7
+  },
+  "workerTurns": {
+    "2": 21,
+    "4": 21
+  },
+  "platforms": {
+    "Oui": 4,
+    "X720": 7,
+    "Doors OS": 7,
+    "EnjoyStation": 9,
+    "Touch OS": 1
+  },
+  "projectTotalTasks": {
+    "12": 12,
+    "13": 10,
+    "11": 6
+  },
+  "ignoredAnimationValues": {
+    "2": 12,
+    "1": 10,
+    "3": 6
+  },
+  "testingDiffersFromAnimationIDs": [
+    3,
+    4,
+    5,
+    6,
+    11,
+    12,
+    14,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    26,
+    27,
+    28
+  ],
+  "localizationSources": {
+    "Texts": 79,
+    "TextsProjects": 56,
+    "TextsCards": 285
+  },
+  "localizationKeys": 420,
+  "translationCells": 840,
+  "emptyTranslationCells": 4,
+  "cardSpriteLinks": 95,
+  "uniqueCardPictures": 28,
+  "resourceKeys": 74,
+  "sceneObjects": 462,
+  "sceneRoots": [
+    {
+      "id": "mainData:19",
+      "name": "30 CardSelector"
+    },
+    {
+      "id": "mainData:28",
+      "name": "61 Fader"
+    },
+    {
+      "id": "mainData:55",
+      "name": "20 CardBase"
+    },
+    {
+      "id": "mainData:99",
+      "name": "90 Tutorial"
+    },
+    {
+      "id": "mainData:123",
+      "name": "64 Count"
+    },
+    {
+      "id": "mainData:148",
+      "name": "64 Count2nd"
+    },
+    {
+      "id": "mainData:174",
+      "name": "00 Core"
+    },
+    {
+      "id": "mainData:227",
+      "name": "60 Title Background"
+    },
+    {
+      "id": "mainData:233",
+      "name": "01 Positions"
+    },
+    {
+      "id": "mainData:279",
+      "name": "62 SubFader"
+    },
+    {
+      "id": "mainData:293",
+      "name": "50 Options"
+    },
+    {
+      "id": "mainData:323",
+      "name": "65 Exit"
+    },
+    {
+      "id": "mainData:334",
+      "name": "60 Title Manager"
+    },
+    {
+      "id": "mainData:375",
+      "name": "65 Exit2nd"
+    },
+    {
+      "id": "mainData:384",
+      "name": "50 Buttons"
+    },
+    {
+      "id": "mainData:395",
+      "name": "63 OptFader"
+    },
+    {
+      "id": "mainData:403",
+      "name": "03 Camera"
+    },
+    {
+      "id": "mainData:458",
+      "name": "25 CardProjectBase"
+    }
+  ],
+  "behaviourClasses": {
+    "Loader": 1,
+    "AI": 1,
+    "Options": 1,
+    "Fader": 3,
+    "TaskIcon": 5,
+    "TextOutline": 14,
+    "Rumble": 7,
+    "PlayCard": 1,
+    "Continue": 2,
+    "SoundManager": 1,
+    "CardManager": 1,
+    "MusicManager": 1,
+    "Stamp": 2,
+    "ScoreCard": 2,
+    "TitleManager": 1,
+    "ProjectCard": 1,
+    "Tutorial": 1,
+    "GUISkin": 1
+  },
+  "states": [
+    {
+      "name": "ST_QUIT",
+      "id": -2
+    },
+    {
+      "name": "ST_RELOAD",
+      "id": -1
+    },
+    {
+      "name": "ST_LOADING",
+      "id": 0
+    },
+    {
+      "name": "ST_TITLE_CT",
+      "id": 1
+    },
+    {
+      "name": "ST_START",
+      "id": 2
+    },
+    {
+      "name": "ST_TUTORIAL",
+      "id": 9
+    },
+    {
+      "name": "ST_INI_PROJECT_SELEC",
+      "id": 10
+    },
+    {
+      "name": "ST_INI_PREPARE_HAND",
+      "id": 11
+    },
+    {
+      "name": "ST_INI_TITLE_START",
+      "id": 12
+    },
+    {
+      "name": "ST_TITLE_PLAYER",
+      "id": 15
+    },
+    {
+      "name": "ST_RESOLVE_SPECIALS",
+      "id": 16
+    },
+    {
+      "name": "ST_RESOLVE_TABLE_DEV",
+      "id": 18
+    },
+    {
+      "name": "ST_GET_CARDS",
+      "id": 25
+    },
+    {
+      "name": "ST_PLAY_CARDS",
+      "id": 26
+    },
+    {
+      "name": "ST_RESOLVE_TABLE_NEG",
+      "id": 17
+    },
+    {
+      "name": "ST_NEXT_TURN",
+      "id": 30
+    },
+    {
+      "name": "ST_END_GAME",
+      "id": 50
+    },
+    {
+      "name": "ST_PAUSE",
+      "id": 80
+    }
+  ]
+}

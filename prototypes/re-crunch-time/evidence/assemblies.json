@@ -1,0 +1,139 @@
+[
+  {
+    "assembly": "Assembly-CSharp",
+    "version": "0.0.0.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [
+      {
+        "name": "UnityEngine",
+        "version": "0.0.0.0"
+      },
+      {
+        "name": "mscorlib",
+        "version": "2.0.5.0"
+      },
+      {
+        "name": "System.Xml",
+        "version": "2.0.5.0"
+      }
+    ],
+    "typeCount": 40,
+    "methodCount": 663,
+    "fieldCount": 959,
+    "failures": [],
+    "methodsWithIL": 643,
+    "decompiledCSFiles": 31,
+    "decompiledCSBytes": 312695
+  },
+  {
+    "assembly": "Mono.Security",
+    "version": "2.0.5.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [
+      {
+        "name": "mscorlib",
+        "version": "2.0.5.0"
+      },
+      {
+        "name": "System",
+        "version": "2.0.5.0"
+      }
+    ],
+    "typeCount": 222,
+    "methodCount": 1824,
+    "fieldCount": 891,
+    "failures": [],
+    "methodsWithIL": 1755,
+    "decompiledCSFiles": 149,
+    "decompiledCSBytes": 607466
+  },
+  {
+    "assembly": "mscorlib",
+    "version": "2.0.5.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [],
+    "typeCount": 1809,
+    "methodCount": 16978,
+    "fieldCount": 6798,
+    "failures": [],
+    "methodsWithIL": 14597,
+    "decompiledCSFiles": 1580,
+    "decompiledCSBytes": 4408559
+  },
+  {
+    "assembly": "System",
+    "version": "2.0.5.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [
+      {
+        "name": "mscorlib",
+        "version": "2.0.5.0"
+      },
+      {
+        "name": "System",
+        "version": "2.0.5.0"
+      },
+      {
+        "name": "Mono.Security",
+        "version": "2.0.5.0"
+      }
+    ],
+    "typeCount": 851,
+    "methodCount": 7447,
+    "fieldCount": 5744,
+    "failures": [],
+    "methodsWithIL": 6637,
+    "decompiledCSFiles": 712,
+    "decompiledCSBytes": 1963543
+  },
+  {
+    "assembly": "System.Xml",
+    "version": "2.0.5.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [
+      {
+        "name": "mscorlib",
+        "version": "2.0.5.0"
+      },
+      {
+        "name": "System",
+        "version": "2.0.5.0"
+      }
+    ],
+    "typeCount": 747,
+    "methodCount": 7743,
+    "fieldCount": 3120,
+    "failures": [],
+    "methodsWithIL": 7451,
+    "decompiledCSFiles": 658,
+    "decompiledCSBytes": 2585853
+  },
+  {
+    "assembly": "UnityEngine",
+    "version": "0.0.0.0",
+    "machine": "I386",
+    "corFlags": "ILOnly",
+    "references": [
+      {
+        "name": "mscorlib",
+        "version": "2.0.0.0"
+      },
+      {
+        "name": "System",
+        "version": "2.0.0.0"
+      }
+    ],
+    "typeCount": 547,
+    "methodCount": 6665,
+    "fieldCount": 2087,
+    "failures": [],
+    "methodsWithIL": 3590,
+    "decompiledCSFiles": 511,
+    "decompiledCSBytes": 1082223
+  }
+]

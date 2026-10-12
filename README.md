@@ -9,6 +9,7 @@
 - 当前完成范围：资料与设计、仓库备份、能力审计、隔离工具探针，以及 013 的首个三维单摊、初始 Blender 模型 Resources 接入与 48/48 EditMode 测试通过（旧 30 项＋新三维 18 项）。Windows x64 Mono 构建已完成，隔离相机渲染图已生成并目检；版本、大小、图与日志见 [本轮开发记录](docs/development/proto-013/2026-10-09-p0.md)。该相机图不含 IMGUI 覆盖层。旧二维窗口 QA 保留为历史；该轮曾观察到锁屏，三维正常键鼠 QA 尚未通过，隔离渲染不代替真实操作验收。用户已明确后续开发全部由助手处理。
 - 仓库：[angelash/rogue-prototype-lab](https://github.com/angelash/rogue-prototype-lab)（公开）；主分支 `main`，远程名 `origin`。
 - 日常上传、校验和恢复步骤见 [仓库与备份管理](docs/version-control.md)。
+- 2026-10-12 新增 [Crunch Time! 逆向分析项目](prototypes/re-crunch-time/README.md)：本机指定构建的全量托管代码、内容与资产分析；报告/工具/索引备份，第三方原件与导出仅本机保存。
 
 ## 先读这些文档
 

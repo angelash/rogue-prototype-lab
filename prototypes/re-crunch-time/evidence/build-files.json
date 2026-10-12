@@ -1,0 +1,152 @@
+[
+  {
+    "path": "CrunchTime.exe",
+    "bytes": 14780928,
+    "sha256": "400d01d7cf98dc7496f30f0c7f256b9ec00f3fd899610129701a590f79375461",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/mainData",
+    "bytes": 152748,
+    "sha256": "c250bfcc5ca621b79eb8c894187b469ae2c7c368109c458c87fd314cef9f8da5",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/Assembly-CSharp.dll",
+    "bytes": 162816,
+    "sha256": "ff040d46a618e7a94c0c92e40a9d598542ae918e6a6231eec0e893df8237e310",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/Mono.Security.dll",
+    "bytes": 292864,
+    "sha256": "738131d8369a5338618e6cf44d0da3d272158b285f62c9f0723f072f6900eb68",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/mscorlib.dll",
+    "bytes": 2496512,
+    "sha256": "324d74b80abb06f3107d8c2afb95dedf93da412979665d5ae575445f9675b501",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/System.dll",
+    "bytes": 1069568,
+    "sha256": "b9d5d1c6af7b8207cc194d022167a1f6c3d041831e36c63794eb80382178412c",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/System.Xml.dll",
+    "bytes": 1232384,
+    "sha256": "1066a45ed74a5abc75f8d0967a50ec9c7bba6037bf9f568955adb5e3e79586e1",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Managed/UnityEngine.dll",
+    "bytes": 590848,
+    "sha256": "dd26514f12c935e7d74bc104ee525ddb8c473c9bce8474dbbf5eac3fcdb573cd",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 58196,
+    "sha256": "d87d5196b2ae2abf4e673315e1fd22c3a44df80192f23e89b78108579c287524",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/1.0/machine.config",
+    "bytes": 17259,
+    "sha256": "1ba3755323483de257587a7276180c65d96824d441f95feb28f819e77a0cf767",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/Browsers/Compat.browser",
+    "bytes": 1605,
+    "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60453,
+    "sha256": "ae044cd9cc2c7c42f8864195125ab440472d657e5f0d55e131f7890bd45c518a",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/machine.config",
+    "bytes": 27626,
+    "sha256": "2d2fccb3f1afe931f7f4df289caf9fcfa31578b4fb4e1f610d3530832848e70a",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/settings.map",
+    "bytes": 2618,
+    "sha256": "ca89036b7d7f1ae9311a6a2fbcf05fc5b997bd43fd21dd54e11c18018ef65f08",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/web.config",
+    "bytes": 11686,
+    "sha256": "3c1a76a5849074b437d297656a208a3bef6d84b982153542b9c797046c601dfc",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/browscap.ini",
+    "bytes": 311984,
+    "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/config",
+    "bytes": 1691,
+    "sha256": "b585c70c70c88b3e03489361558f5d711c2ef71df9baaf37d92dbf95fbf6cd92",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/mconfig/config.xml",
+    "bytes": 25817,
+    "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Mono/mono.dll",
+    "bytes": 2597376,
+    "sha256": "34588e1074cee9127fe2d1e91f7c2e01e492fe140af83ef5b80f946ce65d9978",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/PlayerConnectionConfigFile",
+    "bytes": 21,
+    "sha256": "976d94720c9fe36dcd8a899fa8ceec6d5038aed20458dc0d6036dbf47efee109",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Resources/unity default resources",
+    "bytes": 1594013,
+    "sha256": "0b55b6f67b4ad8c98f2b10243bc6dc28d38fd0ebbc4307f1d76bb8fa4431cd7b",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/Resources/unity_builtin_extra",
+    "bytes": 355352,
+    "sha256": "d91a3fe12ea9cdce40fb67f26088c72a57eba8d68e4c206ae8ff8a9fbea8caf6",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/resources.assets",
+    "bytes": 108875884,
+    "sha256": "d74eb278a2c945d0df21ca64316a69577f3e40747f29b4c13af00d4d7058e258",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/ScreenSelector.bmp",
+    "bytes": 211302,
+    "sha256": "1c1e39114a6eadcb2b50b493a6b9d336f5eff2242885b1d48c8418b0cd6d7248",
+    "copyMatches": true
+  },
+  {
+    "path": "CrunchTime_Data/sharedassets0.assets",
+    "bytes": 272189848,
+    "sha256": "a145247621ebb8816768a90215ba9463724496bed4e2a47d0fa63522de0fa2d2",
+    "copyMatches": true
+  }
+]

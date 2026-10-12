@@ -1,0 +1,1443 @@
+{
+  "cards": [
+    {
+      "ID": 1,
+      "Type": 0,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGuy",
+      "spriteID": "resources.assets:50"
+    },
+    {
+      "ID": 2,
+      "Type": 0,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGirl",
+      "spriteID": "sharedassets0.assets:231"
+    },
+    {
+      "ID": 3,
+      "Type": 0,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGuy",
+      "spriteID": "resources.assets:50"
+    },
+    {
+      "ID": 4,
+      "Type": 0,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGuy",
+      "spriteID": "resources.assets:50"
+    },
+    {
+      "ID": 5,
+      "Type": 0,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGirl",
+      "spriteID": "sharedassets0.assets:231"
+    },
+    {
+      "ID": 6,
+      "Type": 0,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "SNDGirl",
+      "spriteID": "sharedassets0.assets:231"
+    },
+    {
+      "ID": 7,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 8,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 9,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 10,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 11,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 12,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGirl",
+      "spriteID": "resources.assets:73"
+    },
+    {
+      "ID": 13,
+      "Type": 1,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGirl",
+      "spriteID": "resources.assets:73"
+    },
+    {
+      "ID": 14,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 15,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 16,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGirl",
+      "spriteID": "resources.assets:73"
+    },
+    {
+      "ID": 17,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGirl",
+      "spriteID": "resources.assets:73"
+    },
+    {
+      "ID": 18,
+      "Type": 1,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "PRGGuy",
+      "spriteID": "resources.assets:74"
+    },
+    {
+      "ID": 19,
+      "Type": 2,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGirl",
+      "spriteID": "sharedassets0.assets:238"
+    },
+    {
+      "ID": 20,
+      "Type": 2,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGirl",
+      "spriteID": "sharedassets0.assets:238"
+    },
+    {
+      "ID": 21,
+      "Type": 2,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGuy",
+      "spriteID": "resources.assets:69"
+    },
+    {
+      "ID": 22,
+      "Type": 2,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGuy",
+      "spriteID": "resources.assets:69"
+    },
+    {
+      "ID": 23,
+      "Type": 2,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGirl",
+      "spriteID": "sharedassets0.assets:238"
+    },
+    {
+      "ID": 24,
+      "Type": 2,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "DSGGuy",
+      "spriteID": "resources.assets:69"
+    },
+    {
+      "ID": 25,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 26,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 27,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 28,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 29,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 30,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGuy",
+      "spriteID": "sharedassets0.assets:248"
+    },
+    {
+      "ID": 31,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 32,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 33,
+      "Type": 3,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 34,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 35,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 36,
+      "Type": 3,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "ARTGirl",
+      "spriteID": "sharedassets0.assets:263"
+    },
+    {
+      "ID": 37,
+      "Type": 4,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGirl",
+      "spriteID": "resources.assets:65"
+    },
+    {
+      "ID": 38,
+      "Type": 4,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGuy",
+      "spriteID": "sharedassets0.assets:250"
+    },
+    {
+      "ID": 39,
+      "Type": 4,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGuy",
+      "spriteID": "sharedassets0.assets:250"
+    },
+    {
+      "ID": 40,
+      "Type": 4,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGuy",
+      "spriteID": "sharedassets0.assets:250"
+    },
+    {
+      "ID": 41,
+      "Type": 4,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGirl",
+      "spriteID": "resources.assets:65"
+    },
+    {
+      "ID": 42,
+      "Type": 4,
+      "Turns": 4,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "TSTGirl",
+      "spriteID": "resources.assets:65"
+    },
+    {
+      "ID": 43,
+      "Type": 6,
+      "Turns": 1,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Meeting",
+      "spriteID": "sharedassets0.assets:233"
+    },
+    {
+      "ID": 44,
+      "Type": 6,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Light Off",
+      "spriteID": "resources.assets:56"
+    },
+    {
+      "ID": 45,
+      "Type": 6,
+      "Turns": 3,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Light Off",
+      "spriteID": "resources.assets:56"
+    },
+    {
+      "ID": 46,
+      "Type": 6,
+      "Turns": 1,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Attack",
+      "spriteID": "resources.assets:53"
+    },
+    {
+      "ID": 47,
+      "Type": 6,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Crash",
+      "spriteID": "resources.assets:49"
+    },
+    {
+      "ID": 48,
+      "Type": 6,
+      "Turns": 1,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Crash",
+      "spriteID": "resources.assets:49"
+    },
+    {
+      "ID": 49,
+      "Type": 6,
+      "Turns": 3,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Light Off",
+      "spriteID": "resources.assets:56"
+    },
+    {
+      "ID": 50,
+      "Type": 6,
+      "Turns": 2,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Light Off",
+      "spriteID": "resources.assets:56"
+    },
+    {
+      "ID": 51,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 0,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 52,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 0,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 53,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 54,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 55,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 56,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 2,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 57,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 2,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 58,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 3,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 59,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 3,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 60,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 3,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 61,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 4,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 62,
+      "Type": 6,
+      "Turns": 1,
+      "Target": 4,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Bug",
+      "spriteID": "resources.assets:59"
+    },
+    {
+      "ID": 63,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Hunger",
+      "spriteID": "resources.assets:57"
+    },
+    {
+      "ID": 64,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Hunger",
+      "spriteID": "resources.assets:57"
+    },
+    {
+      "ID": 65,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Sick",
+      "spriteID": "resources.assets:52"
+    },
+    {
+      "ID": 66,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Holidays",
+      "spriteID": "resources.assets:60"
+    },
+    {
+      "ID": 67,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Resignation",
+      "spriteID": "resources.assets:66"
+    },
+    {
+      "ID": 68,
+      "Type": 7,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Door",
+      "spriteID": "resources.assets:68"
+    },
+    {
+      "ID": 69,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All forward",
+      "spriteID": "resources.assets:64"
+    },
+    {
+      "ID": 70,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All forward",
+      "spriteID": "resources.assets:64"
+    },
+    {
+      "ID": 71,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All forward",
+      "spriteID": "resources.assets:64"
+    },
+    {
+      "ID": 72,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All finish",
+      "spriteID": "resources.assets:58"
+    },
+    {
+      "ID": 73,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All finish",
+      "spriteID": "resources.assets:58"
+    },
+    {
+      "ID": 74,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All finish",
+      "spriteID": "resources.assets:58"
+    },
+    {
+      "ID": 75,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 2,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All finish",
+      "spriteID": "resources.assets:58"
+    },
+    {
+      "ID": 76,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All depts",
+      "spriteID": "sharedassets0.assets:239"
+    },
+    {
+      "ID": 77,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All depts",
+      "spriteID": "sharedassets0.assets:239"
+    },
+    {
+      "ID": 78,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "All depts",
+      "spriteID": "sharedassets0.assets:239"
+    },
+    {
+      "ID": 79,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 3,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "List",
+      "spriteID": "resources.assets:61"
+    },
+    {
+      "ID": 80,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 3,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "List",
+      "spriteID": "resources.assets:61"
+    },
+    {
+      "ID": 81,
+      "Type": 8,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 3,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "List",
+      "spriteID": "resources.assets:61"
+    },
+    {
+      "ID": 82,
+      "Type": 9,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "44|45|49|50",
+      "Picture": "ITGuy",
+      "spriteID": "resources.assets:70"
+    },
+    {
+      "ID": 83,
+      "Type": 9,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "44|45|49|50",
+      "Picture": "ITGuy",
+      "spriteID": "resources.assets:70"
+    },
+    {
+      "ID": 84,
+      "Type": 9,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "44|45|49|50",
+      "Picture": "ITGuy",
+      "spriteID": "resources.assets:70"
+    },
+    {
+      "ID": 85,
+      "Type": 9,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "47|48",
+      "Picture": "ITGirl",
+      "spriteID": "resources.assets:67"
+    },
+    {
+      "ID": 86,
+      "Type": 9,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "47|48",
+      "Picture": "ITGirl",
+      "spriteID": "resources.assets:67"
+    },
+    {
+      "ID": 87,
+      "Type": 10,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Negotiator",
+      "spriteID": "resources.assets:71"
+    },
+    {
+      "ID": 88,
+      "Type": 10,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 0,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Negotiator",
+      "spriteID": "resources.assets:71"
+    },
+    {
+      "ID": 89,
+      "Type": 11,
+      "Turns": 0,
+      "Target": 1,
+      "Function": 0,
+      "Num": 2,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 90,
+      "Type": 11,
+      "Turns": 0,
+      "Target": 2,
+      "Function": 0,
+      "Num": 1,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 91,
+      "Type": 11,
+      "Turns": 0,
+      "Target": 3,
+      "Function": 0,
+      "Num": 2,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 92,
+      "Type": 11,
+      "Turns": 0,
+      "Target": 4,
+      "Function": 0,
+      "Num": 1,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 93,
+      "Type": 11,
+      "Turns": 0,
+      "Target": 0,
+      "Function": 0,
+      "Num": 1,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 94,
+      "Type": 11,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    },
+    {
+      "ID": 95,
+      "Type": 11,
+      "Turns": 0,
+      "Target": -1,
+      "Function": 1,
+      "Num": 0,
+      "Repair": "",
+      "Picture": "Phone",
+      "spriteID": "resources.assets:72"
+    }
+  ],
+  "projects": [
+    {
+      "ID": 1,
+      "platform": "Oui",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 4,
+        "Design": 1,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 2,
+      "platform": "Oui",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 4,
+        "Design": 1,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 3,
+      "platform": "Oui",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 5,
+        "Design": 1,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 4,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 5,
+        "Design": 1,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 5,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 5,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 6,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 5,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 7,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 4,
+        "Design": 1,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 8,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 4,
+        "Design": 1,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 9,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 10,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 11,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 5,
+        "Design": 2,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 12,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 2,
+        "Design": 2,
+        "Art": 5,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 13,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 5,
+        "Design": 2,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 14,
+      "platform": "Touch OS",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 2,
+        "Design": 2,
+        "Art": 5,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 15,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 16,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 17,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 4,
+        "Design": 1,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 18,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 4,
+        "Design": 2,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 19,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 3,
+        "Programming": 2,
+        "Design": 1,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 20,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 3,
+        "Programming": 2,
+        "Design": 2,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 21,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 4,
+        "Design": 3,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 22,
+      "platform": "Oui",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 2,
+        "Design": 2,
+        "Art": 4,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 23,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 3,
+        "Design": 2,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 24,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 2,
+        "Programming": 3,
+        "Design": 3,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 25,
+      "platform": "Doors OS",
+      "effectiveTasks": {
+        "Sound": 3,
+        "Programming": 2,
+        "Design": 2,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 12,
+      "ignoredAnimation": 2,
+      "testingDiffersFromAnimation": false
+    },
+    {
+      "ID": 26,
+      "platform": "X720",
+      "effectiveTasks": {
+        "Sound": 3,
+        "Programming": 2,
+        "Design": 1,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 27,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 1,
+        "Programming": 2,
+        "Design": 3,
+        "Art": 3,
+        "Testing": 2
+      },
+      "totalTasks": 11,
+      "ignoredAnimation": 3,
+      "testingDiffersFromAnimation": true
+    },
+    {
+      "ID": 28,
+      "platform": "EnjoyStation",
+      "effectiveTasks": {
+        "Sound": 3,
+        "Programming": 3,
+        "Design": 3,
+        "Art": 2,
+        "Testing": 2
+      },
+      "totalTasks": 13,
+      "ignoredAnimation": 1,
+      "testingDiffersFromAnimation": true
+    }
+  ]
+}

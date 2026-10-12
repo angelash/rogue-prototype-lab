@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-12",
+  "scope": "Static extraction and file decoding; no native gameplay, listening or original project rebuild",
+  "checks": [
+    {
+      "check": "25 original files inventoried",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original file set unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original and copy SHA256 match inventory after analysis",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "1985 unique objects",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All object trees parsed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Raw objects retain original hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All serialized trees saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "4443 pointer edges resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "46 MonoBehaviour scripts resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All 462 GameObjects have Transform components",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "95 cards, 28 projects, 420 texts, 18 states",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All card pictures link to Sprite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All resource keys resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Game metadata 40/663/959, no IL failures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All 6 managed assemblies indexed and decompiled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Every top-level game class has decompiled C#",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All nonempty export file hashes match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "14 empty exports are dynamic font textures and builtin Arial without payload",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All 345 nonempty exports decode",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 19,
+  "failed": 0,
+  "failures": [],
+  "mediaFiles": 345,
+  "verifiedMediaTypes": {
+    "Texture2D": 124,
+    "Shader": 22,
+    "TextAsset": 5,
+    "Sprite": 78,
+    "AudioClip": 91,
+    "Font": 12,
+    "Mesh": 13
+  },
+  "audioTotalSeconds": 626.750954,
+  "audioSecondsRange": [
+    0.071474,
+    42.665896
+  ],
+  "audioSampleRates": {
+    "44100": 91
+  }
+}

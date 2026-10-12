@@ -1,0 +1,86 @@
+{
+  "tool": "UnityPy 1.25.0; TypeTreeGeneratorAPI 0.0.10; legacy Sprite/Shader exporters",
+  "fileCount": 25,
+  "buildBytes": 407121399,
+  "copiesMatch": true,
+  "objectCount": 1985,
+  "types": {
+    "PlayerSettings": 1,
+    "InputManager": 1,
+    "TagManager": 1,
+    "AudioManager": 1,
+    "ScriptMapper": 1,
+    "MonoManager": 1,
+    "GraphicsSettings": 1,
+    "TimeManager": 1,
+    "DelayedCallManager": 1,
+    "PhysicsManager": 1,
+    "BuildSettings": 1,
+    "QualitySettings": 1,
+    "ResourceManager": 1,
+    "NetworkManager": 1,
+    "MasterServerInterface": 1,
+    "NavMeshProjectSettings": 1,
+    "Physics2DSettings": 1,
+    "GameObject": 462,
+    "Transform": 462,
+    "Camera": 1,
+    "MeshRenderer": 177,
+    "OcclusionCullingSettings": 1,
+    "MeshFilter": 23,
+    "BoxCollider2D": 9,
+    "MeshCollider": 10,
+    "AudioListener": 1,
+    "AudioSource": 23,
+    "TextMesh": 156,
+    "RenderSettings": 1,
+    "HaloManager": 1,
+    "LightmapSettings": 1,
+    "NavMeshSettings": 1,
+    "ParticleSystem": 1,
+    "ParticleSystemRenderer": 1,
+    "SpriteRenderer": 154,
+    "MonoBehaviour": 46,
+    "Material": 48,
+    "Texture2D": 137,
+    "Shader": 22,
+    "TextAsset": 5,
+    "Sprite": 78,
+    "PreloadData": 1,
+    "AudioClip": 91,
+    "MonoScript": 29,
+    "Font": 13,
+    "Mesh": 13
+  },
+  "treeStatuses": {
+    "ok": 1985
+  },
+  "exportStatuses": {
+    "Texture2D": {
+      "ok": 124,
+      "empty": 13
+    },
+    "Sprite": {
+      "ok": 78
+    },
+    "AudioClip": {
+      "ok": 91
+    },
+    "Mesh": {
+      "ok": 13
+    },
+    "Font": {
+      "ok": 12,
+      "empty": 1
+    },
+    "TextAsset": {
+      "ok": 5
+    },
+    "Shader": {
+      "ok": 22
+    }
+  },
+  "edges": 4443,
+  "unresolvedEdges": 0,
+  "failures": []
+}

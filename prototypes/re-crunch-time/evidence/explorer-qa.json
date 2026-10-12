@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-12",
+  "tool": "Playwright CLI (local Chrome session)",
+  "url": "http://127.0.0.1:8766/local/explorer.html",
+  "scope": "Local analysis browser; not the original game",
+  "passed": 21,
+  "failed": 0,
+  "checks": [
+    "95 card rows",
+    "Card pagination reaches ID 41",
+    "Card search returns one entry",
+    "Card image loaded",
+    "Seven headquarters cards",
+    "28 project rows",
+    "Effective Testing mismatch shown",
+    "1985 asset rows",
+    "91 audio rows",
+    "Audio export URL responds",
+    "Raw audio object URL responds",
+    "Audio serialized tree URL responds",
+    "Audio metadata playable in browser",
+    "40 type rows",
+    "Loader C# URL responds",
+    "Game IL URL responds",
+    "462 scene objects",
+    "420 translation rows",
+    "56 project translation keys",
+    "18 state rows",
+    "Mobile viewport has no page-wide horizontal overflow"
+  ],
+  "visualInspection": {
+    "desktop": "1440x1000, local/output/playwright/explorer-desktop.png, inspected",
+    "mobile": "390x844, local/output/playwright/explorer-mobile.png, inspected"
+  },
+  "notes": "Initial favicon-only 404 resolved with inline icon. Screenshots contain third-party artwork and remain local/ignored."
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "path": "CrunchTime.exe",
+    "bytes": 14780928,
+    "role": "Native engine / runtime PE"
+  },
+  {
+    "path": "CrunchTime_Data/mainData",
+    "bytes": 152748,
+    "role": "Unity serialized container; all objects parsed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/Assembly-CSharp.dll",
+    "bytes": 162816,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/Mono.Security.dll",
+    "bytes": 292864,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/mscorlib.dll",
+    "bytes": 2496512,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/System.dll",
+    "bytes": 1069568,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/System.Xml.dll",
+    "bytes": 1232384,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Managed/UnityEngine.dll",
+    "bytes": 590848,
+    "role": "Managed assembly; fully decompiled and indexed"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 58196,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/1.0/machine.config",
+    "bytes": 17259,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "configuration"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/Browsers/Compat.browser",
+    "bytes": 1605,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "browsers"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60453,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/machine.config",
+    "bytes": 27626,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "configuration"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/settings.map",
+    "bytes": 2618,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "settingsMap"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/2.0/web.config",
+    "bytes": 11686,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "configuration"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/browscap.ini",
+    "bytes": 311984,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "latin-1 lossless byte view (source encoding unconfirmed)"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/config",
+    "bytes": 1691,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "configuration"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/etc/mono/mconfig/config.xml",
+    "bytes": 25817,
+    "role": "Bundled Mono framework configuration or ASPX helper",
+    "textViewEncoding": "utf-8-sig",
+    "xmlRoot": "mconfig"
+  },
+  {
+    "path": "CrunchTime_Data/Mono/mono.dll",
+    "bytes": 2597376,
+    "role": "Native engine / runtime PE"
+  },
+  {
+    "path": "CrunchTime_Data/PlayerConnectionConfigFile",
+    "bytes": 21,
+    "role": "Unity player connection configuration; raw preserved"
+  },
+  {
+    "path": "CrunchTime_Data/Resources/unity default resources",
+    "bytes": 1594013,
+    "role": "Unity serialized container; all objects parsed"
+  },
+  {
+    "path": "CrunchTime_Data/Resources/unity_builtin_extra",
+    "bytes": 355352,
+    "role": "Unity serialized container; all objects parsed"
+  },
+  {
+    "path": "CrunchTime_Data/resources.assets",
+    "bytes": 108875884,
+    "role": "Unity serialized container; all objects parsed"
+  },
+  {
+    "path": "CrunchTime_Data/ScreenSelector.bmp",
+    "bytes": 211302,
+    "role": "Engine startup screen selector bitmap",
+    "dimensions": [
+      432,
+      163
+    ]
+  },
+  {
+    "path": "CrunchTime_Data/sharedassets0.assets",
+    "bytes": 272189848,
+    "role": "Unity serialized container; all objects parsed"
+  }
+]
