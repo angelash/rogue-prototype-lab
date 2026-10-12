@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset key: PRJ_BUTTON
+Target runtime dimensions: 2 x 2 pixels.
+Subject: A completely uniform flat pure white square, fully filled edge to edge, no border or decoration. A tiny functional color-tint texture; no texture, no illumination gradient.
+Composition: A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.
+Style: Flat minimal functional UI mask, uniform neutral white geometry, no lighting.
+Text: none; do not generate letters or numbers.
+Avoid: No licensed characters, original game artwork, office objects, computers, cyberpunk neon, photography, 3D rendering, gore, extra limbs, watermarks, branding, pseudo-transparent checkerboards.

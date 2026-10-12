@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset key: All forward
+Target runtime dimensions: 1174 x 718 pixels.
+Subject: adult yokai helpers energetically pushing ahead together at one night-market workbench, visible bowls baskets lanterns and a bell
+Composition: Fully opaque full-bleed landscape illustration, one main scene. Central face and tool safe inside 80 percent. No frame or text. Background: softly suggested timber stalls, paper lanterns and hanging cloth.
+Style: Original 2D hand-painted folk-fantasy game art, clean woodcut-like contours, subtle rough paper texture, rounded adult yokai proportions. Honey lantern light from upper left, faint cool teal rim light. Muted indigo #17243B, parchment #F1E4C5, honey #E9BC58, terracotta #D77854, sage #72AF88, gray violet #9A8BC2. Warm industrious mood, large readable shapes, restrained detail.
+Text: none; do not generate letters or numbers.
+Avoid: No licensed characters, original game artwork, office objects, computers, cyberpunk neon, photography, 3D rendering, gore, extra limbs, watermarks, branding, pseudo-transparent checkerboards.

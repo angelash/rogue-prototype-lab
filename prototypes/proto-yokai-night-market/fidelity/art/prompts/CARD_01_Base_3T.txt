@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset key: CARD_01_Base_3T
+Target runtime dimensions: 1240 x 924 pixels.
+Subject: A flat rounded rectangular dark indigo card plate, aspect 1240:924. Extremely quiet charcoal-indigo center for white native text. Narrow amber timber rim and tiny corner knots only within outer 3 percent. No symbols or small panels in the center. Restrained paper grain, high contrast text support.
+Composition: A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.
+Style: Original 2D hand-painted folk-fantasy game art, clean woodcut-like contours, subtle rough paper texture, rounded adult yokai proportions. Honey lantern light from upper left, faint cool teal rim light. Muted indigo #17243B, parchment #F1E4C5, honey #E9BC58, terracotta #D77854, sage #72AF88, gray violet #9A8BC2. Warm industrious mood, large readable shapes, restrained detail.
+Text: none; do not generate letters or numbers.
+Avoid: No licensed characters, original game artwork, office objects, computers, cyberpunk neon, photography, 3D rendering, gore, extra limbs, watermarks, branding, pseudo-transparent checkerboards.

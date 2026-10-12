@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset key: PRJ_No
+Target runtime dimensions: 64 x 64 pixels.
+Subject: A small ordinary cancel button icon for a family-friendly board game interface. Two thick white diagonal bars intersect in the middle, forming the letter X shape. Smooth straight edges, centered in a square, transparent exterior. Runtime tint is applied by the game.
+Composition: A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.
+Style: Flat minimal functional UI mask, uniform neutral white geometry, no lighting.
+Text: none; do not generate letters or numbers.
+Avoid: decorative borders, shading, labels, watermarks, surrounding interface, checkerboard backgrounds.

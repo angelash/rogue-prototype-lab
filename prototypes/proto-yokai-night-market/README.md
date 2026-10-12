@@ -1,24 +1,19 @@
 # 妖怪夜市开张
 
-完整包装与开发准备 v1.0，2026-10-12。把 Crunch Time 的筹备卡牌竞赛改为鬼门开启前的妖怪夜市，加入五格双用途设施、相邻供电、变卖与公开来客条件。
+当前 v2 使用 Unity 恢复 Crunch Time 的业务逻辑、场景/UI 和卡牌模板，只换夜市包装。独立工程、运行包、恢复源和完整证据保存在本目录被忽略的 local/。
 
-- [开发合同](DEVELOPMENT.md)：任务范围、用户决定、制作基线与实际状态。
-- [完整设计入口](design/00-index.md)：产品、规则、内容、AI、故事、UI、工程、保存、音频、验收。
-- [全部内容手册](design/04-content.md)：95卡、28委托、12设施/24用途、5类客人、46角色、7章记事、14步教学的全文。
-- [权威策划JSON](data/catalog.json) / [字段说明](data/README.md) / [CSV导入查阅表](data/csv/)：全数值和原创中文文案。
-- [包装替换总账](replacement/README.md)：95卡、28项目、420文本键、74资源键、1985对象、30业务类全部有明确处置。
-- [生图规范](art/ART_DIRECTION.md) / [完整提示词](art/prompt-index.md) / [生图任务JSON](art/generation-jobs.json)：150条完整生成提示词＋150条单件修订提示词；196项资产规格和24项音频规格。
-- [28委托设施可达路径](data/opening-layouts.json)：具体格位、用途、支出和合法调整步骤。
-- [设计校验报告](evidence/design-verification.json)：覆盖、引用、尺寸、文本、来源、设施服务路径与文档链接检查。
-- [来源与授权](sources/register.md)：原作只使用必要结构/数值，不复制其源码、正文、图像和音轨。
+- [开发合同](DEVELOPMENT.md)：当前决定、范围和实际限制。
+- [实现入口](fidelity/README.md)：规则、恢复、素材与启动。
+- [全量替换数据](fidelity/data/theme.json)：95 卡、28 委托、420 双语键。
+- [内容查阅](fidelity/data/content-guide.md)：当前卡牌参数和委托目标。
+- [原图尺寸与导入](fidelity/image-specs.json)：82 张游戏纹理。
+- [实际提示词](fidelity/art/prompts/) / [生成原图](fidelity/art/generated/) / [来源谱系](fidelity/art/generation-register.json)。
+- [静态验证](fidelity/evidence/fidelity-verification.json) / [交付证据](fidelity/evidence/delivery.json) / [验收说明](fidelity/04-validation-and-delivery.md)。
 
-本轮交付的是全部已采用范围的设计准备包，做到100%条目覆盖与引用闭合。Unity工程、素材量产、游戏测试、平衡试玩、Player构建及发行尚未执行；其放行条件已列入生产计划。
+本机 Unity 工程 local/UnityProject/，使用 **Unity 2022.3.62f3c1**，打开 Assets/Recovery/Scenes/NightMarket.unity。完整 Windows 包 local/Builds/Release/，入口 YokaiNightMarket.exe。压缩备份和实际 hash 由交付记录登记；移动游戏时需带完整目录。
 
-在当前工程根目录运行：
+仍被防火墙提示挡住的 Windows 窗口来自 local/Builds/Windows/ 中的早期开发包，屏幕上的旧包装/初始化错误不属于本轮 Release 包。保留该窗口等待用户手动取消安全提示；未通过另开原生窗口绕过提示。
 
-```powershell
-C:/Python310/python.exe -X utf8 prototypes/proto-yokai-night-market/scripts/derive_design.py
-C:/Python310/python.exe -X utf8 prototypes/proto-yokai-night-market/scripts/verify_design.py
-```
+当前为本机恢复候选，原生操作、原速体验、听感与逐像素对照尚须补验。恢复实现、原音频及功能 stencil 派生 PNG 保留本机；公开备份包含原创工具、AI 原图、提示词与数据。
 
-派生脚本不依赖原作安装或私有反编译文件，可在仅有本仓公共内容时复跑。数值修改只改catalog，再重新派生。下一阶段从productionPlan.P02开始，先做确定性规则与保存纵切，样件经Player验收后再量产。
+旧改编资料保留在 design/、data/、art/、replacement/；[旧 README](history/README-v1.md) / [旧合同](history/DEVELOPMENT-v1.md)。其设施、行动点、客人、章节、局内保存和新 AI 不驱动当前游戏。

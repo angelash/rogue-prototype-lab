@@ -1,0 +1,2029 @@
+{
+  "version": 2,
+  "tool": "image_gen.imagegen",
+  "images": [
+    {
+      "name": "ARTGirl",
+      "raw": "fidelity/art/generated/ARTGirl.raw.png",
+      "rawSHA256": "e2e28b22d9fdaad02a5ce42daea55c28349f32ad45c118a0da6dca0c710ef36e",
+      "prompt": "fidelity/art/prompts/ARTGirl.txt",
+      "promptSHA256": "f0a36654688d83f397b6a9aaa2b3e3b57f4e9c6ab7c46e88264a65c049b2dc18",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:12:02.266781+08:00",
+      "toolOutputFile": "exec-23a62b45-283c-4d5a-97bf-c49ea12150e7.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "ARTGuy",
+      "raw": "fidelity/art/generated/ARTGuy.raw.png",
+      "rawSHA256": "5a96c1b5acfdf6082f5b6640ac781b6fc0a4164c9a2b916b0318aea96712fc5e",
+      "prompt": "fidelity/art/prompts/ARTGuy.txt",
+      "promptSHA256": "f998d327a14328b29a80dcc84d0bafd9a7d2db1218036f2e3931f0784c029d23",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:12:01.424734+08:00",
+      "toolOutputFile": "exec-f6c8099c-3f67-475c-94a3-e0005565fda2.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "All depts",
+      "raw": "fidelity/art/generated/All_depts.raw.png",
+      "rawSHA256": "e1af1d572de2d0d6f47849f9814cdf2800c21d2cd7403c126351df1b7139139d",
+      "prompt": "fidelity/art/prompts/All_depts.txt",
+      "promptSHA256": "8e98fd05399c0de29ad59e70d07326af2575a2d5b75e9c09ff2b28d23723cfff",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:47:01.406545+08:00",
+      "toolOutputFile": "exec-77ffd4a9-4928-4c35-8290-c6fc33e0370c.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "All finish",
+      "raw": "fidelity/art/generated/All_finish.raw.png",
+      "rawSHA256": "3f439572ee6d505c00978beeb2e26d372d2aa796d8bcf0d00c8954c7238ec544",
+      "prompt": "fidelity/art/prompts/All_finish.txt",
+      "promptSHA256": "5823b9b007b1d713cd0512386f4309f4a53f83b7def5e37fafd24db37a1ce8f7",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:43:52.282812+08:00",
+      "toolOutputFile": "exec-33e1b48d-3ba0-4315-9bf3-63a14084870c.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "All forward",
+      "raw": "fidelity/art/generated/All_forward.raw.png",
+      "rawSHA256": "026b973f722f1b02d1e17071d7cb35345202afb49a64199eb771654f7d3bcfef",
+      "prompt": "fidelity/art/prompts/All_forward.txt",
+      "promptSHA256": "098afc95c33977ed4737c82800a6445e685a1713943ff4466eba8aa388e926a9",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:41:07.584431+08:00",
+      "toolOutputFile": "exec-c59fb116-8d67-45b8-a5c8-06e3975b60ef.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Arrow",
+      "raw": "fidelity/art/generated/Arrow.raw.png",
+      "rawSHA256": "59f0e87c1e8867e7311fe2dd08600bed645188f4e0dea9d8cc86a9c4b5105673",
+      "prompt": "fidelity/art/prompts/Arrow.txt",
+      "promptSHA256": "4d97de86bf55b5c7bca911f81c1fb1c6deb97e9c864cece3bba600a14cf44ea2",
+      "rawSize": [
+        1302,
+        1208
+      ],
+      "targetSize": [
+        164,
+        152
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:16:27.474944+08:00",
+      "toolOutputFile": "exec-9b03fbfe-9f89-4e80-9378-f468f8cae447.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Attack",
+      "raw": "fidelity/art/generated/Attack.raw.png",
+      "rawSHA256": "9ce48de1278efe21911b74d63041b510b5f1cc5d029b8fd033d5609fa8e89a20",
+      "prompt": "fidelity/art/prompts/Attack.txt",
+      "promptSHA256": "dad5789a8709726241fc51b3e90ed6f15e34476d90e024608f89d1222c07a69a",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:29:49.070636+08:00",
+      "toolOutputFile": "exec-a2d29efa-f5a8-4e2c-a922-8adaafd6c82f.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Blocked",
+      "raw": "fidelity/art/generated/Blocked.raw.png",
+      "rawSHA256": "d051d35f5fc9c7d3fe03a7619b9cfe5f624ed3c42652fce3f6a708a0e922ae29",
+      "prompt": "fidelity/art/prompts/Blocked.txt",
+      "promptSHA256": "8b7e41ff5c0afcb618d31032bd28b89b2ebbe113ba4c901cce9c940a84efd009",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        1024,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:25:43.158853+08:00",
+      "toolOutputFile": "exec-b42fe42b-d2a6-47ed-b949-24a5fb46ae4d.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Bug",
+      "raw": "fidelity/art/generated/Bug.raw.png",
+      "rawSHA256": "8641db527c08f2093033cc0ae4169c69af799d5e95d5fe6a9e35aae55bf9a673",
+      "prompt": "fidelity/art/prompts/Bug.txt",
+      "promptSHA256": "089d1ce271f818b0f61e12680d77a0599bb7389e8dc7841815168385ccc607cd",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:29:49.967668+08:00",
+      "toolOutputFile": "exec-412fa8a1-155a-4088-905e-63c9091f743d.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "ButtonBig",
+      "raw": "fidelity/art/generated/ButtonBig.raw.png",
+      "rawSHA256": "cc7cc574d3b82af276990b58cec9f7254a11666b360ba30a76f17c3ed954b101",
+      "prompt": "fidelity/art/prompts/ButtonBig.txt",
+      "promptSHA256": "d2e3cdd0ccdf38ba9c6232723188d204f7fadeb68e7d218af45f652d3a4033a2",
+      "rawSize": [
+        1731,
+        908
+      ],
+      "targetSize": [
+        244,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:05:05.647162+08:00",
+      "toolOutputFile": "exec-dbf7daf0-81ca-4d14-9360-6317fa0b6f9a.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "ButtonSmall",
+      "raw": "fidelity/art/generated/ButtonSmall.raw.png",
+      "rawSHA256": "9b06359cc42467bba4cbdf1b80bb34e9930b0f4a7dd417ae7fb33d078e542276",
+      "prompt": "fidelity/art/prompts/ButtonSmall.txt",
+      "promptSHA256": "05cf314e29f000839cff5159cc57573883ff22006de55facc0f4cee9dab294d0",
+      "rawSize": [
+        880,
+        1787
+      ],
+      "targetSize": [
+        128,
+        260
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:05:06.768877+08:00",
+      "toolOutputFile": "exec-732d1da9-e558-4934-b1d3-e3f6eccf1c42.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_00_Background",
+      "raw": "fidelity/art/generated/CARD_00_Background.raw.png",
+      "rawSHA256": "5328622cedec2f971684faf1f289e65a07024c82111542299bbd76c3ea953435",
+      "prompt": "fidelity/art/prompts/CARD_00_Background.txt",
+      "promptSHA256": "e0c1dba9babe7485e0429d33178aee37be91cb4dabc121c4da235aa991490af4",
+      "rawSize": [
+        1533,
+        1026
+      ],
+      "targetSize": [
+        1240,
+        831
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:49:41.795614+08:00",
+      "toolOutputFile": "exec-32324645-702f-4d50-8d76-c24e076da2ea.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_BaseTop",
+      "raw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
+      "rawSHA256": "9b769062a6a3d181022ed23e0e53fd87876dff72fe62a6c48bbe710ee5369829",
+      "prompt": "fidelity/art/prompts/CARD_01_BaseTop.txt",
+      "promptSHA256": "f2c070a410e79b61cfca47d4b5cf46b30ee9180dd14e9e85672380751ae5e001",
+      "rawSize": [
+        1531,
+        1027
+      ],
+      "targetSize": [
+        1240,
+        831
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [
+        "fidelity/art/revisions/CARD_01_BaseTop.raw.10c053d6b41f.png"
+      ],
+      "generatedAt": "2026-10-12T14:53:50.554708+00:00",
+      "toolOutputFile": "exec-2637da47-85a4-41f7-8d2d-fa22fa728cc3.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_0T",
+      "raw": "fidelity/art/generated/CARD_01_Base_0T.raw.png",
+      "rawSHA256": "e8fe88f02d7f0a4ab9926501c846c82bfa9f4c42743d7b12c71a77e9cf95b007",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_0T.txt",
+      "promptSHA256": "c902b553030ef595e1e6592f7bfe94f64c0f0c6dd0a056bc5dbc8b4e07cc4994",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:35:27.47165+08:00",
+      "toolOutputFile": "exec-93ad40f8-eb50-4ffb-83a2-421ccf339a0b.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_1T",
+      "raw": "fidelity/art/generated/CARD_01_Base_1T.raw.png",
+      "rawSHA256": "7417b8541e0138011de3d2814a68db32cbcda27a32bc9559c3379468a71a162c",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_1T.txt",
+      "promptSHA256": "6646e720b124f254b542491ef2d561399c0c8dcf41cc617ca8571477656f24df",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:35:28.337323+08:00",
+      "toolOutputFile": "exec-84cce972-2676-415a-aaa2-5b55dc91abae.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_1T_Mask",
+      "raw": "fidelity/art/generated/CARD_01_Base_1T_Mask.raw.png",
+      "rawSHA256": "3eb81c9f5d17ae1a6815593b971c74f5f4e896ceb62761a86dad2bfa02ca28c2",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_1T_Mask.txt",
+      "promptSHA256": "0e1a5a29f8ad05ff8b2e6cb0458661f210a8bacfbb1675f6eed4e0cbd8753994",
+      "rawSize": [
+        1453,
+        1082
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:41:18.548837+08:00",
+      "toolOutputFile": "exec-348729f7-7fe5-4473-939e-aba6e41eb445.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_2T",
+      "raw": "fidelity/art/generated/CARD_01_Base_2T.raw.png",
+      "rawSHA256": "0dedd3aa9162c12914e11b29de64385a04402576792f44b86d06f3aba40fdb65",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_2T.txt",
+      "promptSHA256": "19150b3d8d1581b4370422ab73b04777e17a93e2f6f0d8d17f09ca01dd6487db",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:35:29.212275+08:00",
+      "toolOutputFile": "exec-c09e5319-7356-4427-b69a-5833f5d70cf8.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_2T_Mask",
+      "raw": "fidelity/art/generated/CARD_01_Base_2T_Mask.raw.png",
+      "rawSHA256": "6b2374e1c0f2e0f8182c389ed3bebb723ef6c156af5f36a3bf848bfdab2e3ac7",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_2T_Mask.txt",
+      "promptSHA256": "ac40bea45b7712ca67c55b02d31a87e9176985a8cc9fe836f94f2fa899afddd7",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:41:19.402453+08:00",
+      "toolOutputFile": "exec-4976bfe8-9ab1-483f-9379-585d77e6c3a6.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_3T",
+      "raw": "fidelity/art/generated/CARD_01_Base_3T.raw.png",
+      "rawSHA256": "8eba6af29f9dc59494500cab961f3f91f4aca2ed18efc09cd5ff356dfbf8764c",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_3T.txt",
+      "promptSHA256": "8533a391e63d51fee0278b1aa4e3ae9db8c440b307cd6565911f9238e03f411b",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:35:30.09885+08:00",
+      "toolOutputFile": "exec-af5c5c9b-2429-4fc7-8a65-79f3cbe3a600.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_3T_Mask",
+      "raw": "fidelity/art/generated/CARD_01_Base_3T_Mask.raw.png",
+      "rawSHA256": "c40f073f6e2109e64df2d702f4453fdad5531ceee59c332517d800f4a4b29615",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_3T_Mask.txt",
+      "promptSHA256": "cb0cc6a3f99368d63ab22c659d5a4f1ed38c5c0947d8e86c37080d9be3046511",
+      "rawSize": [
+        1452,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:41:20.295892+08:00",
+      "toolOutputFile": "exec-9c6b3e1d-65a5-4fe7-af29-6fe25e194fb2.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_4T",
+      "raw": "fidelity/art/generated/CARD_01_Base_4T.raw.png",
+      "rawSHA256": "e2843c029954d8b271323ab7ad3033efe8f21e837af1f94b756f5de975a10f66",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_4T.txt",
+      "promptSHA256": "4d96bbb77fd61d6ea9e0057de171e7e511186e9f2b268b44bcb9b2f0993b9038",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:41:17.694907+08:00",
+      "toolOutputFile": "exec-35fe8720-7252-4eae-80f5-cb658a3897b1.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_01_Base_4T_Mask",
+      "raw": "fidelity/art/generated/CARD_01_Base_4T_Mask.raw.png",
+      "rawSHA256": "203a0f6630498ce75877aa8621062b163c2f2d193baca31f4c8153b1b1443bbd",
+      "prompt": "fidelity/art/prompts/CARD_01_Base_4T_Mask.txt",
+      "promptSHA256": "c705ad3de25b8e60f18be78665ef5025f0fe96bc516980475133dc48e5860467",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:44:04.520201+08:00",
+      "toolOutputFile": "exec-423e504b-d7b3-4048-906c-bcf41e59bb82.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_02_Details",
+      "raw": "fidelity/art/generated/CARD_02_Details.raw.png",
+      "rawSHA256": "cd03f2226a4d5a7ebcdba4997a5cbbd03560e955ab8532aace660b719e0c68c0",
+      "prompt": "fidelity/art/prompts/CARD_02_Details.txt",
+      "promptSHA256": "5007e7dc071ff23a370c86cbd38fbf5852d08b4b95a5c946e7b10896bff3aec4",
+      "rawSize": [
+        1451,
+        1084
+      ],
+      "targetSize": [
+        1232,
+        920
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:44:06.325786+08:00",
+      "toolOutputFile": "exec-7dcd4054-61f6-4f3c-8d06-9940fe36d05a.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_03_DetailsTop",
+      "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
+      "rawSHA256": "fcb49b0202220672867d7fea87985301370d4e0dfbd5fcaf9428a62b40fada9e",
+      "prompt": "fidelity/art/prompts/CARD_03_DetailsTop.txt",
+      "promptSHA256": "c4da60ce6ecfeb7325fea39ba7d99dadb500f24f839f258f39a764830bc93129",
+      "rawSize": [
+        1532,
+        1027
+      ],
+      "targetSize": [
+        1240,
+        831
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:49:42.581836+08:00",
+      "toolOutputFile": "exec-4967000a-03af-4b77-870f-b7c2022f3f8b.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_04_Turn",
+      "raw": "fidelity/art/generated/CARD_04_Turn.raw.png",
+      "rawSHA256": "81430cab793a6fb8340cbdffbe9ea5dc0d59f313a232626b31169acc7d1bd50c",
+      "prompt": "fidelity/art/prompts/CARD_04_Turn.txt",
+      "promptSHA256": "9a0f6e2b51e12c6089f39df709febb713a273cbb0b12accd59a9e63b22844677",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        2,
+        2
+      ],
+      "alphaRange": [
+        0,
+        1
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:55:09.01741+08:00",
+      "toolOutputFile": "exec-ed640967-2fb2-4354-9424-3985f3977f12.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_10_LightBottom",
+      "raw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
+      "rawSHA256": "90f416c1b867b20f4e2a2efdf066c03cf74c3aa5624e5651eb238b9a03c9841f",
+      "prompt": "fidelity/art/prompts/CARD_10_LightBottom.txt",
+      "promptSHA256": "4dd9d2ee18d14b5e1a211331c3380f49cf960be2d314a691e5f6a75b0193942f",
+      "rawSize": [
+        1339,
+        1175
+      ],
+      "targetSize": [
+        1336,
+        117
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:55:08.112793+08:00",
+      "toolOutputFile": "exec-a907a8de-3b76-47a1-ade1-2d68247c121f.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_10_LightMiddle",
+      "raw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
+      "rawSHA256": "01c9bde41a912639befbf3b50813772cd6636e482dede895367989f3d470788a",
+      "prompt": "fidelity/art/prompts/CARD_10_LightMiddle.txt",
+      "promptSHA256": "17dd91a81a2071260f78147e5be8d8434cc3613e7b3d861d58816e2c2a3efd80",
+      "rawSize": [
+        1572,
+        1001
+      ],
+      "targetSize": [
+        1336,
+        85
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:55:07.223516+08:00",
+      "toolOutputFile": "exec-b721e1af-c6e6-4252-bd3a-9a9e1f8c321d.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_10_LightTop",
+      "raw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
+      "rawSHA256": "e6705979e8b95544ca2677fb185adc38fd0e8b50d7cad7030c9425a0a7251bf2",
+      "prompt": "fidelity/art/prompts/CARD_10_LightTop.txt",
+      "promptSHA256": "d8037715d09adff57c3fcb8f469ed04fbae90b1b74a5b47508034b328e4569b9",
+      "rawSize": [
+        1339,
+        1174
+      ],
+      "targetSize": [
+        1336,
+        117
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:55:06.377629+08:00",
+      "toolOutputFile": "exec-8d336c33-31eb-4015-855d-8884aab875ee.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_Score",
+      "raw": "fidelity/art/generated/CARD_Score.raw.png",
+      "rawSHA256": "1ecdd0cb7b7f59f63aa8ceeb300f3bdce0966f3a17025f6356679b1700da8d4f",
+      "prompt": "fidelity/art/prompts/CARD_Score.txt",
+      "promptSHA256": "eb7fae3072ebeab938a25935e97ed56e3a7aadb29e31e3e5229c9de70fddff79",
+      "rawSize": [
+        1561,
+        1007
+      ],
+      "targetSize": [
+        1550,
+        1000
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [
+        "fidelity/art/revisions/CARD_Score.raw.b9094e399310.png"
+      ],
+      "generatedAt": "2026-10-12T21:52:30.314838+08:00",
+      "toolOutputFile": "exec-ea4a0219-b153-481b-89e0-fe5ab72dc4c3.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_Selection",
+      "raw": "fidelity/art/generated/CARD_Selection.raw.png",
+      "rawSHA256": "c1149d4b97a8fe6eb7d9159121673c2fc0d514ba367142a17f9a1ed08fbd1a13",
+      "prompt": "fidelity/art/prompts/CARD_Selection.txt",
+      "promptSHA256": "c6185221e3cd1fc8dc403e367ccc32e27a88d85687dfe93e5c6dc79e4983c51e",
+      "rawSize": [
+        1339,
+        1175
+      ],
+      "targetSize": [
+        310,
+        272
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:05:07.904219+08:00",
+      "toolOutputFile": "exec-4864be95-2d0d-469f-8e51-d094535da741.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "CARD_Selection_Background",
+      "raw": "fidelity/art/generated/CARD_Selection_Background.raw.png",
+      "rawSHA256": "bcdfc430f30d74cd5c82a802e03f340da426f44585c6dac3a30ff5a861a26c23",
+      "prompt": "fidelity/art/prompts/CARD_Selection_Background.txt",
+      "promptSHA256": "db2b31c4bd00dde2d3bbeb36f2e0dadb059e55b2dfc048606ea5c84c1a9d8a3c",
+      "rawSize": [
+        1338,
+        1175
+      ],
+      "targetSize": [
+        310,
+        272
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:05:09.095737+08:00",
+      "toolOutputFile": "exec-120f899f-94fe-46f6-bd9b-8cef9957b655.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Cancelled",
+      "raw": "fidelity/art/generated/Cancelled.raw.png",
+      "rawSHA256": "4879bd79f3d5c87dba0c4d9217876ee50a4357bcd4548fa2085063c9d663c0cc",
+      "prompt": "fidelity/art/prompts/Cancelled.txt",
+      "promptSHA256": "cd09aea8d2c3cce909ff2939d2a92b92f244283d90e0d75018a6b91155468580",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        1024,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:25:44.03161+08:00",
+      "toolOutputFile": "exec-fdc83f83-8119-4da8-a3a8-d24f05ee5330.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Crash",
+      "raw": "fidelity/art/generated/Crash.raw.png",
+      "rawSHA256": "f8628e83d0af2732b4745428ae10cf7ce4e4ac2be5f38b0c7417b60592de5120",
+      "prompt": "fidelity/art/prompts/Crash.txt",
+      "promptSHA256": "859c4f5aa9e9924cca3f9150424ff2cd1ff25b508768cb269aadf95e7fb77de1",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:23:51.274164+08:00",
+      "toolOutputFile": "exec-f6f953e2-2c11-4137-95f1-1dc4d85095b7.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "DSGGirl",
+      "raw": "fidelity/art/generated/DSGGirl.raw.png",
+      "rawSHA256": "87107d636a7574d3a8314d88d18219089a8166564c3e4b3f75f88e3f0e3cc6e9",
+      "prompt": "fidelity/art/prompts/DSGGirl.txt",
+      "promptSHA256": "bc3fafdb1ec1723a10e1124ad2e58c5b76dae705c23b209d52ed8571e9c8a7e0",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:12:03.151131+08:00",
+      "toolOutputFile": "exec-ffd33de2-14ec-4a83-982d-a55b4a411fb1.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "DSGGuy",
+      "raw": "fidelity/art/generated/DSGGuy.raw.png",
+      "rawSHA256": "9c8c7512d328e14b5e89f0e5835cd950aad68f39f3d73fb08e9b61437b6a71b5",
+      "prompt": "fidelity/art/prompts/DSGGuy.txt",
+      "promptSHA256": "8e3c6d63de81f490a14d24b8c5c9c088af3416707cfebd623e50c7a6a1bdebd5",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:05:56.768552+08:00",
+      "toolOutputFile": "",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Done",
+      "raw": "fidelity/art/generated/Done.raw.png",
+      "rawSHA256": "9b6c6ad9818ba87bc4a2d5c006bd6710726ff73b2cf77f25084d30abda38d318",
+      "prompt": "fidelity/art/prompts/Done.txt",
+      "promptSHA256": "e9c933ee0917cf0683043accf96d08b6cc884551365b77fbcc8873f3f122f180",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        1024,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:20:22.424645+08:00",
+      "toolOutputFile": "exec-1c441a13-891b-4f64-bb39-2da5c4215d1a.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Door",
+      "raw": "fidelity/art/generated/Door.raw.png",
+      "rawSHA256": "74ff3f86fac917e4707755ae37fd08893839602953a0f45d4013eb80879da686",
+      "prompt": "fidelity/art/prompts/Door.txt",
+      "promptSHA256": "70524e46fcfbb83e1d6d49fa75d6a738c5d77bfa05fb76d24433092472863f2a",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:47:00.554613+08:00",
+      "toolOutputFile": "exec-c308407a-cb0d-411c-a64f-b272936256f9.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "English",
+      "raw": "fidelity/art/generated/English.raw.png",
+      "rawSHA256": "ca193a7402c5b7ccbb3bc50176d594067b034720e7cc5028a8e02d5b33bfe540",
+      "prompt": "fidelity/art/prompts/English.txt",
+      "promptSHA256": "df84757cfd402eac1b121573b2eb593d83a02e0f3b8aeb2de205651b31ac7831",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        36,
+        36
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:16:24.079543+08:00",
+      "toolOutputFile": "exec-574871c7-124e-4167-961b-5db33bc8d9a7.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "FlagHighlight",
+      "raw": "fidelity/art/generated/FlagHighlight.raw.png",
+      "rawSHA256": "3a763f12e7105755cf38027a9cd7885b0f66c3185f49ece229227dbbd054698d",
+      "prompt": "fidelity/art/prompts/FlagHighlight.txt",
+      "promptSHA256": "5126518b5fcf126582d33f3fb565502f0b169da8083defa64c1cdd5acaa0ba9a",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        42,
+        42
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:10:49.844867+08:00",
+      "toolOutputFile": "exec-55183870-961c-481a-bdf1-ceeb753507f9.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Forward",
+      "raw": "fidelity/art/generated/Forward.raw.png",
+      "rawSHA256": "66f13c24c272c93f8834084d8fa63b0fdd966c5988bad2dd9321cc9f21774b9c",
+      "prompt": "fidelity/art/prompts/Forward.txt",
+      "promptSHA256": "104819504eb1bf229411df2c8999c5de0af84aaa8b7f23da0272927d1e41f242",
+      "rawSize": [
+        1367,
+        1151
+      ],
+      "targetSize": [
+        38,
+        32
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:20:44.692326+08:00",
+      "toolOutputFile": "exec-94873cd6-6003-43f0-8c5d-ff3db3e38d94.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Holidays",
+      "raw": "fidelity/art/generated/Holidays.raw.png",
+      "rawSHA256": "21f955d5f32d3c013cf6a6af89ffe1853007187da676a036e1c57c4ba1d4d962",
+      "prompt": "fidelity/art/prompts/Holidays.txt",
+      "promptSHA256": "a6050d5d78f4b6e64d8dbc82351166828ac0f5d8c99988eccd76ecde73dc4c9c",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:33:53.365676+08:00",
+      "toolOutputFile": "exec-7643e174-5e07-4fb2-aafc-24460d5a0b4d.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Hunger",
+      "raw": "fidelity/art/generated/Hunger.raw.png",
+      "rawSHA256": "e6eaa38859dfc271cb22a12fd4c9248d46ed583c728bbdcd10ddeee93dbfb4f7",
+      "prompt": "fidelity/art/prompts/Hunger.txt",
+      "promptSHA256": "c346f86b596a10003fd2078c92bf3195c7c5ab33d947babbc8a7d3b125ba7450",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:25:53.599516+08:00",
+      "toolOutputFile": "exec-80fff24e-eb3c-4a86-ae1f-c3d803d29075.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "ITGirl",
+      "raw": "fidelity/art/generated/ITGirl.raw.png",
+      "rawSHA256": "aaef5771bb8db0ede784ea479cc64db2791be1e8cb12bf2e0f35908f8e6d55c3",
+      "prompt": "fidelity/art/prompts/ITGirl.txt",
+      "promptSHA256": "8abed2948c602ed1ea779d0425f488128be2e4b318de81704e20cd92117ec24e",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:21:46.477138+08:00",
+      "toolOutputFile": "exec-10ed65b1-6627-47c8-b771-eabe2bd4ff2c.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "ITGuy",
+      "raw": "fidelity/art/generated/ITGuy.raw.png",
+      "rawSHA256": "943e3b310ed8adb0e21e0a458ca4eafa19c682ba5d62d7ab854158e20c5e4e1d",
+      "prompt": "fidelity/art/prompts/ITGuy.txt",
+      "promptSHA256": "3f6ca7fd17d544d301f61aef5a13d44285a9badd1ad4ae6403e4e7c5afefeeba",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:21:45.624757+08:00",
+      "toolOutputFile": "exec-42f022ae-9e0d-4d4e-89ca-9e8ab232921b.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Light Off",
+      "raw": "fidelity/art/generated/Light_Off.raw.png",
+      "rawSHA256": "32f858e5c01228459de09420eef7533b3989c29971e0b507f81988c5627e8184",
+      "prompt": "fidelity/art/prompts/Light_Off.txt",
+      "promptSHA256": "37b3e8a10c5102521e9ea7c3dae9c6eb92753aab686202f9c582f148ac8ef9cb",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:25:52.548731+08:00",
+      "toolOutputFile": "exec-e2902944-8943-4c21-b167-3cf1dac0fe2f.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "List",
+      "raw": "fidelity/art/generated/List.raw.png",
+      "rawSHA256": "d8d36ec3c22aba5f5392d881559679a250a78d453da8396fbea4477f5f26e183",
+      "prompt": "fidelity/art/prompts/List.txt",
+      "promptSHA256": "d03ec883ce99eed893141edaa12975af9930488de3b2e00f2c6d6d53589a12fc",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:41:06.780017+08:00",
+      "toolOutputFile": "exec-26747583-7b82-401c-a398-889bc250afef.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Meeting",
+      "raw": "fidelity/art/generated/Meeting.raw.png",
+      "rawSHA256": "358acfac6657e7c6d1304c34959503f7ff3f0d107e541360f6b5df7c151d80ad",
+      "prompt": "fidelity/art/prompts/Meeting.txt",
+      "promptSHA256": "9c121b3dc3d982e0198e50f7836b68758d375d08ee9318a2df9a4ff8a9c963a6",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T20:06:44.170433+08:00",
+      "toolOutputFile": "exec-638d6b50-3eb6-4224-8f25-dad38062be16.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Mouse",
+      "raw": "fidelity/art/generated/Mouse.raw.png",
+      "rawSHA256": "eb8cadc1ce3c4e034c62c7aaa84e578fbfe20362701983e0f39e4c4d08cf8693",
+      "prompt": "fidelity/art/prompts/Mouse.txt",
+      "promptSHA256": "3407e4d1723799be6c6ea73da1de8b3e092a4a619752072719c3a8fca45f003b",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        32,
+        32
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:16:26.192952+08:00",
+      "toolOutputFile": "exec-fb312e14-2013-4a03-a7e1-87d45aa03969.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Negotiator",
+      "raw": "fidelity/art/generated/Negotiator.raw.png",
+      "rawSHA256": "98242ee2697e9cbd6ae756a6fa5f476a29ecb950a92428c3b64e841fd316c2a3",
+      "prompt": "fidelity/art/prompts/Negotiator.txt",
+      "promptSHA256": "773bc9ed19fd863d5a09702781b0e7a12f60fe5174af8913da67577d2b56afdc",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:13:33.332539+08:00",
+      "toolOutputFile": "exec-93326c88-c104-4d7f-aca8-bc7370db9cc6.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "OptionGreen",
+      "raw": "fidelity/art/generated/OptionGreen.raw.png",
+      "rawSHA256": "aae60d93ec80512ec48648bdff98801a08dc465a76664b3d29a89f87e73e291f",
+      "prompt": "fidelity/art/prompts/OptionGreen.txt",
+      "promptSHA256": "7c089771465eab27975b9f9884e16ed63591a32bbdfbebb33a0a0a70257fe0a3",
+      "rawSize": [
+        1547,
+        1016
+      ],
+      "targetSize": [
+        32,
+        21
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:10:47.584751+08:00",
+      "toolOutputFile": "exec-c8868d41-99c4-4952-bc71-84bd4f5393fd.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "OptionLight",
+      "raw": "fidelity/art/generated/OptionLight.raw.png",
+      "rawSHA256": "28ce552326ec11a395010f80b06cd03d2aae1269bb42130c01e85a5e52222137",
+      "prompt": "fidelity/art/prompts/OptionLight.txt",
+      "promptSHA256": "f6b2da50377fcb6f88cde74c8339cceab7a97395478692c3d6a5bb6b7e578fd1",
+      "rawSize": [
+        1493,
+        1053
+      ],
+      "targetSize": [
+        34,
+        24
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:10:48.682761+08:00",
+      "toolOutputFile": "exec-e7ab3886-ac15-47c3-b11c-ec630a8e306a.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "OptionRed",
+      "raw": "fidelity/art/generated/OptionRed.raw.png",
+      "rawSHA256": "29bbbd37bc89fe6bc5370fc305b4a4963571add6fe8d6bc62331cabf0632ea50",
+      "prompt": "fidelity/art/prompts/OptionRed.txt",
+      "promptSHA256": "52706a2616e2e1d9cc44405bed1ddf6d6326503821f6e8c4cef07c2ffccced58",
+      "rawSize": [
+        1547,
+        1016
+      ],
+      "targetSize": [
+        32,
+        21
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:10:46.605591+08:00",
+      "toolOutputFile": "exec-c15b677e-a306-4e3c-8b37-4ea79a421d77.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRGGirl",
+      "raw": "fidelity/art/generated/PRGGirl.raw.png",
+      "rawSHA256": "52bd82287e2aafc6dcbdc476bdfcadca9e4377d061126d777fa125047c1d428f",
+      "prompt": "fidelity/art/prompts/PRGGirl.txt",
+      "promptSHA256": "0001cb6c6a83e583d4a2078bb9efcbada4be7c58ae81b7f47a86b07db914ae93",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:05:56.541967+08:00",
+      "toolOutputFile": "",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRGGuy",
+      "raw": "fidelity/art/generated/PRGGuy.raw.png",
+      "rawSHA256": "4200d5ff431db855cb70e140c87aa600db3fb18178d81e24a462e490ca832176",
+      "prompt": "fidelity/art/prompts/PRGGuy.txt",
+      "promptSHA256": "ea7fe22c05c1d0c0f0b9b67dbb3b42fb145b8d1162a2d3961a3c632f19c99812",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:05:56.275369+08:00",
+      "toolOutputFile": "",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_BUTTON",
+      "raw": "fidelity/art/generated/PRJ_BUTTON.raw.png",
+      "rawSHA256": "33cf7a136c5a71c24229df16d7a6b59123060e29967fe9ddaebd453adea1b16a",
+      "prompt": "fidelity/art/prompts/PRJ_BUTTON.txt",
+      "promptSHA256": "910d994d9e0ad245bdb48ead73d7280f84f5d97f35329b8ddc05f155aa6ecdc8",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        2,
+        2
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:26:24.38448+08:00",
+      "toolOutputFile": "exec-a00ff761-9e34-432d-9a60-75e295681876.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_Button_Gradient",
+      "raw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
+      "rawSHA256": "f63720d673099e12751c564acc19569541324fa8de9bc50cc7a7c7225cc5439b",
+      "prompt": "fidelity/art/prompts/PRJ_Button_Gradient.txt",
+      "promptSHA256": "c8f41f2c840e9edb395b1d78de41a574612deb308d4571c534afe0b5c5a953b9",
+      "rawSize": [
+        1983,
+        793
+      ],
+      "targetSize": [
+        256,
+        32
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:26:23.274508+08:00",
+      "toolOutputFile": "exec-44eb025b-2cfe-4fa5-9bba-d065e9e01854.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_CARD_01_Base_Project",
+      "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
+      "rawSHA256": "f2c9aefb90c1dd35d30ab7d5022ab3dc4820c9942effe1721e3ace4ca27fc787",
+      "prompt": "fidelity/art/prompts/PRJ_CARD_01_Base_Project.txt",
+      "promptSHA256": "52819fe1f1a13a71cdf76348c3255159d4df84dafd71d75f08d87133f38bbdcc",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:44:05.385671+08:00",
+      "toolOutputFile": "exec-40060b3c-f434-4ce6-84c2-3988e001941e.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_CARD_02_Details",
+      "raw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
+      "rawSHA256": "2360cadce9ad3af0f2a5eb8d7c3a90b91e8dc4b4617a8dc85e1d4e49653acd06",
+      "prompt": "fidelity/art/prompts/PRJ_CARD_02_Details.txt",
+      "promptSHA256": "3bb6b83620b4f14f7144b232734c4f499104c8448fe80611167b334331b04a47",
+      "rawSize": [
+        1451,
+        1084
+      ],
+      "targetSize": [
+        1232,
+        920
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:44:07.220976+08:00",
+      "toolOutputFile": "exec-b3021a41-7f98-4cd1-a27e-76048b56d457.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_Dot",
+      "raw": "fidelity/art/generated/PRJ_Dot.raw.png",
+      "rawSHA256": "03ff01dcb39a96b85a68135ea1cb5d375d8ea7bea1a819df993368d264acaae1",
+      "prompt": "fidelity/art/prompts/PRJ_Dot.txt",
+      "promptSHA256": "72962c9ddcfdaff2e07656efa37ec78f77628a218cc7c6ffc96637f45c7a1634",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        44,
+        44
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:20:45.716743+08:00",
+      "toolOutputFile": "exec-41986e77-802b-4123-99f5-cfcf2239d9f9.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_Dot 1",
+      "raw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
+      "rawSHA256": "c73637162bff96dfb6252440d1bba3cc280aca39bb7504e42abb942ae1e531d2",
+      "prompt": "fidelity/art/prompts/PRJ_Dot_1.txt",
+      "promptSHA256": "f3b1a9169c380e2fb891075e9f0bc00e6e2b8ba1fcb1c78c7725b76068382872",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        32,
+        32
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:20:46.777971+08:00",
+      "toolOutputFile": "exec-1776eaf3-a70c-4a8e-9947-fcc02d6ffc42.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_No",
+      "raw": "fidelity/art/generated/PRJ_No.raw.png",
+      "rawSHA256": "12b071abff953e660ca49eec491953f3037cd03da1e576a06110d1659100efa7",
+      "prompt": "fidelity/art/prompts/PRJ_No.txt",
+      "promptSHA256": "bfb03b9175e66fdfd05521cd568dbe35bd5beeaee5d069e12932b0d3bd64b62e",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:34:48.197936+08:00",
+      "toolOutputFile": "exec-bb0bda59-1a25-499f-aee6-981bda60453c.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_Ok",
+      "raw": "fidelity/art/generated/PRJ_Ok.raw.png",
+      "rawSHA256": "6fc4a3eeab9aba0b122c2d15f47f718da8e73d9091b86762b3aa18ebafaff196",
+      "prompt": "fidelity/art/prompts/PRJ_Ok.txt",
+      "promptSHA256": "64b82e2ffdb971ba10804b75c2a1883c12899f95bc012fd9a71d776cf4fe7408",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:20:48.014567+08:00",
+      "toolOutputFile": "exec-ed234ae0-faf8-4fa1-82c1-969fa54b116e.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_WIP",
+      "raw": "fidelity/art/generated/PRJ_WIP.raw.png",
+      "rawSHA256": "eeb2cb87aac124ccbe3b2eba4fe78bcc313531f89e8273d37228e39b30fe46b2",
+      "prompt": "fidelity/art/prompts/PRJ_WIP.txt",
+      "promptSHA256": "82b7c1c3a2eda9608b6f866590815c6f83707892441f370d65c3ffdc420e1880",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:26:22.264266+08:00",
+      "toolOutputFile": "exec-a22f55a8-bd81-480d-b886-49f89a2d7c5e.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Phone",
+      "raw": "fidelity/art/generated/Phone.raw.png",
+      "rawSHA256": "7e86f2ac37445a05409555d01a7871681ddc882adee3913b4609b16c91c9a6db",
+      "prompt": "fidelity/art/prompts/Phone.txt",
+      "promptSHA256": "4391beb17c9cc3ee3967451d11b028da92474fe27a114f411af4c020de450b93",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:33:52.539349+08:00",
+      "toolOutputFile": "exec-72c3208f-d4b0-4061-8db1-73637af7e4f0.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Released",
+      "raw": "fidelity/art/generated/Released.raw.png",
+      "rawSHA256": "8f6cfcce98946b2393e8fec64bf176450a336b2999d3dfd7adbc63bb31474e03",
+      "prompt": "fidelity/art/prompts/Released.txt",
+      "promptSHA256": "3813773c935f6e8c5614f73b7ef8299a51ab00850edebb269431876912fd1272",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        1024,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:20:21.594158+08:00",
+      "toolOutputFile": "exec-a51f2ad9-ec94-4411-bc43-542d184f65a2.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Resignation",
+      "raw": "fidelity/art/generated/Resignation.raw.png",
+      "rawSHA256": "32190cabb62eb3559c39da3158fa1a244a826b4284689b8173c117e413aff67a",
+      "prompt": "fidelity/art/prompts/Resignation.txt",
+      "promptSHA256": "485b24251952b14889090e69e3e8c3ec48f8e32aaf724a95ff666fa9546a0e4f",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:43:53.117888+08:00",
+      "toolOutputFile": "exec-e1e19410-7177-4837-8c42-38dd04f90e98.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "SNDGirl",
+      "raw": "fidelity/art/generated/SNDGirl.raw.png",
+      "rawSHA256": "b6665c2f073dd5a6001e5922b456d32a92a6d37ac3810743c63624774059f7c9",
+      "prompt": "fidelity/art/prompts/SNDGirl.txt",
+      "promptSHA256": "ccffeb447cbd9076fa1ad83caea2bb8c4bdbbdb7fb14578046c4fa5dc10d7ba9",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:05:56.009101+08:00",
+      "toolOutputFile": "",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "SNDGuy",
+      "raw": "fidelity/art/generated/SNDGuy.raw.png",
+      "rawSHA256": "34b9788bed2d54d7139344ceaf71208cf4881511f84808f7b28f7007184cc9a3",
+      "prompt": "fidelity/art/prompts/SNDGuy.txt",
+      "promptSHA256": "902e59d9e53a19862383e8403006b636e8e55522345a6d9c729ee23a17d3e88a",
+      "rawSize": [
+        1604,
+        980
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:05:55.780579+08:00",
+      "toolOutputFile": "",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Sick",
+      "raw": "fidelity/art/generated/Sick.raw.png",
+      "rawSHA256": "fd3f303a953906a33de57755736c4b0f9523bd6cd2b2b3fbae46981d837c4341",
+      "prompt": "fidelity/art/prompts/Sick.txt",
+      "promptSHA256": "6671ac13b1615aabb3738004d743b0a95189f249b9139102d114b7abfbce87c2",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:23:52.202304+08:00",
+      "toolOutputFile": "exec-73ef3091-a218-4d4a-b0c8-a7fb6a981860.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Solid",
+      "raw": "fidelity/art/generated/Solid.raw.png",
+      "rawSHA256": "bbc88cdf72aa800c715f0310b78a4c01c245cb57efe8457f8603cde4284b8c88",
+      "prompt": "fidelity/art/prompts/Solid.txt",
+      "promptSHA256": "24ca9ae0e4a9eeda856fab3900ed6557427ae8e4ffb2b42a3fcbbb17df3e2f43",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        2,
+        2
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:26:25.562911+08:00",
+      "toolOutputFile": "exec-9a79b0d8-129b-4be7-bc89-2a14caf13697.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Spanish",
+      "raw": "fidelity/art/generated/Spanish.raw.png",
+      "rawSHA256": "fc75501b37ad7b03784cf22ce69d215a9d9a55567cd3dfdfefacf9351cd71e7c",
+      "prompt": "fidelity/art/prompts/Spanish.txt",
+      "promptSHA256": "f2cb705ba63386503e82826dbc489a11d3cf38d6aeb30c3573c6882db13e2448",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "targetSize": [
+        36,
+        36
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T21:16:25.077908+08:00",
+      "toolOutputFile": "exec-1da73c01-a620-46d8-9d9e-6ca2c72320a5.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "SubTitle",
+      "raw": "fidelity/art/generated/SubTitle.raw.png",
+      "rawSHA256": "4de5d77e3ec6d38619483fe94082d8af8fea2d295cf3026d1ea63fff26c02192",
+      "prompt": "fidelity/art/prompts/SubTitle.txt",
+      "promptSHA256": "97bbaa408d65bf5e42d3557977bf94fdfdbb0fae273269a44b3734297f385aab",
+      "rawSize": [
+        2048,
+        768
+      ],
+      "targetSize": [
+        628,
+        174
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:49:44.384231+08:00",
+      "toolOutputFile": "exec-7c0a999f-7c2a-4535-9407-0b0c2a6b04fd.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TSTGirl",
+      "raw": "fidelity/art/generated/TSTGirl.raw.png",
+      "rawSHA256": "08562866ff18a7e9a05735bd86ecf102ea773fecddb1e9da8591908e4698a32b",
+      "prompt": "fidelity/art/prompts/TSTGirl.txt",
+      "promptSHA256": "e05f08a3d804e1e34b10a6ae2c8b6d9e5c5b7161637a9052c6490866806c54fb",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:13:32.44769+08:00",
+      "toolOutputFile": "exec-f032b63b-a2d8-4741-a235-f13d175b5435.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TSTGuy",
+      "raw": "fidelity/art/generated/TSTGuy.raw.png",
+      "rawSHA256": "3d280b39c52e18e910491cb4ce0df577bd41184b193d99abad2623c2744a8edb",
+      "prompt": "fidelity/art/prompts/TSTGuy.txt",
+      "promptSHA256": "b77e6855db1c310acfb3de8857e79bf87f5f2464f0cf57209313a93d100ac164",
+      "rawSize": [
+        1604,
+        981
+      ],
+      "targetSize": [
+        1174,
+        718
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:12:04.011339+08:00",
+      "toolOutputFile": "exec-d5b9b3e2-7cc4-4c5c-a41f-5c96800c5483.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Table_16_9",
+      "raw": "fidelity/art/generated/Table_16_9.raw.png",
+      "rawSHA256": "3100ec69fe3635d4ab491228973276e9a78d16ec33602dabe2032a43db4d1e8b",
+      "prompt": "fidelity/art/prompts/Table_16_9.txt",
+      "promptSHA256": "50f62162f9fff1e2d350caf4aded7b01f367fee656f0631ea828104208682494",
+      "rawSize": [
+        1672,
+        941
+      ],
+      "targetSize": [
+        1920,
+        1080
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T19:09:25.366562+08:00",
+      "toolOutputFile": "exec-0f35ae24-320f-46c3-a565-c3f110ebf610.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Table_4_3",
+      "raw": "fidelity/art/generated/Table_4_3.raw.png",
+      "rawSHA256": "5094b005661a4611359fd1b497b088e6d06a2497dc55f5199489cc2dab3fb9d7",
+      "prompt": "fidelity/art/prompts/Table_4_3.txt",
+      "promptSHA256": "a2ae03f36305ef431473dba0a193af22997b19229c86e72ac2e710cb09331dcd",
+      "rawSize": [
+        1448,
+        1086
+      ],
+      "targetSize": [
+        2048,
+        1536
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "transparentRequested": false,
+      "references": [],
+      "generatedAt": "2026-10-12T20:06:45.009145+08:00",
+      "toolOutputFile": "exec-73d16554-124c-4063-95dd-a74bfc1c1034.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TitleBackground Left",
+      "raw": "fidelity/art/generated/TitleBackground_Left.raw.png",
+      "rawSHA256": "afe5dc7df3520f85feaba80c9de6d9d339870a64c2f6f0171322ef7af91e21c8",
+      "prompt": "fidelity/art/prompts/TitleBackground_Left.txt",
+      "promptSHA256": "ac59582c4ec9776b56d9aa38b45476f823cfd705f7d6e7ebd78b05a20b9e8ca4",
+      "rawSize": [
+        2079,
+        756
+      ],
+      "targetSize": [
+        1920,
+        280
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:58:53.054473+08:00",
+      "toolOutputFile": "exec-a342fdeb-8e5b-4193-b5ad-241c25347055.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TitleBackground Line Left",
+      "raw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
+      "rawSHA256": "fcb9592dc704a978636ff6ecb95f038b36693665f3f2430fbe42e2dd2d9a5ada",
+      "prompt": "fidelity/art/prompts/TitleBackground_Line_Left.txt",
+      "promptSHA256": "785de1dfa72f53b4ad300b0c56fe17235f48c308a831cafb74568988a999ad61",
+      "rawSize": [
+        2172,
+        724
+      ],
+      "targetSize": [
+        1920,
+        280
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:58:54.950842+08:00",
+      "toolOutputFile": "exec-74f61ef1-6cb1-4786-b622-f3fff711fd25.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TitleBackground Line Right",
+      "raw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
+      "rawSHA256": "ba2633d4c5e6f425c2086d0390c2fc7b7fb34c4472dde327616b64d2976ff149",
+      "prompt": "fidelity/art/prompts/TitleBackground_Line_Right.txt",
+      "promptSHA256": "a5229298c0c2655d7f4c3e58d2af726525bfec99030691011375355494cc8662",
+      "rawSize": [
+        1983,
+        793
+      ],
+      "targetSize": [
+        1920,
+        280
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:58:55.942027+08:00",
+      "toolOutputFile": "exec-db361460-f188-4aae-bf0a-fe929cbba767.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "TitleBackground Right",
+      "raw": "fidelity/art/generated/TitleBackground_Right.raw.png",
+      "rawSHA256": "1a30139d930df954b80b795abfaceeb63bdbab8b1759e0a7f8b9a68747d6dedb",
+      "prompt": "fidelity/art/prompts/TitleBackground_Right.txt",
+      "promptSHA256": "febb3b8421613e5f8570a46f65f91411e81bb34aee4f5b2328d4d600350cef15",
+      "rawSize": [
+        1983,
+        793
+      ],
+      "targetSize": [
+        1920,
+        280
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:58:54.000803+08:00",
+      "toolOutputFile": "exec-7fd3f03f-81a7-455b-83a2-2e7c6d16b38f.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Title_16_9",
+      "raw": "fidelity/art/generated/Title_16_9.raw.png",
+      "rawSHA256": "2c37060fc03d262594236ea1f181a33dd3fd609633b8ea6196f7cbbaf713af8c",
+      "prompt": "fidelity/art/prompts/Title_16_9.txt",
+      "promptSHA256": "88813a60e771daeb3f48b9a89463519363359b925923d6a47497beccdb9c9b8e",
+      "rawSize": [
+        1672,
+        941
+      ],
+      "targetSize": [
+        1920,
+        1080
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:11:04.269426+08:00",
+      "toolOutputFile": "exec-cfdeadb3-6c3b-45b4-a5bf-d435e98c9f31.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "Title_4_3",
+      "raw": "fidelity/art/generated/Title_4_3.raw.png",
+      "rawSHA256": "f9df2cb4872be2bef72b77e373121d393a2703ff8eb5c1579271b9cd9f977b8a",
+      "prompt": "fidelity/art/prompts/Title_4_3.txt",
+      "promptSHA256": "aee22557b6c696075a6261adcd05bd58f0fbfc23322cebc0d8ef3e4b8092804c",
+      "rawSize": [
+        1448,
+        1086
+      ],
+      "targetSize": [
+        2048,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:11:05.226861+08:00",
+      "toolOutputFile": "exec-a8fe11b8-957d-44ae-8983-8ab53be0fbcd.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    }
+  ],
+  "revisions": [
+    {
+      "name": "CARD_Score",
+      "raw": "fidelity/art/revisions/CARD_Score.raw.b9094e399310.png",
+      "rawSHA256": "b9094e3993106a7e955ca38d920cb1ef1bdc5c1bd7a38982619920de623bc181",
+      "prompt": "fidelity/art/revisions/CARD_Score.prompt-v1.txt",
+      "promptSHA256": "9083d5bc9b49b45206f55476e4e50132ed2e59d6e60ac298c75f8390bec03d83",
+      "rawSize": [
+        1561,
+        1008
+      ],
+      "targetSize": [
+        1550,
+        1000
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:49:43.50601+08:00",
+      "toolOutputFile": "exec-2b1345d6-6f72-46cc-a170-3e787c43fcfb.png",
+      "review": "generated image visually inspected; runtime fit pending"
+    },
+    {
+      "name": "CARD_01_BaseTop",
+      "raw": "fidelity/art/revisions/CARD_01_BaseTop.raw.10c053d6b41f.png",
+      "rawSHA256": "10c053d6b41f4705f8e094ecfdb3c9faeb0e7b9865ac6c644896de600122cc00",
+      "prompt": "fidelity/art/prompts/CARD_01_BaseTop.txt",
+      "promptSHA256": "dbe5e7911abc33226d335d23b45c5c64bba011c1acfe7ea9844bce17a010045a",
+      "rawSize": [
+        1532,
+        1027
+      ],
+      "targetSize": [
+        1240,
+        831
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T19:09:24.511303+08:00",
+      "toolOutputFile": "exec-302c1da0-d2ed-4d32-bff9-19df9a0308c5.png",
+      "review": "generated image visually inspected; runtime fit pending",
+      "oldPromptArchive": "fidelity/art/revisions/CARD_01_BaseTop.prompt.10c053d6b41f.txt"
+    }
+  ]
+}

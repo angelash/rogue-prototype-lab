@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset key: CARD_Selection_Background
+Target runtime dimensions: 310 x 272 pixels.
+Subject: A flat rounded small dark indigo selection tile, aspect 310:272. Blank center for a white native department symbol and number. Thin warm amber outline, subtle brighter inner glow only for selected state. No icon in the center.
+Composition: A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.
+Style: Original 2D hand-painted folk-fantasy game art, clean woodcut-like contours, subtle rough paper texture, rounded adult yokai proportions. Honey lantern light from upper left, faint cool teal rim light. Muted indigo #17243B, parchment #F1E4C5, honey #E9BC58, terracotta #D77854, sage #72AF88, gray violet #9A8BC2. Warm industrious mood, large readable shapes, restrained detail.
+Text: none; do not generate letters or numbers.
+Avoid: No licensed characters, original game artwork, office objects, computers, cyberpunk neon, photography, 3D rendering, gore, extra limbs, watermarks, branding, pseudo-transparent checkerboards.
