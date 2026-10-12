@@ -1,8 +1,9 @@
 # 妖怪夜市开张
 
-当前 v2 使用 Unity 恢复 Crunch Time 的业务逻辑、场景/UI 和卡牌模板，只换夜市包装。独立工程、运行包、恢复源和完整证据保存在本目录被忽略的 local/。
+当前 v2 使用 Unity 恢复 Crunch Time 的业务逻辑、场景/UI 和卡牌模板，只换夜市包装。完整工程、全部制作资产与测试用例纳入本仓 codex/yokai-night-market-source 本地分支；构建、缓存与运行结果忽略。
 
 - [开发合同](DEVELOPMENT.md)：当前决定、范围和实际限制。
+- [工程与资产版本管理](VERSION_CONTROL.md)：完整源码分支、资产/测试覆盖及历史恢复。
 - [实现入口](fidelity/README.md)：规则、恢复、素材与启动。
 - [全量替换数据](fidelity/data/theme.json)：95 卡、28 委托、420 双语键。
 - [内容查阅](fidelity/data/content-guide.md)：当前卡牌参数和委托目标。
@@ -12,8 +13,8 @@
 
 本机 Unity 工程 local/UnityProject/，使用 **Unity 2022.3.62f3c1**，打开 Assets/Recovery/Scenes/NightMarket.unity。完整 Windows 包 local/Builds/Release/，入口 YokaiNightMarket.exe。压缩备份和实际 hash 由交付记录登记；移动游戏时需带完整目录。
 
-仍被防火墙提示挡住的 Windows 窗口来自 local/Builds/Windows/ 中的早期开发包，屏幕上的旧包装/初始化错误不属于本轮 Release 包。保留该窗口等待用户手动取消安全提示；未通过另开原生窗口绕过提示。
+v2.3 已补入重开/设置保存的 15 项自动流程断言，并完成 13 项实际 Release 键鼠检查，记录进程重启持久化和岗位拦截。早期开发包防火墙阻挡属于历史；本轮复查时该窗口已不在，正式包正常启动。测试源见[流程与原生用例](fidelity/test-cases/flow-and-native.md)。
 
-当前为本机恢复候选，原生操作、原速体验、听感与逐像素对照尚须补验。恢复实现、原音频及功能 stencil 派生 PNG 保留本机；公开备份包含原创工具、AI 原图、提示词与数据。
+当前为本机恢复候选，完整原生操作、原速体验、听感与逐像素对照尚须补验。恢复实现、原音频及功能 stencil 派生 PNG 已进入完整本地 Git 分支；公开远程仅保留原创资料，完整分支使用 Git bundle 备份。
 
 旧改编资料保留在 design/、data/、art/、replacement/；[旧 README](history/README-v1.md) / [旧合同](history/DEVELOPMENT-v1.md)。其设施、行动点、客人、章节、局内保存和新 AI 不驱动当前游戏。

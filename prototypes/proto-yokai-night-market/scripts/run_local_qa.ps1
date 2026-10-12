@@ -1,5 +1,5 @@
 # Isolated command-line QA only. This script performs no native window input.
-param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly)
+param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$FlowOnly)
 $ErrorActionPreference = 'Stop'
 $taskRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $taskLocal = Join-Path $taskRoot 'local'
@@ -22,6 +22,7 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     if (!$report.passed -or $report.errors.Count -ne 0 -or $report.width -ne $width -or $report.height -ne 1080) { throw ('QA failed: ' + $archiveName) }
     if ($flag -eq '--night-visual' -and ($report.captures.Count -ne 128 -or $report.tutorialPages -ne 2)) { throw 'Incomplete visual survey' }
     if ($flag -eq '--night-rules' -and $report.rules.Count -ne 40) { throw 'Incomplete rule suite' }
+    if ($flag -eq '--night-flow' -and ($report.checks.Count -ne 15 -or $report.reloads -ne 1)) { throw 'Incomplete replay/settings suite' }
     New-Item -ItemType Directory -Path $archive | Out-Null
     Copy-Item -LiteralPath $reportPath -Destination (Join-Path $archive $reportName)
     if ($flag -eq '--night-visual') { $captureNames = $report.captures }
@@ -33,11 +34,16 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     [ordered]@{case=$archiveName;passed=$report.passed;width=$report.width;height=$report.height;state=$report.state;frames=$report.captures.Count;rules=$report.rules.Count;winner=$report.winner;rounds=$report.rounds} | ConvertTo-Json -Compress
 }
 
+if ($FlowOnly) {
+    Run-Check '--night-flow' '16x9' 1920 'flow-evidence' 'report.json' 'flow' @()
+    exit 0
+}
 Run-Check '--night-visual' '16x9' 1920 'visual-evidence' 'report.json' 'visual-complete-16x9' @()
 Run-Check '--night-visual' '4x3' 1440 'visual-evidence' 'report.json' 'visual-complete-4x3' @()
 if (!$VisualAndMatchOnly) {
     Run-Check '--night-rules' '16x9' 1920 'smoke-evidence' 'rules.json' 'rules' @()
     Run-Check '--night-smoke' '16x9' 1920 'smoke-evidence' 'report.json' 'smoke-16x9' @('opening.png','last.png')
     Run-Check '--night-smoke' '4x3' 1440 'smoke-evidence' 'report.json' 'smoke-4x3' @('opening.png','last.png')
+    Run-Check '--night-flow' '16x9' 1920 'flow-evidence' 'report.json' 'flow' @()
 }
 Run-Check '--night-match' '16x9' 1920 'match-evidence' 'report.json' 'match' @('ending.png')

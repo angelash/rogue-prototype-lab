@@ -1,13 +1,14 @@
 """Publish original-data delivery metadata after reading actual local evidence."""
 from pathlib import Path
 from datetime import datetime,timezone
-import hashlib,json,re,shutil
+import argparse,hashlib,json,re,shutil
 ROOT=Path(__file__).resolve().parents[1]
 LOCAL=ROOT/'local';PROJECT=LOCAL/'UnityProject';SOURCE=ROOT.parent/'re-crunch-time'
 def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');args=parser.parse_args()
     verification=read(ROOT/'fidelity/evidence/fidelity-verification.json');assert verification['passed']
     images={r['id']:r for r in verification['images']};jobs=read(ROOT/'fidelity/art/jobs.json');spec=read(ROOT/'fidelity/image-specs.json');book=read(ROOT/'fidelity/art/generation-register.json')
     for j in jobs['jobs']:j['status']='imported_verified';j['runtimeSHA256']=images[j['id']]['runtimeSHA256']
@@ -24,7 +25,9 @@ def main():
             report=reports[family+label]['report'];assert (report['width'],report['height'])==size and report['cards']==95 and report['projects']==28
         report=reports['visual'+label]['report'];assert report['tutorialPages']==2 and len(report['captures'])==128 and report['qaFrameRate']==60
     match=reports['match']['report'];assert match['state']==50 and match['replayReady'] and len(match['winnerDone'])==5 and all(done>=goal for done,goal in zip(match['winnerDone'],match['winnerGoals']))
-    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe'])];assert not qaTypes
+    if args.flow_report:
+        p=ROOT/args.flow_report;r=read(p);assert r['passed'] and len(r['checks'])==15 and r['reloads']==1 and not r['errors'];reports['flow']=dict(report=r,localPath=args.flow_report,sha256=sha(p))
+    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe','NightFlowProbe'])];assert not qaTypes
     original=read(SOURCE/'evidence/build-files.json');installation=Path('E:/SteamLibrary/steamapps/common/Crunch Time');unchanged=all(sha(installation/f['path'])==f['sha256'] for f in original);assert unchanged
     inputs=[]
     for folder in ['Assets','Packages','ProjectSettings']:
@@ -39,5 +42,11 @@ def main():
     release=read(LOCAL/'release-build-report.json');assert release['result']=='Succeeded' and release['errors']==0
     out=dict(version=2,revision=backup['revision'],date=datetime.now(timezone.utc).isoformat(),status='local playable restoration candidate; native and pixel-equivalence acceptance incomplete',unity='2022.3.62f3c1',platform='Windows x64 Mono',scene='Assets/Recovery/Scenes/NightMarket.unity',project='local/UnityProject',player='local/Builds/Release/YokaiNightMarket.exe',release=release,sourceInputFiles=len(inputs),sourceInputSHA256=fingerprint,sourceInputManifest='local/source-inputs.json',releaseAssemblySHA256=sha(LOCAL/'Builds/Release/YokaiNightMarket_Data/Managed/Assembly-CSharp.dll'),releaseQAClasses=qaTypes,originalInstallFilesVerified=len(original),originalInstallUnchanged=unchanged,structure=read(LOCAL/'structure-audit.json'),prefabs=read(LOCAL/'prefab-report.json'),images=dict(generated=82,imported=82,referenceArtNeverSuppliedToImagegen=True),qa=reports,backups=backup,native=dict(passed=False,status='pending user cancellation of existing Windows firewall security prompt; no native input or listening claimed'),limitations=['No Unity 4 vs Unity 2022 same-seed RNG or rasterizer equivalence proof','No complete native keyboard/mouse, original-speed experience, audio listening or performance acceptance','Uncapped batch-mode tutorial fade stalls were observed; final QA uses a QA-only 60 FPS cap, while release keeps source settings; cross-version cause not established','Original Unity 4 startup resolution/quality picker not rebuilt','Scene roots reconstructed as prefabs; original Editor-only prefab connections absent','Recovered code, original audio and stencil derivatives remain local only'])
     out['qaRevisionScope']={'beforeFinalHeaderArt':['rules','smoke16x9','smoke4x3'],'finalHeaderArt':['visual16x9','visual4x3','match'],'reason':'Business sources, numeric parameters, Resources XML and input structure unchanged after the earlier rule/smoke pass; final change replaces one title-frame image and tightens QA-only ending acceptance to require the original replay callback.'}
+    out['native']=dict(passed=False,status='native acceptance requires an explicit actual report; no native coverage inferred from automated QA')
+    if args.native_report:
+        p=ROOT/args.native_report;r=read(p);assert r['cases'] and all(isinstance(c['passed'],bool) for c in r['cases']);out['native']=dict(passed=r['completeAcceptance'],partialChecks=sum(c['passed'] for c in r['cases']),status='partial native Release coverage completed; remaining cases listed in the actual report',localPath=args.native_report,sha256=sha(p),report=r)
+    if args.flow_report:
+        out['qaRevisionScope']['flowAddition']=['flow'];out['qaRevisionScope']['flowReason']='v2.3 adds a QA-only integration driver and version-controls full production/test inputs. All 30 production scripts, 95/28 numeric records, 420 text keys and 82 image bytes remain verified. Existing v2.2 visual/full-match reports retain their original runtime scope.'
+    out['versionControl']=dict(fullSourceBranch='codex/yokai-night-market-source',assetCommit='e0b1c7ccfbe862d743191f8efc33d63a5e3acd1a',scope='Unity Assets/.meta, Packages, ProjectSettings, all art sources/exports and tests/reference fixtures; caches and outputs excluded',remote='full source history stays local; public origin retains original material only')
     write(ROOT/'fidelity/evidence/delivery.json',out);print(json.dumps(dict(status=out['status'],sourceFiles=len(inputs),images=82,qaReports=len(reports),release=release,backups=out['backups']),ensure_ascii=False))
 if __name__=='__main__':main()

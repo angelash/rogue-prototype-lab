@@ -11,6 +11,13 @@
 *.unity text eol=lf whitespace=-blank-at-eol
 *.asset text eol=lf whitespace=-blank-at-eol
 *.mat text eol=lf whitespace=-blank-at-eol
+*.prefab text eol=lf whitespace=-blank-at-eol
+
+# 本地复刻分支的只读参考夹具按原字节保存，保证原作哈希与测试输入稳定。
+prototypes/re-crunch-time/local/** -text -diff
+prototypes/proto-yokai-night-market/local/UnityProject/Assets/Recovery/Media/*.txt whitespace=-blank-at-eol
+# 保留恢复业务脚本的原排版，差异检查只允许声明过的 API 桥接和包装改名。
+prototypes/proto-yokai-night-market/local/UnityProject/Assets/Recovery/Scripts/*.cs whitespace=-blank-at-eol
 
 # 原始文档、压缩包和素材按二进制保存，避免换行转换
 *.xlsx binary

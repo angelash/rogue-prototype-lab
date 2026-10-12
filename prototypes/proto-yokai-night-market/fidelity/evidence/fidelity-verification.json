@@ -300,6 +300,11 @@
       "sameRuntimeSource": true
     },
     {
+      "file": "scripts/runtime/NightFlowProbe.cs",
+      "sha256LF": "a75d73800b7b330af7121f8731c7f0e253b9703c31f5eb5feaae93ead1b3867b",
+      "sameRuntimeSource": true
+    },
+    {
       "file": "scripts/runtime/NightRuleChecks.cs",
       "sha256LF": "56f150c7b1fae0aedc2634951e01e83c31364f3ea3d415d66431aa0e9066d462",
       "sameRuntimeSource": true

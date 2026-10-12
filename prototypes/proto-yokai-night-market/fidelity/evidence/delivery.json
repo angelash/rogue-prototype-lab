@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "revision": "v2.2",
-  "date": "2026-10-12T15:09:24.086457+00:00",
+  "revision": "v2.3",
+  "date": "2026-10-12T16:50:19.914538+00:00",
   "status": "local playable restoration candidate; native and pixel-equivalence acceptance incomplete",
   "unity": "2022.3.62f3c1",
   "platform": "Windows x64 Mono",
@@ -14,12 +14,12 @@
     "errors": 0,
     "warnings": 7,
     "bytes": 610454063,
-    "seconds": 6.4067758
+    "seconds": 7.705591699999999
   },
-  "sourceInputFiles": 958,
-  "sourceInputSHA256": "71e8ea9f6acc1d90e085c11ace450997996394a1d7499870a4db0dbdd61b59c5",
+  "sourceInputFiles": 961,
+  "sourceInputSHA256": "597e7539bdbd42d2758c933f0f48a08be04ef187d8a62af719095370c55b67f0",
   "sourceInputManifest": "local/source-inputs.json",
-  "releaseAssemblySHA256": "777037f60d2f5468f055f542f71a243179f13660f1c3d6e1c93b0fd625fa7d67",
+  "releaseAssemblySHA256": "165a8195040e3a890895a8e07262d103912b22ee2c6b6a0342671facb3e56506",
   "releaseQAClasses": [],
   "originalInstallFilesVerified": 25,
   "originalInstallUnchanged": true,
@@ -1284,34 +1284,394 @@
       },
       "localPath": "local/QAResults/match-v2.2/report.json",
       "sha256": "6e4894e92d31978ec6205922ddf376e3e6d6a262e15193a86837d230f995b4f4"
+    },
+    "flow": {
+      "report": {
+        "passed": true,
+        "scope": "QA-only fixture completion, original pause/replay callbacks and settings reload; not native input or full AI match",
+        "reloads": 1,
+        "finalScore": 16250,
+        "width": 1920,
+        "height": 1080,
+        "checks": [
+          {
+            "name": "initial 95 cards and 28 projects",
+            "passed": true
+          },
+          {
+            "name": "initial five cards each",
+            "passed": true
+          },
+          {
+            "name": "options button pauses original state",
+            "passed": true
+          },
+          {
+            "name": "all six settings persisted",
+            "passed": true
+          },
+          {
+            "name": "resume button restores human shift",
+            "passed": true
+          },
+          {
+            "name": "fixture completion entered original human victory",
+            "passed": true
+          },
+          {
+            "name": "scoreboard saved winner score",
+            "passed": true
+          },
+          {
+            "name": "replay button has original reload callback",
+            "passed": true
+          },
+          {
+            "name": "replay click starts original fade/reload state",
+            "passed": true
+          },
+          {
+            "name": "exactly one scene reload and a new card manager",
+            "passed": true
+          },
+          {
+            "name": "new round and original 95/28 decks",
+            "passed": true
+          },
+          {
+            "name": "replayed opening hand resets to five each",
+            "passed": true
+          },
+          {
+            "name": "new project has no completed work or score",
+            "passed": true
+          },
+          {
+            "name": "all six settings restored by original initialization",
+            "passed": true
+          },
+          {
+            "name": "saved scoreboard survives replay",
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "states": [
+          1,
+          2,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18,
+          25,
+          26,
+          50,
+          -1,
+          0,
+          2,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18,
+          25,
+          26
+        ]
+      },
+      "localPath": "local/QAResults/flow-v2.3/report.json",
+      "sha256": "eedac6defbbb4cc7e207859258b118a9b40335f8fd1596d9bd4f2974ae40a427"
     }
   },
   "backups": {
     "version": 2,
-    "revision": "v2.2",
+    "revision": "v2.3",
     "scope": "Private local restoration backups; not redistribution packages",
     "source": {
-      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.2.zip",
-      "bytes": 354873903,
-      "sha256": "e0e1bccfbaf443e1e65c0651b9ef3fd90fb5fb652a75565592be47080ffe9bd8",
-      "files": 958,
-      "uncompressedBytes": 418809587,
+      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.3.zip",
+      "bytes": 354877575,
+      "sha256": "5c144f09c399a48064459e65c4a9f83adec48d28daf73e13ecd0fb0c94941512",
+      "files": 961,
+      "uncompressedBytes": 418817622,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.2.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.3.files.json"
     },
     "player": {
-      "path": "local/Backups/YokaiNightMarket-Windows-v2.2.zip",
-      "bytes": 375640395,
-      "sha256": "7c993e8b5f12bccf717c5d15a10882801119c29389238f3b4aba0fba674f465f",
+      "path": "local/Backups/YokaiNightMarket-Windows-v2.3.zip",
+      "bytes": 375640390,
+      "sha256": "aab04090214227716ff4cf160664eee09c29a0ded6b6a8a495167b53a1dda977",
       "files": 129,
       "uncompressedBytes": 610454974,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.2.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.3.files.json"
     }
   },
   "native": {
     "passed": false,
-    "status": "pending user cancellation of existing Windows firewall security prompt; no native input or listening claimed"
+    "partialChecks": 13,
+    "status": "partial native Release coverage completed; remaining cases listed in the actual report",
+    "localPath": "local/QAResults/native-v2.3/report.json",
+    "sha256": "03175c5fec5c32fa9ed8d41d9c37969b9e4bb2dfcba658a38cb4789178139844",
+    "report": {
+      "date": "2026-10-12T16:44:14.861Z",
+      "runtimeRevision": "v2.2 Release cases 1-10; v2.3 Release restart, persistence and rejection checks",
+      "scope": "Visible Release window and actual sky keyboard/mouse input; incomplete native acceptance",
+      "completeAcceptance": false,
+      "captures": [
+        {
+          "time": "2026-10-12T16:07:09.086Z",
+          "capture": "01-card-pause.png"
+        },
+        {
+          "time": "2026-10-12T16:07:46.205Z",
+          "capture": "02-next-card.png"
+        },
+        {
+          "time": "2026-10-12T16:08:11.381Z",
+          "capture": "03-next-card.png"
+        },
+        {
+          "time": "2026-10-12T16:10:47.848Z",
+          "capture": "04-last-opening-card.png"
+        },
+        {
+          "time": "2026-10-12T16:11:34.487Z",
+          "capture": "05-helper-selected.png"
+        },
+        {
+          "time": "2026-10-12T16:12:49.359Z",
+          "capture": "06-settings.png"
+        },
+        {
+          "time": "2026-10-12T16:13:22.078Z",
+          "capture": "07-english-settings.png"
+        },
+        {
+          "time": "2026-10-12T16:14:23.713Z",
+          "capture": "08-english-options.png"
+        },
+        {
+          "time": "2026-10-12T16:15:09.027Z",
+          "capture": "09-language-switched.png"
+        },
+        {
+          "time": "2026-10-12T16:15:27.291Z",
+          "capture": "10-resumed.png"
+        },
+        {
+          "time": "2026-10-12T16:16:11.388Z",
+          "capture": "11-selected-helper.png"
+        },
+        {
+          "time": "2026-10-12T16:17:50.953Z",
+          "capture": "12-card-used.png"
+        },
+        {
+          "time": "2026-10-12T16:19:25.750Z",
+          "capture": "13-worker-placed.png"
+        },
+        {
+          "time": "2026-10-12T16:20:26.493Z",
+          "capture": "14-menu-before-language.png"
+        },
+        {
+          "time": "2026-10-12T16:21:05.735Z",
+          "capture": "15-english-visible.png"
+        },
+        {
+          "time": "2026-10-12T16:22:31.196Z",
+          "capture": "16-tab-and-chinese.png"
+        },
+        {
+          "time": "2026-10-12T16:23:07.827Z",
+          "capture": "17-name-focus.png"
+        },
+        {
+          "time": "2026-10-12T16:23:28.345Z",
+          "capture": "18-name-entered.png"
+        },
+        {
+          "time": "2026-10-12T16:24:52.141Z",
+          "capture": "19-native-letter.png"
+        },
+        {
+          "time": "2026-10-12T16:26:45.086Z",
+          "capture": "20-right-click-shift.png"
+        },
+        {
+          "time": "2026-10-12T16:27:14.558Z",
+          "capture": "21-name-yokai.png"
+        },
+        {
+          "time": "2026-10-12T16:30:04.070Z",
+          "capture": "22-short-escape-cancelled.png"
+        },
+        {
+          "time": "2026-10-12T16:35:22.523Z",
+          "capture": "23-restarted-release.png"
+        },
+        {
+          "time": "2026-10-12T16:37:15.787Z",
+          "capture": "24-calling-helper.png"
+        },
+        {
+          "time": "2026-10-12T16:37:56.329Z",
+          "capture": "25-native-rejection.png"
+        },
+        {
+          "time": "2026-10-12T16:42:00.830Z",
+          "capture": "26-restarted-settings.png"
+        },
+        {
+          "time": "2026-10-12T16:42:37.540Z",
+          "capture": "27-restored-pause-setting.png"
+        },
+        {
+          "time": "2026-10-12T16:42:44.134Z",
+          "capture": "28-restore-name-focus.png"
+        },
+        {
+          "time": "2026-10-12T16:43:56.768Z",
+          "capture": "29-restored-name.png"
+        }
+      ],
+      "cases": [
+        {
+          "name": "native launch without a security prompt",
+          "passed": true,
+          "evidence": [
+            "01-card-pause.png"
+          ]
+        },
+        {
+          "name": "pause per card and Space continue",
+          "passed": true,
+          "evidence": [
+            "01-card-pause.png",
+            "02-next-card.png",
+            "03-next-card.png",
+            "04-last-opening-card.png"
+          ]
+        },
+        {
+          "name": "mouse play places two cooking helpers and a trouble card, adds 1500 points",
+          "passed": true,
+          "evidence": [
+            "14-menu-before-language.png"
+          ]
+        },
+        {
+          "name": "settings pause and resume",
+          "passed": true,
+          "evidence": [
+            "06-settings.png",
+            "10-resumed.png"
+          ]
+        },
+        {
+          "name": "both language slots and original positions",
+          "passed": true,
+          "evidence": [
+            "15-english-visible.png",
+            "16-tab-and-chinese.png"
+          ],
+          "note": "left slot 1 English; right slot 0 Chinese"
+        },
+        {
+          "name": "sound option and pause per card indicators",
+          "passed": true,
+          "evidence": [
+            "06-settings.png",
+            "08-english-options.png",
+            "16-tab-and-chinese.png"
+          ],
+          "note": "visual state only, not listening"
+        },
+        {
+          "name": "Tab toggles fast mode",
+          "passed": true,
+          "evidence": [
+            "08-english-options.png",
+            "16-tab-and-chinese.png"
+          ]
+        },
+        {
+          "name": "Space and right mouse end shift and AI continues",
+          "passed": true,
+          "evidence": [
+            "10-resumed.png",
+            "20-right-click-shift.png"
+          ]
+        },
+        {
+          "name": "actual key presses rename and Return confirms",
+          "passed": true,
+          "evidence": [
+            "19-native-letter.png",
+            "21-name-yokai.png",
+            "22-short-escape-cancelled.png"
+          ],
+          "note": "type_text did not populate Unity legacy Input.inputString; virtual key presses worked"
+        },
+        {
+          "name": "short Escape releases without quitting",
+          "passed": true,
+          "evidence": [
+            "22-short-escape-cancelled.png"
+          ]
+        },
+        {
+          "name": "v2.3 native release launch and persisted company name",
+          "passed": true,
+          "evidence": [
+            "23-restarted-release.png",
+            "26-restarted-settings.png"
+          ],
+          "note": "company yokai entered in v2.2 session survives normal exit and v2.3 process launch"
+        },
+        {
+          "name": "native department lock rejection preserves hand and score",
+          "passed": true,
+          "evidence": [
+            "24-calling-helper.png",
+            "25-native-rejection.png"
+          ],
+          "note": "after placing copper helper for calling, supplies helper is rejected with original department-lock reason and score remains 500"
+        },
+        {
+          "name": "settings persist across process restart",
+          "passed": true,
+          "evidence": [
+            "16-tab-and-chinese.png",
+            "26-restarted-settings.png"
+          ],
+          "note": "AutoPause=false Fast=false Sound=true Tutorial=false Language=0 match prior saved session"
+        }
+      ],
+      "pending": [
+        "native target choice and mediator timing",
+        "two tutorial pages with native input",
+        "native full victory/replay",
+        "held Escape for three seconds (API provides press, not held keys)",
+        "focus loss",
+        "audio listening",
+        "original-speed comparison and pixel equivalence"
+      ],
+      "preferencesRestored": {
+        "AutoPause": true,
+        "Fast": false,
+        "Sound": true,
+        "Tutorial": false,
+        "Language": 0,
+        "Company": "",
+        "evidence": [
+          "27-restored-pause-setting.png",
+          "29-restored-name.png"
+        ]
+      }
+    }
   },
   "limitations": [
     "No Unity 4 vs Unity 2022 same-seed RNG or rasterizer equivalence proof",
@@ -1332,6 +1692,16 @@
       "visual4x3",
       "match"
     ],
-    "reason": "Business sources, numeric parameters, Resources XML and input structure unchanged after the earlier rule/smoke pass; final change replaces one title-frame image and tightens QA-only ending acceptance to require the original replay callback."
+    "reason": "Business sources, numeric parameters, Resources XML and input structure unchanged after the earlier rule/smoke pass; final change replaces one title-frame image and tightens QA-only ending acceptance to require the original replay callback.",
+    "flowAddition": [
+      "flow"
+    ],
+    "flowReason": "v2.3 adds a QA-only integration driver and version-controls full production/test inputs. All 30 production scripts, 95/28 numeric records, 420 text keys and 82 image bytes remain verified. Existing v2.2 visual/full-match reports retain their original runtime scope."
+  },
+  "versionControl": {
+    "fullSourceBranch": "codex/yokai-night-market-source",
+    "assetCommit": "e0b1c7ccfbe862d743191f8efc33d63a5e3acd1a",
+    "scope": "Unity Assets/.meta, Packages, ProjectSettings, all art sources/exports and tests/reference fixtures; caches and outputs excluded",
+    "remote": "full source history stays local; public origin retains original material only"
   }
 }
