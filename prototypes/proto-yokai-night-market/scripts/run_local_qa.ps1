@@ -24,6 +24,7 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     $report = Get-Content -LiteralPath $reportPath -Raw | ConvertFrom-Json
     if (!$report.passed -or $report.errors.Count -ne 0 -or $report.width -ne $width -or $report.height -ne 1080) { throw ('QA failed: ' + $archiveName) }
     if ($flag -eq '--night-visual' -and ($report.captures.Count -ne 128 -or $report.tutorialPages -ne 2 -or $report.tutorialTextBoundsChecks -lt 1 -or $report.verifiedCardLanguages -ne 95 -or $report.verifiedProjectLanguages -ne 28 -or $report.language -ne [int]$EnglishSurvey.IsPresent)) { throw 'Incomplete visual or language survey' }
+    if ($flag -eq '--night-visual' -and ($report.negativeCardsChecked -ne 26 -or $report.negativeBandInkChecks -ne 52)) { throw 'Incomplete negative-card band pixel checks' }
     if ($flag -eq '--night-prompts' -and ($report.captures.Count -ne 33 -or $report.boundsChecks -lt 4 -or $report.projectHeaderChecks -ne 28 -or $report.language -ne [int]$EnglishSurvey.IsPresent)) { throw 'Incomplete prompt and project-header survey' }
     if ($flag -eq '--night-rules' -and $report.rules.Count -ne 40) { throw 'Incomplete rule suite' }
     if ($flag -eq '--night-flow' -and ($report.checks.Count -ne 15 -or $report.reloads -ne 1)) { throw 'Incomplete replay/settings suite' }

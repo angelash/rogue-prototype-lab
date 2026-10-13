@@ -28,7 +28,7 @@ local/UnityProject/Assets/Recovery/Scripts 保存 30 份原业务 C# 和薄兼�
 已有可用工程不需再次执行准备脚本。重建会重置私有参考输入，必须按完整次序操作并保留先前备份。
 
 1. 从工程根执行 python -X utf8 prototypes/proto-yokai-night-market/scripts/prepare_fidelity.py，要求已授权原作分析快照。
-2. 执行 create_fidelity_theme.py 生成夜市 XML、公司池、字体与初始文本键；已有 Resources XML 同字节同步，保留 .meta，新增工程由 Restore 建立逻辑键。现有精修提示词不覆盖；新任务 SubTitle 分类需保持 title，不用旧 v1 规格。
+2. 执行 create_fidelity_theme.py 生成夜市 XML、公司池、字体与初始文本键；已有 Resources XML 同字节同步，保留 .meta，新增工程由 Restore 建立逻辑键。现有精修提示词不覆盖；SubTitle 分类保持 prompt_backplate（Continue 无字底板），只有 Title_ 两画幅大标题归为 title，不用旧 v1 规格。presentation.json 的字色、唯一副说明字号和材质色同步到恢复输入；已有工程再通过 NightReadability 应用到实际工作副本。
 3. 用已安装 Unity 的 batchmode 执行 RecoveryEditor.Restore；读真实日志和 structure-audit.json。
 4. 执行 scripts/restore_quality.py，映射源六档；再执行 NightAssetExport.Export，导出所有已登记 AI 原图到源尺寸并覆盖工作 PNG，保留 .meta。
 5. 运行 verify_fidelity.py；执行 RecoveryEditor.BuildRelease，获得完整 Windows 目录与 release-build-report.json。

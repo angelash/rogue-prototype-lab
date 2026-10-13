@@ -15,6 +15,7 @@
     "mainData:1279": {"object": "0 Marc Department", "key": "THE TESTER", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1}
   },
   "materialColorOverrides": {
+    "sharedassets0.assets:10": {"resource": "00_neg_detail", "r": 0.72, "g": 0.24, "b": 0.18, "a": 1, "reason": "Replace the original pure-black negative-card classification bands with muted terracotta; preserve classification, alpha, meshes and all interactions."},
     "resources.assets:1": {"resource": "00_art_dark", "r": 0.07, "g": 0.04, "b": 0.02, "a": 1},
     "resources.assets:4": {"resource": "00_dsg_dark", "r": 0.06, "g": 0.05, "b": 0.02, "a": 1},
     "resources.assets:9": {"resource": "00_prg_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
@@ -24,5 +25,5 @@
     "resources.assets:12": {"resource": "00_spc_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
     "sharedassets0.assets:11": {"resource": "00_pos_dark", "r": 0.025, "g": 0.04, "b": 0.075, "a": 1}
   },
-  "scope": "Eight text colors and eight card-label material colors; preserve nodes, geometry, text keys, references, shaders and all game behavior."
+  "scope": "Eight text colors, eight card-label material colors and one negative-card band color; one declared project-subtitle characterSize. Preserve nodes, geometry, text keys, references, shaders and all game behavior."
 }

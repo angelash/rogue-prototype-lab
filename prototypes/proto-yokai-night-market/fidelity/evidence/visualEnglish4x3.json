@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "scope": "QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input",
+  "scope": "QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input",
   "width": 1440,
   "height": 1080,
   "cards": 95,
@@ -11,6 +11,8 @@
   "language": 1,
   "verifiedCardLanguages": 95,
   "verifiedProjectLanguages": 28,
+  "negativeCardsChecked": 26,
+  "negativeBandInkChecks": 52,
   "errors": [],
   "captures": [
     "title.png",

@@ -39,3 +39,9 @@ v2.4 新增 `run_local_qa.ps1 -VisualOnly -EvidenceSuffix <新修订后缀>`，�
 `run_local_qa.ps1 -PromptsOnly -EvidenceSuffix <新后缀>`，中文和 `-EnglishSurvey` 英文各执行两画幅。每组保存正常桌面、教程继续、逐步暂停、调停提示、隐藏后五帧，以及全部 28 份委托标题，共 33 帧。QA 驱动冻结 Loader，只调用原 Continue 的 EnableTutorial/Enable/EnableDecision/Disable 并让原动画更新，不注入正式包。
 
 断言提示出现/隐藏、可见文字在屏幕内、主提示不超过底板、语言、33 帧数量及脚本错误；另检查 28 份委托的字幕宽度和折叠状态标题间距；逐个单独渲染题名/字幕并量黑底上的亮色墨迹，不能与名称相交。字体包围盒含空白边距，不能直接当作墨迹；夹具暂停单卡 Update 防止其动画覆盖摆放。静态检查 628×174、均匀暗色 RGB、原 alpha 逐像素相等、运行副本 hash；禁止重新把 SubTitle 归为 title。人工检查正文、关闭暂停文字和倒计时层级，再检查实际 Release 的逐牌暂停和原生键鼠推进。QA 调停夹具不等于完整原生反制验收。
+
+## 分类色条可辨性：v2.6
+
+继续用 -VisualOnly 和 -EnglishSurvey 串行调查两画幅；保留 128 帧/95 卡/28 委托、语言、宽度和教程边界断言。对 Type 6/7 的全部 26 张闹场/挖角牌，额外关闭其它 Renderer，在黑底上分别渲染 03 Details Top 和 03 Details Lines。每层须有至少 100 个最大 RGB 通道 >16 且通道差 >8 的像素；原纯黑 _Color 会产生 0 个，因此能区分色条仍然全黑、空图或没有实际接入的情况。每组要求 negativeCardsChecked=26、negativeBandInkChecks=52，正式包不包含这个驱动。
+
+人工核对用户指出的第 64 牌和第 43 闹场牌、其它类型样本及轮数槽：陶红色条表示干预分类；轮数槽/进度轨道的深色凹位和字形轮廓仍保留。不能因还有合理的深色背景就把整卡背景提亮或删除功能区域。该检查证明包装可辨，不替代原生选牌或 26 种效果实玩。

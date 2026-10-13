@@ -11,7 +11,7 @@ using UnityEngine;
 
 public sealed class NightVisualProbe : MonoBehaviour
 {
-    [Serializable] public class Report {public bool passed;public string scope="QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input";public int width,height,cards,projects,tutorialPages,tutorialTextBoundsChecks,qaFrameRate=60,language,verifiedCardLanguages,verifiedProjectLanguages;public List<string> errors=new List<string>();public List<string> captures=new List<string>();}
+    [Serializable] public class Report {public bool passed;public string scope="QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input";public int width,height,cards,projects,tutorialPages,tutorialTextBoundsChecks,qaFrameRate=60,language,verifiedCardLanguages,verifiedProjectLanguages,negativeCardsChecked,negativeBandInkChecks;public List<string> errors=new List<string>();public List<string> captures=new List<string>();}
     Report report=new Report();string folder;float start,nextLog;bool configured,title,started;int pageCaptured=-1;
     int verifiedCards,verifiedProjects;
     int SurveyLanguage => Array.IndexOf(Environment.GetCommandLineArgs(),"--night-visual-en")>=0?1:0;
@@ -56,6 +56,7 @@ public sealed class NightVisualProbe : MonoBehaviour
             else verifiedCards++;
             var frame=cardObject.GetComponentsInChildren<SpriteRenderer>(true).First(s=>s.gameObject.name=="02 Base");
             CheckWidth(phrase,frame,"Quote"+card.iID);CheckWidth(description,frame,"Description"+card.iID);
+            if(card.iType==6 || card.iType==7)CheckNegativeBands(cardObject,camera,card.iID);
             Capture("card-"+card.iID.ToString("000")+".png",camera);
             foreach(var child in cardObject.GetComponentsInChildren<Transform>(true))child.gameObject.layer=0;
         }
@@ -79,6 +80,29 @@ public sealed class NightVisualProbe : MonoBehaviour
     {
         if(text.GetComponent<MeshRenderer>().bounds.size.x>frame.bounds.size.x)report.errors.Add("Text wider than card frame: "+key);
     }
+    void CheckNegativeBands(GameObject card,Camera camera,int id)
+    {
+        // The original black tint made these classification bands indistinguishable
+        // from empty gaps. Test visible colored pixels, excluding text and frame art.
+        var renderers=card.GetComponentsInChildren<Renderer>();var enabled=renderers.Select(r=>r.enabled).ToArray();
+        foreach(var renderer in renderers)renderer.enabled=false;
+        var background=camera.backgroundColor;camera.backgroundColor=Color.black;
+        try
+        {
+            foreach(string name in new[]{"03 Details Top","03 Details Lines"})
+            {
+                var band=renderers.First(r=>r.name==name);band.enabled=true;
+                var rt=new RenderTexture(Screen.width,Screen.height,24);var active=RenderTexture.active;var previous=camera.targetTexture;
+                camera.targetTexture=rt;camera.Render();RenderTexture.active=rt;
+                var image=new Texture2D(Screen.width,Screen.height,TextureFormat.RGBA32,false);image.ReadPixels(new Rect(0,0,Screen.width,Screen.height),0,0);image.Apply();
+                int colored=image.GetPixels32().Count(p=>Mathf.Max(p.r,Mathf.Max(p.g,p.b))>16 && Mathf.Max(p.r,Mathf.Max(p.g,p.b))-Mathf.Min(p.r,Mathf.Min(p.g,p.b))>8);
+                if(colored<100)report.errors.Add("Negative card band remains black or invisible: "+id+" / "+name+" / pixels="+colored);
+                report.negativeBandInkChecks++;camera.targetTexture=previous;RenderTexture.active=active;Destroy(image);rt.Release();Destroy(rt);band.enabled=false;
+            }
+            report.negativeCardsChecked++;
+        }
+        finally{camera.backgroundColor=background;for(int i=0;i<renderers.Length;i++)renderers[i].enabled=enabled[i];}
+    }
     void CheckTutorialBounds(Camera camera,int page)
     {
         foreach(var text in hGameVars.oTutorial.GetComponentsInChildren<TextMesh>())
@@ -101,6 +125,6 @@ public sealed class NightVisualProbe : MonoBehaviour
         if(name.StartsWith("card-") || name.StartsWith("project-")){float lo=1,hi=0;foreach(var pixel in image.GetPixels()){lo=Mathf.Min(lo,pixel.grayscale);hi=Mathf.Max(hi,pixel.grayscale);}if(hi-lo<.1f)report.errors.Add("Empty posed capture: "+name);}
         File.WriteAllBytes(Path.Combine(folder,name),image.EncodeToPNG());camera.targetTexture=target;RenderTexture.active=active;Destroy(image);rt.Release();Destroy(rt);report.captures.Add(name);
     }
-    void Finish(bool ok){report.language=SurveyLanguage;report.verifiedCardLanguages=verifiedCards;report.verifiedProjectLanguages=verifiedProjects;report.passed=ok && verifiedCards==95 && verifiedProjects==28;File.WriteAllText(Path.Combine(folder,"report.json"),JsonUtility.ToJson(report,true));Application.Quit(report.passed?0:2);}
+    void Finish(bool ok){report.language=SurveyLanguage;report.verifiedCardLanguages=verifiedCards;report.verifiedProjectLanguages=verifiedProjects;report.passed=ok && verifiedCards==95 && verifiedProjects==28 && report.negativeCardsChecked==26 && report.negativeBandInkChecks==52;File.WriteAllText(Path.Combine(folder,"report.json"),JsonUtility.ToJson(report,true));Application.Quit(report.passed?0:2);}
 }
 #endif

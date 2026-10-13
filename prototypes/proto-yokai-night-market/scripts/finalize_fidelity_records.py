@@ -8,7 +8,7 @@ def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');parser.add_argument('--prompt-suffix',default='');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');parser.add_argument('--prompt-suffix',default='');parser.add_argument('--band-repair',action='store_true');args=parser.parse_args()
     verification=read(ROOT/'fidelity/evidence/fidelity-verification.json');assert verification['passed']
     images={r['id']:r for r in verification['images']};jobs=read(ROOT/'fidelity/art/jobs.json');spec=read(ROOT/'fidelity/image-specs.json');book=read(ROOT/'fidelity/art/generation-register.json')
     for j in jobs['jobs']:j['status']='imported_verified';j['runtimeSHA256']=images[j['id']]['runtimeSHA256']
@@ -71,6 +71,15 @@ def main():
         assert all(c['passed'] for c in nativePrompt['cases'])
         for capture in nativePrompt['captures']:assert sha(ROOT/capture['path'])==capture['sha256']
         testedCurrentBuild=nativePrompt['releasePlayerSHA256']==sha(LOCAL/'Builds/Release/YokaiNightMarket.exe') and nativePrompt['releaseAssemblySHA256']==out['releaseAssemblySHA256']
-        out['promptNative']=dict(report=nativePrompt,testedCurrentBuild=testedCurrentBuild,status='partial native prompt checks on the recorded build' if testedCurrentBuild else 'v2.5-r4 native prompt history; final v2.5-r9 click recheck pending because Windows desktop is locked')
+        out['promptNative']=dict(report=nativePrompt,testedCurrentBuild=testedCurrentBuild,status='partial native prompt checks on the recorded build' if testedCurrentBuild else 'Recorded v2.5-r4 native prompt history; not a native recheck of the current release')
+    if args.band_repair:
+        assert args.visual_suffix and args.prompt_suffix
+        current=['visual16x9','visual4x3','visualEnglish16x9','visualEnglish4x3']
+        for key in current:
+            r=reports[key]['report'];assert r['negativeCardsChecked']==26 and r['negativeBandInkChecks']==52
+        out['qaRevisionScope']['copyPolishReason']='The v2.4 copy remains unchanged. Listed visual reports now come from the current v2.6 band repair; older copy-polish captures remain in local archives.'
+        out['qaRevisionScope']['promptRepair']['reason']='The v2.5 prompt repair reports remain their recorded history; v2.6 changes only one negative-card band material and the QA-only pixel checks. No prompt texture, node, text or behavior changes in this revision.'
+        out['qaRevisionScope']['reason']='Rules, smoke, flow, match and partial native reports retain their recorded earlier revision scope; only the four listed visual surveys attest the current v2.6 packaging.'
+        out['qaRevisionScope']['bandRepair']=dict(reports=current,material='00_NEG_Detail',rgba=[.72,.24,.18,1],affectedCardTypes=[6,7],affectedCards=26,reason='Original pure-black classification bands are intentional source design; change their packaging tint to terracotta so the title and separators remain identifiable on the night-market frame. Each affected card renders both bands separately on black and must have at least 100 colored pixels. All 82 PNG bytes, text, geometry, references, business code and numeric rules remain unchanged.')
     write(ROOT/'fidelity/evidence/delivery.json',out);print(json.dumps(dict(status=out['status'],sourceFiles=len(inputs),images=82,qaReports=len(reports),release=release,backups=out['backups']),ensure_ascii=False))
 if __name__=='__main__':main()

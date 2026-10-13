@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "revision": "v2.5-layout-final",
-  "date": "2026-10-13T04:20:15.054754+00:00",
+  "revision": "v2.6-bands",
+  "date": "2026-10-13T04:37:31.788756+00:00",
   "status": "local playable restoration candidate; native and pixel-equivalence acceptance incomplete",
   "unity": "2022.3.62f3c1",
   "platform": "Windows x64 Mono",
@@ -14,12 +14,12 @@
     "errors": 0,
     "warnings": 7,
     "bytes": 610454383,
-    "seconds": 8.3923683
+    "seconds": 7.157527399999999
   },
   "sourceInputFiles": 965,
-  "sourceInputSHA256": "86296368522948b278b7ea941fd4eebcba79234231d6e40c861f8a36be52184a",
+  "sourceInputSHA256": "0561fde870e9417c184f00c1533a6cd806f66f199e3d5dcc37754d7463759a48",
   "sourceInputManifest": "local/source-inputs.json",
-  "releaseAssemblySHA256": "b8dd66e40ce5f6b970397922602416c63f601873b5b19ced3e30586a8b07bcaa",
+  "releaseAssemblySHA256": "de1ae6c7ddaf536e5054592b0a37ca022cbc72849cfa8c44a8aac656ca030a84",
   "releaseQAClasses": [],
   "originalInstallFilesVerified": 25,
   "originalInstallUnchanged": true,
@@ -489,7 +489,7 @@
     "visual16x9": {
       "report": {
         "passed": true,
-        "scope": "QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input",
+        "scope": "QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input",
         "width": 1920,
         "height": 1080,
         "cards": 95,
@@ -500,6 +500,8 @@
         "language": 0,
         "verifiedCardLanguages": 95,
         "verifiedProjectLanguages": 28,
+        "negativeCardsChecked": 26,
+        "negativeBandInkChecks": 52,
         "errors": [],
         "captures": [
           "title.png",
@@ -632,13 +634,13 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-16x9-v2.4-r7/report.json",
-      "sha256": "fa1c6a0955ad221c9b7ac0098d073c08fb302d1427b1ec7807db42c2d6a2fc48"
+      "localPath": "local/QAResults/visual-complete-16x9-v2.6-r1/report.json",
+      "sha256": "ef470e871d598d767b32faa05542496520c560ca365b828ea239721bc6b0927a"
     },
     "visual4x3": {
       "report": {
         "passed": true,
-        "scope": "QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input",
+        "scope": "QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input",
         "width": 1440,
         "height": 1080,
         "cards": 95,
@@ -649,6 +651,8 @@
         "language": 0,
         "verifiedCardLanguages": 95,
         "verifiedProjectLanguages": 28,
+        "negativeCardsChecked": 26,
+        "negativeBandInkChecks": 52,
         "errors": [],
         "captures": [
           "title.png",
@@ -781,8 +785,8 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-4x3-v2.4-r7/report.json",
-      "sha256": "7e5786582db2283b6084dc8a4a6a024b674d866ddb496c90e3de90aad3b312d2"
+      "localPath": "local/QAResults/visual-complete-4x3-v2.6-r1/report.json",
+      "sha256": "ef50d8c3e4ba8eb2586418efc290187b97de4c377ad5283571251a6cfc9c2484"
     },
     "match": {
       "report": {
@@ -1398,7 +1402,7 @@
     "visualEnglish16x9": {
       "report": {
         "passed": true,
-        "scope": "QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input",
+        "scope": "QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input",
         "width": 1920,
         "height": 1080,
         "cards": 95,
@@ -1409,6 +1413,8 @@
         "language": 1,
         "verifiedCardLanguages": 95,
         "verifiedProjectLanguages": 28,
+        "negativeCardsChecked": 26,
+        "negativeBandInkChecks": 52,
         "errors": [],
         "captures": [
           "title.png",
@@ -1541,13 +1547,13 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-16x9-v2.4-r7-en/report.json",
-      "sha256": "ed8886a8cb7eedfc910c9476eb933e5069bf1f1bdbbeb8f8e752ac314409d95c"
+      "localPath": "local/QAResults/visual-complete-16x9-v2.6-r1-en/report.json",
+      "sha256": "5459c58086985398e8c2de8422edfd39ec3783e133c0201209494a9973b393fb"
     },
     "visualEnglish4x3": {
       "report": {
         "passed": true,
-        "scope": "QA tutorial/options observation and posed 95-card/28-project survey at a QA-only 60 FPS cap, not native input",
+        "scope": "QA tutorial/options observation and posed 95-card/28-project survey with negative-card bands individually rendered on black to reject invisible pure-black bands, at a QA-only 60 FPS cap, not native input",
         "width": 1440,
         "height": 1080,
         "cards": 95,
@@ -1558,6 +1564,8 @@
         "language": 1,
         "verifiedCardLanguages": 95,
         "verifiedProjectLanguages": 28,
+        "negativeCardsChecked": 26,
+        "negativeBandInkChecks": 52,
         "errors": [],
         "captures": [
           "title.png",
@@ -1690,8 +1698,8 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-4x3-v2.4-r7-en/report.json",
-      "sha256": "8bebe03075c5e0c7a045d802c03cb0481986cd832f9666ad7c83cd729e214b94"
+      "localPath": "local/QAResults/visual-complete-4x3-v2.6-r1-en/report.json",
+      "sha256": "34226c035caa7639e4a94f723bd689b21062bd63b14104262a73d75922b88dd8"
     },
     "prompts16x9Chinese": {
       "report": {
@@ -1892,25 +1900,25 @@
   },
   "backups": {
     "version": 2,
-    "revision": "v2.5-layout-final",
+    "revision": "v2.6-bands",
     "scope": "Private local restoration backups; not redistribution packages",
     "source": {
-      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.5-layout-final.zip",
-      "bytes": 354442325,
-      "sha256": "a7ecb543fab323ccef49759b1c89b9416b023992843b0eb27076902a1d362fe5",
+      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.6-bands.zip",
+      "bytes": 354442904,
+      "sha256": "41b4316b7e7587e8d2802014b84d9fa0e5986b77a9833a82cf05a548d12b8416",
       "files": 965,
-      "uncompressedBytes": 418384894,
+      "uncompressedBytes": 418386962,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.5-layout-final.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.6-bands.files.json"
     },
     "player": {
-      "path": "local/Backups/YokaiNightMarket-Windows-v2.5-layout-final.zip",
-      "bytes": 375156865,
-      "sha256": "0cc968759710a81e666129519113cddff81a979bcb5ebf161f7f68345b895a56",
+      "path": "local/Backups/YokaiNightMarket-Windows-v2.6-bands.zip",
+      "bytes": 375156968,
+      "sha256": "3b8f3c5805dee037d11738b918c6fcc69a231639dfcd40b023303154f36ac2fa",
       "files": 129,
       "uncompressedBytes": 610455294,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.5-layout-final.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.6-bands.files.json"
     }
   },
   "native": {
@@ -2195,7 +2203,7 @@
     "finalHeaderArt": [
       "match"
     ],
-    "reason": "The full-match report belongs to v2.2; retained as behavior history, it does not attest the v2.4 rendered copy.",
+    "reason": "Rules, smoke, flow, match and partial native reports retain their recorded earlier revision scope; only the four listed visual surveys attest the current v2.6 packaging.",
     "flowAddition": [
       "flow"
     ],
@@ -2206,7 +2214,7 @@
       "visualEnglish16x9",
       "visualEnglish4x3"
     ],
-    "copyPolishReason": "v2.4 changes bilingual copy, two generated frames, eight declared TextMesh colors and eight label material colors. New visual reports verify each template language and text width in the current rendered packaging. Earlier rules, smoke, flow, native and full-match reports retain their original revision scope. Production business code and numeric rules remain unchanged.",
+    "copyPolishReason": "The v2.4 copy remains unchanged. Listed visual reports now come from the current v2.6 band repair; older copy-polish captures remain in local archives.",
     "promptRepair": {
       "reports": [
         "prompts16x9Chinese",
@@ -2214,7 +2222,28 @@
         "prompts4x3Chinese",
         "prompts4x3English"
       ],
-      "reason": "v2.5 corrects SubTitle from a baked logo to a text-free Continue background, clarifies three UI labels, shortens 28 English project subtitles and declares one project subtitle TextMesh characterSize=0.85 for the collapsed header gap. Node transforms, references, hit areas and business logic stay original. New fixtures cover the production table, four prompt states and all project header gaps in both aspect ratios and languages. The 512 card/tutorial captures are v2.4 history; the new prompt fixture is not native mediator evidence."
+      "reason": "The v2.5 prompt repair reports remain their recorded history; v2.6 changes only one negative-card band material and the QA-only pixel checks. No prompt texture, node, text or behavior changes in this revision."
+    },
+    "bandRepair": {
+      "reports": [
+        "visual16x9",
+        "visual4x3",
+        "visualEnglish16x9",
+        "visualEnglish4x3"
+      ],
+      "material": "00_NEG_Detail",
+      "rgba": [
+        0.72,
+        0.24,
+        0.18,
+        1
+      ],
+      "affectedCardTypes": [
+        6,
+        7
+      ],
+      "affectedCards": 26,
+      "reason": "Original pure-black classification bands are intentional source design; change their packaging tint to terracotta so the title and separators remain identifiable on the night-market frame. Each affected card renders both bands separately on black and must have at least 100 colored pixels. All 82 PNG bytes, text, geometry, references, business code and numeric rules remain unchanged."
     }
   },
   "versionControl": {
@@ -2264,6 +2293,6 @@
       ]
     },
     "testedCurrentBuild": false,
-    "status": "v2.5-r4 native prompt history; final v2.5-r9 click recheck pending because Windows desktop is locked"
+    "status": "Recorded v2.5-r4 native prompt history; not a native recheck of the current release"
   }
 }
