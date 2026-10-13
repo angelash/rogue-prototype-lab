@@ -1,0 +1,284 @@
+{
+  "label": "代号:新生(测试版)",
+  "package": "com.gnml.t1yfnbcs",
+  "versionCode": 9000000,
+  "versionName": "0.9.0",
+  "minSDK": 22,
+  "targetSDK": 30,
+  "androidDebuggable": true,
+  "launchActivity": "com.zero.main.MainActivity",
+  "unityVersion": "2022.3.62f3c1",
+  "unityVersionEvidence": "globalgamemanagers and level0 serialized-file headers",
+  "components": [
+    {
+      "type": "application",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.tool.crashcatch2.FNCrashCatchApplication",
+        "debuggable": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.zero.main.MainActivity",
+        "screenOrientation": "(type 0x10)0xb"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.qx.a.ac4391ea115c",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.qx.ingameagent.androidlogin.JizhiLoginActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.qx.ingameagent.androidlogin.AttachmentPickerActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.qx.ingameagent.androidlogin.AttachmentShareProvider",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.tool.crashcatch2.CrashActivity",
+        "exported": "(type 0x12)0xffffffff",
+        "screenOrientation": "(type 0x10)0x4"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.tool.privacy_policy.FNPolicyActivity",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.core.util.permission.FNGrantActivity"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.common.fn.web.utils.FileChooseActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.common.fn.web.utils.OrientationActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.core.commonweb.popweb.PopFNWebActivity",
+        "exported": "(type 0x12)0x0",
+        "screenOrientation": "(type 0x10)0x6"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.core.FNFileProvider",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.ssjj.fnsdk.core.FnDtProvider",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "name": "com.huawei.agconnect.core.ServiceDiscovery",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.gnml.t1yfnbcs.wxapi.WXEntryActivity",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.gnml.t1yfnbcs.douyinapi.DouYinEntryActivity",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.gnml.t1yfnbcs.wxapi.WXPayEntryActivity",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.unionpay.uppay.PayActivity",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.unionpay.UPPayWapActivity",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.alipay.sdk.app.H5PayActivity",
+        "exported": "(type 0x12)0x0",
+        "screenOrientation": "(type 0x10)0x3"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjjsy.sdk.SdkActivity"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.ssjjsy.sdk.grant.GrantActivity"
+      }
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "name": "com.ssjjsy.sdk.SdkService",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "name": "com.ssjjsy.sdk.SdkServiceV2",
+        "exported": "(type 0x12)0xffffffff"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "cn.com.chinatelecom.account.sdk.ui.AuthActivity",
+        "exported": "(type 0x12)0x0",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "cn.com.chinatelecom.account.sdk.ui.PrivacyWebviewActivity",
+        "exported": "(type 0x12)0x0",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.cmic.gen.sdk.view.GenLoginAuthActivity",
+        "screenOrientation": "(type 0x10)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "cn.m4399.login.union.cu.CuLoginActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "cn.m4399.login.union.cu.CuPrivacyContentActivity",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity",
+        "screenOrientation": "(type 0x10)0x3"
+      }
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "name": "com.taptap.sdk.login.impl.ui.activity.TapTapLoginActivity",
+        "exported": "(type 0x12)0xffffffff",
+        "screenOrientation": "(type 0x10)0x3"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.taptap.sdk.kit.internal.TapTapKitInitProvider",
+        "exported": "(type 0x12)0x0"
+      }
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "name": "com.taptap.sdk.themis.lite.ThemisProvider",
+        "exported": "(type 0x12)0x0"
+      }
+    }
+  ],
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.huawei.permission.ACCESS_HW_KEYSTORE",
+    "com.hihonor.permission.ACCESS_HW_KEYSTORE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.asus.msa.SupplementaryDID.ACCESS",
+    "freemme.permission.msa",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.BLUETOOTH",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.GET_TASKS",
+    "android.permission.NFC",
+    "org.simalliance.openmobileai.SMARTCARD",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.CHANGE_NETWORK_STATE"
+  ]
+}

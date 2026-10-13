@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-13",
+  "scope": "Input bytes, clear manifests, DEX/ELF metadata, readable Unity scope and index UI; not complete game code/assets recovery.",
+  "passed": 20,
+  "total": 20,
+  "checks": [
+    {
+      "name": "original_and_copy_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_extracted_file_bytes",
+      "passed": true,
+      "details": {
+        "files": 2051,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "zip_crc_intake",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_exact_consumption",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_addresses_and_paths",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_manifest_dependencies_in_apk",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_bundle_file_sizes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_bundle_md5",
+      "passed": true,
+      "details": {
+        "files": 1017,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "manifest_bundle_crc_little_endian_hex",
+      "passed": true,
+      "details": {
+        "mismatches": []
+      }
+    },
+    {
+      "name": "manifest_md5_sidecar",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_android_sdk_dex_verification",
+      "passed": true,
+      "details": {
+        "files": 28
+      }
+    },
+    {
+      "name": "dex_checksum_and_class_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "native_all_libraries_accounted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unity_object_scope_closes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unity_full_and_base_only_distinguished",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unity_objects_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "script_identity_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "raw_media_status_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "explorer_functional_checks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "report_local_links",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "notValidated": [
+    "custom resource wrappers",
+    "QXGM metadata",
+    "hotfix method bodies",
+    "configuration rows and rules",
+    "game runtime and online/server content"
+  ]
+}

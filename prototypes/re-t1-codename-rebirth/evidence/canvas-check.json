@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-13",
+  "typescript": "5.3.0-dev.20230808",
+  "syntaxErrors": [],
+  "missingPublicExports": [],
+  "scope": "Syntax and SDK export names only; Canvas host compilation/runtime not observed"
+}

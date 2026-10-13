@@ -1,0 +1,836 @@
+[
+  {
+    "file": "lib\\arm64-v8a\\lib_burst_generated.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 448472,
+    "symbols": 962,
+    "definedFunctions": 375,
+    "hasSymtab": true,
+    "hasDebug": true
+  },
+  {
+    "file": "lib\\arm64-v8a\\libBugly.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "bytes": 190656,
+    "symbols": 325,
+    "definedFunctions": 181,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libBugly_Native.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "bytes": 195200,
+    "symbols": 345,
+    "definedFunctions": 193,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libcrashcatch.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libcrashcatch_dumper.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 33296,
+    "symbols": 80,
+    "definedFunctions": 7,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libcrashcatch_dumper.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 148264,
+    "symbols": 291,
+    "definedFunctions": 206,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libCtaApiLib.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 498176,
+    "symbols": 280,
+    "definedFunctions": 166,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libentryexpro.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 177624,
+    "symbols": 362,
+    "definedFunctions": 296,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libfmodL.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 1658032,
+    "symbols": 1251,
+    "definedFunctions": 1126,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libfmodstudioL.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libfmodL.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 1811008,
+    "symbols": 620,
+    "definedFunctions": 400,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libfnupdate.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libz.so",
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so"
+    ],
+    "bytes": 82688,
+    "symbols": 83,
+    "definedFunctions": 40,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libgmesdk.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libtxsoundtouch.so",
+      "libtxffmpeg.so",
+      "libdl.so",
+      "libm.so",
+      "liblog.so",
+      "libOpenSLES.so",
+      "libc.so"
+    ],
+    "bytes": 6823576,
+    "symbols": 738,
+    "definedFunctions": 324,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libil2cpp.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 80707384,
+    "symbols": 2709,
+    "definedFunctions": 1750,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libmain.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 8720,
+    "symbols": 65,
+    "definedFunctions": 10,
+    "hasSymtab": true,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libmona_unity_qx_kcp.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 2574640,
+    "symbols": 6119,
+    "definedFunctions": 2047,
+    "hasSymtab": true,
+    "hasDebug": true
+  },
+  {
+    "file": "lib\\arm64-v8a\\libqxbase.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "bytes": 1438464,
+    "symbols": 172,
+    "definedFunctions": 9,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libresonanceaudio.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 850472,
+    "symbols": 100,
+    "definedFunctions": 4,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libsecsdk.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libz.so",
+      "libdl.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so"
+    ],
+    "bytes": 349040,
+    "symbols": 353,
+    "definedFunctions": 107,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libtapsdkcore.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 4212048,
+    "symbols": 2971,
+    "definedFunctions": 1822,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libtersafe2.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "bytes": 5618232,
+    "symbols": 287,
+    "definedFunctions": 70,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libthemis.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libEGL.so",
+      "libGLESv2.so",
+      "libandroid.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 853816,
+    "symbols": 96,
+    "definedFunctions": 5,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libtxffmpeg.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 1632208,
+    "symbols": 1051,
+    "definedFunctions": 922,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libtxsoundtouch.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libdl.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 241632,
+    "symbols": 441,
+    "definedFunctions": 161,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libunity.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libmain.so",
+      "libandroid.so",
+      "liblog.so",
+      "libz.so",
+      "libEGL.so",
+      "libmediandk.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 33604288,
+    "symbols": 85679,
+    "definedFunctions": 71082,
+    "hasSymtab": true,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libuptsmaddon.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 776992,
+    "symbols": 379,
+    "definedFunctions": 106,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\arm64-v8a\\libuptsmaddonmi.so",
+    "bitness": 64,
+    "machine": 183,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 776992,
+    "symbols": 379,
+    "definedFunctions": 106,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\lib_burst_generated.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 411832,
+    "symbols": 1225,
+    "definedFunctions": 392,
+    "hasSymtab": true,
+    "hasDebug": true
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libBugly.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so",
+      "libdl.so"
+    ],
+    "bytes": 165628,
+    "symbols": 384,
+    "definedFunctions": 241,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libBugly_Native.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libc.so",
+      "libm.so"
+    ],
+    "bytes": 182320,
+    "symbols": 401,
+    "definedFunctions": 240,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libcrashcatch.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libcrashcatch_dumper.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 24328,
+    "symbols": 81,
+    "definedFunctions": 7,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libcrashcatch_dumper.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 104084,
+    "symbols": 292,
+    "definedFunctions": 210,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libCtaApiLib.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 280448,
+    "symbols": 325,
+    "definedFunctions": 201,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libentryexpro.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 111880,
+    "symbols": 422,
+    "definedFunctions": 355,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libfmodL.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 1321120,
+    "symbols": 1261,
+    "definedFunctions": 1135,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libfmodstudioL.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libfmodL.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 1428944,
+    "symbols": 618,
+    "definedFunctions": 400,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libfnupdate.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libz.so",
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so",
+      "libdl.so"
+    ],
+    "bytes": 61956,
+    "symbols": 135,
+    "definedFunctions": 87,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libgmesdk.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libtxsoundtouch.so",
+      "libtxffmpeg.so",
+      "libdl.so",
+      "libm.so",
+      "liblog.so",
+      "libOpenSLES.so",
+      "libc.so"
+    ],
+    "bytes": 4352248,
+    "symbols": 706,
+    "definedFunctions": 324,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libil2cpp.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 69421588,
+    "symbols": 2745,
+    "definedFunctions": 1796,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libmain.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 11644,
+    "symbols": 154,
+    "definedFunctions": 18,
+    "hasSymtab": true,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libmona_unity_qx_kcp.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 1667648,
+    "symbols": 6698,
+    "definedFunctions": 2373,
+    "hasSymtab": true,
+    "hasDebug": true
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libqxbase.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "bytes": 781744,
+    "symbols": 175,
+    "definedFunctions": 9,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libresonanceaudio.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 531956,
+    "symbols": 81,
+    "definedFunctions": 4,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libsecsdk.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libz.so",
+      "libdl.so",
+      "libc.so",
+      "libm.so",
+      "libstdc++.so"
+    ],
+    "bytes": 505688,
+    "symbols": 456,
+    "definedFunctions": 207,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libtapsdkcore.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 2788624,
+    "symbols": 2975,
+    "definedFunctions": 1825,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libtersafe2.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "bytes": 3972620,
+    "symbols": 298,
+    "definedFunctions": 70,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libthemis.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libEGL.so",
+      "libGLESv2.so",
+      "libandroid.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 779296,
+    "symbols": 96,
+    "definedFunctions": 5,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libtxffmpeg.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 1279956,
+    "symbols": 1072,
+    "definedFunctions": 922,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libtxsoundtouch.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libdl.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 121880,
+    "symbols": 436,
+    "definedFunctions": 163,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libunity.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libmain.so",
+      "libandroid.so",
+      "liblog.so",
+      "libz.so",
+      "libEGL.so",
+      "libmediandk.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "bytes": 27683760,
+    "symbols": 101591,
+    "definedFunctions": 77732,
+    "hasSymtab": true,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libuptsmaddon.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 579468,
+    "symbols": 418,
+    "definedFunctions": 159,
+    "hasSymtab": false,
+    "hasDebug": false
+  },
+  {
+    "file": "lib\\armeabi-v7a\\libuptsmaddonmi.so",
+    "bitness": 32,
+    "machine": 40,
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libstdc++.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "bytes": 579468,
+    "symbols": 418,
+    "definedFunctions": 159,
+    "hasSymtab": false,
+    "hasDebug": false
+  }
+]

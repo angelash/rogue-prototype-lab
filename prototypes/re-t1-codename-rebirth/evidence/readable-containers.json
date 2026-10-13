@@ -1,0 +1,1584 @@
+[
+  {
+    "input": "assets/bin/Data/0000000000000000f000000000000000",
+    "name": "0000000000000000f000000000000000",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 9,
+    "externals": [
+      "Resources/unity_builtin_extra"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/070bba3aeaed22242a4d3a576eba733e",
+    "name": "070bba3aeaed22242a4d3a576eba733e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 31,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "4b38dc722a052d54286309e9e8db661d",
+      "0000000000000000f000000000000000",
+      "2da10258e6bf542b4ba76d48d74cd537",
+      "b479eb939b5ff4cc99ad23942a8680f5",
+      "c69c8e1f5b2ce4b3e9691c275062d660",
+      "845de00a33eb44cec9e10a25ddad8642",
+      "25ca596e593364132b972721560d9519",
+      "ba1c1bbcfbc3580488c4cb597381dfa8",
+      "0fc500253c2fd4dc19357970d8dc4e34",
+      "55608a8e2204c443097fbd1fd61957a4",
+      "ee96c61c749e14f8dae1b8489f6742ce",
+      "e8e4462ec0a88428da95256b1b1a05f2",
+      "c490a9e21df7641b4b686e07cb9405d9",
+      "429a64f612a5d44d3a01baa437c78165",
+      "876a4ac720ce844149bc1d25f2b8bddc"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/077a003b1de1e4c35923be7a21b5d948",
+    "name": "077a003b1de1e4c35923be7a21b5d948",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/0d6b453c584eedc4585898a1771e6dd6",
+    "name": "0d6b453c584eedc4585898a1771e6dd6",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/0ee86222b996411458108c5f0e8555ab",
+    "name": "0ee86222b996411458108c5f0e8555ab",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/0fc500253c2fd4dc19357970d8dc4e34",
+    "name": "0fc500253c2fd4dc19357970d8dc4e34",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 48,
+    "externals": [
+      "globalgamemanagers.assets",
+      "77dd5d52b20e58848ae7a01b13be7ea1",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "d40112fd3382a5a42b62b6fa2aec02e2",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/10a25524b0986f9488b430e2829bbbe8",
+    "name": "10a25524b0986f9488b430e2829bbbe8",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/11596bee872b1f34fa4332136399b8c4",
+    "name": "11596bee872b1f34fa4332136399b8c4",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/127279d577f25ac4ea17dae3782e5074",
+    "name": "127279d577f25ac4ea17dae3782e5074",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/164cbe082bfe90a4589d4cb7ba75f3e0",
+    "name": "164cbe082bfe90a4589d4cb7ba75f3e0",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 8,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/1acc9db1b7b45c440aa8baea4172d887",
+    "name": "1acc9db1b7b45c440aa8baea4172d887",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/1c87ab2ce8b8b304d98fbe9a734b1f74",
+    "name": "1c87ab2ce8b8b304d98fbe9a734b1f74",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 27,
+    "externals": [
+      "globalgamemanagers.assets",
+      "127279d577f25ac4ea17dae3782e5074",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "7a0568d5e3330b84687e307992be3030"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/1ccecd9b89b8a4f14bfb64f29ddfcc81",
+    "name": "1ccecd9b89b8a4f14bfb64f29ddfcc81",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "0000000000000000f000000000000000",
+      "Resources/unity_builtin_extra"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/2530c30e49f1d9a43a72138416bd035d",
+    "name": "2530c30e49f1d9a43a72138416bd035d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/25ca596e593364132b972721560d9519",
+    "name": "25ca596e593364132b972721560d9519",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 44,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "bdb546febf698f24ba9b77dc3af6f12b",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/29966c3c0907b49b58c4e59342d020cf",
+    "name": "29966c3c0907b49b58c4e59342d020cf",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "35e778fba8b2b49a198d8d7cfced67eb"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/2d019437ff89b8d44949727731cd9357",
+    "name": "2d019437ff89b8d44949727731cd9357",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 27,
+    "externals": [
+      "globalgamemanagers.assets",
+      "127279d577f25ac4ea17dae3782e5074",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "7a0568d5e3330b84687e307992be3030"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/2da10258e6bf542b4ba76d48d74cd537",
+    "name": "2da10258e6bf542b4ba76d48d74cd537",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/2e498d1c8094910479dc3e1b768306a4",
+    "name": "2e498d1c8094910479dc3e1b768306a4",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "globalgamemanagers.assets",
+      "fe393ace9b354375a9cb14cdbbc28be4",
+      "e3265ab4bf004d28a9537516768c1c75"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/30a8575e1d4cc4e01a88ffbf4f973d80",
+    "name": "30a8575e1d4cc4e01a88ffbf4f973d80",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "c26db15b9a2ed4b2ebefefd26ce85ae1"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/31321ba15b8f8eb4c954353edc038b1d",
+    "name": "31321ba15b8f8eb4c954353edc038b1d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "933532a4fcc9baf4fa0491de14d08ed7"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/326f7c58aed965d41bf7805a782d1e44",
+    "name": "326f7c58aed965d41bf7805a782d1e44",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 49,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "7a0568d5e3330b84687e307992be3030",
+      "127279d577f25ac4ea17dae3782e5074"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/35e778fba8b2b49a198d8d7cfced67eb",
+    "name": "35e778fba8b2b49a198d8d7cfced67eb",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/38a07789c9e87004dad98c2909f58369",
+    "name": "38a07789c9e87004dad98c2909f58369",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 18,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "127279d577f25ac4ea17dae3782e5074"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/3f5b5dff67a942289a9defa416b206f3",
+    "name": "3f5b5dff67a942289a9defa416b206f3",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "globalgamemanagers.assets",
+      "613b6c33b03a87d44881b8de495cd646",
+      "c41005c129ba4d66911b75229fd70b45",
+      "f952c082cb03451daed3ee968ac6c63e",
+      "d82c1b31c7e74239bff1220585707d2b",
+      "fade42e8bc714b018fac513c043d323b"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/429a64f612a5d44d3a01baa437c78165",
+    "name": "429a64f612a5d44d3a01baa437c78165",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/43d8285c5b2ad4819ac82fc0fe1ebe5f",
+    "name": "43d8285c5b2ad4819ac82fc0fe1ebe5f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/464ca14f3cfaf433582758afa13a9473",
+    "name": "464ca14f3cfaf433582758afa13a9473",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/48fb043c850cadc4a883b53785e14c6e",
+    "name": "48fb043c850cadc4a883b53785e14c6e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 23,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/4b38dc722a052d54286309e9e8db661d",
+    "name": "4b38dc722a052d54286309e9e8db661d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/4d03bab3fe9d8ef4f1446f80a80d515f",
+    "name": "4d03bab3fe9d8ef4f1446f80a80d515f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "0d6b453c584eedc4585898a1771e6dd6",
+      "Library/unity default resources",
+      "619228d5acb19f147b44b07cf11d3b8a"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/4dd691cd148707789da17fe4d4703e1b",
+    "name": "4dd691cd148707789da17fe4d4703e1b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 5,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/4df24f64fbb64f50a4c0f25c2f0c6a0d",
+    "name": "4df24f64fbb64f50a4c0f25c2f0c6a0d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 117,
+    "externals": [
+      "globalgamemanagers.assets",
+      "0ee86222b996411458108c5f0e8555ab",
+      "Library/unity default resources",
+      "43d8285c5b2ad4819ac82fc0fe1ebe5f",
+      "922a5a8c9e2b94422a689af5dc34cf18",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "f063fcdd4ad61a8418c9de9b1cd4502a",
+      "2530c30e49f1d9a43a72138416bd035d",
+      "b237412ba51cacd46ac3a15d0493412d",
+      "070bba3aeaed22242a4d3a576eba733e"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/4e69bc65402ffab5669bc91db83610ae",
+    "name": "4e69bc65402ffab5669bc91db83610ae",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 35,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/4ff996e3a0a5743a3987ab6231160665",
+    "name": "4ff996e3a0a5743a3987ab6231160665",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "86212504c7e9f468db2300dc5932dc17"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/5088d0220f0c4df439cf06c5c270eacb",
+    "name": "5088d0220f0c4df439cf06c5c270eacb",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 18,
+    "externals": [
+      "globalgamemanagers.assets",
+      "d49e78756811bfa4aafb8b6535417991",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "b346b2a2df1d290438be3287b6419408"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/538686e142f228543ad6b62c13a146f6",
+    "name": "538686e142f228543ad6b62c13a146f6",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/55608a8e2204c443097fbd1fd61957a4",
+    "name": "55608a8e2204c443097fbd1fd61957a4",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 50,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0000000000000000f000000000000000"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/5695904020f064fdab5ad265b274a616",
+    "name": "5695904020f064fdab5ad265b274a616",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "c84d57d423a2042eb92da86f9fa670a3"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/5717132ebc980a1434cb348760cd372d",
+    "name": "5717132ebc980a1434cb348760cd372d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 50,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0000000000000000f000000000000000"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/5a83f9fe672724109859592f2d2a3c66",
+    "name": "5a83f9fe672724109859592f2d2a3c66",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources",
+      "0ee86222b996411458108c5f0e8555ab"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/5c35f3c0e711885d41115a300b204353",
+    "name": "5c35f3c0e711885d41115a300b204353",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 14,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/613b6c33b03a87d44881b8de495cd646",
+    "name": "613b6c33b03a87d44881b8de495cd646",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": [
+      "globalgamemanagers.assets",
+      "68e6db2ebdc24f95958faec2be5558d6",
+      "1acc9db1b7b45c440aa8baea4172d887",
+      "66b715378df18de4185bd43f3fe3db12"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/619228d5acb19f147b44b07cf11d3b8a",
+    "name": "619228d5acb19f147b44b07cf11d3b8a",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/6344bf96fbda94141a525046d088fb23",
+    "name": "6344bf96fbda94141a525046d088fb23",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/64a751d6b77dc1847927e5b0e50f6720",
+    "name": "64a751d6b77dc1847927e5b0e50f6720",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/66b715378df18de4185bd43f3fe3db12",
+    "name": "66b715378df18de4185bd43f3fe3db12",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "globalgamemanagers.assets",
+      "68e6db2ebdc24f95958faec2be5558d6",
+      "7f8c0e5ca45969e40bce7706fb64b6ae"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/68e6db2ebdc24f95958faec2be5558d6",
+    "name": "68e6db2ebdc24f95958faec2be5558d6",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "fe393ace9b354375a9cb14cdbbc28be4"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/697bc443b4359054b8552e337e0b234e",
+    "name": "697bc443b4359054b8552e337e0b234e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/6b2f7db70ba9b744fbeda8a663d16eb5",
+    "name": "6b2f7db70ba9b744fbeda8a663d16eb5",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/6bb8336bfe5cfc3479cc91cdc14449ca",
+    "name": "6bb8336bfe5cfc3479cc91cdc14449ca",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/6ee3c980ea242514f90624b49d05d899",
+    "name": "6ee3c980ea242514f90624b49d05d899",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/74a5091d8707f334b9a5c31ef71a64ba",
+    "name": "74a5091d8707f334b9a5c31ef71a64ba",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/77c185820dd1a464eac89cae3abccddf",
+    "name": "77c185820dd1a464eac89cae3abccddf",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 75,
+    "externals": [
+      "globalgamemanagers.assets",
+      "127279d577f25ac4ea17dae3782e5074",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "7a0568d5e3330b84687e307992be3030",
+      "a674720496c1ed248a5b7ea3e22a11fd"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/77dd5d52b20e58848ae7a01b13be7ea1",
+    "name": "77dd5d52b20e58848ae7a01b13be7ea1",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/79459efec17a4d00a321bdcc27bbc385",
+    "name": "79459efec17a4d00a321bdcc27bbc385",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "fe393ace9b354375a9cb14cdbbc28be4",
+      "8f586378b4e144a9851e7b34d9b748ee"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/7a0568d5e3330b84687e307992be3030",
+    "name": "7a0568d5e3330b84687e307992be3030",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/7c78b588b2e1f7c4a86ca4a985cf6e4a",
+    "name": "7c78b588b2e1f7c4a86ca4a985cf6e4a",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 603,
+    "externals": [
+      "globalgamemanagers.assets",
+      "d49e78756811bfa4aafb8b6535417991",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "b346b2a2df1d290438be3287b6419408",
+      "127279d577f25ac4ea17dae3782e5074",
+      "7a0568d5e3330b84687e307992be3030",
+      "a674720496c1ed248a5b7ea3e22a11fd"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/7c7f6c63a873700ba0bcccd3d8ed6b20",
+    "name": "7c7f6c63a873700ba0bcccd3d8ed6b20",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 73,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources",
+      "0000000000000000f000000000000000",
+      "6ee3c980ea242514f90624b49d05d899",
+      "11596bee872b1f34fa4332136399b8c4",
+      "619228d5acb19f147b44b07cf11d3b8a"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/7d5c9fc287a2aa945a98203d41282923",
+    "name": "7d5c9fc287a2aa945a98203d41282923",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/7e4b97337334f42d2a700647fd938234",
+    "name": "7e4b97337334f42d2a700647fd938234",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/7f8c0e5ca45969e40bce7706fb64b6ae",
+    "name": "7f8c0e5ca45969e40bce7706fb64b6ae",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/845de00a33eb44cec9e10a25ddad8642",
+    "name": "845de00a33eb44cec9e10a25ddad8642",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "0d6b453c584eedc4585898a1771e6dd6",
+      "Library/unity default resources",
+      "619228d5acb19f147b44b07cf11d3b8a"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/86212504c7e9f468db2300dc5932dc17",
+    "name": "86212504c7e9f468db2300dc5932dc17",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/876a4ac720ce844149bc1d25f2b8bddc",
+    "name": "876a4ac720ce844149bc1d25f2b8bddc",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 16,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "5a83f9fe672724109859592f2d2a3c66"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/8778e6b26b51c6a4999b94d7cacd8b5d",
+    "name": "8778e6b26b51c6a4999b94d7cacd8b5d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/8b6923a6bf5be7478cf623d06b363c5e",
+    "name": "8b6923a6bf5be7478cf623d06b363c5e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/8cb4d6fee77fd4ee6895f08b240d625f",
+    "name": "8cb4d6fee77fd4ee6895f08b240d625f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "0000000000000000f000000000000000",
+      "464ca14f3cfaf433582758afa13a9473"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/8e33872cdb6eb41c9a3ce3cee92b26a0",
+    "name": "8e33872cdb6eb41c9a3ce3cee92b26a0",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/8f586378b4e144a9851e7b34d9b748ee",
+    "name": "8f586378b4e144a9851e7b34d9b748ee",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "globalgamemanagers.assets",
+      "fe393ace9b354375a9cb14cdbbc28be4",
+      "2e498d1c8094910479dc3e1b768306a4"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/922a5a8c9e2b94422a689af5dc34cf18",
+    "name": "922a5a8c9e2b94422a689af5dc34cf18",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/933532a4fcc9baf4fa0491de14d08ed7",
+    "name": "933532a4fcc9baf4fa0491de14d08ed7",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/94afea5f242d72547979595ba963f335",
+    "name": "94afea5f242d72547979595ba963f335",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 60,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "127279d577f25ac4ea17dae3782e5074",
+      "7a0568d5e3330b84687e307992be3030"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/95ef26e11d36bd643b99aeea379d1d4e",
+    "name": "95ef26e11d36bd643b99aeea379d1d4e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 7,
+    "externals": [
+      "31321ba15b8f8eb4c954353edc038b1d"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/978bbcf5050244f1b95128c04103f628",
+    "name": "978bbcf5050244f1b95128c04103f628",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "cfa7edf01005f4e338d973cea2f6eab3"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/980c24c5a501a9a429356d191ad356a9",
+    "name": "980c24c5a501a9a429356d191ad356a9",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/988db55689193434fb0b3b89538f978f",
+    "name": "988db55689193434fb0b3b89538f978f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 23,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/a1e97cbf2538241b691aae8243b5fb10",
+    "name": "a1e97cbf2538241b691aae8243b5fb10",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "0000000000000000f000000000000000",
+      "b3fd87e2e956e41b0b43f76bb50a4934"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/a2148203dd960814ca5db0c293ceda35",
+    "name": "a2148203dd960814ca5db0c293ceda35",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/a53ef0dd76f2fe74eb5f43267d7c0195",
+    "name": "a53ef0dd76f2fe74eb5f43267d7c0195",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/a674720496c1ed248a5b7ea3e22a11fd",
+    "name": "a674720496c1ed248a5b7ea3e22a11fd",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/a691cc7ece3d97040879e0809c58b7da",
+    "name": "a691cc7ece3d97040879e0809c58b7da",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 7,
+    "externals": [
+      "31321ba15b8f8eb4c954353edc038b1d"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/a85c5b8c8961b006d10a8cda470b9a2e",
+    "name": "a85c5b8c8961b006d10a8cda470b9a2e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources",
+      "0ee86222b996411458108c5f0e8555ab"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/a87cfaef648f17c41b568e842e068c51",
+    "name": "a87cfaef648f17c41b568e842e068c51",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ad83bc56407925d44a77a5bd01cd6783",
+    "name": "ad83bc56407925d44a77a5bd01cd6783",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 23,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ae00bb75e0cd5b04b8fe7fb4ab662629",
+    "name": "ae00bb75e0cd5b04b8fe7fb4ab662629",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 33,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/b1d8eff0b65bcf6d322eb23c27e18b53",
+    "name": "b1d8eff0b65bcf6d322eb23c27e18b53",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/b237412ba51cacd46ac3a15d0493412d",
+    "name": "b237412ba51cacd46ac3a15d0493412d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/b2da6b27df236b144b3516ed8e7d36ac",
+    "name": "b2da6b27df236b144b3516ed8e7d36ac",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/b346b2a2df1d290438be3287b6419408",
+    "name": "b346b2a2df1d290438be3287b6419408",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/b3fd87e2e956e41b0b43f76bb50a4934",
+    "name": "b3fd87e2e956e41b0b43f76bb50a4934",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/b479eb939b5ff4cc99ad23942a8680f5",
+    "name": "b479eb939b5ff4cc99ad23942a8680f5",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 35,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ba1c1bbcfbc3580488c4cb597381dfa8",
+    "name": "ba1c1bbcfbc3580488c4cb597381dfa8",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 73,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources",
+      "0000000000000000f000000000000000",
+      "6ee3c980ea242514f90624b49d05d899",
+      "11596bee872b1f34fa4332136399b8c4",
+      "619228d5acb19f147b44b07cf11d3b8a"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/bbb235fff4f48426b863b36058ab66d2",
+    "name": "bbb235fff4f48426b863b36058ab66d2",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "0000000000000000f000000000000000",
+      "7e4b97337334f42d2a700647fd938234"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/bdb546febf698f24ba9b77dc3af6f12b",
+    "name": "bdb546febf698f24ba9b77dc3af6f12b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/bdc74c807bef08a4593d19436fb1cbef",
+    "name": "bdc74c807bef08a4593d19436fb1cbef",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/c22777d6e868e4f2fb421913386b154e",
+    "name": "c22777d6e868e4f2fb421913386b154e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "1ccecd9b89b8a4f14bfb64f29ddfcc81",
+      "6344bf96fbda94141a525046d088fb23"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/c26db15b9a2ed4b2ebefefd26ce85ae1",
+    "name": "c26db15b9a2ed4b2ebefefd26ce85ae1",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/c35693c079f3840f7938a4a323096e84",
+    "name": "c35693c079f3840f7938a4a323096e84",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/c41005c129ba4d66911b75229fd70b45",
+    "name": "c41005c129ba4d66911b75229fd70b45",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": [
+      "globalgamemanagers.assets",
+      "cf81c85f95fe47e1a27f6ae460cf182c",
+      "dffef66376be4fa480fb02b19edbe903"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/c490a9e21df7641b4b686e07cb9405d9",
+    "name": "c490a9e21df7641b4b686e07cb9405d9",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 32,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "8e33872cdb6eb41c9a3ce3cee92b26a0",
+      "Library/unity default resources",
+      "0ee86222b996411458108c5f0e8555ab"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/c69c8e1f5b2ce4b3e9691c275062d660",
+    "name": "c69c8e1f5b2ce4b3e9691c275062d660",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/c84d57d423a2042eb92da86f9fa670a3",
+    "name": "c84d57d423a2042eb92da86f9fa670a3",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/ca3e294656861a64b8aeeb9f916da0a9",
+    "name": "ca3e294656861a64b8aeeb9f916da0a9",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 6,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/cb54ae7bf6668dafd6f716521d6423de",
+    "name": "cb54ae7bf6668dafd6f716521d6423de",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 16,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "a85c5b8c8961b006d10a8cda470b9a2e"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/cd83ad88342ac1f93f7eaaa89a86b2cf",
+    "name": "cd83ad88342ac1f93f7eaaa89a86b2cf",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 6,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ce347ad101f41ee4ab5c3fbc0ea447db",
+    "name": "ce347ad101f41ee4ab5c3fbc0ea447db",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 18,
+    "externals": [
+      "globalgamemanagers.assets",
+      "d49e78756811bfa4aafb8b6535417991",
+      "b346b2a2df1d290438be3287b6419408",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ceff3bd6c85ca944abae8ca27bdbc725",
+    "name": "ceff3bd6c85ca944abae8ca27bdbc725",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/cf6cbdd672089a84796e55a21fed1cbe",
+    "name": "cf6cbdd672089a84796e55a21fed1cbe",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 6,
+    "externals": [
+      "globalgamemanagers.assets",
+      "daa46a58178a6ad41ae1ddc2dc7f856d",
+      "dc0f88987826e6e48b1fe9c7c2b53a53",
+      "ce347ad101f41ee4ab5c3fbc0ea447db",
+      "ae00bb75e0cd5b04b8fe7fb4ab662629",
+      "f22bcc84a5f4a1944b075a2c4ac71493",
+      "d8c744701b43c864b88e7f8144e19bc5",
+      "988db55689193434fb0b3b89538f978f",
+      "f6ce33b91f6ffe54cadacbf4bb112440",
+      "1c87ab2ce8b8b304d98fbe9a734b1f74",
+      "77c185820dd1a464eac89cae3abccddf",
+      "326f7c58aed965d41bf7805a782d1e44",
+      "94afea5f242d72547979595ba963f335",
+      "d47f009476100f545971a81ede14c750",
+      "ca3e294656861a64b8aeeb9f916da0a9",
+      "f7f5e36797cf0c1408561665c67b179b",
+      "38a07789c9e87004dad98c2909f58369",
+      "7c78b588b2e1f7c4a86ca4a985cf6e4a",
+      "5088d0220f0c4df439cf06c5c270eacb",
+      "b2da6b27df236b144b3516ed8e7d36ac",
+      "2d019437ff89b8d44949727731cd9357",
+      "10a25524b0986f9488b430e2829bbbe8",
+      "d3770aaa3bbd8384aabab9ddd383e21e",
+      "a2148203dd960814ca5db0c293ceda35",
+      "a87cfaef648f17c41b568e842e068c51",
+      "ad83bc56407925d44a77a5bd01cd6783",
+      "48fb043c850cadc4a883b53785e14c6e"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/cf81c85f95fe47e1a27f6ae460cf182c",
+    "name": "cf81c85f95fe47e1a27f6ae460cf182c",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/cfa7edf01005f4e338d973cea2f6eab3",
+    "name": "cfa7edf01005f4e338d973cea2f6eab3",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/d3770aaa3bbd8384aabab9ddd383e21e",
+    "name": "d3770aaa3bbd8384aabab9ddd383e21e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 17,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "127279d577f25ac4ea17dae3782e5074"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/d40112fd3382a5a42b62b6fa2aec02e2",
+    "name": "d40112fd3382a5a42b62b6fa2aec02e2",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/d47f009476100f545971a81ede14c750",
+    "name": "d47f009476100f545971a81ede14c750",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 71,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "7a0568d5e3330b84687e307992be3030",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "127279d577f25ac4ea17dae3782e5074"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/d49e78756811bfa4aafb8b6535417991",
+    "name": "d49e78756811bfa4aafb8b6535417991",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/d543d1e1fdc30ec49b524b7b82b69d6f",
+    "name": "d543d1e1fdc30ec49b524b7b82b69d6f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 32,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "8e33872cdb6eb41c9a3ce3cee92b26a0",
+      "Library/unity default resources",
+      "0ee86222b996411458108c5f0e8555ab"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/d82c1b31c7e74239bff1220585707d2b",
+    "name": "d82c1b31c7e74239bff1220585707d2b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/d8c744701b43c864b88e7f8144e19bc5",
+    "name": "d8c744701b43c864b88e7f8144e19bc5",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 33,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/daa46a58178a6ad41ae1ddc2dc7f856d",
+    "name": "daa46a58178a6ad41ae1ddc2dc7f856d",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 92,
+    "externals": [
+      "globalgamemanagers.assets",
+      "127279d577f25ac4ea17dae3782e5074",
+      "0000000000000000f000000000000000",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "d49e78756811bfa4aafb8b6535417991"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/dc0f88987826e6e48b1fe9c7c2b53a53",
+    "name": "dc0f88987826e6e48b1fe9c7c2b53a53",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 11,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/df4367950b869ac5d612636e18eeb6ec",
+    "name": "df4367950b869ac5d612636e18eeb6ec",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 44,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "bdb546febf698f24ba9b77dc3af6f12b",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/df4bbefc338ac0ca6455844ef085b2b2",
+    "name": "df4bbefc338ac0ca6455844ef085b2b2",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/dffef66376be4fa480fb02b19edbe903",
+    "name": "dffef66376be4fa480fb02b19edbe903",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/e3265ab4bf004d28a9537516768c1c75",
+    "name": "e3265ab4bf004d28a9537516768c1c75",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 3,
+    "externals": [
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/e73a58f6e2794ae7b1b7e50b7fb811b0",
+    "name": "e73a58f6e2794ae7b1b7e50b7fb811b0",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "fe393ace9b354375a9cb14cdbbc28be4",
+      "8f586378b4e144a9851e7b34d9b748ee"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/e8e4462ec0a88428da95256b1b1a05f2",
+    "name": "e8e4462ec0a88428da95256b1b1a05f2",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/eae1c1b4767e03efea29362e8e331f78",
+    "name": "eae1c1b4767e03efea29362e8e331f78",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 48,
+    "externals": [
+      "globalgamemanagers.assets",
+      "77dd5d52b20e58848ae7a01b13be7ea1",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "d40112fd3382a5a42b62b6fa2aec02e2",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/ee96c61c749e14f8dae1b8489f6742ce",
+    "name": "ee96c61c749e14f8dae1b8489f6742ce",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f063fcdd4ad61a8418c9de9b1cd4502a",
+    "name": "f063fcdd4ad61a8418c9de9b1cd4502a",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 2,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/f0685e34ee40e62f432e45e7e607ed80",
+    "name": "f0685e34ee40e62f432e45e7e607ed80",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f22bcc84a5f4a1944b075a2c4ac71493",
+    "name": "f22bcc84a5f4a1944b075a2c4ac71493",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 33,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f6702bac052ccd81a14f4359ab347f5f",
+    "name": "f6702bac052ccd81a14f4359ab347f5f",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 42,
+    "externals": [
+      "globalgamemanagers.assets",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "Library/unity default resources",
+      "0d6b453c584eedc4585898a1771e6dd6"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f6b1a0fe75d5009449cf55ae76220e2b",
+    "name": "f6b1a0fe75d5009449cf55ae76220e2b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 12,
+    "externals": [
+      "globalgamemanagers.assets",
+      "127279d577f25ac4ea17dae3782e5074",
+      "8778e6b26b51c6a4999b94d7cacd8b5d"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f6ce33b91f6ffe54cadacbf4bb112440",
+    "name": "f6ce33b91f6ffe54cadacbf4bb112440",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 10,
+    "externals": [
+      "globalgamemanagers.assets",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "d49e78756811bfa4aafb8b6535417991"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f7f5e36797cf0c1408561665c67b179b",
+    "name": "f7f5e36797cf0c1408561665c67b179b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 6,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/f952c082cb03451daed3ee968ac6c63e",
+    "name": "f952c082cb03451daed3ee968ac6c63e",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/fade42e8bc714b018fac513c043d323b",
+    "name": "fade42e8bc714b018fac513c043d323b",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/fe393ace9b354375a9cb14cdbbc28be4",
+    "name": "fe393ace9b354375a9cb14cdbbc28be4",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/fec967458b56e5547a284c9d96682c64",
+    "name": "fec967458b56e5547a284c9d96682c64",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": []
+  },
+  {
+    "input": "assets/bin/Data/globalgamemanagers",
+    "name": "globalgamemanagers",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 18,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources",
+      "Resources/unity_builtin_extra",
+      "0000000000000000f000000000000000",
+      "cfa7edf01005f4e338d973cea2f6eab3",
+      "538686e142f228543ad6b62c13a146f6",
+      "86212504c7e9f468db2300dc5932dc17",
+      "933532a4fcc9baf4fa0491de14d08ed7",
+      "c84d57d423a2042eb92da86f9fa670a3",
+      "64a751d6b77dc1847927e5b0e50f6720",
+      "c26db15b9a2ed4b2ebefefd26ce85ae1",
+      "1ccecd9b89b8a4f14bfb64f29ddfcc81",
+      "35e778fba8b2b49a198d8d7cfced67eb",
+      "68e6db2ebdc24f95958faec2be5558d6",
+      "fe393ace9b354375a9cb14cdbbc28be4",
+      "cf81c85f95fe47e1a27f6ae460cf182c",
+      "cf6cbdd672089a84796e55a21fed1cbe",
+      "f6b1a0fe75d5009449cf55ae76220e2b",
+      "6b2f7db70ba9b744fbeda8a663d16eb5",
+      "164cbe082bfe90a4589d4cb7ba75f3e0",
+      "8f586378b4e144a9851e7b34d9b748ee",
+      "e73a58f6e2794ae7b1b7e50b7fb811b0",
+      "2e498d1c8094910479dc3e1b768306a4",
+      "79459efec17a4d00a321bdcc27bbc385",
+      "a691cc7ece3d97040879e0809c58b7da",
+      "95ef26e11d36bd643b99aeea379d1d4e",
+      "fade42e8bc714b018fac513c043d323b",
+      "d82c1b31c7e74239bff1220585707d2b",
+      "bbb235fff4f48426b863b36058ab66d2",
+      "4ff996e3a0a5743a3987ab6231160665",
+      "980c24c5a501a9a429356d191ad356a9",
+      "5695904020f064fdab5ad265b274a616",
+      "a53ef0dd76f2fe74eb5f43267d7c0195",
+      "978bbcf5050244f1b95128c04103f628",
+      "8cb4d6fee77fd4ee6895f08b240d625f",
+      "c22777d6e868e4f2fb421913386b154e",
+      "c35693c079f3840f7938a4a323096e84",
+      "077a003b1de1e4c35923be7a21b5d948",
+      "a1e97cbf2538241b691aae8243b5fb10",
+      "29966c3c0907b49b58c4e59342d020cf",
+      "30a8575e1d4cc4e01a88ffbf4f973d80",
+      "7d5c9fc287a2aa945a98203d41282923",
+      "697bc443b4359054b8552e337e0b234e",
+      "6bb8336bfe5cfc3479cc91cdc14449ca",
+      "f0685e34ee40e62f432e45e7e607ed80",
+      "cb54ae7bf6668dafd6f716521d6423de",
+      "cd83ad88342ac1f93f7eaaa89a86b2cf",
+      "5c35f3c0e711885d41115a300b204353",
+      "a85c5b8c8961b006d10a8cda470b9a2e",
+      "b1d8eff0b65bcf6d322eb23c27e18b53",
+      "8b6923a6bf5be7478cf623d06b363c5e",
+      "5717132ebc980a1434cb348760cd372d",
+      "4e69bc65402ffab5669bc91db83610ae",
+      "f6702bac052ccd81a14f4359ab347f5f",
+      "df4bbefc338ac0ca6455844ef085b2b2",
+      "4d03bab3fe9d8ef4f1446f80a80d515f",
+      "df4367950b869ac5d612636e18eeb6ec",
+      "d543d1e1fdc30ec49b524b7b82b69d6f",
+      "4dd691cd148707789da17fe4d4703e1b",
+      "7c7f6c63a873700ba0bcccd3d8ed6b20",
+      "eae1c1b4767e03efea29362e8e331f78",
+      "4df24f64fbb64f50a4c0f25c2f0c6a0d",
+      "c41005c129ba4d66911b75229fd70b45",
+      "f952c082cb03451daed3ee968ac6c63e",
+      "fec967458b56e5547a284c9d96682c64",
+      "bdc74c807bef08a4593d19436fb1cbef",
+      "3f5b5dff67a942289a9defa416b206f3",
+      "ceff3bd6c85ca944abae8ca27bdbc725",
+      "d8c744701b43c864b88e7f8144e19bc5",
+      "74a5091d8707f334b9a5c31ef71a64ba",
+      "6ee3c980ea242514f90624b49d05d899",
+      "619228d5acb19f147b44b07cf11d3b8a",
+      "0d6b453c584eedc4585898a1771e6dd6",
+      "31321ba15b8f8eb4c954353edc038b1d",
+      "dffef66376be4fa480fb02b19edbe903",
+      "ce347ad101f41ee4ab5c3fbc0ea447db",
+      "d49e78756811bfa4aafb8b6535417991",
+      "b346b2a2df1d290438be3287b6419408",
+      "8e33872cdb6eb41c9a3ce3cee92b26a0",
+      "0ee86222b996411458108c5f0e8555ab",
+      "5088d0220f0c4df439cf06c5c270eacb",
+      "77dd5d52b20e58848ae7a01b13be7ea1",
+      "4b38dc722a052d54286309e9e8db661d",
+      "77c185820dd1a464eac89cae3abccddf",
+      "127279d577f25ac4ea17dae3782e5074",
+      "7a0568d5e3330b84687e307992be3030",
+      "a674720496c1ed248a5b7ea3e22a11fd",
+      "8778e6b26b51c6a4999b94d7cacd8b5d",
+      "c490a9e21df7641b4b686e07cb9405d9",
+      "a2148203dd960814ca5db0c293ceda35",
+      "613b6c33b03a87d44881b8de495cd646",
+      "1acc9db1b7b45c440aa8baea4172d887",
+      "66b715378df18de4185bd43f3fe3db12",
+      "11596bee872b1f34fa4332136399b8c4",
+      "b479eb939b5ff4cc99ad23942a8680f5",
+      "10a25524b0986f9488b430e2829bbbe8",
+      "43d8285c5b2ad4819ac82fc0fe1ebe5f",
+      "922a5a8c9e2b94422a689af5dc34cf18",
+      "f063fcdd4ad61a8418c9de9b1cd4502a",
+      "2530c30e49f1d9a43a72138416bd035d",
+      "b237412ba51cacd46ac3a15d0493412d",
+      "070bba3aeaed22242a4d3a576eba733e",
+      "f22bcc84a5f4a1944b075a2c4ac71493",
+      "d47f009476100f545971a81ede14c750",
+      "d40112fd3382a5a42b62b6fa2aec02e2",
+      "e3265ab4bf004d28a9537516768c1c75",
+      "0fc500253c2fd4dc19357970d8dc4e34",
+      "ae00bb75e0cd5b04b8fe7fb4ab662629",
+      "bdb546febf698f24ba9b77dc3af6f12b",
+      "ca3e294656861a64b8aeeb9f916da0a9",
+      "988db55689193434fb0b3b89538f978f",
+      "ad83bc56407925d44a77a5bd01cd6783",
+      "6344bf96fbda94141a525046d088fb23",
+      "daa46a58178a6ad41ae1ddc2dc7f856d",
+      "dc0f88987826e6e48b1fe9c7c2b53a53",
+      "f6ce33b91f6ffe54cadacbf4bb112440",
+      "1c87ab2ce8b8b304d98fbe9a734b1f74",
+      "326f7c58aed965d41bf7805a782d1e44",
+      "94afea5f242d72547979595ba963f335",
+      "f7f5e36797cf0c1408561665c67b179b",
+      "38a07789c9e87004dad98c2909f58369",
+      "7c78b588b2e1f7c4a86ca4a985cf6e4a",
+      "b2da6b27df236b144b3516ed8e7d36ac",
+      "2d019437ff89b8d44949727731cd9357",
+      "d3770aaa3bbd8384aabab9ddd383e21e",
+      "a87cfaef648f17c41b568e842e068c51",
+      "48fb043c850cadc4a883b53785e14c6e",
+      "429a64f612a5d44d3a01baa437c78165",
+      "7f8c0e5ca45969e40bce7706fb64b6ae",
+      "876a4ac720ce844149bc1d25f2b8bddc",
+      "5a83f9fe672724109859592f2d2a3c66",
+      "2da10258e6bf542b4ba76d48d74cd537",
+      "845de00a33eb44cec9e10a25ddad8642",
+      "c69c8e1f5b2ce4b3e9691c275062d660",
+      "25ca596e593364132b972721560d9519",
+      "ba1c1bbcfbc3580488c4cb597381dfa8",
+      "55608a8e2204c443097fbd1fd61957a4",
+      "ee96c61c749e14f8dae1b8489f6742ce",
+      "e8e4462ec0a88428da95256b1b1a05f2",
+      "464ca14f3cfaf433582758afa13a9473",
+      "b3fd87e2e956e41b0b43f76bb50a4934",
+      "7e4b97337334f42d2a700647fd938234"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/globalgamemanagers.assets.split0",
+    "name": "globalgamemanagers.assets",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 4360,
+    "externals": [
+      "Library/unity default resources",
+      "Resources/unity_builtin_extra"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/level0",
+    "name": "level0",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 8,
+    "externals": [
+      "globalgamemanagers.assets",
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/sharedassets0.assets",
+    "name": "sharedassets0.assets",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 1,
+    "externals": [
+      "Library/unity default resources",
+      "globalgamemanagers.assets"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/unity default resources",
+    "name": "unity default resources",
+    "unityVersion": "2022.3.54f1",
+    "objects": 85,
+    "externals": []
+  },
+  {
+    "input": "assets/firstbundle_27f169ab75c7002eab21b01d7140b84f.bundle",
+    "name": "CAB-7d0749e6b20013e6d312dacfbf62ad75",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 175,
+    "externals": [
+      "Library/unity default resources"
+    ]
+  },
+  {
+    "input": "assets/bin/Data/Resources/unity_builtin_extra",
+    "name": "unity_builtin_extra",
+    "unityVersion": "2022.3.62f3c1",
+    "objects": 43,
+    "externals": []
+  }
+]

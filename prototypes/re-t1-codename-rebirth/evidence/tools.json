@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-13",
+  "python": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+  "UnityPy": "1.25.0",
+  "aapt": "D:/androidSdk/build-tools/34.0.0/aapt.exe",
+  "dexdump": "D:/androidSdk/build-tools/34.0.0/dexdump.exe",
+  "ffprobe": "ffprobe version 8.0.1-full_build-www.gyan.dev Copyright (c) 2007-2025 the FFmpeg developers"
+}

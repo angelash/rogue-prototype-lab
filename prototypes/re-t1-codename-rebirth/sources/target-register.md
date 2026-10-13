@@ -1,0 +1,9 @@
+# 目标来源登记
+
+- 用户指定来源：`D:\download\t1_compat_debug-0.9.0-x-202610131448_1782199009743830-1-4399--yf_test.apk`。
+- 原文件名完整保留；接收与分析日期：2026-10-13（Asia/Shanghai）。不据文件名断言渠道实际来源或发布合法性。
+- 产品标签由 Android SDK aapt 读取：`代号:新生(测试版)`；版本 `0.9.0`，包名 `com.gnml.t1yfnbcs`。
+- 用户要求理解完整代码、内容、资产；只读原件，工作副本与原件 hash 以 [intake](../evidence/intake.json)为准。
+- 文件持有与本地分析请求不等于取得第三方代码/媒体再分发许可；本轮不公开 APK、反编译源码和媒体。
+- 本机工具：Python 3.10、UnityPy、Android SDK build-tools 34.0.0；工具实测和报告在 evidence 与 local/logs 保存。
+- 静态内容只涵盖本 APK 打包范围，不包含运行后下载、账号数据或服务器实现。

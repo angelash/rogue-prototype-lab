@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "asset count",
+      "pass": true
+    },
+    {
+      "name": "first page rows",
+      "pass": true
+    },
+    {
+      "name": "pagination",
+      "pass": true
+    },
+    {
+      "name": "resource search",
+      "pass": true
+    },
+    {
+      "name": "asset dependencies detail",
+      "pass": true
+    },
+    {
+      "name": "script count",
+      "pass": true
+    },
+    {
+      "name": "exact script search",
+      "pass": true
+    },
+    {
+      "name": "assembly filter",
+      "pass": true
+    },
+    {
+      "name": "DEX class count",
+      "pass": true
+    },
+    {
+      "name": "DEX search",
+      "pass": true
+    },
+    {
+      "name": "bundle count",
+      "pass": true
+    },
+    {
+      "name": "raw file filter",
+      "pass": true
+    },
+    {
+      "name": "unmatched input",
+      "pass": true
+    },
+    {
+      "name": "no external assets",
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "scope": "Local index UI, not APK runtime validation",
+  "visualReview": {
+    "desktop": "1440x1000 screenshot inspected inline",
+    "mobile": "Requested 390x844; browser minimum delivered actual innerWidth 500, height 844. Screenshot inspected inline; table scrolls internally, no page overflow."
+  }
+}
