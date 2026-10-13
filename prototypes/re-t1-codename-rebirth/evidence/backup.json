@@ -9,5 +9,9 @@
   "extractedTrackedBytes": 1552692913,
   "localTrackedFiles": 8676,
   "localClean": true,
+  "publicBranch": "codex/t1-static-analysis",
+  "publicAnalysisCommit": "2da0892136b736817fce4a483078d14bd9fd2cb8",
+  "publicRemoteRefVerified": true,
+  "publicationHistoryCheck": "Passed from origin/main; contains no local recovery paths. Original source branch push was rejected by the privacy hook and was not bypassed.",
   "publicScope": "Original reports, analysis scripts and sanitized aggregate/index evidence only; APK, full symbol/address catalogs, third-party bytes remain local."
 }
