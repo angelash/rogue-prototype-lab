@@ -1,35 +1,41 @@
-# 内容与资产组织
+# 内容、场景与资产
 
-2026-10-13。完整地址/包依赖在[本地检索](../local/explorer.html)和[JSON](../local/manifest-assets.json)，原始字节位于 local/apk。数量来自清单或可读基础文件，不是正式玩家内容清单。
+2026-10-13。配置记录、序列化对象和逻辑地址分别计数。
 
-## 清单与资源包
+## 配置与文字
 
-普通清单字段 FileVersion 1.4.6、PackageName DefaultPackage、内部 PackageVersion `0`、OutputNameStyle `4`。文件名中的 `73317` 与内部版本不同，不推断构建关系。2,669,735 字节全部读取；MXET 扩展清单版本 1，22,162 地址逐项对齐且无剩余字节，附加整数含义未确定。
+两份 QCFG 有 208 表、30,676 条记录；misc 是 628 键 KV 表，其它 207 行表共 2362 列。池、行跨度及索引精确消费。local/config/tables 保留完整数据；映射使用 $map 的键类型与 entries，不静默改变整数键。[配置](../evidence/config-decoding.json)
 
-1,017 文件共 1,216,598,628 字节，地址/依赖/文件大小全部闭合。981 非原生文件加载方法 3、非标准 UnityFS 头，未解析；36 原生文件加载方法 0、均为独立 MP4。另外一个不在此清单中的标准 firstbundle 已与基础文件读取。[摘要](../evidence/manifest-summary.json)
+实际表有 64 武器（219 字段/行）、77 弹药、147 配件、1025 通用物品、41 背包、961 容器、3217 容器用途、35 装备、7 角色、151 怪物、67 技能、74 Buff、100 部门任务、28 建筑、55 建筑等级、4 工作台和 7214 语言行。武器表包含射速、弹速、装填、部位系数、距离衰减、散布、后坐力和瞄准等；客户端值不证明服务器最终规则。
 
-普通字段顺序参考官方 [YooAsset 1.4.6-preview PatchManifestTools](https://github.com/tuyoogame/YooAsset/blob/1.4.6-preview/Assets/YooAsset/Runtime/PatchSystem/PatchManifestTools.cs) 和 [BufferReader](https://github.com/tuyoogame/YooAsset/blob/1.4.6-preview/Assets/YooAsset/Runtime/Utility/BufferReader.cs)。目标的 Package 命名和 MXET 是差异；通过字节消费、地址对齐、ID/文件大小/摘要验证约束兼容性。
+LangMgr 对非数字键执行特定 double/UTF-16 哈希后读取 data_language.content。已关联 8030 配置字符串、87 表，全部地图、角色、武器名称对应；任意字段匹配仍是候选，不证明实际 UI 可见。icon_conf 有 1795 个图标/图集映射。[关联](../evidence/content-linking.json)、[本机全文](../local/config/resolved-content.json)
 
-## 系统与数值线索
+task_action 的代码声明 format 没有对应列；example 类型没有表。原状保留，不修改第三方数据，也不据此宣称运行故障。
 
-UI MainAsset/Prefabs 841 地址：Common 149、Main 130、Bag 54、Notify 50、战备 40、WeaponMod 32、Department 29、Map 28、Chat/Team 各 20、Settings 19、Hud 16、训练场 15、Homeland 12、CustomRoom 11、Evacuation/Login 各 9 等。[目录](../evidence/content-summary.json)
+## 地图与内容范围
 
-这些目录与脚本支持进入/角色、模式匹配、战备、地图战斗、战利品背包、撤离结算、仓库扩容、改装、建筑、制造、部门任务商店、邮件活动、语音组队及回放的组织。完整循环、跳转条件、消耗、失败损失和奖励公式没有方法体/表行证据，不由名称补写。
+14 条地图名称为宿舍、新手关、新手操作教学、新手操作教学2004、进阶教学1/2、水城（地编看效果）、六号机场、靶场、机场外围（PVE）、容器测试场景、TA测试场景、水城（策划白模）、新手关测试。测试/白模不算正式上线地图。
 
-209 个 data_* 表类型涵盖武器/子弹/配件、背包/安全容器、地图/撤离/钥匙、技能/Buff、AI/怪物、家园/制造、任务、商店/充值、教程/语言/声音。[全表名](../local/config-table-types.json)。config_byte_0/1 仍在封装中，行数、字段 schema、本地化全文未知。
+14 份碰撞数据共 49,987 形状，保留分组、位置/旋转、盒/球/胶囊/柱参数及邻接 ID。还有 14 NavMeshData、5 TerrainData。碰撞、导航和地图表的 ID 集合不完全相同，不强行一一对应。[载荷](../evidence/payload-inspection.json)
 
-## 场景与角色资产
+表内还有 22 地图任务、74 任务步骤、108 任务规划、60 撤离点、162 对话、134 引导、199 引导阶段和 9 进阶教程。未由名称补写未见剧情或声称所有触发条件已运行。
 
-Scene/MainAssets 1975：Materials 867、3000Battle 573、scene_model 386、2000Play 113、4000UI 34、1000Town 2。客户端碰撞/导航各 14 地址；碰撞 ID 为 1001、2001、2002、2004、2101、3001、3004、4003、9990004、9990005、9990006、9990007、9990008、9990010，其中包含测试/专用候选，不能计为 14 正式关卡。
+## 对象与媒体
 
-char/MainAssets 502：Weapon 347、Attachment 62、Equipment 55、Character 22、Monster 11、SceneModel 5；它们包含多种派生资源，不能计为 347 把枪或 22 位角色。渲染 DrawKeys 16,499 占多数地址，16603 个 .asset 后缀主要来自此处。[所有后缀和路径分组](../evidence/manifest-summary.json)
+981 包有 191,092 对象，含 47,282 GameObject、39,031 MonoBehaviour、6867 Mesh、3793 Sprite、3491 Material、3204 Texture2D、1283 AnimationClip、728 AudioClip、603 SkinnedMeshRenderer、452 Animator、191 AnimatorController、150 Shader、108 SpriteAtlas。[全类型计数](../evidence/bundle-objects.json)
 
-## 媒体与基础对象
+全部包内类型树通过。39,030 脚本组件对应 131 种脚本身份，另一个 m_Script 为零。语义 JSON 对大数值数组做摘要；完整顶点/像素/序列化值在解码包中，缩略 JSON 不等于全字节。[对象](../local/assets/objects-enriched.json)
 
-487 图像后缀文件中 483 Pillow 可识别、4 失败；主要含平台/SDK UI 与图标，不是主要游戏美术全量导出。[图片](../evidence/raw-images.json)
+local/assets/export 有 3201 纹理输出、6867 OBJ gzip、728 原编码音频及解码样本。3 个动态字体图集为空；17 浮点贴图用 RAW/NPY 保全值，PNG 归一化预览不可回用于数值贴图。OBJ 不保留完整蒙皮、形态键、Unity 材质/场景变换，原包仍保留这些信息。
 
-字体路径出现方正、汉仪和 `MFYuanHei_Noncommercial-Regular.otf`；没有核对其许可或取得再分发授权，文件名不是授权文本，本仓原创游戏未采用。
+57 FMOD RIFF 库约 27.4 MB，结构闭合；27 库的 333 样本已导出 WAV。可能与 AudioClip 重复，不相加为独立音效总数。未验证事件/混音运行或听感。[媒体](../evidence/media-export.json)、[音频库样本](../evidence/fmod-samples.json)
 
-728 个 .mp3 地址、57 个 FMOD 目录地址未解码载荷。36 独立 MP4 的 FFprobe 容器/轨道检查通过，逻辑视频地址共 38；有入战/撤离、车厢、终端/油库/雷达站/车站、探身/站射/引导命名线索，未据名称编写剧情、未全帧解码或听检。[视频](../evidence/raw-videos.json)
+641 HCRH、48 SDF 保留原生渲染/体素资料，未转换完整编辑器场景。16499 DrawKeys 地址用于渲染组织，不能算物品或关卡。全部地址/依赖仍在[离线地址页](../local/explorer.html)。
 
-基础文件与 firstbundle：146 容器 / 7472 对象，包括 MonoScript 4352、MonoBehaviour 1030、GameObject 654、RectTransform 644、Texture2D 95、Shader 85、Sprite 35、Material 29、Mesh 15。6501 完整类型树成功，970 脚本组件仅基类、1 BuildSettings 不兼容；这不是 981 未解析包中的对象总数。[范围](../evidence/readable-asset-summary.json)、[失败](../local/readable-errors.json)
+## 原生文件与预览
+
+487 图片后缀文件，初查 483 可识别。两个相同 PNG 仅首字节损坏，全部 chunk CRC 正确；另存首字节修复副本并验证，原件未动。另两份 SDK 载荷不是可直接打开的 PNG。36 MP4 容器/轨道通过，逻辑地址 38，未全帧/听检。
+
+基础 7472 对象现有 7468 完整类型树；Driver、UniversalRenderPipelineGlobalSettings、GUISkin、BuildSettings 的兼容缺口单列。[补齐](../evidence/base-recovery.json)
+
+抽样纹理可见拟人动物、武器/配件、背包/HUD 图标，但不代替 Android 实际画面验证。第三方字体和媒体许可没有因此变更；本仓原创游戏未采用这些资产。

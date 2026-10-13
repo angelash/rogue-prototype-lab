@@ -1,30 +1,31 @@
-# 全包代码载体地图
+# 代码恢复与阅读地图
 
-覆盖全部代码载体与可读取的符号范围；不是全部方法体恢复完成声明。
+2026-10-13。反编译结果不恢复原注释、历史或未打包源码。
 
-## Android DEX
+## 业务 IL
 
-28 文件，11,505 类定义 / 11,482 唯一类名，75,797 定义方法、46,116 字段、71,190 方法体。完整签名、继承、字段/方法 ID、code offset、指令单元长度在[本地逐 DEX 索引](../local/dex/)，[总表](../evidence/dex-summary.json)可核对。23 重复类名保留 DEX 来源，未合并成虚假单一程序集。[重复记录](../local/dex-duplicates.json)
+local/managed/{debug,release}/hotfix 各有 ConfigDefine、GameCore、GamePlay。Release 分别有 427/956/5589 类型、1295/7771/47748 方法，其中 1273/7547/46913 含 IL。全部 38 镜像的 token、RVA、原签名、字段、参数、指令数量、调用位置和字符串在 local/managed-metadata/{profile}/{hotfix,aotmeta}。
 
-大类群为 FNSDK 1571、TapTap 1338，以及 Android/Kotlin、支付、语音、崩溃上报和平台接口。它们是包前缀类定义计数，不能当作游戏自身代码总数；本轮未生成 Java/Kotlin 源码或完整指令反汇编。[结构](../evidence/structure-summary.json)
+主要阅读路径为 local/source/all/release/hotfix，debug 作为差异对照。两套 DressableModelMgr 各保留 4 条类型诊断；未执行 Unity 编译验收。[覆盖/诊断](../evidence/deep-coverage.json)、[系统入口](systems.md)
 
-## Unity 与热更新
+GameCore 提供 MVC/事件、配置、资源、UI、音频、网络、模型与对象池。GamePlay 包含 ECS、控制器/模型、UI View、Proto/Sproto、教程及回放；完整源文件和方法调用索引可本机检索。
 
-ScriptingAssemblies 登记 135 名称，IL2CPP 包没有同名完整托管 DLL 供直接反编译。4352 MonoScript 描述去重为 4276 类型，涉及 63 程序集名，是完整类型集合的可见子集。[全部身份](../local/code-symbols.json)
+## AOT 与 HybridCLR
 
-- GamePlay 1930 描述 / 1929 唯一，业务/ECS/UI/协议线索。
-- GameCore 435 / 431，资源/配置/UI/声音/网络及适配。
-- ConfigDefine 215 / 215，其中 209 个 data_* 表类型，其余为绑定器等。
-- Launcher 47 / 46，加载、资源补丁、平台适配及检测框架。
+每 profile 16 份补充镜像包含 Launcher、YooAsset、QXPlugins、FNSDK_Core、QXDebugSheet、com.qx.recorder.Runtime、LitJson、mscorlib、System/Core、UnityEngine Core/Animation/AndroidJNI/JSON/UI、URP Core。保留泛型 IL可反编译，多数普通方法为 extern/无 IL；每程序集的真实计数在证据中，不当成完整框架源码。
 
-debug 127、release 121 个热更新地址，含 qxps/aotmeta 候选与 HotfixRuntimeConfig，仍在非标准 bundle 内。没有恢复实际程序集名、运行分支或方法体。[候选摘要](../evidence/content-summary.json)、[全资源地址](../local/manifest-assets.json)
+QXGM 已还原为 metadata v31，SHA256 41760e6f06eddb426a5e2de7fb95d8a6751b119e28f4b57045ba7dd250c663f4。Il2CppDumper 6.7.46 定位 CodeRegistration 0x475cfb0、MetadataRegistration 0x48debc8，导出 85 份 DummyDll、12,586 类型与 199,560 方法地址。135 个 ScriptingAssemblies 登记名与 85 个原生镜像是不同集合，不能相减当作解析失败。
 
-## IL2CPP 与 native
+local/il2cpp-arm64/dump.cs 是类型/字段/方法声明；script.json、il2cpp.h、native-methods.csv 用于原生定位。DummyDll 不含 AOT 实际方法体。ARM64/ARMv7 ELF 保存机器代码，未生成所有方法的高级伪代码。[官方工具边界](https://github.com/Perfare/Il2CppDumper)
 
-50 ELF，两个 ABI 各 25，全头/节/动态依赖/符号记录见[native 总表](../evidence/native-summary.json)及[完整索引](../local/elf/)。重要载体是 ARM64 80,707,384 字节、ARMv7 69,421,588 字节的 libil2cpp.so。ARM64 的 2709 个有名动态符号含大量 C++/IL2CPP/Mono 兼容接口，不是 2709 游戏方法；无 symtab/debug 节。
+已局部反汇编 QXGM 加载/流、ResourcePayloadMixer、QXPM 清单/索引/分块和 NativeOpenManifest。原创工具从原 ELF 读取构建参数，未公开硬编码私有密钥。HCRH、SDF、QFGS、QXTM 原资料完整保留，内部渲染/泛型算法未全面转换。
 
-global-metadata.dat 13,081,444 字节，QXGM / 2 头。没有解封装、恢复完整 type/field/method token、绑定 native RVA、建立完整调用图或生成 native 伪代码。[原文件证据](../evidence/apk-files.json)
+## Android 与原生载体
 
-## 精度与接续
+28 DEX 的定义、重复来源和完整指令在 local/dex、local/dex-disassembly；6719 常规 Java 在 local/android-java/sources，逐 DEX fallback 在 local/android-fallback。常规 JADX 有 15 个错误，empty DEX 无类提示按原类数识别，不计作损坏。[核对](../evidence/android-recovery.json)、[JADX 版本](https://github.com/skylot/jadx/releases/tag/v1.5.3)
 
-可见 Unity 类型反查原文件/path ID，DEX 方法反查文件/方法 ID/code offset。完整游戏业务方法、IL2CPP RVA 与热更新映射仍缺失。权限范围明确后从加载、配置和战斗入口聚焦，再覆盖全部载体，不将未解析内容标为反编译成功。
+Java/Kotlin 主要是 SDK、Unity 平台桥、支付、语音、上报和系统适配。全部 50 ELF 的头/节/依赖/动态符号已有记录，但闭源 SDK/Unity 中间件完整实现未恢复；没有调用身份、支付、反作弊或在线接口。
+
+## 调用索引精度
+
+SQLite 直接记录 IL call/newobj 位置。泛型 TypeSpec 部分名称以 token 保留，虚调用、反射、委托、网络消息及资源驱动跳转需结合方法体和配置；它不是完整动态调用图，也不证明所有模块玩家可达。

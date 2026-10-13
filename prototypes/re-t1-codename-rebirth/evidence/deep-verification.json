@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-13",
+  "passed": 25,
+  "total": 25,
+  "checks": [
+    {
+      "name": "original_copy_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "standard_metadata_hash_header",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "metadata_page_HMAC_digest_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_decoded_bundle_bytes",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "all_managed_image_bytes_PE",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "all_shards_blocks_authenticated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "38_IL_indexes_no_parse_failures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "decompiled_corpus_and_diagnostics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "native_method_addresses_executable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "runtime_release_profile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_object_identities_and_trees",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_TextAsset_bytes",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "configuration_rows_and_schema",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "known_schema_difference_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_component_script_references_accounted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_exported_media_hashes",
+      "passed": true,
+      "details": {
+        "files": 11558,
+        "bad": []
+      }
+    },
+    {
+      "name": "all_texture_formats",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_OBJ_vertex_face_bounds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_AudioClip_WAVE_formats",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_FMOD_sample_bytes_and_formats",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "structured_payload_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "base_scope_and_remaining_failures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "SDK_full_DEX_instruction_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "catalog_integrity_counts",
+      "passed": true,
+      "details": {
+        "types": 25822,
+        "methods": 201494,
+        "assets": 191092,
+        "config_rows": 30676,
+        "config_labels": 8030
+      }
+    },
+    {
+      "name": "all_report_local_links",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "seconds": 105.84,
+  "scope": "Static recovered bytes, media/container formats, instruction/accounting and report links. Known conversion/decompiler exceptions remain explicit.",
+  "notValidated": [
+    "APK execution",
+    "server/online data",
+    "original-source compilation",
+    "native methods as high-level pseudocode",
+    "QGSG/QXTL outer signatures",
+    "listening/performance"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "local/apk/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+  "sourceSHA256": "0b32322cc24ddbd41289081dd652818c193f546b55bc0094d2ef462261564541",
+  "nativeSHA256": "03784bb8c9d1dad30fd4c55c3abfa26e2d1afafbbc83a88929bea883127f8856",
+  "output": "local/decoded/global-metadata.dat",
+  "outputBytes": 12879940,
+  "outputSHA256": "41760e6f06eddb426a5e2de7fb95d8a6751b119e28f4b57045ba7dd250c663f4",
+  "metadataVersion": 31,
+  "envelopeVersion": 2,
+  "mode": 1,
+  "flags": 80,
+  "pages": 3145,
+  "pagesDigestPassed": 3145,
+  "hashTableSHA256Passed": true,
+  "headerHMACPassed": true,
+  "QGSGSignatureVerification": "not independently verified",
+  "nativeEntryVA": "0x2066a74",
+  "nativeDecoderVA": "0x2219230",
+  "apkExecuted": false
+}

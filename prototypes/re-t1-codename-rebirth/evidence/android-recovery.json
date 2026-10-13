@@ -1,0 +1,412 @@
+{
+  "jadxVersion": "1.5.3",
+  "jadxReleaseURL": "https://github.com/skylot/jadx/releases/tag/v1.5.3",
+  "toolZipSHA256": "8280f3799c0273fe797a2bcd90258c943e451fd195f13d05400de5e6451d15ec",
+  "javaRuntime": "C:/Program Files/Java/jdk-17/bin/java.exe",
+  "normalJavaFiles": 6719,
+  "fallbackJavaFiles": 11502,
+  "fallbackDEX": [
+    {
+      "file": "classes.dex",
+      "status": "ok",
+      "sources": 1834
+    },
+    {
+      "file": "classes10.dex",
+      "status": "ok",
+      "sources": 1
+    },
+    {
+      "file": "classes11.dex",
+      "status": "ok",
+      "sources": 109
+    },
+    {
+      "file": "classes12.dex",
+      "status": "ok",
+      "sources": 11
+    },
+    {
+      "file": "classes13.dex",
+      "status": "ok",
+      "sources": 3
+    },
+    {
+      "file": "classes14.dex",
+      "status": "ok",
+      "sources": 2
+    },
+    {
+      "file": "classes15.dex",
+      "status": "ok",
+      "sources": 1
+    },
+    {
+      "file": "classes16.dex",
+      "status": "ok",
+      "sources": 8
+    },
+    {
+      "file": "classes17.dex",
+      "status": "ok",
+      "sources": 11
+    },
+    {
+      "file": "classes18.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes19.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes2.dex",
+      "status": "ok",
+      "sources": 846
+    },
+    {
+      "file": "classes20.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes21.dex",
+      "status": "ok",
+      "sources": 11
+    },
+    {
+      "file": "classes22.dex",
+      "status": "ok",
+      "sources": 14
+    },
+    {
+      "file": "classes23.dex",
+      "status": "ok",
+      "sources": 281
+    },
+    {
+      "file": "classes24.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes25.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes26.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes27.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes28.dex",
+      "status": "empty-input",
+      "sources": 0
+    },
+    {
+      "file": "classes3.dex",
+      "status": "ok",
+      "sources": 853
+    },
+    {
+      "file": "classes4.dex",
+      "status": "ok",
+      "sources": 880
+    },
+    {
+      "file": "classes5.dex",
+      "status": "ok",
+      "sources": 850
+    },
+    {
+      "file": "classes6.dex",
+      "status": "ok",
+      "sources": 750
+    },
+    {
+      "file": "classes7.dex",
+      "status": "ok",
+      "sources": 5008
+    },
+    {
+      "file": "classes8.dex",
+      "status": "ok",
+      "sources": 16
+    },
+    {
+      "file": "classes9.dex",
+      "status": "ok",
+      "sources": 13
+    }
+  ],
+  "disassemblyDEX": 28,
+  "disassemblyClasses": 11505,
+  "disassemblyMethodBodies": 71190,
+  "disassemblyInstructionUnits": 2059980,
+  "allSDKCountsMatchIndependentDEXParser": true,
+  "files": [
+    {
+      "file": "classes.dex",
+      "classes": 1834,
+      "methodBodies": 10135,
+      "instructionUnits": 385809,
+      "dumpBytes": 31858685,
+      "dumpSHA256": "6dd722b465008e93717443fddb52577a8d31138ae71547d15e3693fdb97e628a",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes10.dex",
+      "classes": 1,
+      "methodBodies": 2,
+      "instructionUnits": 13,
+      "dumpBytes": 4097,
+      "dumpSHA256": "8b557233cc4d26b38efa484516cd49a6087050d40925113122730adb440fdb81",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes11.dex",
+      "classes": 109,
+      "methodBodies": 552,
+      "instructionUnits": 17994,
+      "dumpBytes": 1698432,
+      "dumpSHA256": "b388b9cb7186982db641a0f7370501fb0afbebd8e63d22b7474eb2f0ebdaff28",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes12.dex",
+      "classes": 11,
+      "methodBodies": 11,
+      "instructionUnits": 44,
+      "dumpBytes": 40806,
+      "dumpSHA256": "05a44e4e87ad60ddd427c26e6e6515ed4a979fb7a1f79112fa379a3117fd18d0",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes13.dex",
+      "classes": 3,
+      "methodBodies": 36,
+      "instructionUnits": 151,
+      "dumpBytes": 40666,
+      "dumpSHA256": "9adf949b58be39f1c590cdfa5bb29794b966b049a6b078d70d067eaf8a880981",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes14.dex",
+      "classes": 2,
+      "methodBodies": 14,
+      "instructionUnits": 44,
+      "dumpBytes": 15242,
+      "dumpSHA256": "50338df6d5aea0224ee729d0d2952d8ee90e4372a1272a597e02a59ee0a73bc6",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes15.dex",
+      "classes": 1,
+      "methodBodies": 7,
+      "instructionUnits": 441,
+      "dumpBytes": 35922,
+      "dumpSHA256": "2c47bd423e16166a4badf8e25575d84667f9312304c20d2d7a8cb913dd13c173",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes16.dex",
+      "classes": 8,
+      "methodBodies": 42,
+      "instructionUnits": 1264,
+      "dumpBytes": 123517,
+      "dumpSHA256": "81bf3217b1aec8f0899d891547424285044394d49ae4d21d78c6c6daf440a6cc",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes17.dex",
+      "classes": 11,
+      "methodBodies": 42,
+      "instructionUnits": 1715,
+      "dumpBytes": 153504,
+      "dumpSHA256": "4cc38cb9c06831af5a6f196a9192e0c7c1926a7fa23b6debf4f08e36137c26e2",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes18.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "25d36d21a830132e1e8da0b6db9cced7d9a5bb69c02edcf8b0b07333364e26fb",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes19.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "143ed94452dc7b536f46103a820df5ddca093b8fb807b39b3739432e6c224a6b",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes2.dex",
+      "classes": 846,
+      "methodBodies": 5307,
+      "instructionUnits": 126062,
+      "dumpBytes": 12947159,
+      "dumpSHA256": "1cecbd42ae86765cf51cd33c725fcb4bff43fa8ec4126acd9717d0e3b965979a",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes20.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "556a5cd924e967cfe7c2bc34abf701fa30d9e7a7b0788ad04eb99a3fa5c2c6e5",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes21.dex",
+      "classes": 11,
+      "methodBodies": 69,
+      "instructionUnits": 6018,
+      "dumpBytes": 433881,
+      "dumpSHA256": "eda97a1d2dec73a0ec141edf30baf1057dd1311a618193778b96940c23199be4",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes22.dex",
+      "classes": 14,
+      "methodBodies": 55,
+      "instructionUnits": 3989,
+      "dumpBytes": 314958,
+      "dumpSHA256": "e642d05b79b8d445b9d752fb9a32a9d9e588f06b1918f42cf61bd643988d5e6b",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes23.dex",
+      "classes": 281,
+      "methodBodies": 1598,
+      "instructionUnits": 43376,
+      "dumpBytes": 4312141,
+      "dumpSHA256": "1e25e2476575eacb94e0deed1885c01f851c932e54542886ccbd983e9c888f65",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes24.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "c31697616d8ab7a4efc9a34419c682c68261d6c81d3565be42eca6b1f8d5b3e7",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes25.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "6241a9d95312a511d53f811991fb26a0004192f9be5d5cb594029cf420ab2d30",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes26.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "1572106f5d24fed1deafad2f5bcbc2a9b97f5ce34ac077baf02d311d611ee790",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes27.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "2db89164cbe72803ea53aa9a2c317a7c4d1beea1f5dac4416396099f38580ba3",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes28.dex",
+      "classes": 0,
+      "methodBodies": 0,
+      "instructionUnits": 0,
+      "dumpBytes": 896,
+      "dumpSHA256": "0010ac3536dd0e49e83d00aabc4e721dc46e50f63a60ff70f16650a251e99aad",
+      "emptyDEX": true
+    },
+    {
+      "file": "classes3.dex",
+      "classes": 853,
+      "methodBodies": 4816,
+      "instructionUnits": 128774,
+      "dumpBytes": 12704125,
+      "dumpSHA256": "efccdda11890afd5d3a7607beb6d73cdd7317466786fd547b6f6625700d757b7",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes4.dex",
+      "classes": 880,
+      "methodBodies": 5285,
+      "instructionUnits": 146317,
+      "dumpBytes": 15818295,
+      "dumpSHA256": "8a281358e1f46808ac234a75f40f28f5af3975092e111d20bb2acee07bc49c56",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes5.dex",
+      "classes": 850,
+      "methodBodies": 6002,
+      "instructionUnits": 152936,
+      "dumpBytes": 15903361,
+      "dumpSHA256": "8b080d863b3e22876d9e6bd038de0ffdfcfa4a192e2724d46fbb701276489830",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes6.dex",
+      "classes": 750,
+      "methodBodies": 4905,
+      "instructionUnits": 121326,
+      "dumpBytes": 12166731,
+      "dumpSHA256": "7e38dda782de8c71b96fa03f00bf1198b2028e4a2306bf1b6ae0fb614eb98a62",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes7.dex",
+      "classes": 5011,
+      "methodBodies": 32183,
+      "instructionUnits": 920280,
+      "dumpBytes": 83181609,
+      "dumpSHA256": "05fbcb74a0390a333ad777ede3295823deeb4f48ad4c226891916d05d2094e6b",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes8.dex",
+      "classes": 16,
+      "methodBodies": 116,
+      "instructionUnits": 3375,
+      "dumpBytes": 315750,
+      "dumpSHA256": "ec3dc1a687f5f547c108880bae9f9e6279dec32946b29bc3b253deccc6281f68",
+      "emptyDEX": false
+    },
+    {
+      "file": "classes9.dex",
+      "classes": 13,
+      "methodBodies": 13,
+      "instructionUnits": 52,
+      "dumpBytes": 16950,
+      "dumpSHA256": "b5846f6d7736af61107f0e497cc571ee588b0990d7d7f72ac729340f3c606c29",
+      "emptyDEX": false
+    }
+  ],
+  "scope": "Java is reconstructed and may be incomplete; all original bytecode and instruction dumps retained, including duplicate definitions and empty DEX.",
+  "normalErrors": 15,
+  "explicitMethodErrorRecords": 8
+}

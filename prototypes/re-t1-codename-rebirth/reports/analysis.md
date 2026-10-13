@@ -1,45 +1,44 @@
-# 代号：新生测试包分析报告
+# 代号：新生测试包逆向分析
 
-2026-10-13（Asia/Shanghai）。范围为指定 APK 的结构与可直接读取的客户端元数据；**完整业务代码、规则数值与主要资产解码尚未完成**。自定义封装深入解析的授权范围已请求确认，当前没有收到确认答复。
+2026-10-13，v0.4。用户已确认授权。本次完成指定 APK 的全量载体清点、主要封装解码、业务热更新反编译、配置恢复、资源对象索引与媒体导出。**原作者源码、原 Unity 工程和服务端不能由这个 APK 还原**；原生 AOT 声明、实际 IL、机器代码和反编译文本分别保存。
 
-## 版本与来源
+## 身份与输入
 
-Android 标签 `代号:新生(测试版)`，包名 `com.gnml.t1yfnbcs`，版本 `0.9.0` / `9000000`，minimum SDK 22、target SDK 30，ARM64 / ARMv7。Android manifest 允许调试；这不能单独证明 Unity Development Player 或所有调试入口均已启用。[身份](../evidence/identity.json)
+标签 `代号:新生(测试版)`，包名 `com.gnml.t1yfnbcs`，版本 `0.9.0` / `9000000`，Unity **2022.3.62f3c1**，IL2CPP ARM64 / ARMv7。入口为 com.zero.main.MainActivity，Application 为 FNCrashCatchApplication，min SDK 22、target 30；manifest 的 debuggable 不单独证明所有调试功能开启。[身份](../evidence/identity.json)
 
-原文件名 `t1_compat_debug-0.9.0-x-202610131448_1782199009743830-1-4399--yf_test.apk`，1,532,660,866 字节。原件与隔离副本 SHA256 均为 `9ee8b8d033772495b477f9b984b1e6b30eaee8959359fbf3e7e5c3768a2a84ea`。2051 条目 CRC 与解包大小全部通过，解包总字节 1,552,692,913，原件大小/修改时间未变化。[intake](../evidence/intake.json)、[全部文件哈希](../evidence/apk-files.json)
+原 APK 1,532,660,866 字节，SHA256 `9ee8b8d033772495b477f9b984b1e6b30eaee8959359fbf3e7e5c3768a2a84ea`。2051 ZIP 条目及解包的 1,552,692,913 字节已做 CRC/哈希核对；分析使用校验副本，原件没有改写。[输入](../evidence/intake.json)、[文件清单](../evidence/apk-files.json)
 
-Unity **2022.3.62f3c1** 来自 `globalgamemanagers` 与 `level0` 文件头。Android 入口 `com.zero.main.MainActivity`，基础 `level0` 有 `Launcher` 与 `SceneRoot`；没有恢复或打开原 Unity 工程。[容器](../evidence/readable-containers.json)、[对象](../local/readable-objects.json)
+## 实际恢复
 
-## 实际完成与覆盖
+- **托管代码**：全部 38 份 QXPM 镜像，即 debug/release 各 3 份业务热更新和 16 份 AOT 补充镜像。208 分片、163,613 加密块的摘要与 AES-GCM 检查通过，每个输出为有效 PE。38 工程生成 17,872 个 C# 文件，全部 IL 指令读取无失败。AOT 补充镜像多数方法没有 IL。[解码](../evidence/hotfix-decoding.json)、[覆盖](../evidence/deep-coverage.json)
+- **IL2CPP**：QXGM 3145 页、摘要表和头 HMAC 通过，恢复标准 metadata v31；生成 85 份 AOT 声明 DLL、12,586 类型声明和 199,560 原生方法地址。方法体仍以 ELF 机器代码为权威，DummyDll 的空体不是恢复的 C#。[元数据](../evidence/qxgm-decoding.json)、[本机声明](../local/il2cpp-arm64/dump.cs)、[地址](../local/native-methods.csv)
+- **配置**：QCFG v2 两个容器有 **208 表、30,676 条记录、2362 列、35,592 池字符串、7256 池对象**。所有池/表段、对象消费、列宽及主键闭合。207 行表与生成类型比较，只有 task_action 的代码字段 format 不在表中；example 类型没有包内表。[配置](../evidence/config-decoding.json)、[关联](../evidence/content-linking.json)
+- **资源**：YooAsset 22,162 地址对应 1017 文件，全 MD5/CRC/大小匹配。981 自定义资源包全部恢复、解压并读出 **191,092 对象**，类型树没有失败；1077 TextAsset 按原字节导出。[包](../evidence/bundle-decoding.json)、[对象](../evidence/bundle-objects.json)
+- **媒体**：3204 Texture2D 中，3201 有可导出数据，3 个字体图集为 0×0 且无像素。17 浮点数据贴图另存逐字节一致的 RAW/NPY，PNG 仅为归一化预览。6867 网格导出 OBJ gzip；728 AudioClip 保存原编码数据和解码音频；27 个 FMOD 库另导出 333 样本。蒙皮、形态键、材质、动画与混音原资料仍在包中。[媒体](../evidence/media-export.json)、[FMOD](../evidence/fmod-samples.json)
+- **其它载荷**：64 JSON、14 碰撞文件的 49,987 形状、57 FMOD RIFF 银行结构已读。641 HCRH、48 SDF、2 token map 与 QFGS 泛型共享清单保留完整字节和格式登记，未声称已转换全部原生语义。[载荷](../evidence/payload-inspection.json)
+- **Android**：28 DEX 的 SDK 完整指令反汇编与独立解析核对为 11,505 类定义、71,190 方法体、2,059,980 指令单元；重复定义保留来源。JADX 有 6719 常规 Java 文件与 11,502 个逐 DEX fallback 文件，常规恢复有 15 错误，原指令未丢弃。[Android](../evidence/android-recovery.json)
+- **基础 Unity**：此前仅基类的 970 组件，967 已补齐；加上原成功对象，7468/7472 类型树完整。剩余 3 脚本组件和 1 BuildSettings 不兼容，原字节及诊断保留。[基础补齐](../evidence/base-recovery.json)
 
-- APK：全部路径、大小、CRC、SHA256、头部与工作副本。
-- YooAsset：普通清单 2,669,735 字节与扩展清单 666,054 字节全部读完；22,162 唯一地址/路径逐项对齐，1,017 文件全部存在且大小吻合。所有地址及登记依赖在 APK 内。[摘要](../evidence/manifest-summary.json)
-- DEX：28 文件，11,505 类定义 / 11,482 唯一类名，75,797 定义方法、46,116 字段、71,190 方法体位置、2,059,980 个 16-bit 指令单元。SHA1 / Adler32 全部匹配。完成签名/继承/位置索引，未完成 Java/Kotlin 反编译或完整指令反汇编。[摘要](../evidence/dex-summary.json)
-- ELF：50 库，ARM64 / ARMv7 各 25，全部文件头、节、动态符号/依赖索引。`libil2cpp.so` 无 `.symtab` / `.debug*`，不能把运行时导出当作全部游戏方法。[native](../evidence/native-summary.json)
-- 可读 Unity：146 容器、7472 对象；6501 完整类型树成功，971 不完整，其中 970 MonoBehaviour 只读取标准基类，1 BuildSettings 不兼容。[摘要](../evidence/readable-asset-summary.json)、[失败](../local/readable-errors.json)
-- 脚本身份：4352 MonoScript 描述、4276 唯一类型、63 程序集名称。GamePlay 1930 描述 / 1929 唯一，GameCore 435 / 431，ConfigDefine 215 / 215，Launcher 47 / 46。这是可见脚本描述集合，不是全部 IL2CPP 类型。[身份索引](../local/code-symbols.json)
-- 原生媒体：487 个图像后缀文件中 483 通过 Pillow 格式检查，4 不能识别；36 独立 MP4 的 FFprobe 容器/轨道检查通过。未做全部帧解码或听感/游戏美术验收。[图片](../evidence/raw-images.json)、[视频](../evidence/raw-videos.json)
+## 游戏结构与内容
 
-## 游戏组织与结论精度
+客户端包含拟人动物角色、射击、物品搜集与撤离机制，以及战备、背包/仓库、配件改装、技能、部门任务、家园建筑/工作台、交易、组队匹配和回放。相应方法、协议、配置与界面资源可回查。[架构](architecture.md)、[逐系统入口](systems.md)
 
-业务主要在 Unity 的 GameCore / GamePlay / ConfigDefine 与热更新层。DEX 主要是 FNSDK、TapTap、支付、Android/Kotlin、语音和平台接口，读取全部 DEX 不等于取得业务代码。注册清单有 135 程序集名称，含 HybridCLR、YooAsset、URP、HybridRenderSystem、FMOD、GPU Skinning、TerrainVT、QX 插件及测试模块；登记不证明全部功能已运行。[结构](../evidence/structure-summary.json)、[代码摘要](../evidence/code-summary.json)
+序列化热更新配置的值 1 对应 ReleaseHotfix，不能凭 APK 文件名的 debug 判定 DebugHotfix。Release 三个业务程序集共 6972 类型、56,814 方法定义，其中 55,733 含实际 IL；包含协议、绑定器和编译器辅助类。[代码地图](code-map.md)
 
-脚本和资源名称显示战斗 ECS、武器/弹药/技能/Buff、AI 移动、背包/仓库、撤离结算、组队匹配、家园、工作台、交易、任务、回放与教程。ConfigDefine 中有 209 个 `data_*` 表类型名，**没有读取表行与数值**，不能宣称伤害、掉落、经济或关卡规则已经完整还原。[架构](architecture.md)、[代码地图](code-map.md)
+EntityMgr 明确注册 52 ECS 系统。EcsWorld 顺序执行 OnUpdate/OnLateUpdate，在边界回放命令缓冲；射击、子弹、后坐力、散布、技能、Buff、移动与相机分别处理。匹配、背包、建筑、制造和撤离通过请求/回包更新状态，服务端最终规则没有因此恢复。
 
-16,499 地址属于渲染 DrawKeys（约 74.45%），不能计为道具。主要其它组包括场景 1975、UI 预制体 841、角色/装备 502、特效 545、音频目录 730。地址、物理文件、序列化对象和玩家内容是不同单位。[内容与资产](content-and-assets.md)
+实际表中有 64 武器、77 弹药、147 配件、1025 通用物品、7 角色、14 地图、100 部门任务、74 Buff、67 技能和 7214 语言行。地图含宿舍、教学、靶场、六号机场与测试场景；记录存在不等于全部开放。按真实 LangMgr 哈希关联后，14 地图、7 角色及 64 武器名称全部对应。[内容与资产](content-and-assets.md)
 
-## 未完成范围
+## 精度与边界
 
-1. **IL2CPP**：13,081,444 字节 `global-metadata.dat` 头为 `QXGM` / 2，不兼容标准 metadata。ARM64 80,707,384 字节、ARMv7 69,421,588 字节的 `libil2cpp.so` 尚未绑定完整业务类型/方法地址；没有生成虚假 dummy DLL 或方法体。
-2. **热更新**：debug 127、release 121 地址，含 `.qxps.bytes` / `.aotmeta.*` 和 `HotfixRuntimeConfig`。尚未解析，不视为标准 DLL，不认定运行分支。
-3. **主要配置/资产**：981 非原生资源文件不是标准 UnityFS 头，清单加载方法 3；普通 UnityPy 初读零对象记为未解析。config_byte_0/1、地图/碰撞/导航、模型/贴图/动画及 FMOD 包内数据待恢复。
-4. **原作者源码/工程**：APK 不保证携带编辑器源码、注释、历史、原始 DCC 文件和未打包资源；反编译结果也不等于原作者源码。
-5. **运行/在线**：未安装或运行 APK，未登录、调用服务端、下载更新、操作账号/存档、验证真实输入、性能或听感。当前资源清单全在包内不能证明在线内容也完整。
+业务源码使用完整 AOT 声明引用重反编译，保留正确属性/索引器语义。两套 DressableModelMgr 各有 4 条 ILSpy 类型诊断，共 8 条；原 IL、token 和指令可回查。未宣称反编译文件已通过 Unity 重新编译。
 
-完整任务仍未完成；权限明确后先研究封装/加载链，再关联代码、数据表和全量资源对象。反作弊、身份/支付校验、凭据与在线服务不属于本轮测试对象。[接续范围](recovery-scope.md)
+QGSG 与 QXTL 外层签名未独立验签；内部摘要、HMAC、分片/块 SHA 和 AES-GCM 标签已验证。没有修改签名、凭证或许可。未安装/运行 APK、登录、发送服务端请求、操作存档，也没有 Android 输入、性能、全帧视频或听感测试。[完整边界](recovery-scope.md)
 
-## 交付
+25/25 深层字节、格式、覆盖与索引检查通过；本机检索的 15/15 检查通过，含源码跳转、中文配置、媒体预览、路径范围、快速切换及桌面/窄窗口布局。[深层校验](../evidence/deep-verification.json)、[页面 QA](../evidence/deep-explorer-qa.json)
 
-[本地检索](../local/explorer.html)提供全部地址/依赖、脚本身份、Android 类和包文件的搜索、筛选、分页与详情。[复跑工具](../scripts/README.md)、[校验](../evidence/verification.json)保存实际范围。浏览器索引验证与 APK 原生测试分别登记。
+所有原件及第三方派生产物留在 local/ 独立无远程 Git。公开仓库只备份原创报告/工具和汇总证据；源码、配置全文、媒体不公开上传。初查证据保留，与深层结果分别登记。
 
-完整 APK、解包字节、标准 DEX/ELF 元数据与基础 Unity 类型树仅本机 `local/` 保留并独立版本备份；原创报告、工具与必要摘要进入本仓版本管理，不公开上传第三方 APK、代码和媒体。
+## 使用
+
+[本地只读检索](../scripts/serve_catalog.py)支持类型/源码、方法、调用位置、配置全文/中文名称、对象与媒体。启动后访问 http://127.0.0.1:8769/。[原离线地址页](../local/explorer.html)保留全部地址/依赖及初始载体索引。[复跑文档](../scripts/README.md)

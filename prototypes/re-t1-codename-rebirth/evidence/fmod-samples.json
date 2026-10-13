@@ -1,0 +1,9 @@
+{
+  "banksWithFSB5": 27,
+  "passed": 27,
+  "failed": 0,
+  "samples": 333,
+  "exportedBytes": 387909474,
+  "failures": [],
+  "scope": "Embedded FSB5 samples only; complete RIFF bank originals kept as TextAssets. No event/mixer runtime or listening test."
+}

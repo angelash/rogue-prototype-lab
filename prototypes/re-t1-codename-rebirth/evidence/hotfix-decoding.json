@@ -1,0 +1,16 @@
+{
+  "manifests": 38,
+  "recovered": 38,
+  "failed": 0,
+  "bytes": 26044928,
+  "profiles": {
+    "debug": 19,
+    "release": 19
+  },
+  "blocks": 163613,
+  "shards": 208,
+  "errors": [],
+  "seconds": 1.75,
+  "apkExecuted": false,
+  "signatureIndependentVerification": false
+}

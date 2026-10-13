@@ -1,0 +1,49 @@
+{
+  "attempted": 970,
+  "passed": 967,
+  "failed": 3,
+  "neededScriptTypes": 99,
+  "sameBuildTypeTrees": 16,
+  "metadataGeneratedTypeTrees": 82,
+  "typeTreeGeneratorVersion": "0.0.10",
+  "failures": [
+    {
+      "source": "assets/bin/Data/globalgamemanagers.assets.split0",
+      "file": "globalgamemanagers.assets",
+      "pathID": 4356,
+      "scriptIdentity": [
+        "Unity.RenderPipelines.Universal.Runtime",
+        "UnityEngine.Rendering.Universal",
+        "UniversalRenderPipelineGlobalSettings"
+      ],
+      "status": "failed",
+      "error": "ValueError: read_str out of bounds"
+    },
+    {
+      "source": "assets/bin/Data/level0",
+      "file": "level0",
+      "pathID": 8,
+      "scriptIdentity": [
+        "Launcher",
+        "",
+        "Driver"
+      ],
+      "status": "failed",
+      "error": "ValueError: read_str out of bounds"
+    },
+    {
+      "source": "assets/bin/Data/unity default resources",
+      "file": "unity default resources",
+      "pathID": 11000,
+      "scriptIdentity": [
+        "UnityEngine",
+        "UnityEngine",
+        "GUISkin"
+      ],
+      "status": "failed",
+      "error": "AssertionError: No same-build embedded type tree"
+    }
+  ],
+  "seconds": 1.84,
+  "originalFirstLayerResultsPreserved": true
+}

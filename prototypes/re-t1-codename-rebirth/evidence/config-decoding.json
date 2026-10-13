@@ -1,0 +1,1260 @@
+{
+  "containers": 2,
+  "tableCount": 208,
+  "rowCount": 30676,
+  "columnCount": 2362,
+  "stringCount": 35592,
+  "objectCount": 7256,
+  "allPoolsSectionsKeysValidated": true,
+  "seconds": 2.81,
+  "tables": [
+    {
+      "name": "action_state",
+      "kind": "Row",
+      "rows": 45,
+      "columns": 7
+    },
+    {
+      "name": "action_state_layer",
+      "kind": "Row",
+      "rows": 13,
+      "columns": 4
+    },
+    {
+      "name": "activities_function",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 25
+    },
+    {
+      "name": "activity_new_acquisition",
+      "kind": "Row",
+      "rows": 1,
+      "columns": 3
+    },
+    {
+      "name": "activity_new_acquisition_key",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 3
+    },
+    {
+      "name": "activity_new_acquisition_task",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 6
+    },
+    {
+      "name": "activity_sign",
+      "kind": "Row",
+      "rows": 1,
+      "columns": 3
+    },
+    {
+      "name": "activity_sign_reward",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 7
+    },
+    {
+      "name": "activity_task",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 2
+    },
+    {
+      "name": "activity_task_reward",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 6
+    },
+    {
+      "name": "advanced_tutorial",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 23
+    },
+    {
+      "name": "ai_architecture",
+      "kind": "Row",
+      "rows": 226,
+      "columns": 51
+    },
+    {
+      "name": "ai_battle_behavior",
+      "kind": "Row",
+      "rows": 196,
+      "columns": 8
+    },
+    {
+      "name": "ai_battle_temp",
+      "kind": "Row",
+      "rows": 168,
+      "columns": 4
+    },
+    {
+      "name": "ai_decision",
+      "kind": "Row",
+      "rows": 29,
+      "columns": 4
+    },
+    {
+      "name": "ai_event_condition",
+      "kind": "Row",
+      "rows": 13,
+      "columns": 1
+    },
+    {
+      "name": "ai_name",
+      "kind": "Row",
+      "rows": 600,
+      "columns": 2
+    },
+    {
+      "name": "ai_temp",
+      "kind": "Row",
+      "rows": 187,
+      "columns": 12
+    },
+    {
+      "name": "ambience_sound",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 2
+    },
+    {
+      "name": "anim",
+      "kind": "Row",
+      "rows": 171,
+      "columns": 7
+    },
+    {
+      "name": "area_container",
+      "kind": "Row",
+      "rows": 23,
+      "columns": 7
+    },
+    {
+      "name": "atom_event_condition",
+      "kind": "Row",
+      "rows": 61,
+      "columns": 5
+    },
+    {
+      "name": "attri_config",
+      "kind": "Row",
+      "rows": 275,
+      "columns": 22
+    },
+    {
+      "name": "attri_effect",
+      "kind": "Row",
+      "rows": 45,
+      "columns": 22
+    },
+    {
+      "name": "battle_behavior",
+      "kind": "Row",
+      "rows": 107,
+      "columns": 8
+    },
+    {
+      "name": "battle_buff",
+      "kind": "Row",
+      "rows": 74,
+      "columns": 43
+    },
+    {
+      "name": "battle_buff_state",
+      "kind": "Row",
+      "rows": 13,
+      "columns": 21
+    },
+    {
+      "name": "battle_sound",
+      "kind": "Row",
+      "rows": 153,
+      "columns": 31
+    },
+    {
+      "name": "behaver_record",
+      "kind": "Row",
+      "rows": 261,
+      "columns": 5
+    },
+    {
+      "name": "behavior_tree",
+      "kind": "Row",
+      "rows": 23,
+      "columns": 25
+    },
+    {
+      "name": "bgm",
+      "kind": "Row",
+      "rows": 3,
+      "columns": 5
+    },
+    {
+      "name": "boss",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 5
+    },
+    {
+      "name": "box_res",
+      "kind": "Row",
+      "rows": 577,
+      "columns": 2
+    },
+    {
+      "name": "buff_screen",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "name": "building",
+      "kind": "Row",
+      "rows": 28,
+      "columns": 15
+    },
+    {
+      "name": "building_level",
+      "kind": "Row",
+      "rows": 55,
+      "columns": 13
+    },
+    {
+      "name": "calculate_function",
+      "kind": "Row",
+      "rows": 21,
+      "columns": 12
+    },
+    {
+      "name": "callsign_name",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "name": "cg_intergration",
+      "kind": "Row",
+      "rows": 24,
+      "columns": 6
+    },
+    {
+      "name": "channel",
+      "kind": "Row",
+      "rows": 42,
+      "columns": 7
+    },
+    {
+      "name": "charge",
+      "kind": "Row",
+      "rows": 140,
+      "columns": 15
+    },
+    {
+      "name": "charge_international",
+      "kind": "Row",
+      "rows": 380,
+      "columns": 9
+    },
+    {
+      "name": "charge_level",
+      "kind": "Row",
+      "rows": 13,
+      "columns": 2
+    },
+    {
+      "name": "charge_product_id",
+      "kind": "Row",
+      "rows": 360,
+      "columns": 4
+    },
+    {
+      "name": "chat_channel",
+      "kind": "Row",
+      "rows": 5,
+      "columns": 9
+    },
+    {
+      "name": "chat_quick_word",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 2
+    },
+    {
+      "name": "chat_sticker",
+      "kind": "Row",
+      "rows": 16,
+      "columns": 4
+    },
+    {
+      "name": "code_name",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "name": "container_model",
+      "kind": "Row",
+      "rows": 459,
+      "columns": 4
+    },
+    {
+      "name": "container_reward",
+      "kind": "Row",
+      "rows": 175,
+      "columns": 1
+    },
+    {
+      "name": "container_type",
+      "kind": "Row",
+      "rows": 21,
+      "columns": 2
+    },
+    {
+      "name": "create_role",
+      "kind": "Row",
+      "rows": 1,
+      "columns": 3
+    },
+    {
+      "name": "crosshair_style",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "name": "custom_layout",
+      "kind": "Row",
+      "rows": 42,
+      "columns": 22
+    },
+    {
+      "name": "department",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 21
+    },
+    {
+      "name": "department_store",
+      "kind": "Row",
+      "rows": 992,
+      "columns": 19
+    },
+    {
+      "name": "department_store_type",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 4
+    },
+    {
+      "name": "department_task",
+      "kind": "Row",
+      "rows": 100,
+      "columns": 24
+    },
+    {
+      "name": "dialog",
+      "kind": "Row",
+      "rows": 162,
+      "columns": 12
+    },
+    {
+      "name": "display_setting",
+      "kind": "Row",
+      "rows": 10,
+      "columns": 4
+    },
+    {
+      "name": "door",
+      "kind": "Row",
+      "rows": 162,
+      "columns": 15
+    },
+    {
+      "name": "door_key",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 6
+    },
+    {
+      "name": "equipment_category",
+      "kind": "Row",
+      "rows": 3,
+      "columns": 2
+    },
+    {
+      "name": "equipment_loadout",
+      "kind": "Row",
+      "rows": 31,
+      "columns": 22
+    },
+    {
+      "name": "equipment_loadout_type",
+      "kind": "Row",
+      "rows": 3,
+      "columns": 10
+    },
+    {
+      "name": "explain_guide",
+      "kind": "Row",
+      "rows": 48,
+      "columns": 9
+    },
+    {
+      "name": "footstep_sound",
+      "kind": "Row",
+      "rows": 42,
+      "columns": 26
+    },
+    {
+      "name": "function",
+      "kind": "Row",
+      "rows": 71,
+      "columns": 28
+    },
+    {
+      "name": "gm",
+      "kind": "Row",
+      "rows": 67,
+      "columns": 8
+    },
+    {
+      "name": "gpulevel",
+      "kind": "Row",
+      "rows": 24,
+      "columns": 7
+    },
+    {
+      "name": "guide",
+      "kind": "Row",
+      "rows": 134,
+      "columns": 19
+    },
+    {
+      "name": "guide_stage",
+      "kind": "Row",
+      "rows": 199,
+      "columns": 7
+    },
+    {
+      "name": "guide_trigger",
+      "kind": "Row",
+      "rows": 23,
+      "columns": 9
+    },
+    {
+      "name": "hero",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 42
+    },
+    {
+      "name": "hero_type",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 3
+    },
+    {
+      "name": "hit_sound",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 10
+    },
+    {
+      "name": "item_channel",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 6
+    },
+    {
+      "name": "item_exchange",
+      "kind": "Row",
+      "rows": 8,
+      "columns": 2
+    },
+    {
+      "name": "item_medicine",
+      "kind": "Row",
+      "rows": 20,
+      "columns": 25
+    },
+    {
+      "name": "item_medicine_type",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "name": "item_put_rule",
+      "kind": "Row",
+      "rows": 35,
+      "columns": 9
+    },
+    {
+      "name": "item_quality",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 19
+    },
+    {
+      "name": "item_reward",
+      "kind": "Row",
+      "rows": 226,
+      "columns": 8
+    },
+    {
+      "name": "item_usage",
+      "kind": "Row",
+      "rows": 77,
+      "columns": 6
+    },
+    {
+      "name": "key_bag",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 3
+    },
+    {
+      "name": "keycase",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "name": "language",
+      "kind": "Row",
+      "rows": 7214,
+      "columns": 2
+    },
+    {
+      "name": "level_experience",
+      "kind": "Row",
+      "rows": 60,
+      "columns": 4
+    },
+    {
+      "name": "lifebar",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 14
+    },
+    {
+      "name": "map_dynamic_obstacle",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 6
+    },
+    {
+      "name": "map_ground_prompt",
+      "kind": "Row",
+      "rows": 17,
+      "columns": 4
+    },
+    {
+      "name": "map_high_quality",
+      "kind": "Row",
+      "rows": 18,
+      "columns": 1
+    },
+    {
+      "name": "map_item_create",
+      "kind": "Row",
+      "rows": 24,
+      "columns": 1
+    },
+    {
+      "name": "map_item_plan",
+      "kind": "Row",
+      "rows": 17,
+      "columns": 1
+    },
+    {
+      "name": "map_jump",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 13
+    },
+    {
+      "name": "map_leave",
+      "kind": "Row",
+      "rows": 60,
+      "columns": 13
+    },
+    {
+      "name": "map_level",
+      "kind": "Row",
+      "rows": 15,
+      "columns": 12
+    },
+    {
+      "name": "map_monster",
+      "kind": "Row",
+      "rows": 12,
+      "columns": 4
+    },
+    {
+      "name": "map_switch",
+      "kind": "Row",
+      "rows": 11,
+      "columns": 10
+    },
+    {
+      "name": "map_task",
+      "kind": "Row",
+      "rows": 22,
+      "columns": 14
+    },
+    {
+      "name": "map_task_create",
+      "kind": "Row",
+      "rows": 5,
+      "columns": 5
+    },
+    {
+      "name": "map_task_effect",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 6
+    },
+    {
+      "name": "map_task_plan",
+      "kind": "Row",
+      "rows": 108,
+      "columns": 2
+    },
+    {
+      "name": "map_task_step",
+      "kind": "Row",
+      "rows": 74,
+      "columns": 20
+    },
+    {
+      "name": "marking",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 7
+    },
+    {
+      "name": "mechanism",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 14
+    },
+    {
+      "name": "mini_map",
+      "kind": "Row",
+      "rows": 12,
+      "columns": 11
+    },
+    {
+      "name": "mini_map_area",
+      "kind": "Row",
+      "rows": 44,
+      "columns": 12
+    },
+    {
+      "name": "mini_map_list",
+      "kind": "Row",
+      "rows": 10,
+      "columns": 5
+    },
+    {
+      "name": "mini_map_poi",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 19
+    },
+    {
+      "name": "mini_map_priority",
+      "kind": "Row",
+      "rows": 20,
+      "columns": 5
+    },
+    {
+      "name": "mini_map_route",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 5
+    },
+    {
+      "name": "mini_map_shot",
+      "kind": "Row",
+      "rows": 70,
+      "columns": 7
+    },
+    {
+      "name": "misc",
+      "kind": "KV",
+      "rows": 628,
+      "columns": 0
+    },
+    {
+      "name": "model",
+      "kind": "Row",
+      "rows": 640,
+      "columns": 51
+    },
+    {
+      "name": "model_anim",
+      "kind": "Row",
+      "rows": 8,
+      "columns": 39
+    },
+    {
+      "name": "monster",
+      "kind": "Row",
+      "rows": 151,
+      "columns": 31
+    },
+    {
+      "name": "monster_footstep_sound",
+      "kind": "Row",
+      "rows": 30,
+      "columns": 3
+    },
+    {
+      "name": "music",
+      "kind": "Row",
+      "rows": 16,
+      "columns": 5
+    },
+    {
+      "name": "myself_sound",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 12
+    },
+    {
+      "name": "name",
+      "kind": "Row",
+      "rows": 2715,
+      "columns": 2
+    },
+    {
+      "name": "nato_name",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 2
+    },
+    {
+      "name": "one_name",
+      "kind": "Row",
+      "rows": 11,
+      "columns": 2
+    },
+    {
+      "name": "operate_setting",
+      "kind": "Row",
+      "rows": 45,
+      "columns": 16
+    },
+    {
+      "name": "option",
+      "kind": "Row",
+      "rows": 76,
+      "columns": 21
+    },
+    {
+      "name": "player_touxiang",
+      "kind": "Row",
+      "rows": 47,
+      "columns": 4
+    },
+    {
+      "name": "prefix_name",
+      "kind": "Row",
+      "rows": 227,
+      "columns": 2
+    },
+    {
+      "name": "product_unlock",
+      "kind": "Row",
+      "rows": 180,
+      "columns": 3
+    },
+    {
+      "name": "purchase_permit",
+      "kind": "Row",
+      "rows": 180,
+      "columns": 3
+    },
+    {
+      "name": "quick_setting",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 4
+    },
+    {
+      "name": "region_search_expected_time",
+      "kind": "Row",
+      "rows": 24,
+      "columns": 2
+    },
+    {
+      "name": "report_option",
+      "kind": "Row",
+      "rows": 27,
+      "columns": 4
+    },
+    {
+      "name": "report_option_language",
+      "kind": "Row",
+      "rows": 28,
+      "columns": 2
+    },
+    {
+      "name": "res_prewarm",
+      "kind": "Row",
+      "rows": 1,
+      "columns": 10
+    },
+    {
+      "name": "robot",
+      "kind": "Row",
+      "rows": 132,
+      "columns": 27
+    },
+    {
+      "name": "robot_move",
+      "kind": "Row",
+      "rows": 72,
+      "columns": 8
+    },
+    {
+      "name": "secure_container",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "name": "setting",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 7
+    },
+    {
+      "name": "setting_arrangement",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 5
+    },
+    {
+      "name": "setting_item",
+      "kind": "Row",
+      "rows": 63,
+      "columns": 13
+    },
+    {
+      "name": "sfx",
+      "kind": "Row",
+      "rows": 215,
+      "columns": 13
+    },
+    {
+      "name": "skill",
+      "kind": "Row",
+      "rows": 67,
+      "columns": 34
+    },
+    {
+      "name": "skill_behavior",
+      "kind": "Row",
+      "rows": 210,
+      "columns": 54
+    },
+    {
+      "name": "skill_editor_remark",
+      "kind": "Row",
+      "rows": 84,
+      "columns": 4
+    },
+    {
+      "name": "skill_flyprop",
+      "kind": "Row",
+      "rows": 18,
+      "columns": 17
+    },
+    {
+      "name": "skill_hit_sound",
+      "kind": "Row",
+      "rows": 16,
+      "columns": 2
+    },
+    {
+      "name": "skill_sound",
+      "kind": "Row",
+      "rows": 23,
+      "columns": 2
+    },
+    {
+      "name": "skill_summon",
+      "kind": "Row",
+      "rows": 37,
+      "columns": 40
+    },
+    {
+      "name": "skill_tree",
+      "kind": "Row",
+      "rows": 33,
+      "columns": 18
+    },
+    {
+      "name": "spawn_monster",
+      "kind": "Row",
+      "rows": 410,
+      "columns": 13
+    },
+    {
+      "name": "spawn_robot",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 4
+    },
+    {
+      "name": "stage_control",
+      "kind": "Row",
+      "rows": 199,
+      "columns": 17
+    },
+    {
+      "name": "state",
+      "kind": "Row",
+      "rows": 18,
+      "columns": 21
+    },
+    {
+      "name": "store",
+      "kind": "Row",
+      "rows": 1235,
+      "columns": 19
+    },
+    {
+      "name": "store_type",
+      "kind": "Row",
+      "rows": 59,
+      "columns": 4
+    },
+    {
+      "name": "sys_info",
+      "kind": "Row",
+      "rows": 338,
+      "columns": 7
+    },
+    {
+      "name": "sys_mail",
+      "kind": "Row",
+      "rows": 27,
+      "columns": 17
+    },
+    {
+      "name": "sys_mail_page",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 7
+    },
+    {
+      "name": "target",
+      "kind": "Row",
+      "rows": 20,
+      "columns": 16
+    },
+    {
+      "name": "task_action",
+      "kind": "Row",
+      "rows": 23,
+      "columns": 2
+    },
+    {
+      "name": "task_anim",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "name": "teammate_info",
+      "kind": "Row",
+      "rows": 10,
+      "columns": 6
+    },
+    {
+      "name": "tips_ui_icon_priority",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "name": "tps_accessory_part",
+      "kind": "Row",
+      "rows": 147,
+      "columns": 12
+    },
+    {
+      "name": "tps_accessory_part_type",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 4
+    },
+    {
+      "name": "tps_bag",
+      "kind": "Row",
+      "rows": 41,
+      "columns": 11
+    },
+    {
+      "name": "tps_bag_space",
+      "kind": "Row",
+      "rows": 75,
+      "columns": 4
+    },
+    {
+      "name": "tps_bag_space_icon",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 5
+    },
+    {
+      "name": "tps_bullet",
+      "kind": "Row",
+      "rows": 77,
+      "columns": 13
+    },
+    {
+      "name": "tps_bullet_type",
+      "kind": "Row",
+      "rows": 25,
+      "columns": 2
+    },
+    {
+      "name": "tps_container",
+      "kind": "Row",
+      "rows": 961,
+      "columns": 25
+    },
+    {
+      "name": "tps_container_use",
+      "kind": "Row",
+      "rows": 3217,
+      "columns": 7
+    },
+    {
+      "name": "tps_equip",
+      "kind": "Row",
+      "rows": 35,
+      "columns": 13
+    },
+    {
+      "name": "tps_equip_type",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "name": "tps_expansion",
+      "kind": "Row",
+      "rows": 15,
+      "columns": 7
+    },
+    {
+      "name": "tps_gameplay",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 15
+    },
+    {
+      "name": "tps_item_common",
+      "kind": "Row",
+      "rows": 1025,
+      "columns": 46
+    },
+    {
+      "name": "tps_item_model",
+      "kind": "Row",
+      "rows": 61,
+      "columns": 2
+    },
+    {
+      "name": "tps_item_type",
+      "kind": "Row",
+      "rows": 26,
+      "columns": 6
+    },
+    {
+      "name": "tps_map",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 41
+    },
+    {
+      "name": "tps_map_player_start",
+      "kind": "Row",
+      "rows": 138,
+      "columns": 5
+    },
+    {
+      "name": "tps_mapinformation",
+      "kind": "Row",
+      "rows": 7,
+      "columns": 10
+    },
+    {
+      "name": "tps_match_parameter_dispaly",
+      "kind": "Row",
+      "rows": 24,
+      "columns": 4
+    },
+    {
+      "name": "tps_match_team",
+      "kind": "Row",
+      "rows": 32,
+      "columns": 18
+    },
+    {
+      "name": "tps_recruit",
+      "kind": "Row",
+      "rows": 14,
+      "columns": 10
+    },
+    {
+      "name": "tps_skill_type",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 4
+    },
+    {
+      "name": "tps_weapon",
+      "kind": "Row",
+      "rows": 64,
+      "columns": 219
+    },
+    {
+      "name": "tps_weapon_modifiable_parts",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 3
+    },
+    {
+      "name": "tps_weapon_shooting_mode",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "name": "tps_weapon_type",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 4
+    },
+    {
+      "name": "two_name",
+      "kind": "Row",
+      "rows": 11,
+      "columns": 2
+    },
+    {
+      "name": "type_purchase_permit",
+      "kind": "Row",
+      "rows": 9,
+      "columns": 1
+    },
+    {
+      "name": "ui",
+      "kind": "Row",
+      "rows": 144,
+      "columns": 19
+    },
+    {
+      "name": "ui_effect",
+      "kind": "Row",
+      "rows": 67,
+      "columns": 3
+    },
+    {
+      "name": "ui_priority",
+      "kind": "Row",
+      "rows": 6,
+      "columns": 3
+    },
+    {
+      "name": "ui_sound",
+      "kind": "Row",
+      "rows": 37,
+      "columns": 7
+    },
+    {
+      "name": "vo_sound",
+      "kind": "Row",
+      "rows": 8,
+      "columns": 4
+    },
+    {
+      "name": "voice_print",
+      "kind": "Row",
+      "rows": 3,
+      "columns": 11
+    },
+    {
+      "name": "waypoint",
+      "kind": "Row",
+      "rows": 3,
+      "columns": 6
+    },
+    {
+      "name": "weapon_customization_loadout",
+      "kind": "Row",
+      "rows": 65,
+      "columns": 5
+    },
+    {
+      "name": "weapon_customization_type",
+      "kind": "Row",
+      "rows": 2,
+      "columns": 7
+    },
+    {
+      "name": "workbench",
+      "kind": "Row",
+      "rows": 4,
+      "columns": 5
+    },
+    {
+      "name": "workbench_item_ammo",
+      "kind": "Row",
+      "rows": 22,
+      "columns": 13
+    },
+    {
+      "name": "workbench_item_equipment",
+      "kind": "Row",
+      "rows": 54,
+      "columns": 13
+    },
+    {
+      "name": "workbench_item_medic",
+      "kind": "Row",
+      "rows": 30,
+      "columns": 13
+    },
+    {
+      "name": "workbench_item_weapon",
+      "kind": "Row",
+      "rows": 176,
+      "columns": 13
+    },
+    {
+      "name": "workbench_type",
+      "kind": "Row",
+      "rows": 47,
+      "columns": 4
+    },
+    {
+      "name": "world_map_res",
+      "kind": "Row",
+      "rows": 28,
+      "columns": 11
+    }
+  ]
+}

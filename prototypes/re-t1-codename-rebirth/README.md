@@ -1,17 +1,15 @@
 # 代号：新生（测试版）逆向研究
 
-用户指定 Android APK；分析日期 2026-10-13。包名 `com.gnml.t1yfnbcs`，版本 `0.9.0`。
+用户指定 Android APK，分析日期 2026-10-13，包名 com.gnml.t1yfnbcs，版本 0.9.0。用户已确认分析授权。
 
-- [项目合同](DEVELOPMENT.md)
-- [来源记录](sources/target-register.md)
-- [分析报告](reports/analysis.md)
-- [架构地图](reports/architecture.md) · [代码载体](reports/code-map.md) · [内容与资产](reports/content-and-assets.md) · [恢复范围与接续](reports/recovery-scope.md)
-- [复跑工具](scripts/README.md)
-- [全 APK 清单](evidence/apk-files.json)
-- [本地可搜索索引](local/explorer.html) · [校验](evidence/verification.json)
+- [项目合同](DEVELOPMENT.md) · [来源](sources/target-register.md)
+- [总报告](reports/analysis.md) · [架构](reports/architecture-v0.4.md) · [逐系统分析](reports/systems.md)
+- [代码](reports/code-map.md) · [内容与资产](reports/content-and-assets.md) · [恢复边界](reports/recovery-scope.md)
+- [工具/复跑](scripts/README.md) · [深层校验：25/25](evidence/deep-verification.json) · [检索 QA：15/15](evidence/deep-explorer-qa.json)
+- [本地检索服务器](scripts/serve_catalog.py) · [原离线地址页](local/explorer.html)
 
-原始包副本与第三方派生产物保存在 `local/`，不公开上传。目录建立和文件清单完成不能代表全部代码、规则与资产恢复；封装解析、客户端/服务器及静态/运行证据分开登记。
+已解码全部 38 托管镜像、981 资源包；恢复 208 表/30676 记录、191092 资源对象，生成 17872 个 C# 文件，导出纹理/网格/音频与碰撞数据。AOT 的类型声明和机器代码、实际热更新 IL、反编译文本分别保存；没有宣称原作者工程/服务端或真实游玩已还原。
 
-本轮已完成 2051 文件校验、22162 地址 / 1017 文件清单闭合、28 DEX / 50 ELF 元数据、7472 基础 Unity 对象及 4352 脚本描述索引。4276 唯一脚本类型与 209 数据表类型名支持系统地图；业务方法体、表行/数值和 981 非标准资源包尚未解析。封装深入解析的授权范围待确认，完整任务保持未完成。
+运行 `python prototypes/re-t1-codename-rebirth/scripts/serve_catalog.py` 后访问本机 http://127.0.0.1:8769/，可搜索源码、方法/调用、中文配置、对象与媒体。服务绑定 127.0.0.1，只读本机数据。
 
-检索页的 14 项功能检查通过；桌面 1440×1000 与实际浏览器窄视口 500×844 已目检。索引页面验证不代替 Android 游戏运行验证。
+原件、副本、第三方源码/配置全文/媒体在 local/ 无远程版本库中保留，不公开上传。原创报告、工具和汇总证据独立备份。

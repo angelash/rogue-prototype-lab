@@ -1,0 +1,49 @@
+{
+  "textAssets": 1077,
+  "kinds": {
+    "HCRH-render-data": 641,
+    "QXPS": 208,
+    "JSON": 64,
+    "RIFF-FMOD": 57,
+    "SDF-data": 48,
+    "QXTL-QXPM": 38,
+    "collision": 14,
+    "QCFG": 2,
+    "UTF8-text": 2,
+    "QXTM-token-map": 2,
+    "other-binary": 1
+  },
+  "validationFailures": [],
+  "collisionShapes": 49987,
+  "rawPNGSignatureRepairs": [
+    {
+      "input": "assets/res/4c0acda4-d07b-4eae-b6be-4eb711abf3e3.png",
+      "output": "payloads/4c0acda4-d07b-4eae-b6be-4eb711abf3e3_signature-repaired.png",
+      "inputSHA256": "ac7ce8ebec8ecd2da45c8af3ad8a8f169b51f18bfab311c62e85e2f1c76c0d40",
+      "outputSHA256": "381ec4487d3d78bd06705c548ffd04940651224812d682962b7f3f16d50ecc3a",
+      "changedBytes": [
+        {
+          "offset": 0,
+          "before": 0,
+          "after": 137
+        }
+      ],
+      "allChunkCRCsPassed": true
+    },
+    {
+      "input": "assets/res/raw-assets/4c0acda4-d07b-4eae-b6be-4eb711abf3e3.png",
+      "output": "payloads/4c0acda4-d07b-4eae-b6be-4eb711abf3e3_signature-repaired.png",
+      "inputSHA256": "ac7ce8ebec8ecd2da45c8af3ad8a8f169b51f18bfab311c62e85e2f1c76c0d40",
+      "outputSHA256": "381ec4487d3d78bd06705c548ffd04940651224812d682962b7f3f16d50ecc3a",
+      "changedBytes": [
+        {
+          "offset": 0,
+          "before": 0,
+          "after": 137
+        }
+      ],
+      "allChunkCRCsPassed": true
+    }
+  ],
+  "scope": "JSON/collision/RIFF structural decoding; HCRH, SDF and QXTM retain opaque native payloads, not converted geometry or generic code"
+}

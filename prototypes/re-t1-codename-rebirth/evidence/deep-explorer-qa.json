@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "name": "summary_matches_corpus",
+      "passed": true
+    },
+    {
+      "name": "types_WeaponSystem_release",
+      "passed": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "types_WeaponSystem_debug",
+      "passed": true,
+      "detail": {
+        "rows": 1
+      }
+    },
+    {
+      "name": "methods_escape_enter_c2s_release",
+      "passed": true,
+      "detail": {
+        "rows": 12
+      }
+    },
+    {
+      "name": "calls_NetNodeMgr::C2S_release",
+      "passed": true,
+      "detail": {
+        "rows": 50
+      }
+    },
+    {
+      "name": "config_AK_release",
+      "passed": true,
+      "detail": {
+        "rows": 17
+      }
+    },
+    {
+      "name": "config_穿甲_release",
+      "passed": true,
+      "detail": {
+        "rows": 50
+      }
+    },
+    {
+      "name": "assets_Texture2D_release",
+      "passed": true,
+      "detail": {
+        "rows": 50
+      }
+    },
+    {
+      "name": "literal_wildcard",
+      "passed": true
+    },
+    {
+      "name": "normalized_path_scope",
+      "passed": true
+    },
+    {
+      "name": "source_link",
+      "passed": true
+    },
+    {
+      "name": "rapid_tab_switch",
+      "passed": true
+    },
+    {
+      "name": "preview_loaded",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_overflow",
+      "passed": true
+    },
+    {
+      "name": "narrow_no_overflow",
+      "passed": true
+    }
+  ],
+  "total": 15,
+  "passed": 15,
+  "desktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scope": "Local read-only catalog only; no APK execution or audio listening.",
+  "narrow": {
+    "requested": {
+      "width": 390,
+      "height": 844
+    },
+    "actual": {
+      "width": 500,
+      "height": 844
+    },
+    "noOverflow": true
+  },
+  "screenshots": "1440×1000 and actual 500×844 viewed inline; screenshot files not exported."
+}

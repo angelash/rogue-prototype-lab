@@ -1,0 +1,18 @@
+{
+  "attempted": 10799,
+  "passed": {
+    "Texture2D": 3201,
+    "Mesh": 6867,
+    "AudioClip": 728
+  },
+  "failed": 0,
+  "exportedBytes": 1643337193,
+  "seconds": 451.25,
+  "textures": "PNG verified by Pillow; visual contact sheet is a sample",
+  "meshes": "OBJ gzip; source bundles preserve complete skinning, blend shapes and materials",
+  "audio": "Original encoded clip payload plus decoded samples; no listening claim",
+  "APKExecuted": false,
+  "runtimeEmptyTextures": 3,
+  "floatDataTexturesLossless": 17,
+  "textureRepair": "17 floating-point data textures retained as exact raw + NPY; PNG is normalized preview. Three zero-sized font atlases classified as runtime-empty."
+}

@@ -1,0 +1,17 @@
+{
+  "candidates": 981,
+  "passed": 981,
+  "failed": 0,
+  "bytes": 1020460098,
+  "objects": 191092,
+  "headerAndLengthPassed": true,
+  "allBlocksDecompressed": true,
+  "originalsPreserved": true,
+  "apkExecuted": false,
+  "seconds": 34.41,
+  "loaderType": "Launcher.Patch.ResourcePayloadMixer",
+  "ApplyVA": "0x37c3bc4",
+  "CreateRandomSeedVA": "0x37c9c40",
+  "ResolveMaskByteVA": "0x37c9cdc",
+  "failures": []
+}
