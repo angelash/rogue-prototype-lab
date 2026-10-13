@@ -1,10 +1,10 @@
 """Snapshot complete local research, keep it offline, and make a Git bundle."""
-import argparse,datetime,json,subprocess
+import argparse,datetime,json,subprocess,os
 from pathlib import Path
 from prepare import write,sha
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--project',required=True);ap.add_argument('--bundle',required=True);a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--project',required=True);ap.add_argument('--bundle',required=True);ap.add_argument('--evidence-name',default='backup.json');a=ap.parse_args()
     project=Path(a.project).resolve();local=project/'local';bundle=Path(a.bundle).resolve()
     if bundle.is_relative_to(local):raise ValueError('Bundle must be outside its input repository')
     def git(*args):return subprocess.check_output(['git',*args],cwd=local,text=True,encoding='utf-8').strip()
@@ -22,20 +22,31 @@ def main():
     for r in manifest:
         rel='build-copy/'+r['path'];assert rel in tracked_set
         assert git('hash-object','--no-filters',rel)==git('rev-parse','HEAD:'+rel),rel
-    expected={f.relative_to(local).as_posix() for f in local.rglob('*') if f.is_file() and f.relative_to(local).parts[0] not in ('.git','tools') and not f.name.startswith('assets.sqlite-')}
+    candidates=[]
+    for folder,dirs,files in os.walk(local,followlinks=False):
+        rel=Path(folder).relative_to(local)
+        dirs[:]=[d for d in dirs if not(rel==Path('.') and (d in ['.git','tools','NativeProbe','NativeMerged','NativeRuntimeLocalScriptProbe'] or d.startswith('NativeRuntimeABBinding')))
+            and not(rel==Path('UnityProject') and d in ['Library','Temp','Logs','obj','UserSettings'])]
+        candidates.extend((rel/f).as_posix() for f in files if not f.startswith('assets.sqlite-'))
+    ignored=subprocess.run(['git','check-ignore','--no-index','-z','--stdin'],cwd=local,input=('\0'.join(candidates)+'\0').encode('utf-8'),capture_output=True)
+    if ignored.returncode not in [0,1]:raise RuntimeError(ignored.stderr.decode('utf-8',errors='replace'))
+    excluded=set(ignored.stdout.decode('utf-8').split('\0'))
+    expected=set(candidates)-excluded
     assert expected==tracked_set,dict(missing=sorted(expected-tracked_set),extra=sorted(tracked_set-expected))
     print(f'All {len(tracked)} local research files tracked; {len(manifest)} input blobs checked',flush=True)
-    subprocess.run(['git','fsck','--full','--no-progress'],cwd=local,check=True)
+    subprocess.run(['git','fsck','--full','--no-progress','--no-dangling'],cwd=local,check=True)
     print('Local object database integrity passed',flush=True)
     if bundle.exists():raise FileExistsError('Choose a fresh bundle filename; existing backup is never overwritten')
     bundle.parent.mkdir(parents=True,exist_ok=True)
     subprocess.run(['git','-c','pack.window=0','-c','core.compression=1','bundle','create',str(bundle),'--all'],cwd=local,check=True)
     subprocess.run(['git','bundle','verify',str(bundle)],cwd=local,check=True)
     rec=dict(date=datetime.datetime.now().isoformat(),localRepository=str(local),localCommit=commit,localTree=tree,
-        localTrackedFiles=len(tracked),localTrackedBytes=sum((local/r).stat().st_size for r in tracked),allLocalResearchTracked=True,
+        localTrackedFiles=len(tracked),localTrackedBytes=sum((local/r).stat().st_size for r in tracked),allLocalResearchTracked=True,ignoredCachesExcluded=True,
         installationBlobsVerified=len(manifest),localGitFsck=True,localRemote=None,
         bundle=dict(path=str(bundle),bytes=bundle.stat().st_size,sha256=sha(bundle),verified=True),
         reportBackup=dict(status='pending',branch='codex/duckov-analysis',includesThirdPartyBodiesOrMedia=False))
-    write(project/'evidence/backup.json',rec);print(json.dumps(rec),flush=True)
+    evidence_name=Path(a.evidence_name)
+    if evidence_name.name!=a.evidence_name:raise ValueError('Evidence name must be a filename')
+    write(project/'evidence'/evidence_name,rec);print(json.dumps(rec),flush=True)
 
 if __name__=='__main__':main()

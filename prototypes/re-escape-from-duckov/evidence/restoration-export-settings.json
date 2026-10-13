@@ -1,0 +1,15 @@
+{
+  "DefaultVersion": "2022.3.62f2",
+  "TargetVersion": "0.0.0a0",
+  "BundledAssetsExportMode": "DirectExport",
+  "ScriptContentLevel": "Level2",
+  "AudioExportFormat": "Yaml",
+  "ImageExportFormat": "Png",
+  "LightmapTextureExportFormat": "Yaml",
+  "SpriteExportMode": "Yaml",
+  "ShaderExportMode": "Yaml",
+  "TextExportMode": "Bytes",
+  "ScriptLanguageVersion": "AutoSafe",
+  "ScriptExportMode": "DllExportWithoutRenaming",
+  "ExportUnreadableAssets": ""
+}

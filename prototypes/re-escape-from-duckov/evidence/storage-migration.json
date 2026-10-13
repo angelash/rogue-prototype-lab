@@ -1,0 +1,184 @@
+{
+  "status": "complete",
+  "sourceRetained": true,
+  "freeBytesBefore": 325204115456,
+  "bytesToCopy": 38182411681,
+  "filesToCopy": 64999,
+  "directories": [
+    {
+      "relative": ".git",
+      "source": "D:\\CodexBackups\\DuckovLocalGitDirectory-2026-10-13",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\.git",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\.git.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\.git.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 4611057559,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "UnityProject/Library",
+      "source": "D:\\CodexCaches\\duckov-restoration-2022.3.62f3c1",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\UnityProject\\Library",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\UnityProject\\Library.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\UnityProject\\Library.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 559711237,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeProbe",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-probes\\NativeProbe",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeProbe",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeProbe.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeProbe.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 17395846517,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeMerged",
+      "source": "D:\\CodexCaches\\duckov-restoration-merged-assets",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeMerged",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeMerged.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeMerged.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 602954199,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeRuntimeABBinding",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-probes\\AssetBindingExperiments\\NativeRuntimeABBinding",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBinding",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBinding.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBinding.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 288786934,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeRuntimeABBindingUniqueDebug",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-probes\\AssetBindingExperiments\\NativeRuntimeABBindingUniqueDebug",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniqueDebug",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniqueDebug.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniqueDebug.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 571915404,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeRuntimeABBindingUniquePreload",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-probes\\AssetBindingExperiments\\NativeRuntimeABBindingUniquePreload",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniquePreload",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniquePreload.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeABBindingUniquePreload.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 572036296,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "NativeRuntimeLocalScriptProbe",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-probes\\AssetBindingExperiments\\NativeRuntimeLocalScriptProbe",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeLocalScriptProbe",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeLocalScriptProbe.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeRuntimeLocalScriptProbe.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 368733185,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "Player",
+      "source": "D:\\CodexCaches\\duckov-restoration-full-game-v3",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\Player",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\Player.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\Player.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 3091295475,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-exact-script-probe",
+      "source": "D:\\CodexCaches\\duckov-restoration-exact-script-probe",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-exact-script-probe",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-exact-script-probe.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-exact-script-probe.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 570121733,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-full-game",
+      "source": "D:\\CodexCaches\\duckov-restoration-full-game",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 93656222,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-full-game-v2",
+      "source": "D:\\CodexCaches\\duckov-restoration-full-game-v2",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game-v2",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game-v2.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-full-game-v2.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 3014093462,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-merged-assets-v2",
+      "source": "D:\\CodexCaches\\duckov-restoration-merged-assets-v2",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-assets-v2",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-assets-v2.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-assets-v2.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 620017480,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-merged-lazy",
+      "source": "D:\\CodexCaches\\duckov-restoration-merged-lazy",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-lazy",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-lazy.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-lazy.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 570072843,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-merged-player-binding",
+      "source": "D:\\CodexCaches\\duckov-restoration-merged-player-binding",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-player-binding",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-player-binding.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-merged-player-binding.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 570073125,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-native-player",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-player",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-player",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-player.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-player.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 2890313800,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-native-preloaded",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-preloaded",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-preloaded",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-preloaded.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-preloaded.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 651148457,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-native-schemas",
+      "source": "D:\\CodexCaches\\duckov-restoration-native-schemas",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-schemas",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-schemas.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-native-schemas.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 570122017,
+      "status": "verified-and-active-on-f"
+    },
+    {
+      "relative": "StorageExperiments/duckov-restoration-player-script-ids",
+      "source": "D:\\CodexCaches\\duckov-restoration-player-script-ids",
+      "destination": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-player-script-ids",
+      "stage": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-player-script-ids.storage-stage-2026-10-13-return-to-f-verified",
+      "retired": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\StorageExperiments\\duckov-restoration-player-script-ids.storage-retired-link-2026-10-13-return-to-f-verified",
+      "bytes": 570455736,
+      "status": "verified-and-active-on-f"
+    }
+  ],
+  "completedFiles": 64999,
+  "completedBytes": 38182411681,
+  "allFileSHA256Matched": true,
+  "freeBytesAfter": 301324279808
+}

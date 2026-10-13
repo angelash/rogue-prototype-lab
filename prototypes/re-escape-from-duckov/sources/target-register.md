@@ -16,9 +16,11 @@ Python 3.10.8（本机 C:\Python310\python.exe）；UnityPy 1.25.0；TypeTreeGen
 
 方法参考：[UnityPy 官方说明](https://github.com/K0lb3/UnityPy/blob/master/README.md)、[ILSpy 命令行官方说明](https://github.com/icsharpcode/ILSpy/blob/master/ICSharpCode.ILSpyCmd/README.md)、[TypeTreeGeneratorAPI 官方项目](https://github.com/UnityPy-Org/TypeTreeGeneratorAPI)。这些文档支持工具选择和模式读法，具体游戏结论均取自本机目标构建。
 
-## 原生及在线边界
+## 静态分析阶段的原生及在线边界
 
 9 个原生 PE 的元数据摘要见 [native-summary.json](../evidence/native-summary.json)，完整导入/导出本机 local/native-pe.json。原生媒体解码使用副本内 FMOD DLL，NOSOUND，未播放事件。未加载目标托管 DLL 执行游戏逻辑、未跑 Mods、未接触真实账号/存档，未调用平台 API 或绕过授权保护。
+
+后续用户另行授权 Unity 还原与运行验证，已在独立产品/保存身份中执行原程序集并进入原标题/主菜单，保留原 Steam/FMOD 初始化；该阶段产生的运行日志仅本机保存，不进入公开仓库。静态阶段的未运行结论保留为历史，最新状态见[还原记录](../reports/restoration.md)。
 
 ## 证据使用
 

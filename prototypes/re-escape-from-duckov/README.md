@@ -1,6 +1,12 @@
-# Escape from Duckov 逆向研究
+# Escape from Duckov 逆向研究与 Unity 还原
 
 输入：用户指定的本机 Steam **2.3.30**，Unity **2022.3.62f2 / Windows x64 Mono**。2026-10-13 已建立全量静态研究库、中文系统报告与本地检索工具；[开发合同](DEVELOPMENT.md)记录范围与实际落地。
+
+后续用户要求用本地 **Unity 2022.3.62f3c1** 还原全部内容，以像素级复刻为目标。独立工程入口为 `local/UnityProject`，实施与验证见[还原记录](reports/restoration.md)；原生资产恢复、可运行闭环和像素等价分别验收。
+
+本机运行候选为 `local/Player/DuckovRestored.exe`，可用 [start-restored-game.ps1](scripts/start-restored-game.ps1) 启动。已进入原标题/主菜单，保留 63 场景编号，使用独立保存目录；完整游玩和像素一致尚未验收。第三方资产、截图和完整日志仅本机保存。
+
+2026-10-13 已迁回 F 盘：Unity 缓存、本地版本库、构建/实验目录和当前运行包均位于本项目 `local/`，不再依赖 D 盘目录链接。64,999 文件 / 38,182,411,681 字节逐文件 SHA256 核验通过，D 盘原件保留为备份；详见[迁移证据](evidence/storage-migration.json)。
 
 ## 先从这里读
 
@@ -23,4 +29,4 @@
 
 [独立核验](evidence/verification.json)通过原字节、引用、登记与导出检查，[检索验证](evidence/explorer-qa.json)通过 91 API 检查及实际 UI 复核。一个 NodeCanvas 业务类型无 C#、两个字段对象受模式限制、七个 Shader 仅原载荷；任务 939 有一个原始空奖励槽。原始输入均保留，限制分别记录。
 
-反编译不是原作者源码；此轮没有还原完整可运行 Unity 作者工程、逐行审阅所有方法或执行全游戏游玩。完整本地版本与报告/工具远程备份见 [备份记录](evidence/backup.json)。
+反编译不是原作者源码；原生 Player 启动已通过，但完整可编辑 Unity 作者工程、所有方法逐行审阅及全游戏游玩仍未完成。静态阶段完整本地版本与报告/工具备份见 [备份记录](evidence/backup.json)，后续恢复状态以还原记录为准。

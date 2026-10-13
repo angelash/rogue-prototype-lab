@@ -1,0 +1,12 @@
+{
+    "unity": "2022.3.62f3c1",
+    "persistentDataPath": "C:/Users/Lenovo/AppData/LocalLow/RoguePrototypeLab/DuckovRestorationLab",
+    "gameplayData": "GameplayDataSettings",
+    "items": "ItemAssetsCollection",
+    "quests": "QuestCollection",
+    "sceneInfo": "SceneInfoCollection",
+    "pipeline": "URP-HighFidelity",
+    "shader": "Shader Graphs/SodaDecalWaterV2",
+    "error": "",
+    "passed": true
+}

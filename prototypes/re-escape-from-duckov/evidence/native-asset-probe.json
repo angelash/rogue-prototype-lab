@@ -1,0 +1,67 @@
+{
+    "unity": "2022.3.62f3c1",
+    "path": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\NativeProbe\\original-resources-typed-retagged-merged-native-dependencies-archive.bundle",
+    "persistentDataPath": "C:/Users/Lenovo/AppData/LocalLow/RoguePrototypeLab/DuckovRestorationLab",
+    "graphics": "Direct3D11",
+    "error": "",
+    "passed": true,
+    "editor": false,
+    "assets": [
+        {
+            "key": "native/animationclip",
+            "name": "Armature|Walk_Right",
+            "type": "UnityEngine.AnimationClip",
+            "textureFormat": "",
+            "width": 0,
+            "height": 0,
+            "vertices": 0,
+            "subMeshes": 0,
+            "blendShapes": 0,
+            "length": 0.800000011920929,
+            "frameRate": 50.0,
+            "shaderSupported": false
+        },
+        {
+            "key": "native/mesh",
+            "name": "SM_Studio_Tripod_2",
+            "type": "UnityEngine.Mesh",
+            "textureFormat": "",
+            "width": 0,
+            "height": 0,
+            "vertices": 1431,
+            "subMeshes": 1,
+            "blendShapes": 0,
+            "length": 0.0,
+            "frameRate": 0.0,
+            "shaderSupported": false
+        },
+        {
+            "key": "native/shader",
+            "name": "Shader Graphs/SodaDecalWaterV2",
+            "type": "UnityEngine.Shader",
+            "textureFormat": "",
+            "width": 0,
+            "height": 0,
+            "vertices": 0,
+            "subMeshes": 0,
+            "blendShapes": 0,
+            "length": 0.0,
+            "frameRate": 0.0,
+            "shaderSupported": true
+        },
+        {
+            "key": "native/texture2d",
+            "name": "NotoSansSC-Medium Atlas",
+            "type": "UnityEngine.Texture2D",
+            "textureFormat": "Alpha8",
+            "width": 1024,
+            "height": 1024,
+            "vertices": 0,
+            "subMeshes": 0,
+            "blendShapes": 0,
+            "length": 0.0,
+            "frameRate": 0.0,
+            "shaderSupported": false
+        }
+    ]
+}

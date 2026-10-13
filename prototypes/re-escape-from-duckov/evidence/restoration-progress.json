@@ -1,0 +1,134 @@
+{
+  "unity": "2022.3.62f3c1",
+  "sourceUnity": "2022.3.62f2",
+  "project": "local/UnityProject",
+  "export": "local/AssetRipperExport/ExportedProject",
+  "exporter": {
+    "source": "https://github.com/AssetRipper/AssetRipper/releases/download/1.3.5/AssetRipper_win_x64.zip",
+    "bytes": 51817605,
+    "sha256": "d62cc7f5ea9eef31e59dfc7e2583a7d95887eebc2624be4d76d2cc7c6269ded3"
+  },
+  "exportedSceneCount": 63,
+  "exportedAnimationClips": 238,
+  "nativeApproach": "Original serialized payloads; append Unity-generated bundle directory; reconstruct type trees without rewriting object bodies",
+  "verifiedNativePayloads": [
+    {
+      "file": "resources.assets",
+      "originalVersion": "2022.3.62f2",
+      "metadataVersion": "2022.3.62f2",
+      "unchangedObjectPayloads": 114875,
+      "typeTrees": true,
+      "typeTreeFailures": [
+        {
+          "typeIndex": 105,
+          "object": 76733,
+          "error": "failed to dump nodes raw"
+        }
+      ]
+    },
+    {
+      "file": "globalgamemanagers.assets",
+      "originalVersion": "2022.3.62f2",
+      "metadataVersion": "2022.3.62f2",
+      "unchangedObjectPayloads": 5181,
+      "typeTrees": true,
+      "typeTreeFailures": []
+    },
+    {
+      "file": "sharedassets0.assets",
+      "originalVersion": "2022.3.62f2",
+      "metadataVersion": "2022.3.62f2",
+      "unchangedObjectPayloads": 241,
+      "typeTrees": true,
+      "typeTreeFailures": []
+    }
+  ],
+  "probeBuild": {
+    "result": "Succeeded",
+    "unity": "2022.3.62f3c1",
+    "errors": 0,
+    "warnings": 0,
+    "bytes": 88071704
+  },
+  "completeGame": false,
+  "pixelEquivalent": false,
+  "cacheLocations": {
+    "unityLibrary": "F:/workspace/rogue-prototype-lab/prototypes/re-escape-from-duckov/local/UnityProject/Library",
+    "nativeProbes": "F:/workspace/rogue-prototype-lab/prototypes/re-escape-from-duckov/local/NativeProbe"
+  },
+  "nativeProbeStatus": "Native Resources/shared layout passed configuration and URP probes. Full native startup reached MainMenu in normal Player mode with 0 captured errors; original title rendered, native input opened the empty save list. Complete gameplay and pixel comparison remain pending.",
+  "nativeResourcesProbe": {
+    "unity": "2022.3.62f3c1",
+    "persistentDataPath": "C:/Users/Lenovo/AppData/LocalLow/RoguePrototypeLab/DuckovRestorationLab",
+    "gameplayData": "GameplayDataSettings",
+    "items": "ItemAssetsCollection",
+    "quests": "QuestCollection",
+    "sceneInfo": "SceneInfoCollection",
+    "pipeline": "URP-HighFidelity",
+    "shader": "Shader Graphs/SodaDecalWaterV2",
+    "error": "",
+    "passed": true
+  },
+  "nativeSerializedAssets": {
+    "containers": 65,
+    "objects": 129067,
+    "unchangedObjectBodies": 129066,
+    "pointerRemaps": 1,
+    "resources": 415,
+    "partialTypes": [
+      {
+        "container": "resources.assets",
+        "typeIndex": 105,
+        "object": 76733,
+        "error": "failed to dump nodes raw",
+        "status": "partial-type-tree; original object body retained"
+      }
+    ]
+  },
+  "nativeSerializedScenes": {
+    "scenes": 63,
+    "objects": 1472139,
+    "unchangedObjectBodies": 1472139,
+    "partialTypes": [
+      {
+        "container": "level1",
+        "typeIndex": 30,
+        "object": 7554,
+        "error": "Failed to get ref type node",
+        "status": "partial-type-tree; original object body retained"
+      },
+      {
+        "container": "level1",
+        "status": "null managed-reference descriptor has an explicit empty sentinel node"
+      }
+    ]
+  },
+  "fullBundlePlayerProbePassed": false,
+  "nativeGameQA": {
+    "unity": "2022.3.62f3c1",
+    "persistentDataPath": "C:/Users/Lenovo/AppData/LocalLow/RoguePrototypeLab/DuckovRestorationLab",
+    "activeScene": "Assets/Scenes/MainMenu/MainMenu.unity",
+    "activeBuildIndex": 1,
+    "buildSceneCount": 63,
+    "cameras": 1,
+    "loadedScenes": [
+      "1 / Assets/Scenes/MainMenu/MainMenu.unity"
+    ],
+    "errors": [],
+    "mainMenuReached": true
+  },
+  "interactiveQA": {
+    "titleClick": true,
+    "menuAndEmptySavesObserved": true,
+    "gameplayEntered": false,
+    "stoppedByUserEscape": true,
+    "resolutionRecheckPending": true
+  },
+  "nativePlayerCandidate": "F:/workspace/rogue-prototype-lab/prototypes/re-escape-from-duckov/local/Player",
+  "storageMigration": {
+    "evidence": "evidence/storage-migration.json",
+    "status": "complete",
+    "allFileSHA256Matched": true,
+    "originalDCopiesRetained": true
+  }
+}
