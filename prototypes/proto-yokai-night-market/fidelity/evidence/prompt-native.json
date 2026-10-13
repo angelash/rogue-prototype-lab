@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-10-13T03:58:44.862051+00:00",
+  "scope": "Actual Release at 1280x720, Chinese continuation display and native mouse click only; not complete native acceptance",
+  "completeAcceptance": false,
+  "releasePlayerSHA256": "059c313352892718258a120b87bdc6fc7c23ce67181084abe14f86f204f5dddb",
+  "releaseAssemblySHA256": "b82b15b1a59937046708d02302d3ff81bcab7d4b7b53ec9473baef36395fbb94",
+  "cases": [
+    {
+      "id": "prompt-visible",
+      "passed": true,
+      "observation": "Original dark plate with a green 点击继续 label and separate white 关闭逐步暂停; no gold logo or text overlap"
+    },
+    {
+      "id": "native-click",
+      "passed": true,
+      "observation": "Clicked visible prompt at window x=1181 y=712; 随手好活 collapsed and the prompt hid during transition"
+    },
+    {
+      "id": "next-card",
+      "passed": true,
+      "observation": "Original opening flow displayed 筐底漏风 as the next expanded card; continuation prompt returned"
+    }
+  ],
+  "captures": [
+    {
+      "path": "local/QAResults/native-prompts-v2.5-r4/01-prompt.png",
+      "sha256": "512e31a35caf054fd1a43fdd96be904780a555c1834ec94076df1730720dbb74"
+    },
+    {
+      "path": "local/QAResults/native-prompts-v2.5-r4/02-click.png",
+      "sha256": "2090aa9cc5ce353bfad9b3af552c4ffdb826163a4177af1d574195dc5b9a3343"
+    },
+    {
+      "path": "local/QAResults/native-prompts-v2.5-r4/03-next-card.png",
+      "sha256": "73c4973d309decd2ed84ddf9cdf9930f237b4183ecb1f5aea2c377a0d936086c"
+    }
+  ]
+}

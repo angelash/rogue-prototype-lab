@@ -1719,7 +1719,7 @@
       "raw": "fidelity/art/generated/SubTitle.raw.png",
       "rawSHA256": "4de5d77e3ec6d38619483fe94082d8af8fea2d295cf3026d1ea63fff26c02192",
       "prompt": "fidelity/art/prompts/SubTitle.txt",
-      "promptSHA256": "97bbaa408d65bf5e42d3557977bf94fdfdbb0fae273269a44b3734297f385aab",
+      "promptSHA256": "2820a4a76c495c20c1d3dcea15e061e51e24e92e49778c69aab1e2a9a19d02e8",
       "rawSize": [
         2048,
         768
@@ -1736,7 +1736,10 @@
       "references": [],
       "generatedAt": "2026-10-12T20:49:44.384231+08:00",
       "toolOutputFile": "exec-7c0a999f-7c2a-4535-9407-0b0c2a6b04fd.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated raw retained as rejected history; runtime uses a uniform procedural Continue plate with original alpha, verified in the prompt survey.",
+      "runtimeProduction": "procedural flat RGB plus original functional alpha; generated raw retained as rejected history",
+      "generatedRawUsed": false,
+      "previousPrompt": "fidelity/art/revisions/SubTitle.prompt.97bbaa408d65.txt"
     },
     {
       "name": "TSTGirl",

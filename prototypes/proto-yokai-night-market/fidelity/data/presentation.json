@@ -1,6 +1,9 @@
 {
   "version": 1,
   "date": "2026-10-13",
+  "textStyleOverrides": {
+    "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "characterSize": 0.85, "reason": "Noto CJK glyphs need a clear gap beneath the original collapsed title; node transforms and references stay original."}
+  },
   "textColorOverrides": {
     "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "r": 0.82, "g": 0.80, "b": 0.72, "a": 1},
     "mainData:1211": {"object": "Pag 1.4- Programming", "key": "Programming", "r": 0.42, "g": 0.64, "b": 1, "a": 1},

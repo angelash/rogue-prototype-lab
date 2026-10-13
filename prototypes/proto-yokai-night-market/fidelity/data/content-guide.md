@@ -1298,21 +1298,21 @@ Open Again
 
 ### 键 DisableAutoPause
 
-关闭逐牌停顿
+关闭逐步暂停
 
-Disable Card Pauses
+Disable step pauses
 
 ### 键 Continue
 
-继续
+点击继续
 
 Continue
 
 ### 键 ClickToUse
 
-按任意键使用调停牌
+点击调停
 
-Press any key to use the mediator
+Click to mediate
 
 ### 键 Recruiting
 
@@ -3629,8 +3629,7 @@ task.
 
 灯先挂在巷口，晚来的客人才找得着。
 
-Hang the first lamp at the entrance
-so late guests can find you.
+Light the entrance.
 
 ### 键 Title2
 
@@ -3642,8 +3641,7 @@ so late guests can find you.
 
 两位夜班客人说好了，收工来喝热汤。
 
-Two night workers promised to stop
-by for hot soup.
+Soup for the night shift.
 
 ### 键 Title3
 
@@ -3655,8 +3653,7 @@ by for hot soup.
 
 桥边风大，给等月亮的人留个背风位。
 
-Save a sheltered seat for the
-moon-watchers by the bridge.
+Shelter the moon-watchers.
 
 ### 键 Title4
 
@@ -3668,8 +3665,7 @@ moon-watchers by the bridge.
 
 旧货擦干净再摆，轻东西别让风卷跑。
 
-Wipe the old wares clean and weigh
-down anything light.
+Wipe down the old wares.
 
 ### 键 Title5
 
@@ -3681,8 +3677,7 @@ down anything light.
 
 河雾又漫上来了，补好棚再搬货。
 
-The river mist is back. Patch the
-awning before moving the goods.
+Patch the misty awning.
 
 ### 键 Title6
 
@@ -3694,8 +3689,7 @@ awning before moving the goods.
 
 衣服送来了，灯挂近一点才看得清针脚。
 
-The clothes are here. Bring the lamp
-closer to the stitching.
+Light the stitching.
 
 ### 键 Title7
 
@@ -3707,8 +3701,7 @@ closer to the stitching.
 
 小戏班今晚来，把台前那条路空出来。
 
-The little troupe is coming. Keep
-the path in front clear.
+Clear a path for the troupe.
 
 ### 键 Title8
 
@@ -3720,8 +3713,7 @@ the path in front clear.
 
 伞骨修好，最后一位客人还要走远路。
 
-Fix the umbrella ribs. The last
-customer has a long walk home.
+Mend the last umbrella.
 
 ### 键 Title9
 
@@ -3733,8 +3725,7 @@ customer has a long walk home.
 
 过了子时还有船，干粮包好，别沾河水。
 
-Boats run after midnight. Wrap the
-food and keep it dry.
+Keep the boat food dry.
 
 ### 键 Title10
 
@@ -3746,8 +3737,7 @@ food and keep it dry.
 
 铃挂桥头，搬货的听见就知道往哪儿走。
 
-Hang the bell by the bridge to guide
-the deliveries.
+Ring for bridge deliveries.
 
 ### 键 Title11
 
@@ -3759,8 +3749,7 @@ the deliveries.
 
 邻摊来借火，记得留一盆炭。
 
-The neighbours need a light. Save
-them a pan of coals.
+Save coals for next door.
 
 ### 键 Title12
 
@@ -3772,8 +3761,7 @@ them a pan of coals.
 
 狐狸们订了一桌，锅边多留几个矮凳。
 
-The foxes booked a table. Leave a
-few low stools by the pot.
+Low stools for the foxes.
 
 ### 键 Title13
 
@@ -3785,8 +3773,7 @@ few low stools by the pot.
 
 水摊摆在渡口，夜船一靠岸就看得见。
 
-Put the water stall where the night
-boats can see it.
+Water by the landing.
 
 ### 键 Title14
 
@@ -3798,8 +3785,7 @@ boats can see it.
 
 篷布拉平，客人今晚就在月下坐。
 
-Stretch the canopy smooth. The
-guests are sitting under the moon.
+Seats under the canopy.
 
 ### 键 Title15
 
@@ -3811,8 +3797,7 @@ guests are sitting under the moon.
 
 纸客怕吵，灯别太亮，帘子放下来。
 
-The paper guests need quiet. Dim the
-lamp and lower the curtain.
+Dim lamps for paper guests.
 
 ### 键 Title16
 
@@ -3824,8 +3809,7 @@ lamp and lower the curtain.
 
 朋友们带着碗来了，再添几张凳子。
 
-Friends have brought their bowls.
-Set out a few more stools.
+Extra stools for friends.
 
 ### 键 Title17
 
@@ -3837,8 +3821,7 @@ Set out a few more stools.
 
 桥边今晚有人守夜，留灯，也留一锅热的。
 
-Someone's on watch by the bridge.
-Leave a lamp and a hot pot.
+Hot food for the night watch.
 
 ### 键 Title18
 
@@ -3850,8 +3833,7 @@ Leave a lamp and a hot pot.
 
 柜子里还有没见过的旧货，一件件摆出来。
 
-The cabinet holds unseen wares. Lay
-them out one at a time.
+Unpack the cabinet.
 
 ### 键 Title19
 
@@ -3863,8 +3845,7 @@ them out one at a time.
 
 末班船快到了，灯挂高些，别让人走错巷。
 
-The last boat's due. Raise the lamp
-so nobody takes the wrong lane.
+A high lamp for the last boat.
 
 ### 键 Title20
 
@@ -3876,8 +3857,7 @@ so nobody takes the wrong lane.
 
 雨声正好，帘下摆两把椅子。
 
-The rain sounds lovely. Put two
-chairs under the curtain.
+Two chairs out of the rain.
 
 ### 键 Title21
 
@@ -3889,8 +3869,7 @@ chairs under the curtain.
 
 鼓队沿街走，摊前别堆货挡路。
 
-The drummers are coming down the
-street. Keep goods out of their way.
+Clear the drummers' path.
 
 ### 键 Title22
 
@@ -3902,8 +3881,7 @@ street. Keep goods out of their way.
 
 两把旧伞撑开，给约好的人留座。
 
-Open the two old umbrellas and save
-the promised seats.
+Save two umbrella seats.
 
 ### 键 Title23
 
@@ -3915,8 +3893,7 @@ the promised seats.
 
 送灯的客人要过河，先把岸边照亮。
 
-The lantern-bearers need to cross.
-Light the riverbank first.
+Light the crossing.
 
 ### 键 Title24
 
@@ -3928,8 +3905,7 @@ Light the riverbank first.
 
 小路通着荒坟，符绳系好，给行人留缝。
 
-The path leads past old graves. Tie
-the charms and leave a gap to pass.
+Leave a gap in the ward rope.
 
 ### 键 Title25
 
@@ -3941,8 +3917,7 @@ the charms and leave a gap to pass.
 
 旧友们要来叙旧，大锅洗净，多备几个碗。
 
-Old friends are coming. Wash the big
-pot and bring more bowls.
+More bowls for old friends.
 
 ### 键 Title26
 
@@ -3954,8 +3929,7 @@ pot and bring more bowls.
 
 秋风起了，布压住，旧货按轻重排。
 
-The autumn wind's up. Weigh down the
-cloth and sort the wares.
+Weigh down the cloth.
 
 ### 键 Title27
 
@@ -3967,9 +3941,7 @@ cloth and sort the wares.
 
 五条巷今晚一起开摊，各摊听见铃就准备。
 
-All five lanes open tonight. Every
-stall gets ready when the bell
-rings.
+Five lanes open at the bell.
 
 ### 键 Title28
 
@@ -3981,5 +3953,4 @@ rings.
 
 摆在鬼门前，灯、汤和回去的路都要备好。
 
-By the ghost gate, have the lamps,
-soup and way home ready.
+Soup by the ghost gate.

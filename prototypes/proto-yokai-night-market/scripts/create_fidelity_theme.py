@@ -200,6 +200,7 @@ def make_theme():
         if runtime.exists():copy_if_changed(PROJECT/('Assets/Recovery/Media/night-'+name+'.xml'),runtime)
     manifest=read(PROJECT/'Assets/Editor/RecoverySource/manifest.json')
     palette=read(ROOT/'fidelity/data/presentation.json')['textColorOverrides']
+    styles=read(ROOT/'fidelity/data/presentation.json').get('textStyleOverrides',{})
     materials=read(ROOT/'fidelity/data/presentation.json')['materialColorOverrides']
     names=['铃羽','灯芽','纸鸢','符青与符白','铜铃兄弟','门石小队']
     # Six baked tutorial example titles are not dictionary keys or runtime card data.
@@ -219,6 +220,7 @@ def make_theme():
             o['assetPath']=target.relative_to(PROJECT).as_posix()
         if o['type']=='TextMesh':
             original=read(SOURCE/'local/typetrees'/o['container']/(str(o['pathID'])+'_TextMesh.json'))
+            o['tree']['m_CharacterSize']=styles.get(o['id'],{}).get('characterSize',original['m_CharacterSize'])
             # The production TextInfo constructor caches these values as lookup keys.
             # Translate dictionary values, never the serialized initial key.
             o['tree']['m_Text']=theme['staticTextOverrides'].get(o['id'],original['m_Text'])
@@ -251,7 +253,10 @@ def make_theme():
         elif name.startswith('Table_'):
             subject='a top-down dark indigo wooden night-market planning table with subtle carved timber and cloth texture, low contrast and low detail across all play areas; warm lantern suggestion only at the outer edge'
             content='Fully opaque full-bleed flat background; no cards, figures, objects, writing, labels or UI baked in. Preserve uncluttered play areas.';alpha=False;kind='table'
-        elif name.startswith('Title_') or name=='SubTitle':
+        elif name=='SubTitle':
+            subject='functional Continue.Background plate, not a game title; flat near-black indigo only'
+            content='Procedural UI export: preserve source alpha, tight mesh, pivot and 628 x 174 dimensions. Uniform RGB (0.02, 0.025, 0.04), no illustration, logo, text, decoration or generated grain. Continue, auto-pause and mediator labels remain native TextMesh.';alpha=True;kind='prompt_backplate'
+        elif name.startswith('Title_'):
             subject='a flat original lantern-and-moon emblem for the yokai night market, small charming market-roof silhouette in the center and sparse lanterns around it'
             content='Transparent landscape title emblem, centered balanced silhouette with broad negative space. No letters or writing; the exact title is native Unity text.';alpha=True;kind='title'
         elif name in ['Released','Done','Blocked','Cancelled']:

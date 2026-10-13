@@ -73,6 +73,19 @@ def verify():
         match=re.search(r'- _Color: \{r: ([^,]+), g: ([^,]+), b: ([^,]+), a: ([^}]+)\}',material)
         valid &= match is not None and all(abs(float(match.group(i+1))-color[c])<.000001 for i,c in enumerate('rgba'))
     check('Declared text and worker-label colors are synchronized in recovery input, scene, prefabs and materials',valid)
+    styles=presentation.get('textStyleOverrides',{});valid=set(styles)=={'mainData:1315'}
+    for key,o in objects.items():
+        if o['type']=='TextMesh':valid &= abs(o['tree']['m_CharacterSize']-styles.get(key,{}).get('characterSize',read(SOURCE/'local/typetrees'/o['container']/(str(o['pathID'])+'_TextMesh.json'))['m_CharacterSize']))<.000001
+    for texts in [[normalized(PROJECT/'Assets/Recovery/Scenes/NightMarket.unity')],[normalized(p) for p in (PROJECT/'Assets/Recovery/Prefabs').glob('*.prefab')]]:
+        sizes=[]
+        for text in texts:
+            chunks=re.split(r'(?m)^--- !u!\d+ &(\d+)\n',text);nodes=dict(zip(chunks[1::2],chunks[2::2]))
+            for body in nodes.values():
+                if not body.startswith('TextMesh:') or not re.search(r'(?m)^  m_Text: SubTitle$',body):continue
+                owner=re.search(r'm_GameObject: \{fileID: (\d+)\}',body)
+                if owner and re.search(r'(?m)^  m_Name: 13 Subtitle$',nodes.get(owner.group(1),'')):sizes.append(float(re.search(r'm_CharacterSize: ([^\n]+)',body).group(1)))
+        valid &= len(sizes)==1 and abs(sizes[0]-.85)<.000001
+    check('Only the declared project subtitle uses characterSize 0.85; scene and prefab match, all other source sizes remain original',valid)
     font=next(o for o in objects.values() if o['type']=='Font');fontfile=PROJECT/font['assetPath'];f=TTFont(fontfile);chars=set().union(*(set(t.cmap) for t in f['cmap'].tables));wanted={ord(c) for v in theme['strings'].values() for text in v.values() for c in text if not c.isspace()};wanted.update(ord(c) for t in theme['staticTextOverrides'].values() for c in t);wanted.update(ord(c) for v in theme['optionDisplayAlias'].values() for t in v.values() for c in t);missing=sorted(wanted-chars)
     check('Chinese font covers every replacement text character',not missing,missingCodePoints=missing,fontSHA256=sha(fontfile))
     check('All thirteen source font references bind to the same licensed CJK font bytes',sum(o['type']=='Font' for o in objects.values())==13 and all(sha(PROJECT/o['assetPath'])==sha(fontfile) for o in objects.values() if o['type']=='Font'))
@@ -87,7 +100,10 @@ def verify():
             ok=validSize and sha(final)==sha(working) and sha(raw)==record.get('rawSHA256') and sha(ROOT/j['prompt'])==record.get('promptSHA256') and sha(final)!=sha(original)
             item.update(rawSHA256=sha(raw),runtimeSHA256=sha(final),originalReferencePNG_SHA256=sha(original),passed=ok)
         images.append(item)
-    check('All 82 independently generated images have source dimensions, provenance and runtime copies',len(images)==82 and all(i['passed'] for i in images),generated=len(registrations),exported=sum(i['passed'] for i in images))
+    check('All 82 replacement textures have source dimensions, provenance and runtime copies (81 generated art, one procedural prompt plate)',len(images)==82 and all(i['passed'] for i in images),historicalGeneratedSources=len(registrations),exported=sum(i['passed'] for i in images))
+    prompt=next(j for j in jobs if j['name']=='SubTitle');original=SOURCE/objects[prompt['id']]['exportFiles'][0]['path']
+    with Image.open(ROOT/prompt['final']) as plate, Image.open(original) as source:
+        check('Continue background is text-free uniform dark RGB with exact original alpha and dimensions',prompt['kind']=='prompt_backplate' and plate.size==source.size==(628,174) and plate.getchannel('A').tobytes()==source.getchannel('A').tobytes() and all(a==b and b<=11 for a,b in plate.getextrema()[:3]),role='Continue.Background, both aspect ratio trees')
     ownReferences=[p for r in ledger['images'] for p in r['references']]
     check('No original art was supplied to image generation',all(p.startswith('fidelity/art/revisions/') and (ROOT/p).exists() for p in ownReferences),ownEditReferences=ownReferences)
     structure=read(ROOT/'local/structure-audit.json');prefabs=read(ROOT/'local/prefab-report.json')

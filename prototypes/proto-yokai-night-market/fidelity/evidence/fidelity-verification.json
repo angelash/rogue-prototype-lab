@@ -61,6 +61,10 @@
       "passed": true
     },
     {
+      "name": "Only the declared project subtitle uses characterSize 0.85; scene and prefab match, all other source sizes remain original",
+      "passed": true
+    },
+    {
       "name": "Chinese font covers every replacement text character",
       "passed": true,
       "missingCodePoints": [],
@@ -71,10 +75,15 @@
       "passed": true
     },
     {
-      "name": "All 82 independently generated images have source dimensions, provenance and runtime copies",
+      "name": "All 82 replacement textures have source dimensions, provenance and runtime copies (81 generated art, one procedural prompt plate)",
       "passed": true,
-      "generated": 82,
+      "historicalGeneratedSources": 82,
       "exported": 82
+    },
+    {
+      "name": "Continue background is text-free uniform dark RGB with exact original alpha and dimensions",
+      "passed": true,
+      "role": "Continue.Background, both aspect ratio trees"
     },
     {
       "name": "No original art was supplied to image generation",
@@ -301,12 +310,12 @@
   "originalTools": [
     {
       "file": "scripts/unity/NightAssetExport.cs",
-      "sha256LF": "97a1d6cafaccdff489a3639c1b73d77d10f43bf2f8596fe95c220633bb649b2a",
+      "sha256LF": "f1a24abb05007f511d8f8f28ea092bf290ba6eb9e444d45ed820038ee3acecdb",
       "sameRuntimeSource": true
     },
     {
       "file": "scripts/unity/NightReadability.cs",
-      "sha256LF": "9f9d270c6dc87e196cde90cb7673c6456fc82eac8a64c34217cbd78728b5fc30",
+      "sha256LF": "16f65f1dab8acdb44853d2c77d5d948b9b85c31ec92b9d9b7552b6eb501103cd",
       "sameRuntimeSource": true
     },
     {
@@ -317,6 +326,11 @@
     {
       "file": "scripts/runtime/NightFlowProbe.cs",
       "sha256LF": "a75d73800b7b330af7121f8731c7f0e253b9703c31f5eb5feaae93ead1b3867b",
+      "sameRuntimeSource": true
+    },
+    {
+      "file": "scripts/runtime/NightPromptProbe.cs",
+      "sha256LF": "75724e5b1a30c8bd35baedc94b8f3ee7b80c663318be24c730c70b97c2e6e975",
       "sameRuntimeSource": true
     },
     {
@@ -1652,14 +1666,14 @@
         628,
         174
       ],
-      "kind": "title",
+      "kind": "prompt_backplate",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "4de5d77e3ec6d38619483fe94082d8af8fea2d295cf3026d1ea63fff26c02192",
-      "runtimeSHA256": "2c7e115fba0045dea83f431396d95f09eb4e166b12b09895637841fe43690b5a",
+      "runtimeSHA256": "54f735a6576e7d64d8bc038e1cf73145a76a924e1a4dd649050e5b803f4516aa",
       "originalReferencePNG_SHA256": "0b0f3190922083bdbad4233cc49d02b45fef8de76508238a8ea0caeab6bbdedf"
     },
     {

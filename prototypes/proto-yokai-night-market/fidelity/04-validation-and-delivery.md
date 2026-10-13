@@ -1,4 +1,4 @@
-# 验收和本机交付 v2.4
+# 验收和本机交付 v2.5
 
 2026-10-13。当前交付是 Unity 可运行恢复候选；完整原生交互、原速体验、听感和跨引擎逐像素等价仍未完成。状态、包大小、全 SHA256 和各项实际报告以 [delivery.json](evidence/delivery.json) 为准。原 v2.2 包与验收结果保留，新增内容和适用版本分别登记。
 
@@ -6,7 +6,7 @@
 
 本机完整目录：`../local/Builds/Release/`，运行 `YokaiNightMarket.exe`，移动时须保留同目录 Data、MonoBleedingEdge、UnityPlayer.dll 与字体声明。该目录是 Windows x64 Mono 非开发包，构建报告为 0 错误、7 警告。警告包括原粒子过时属性和原业务自赋值；保留原规则行为，没有为清警告改写业务。
 
-独立 Unity 工程：`../local/UnityProject/`；Unity **2022.3.62f3c1**；主场景 `Assets/Recovery/Scenes/NightMarket.unity`；18 个 prefab 在 `Assets/Recovery/Prefabs/`；完整恢复业务源码在 `Assets/Recovery/Scripts/`。QA 驱动在 `Assets/Recovery/Validation/`，仅额外编译符号 `NIGHT_MARKET_VALIDATION` 下存在。正式 Assembly-CSharp 元数据确认没有四个 QA 驱动类型。
+独立 Unity 工程：`../local/UnityProject/`；Unity **2022.3.62f3c1**；主场景 `Assets/Recovery/Scenes/NightMarket.unity`；18 个 prefab 在 `Assets/Recovery/Prefabs/`；完整恢复业务源码在 `Assets/Recovery/Scripts/`。QA 驱动在 `Assets/Recovery/Validation/`，仅额外编译符号 `NIGHT_MARKET_VALIDATION` 下存在。正式 Assembly-CSharp 元数据确认没有五个 QA 驱动类型。
 
 正式产品身份为 RoguePrototypeLab / 妖怪夜市开张，设置与成绩独立；验证产品身份为妖怪夜市开张 QA Visual。QA 会关闭逐牌停顿，教程调查显式启用教学，整局测试额外设置快进及 timeScale=3，全部运行使用 QA 驱动内的 60 FPS 限制。正式包保持源运行设置。
 
@@ -14,7 +14,7 @@
 
 ## 已覆盖的证据
 
-- [静态校验](evidence/fidelity-verification.json)：当前 22 项，覆盖 30 业务脚本声明差异、95 卡原参数、28 有效委托目标、420 双语键、五份生产 XML 与实际 Resources 副本、字体、82 图规格/谱系/工作副本、结构、prefab、质量和产品身份；v2.4 增加台词/委托制作源与声明颜色的一致检查。
+- [静态校验](evidence/fidelity-verification.json)：当前 24 项，覆盖 30 业务脚本声明差异、95 卡原参数、28 有效委托目标、420 双语键、五份生产 XML 与实际 Resources 副本、字体、82 图规格/谱系/工作副本、结构、prefab、质量和产品身份；v2.4 增加台词/委托制作源与声明颜色的一致检查；v2.5 增加无字提示底板与声明副说明字号检查。
 - [规则](evidence/rules.json)：40 个原生产方法用例，覆盖容量、同 ID 冲突、岗位、干预、修补、调停、巡街、计分和成绩边界。它们使用隔离对象并还原成绩配置，不能解释为 95 张牌均已真人使用。
 - [16:9 启动回合](evidence/smoke16x9.json)与 [4:3 启动回合](evidence/smoke4x3.json)：真实 Player 自动启动，95 卡与 28 委托加载，双方各五张起手牌，经过玩家与 AI 回合状态，无脚本错误。实际分辨率分别 1920×1080、1440×1080。
 - [中文 16:9 渲染](evidence/visual16x9.json)与 [中文 4:3 渲染](evidence/visual4x3.json)，以及[英文 16:9](evidence/visualEnglish16x9.json)、[英文 4:3](evidence/visualEnglish4x3.json)：四组各 128 张实际相机图，共 512 张，包含标题、两页教程、两语言选项、95 张展开卡与 28 张委托。逐张核对卡牌/委托语言、非空画面和牌框文字宽度，并检查教程文字屏幕边界；人工查看功能类别、长说明、教程、选项与委托样本。相机摆放调查不等于鼠标选牌实测，也不代表全部图逐像素对比。
@@ -69,7 +69,7 @@
 
 v2.3 的 961 文件清单保留在该版源包旁的 `.files.json`；delivery.json 与 `../local/source-inputs.json` 指向当前版本。v2.3 原安装 25 文件 SHA256 未变，Release 元数据为 47 类型、667 方法、957 字段、0 IL 解码失败；与 v2.2 比较时排除地址后的类型/成员签名、IL 长度、指令计数及调用引用一致，未以此声称原始 IL 字节完全相同。
 
-## v2.4 当前文案与视觉交付
+## v2.4 历史文案与视觉交付
 
 实际调整包括 95 条双语台词、28 份双语委托说明、岗位/按钮/教程/失败提示与五个牌名，共 255 个键、501 个语言值。文案制作源为 copy.json；game-copy-polish skill 从只读 open-share 提取 UX 写作与反例规范，并结合 humanizer，来源提交和文件 hash 可追溯。示例：原“留一点空，才装得下意外”改为“筐别装太满，提手都快断了”。
 
@@ -84,3 +84,21 @@ v2.3 的 961 文件清单保留在该版源包旁的 `.files.json`；delivery.js
 运行包 SHA256：`72bd145ef175cdd1f564b79843992cb4979a1bdabef0c98b51424ab43d1eba24`。
 
 完整工程、制作源与测试继续纳入完整本地分支，并独立制作 v2.4 Git bundle；公开原创资料备份 main。当前文件/运行摘要与各修订范围以 delivery.json 为准，旧 zip、截图和日志不覆盖。完整原生、原速、听感及跨引擎等价仍是未完成范围。
+
+## v2.5 当前提示与标题交付
+
+按用户截图复查原作场景引用和真实原作窗口，确认 SubTitle 是操作提示背景，原画面为绿字 Continue 与白字 Disable Auto-Pause。先前把夜市 logo 烘焙在这张底板上是用途识别错误。现改为原 alpha 的深色无字底板，628×174 尺寸与 Sprite 几何不变；提示改为“点击继续”“关闭逐步暂停”“点击调停”。另外缩短 28 条英文委托副说明，并声明仅 mainData:1315 的 TextMesh characterSize=0.85；节点变换、引用、点击范围与 30 份业务源码本轮没有改动。与 v2.4 相比共改 31 个文本键、33 个语言值。81 张其它纹理字节不变，82 份历史生成源保留。
+
+v2.5-r9 中文/英文 × 16:9/4:3 四组全部通过，各 33 张真实 QA Player 渲染，共 132 张。每组包含生产桌面、教程继续/逐牌停顿/调停/隐藏四种状态与全部 28 张委托；完成 12 次提示可见文字边界检查、28 次实际字形间距检查，无脚本错误。委托按原折叠标题下移 0.1 的更紧间距检查；字形分开渲染到黑底后比较可见像素，避开字体空白边界。夹具冻结 Loader 与 ProjectCard 的展示推进，仅用于可重复画面检查，正式包无这些驱动，不解释为原生调停反制验证。人工复核中英文两画幅的提示、调停和委托样本。原 512 张全卡/教程画面属于 v2.4 历史，并未改记为 v2.5 新全量验收。
+
+失败与修订原样保留：r1/r2 发现调停/英文继续超宽并缩短；r3 四状态通过，但人工检查发现英文委托换行与标题重叠，故增加全委托间距覆盖；r4 夹具被原 ProjectCard 动画移动导致空图，r5 的字体包围盒含空白，r6 的旧 shader 透明通道含背景，均不作为通过证据。r7 改查黑底亮字像素后确认约 1 像素贴边，r8 字号差异保护器误读序列化嵌套并停止构建；r9 校正保护器并应用声明的 0.85 字号，24 项静态校验及四组新渲染全部通过。旧日志/截图和两个中间 zip 保留。
+
+原生 r4 修订曾实际完成提示可见、鼠标点击隐藏与下一张牌提示恢复三项，截图在 `../local/QAResults/native-prompts-v2.5-r4/`，记录 [prompt-native.json](evidence/prompt-native.json) 保留该包的确切 hash。它早于最后的委托字号修订。r9 最终正式包已启动，但 Windows 桌面随后锁定，电脑操作规范要求停止锁屏下的输入，已请求用户手动解锁。最后一次原生点击复验暂未完成，不把 r4 记录改成最终包实测。
+
+当前正式构建 610,454,383 字节，0 错误、7 警告；元数据 47 类型、667 方法、957 字段、0 IL 解码失败，不含五个 QA 类型。源包 `../local/Backups/YokaiNightMarket-UnitySource-v2.5-layout-final.zip` 含 965 文件、354,442,325 字节；运行包 `../local/Backups/YokaiNightMarket-Windows-v2.5-layout-final.zip` 含 129 文件、375,156,865 字节，全部逐文件读回且与工作副本一致。
+
+源包 SHA256：`a7ecb543fab323ccef49759b1c89b9416b023992843b0eb27076902a1d362fe5`。
+
+运行包 SHA256：`0cc968759710a81e666129519113cddff81a979bcb5ebf161f7f68345b895a56`。
+
+完整工程、资产与测试用例纳入本地完整分支，公开原创工具/数据/提示词与文档继续备份 main；本轮完整历史 bundle 与恢复校验入口见 VERSION_CONTROL.md。本轮只修提示与文字展示，完整原生、原速、听感和跨引擎等价缺口仍保留。

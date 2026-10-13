@@ -134,6 +134,18 @@
     "REASON_9": [
       "没有对应闹场，或已错过调停时机",
       "No matching trouble, or the mediator window has closed"
+    ],
+    "Continue": [
+      "点击继续",
+      "Continue"
+    ],
+    "DisableAutoPause": [
+      "关闭逐步暂停",
+      "Disable step pauses"
+    ],
+    "ClickToUse": [
+      "点击调停",
+      "Click to mediate"
     ]
   },
   "names": {
@@ -528,115 +540,115 @@
   "projectSubtitles": [
     [
       "灯先挂在巷口，晚来的客人才找得着。",
-      "Hang the first lamp at the entrance\nso late guests can find you."
+      "Light the entrance."
     ],
     [
       "两位夜班客人说好了，收工来喝热汤。",
-      "Two night workers promised to stop\nby for hot soup."
+      "Soup for the night shift."
     ],
     [
       "桥边风大，给等月亮的人留个背风位。",
-      "Save a sheltered seat for the\nmoon-watchers by the bridge."
+      "Shelter the moon-watchers."
     ],
     [
       "旧货擦干净再摆，轻东西别让风卷跑。",
-      "Wipe the old wares clean and weigh\ndown anything light."
+      "Wipe down the old wares."
     ],
     [
       "河雾又漫上来了，补好棚再搬货。",
-      "The river mist is back. Patch the\nawning before moving the goods."
+      "Patch the misty awning."
     ],
     [
       "衣服送来了，灯挂近一点才看得清针脚。",
-      "The clothes are here. Bring the lamp\ncloser to the stitching."
+      "Light the stitching."
     ],
     [
       "小戏班今晚来，把台前那条路空出来。",
-      "The little troupe is coming. Keep\nthe path in front clear."
+      "Clear a path for the troupe."
     ],
     [
       "伞骨修好，最后一位客人还要走远路。",
-      "Fix the umbrella ribs. The last\ncustomer has a long walk home."
+      "Mend the last umbrella."
     ],
     [
       "过了子时还有船，干粮包好，别沾河水。",
-      "Boats run after midnight. Wrap the\nfood and keep it dry."
+      "Keep the boat food dry."
     ],
     [
       "铃挂桥头，搬货的听见就知道往哪儿走。",
-      "Hang the bell by the bridge to guide\nthe deliveries."
+      "Ring for bridge deliveries."
     ],
     [
       "邻摊来借火，记得留一盆炭。",
-      "The neighbours need a light. Save\nthem a pan of coals."
+      "Save coals for next door."
     ],
     [
       "狐狸们订了一桌，锅边多留几个矮凳。",
-      "The foxes booked a table. Leave a\nfew low stools by the pot."
+      "Low stools for the foxes."
     ],
     [
       "水摊摆在渡口，夜船一靠岸就看得见。",
-      "Put the water stall where the night\nboats can see it."
+      "Water by the landing."
     ],
     [
       "篷布拉平，客人今晚就在月下坐。",
-      "Stretch the canopy smooth. The\nguests are sitting under the moon."
+      "Seats under the canopy."
     ],
     [
       "纸客怕吵，灯别太亮，帘子放下来。",
-      "The paper guests need quiet. Dim the\nlamp and lower the curtain."
+      "Dim lamps for paper guests."
     ],
     [
       "朋友们带着碗来了，再添几张凳子。",
-      "Friends have brought their bowls.\nSet out a few more stools."
+      "Extra stools for friends."
     ],
     [
       "桥边今晚有人守夜，留灯，也留一锅热的。",
-      "Someone's on watch by the bridge.\nLeave a lamp and a hot pot."
+      "Hot food for the night watch."
     ],
     [
       "柜子里还有没见过的旧货，一件件摆出来。",
-      "The cabinet holds unseen wares. Lay\nthem out one at a time."
+      "Unpack the cabinet."
     ],
     [
       "末班船快到了，灯挂高些，别让人走错巷。",
-      "The last boat's due. Raise the lamp\nso nobody takes the wrong lane."
+      "A high lamp for the last boat."
     ],
     [
       "雨声正好，帘下摆两把椅子。",
-      "The rain sounds lovely. Put two\nchairs under the curtain."
+      "Two chairs out of the rain."
     ],
     [
       "鼓队沿街走，摊前别堆货挡路。",
-      "The drummers are coming down the\nstreet. Keep goods out of their way."
+      "Clear the drummers' path."
     ],
     [
       "两把旧伞撑开，给约好的人留座。",
-      "Open the two old umbrellas and save\nthe promised seats."
+      "Save two umbrella seats."
     ],
     [
       "送灯的客人要过河，先把岸边照亮。",
-      "The lantern-bearers need to cross.\nLight the riverbank first."
+      "Light the crossing."
     ],
     [
       "小路通着荒坟，符绳系好，给行人留缝。",
-      "The path leads past old graves. Tie\nthe charms and leave a gap to pass."
+      "Leave a gap in the ward rope."
     ],
     [
       "旧友们要来叙旧，大锅洗净，多备几个碗。",
-      "Old friends are coming. Wash the big\npot and bring more bowls."
+      "More bowls for old friends."
     ],
     [
       "秋风起了，布压住，旧货按轻重排。",
-      "The autumn wind's up. Weigh down the\ncloth and sort the wares."
+      "Weigh down the cloth."
     ],
     [
       "五条巷今晚一起开摊，各摊听见铃就准备。",
-      "All five lanes open tonight. Every\nstall gets ready when the bell\nrings."
+      "Five lanes open at the bell."
     ],
     [
       "摆在鬼门前，灯、汤和回去的路都要备好。",
-      "By the ghost gate, have the lamps,\nsoup and way home ready."
+      "Soup by the ghost gate."
     ]
   ]
 }

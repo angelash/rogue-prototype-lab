@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "revision": "v2.4-polished",
-  "date": "2026-10-13T02:54:36.690957+00:00",
+  "revision": "v2.5-layout-final",
+  "date": "2026-10-13T04:20:15.054754+00:00",
   "status": "local playable restoration candidate; native and pixel-equivalence acceptance incomplete",
   "unity": "2022.3.62f3c1",
   "platform": "Windows x64 Mono",
@@ -13,13 +13,13 @@
     "development": false,
     "errors": 0,
     "warnings": 7,
-    "bytes": 610455415,
-    "seconds": 6.916542799999999
+    "bytes": 610454383,
+    "seconds": 8.3923683
   },
-  "sourceInputFiles": 963,
-  "sourceInputSHA256": "d6a2aefeb3505ee96353464c0a7ec6fcdcc524cfdb72c05fbfcd9ef71609a871",
+  "sourceInputFiles": 965,
+  "sourceInputSHA256": "86296368522948b278b7ea941fd4eebcba79234231d6e40c861f8a36be52184a",
   "sourceInputManifest": "local/source-inputs.json",
-  "releaseAssemblySHA256": "b20389984bb62ef6202061b5c2dd51562d4353eeee5d729cfaa8ffe1e53e3f45",
+  "releaseAssemblySHA256": "b8dd66e40ce5f6b970397922602416c63f601873b5b19ced3e30586a8b07bcaa",
   "releaseQAClasses": [],
   "originalInstallFilesVerified": 25,
   "originalInstallUnchanged": true,
@@ -118,7 +118,10 @@
   "images": {
     "generated": 82,
     "imported": 82,
-    "referenceArtNeverSuppliedToImagegen": true
+    "referenceArtNeverSuppliedToImagegen": true,
+    "runtimeGeneratedArt": 81,
+    "proceduralPromptPlates": 1,
+    "historicalGeneratedSources": 82
   },
   "qa": {
     "rules": {
@@ -1689,29 +1692,225 @@
       },
       "localPath": "local/QAResults/visual-complete-4x3-v2.4-r7-en/report.json",
       "sha256": "8bebe03075c5e0c7a045d802c03cb0481986cd832f9666ad7c83cd729e214b94"
+    },
+    "prompts16x9Chinese": {
+      "report": {
+        "passed": true,
+        "scope": "Production table, Continue tutorial/auto-pause/decision/hidden fixtures and 28 isolated project headers with the collapsed title gap, QA-only frozen Loader at 60 FPS; not native input or mediator acceptance",
+        "width": 1920,
+        "height": 1080,
+        "language": 0,
+        "boundsChecks": 12,
+        "projectHeaderChecks": 28,
+        "captures": [
+          "01-table.png",
+          "02-tutorial-continue.png",
+          "03-card-pause.png",
+          "04-mediator.png",
+          "05-hidden.png",
+          "project-header-001.png",
+          "project-header-002.png",
+          "project-header-003.png",
+          "project-header-004.png",
+          "project-header-005.png",
+          "project-header-006.png",
+          "project-header-007.png",
+          "project-header-008.png",
+          "project-header-009.png",
+          "project-header-010.png",
+          "project-header-011.png",
+          "project-header-012.png",
+          "project-header-013.png",
+          "project-header-014.png",
+          "project-header-015.png",
+          "project-header-016.png",
+          "project-header-017.png",
+          "project-header-018.png",
+          "project-header-019.png",
+          "project-header-020.png",
+          "project-header-021.png",
+          "project-header-022.png",
+          "project-header-023.png",
+          "project-header-024.png",
+          "project-header-025.png",
+          "project-header-026.png",
+          "project-header-027.png",
+          "project-header-028.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/prompts-16x9-v2.5-r9/report.json",
+      "sha256": "e064d7f0766ba7eca8619ab540c9062b4068ea39834a79f8b766965dace41e53"
+    },
+    "prompts16x9English": {
+      "report": {
+        "passed": true,
+        "scope": "Production table, Continue tutorial/auto-pause/decision/hidden fixtures and 28 isolated project headers with the collapsed title gap, QA-only frozen Loader at 60 FPS; not native input or mediator acceptance",
+        "width": 1920,
+        "height": 1080,
+        "language": 1,
+        "boundsChecks": 12,
+        "projectHeaderChecks": 28,
+        "captures": [
+          "01-table.png",
+          "02-tutorial-continue.png",
+          "03-card-pause.png",
+          "04-mediator.png",
+          "05-hidden.png",
+          "project-header-001.png",
+          "project-header-002.png",
+          "project-header-003.png",
+          "project-header-004.png",
+          "project-header-005.png",
+          "project-header-006.png",
+          "project-header-007.png",
+          "project-header-008.png",
+          "project-header-009.png",
+          "project-header-010.png",
+          "project-header-011.png",
+          "project-header-012.png",
+          "project-header-013.png",
+          "project-header-014.png",
+          "project-header-015.png",
+          "project-header-016.png",
+          "project-header-017.png",
+          "project-header-018.png",
+          "project-header-019.png",
+          "project-header-020.png",
+          "project-header-021.png",
+          "project-header-022.png",
+          "project-header-023.png",
+          "project-header-024.png",
+          "project-header-025.png",
+          "project-header-026.png",
+          "project-header-027.png",
+          "project-header-028.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/prompts-16x9-v2.5-r9-en/report.json",
+      "sha256": "8425bfee10007136f0373f3a7c0cc7f76928f01e3b40e195a411075c56ac5a5e"
+    },
+    "prompts4x3Chinese": {
+      "report": {
+        "passed": true,
+        "scope": "Production table, Continue tutorial/auto-pause/decision/hidden fixtures and 28 isolated project headers with the collapsed title gap, QA-only frozen Loader at 60 FPS; not native input or mediator acceptance",
+        "width": 1440,
+        "height": 1080,
+        "language": 0,
+        "boundsChecks": 12,
+        "projectHeaderChecks": 28,
+        "captures": [
+          "01-table.png",
+          "02-tutorial-continue.png",
+          "03-card-pause.png",
+          "04-mediator.png",
+          "05-hidden.png",
+          "project-header-001.png",
+          "project-header-002.png",
+          "project-header-003.png",
+          "project-header-004.png",
+          "project-header-005.png",
+          "project-header-006.png",
+          "project-header-007.png",
+          "project-header-008.png",
+          "project-header-009.png",
+          "project-header-010.png",
+          "project-header-011.png",
+          "project-header-012.png",
+          "project-header-013.png",
+          "project-header-014.png",
+          "project-header-015.png",
+          "project-header-016.png",
+          "project-header-017.png",
+          "project-header-018.png",
+          "project-header-019.png",
+          "project-header-020.png",
+          "project-header-021.png",
+          "project-header-022.png",
+          "project-header-023.png",
+          "project-header-024.png",
+          "project-header-025.png",
+          "project-header-026.png",
+          "project-header-027.png",
+          "project-header-028.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/prompts-4x3-v2.5-r9/report.json",
+      "sha256": "8ce6a71db032444352471dedc98d10e71ebaa55da88143f02e2b725a0f6e9966"
+    },
+    "prompts4x3English": {
+      "report": {
+        "passed": true,
+        "scope": "Production table, Continue tutorial/auto-pause/decision/hidden fixtures and 28 isolated project headers with the collapsed title gap, QA-only frozen Loader at 60 FPS; not native input or mediator acceptance",
+        "width": 1440,
+        "height": 1080,
+        "language": 1,
+        "boundsChecks": 12,
+        "projectHeaderChecks": 28,
+        "captures": [
+          "01-table.png",
+          "02-tutorial-continue.png",
+          "03-card-pause.png",
+          "04-mediator.png",
+          "05-hidden.png",
+          "project-header-001.png",
+          "project-header-002.png",
+          "project-header-003.png",
+          "project-header-004.png",
+          "project-header-005.png",
+          "project-header-006.png",
+          "project-header-007.png",
+          "project-header-008.png",
+          "project-header-009.png",
+          "project-header-010.png",
+          "project-header-011.png",
+          "project-header-012.png",
+          "project-header-013.png",
+          "project-header-014.png",
+          "project-header-015.png",
+          "project-header-016.png",
+          "project-header-017.png",
+          "project-header-018.png",
+          "project-header-019.png",
+          "project-header-020.png",
+          "project-header-021.png",
+          "project-header-022.png",
+          "project-header-023.png",
+          "project-header-024.png",
+          "project-header-025.png",
+          "project-header-026.png",
+          "project-header-027.png",
+          "project-header-028.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/prompts-4x3-v2.5-r9-en/report.json",
+      "sha256": "3a17dc0b1f5572e4bdf7b4ea50675c6298494940ce02286e8aed4a51725062e1"
     }
   },
   "backups": {
     "version": 2,
-    "revision": "v2.4-polished",
+    "revision": "v2.5-layout-final",
     "scope": "Private local restoration backups; not redistribution packages",
     "source": {
-      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.4-polished.zip",
-      "bytes": 354586282,
-      "sha256": "1d16fd0b8a656ffb922c4af87302f4bf50454e4bb59da2d4ffc28521716fff96",
-      "files": 963,
-      "uncompressedBytes": 418520903,
+      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.5-layout-final.zip",
+      "bytes": 354442325,
+      "sha256": "a7ecb543fab323ccef49759b1c89b9416b023992843b0eb27076902a1d362fe5",
+      "files": 965,
+      "uncompressedBytes": 418384894,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.4-polished.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.5-layout-final.files.json"
     },
     "player": {
-      "path": "local/Backups/YokaiNightMarket-Windows-v2.4-polished.zip",
-      "bytes": 375317904,
-      "sha256": "72bd145ef175cdd1f564b79843992cb4979a1bdabef0c98b51424ab43d1eba24",
+      "path": "local/Backups/YokaiNightMarket-Windows-v2.5-layout-final.zip",
+      "bytes": 375156865,
+      "sha256": "0cc968759710a81e666129519113cddff81a979bcb5ebf161f7f68345b895a56",
       "files": 129,
-      "uncompressedBytes": 610456326,
+      "uncompressedBytes": 610455294,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.4-polished.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.5-layout-final.files.json"
     }
   },
   "native": {
@@ -2007,12 +2206,64 @@
       "visualEnglish16x9",
       "visualEnglish4x3"
     ],
-    "copyPolishReason": "v2.4 changes bilingual copy, two generated frames, eight declared TextMesh colors and eight label material colors. New visual reports verify each template language and text width in the current rendered packaging. Earlier rules, smoke, flow, native and full-match reports retain their original revision scope. Production business code and numeric rules remain unchanged."
+    "copyPolishReason": "v2.4 changes bilingual copy, two generated frames, eight declared TextMesh colors and eight label material colors. New visual reports verify each template language and text width in the current rendered packaging. Earlier rules, smoke, flow, native and full-match reports retain their original revision scope. Production business code and numeric rules remain unchanged.",
+    "promptRepair": {
+      "reports": [
+        "prompts16x9Chinese",
+        "prompts16x9English",
+        "prompts4x3Chinese",
+        "prompts4x3English"
+      ],
+      "reason": "v2.5 corrects SubTitle from a baked logo to a text-free Continue background, clarifies three UI labels, shortens 28 English project subtitles and declares one project subtitle TextMesh characterSize=0.85 for the collapsed header gap. Node transforms, references, hit areas and business logic stay original. New fixtures cover the production table, four prompt states and all project header gaps in both aspect ratios and languages. The 512 card/tutorial captures are v2.4 history; the new prompt fixture is not native mediator evidence."
+    }
   },
   "versionControl": {
     "fullSourceBranch": "codex/yokai-night-market-source",
     "assetCommit": "e0b1c7ccfbe862d743191f8efc33d63a5e3acd1a",
     "scope": "Unity Assets/.meta, Packages, ProjectSettings, all art sources/exports and tests/reference fixtures; caches and outputs excluded",
     "remote": "full source history stays local; public origin retains original material only"
+  },
+  "promptNative": {
+    "report": {
+      "version": 1,
+      "date": "2026-10-13T03:58:44.862051+00:00",
+      "scope": "Actual Release at 1280x720, Chinese continuation display and native mouse click only; not complete native acceptance",
+      "completeAcceptance": false,
+      "releasePlayerSHA256": "059c313352892718258a120b87bdc6fc7c23ce67181084abe14f86f204f5dddb",
+      "releaseAssemblySHA256": "b82b15b1a59937046708d02302d3ff81bcab7d4b7b53ec9473baef36395fbb94",
+      "cases": [
+        {
+          "id": "prompt-visible",
+          "passed": true,
+          "observation": "Original dark plate with a green 点击继续 label and separate white 关闭逐步暂停; no gold logo or text overlap"
+        },
+        {
+          "id": "native-click",
+          "passed": true,
+          "observation": "Clicked visible prompt at window x=1181 y=712; 随手好活 collapsed and the prompt hid during transition"
+        },
+        {
+          "id": "next-card",
+          "passed": true,
+          "observation": "Original opening flow displayed 筐底漏风 as the next expanded card; continuation prompt returned"
+        }
+      ],
+      "captures": [
+        {
+          "path": "local/QAResults/native-prompts-v2.5-r4/01-prompt.png",
+          "sha256": "512e31a35caf054fd1a43fdd96be904780a555c1834ec94076df1730720dbb74"
+        },
+        {
+          "path": "local/QAResults/native-prompts-v2.5-r4/02-click.png",
+          "sha256": "2090aa9cc5ce353bfad9b3af552c4ffdb826163a4177af1d574195dc5b9a3343"
+        },
+        {
+          "path": "local/QAResults/native-prompts-v2.5-r4/03-next-card.png",
+          "sha256": "73c4973d309decd2ed84ddf9cdf9930f237b4183ecb1f5aea2c377a0d936086c"
+        }
+      ]
+    },
+    "testedCurrentBuild": false,
+    "status": "v2.5-r4 native prompt history; final v2.5-r9 click recheck pending because Windows desktop is locked"
   }
 }

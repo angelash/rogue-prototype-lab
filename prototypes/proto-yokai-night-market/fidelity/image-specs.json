@@ -1089,9 +1089,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/SubTitle.raw.png",
       "prompt": "fidelity/art/prompts/SubTitle.txt",
-      "kind": "title",
+      "kind": "prompt_backplate",
       "rawSHA256": "4de5d77e3ec6d38619483fe94082d8af8fea2d295cf3026d1ea63fff26c02192",
-      "runtimeSHA256": "2c7e115fba0045dea83f431396d95f09eb4e166b12b09895637841fe43690b5a"
+      "runtimeSHA256": "54f735a6576e7d64d8bc038e1cf73145a76a924e1a4dd649050e5b803f4516aa"
     },
     {
       "id": "sharedassets0.assets:96",

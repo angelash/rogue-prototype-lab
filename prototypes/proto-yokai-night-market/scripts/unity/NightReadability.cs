@@ -18,23 +18,34 @@ public static class NightReadability
         {
             var spec=specs.FirstOrDefault(s=>text.gameObject.name==(string)s["object"] && text.text==(string)s["key"]);
             if(spec==null)continue;
-            var before=EditorJsonUtility.ToJson(text);var previous=text.color;
+            var before=EditorJsonUtility.ToJson(text);var previous=text.color;float previousSize=text.characterSize;
+            var style=((JObject)Spec["textStyleOverrides"])?.Properties().Select(p=>p.Value).FirstOrDefault(s=>text.gameObject.name==(string)s["object"] && text.text==(string)s["key"]);
+            if(style!=null)text.characterSize=(float)style["characterSize"];
             text.color=new Color((float)spec["r"],(float)spec["g"],(float)spec["b"],(float)spec["a"]);
-            var after=EditorJsonUtility.ToJson(text);var revised=text.color;
-            text.color=previous;
+            var after=EditorJsonUtility.ToJson(text);var revised=text.color;float revisedSize=text.characterSize;
+            text.color=previous;text.characterSize=previousSize;
             if(EditorJsonUtility.ToJson(text)!=before)throw new Exception("Unexpected TextMesh field mutation");
-            text.color=revised;
+            text.color=revised;text.characterSize=revisedSize;
             var a=JObject.Parse(before);var b=JObject.Parse(after);
             foreach(var item in a.DescendantsAndSelf().OfType<JObject>()){item.Remove("m_Color");item.Remove("m_Color32");}
             foreach(var item in b.DescendantsAndSelf().OfType<JObject>()){item.Remove("m_Color");item.Remove("m_Color32");}
-            if(!JToken.DeepEquals(a,b))throw new Exception("Override changed a non-color TextMesh field");
+            if(style!=null){foreach(var item in a.DescendantsAndSelf().OfType<JObject>())item.Remove("m_CharacterSize");foreach(var item in b.DescendantsAndSelf().OfType<JObject>())item.Remove("m_CharacterSize");}
+            if(!JToken.DeepEquals(a,b)){File.WriteAllText("../readability-delta.json",new JObject{{"before",a},{"after",b}}.ToString());throw new Exception("Override changed an undeclared TextMesh field");}
             EditorUtility.SetDirty(text);changed++;
         }
         return changed;
     }
     public static void ApplyAndBuild()
     {
-        NightAssetExport.ExportReadabilityFix();
+        ApplyAll(true);
+    }
+    public static void ApplyPromptFixAndBuild()
+    {
+        ApplyAll(false);
+    }
+    static void ApplyAll(bool frames)
+    {
+        if(frames)NightAssetExport.ExportReadabilityFix();else NightAssetExport.ExportPromptFix();
         var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/NightMarket.unity");
         int sceneCount=Apply(scene.GetRootGameObjects());
         int expected=((JObject)Spec["textColorOverrides"]).Count;
@@ -56,7 +67,7 @@ public static class NightReadability
             mat.color=new Color((float)value["r"],(float)value["g"],(float)value["b"],(float)value["a"]);EditorUtility.SetDirty(mat);materials++;
         }
         AssetDatabase.SaveAssets();
-        File.WriteAllText("../readability-report.json",new JObject{{"passed",true},{"sceneTextColors",sceneCount},{"prefabTextColors",prefabCount},{"materialColors",materials},{"otherTextMeshFieldsUnchanged",true},{"source","fidelity/data/presentation.json"}}.ToString());
+        File.WriteAllText("../readability-report.json",new JObject{{"passed",true},{"sceneTextColors",sceneCount},{"prefabTextColors",prefabCount},{"materialColors",materials},{"textStyleOverrides",((JObject)Spec["textStyleOverrides"])?.Count??0},{"onlyDeclaredTextMeshFieldsChanged",true},{"source","fidelity/data/presentation.json"}}.ToString());
         RecoveryEditor.BuildFinalCandidates();
     }
 }

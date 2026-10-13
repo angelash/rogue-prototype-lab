@@ -1005,7 +1005,7 @@
     {
       "id": "sharedassets0.assets:94",
       "name": "SubTitle",
-      "kind": "title",
+      "kind": "prompt_backplate",
       "width": 628,
       "height": 174,
       "transparent": true,
@@ -1013,7 +1013,7 @@
       "raw": "fidelity/art/generated/SubTitle.raw.png",
       "final": "local/NightArt/SubTitle.png",
       "status": "imported_verified",
-      "runtimeSHA256": "2c7e115fba0045dea83f431396d95f09eb4e166b12b09895637841fe43690b5a"
+      "runtimeSHA256": "54f735a6576e7d64d8bc038e1cf73145a76a924e1a4dd649050e5b803f4516aa"
     },
     {
       "id": "sharedassets0.assets:96",

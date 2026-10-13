@@ -23,6 +23,15 @@ public static class NightAssetExport
     {
         ExportSet(new[]{"CARD_03_DetailsTop","PRJ_CARD_01_Base_Project"});
     }
+    public static void ExportPromptFix()
+    {
+        ExportSet(new[]{"SubTitle"});
+    }
+    public static void FixPromptsAndBuild()
+    {
+        ExportPromptFix();
+        RecoveryEditor.BuildFinalCandidates();
+    }
     static void ExportSet(string[] selected)
     {
         string root=Path.GetFullPath("../..");
@@ -47,7 +56,7 @@ public static class NightAssetExport
                 rawBounds=AlphaBounds(input);slot=SpriteBounds(manifest,original);
                 stampScale=Mathf.Min(slot.width/rawBounds.width,slot.height/rawBounds.height)*.9f;
             }
-            if(kind=="interface")
+            if(kind=="interface" || kind=="prompt_backplate")
             {
                 // Geometry is part of the recovered UI. Read the pristine reference, never the overwritten working asset.
                 var e=original["exportFiles"][0];
@@ -58,6 +67,9 @@ public static class NightAssetExport
             {
                 float u=(x+.5f)/width,v=(y+.5f)/height;
                 Color color=input.GetPixelBilinear(u,v);
+                // SubTitle is Continue.Background, not a logo. Its inherited tight
+                // mesh and alpha define the prompt plate; every label is live TextMesh.
+                if(kind=="prompt_backplate")color=new Color(.02f,.025f,.04f,stencil.GetPixel(x,y).a);
                 if(kind=="stamp")
                 {
                     // Technical atlas placement: retain the source sprite's pivot and tight mesh.
@@ -88,8 +100,9 @@ public static class NightAssetExport
                 pixels[y*width+x]=color;
             }
             output.SetPixels(pixels);output.Apply();
-            string label=kind=="title"?(((string)job["name"])=="SubTitle"?"妖怪夜市":"妖怪夜市开张"):"";
-            if(label!="")BakeLabel(output,label,manifest,((string)job["name"])=="SubTitle");
+            if((string)job["name"]=="SubTitle" && kind!="prompt_backplate")throw new Exception("SubTitle must remain a text-free Continue background");
+            string label=kind=="title"?"妖怪夜市开张":"";
+            if(label!="")BakeLabel(output,label,manifest,false);
             string final=Path.Combine(root,"local/NightArt",Path.GetFileName((string)job["final"]));
             Directory.CreateDirectory(Path.GetDirectoryName(final));File.WriteAllBytes(final,output.EncodeToPNG());
             string working=(string)original["assetPath"];File.Copy(final,working,true);

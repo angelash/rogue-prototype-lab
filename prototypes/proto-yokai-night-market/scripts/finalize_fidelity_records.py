@@ -8,13 +8,13 @@ def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');parser.add_argument('--prompt-suffix',default='');args=parser.parse_args()
     verification=read(ROOT/'fidelity/evidence/fidelity-verification.json');assert verification['passed']
     images={r['id']:r for r in verification['images']};jobs=read(ROOT/'fidelity/art/jobs.json');spec=read(ROOT/'fidelity/image-specs.json');book=read(ROOT/'fidelity/art/generation-register.json')
     for j in jobs['jobs']:j['status']='imported_verified';j['runtimeSHA256']=images[j['id']]['runtimeSHA256']
     for s in spec['textures']:
         j=next(j for j in jobs['jobs'] if j['id']==s['id']);s.update(replacement=j['final'],raw=j['raw'],prompt=j['prompt'],kind=j['kind'],status='imported_verified',rawSHA256=images[s['id']]['rawSHA256'],runtimeSHA256=images[s['id']]['runtimeSHA256'])
-    for r in book['images']:r['review']='Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence.'
+    for r in book['images']:r['review']='Generated raw retained as rejected history; runtime uses a uniform procedural Continue plate with original alpha, verified in the prompt survey.' if r['name']=='SubTitle' and args.prompt_suffix else 'Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence.'
     write(ROOT/'fidelity/art/jobs.json',jobs);write(ROOT/'fidelity/image-specs.json',spec);write(ROOT/'fidelity/art/generation-register.json',book)
     reports={}
     for key,relative in [('rules','QAResults/rules/rules.json'),('smoke16x9','QAResults/smoke-16x9/report.json'),('smoke4x3','QAResults/smoke-4x3/report.json'),('visual16x9','QAResults/visual-complete-16x9-v2.2/report.json'),('visual4x3','QAResults/visual-complete-4x3-v2.2/report.json'),('match','QAResults/match-v2.2/report.json')]:
@@ -29,7 +29,7 @@ def main():
     match=reports['match']['report'];assert match['state']==50 and match['replayReady'] and len(match['winnerDone'])==5 and all(done>=goal for done,goal in zip(match['winnerDone'],match['winnerGoals']))
     if args.flow_report:
         p=ROOT/args.flow_report;r=read(p);assert r['passed'] and len(r['checks'])==15 and r['reloads']==1 and not r['errors'];reports['flow']=dict(report=r,localPath=args.flow_report,sha256=sha(p))
-    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe','NightFlowProbe'])];assert not qaTypes
+    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe','NightFlowProbe','NightPromptProbe'])];assert not qaTypes
     original=read(SOURCE/'evidence/build-files.json');installation=Path('E:/SteamLibrary/steamapps/common/Crunch Time');unchanged=all(sha(installation/f['path'])==f['sha256'] for f in original);assert unchanged
     inputs=[]
     for folder in ['Assets','Packages','ProjectSettings']:
@@ -58,5 +58,19 @@ def main():
             assert r['passed'] and not r['errors'] and len(r['captures'])==128 and r['tutorialTextBoundsChecks']>0 and r['language']==1 and r['verifiedCardLanguages']==95 and r['verifiedProjectLanguages']==28
             reports['visualEnglish'+label]=dict(report=r,localPath=p.relative_to(ROOT).as_posix(),sha256=sha(p))
             write(ROOT/'fidelity/evidence'/('visualEnglish'+label+'.json'),r)
+    if args.prompt_suffix:
+        for label,size in [('16x9',(1920,1080)),('4x3',(1440,1080))]:
+            for lang,ending in [(0,''),(1,'-en')]:
+                p=LOCAL/f'QAResults/prompts-{label}{args.prompt_suffix}{ending}/report.json';r=read(p)
+                assert r['passed'] and not r['errors'] and len(r['captures'])==33 and r['boundsChecks']>=4 and r['projectHeaderChecks']==28 and r['language']==lang and (r['width'],r['height'])==size
+                key=f'prompts{label}'+('English' if lang else 'Chinese');reports[key]=dict(report=r,localPath=p.relative_to(ROOT).as_posix(),sha256=sha(p))
+                write(ROOT/'fidelity/evidence'/(key+'.json'),r)
+        out['images'].update(runtimeGeneratedArt=81,proceduralPromptPlates=1,historicalGeneratedSources=82)
+        out['qaRevisionScope']['promptRepair']={'reports':[k for k in reports if k.startswith('prompts')],'reason':'v2.5 corrects SubTitle from a baked logo to a text-free Continue background, clarifies three UI labels, shortens 28 English project subtitles and declares one project subtitle TextMesh characterSize=0.85 for the collapsed header gap. Node transforms, references, hit areas and business logic stay original. New fixtures cover the production table, four prompt states and all project header gaps in both aspect ratios and languages. The 512 card/tutorial captures are v2.4 history; the new prompt fixture is not native mediator evidence.'}
+        nativePrompt=read(ROOT/'fidelity/evidence/prompt-native.json')
+        assert all(c['passed'] for c in nativePrompt['cases'])
+        for capture in nativePrompt['captures']:assert sha(ROOT/capture['path'])==capture['sha256']
+        testedCurrentBuild=nativePrompt['releasePlayerSHA256']==sha(LOCAL/'Builds/Release/YokaiNightMarket.exe') and nativePrompt['releaseAssemblySHA256']==out['releaseAssemblySHA256']
+        out['promptNative']=dict(report=nativePrompt,testedCurrentBuild=testedCurrentBuild,status='partial native prompt checks on the recorded build' if testedCurrentBuild else 'v2.5-r4 native prompt history; final v2.5-r9 click recheck pending because Windows desktop is locked')
     write(ROOT/'fidelity/evidence/delivery.json',out);print(json.dumps(dict(status=out['status'],sourceFiles=len(inputs),images=82,qaReports=len(reports),release=release,backups=out['backups']),ensure_ascii=False))
 if __name__=='__main__':main()

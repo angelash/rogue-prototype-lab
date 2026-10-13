@@ -53,16 +53,16 @@
       "en": "Open Again"
     },
     "DisableAutoPause": {
-      "zh": "关闭逐牌停顿",
-      "en": "Disable Card Pauses"
+      "zh": "关闭逐步暂停",
+      "en": "Disable step pauses"
     },
     "Continue": {
-      "zh": "继续",
+      "zh": "点击继续",
       "en": "Continue"
     },
     "ClickToUse": {
-      "zh": "按任意键使用调停牌",
-      "en": "Press any key to use the mediator"
+      "zh": "点击调停",
+      "en": "Click to mediate"
     },
     "Recruiting": {
       "zh": "招募帮工",
@@ -1482,7 +1482,7 @@
     },
     "SubTitle1": {
       "zh": "灯先挂在巷口，晚来的客人才找得着。",
-      "en": "Hang the first lamp at the entrance\nso late guests can find you."
+      "en": "Light the entrance."
     },
     "Title2": {
       "zh": "两碗热汤",
@@ -1490,7 +1490,7 @@
     },
     "SubTitle2": {
       "zh": "两位夜班客人说好了，收工来喝热汤。",
-      "en": "Two night workers promised to stop\nby for hot soup."
+      "en": "Soup for the night shift."
     },
     "Title3": {
       "zh": "桥头候月",
@@ -1498,7 +1498,7 @@
     },
     "SubTitle3": {
       "zh": "桥边风大，给等月亮的人留个背风位。",
-      "en": "Save a sheltered seat for the\nmoon-watchers by the bridge."
+      "en": "Shelter the moon-watchers."
     },
     "Title4": {
       "zh": "风来旧货摊",
@@ -1506,7 +1506,7 @@
     },
     "SubTitle4": {
       "zh": "旧货擦干净再摆，轻东西别让风卷跑。",
-      "en": "Wipe the old wares clean and weigh\ndown anything light."
+      "en": "Wipe down the old wares."
     },
     "Title5": {
       "zh": "河雾补棚",
@@ -1514,7 +1514,7 @@
     },
     "SubTitle5": {
       "zh": "河雾又漫上来了，补好棚再搬货。",
-      "en": "The river mist is back. Patch the\nawning before moving the goods."
+      "en": "Patch the misty awning."
     },
     "Title6": {
       "zh": "灯下裁衣会",
@@ -1522,7 +1522,7 @@
     },
     "SubTitle6": {
       "zh": "衣服送来了，灯挂近一点才看得清针脚。",
-      "en": "The clothes are here. Bring the lamp\ncloser to the stitching."
+      "en": "Light the stitching."
     },
     "Title7": {
       "zh": "柳街小戏台",
@@ -1530,7 +1530,7 @@
     },
     "SubTitle7": {
       "zh": "小戏班今晚来，把台前那条路空出来。",
-      "en": "The little troupe is coming. Keep\nthe path in front clear."
+      "en": "Clear a path for the troupe."
     },
     "Title8": {
       "zh": "回家的纸伞",
@@ -1538,7 +1538,7 @@
     },
     "SubTitle8": {
       "zh": "伞骨修好，最后一位客人还要走远路。",
-      "en": "Fix the umbrella ribs. The last\ncustomer has a long walk home."
+      "en": "Mend the last umbrella."
     },
     "Title9": {
       "zh": "子时干粮铺",
@@ -1546,7 +1546,7 @@
     },
     "SubTitle9": {
       "zh": "过了子时还有船，干粮包好，别沾河水。",
-      "en": "Boats run after midnight. Wrap the\nfood and keep it dry."
+      "en": "Keep the boat food dry."
     },
     "Title10": {
       "zh": "铜铃过石桥",
@@ -1554,7 +1554,7 @@
     },
     "SubTitle10": {
       "zh": "铃挂桥头，搬货的听见就知道往哪儿走。",
-      "en": "Hang the bell by the bridge to guide\nthe deliveries."
+      "en": "Ring for bridge deliveries."
     },
     "Title11": {
       "zh": "静巷借火",
@@ -1562,7 +1562,7 @@
     },
     "SubTitle11": {
       "zh": "邻摊来借火，记得留一盆炭。",
-      "en": "The neighbours need a light. Save\nthem a pan of coals."
+      "en": "Save coals for next door."
     },
     "Title12": {
       "zh": "狐尾暖锅局",
@@ -1570,7 +1570,7 @@
     },
     "SubTitle12": {
       "zh": "狐狸们订了一桌，锅边多留几个矮凳。",
-      "en": "The foxes booked a table. Leave a\nfew low stools by the pot."
+      "en": "Low stools for the foxes."
     },
     "Title13": {
       "zh": "渡口亮水摊",
@@ -1578,7 +1578,7 @@
     },
     "SubTitle13": {
       "zh": "水摊摆在渡口，夜船一靠岸就看得见。",
-      "en": "Put the water stall where the night\nboats can see it."
+      "en": "Water by the landing."
     },
     "Title14": {
       "zh": "月影布篷会",
@@ -1586,7 +1586,7 @@
     },
     "SubTitle14": {
       "zh": "篷布拉平，客人今晚就在月下坐。",
-      "en": "Stretch the canopy smooth. The\nguests are sitting under the moon."
+      "en": "Seats under the canopy."
     },
     "Title15": {
       "zh": "纸窗安睡摊",
@@ -1594,7 +1594,7 @@
     },
     "SubTitle15": {
       "zh": "纸客怕吵，灯别太亮，帘子放下来。",
-      "en": "The paper guests need quiet. Dim the\nlamp and lower the curtain."
+      "en": "Dim lamps for paper guests."
     },
     "Title16": {
       "zh": "敲碗会朋友",
@@ -1602,7 +1602,7 @@
     },
     "SubTitle16": {
       "zh": "朋友们带着碗来了，再添几张凳子。",
-      "en": "Friends have brought their bowls.\nSet out a few more stools."
+      "en": "Extra stools for friends."
     },
     "Title17": {
       "zh": "黑水桥守夜",
@@ -1610,7 +1610,7 @@
     },
     "SubTitle17": {
       "zh": "桥边今晚有人守夜，留灯，也留一锅热的。",
-      "en": "Someone's on watch by the bridge.\nLeave a lamp and a hot pot."
+      "en": "Hot food for the night watch."
     },
     "Title18": {
       "zh": "旧木柜开箱",
@@ -1618,7 +1618,7 @@
     },
     "SubTitle18": {
       "zh": "柜子里还有没见过的旧货，一件件摆出来。",
-      "en": "The cabinet holds unseen wares. Lay\nthem out one at a time."
+      "en": "Unpack the cabinet."
     },
     "Title19": {
       "zh": "灯火引归客",
@@ -1626,7 +1626,7 @@
     },
     "SubTitle19": {
       "zh": "末班船快到了，灯挂高些，别让人走错巷。",
-      "en": "The last boat's due. Raise the lamp\nso nobody takes the wrong lane."
+      "en": "A high lamp for the last boat."
     },
     "Title20": {
       "zh": "落帘听小雨",
@@ -1634,7 +1634,7 @@
     },
     "SubTitle20": {
       "zh": "雨声正好，帘下摆两把椅子。",
-      "en": "The rain sounds lovely. Put two\nchairs under the curtain."
+      "en": "Two chairs out of the rain."
     },
     "Title21": {
       "zh": "鼓声绕长街",
@@ -1642,7 +1642,7 @@
     },
     "SubTitle21": {
       "zh": "鼓队沿街走，摊前别堆货挡路。",
-      "en": "The drummers are coming down the\nstreet. Keep goods out of their way."
+      "en": "Clear the drummers' path."
     },
     "Title22": {
       "zh": "两把伞留座",
@@ -1650,7 +1650,7 @@
     },
     "SubTitle22": {
       "zh": "两把旧伞撑开，给约好的人留座。",
-      "en": "Open the two old umbrellas and save\nthe promised seats."
+      "en": "Save two umbrella seats."
     },
     "Title23": {
       "zh": "河灯照归途",
@@ -1658,7 +1658,7 @@
     },
     "SubTitle23": {
       "zh": "送灯的客人要过河，先把岸边照亮。",
-      "en": "The lantern-bearers need to cross.\nLight the riverbank first."
+      "en": "Light the crossing."
     },
     "Title24": {
       "zh": "纸符护小路",
@@ -1666,7 +1666,7 @@
     },
     "SubTitle24": {
       "zh": "小路通着荒坟，符绳系好，给行人留缝。",
-      "en": "The path leads past old graves. Tie\nthe charms and leave a gap to pass."
+      "en": "Leave a gap in the ward rope."
     },
     "Title25": {
       "zh": "锅边叙旧夜",
@@ -1674,7 +1674,7 @@
     },
     "SubTitle25": {
       "zh": "旧友们要来叙旧，大锅洗净，多备几个碗。",
-      "en": "Old friends are coming. Wash the big\npot and bring more bowls."
+      "en": "More bowls for old friends."
     },
     "Title26": {
       "zh": "秋风摆旧货",
@@ -1682,7 +1682,7 @@
     },
     "SubTitle26": {
       "zh": "秋风起了，布压住，旧货按轻重排。",
-      "en": "The autumn wind's up. Weigh down the\ncloth and sort the wares."
+      "en": "Weigh down the cloth."
     },
     "Title27": {
       "zh": "五巷同开张",
@@ -1690,7 +1690,7 @@
     },
     "SubTitle27": {
       "zh": "五条巷今晚一起开摊，各摊听见铃就准备。",
-      "en": "All five lanes open tonight. Every\nstall gets ready when the bell\nrings."
+      "en": "Five lanes open at the bell."
     },
     "Title28": {
       "zh": "鬼门前最后一摊",
@@ -1698,7 +1698,7 @@
     },
     "SubTitle28": {
       "zh": "摆在鬼门前，灯、汤和回去的路都要备好。",
-      "en": "By the ghost gate, have the lamps,\nsoup and way home ready."
+      "en": "Soup by the ghost gate."
     }
   },
   "cards": [
