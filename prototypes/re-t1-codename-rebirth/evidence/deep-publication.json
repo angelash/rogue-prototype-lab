@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-13",
+  "repository": "https://github.com/angelash/rogue-prototype-lab.git",
+  "branch": "codex/t1-static-analysis",
+  "verifiedAnalysisCommit": "61a1d0c0d40b9f40eff7134194e2932794c6abd1",
+  "remoteRefReadBack": "61a1d0c0d40b9f40eff7134194e2932794c6abd1",
+  "remoteRefVerified": true,
+  "reachableHistoryPrivacyCheck": "Passed both explicit checker and existing pre-push hook; no local recovery input history.",
+  "scope": "Original analysis tools, reports, project contract and aggregate evidence only.",
+  "excluded": ["APK", "third-party decompiled source", "full configuration", "media", "complete native address catalog"],
+  "receiptSemantics": "Records the verified analysis commit. Later receipt and local-backup documentation commits may advance this branch."
+}

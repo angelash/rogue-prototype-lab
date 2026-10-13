@@ -34,7 +34,15 @@ def main():
         digest.update(block)
     assert proc.wait() == 0
     assert digest.hexdigest() == intake['sourceSHA256']
-    fsck = subprocess.run(['git', '-C', str(LOCAL), 'fsck', '--full'],
+    alternates = LOCAL / '.git/objects/info/alternates'
+    mirror = Path(alternates.read_text('utf8').strip()).parent
+    mirror_head = subprocess.check_output(['git', '--git-dir', str(mirror),
+                                           'rev-parse', 'HEAD']).decode().strip()
+    mirror_remotes = subprocess.check_output(['git', '--git-dir', str(mirror),
+                                              'remote', '-v']).decode().strip()
+    assert mirror_head == head and not mirror_remotes
+    assert not (mirror / 'objects/info/alternates').exists()
+    fsck = subprocess.run(['git', '--git-dir', str(mirror), 'fsck', '--full'],
                           capture_output=True, text=True, encoding='utf8', errors='replace')
     assert fsck.returncode == 0, fsck.stderr[:4000]
     remotes = git('remote', '-v').decode().strip()
@@ -61,12 +69,16 @@ def main():
     evidence = {
         'date': '2026-10-13', 'localRepository': str(LOCAL),
         'gitDirectory': git('rev-parse', '--absolute-git-dir').decode().strip(),
-        'gitStorageReason': 'F drive low space; private Git metadata moved to C, work files remain in project.',
+        'standaloneLocalMirror': str(mirror), 'mirrorCommit': mirror_head,
+        'mirrorRemotes': mirror_remotes, 'mirrorHasAlternates': False,
+        'gitStorageReason': 'F drive was low on space. C holds a complete independent private Git snapshot; local/.git shares its old objects. Work files remain in the project.',
+        'migrationAudit': 'An empty hidden .git directory remained after the move. Automatic review rejected its deletion; retained it and used Git shared-clone initialization, then fetched the complete new snapshot into C. No safeguard bypass.',
         'localCommit': head, 'remotes': remotes, 'localClean': clean,
         'trackedFiles': len(files), 'trackedBytes': sum(files.values()),
         'trackedManifestSHA256': hashlib.sha256(git('ls-tree', '-r', '-l', '-z', head)).hexdigest(),
         'originalAPKBlobSHA256': digest.hexdigest(), 'originalAPKBlobVerified': True,
-        'trackedGroups': counts, 'gitFsckExitCode': fsck.returncode,
+        'trackedGroups': counts, 'gitFsckSource': 'standalone C mirror without alternates',
+        'gitFsckExitCode': fsck.returncode,
         'gitFsckDiagnosticLines': len((fsck.stdout + fsck.stderr).splitlines()),
         'gitFsckDiagnosticsSHA256': hashlib.sha256((fsck.stdout + fsck.stderr).encode()).hexdigest(),
         'seconds': round(time.monotonic() - start, 2),

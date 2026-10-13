@@ -60,4 +60,10 @@
 
 ## 7. 缺口与变更
 
+当前完整本地提交为 `433faff75a44cd04e6c81b70e97b28663d28285b`，71554 文件 / 8,218,931,701 字节，包含全部恢复镜像、规范反编译目录、981 包、208 表与导出媒体。工作库无远程且状态干净；原 APK Git blob SHA256 与原件一致。[备份校验](evidence/deep-backup.json)。
+
+F 盘归档期间空间不足，完整独立 Git 备份位于 `C:\Users\Lenovo\.codex\backups\t1-codename-rebirth-local-git-20261013`；其 HEAD 与本地提交一致，无远程、无 alternate 依赖，`git fsck --full` 通过。F 盘研究文件位置不变，local/.git 借用 C 库的旧对象；迁移/保留版本历史时须保存 C 库。自动审批拒绝删除迁移后隐藏的空 .git 目录，已保留目录并通过 Git shared clone 恢复关联，没有绕过。差异压缩耗时后改用仅本库 pack.window=0、compression=1、threads=2 完成独立同步。
+
+原创分析报告/工具已推送 `origin/codex/t1-static-analysis`；分析提交 `61a1d0c0d40b9f40eff7134194e2932794c6abd1` 的远程 ref 已实读核对，后续凭据/备份记录提交可推进该分支。显式历史检查与原保护钩子均通过，第三方源码、配置全文与媒体不进入远程。[公开备份记录](evidence/deep-publication.json)。
+
 2026-10-13：用户指定 APK并确认“已获授权”。从第一层清单进至 QXGM/QXPM/资源包解码、实际代码/配置/对象与媒体的完整本机登记，形成可追溯静态交付。[恢复范围](reports/recovery-scope.md)单列原生高级算法、外层签名、原作者源码/工程、在线/服务器、真实游玩与少量兼容异常。

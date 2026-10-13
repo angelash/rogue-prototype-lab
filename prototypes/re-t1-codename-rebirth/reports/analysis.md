@@ -39,6 +39,8 @@ QGSG 与 QXTL 外层签名未独立验签；内部摘要、HMAC、分片/块 SHA
 
 所有原件及第三方派生产物留在 local/ 独立无远程 Git。公开仓库只备份原创报告/工具和汇总证据；源码、配置全文、媒体不公开上传。初查证据保留，与深层结果分别登记。
 
+完整本地提交 `433faff` 保存 71554 文件 / 8.22 GB；C 盘独立备份的全部 Git 对象检查与原 APK blob SHA256 通过。F 盘研究文件保留原位，工作库借用 C 库对象，迁移版本历史须保留 C 库。[本地备份](../evidence/deep-backup.json)、[原创资料远程备份](../evidence/deep-publication.json)
+
 ## 使用
 
 [本地只读检索](../scripts/serve_catalog.py)支持类型/源码、方法、调用位置、配置全文/中文名称、对象与媒体。启动后访问 http://127.0.0.1:8769/。[原离线地址页](../local/explorer.html)保留全部地址/依赖及初始载体索引。[复跑文档](../scripts/README.md)
