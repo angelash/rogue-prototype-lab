@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-13",
+  "seconds": 190.96,
+  "passed": true,
+  "checks": [
+    {
+      "name": "installation-and-copy-sha256",
+      "passed": true,
+      "details": {
+        "files": 466,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "all-managed-metadata-and-il",
+      "passed": true,
+      "details": {
+        "assemblies": 201,
+        "failures": []
+      }
+    },
+    {
+      "name": "sqlite-integrity",
+      "passed": true,
+      "details": "ok"
+    },
+    {
+      "name": "all-object-raw-byte-ranges",
+      "passed": true,
+      "details": {
+        "objects": 1601352,
+        "failures": []
+      }
+    },
+    {
+      "name": "nonzero-pptr-targets-and-sources",
+      "passed": true,
+      "details": {
+        "edges": 4457141,
+        "missingTargets": 0,
+        "missingSources": 0
+      }
+    },
+    {
+      "name": "known-tree-limitations",
+      "passed": true,
+      "details": {
+        "base-only": 2,
+        "ok": 1601350
+      }
+    },
+    {
+      "name": "registered-content-and-cross-references",
+      "passed": true,
+      "details": {
+        "categories": {
+          "items": 1569,
+          "quests": 315,
+          "recipes": 269,
+          "buildings": 27,
+          "merchants": 12,
+          "crops": 23,
+          "sceneInfos": 55,
+          "enemyPresets": 156,
+          "buffs": 116,
+          "perkTrees": 10,
+          "perks": 163,
+          "rules": 7,
+          "levelConfigs": 16,
+          "lootLoaders": 5653,
+          "lootSpawners": 388,
+          "bossPresets": 61,
+          "families": 1053,
+          "graphs": 16,
+          "scenes": 63
+        },
+        "failures": [],
+        "recipeIssues": [],
+        "sourceNullSlots": [
+          {
+            "quest": 939,
+            "kind": "rewards",
+            "index": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "all-export-hashes-and-media-structure",
+      "passed": true,
+      "details": {
+        "files": 10719,
+        "formats": {
+          ".txt": 449,
+          ".png": 5776,
+          ".obj": 3900,
+          ".ttf": 12,
+          ".shaderbin": 7,
+          ".bc6": 7,
+          ".wav": 568
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "raw-only-shaders-exact-payload",
+      "passed": true,
+      "details": {
+        "objects": 7,
+        "failures": []
+      }
+    }
+  ],
+  "runtimePlaytest": false,
+  "subjectiveAudioReview": false
+}

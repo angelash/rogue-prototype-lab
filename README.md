@@ -12,6 +12,8 @@
 - 2026-10-12 新增 [Crunch Time! 逆向分析项目](prototypes/re-crunch-time/README.md)：本机指定构建的全量托管代码、内容与资产分析；报告/工具/索引备份，第三方原件与导出仅本机保存。
 - 2026-10-12 新增独立 [妖怪夜市开张完整包装与开发准备](prototypes/proto-yokai-night-market/README.md)：95卡/28委托、双用途设施、全量原作替换、完整生图规范与提示词；设计准备与实际游戏制作状态分别登记。
 
+- 2026-10-13 新增 [Escape from Duckov 逆向研究项目](prototypes/re-escape-from-duckov/README.md)：Steam 2.3.30 全量文件、201 托管程序集、160 万 Unity 对象与内容索引，系统报告和本地检索工具；完整代码派生与媒体仅本机保存，原始工程恢复及游玩边界分别登记。
+
 ## 先读这些文档
 
 后续所有项目默认执行根目录 [制作准备与开发规范](DEVELOPMENT_STANDARD.md)，开始或继续开发前再读目标项目根目录的 `DEVELOPMENT.md`。新项目用 [开发要求模板](DEVELOPMENT_TEMPLATE.md) 建立专属合同；默认规则已写入 [AGENTS.md](AGENTS.md) 和 `.cursor/rules/project-development-standard.mdc`。

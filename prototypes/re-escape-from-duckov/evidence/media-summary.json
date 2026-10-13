@@ -1,0 +1,91 @@
+{
+  "objects": 10161,
+  "byType": [
+    {
+      "type": "Font",
+      "status": "empty-payload",
+      "count": 1
+    },
+    {
+      "type": "Font",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "type": "Mesh",
+      "status": "ok",
+      "count": 3900
+    },
+    {
+      "type": "Shader",
+      "status": "ok",
+      "count": 362
+    },
+    {
+      "type": "Shader",
+      "status": "raw-only",
+      "count": 7
+    },
+    {
+      "type": "Sprite",
+      "status": "ok",
+      "count": 1371
+    },
+    {
+      "type": "TextAsset",
+      "status": "ok",
+      "count": 87
+    },
+    {
+      "type": "Texture2D",
+      "status": "empty-payload",
+      "count": 16
+    },
+    {
+      "type": "Texture2D",
+      "status": "ok",
+      "count": 4405
+    }
+  ],
+  "files": 10151,
+  "bytes": 1764905424,
+  "failures": [],
+  "rawOnly": [
+    {
+      "id": "globalgamemanagers.assets:84",
+      "type": "Shader",
+      "error": "error: unpack_from requires a buffer of at least 2392 bytes for unpacking 4 bytes at offset 2388 (actual buffer size is 2388)"
+    },
+    {
+      "id": "resources.assets:4688",
+      "type": "Shader",
+      "error": "error: unpack_from requires a buffer of at least 28064 bytes for unpacking 4 bytes at offset 28060 (actual buffer size is 28060)"
+    },
+    {
+      "id": "resources.assets:4739",
+      "type": "Shader",
+      "error": "error: unpack_from requires a buffer of at least 22400 bytes for unpacking 4 bytes at offset 22396 (actual buffer size is 22396)"
+    },
+    {
+      "id": "resources.assets:4745",
+      "type": "Shader",
+      "error": "error: unpack_from requires a buffer of at least 16964 bytes for unpacking 4 bytes at offset 16960 (actual buffer size is 16960)"
+    },
+    {
+      "id": "resources.assets:4778",
+      "type": "Shader",
+      "error": "ValueError: 5"
+    },
+    {
+      "id": "resources.assets:4784",
+      "type": "Shader",
+      "error": "ValueError: 40716 is not a valid ShaderGpuProgramType"
+    },
+    {
+      "id": "resources.assets:4826",
+      "type": "Shader",
+      "error": "error: unpack_from requires a buffer of at least 2364 bytes for unpacking 4 bytes at offset 2360 (actual buffer size is 2360)"
+    }
+  ],
+  "hdrPreview": "BC6H: original compression retained in .bc6; PNG is an 8-bit preview."
+}

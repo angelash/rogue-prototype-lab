@@ -1,0 +1,6664 @@
+[
+  {
+    "name": "globalgamemanagers",
+    "path": "globalgamemanagers",
+    "unityVersion": "2022.3.62f2",
+    "objects": 18,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets54.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "globalgamemanagers.assets",
+    "path": "globalgamemanagers.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 5181,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level0",
+    "path": "level0",
+    "unityVersion": "2022.3.62f2",
+    "objects": 5516,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level1",
+    "path": "level1",
+    "unityVersion": "2022.3.62f2",
+    "objects": 11384,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level10",
+    "path": "level10",
+    "unityVersion": "2022.3.62f2",
+    "objects": 292875,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level11",
+    "path": "level11",
+    "unityVersion": "2022.3.62f2",
+    "objects": 425,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level12",
+    "path": "level12",
+    "unityVersion": "2022.3.62f2",
+    "objects": 20164,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level13",
+    "path": "level13",
+    "unityVersion": "2022.3.62f2",
+    "objects": 177,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level14",
+    "path": "level14",
+    "unityVersion": "2022.3.62f2",
+    "objects": 46091,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level15",
+    "path": "level15",
+    "unityVersion": "2022.3.62f2",
+    "objects": 4906,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets15.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level16",
+    "path": "level16",
+    "unityVersion": "2022.3.62f2",
+    "objects": 174,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets16.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level17",
+    "path": "level17",
+    "unityVersion": "2022.3.62f2",
+    "objects": 3100,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets17.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets16.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level18",
+    "path": "level18",
+    "unityVersion": "2022.3.62f2",
+    "objects": 420,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets18.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level19",
+    "path": "level19",
+    "unityVersion": "2022.3.62f2",
+    "objects": 57799,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level2",
+    "path": "level2",
+    "unityVersion": "2022.3.62f2",
+    "objects": 133,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets2.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level20",
+    "path": "level20",
+    "unityVersion": "2022.3.62f2",
+    "objects": 513,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level21",
+    "path": "level21",
+    "unityVersion": "2022.3.62f2",
+    "objects": 934,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets21.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level22",
+    "path": "level22",
+    "unityVersion": "2022.3.62f2",
+    "objects": 7171,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level23",
+    "path": "level23",
+    "unityVersion": "2022.3.62f2",
+    "objects": 14902,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level24",
+    "path": "level24",
+    "unityVersion": "2022.3.62f2",
+    "objects": 11964,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets17.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level25",
+    "path": "level25",
+    "unityVersion": "2022.3.62f2",
+    "objects": 296,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets25.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level26",
+    "path": "level26",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1418,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level27",
+    "path": "level27",
+    "unityVersion": "2022.3.62f2",
+    "objects": 523,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets27.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level28",
+    "path": "level28",
+    "unityVersion": "2022.3.62f2",
+    "objects": 510,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level29",
+    "path": "level29",
+    "unityVersion": "2022.3.62f2",
+    "objects": 502,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level3",
+    "path": "level3",
+    "unityVersion": "2022.3.62f2",
+    "objects": 687,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level30",
+    "path": "level30",
+    "unityVersion": "2022.3.62f2",
+    "objects": 436,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level31",
+    "path": "level31",
+    "unityVersion": "2022.3.62f2",
+    "objects": 97087,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets15.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level32",
+    "path": "level32",
+    "unityVersion": "2022.3.62f2",
+    "objects": 63639,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level33",
+    "path": "level33",
+    "unityVersion": "2022.3.62f2",
+    "objects": 417,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets33.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level34",
+    "path": "level34",
+    "unityVersion": "2022.3.62f2",
+    "objects": 154856,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level35",
+    "path": "level35",
+    "unityVersion": "2022.3.62f2",
+    "objects": 15,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level36",
+    "path": "level36",
+    "unityVersion": "2022.3.62f2",
+    "objects": 7187,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets36.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level37",
+    "path": "level37",
+    "unityVersion": "2022.3.62f2",
+    "objects": 435,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets37.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level38",
+    "path": "level38",
+    "unityVersion": "2022.3.62f2",
+    "objects": 416,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level39",
+    "path": "level39",
+    "unityVersion": "2022.3.62f2",
+    "objects": 38279,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level4",
+    "path": "level4",
+    "unityVersion": "2022.3.62f2",
+    "objects": 4401,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level40",
+    "path": "level40",
+    "unityVersion": "2022.3.62f2",
+    "objects": 194,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets40.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level41",
+    "path": "level41",
+    "unityVersion": "2022.3.62f2",
+    "objects": 71069,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level42",
+    "path": "level42",
+    "unityVersion": "2022.3.62f2",
+    "objects": 51058,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets40.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level43",
+    "path": "level43",
+    "unityVersion": "2022.3.62f2",
+    "objects": 18044,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level44",
+    "path": "level44",
+    "unityVersion": "2022.3.62f2",
+    "objects": 16993,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets44.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level45",
+    "path": "level45",
+    "unityVersion": "2022.3.62f2",
+    "objects": 19021,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets45.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level46",
+    "path": "level46",
+    "unityVersion": "2022.3.62f2",
+    "objects": 17134,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets46.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets44.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level47",
+    "path": "level47",
+    "unityVersion": "2022.3.62f2",
+    "objects": 5988,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets17.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level48",
+    "path": "level48",
+    "unityVersion": "2022.3.62f2",
+    "objects": 205777,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level49",
+    "path": "level49",
+    "unityVersion": "2022.3.62f2",
+    "objects": 416,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets49.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level5",
+    "path": "level5",
+    "unityVersion": "2022.3.62f2",
+    "objects": 5813,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level50",
+    "path": "level50",
+    "unityVersion": "2022.3.62f2",
+    "objects": 24576,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets50.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level51",
+    "path": "level51",
+    "unityVersion": "2022.3.62f2",
+    "objects": 414,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets51.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level52",
+    "path": "level52",
+    "unityVersion": "2022.3.62f2",
+    "objects": 513,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets52.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level53",
+    "path": "level53",
+    "unityVersion": "2022.3.62f2",
+    "objects": 523,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets27.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level54",
+    "path": "level54",
+    "unityVersion": "2022.3.62f2",
+    "objects": 291,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets54.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level55",
+    "path": "level55",
+    "unityVersion": "2022.3.62f2",
+    "objects": 30754,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets55.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level56",
+    "path": "level56",
+    "unityVersion": "2022.3.62f2",
+    "objects": 429,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets37.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets56.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level57",
+    "path": "level57",
+    "unityVersion": "2022.3.62f2",
+    "objects": 5535,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets36.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets57.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level58",
+    "path": "level58",
+    "unityVersion": "2022.3.62f2",
+    "objects": 173,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets40.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets58.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level59",
+    "path": "level59",
+    "unityVersion": "2022.3.62f2",
+    "objects": 69657,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level6",
+    "path": "level6",
+    "unityVersion": "2022.3.62f2",
+    "objects": 6806,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level60",
+    "path": "level60",
+    "unityVersion": "2022.3.62f2",
+    "objects": 69556,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets60.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets45.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level61",
+    "path": "level61",
+    "unityVersion": "2022.3.62f2",
+    "objects": 591,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets33.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets61.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level62",
+    "path": "level62",
+    "unityVersion": "2022.3.62f2",
+    "objects": 507,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets62.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level7",
+    "path": "level7",
+    "unityVersion": "2022.3.62f2",
+    "objects": 12,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level8",
+    "path": "level8",
+    "unityVersion": "2022.3.62f2",
+    "objects": 145,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "level9",
+    "path": "level9",
+    "unityVersion": "2022.3.62f2",
+    "objects": 398,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "resources.assets",
+    "path": "resources.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 114875,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets0.assets",
+    "path": "sharedassets0.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 241,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets1.assets",
+    "path": "sharedassets1.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 235,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets10.assets",
+    "path": "sharedassets10.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 2592,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets11.assets",
+    "path": "sharedassets11.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 28,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets12.assets",
+    "path": "sharedassets12.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 173,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets13.assets",
+    "path": "sharedassets13.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 7,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets14.assets",
+    "path": "sharedassets14.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 171,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets15.assets",
+    "path": "sharedassets15.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 24,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets16.assets",
+    "path": "sharedassets16.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 15,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets17.assets",
+    "path": "sharedassets17.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 22,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets16.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets18.assets",
+    "path": "sharedassets18.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 4,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets19.assets",
+    "path": "sharedassets19.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 83,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets2.assets",
+    "path": "sharedassets2.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 16,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets20.assets",
+    "path": "sharedassets20.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 17,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets21.assets",
+    "path": "sharedassets21.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 16,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets22.assets",
+    "path": "sharedassets22.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 99,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets23.assets",
+    "path": "sharedassets23.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 55,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets24.assets",
+    "path": "sharedassets24.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 31,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets17.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets25.assets",
+    "path": "sharedassets25.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 6,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets26.assets",
+    "path": "sharedassets26.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets27.assets",
+    "path": "sharedassets27.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 13,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets28.assets",
+    "path": "sharedassets28.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 2,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets29.assets",
+    "path": "sharedassets29.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets3.assets",
+    "path": "sharedassets3.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 71,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets30.assets",
+    "path": "sharedassets30.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 22,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets31.assets",
+    "path": "sharedassets31.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 827,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets15.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets32.assets",
+    "path": "sharedassets32.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 179,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets33.assets",
+    "path": "sharedassets33.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 6,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets34.assets",
+    "path": "sharedassets34.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1214,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets35.assets",
+    "path": "sharedassets35.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets36.assets",
+    "path": "sharedassets36.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 6,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets37.assets",
+    "path": "sharedassets37.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 11,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets38.assets",
+    "path": "sharedassets38.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 41,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets39.assets",
+    "path": "sharedassets39.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 251,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets4.assets",
+    "path": "sharedassets4.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 67,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets40.assets",
+    "path": "sharedassets40.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 22,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets41.assets",
+    "path": "sharedassets41.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 166,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets42.assets",
+    "path": "sharedassets42.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 138,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets40.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets43.assets",
+    "path": "sharedassets43.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 14,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets44.assets",
+    "path": "sharedassets44.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 17,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets45.assets",
+    "path": "sharedassets45.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 17,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets46.assets",
+    "path": "sharedassets46.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 12,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets43.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets44.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets47.assets",
+    "path": "sharedassets47.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 15,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets17.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets48.assets",
+    "path": "sharedassets48.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 708,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets49.assets",
+    "path": "sharedassets49.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 6,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets5.assets",
+    "path": "sharedassets5.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 529,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets50.assets",
+    "path": "sharedassets50.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 57,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets23.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets51.assets",
+    "path": "sharedassets51.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 18,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets38.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets52.assets",
+    "path": "sharedassets52.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 15,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets53.assets",
+    "path": "sharedassets53.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets27.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets54.assets",
+    "path": "sharedassets54.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 105,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets44.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets55.assets",
+    "path": "sharedassets55.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 154,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets56.assets",
+    "path": "sharedassets56.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 2,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets30.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets37.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets57.assets",
+    "path": "sharedassets57.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 3,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets36.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets58.assets",
+    "path": "sharedassets58.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 3,
+    "externals": [
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets13.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets40.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets59.assets",
+    "path": "sharedassets59.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets22.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets6.assets",
+    "path": "sharedassets6.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 92,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets60.assets",
+    "path": "sharedassets60.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 295,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets4.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets5.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets6.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets10.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets12.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets19.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets24.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets31.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets32.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets34.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets39.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets41.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets42.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets45.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets47.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets48.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets61.assets",
+    "path": "sharedassets61.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 29,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Resources/unity_builtin_extra",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets3.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets11.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets33.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets62.assets",
+    "path": "sharedassets62.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 3,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets9.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets14.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets20.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets28.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets7.assets",
+    "path": "sharedassets7.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 1,
+    "externals": [
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets8.assets",
+    "path": "sharedassets8.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 16,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets1.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "sharedassets9.assets",
+    "path": "sharedassets9.assets",
+    "unityVersion": "2022.3.62f2",
+    "objects": 24,
+    "externals": [
+      {
+        "path": "globalgamemanagers.assets",
+        "type": 0
+      },
+      {
+        "path": "Library/unity default resources",
+        "type": 0
+      },
+      {
+        "path": "resources.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets0.assets",
+        "type": 0
+      },
+      {
+        "path": "sharedassets8.assets",
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "unity default resources",
+    "path": "Resources/unity default resources",
+    "unityVersion": "2022.3.54f1",
+    "objects": 85,
+    "externals": []
+  },
+  {
+    "name": "unity_builtin_extra",
+    "path": "Resources/unity_builtin_extra",
+    "unityVersion": "2022.3.62f2",
+    "objects": 43,
+    "externals": []
+  }
+]

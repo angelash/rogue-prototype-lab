@@ -1,0 +1,767 @@
+{
+  "assemblies": 201,
+  "gameAssemblies": [
+    {
+      "name": "TeamSoda.Duckov.Core",
+      "sha256": "298d5d5885427632d5a94b2f3ce587f8ebc9528ec71e575a475158c326ecae8f",
+      "bytes": 1806336,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.51,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 7.78,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 1.76,
+      "typeCount": 1802,
+      "methodCount": 11804,
+      "fieldCount": 9995,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UI",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "Unity.TextMeshPro",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "SodaLocalization",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Plugins",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UniTask",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ItemStatsSystem",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.PhysicsModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ParadoxNotion",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "NodeCanvas",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "FMODUnity",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Cinemachine",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.RenderPipelines.Core.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.RenderPipelines.Universal.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "AstarPathfindingProject",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.AnimationModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "TeamSoda.Duckov.Utilities",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.ParticleSystemModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "EPO",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ECM2",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UIModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "LeTai.TrueShadow",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.InputSystem",
+          "version": "1.14.0.0"
+        },
+        {
+          "name": "ALINE",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ShapesRuntime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.Mathematics",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Eflatun.SceneReference",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "com.rlabrecque.steamworks.net",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.DirectorModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.Physics2DModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "FOW",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "SymmetryBreak.TastyGrassShader",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "HBAO.Universal.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UIElementsModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.Splines",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.AudioModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "EasySave3",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Razer.WyvrnSDK.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.GameCenterModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Sirenix.OdinInspector.Attributes",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "UISplineRenderer",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UniTask.DOTween",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "DOTween",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "UnityEngine.GridModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.JSONSerializeModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.IMGUIModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.VisualScripting.Core",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.InputLegacyModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Sirenix.Utilities",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "DOTween.Modules",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Bilibili.BDS",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.ImageConversionModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "MiniExcel",
+          "version": "1.37.0.0"
+        },
+        {
+          "name": "UnityEngine.ScreenCaptureModule",
+          "version": "0.0.0.0"
+        }
+      ],
+      "sourceFiles": 1106,
+      "decompilerErrors": []
+    },
+    {
+      "name": "Assembly-CSharp",
+      "sha256": "e5f6f893763d3bfdd49c4c4e778f54562cab2ef237023c2c87c3806a8895e8cf",
+      "bytes": 211968,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.2,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 1.07,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.42,
+      "typeCount": 226,
+      "methodCount": 1295,
+      "fieldCount": 1155,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.PhysicsModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UI",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "UnityEngine.AnimationModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.ParticleSystemModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.RenderPipelines.Universal.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.Physics2DModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.TextRenderingModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UISplineRenderer",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.Splines",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "KAnimationCore.Runtime",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "FOW",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ECM2",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Cinemachine",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.InputLegacyModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "Unity.Mathematics",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.IMGUIModule",
+          "version": "0.0.0.0"
+        }
+      ],
+      "sourceFiles": 148,
+      "decompilerErrors": []
+    },
+    {
+      "name": "Bilibili.BDS",
+      "sha256": "fdab450812d5f35300a67e8aa99784cacc045604a8b75a305e35a2a30996ab45",
+      "bytes": 5120,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.16,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.6,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.28,
+      "typeCount": 8,
+      "methodCount": 7,
+      "fieldCount": 13,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        }
+      ],
+      "sourceFiles": 3,
+      "decompilerErrors": []
+    },
+    {
+      "name": "FlexReader",
+      "sha256": "8c31d0e8efda5a0e40b8bb79d2aebfbcfee0f23e0db17ce26c736dd5d9dc1cb1",
+      "bytes": 53760,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.19,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.72,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.37,
+      "typeCount": 77,
+      "methodCount": 378,
+      "fieldCount": 109,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "ICSharpCode.SharpZipLib",
+          "version": "2.86.0.518"
+        },
+        {
+          "name": "System.Xml",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        }
+      ],
+      "sourceFiles": 36,
+      "decompilerErrors": []
+    },
+    {
+      "name": "ItemStatsSystem",
+      "sha256": "a276e15c022f71b2214bd05e1b9b0f2e620c16561df576fed0b79c2fe4402e60",
+      "bytes": 98304,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.2,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 1.02,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.37,
+      "typeCount": 87,
+      "methodCount": 690,
+      "fieldCount": 343,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "Sirenix.OdinInspector.Attributes",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "UniTask",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "TeamSoda.Duckov.Utilities",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "SodaLocalization",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Sirenix.Utilities",
+          "version": "1.0.0.0"
+        }
+      ],
+      "sourceFiles": 44,
+      "decompilerErrors": []
+    },
+    {
+      "name": "PackageTools",
+      "sha256": "1c17c7d999615d35d6b001b9173fc80ebdca40c8c81bd48e8c195b931bc35cc7",
+      "bytes": 8704,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.17,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.61,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.3,
+      "typeCount": 12,
+      "methodCount": 25,
+      "fieldCount": 14,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Drawing",
+          "version": "0.0.0.0"
+        }
+      ],
+      "sourceFiles": 8,
+      "decompilerErrors": []
+    },
+    {
+      "name": "Plugins",
+      "sha256": "10c3b981c569e7d2c79c4aeafbf1bc142b0c0a274af812a15eef6838fb320e15",
+      "bytes": 23552,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.17,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.64,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.3,
+      "typeCount": 31,
+      "methodCount": 116,
+      "fieldCount": 61,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "Unity.InputSystem",
+          "version": "1.14.0.0"
+        },
+        {
+          "name": "Unity.TextMeshPro",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UI",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "FlexReader",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UIModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.TextRenderingModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        }
+      ],
+      "sourceFiles": 18,
+      "decompilerErrors": []
+    },
+    {
+      "name": "SodaLocalization",
+      "sha256": "f3af2174321f1193e8eea169b4d6050c5819efc927cf3ad42cde19aa54758c7c",
+      "bytes": 16384,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.17,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.64,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.3,
+      "typeCount": 23,
+      "methodCount": 90,
+      "fieldCount": 41,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "TeamSoda.MiniLocalizor",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "UnityEngine.UI",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "Unity.TextMeshPro",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        }
+      ],
+      "sourceFiles": 12,
+      "decompilerErrors": []
+    },
+    {
+      "name": "TeamSoda.Duckov.Utilities",
+      "sha256": "ad1f9a44ba67f4b01e255549d628c711e936cd8eee6ce1c9bb6c861d95f752a2",
+      "bytes": 29696,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.17,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.7,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.32,
+      "typeCount": 33,
+      "methodCount": 182,
+      "fieldCount": 74,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "Sirenix.OdinInspector.Attributes",
+          "version": "1.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System.Core",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "SodaLocalization",
+          "version": "0.0.0.0"
+        }
+      ],
+      "sourceFiles": 20,
+      "decompilerErrors": []
+    },
+    {
+      "name": "TeamSoda.MiniLocalizor",
+      "sha256": "624671bc9afaa475ae9443cd1327ce51fbe8ed9a47eb8d3f558b5784c8b7132a",
+      "bytes": 8192,
+      "category": "game-or-integration",
+      "metadata": "ok",
+      "metadataExit": 0,
+      "metadataSeconds": 0.18,
+      "csharp": "ok",
+      "csharpExit": 0,
+      "csharpSeconds": 0.68,
+      "il": "ok",
+      "ilExit": 0,
+      "ilSeconds": 0.32,
+      "typeCount": 9,
+      "methodCount": 23,
+      "fieldCount": 15,
+      "version": "0.0.0.0",
+      "machine": "I386",
+      "ilFailures": 0,
+      "references": [
+        {
+          "name": "mscorlib",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "UnityEngine.CoreModule",
+          "version": "0.0.0.0"
+        },
+        {
+          "name": "System",
+          "version": "4.0.0.0"
+        },
+        {
+          "name": "MiniExcel",
+          "version": "1.37.0.0"
+        }
+      ],
+      "sourceFiles": 5,
+      "decompilerErrors": []
+    }
+  ],
+  "types": 29961,
+  "methods": 249454,
+  "fields": 144780,
+  "failures": [
+    "NodeCanvas"
+  ],
+  "decompilerErrorFiles": 0,
+  "ilFailures": 0
+}

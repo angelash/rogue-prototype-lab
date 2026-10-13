@@ -1,0 +1,677 @@
+{
+  "date": "2026-10-13",
+  "apiPassed": true,
+  "checks": [
+    {
+      "name": "items-count",
+      "passed": true,
+      "details": {
+        "expected": 1569,
+        "actual": 1569
+      }
+    },
+    {
+      "name": "items-detail-0",
+      "passed": true,
+      "details": {
+        "key": "0"
+      }
+    },
+    {
+      "name": "items-detail-1",
+      "passed": true,
+      "details": {
+        "key": "1"
+      }
+    },
+    {
+      "name": "items-detail-53",
+      "passed": true,
+      "details": {
+        "key": "53"
+      }
+    },
+    {
+      "name": "quests-count",
+      "passed": true,
+      "details": {
+        "expected": 315,
+        "actual": 315
+      }
+    },
+    {
+      "name": "quests-detail--1",
+      "passed": true,
+      "details": {
+        "key": "-1"
+      }
+    },
+    {
+      "name": "quests-detail-0",
+      "passed": true,
+      "details": {
+        "key": "0"
+      }
+    },
+    {
+      "name": "quests-detail-48",
+      "passed": true,
+      "details": {
+        "key": "48"
+      }
+    },
+    {
+      "name": "recipes-count",
+      "passed": true,
+      "details": {
+        "expected": 269,
+        "actual": 269
+      }
+    },
+    {
+      "name": "recipes-detail-1001",
+      "passed": true,
+      "details": {
+        "key": "1001"
+      }
+    },
+    {
+      "name": "recipes-detail-1002",
+      "passed": true,
+      "details": {
+        "key": "1002"
+      }
+    },
+    {
+      "name": "recipes-detail-2010",
+      "passed": true,
+      "details": {
+        "key": "2010"
+      }
+    },
+    {
+      "name": "buildings-count",
+      "passed": true,
+      "details": {
+        "expected": 27,
+        "actual": 27
+      }
+    },
+    {
+      "name": "buildings-detail-Workbench",
+      "passed": true,
+      "details": {
+        "key": "Workbench"
+      }
+    },
+    {
+      "name": "buildings-detail-WorkbenchAdvance",
+      "passed": true,
+      "details": {
+        "key": "WorkbenchAdvance"
+      }
+    },
+    {
+      "name": "buildings-detail-Printer",
+      "passed": true,
+      "details": {
+        "key": "Printer"
+      }
+    },
+    {
+      "name": "merchants-count",
+      "passed": true,
+      "details": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "merchants-detail-Merchant_Normal",
+      "passed": true,
+      "details": {
+        "key": "Merchant_Normal"
+      }
+    },
+    {
+      "name": "merchants-detail-Merchant_Ming",
+      "passed": true,
+      "details": {
+        "key": "Merchant_Ming"
+      }
+    },
+    {
+      "name": "merchants-detail-Merchant_IslandMobile",
+      "passed": true,
+      "details": {
+        "key": "Merchant_IslandMobile"
+      }
+    },
+    {
+      "name": "crops-count",
+      "passed": true,
+      "details": {
+        "expected": 23,
+        "actual": 23
+      }
+    },
+    {
+      "name": "crops-detail-apple",
+      "passed": true,
+      "details": {
+        "key": "apple"
+      }
+    },
+    {
+      "name": "crops-detail-aubergine",
+      "passed": true,
+      "details": {
+        "key": "aubergine"
+      }
+    },
+    {
+      "name": "crops-detail-wheat",
+      "passed": true,
+      "details": {
+        "key": "wheat"
+      }
+    },
+    {
+      "name": "sceneInfos-count",
+      "passed": true,
+      "details": {
+        "expected": 55,
+        "actual": 55
+      }
+    },
+    {
+      "name": "sceneInfos-detail-Base",
+      "passed": true,
+      "details": {
+        "key": "Base"
+      }
+    },
+    {
+      "name": "sceneInfos-detail-Base_Scene",
+      "passed": true,
+      "details": {
+        "key": "Base_Scene"
+      }
+    },
+    {
+      "name": "sceneInfos-detail-Level_SnowMilitaryBase_Main",
+      "passed": true,
+      "details": {
+        "key": "Level_SnowMilitaryBase_Main"
+      }
+    },
+    {
+      "name": "enemyPresets-count",
+      "passed": true,
+      "details": {
+        "expected": 156,
+        "actual": 156
+      }
+    },
+    {
+      "name": "enemyPresets-detail-DummyEnemyCharacterRandomPresetLv 0",
+      "passed": true,
+      "details": {
+        "key": "DummyEnemyCharacterRandomPresetLv 0"
+      }
+    },
+    {
+      "name": "enemyPresets-detail-DummyEnemyCharacterRandomPresetLv 1",
+      "passed": true,
+      "details": {
+        "key": "DummyEnemyCharacterRandomPresetLv 1"
+      }
+    },
+    {
+      "name": "enemyPresets-detail-EnemyPreset_Boss_Island_UltraMan",
+      "passed": true,
+      "details": {
+        "key": "EnemyPreset_Boss_Island_UltraMan"
+      }
+    },
+    {
+      "name": "buffs-count",
+      "passed": true,
+      "details": {
+        "expected": 116,
+        "actual": 116
+      }
+    },
+    {
+      "name": "buffs-detail-1081",
+      "passed": true,
+      "details": {
+        "key": "1081"
+      }
+    },
+    {
+      "name": "buffs-detail-4001",
+      "passed": true,
+      "details": {
+        "key": "4001"
+      }
+    },
+    {
+      "name": "buffs-detail-1116",
+      "passed": true,
+      "details": {
+        "key": "1116"
+      }
+    },
+    {
+      "name": "perkTrees-count",
+      "passed": true,
+      "details": {
+        "expected": 10,
+        "actual": 10
+      }
+    },
+    {
+      "name": "perkTrees-detail-Blueprint",
+      "passed": true,
+      "details": {
+        "key": "Blueprint"
+      }
+    },
+    {
+      "name": "perkTrees-detail-PerkTree_Hacker",
+      "passed": true,
+      "details": {
+        "key": "PerkTree_Hacker"
+      }
+    },
+    {
+      "name": "perkTrees-detail-PerkTree_Farming",
+      "passed": true,
+      "details": {
+        "key": "PerkTree_Farming"
+      }
+    },
+    {
+      "name": "perks-count",
+      "passed": true,
+      "details": {
+        "expected": 163,
+        "actual": 163
+      }
+    },
+    {
+      "name": "perks-detail-resources.assets:77906",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:77906"
+      }
+    },
+    {
+      "name": "perks-detail-resources.assets:77918",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:77918"
+      }
+    },
+    {
+      "name": "perks-detail-resources.assets:88400",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:88400"
+      }
+    },
+    {
+      "name": "rules-count",
+      "passed": true,
+      "details": {
+        "expected": 7,
+        "actual": 7
+      }
+    },
+    {
+      "name": "rules-detail-0_Rule_ExtraEasy",
+      "passed": true,
+      "details": {
+        "key": "0_Rule_ExtraEasy"
+      }
+    },
+    {
+      "name": "rules-detail-1_Rule_Easy",
+      "passed": true,
+      "details": {
+        "key": "1_Rule_Easy"
+      }
+    },
+    {
+      "name": "rules-detail-x_Rule_Hard",
+      "passed": true,
+      "details": {
+        "key": "x_Rule_Hard"
+      }
+    },
+    {
+      "name": "levelConfigs-count",
+      "passed": true,
+      "details": {
+        "expected": 16,
+        "actual": 16
+      }
+    },
+    {
+      "name": "levelConfigs-detail-level11:413",
+      "passed": true,
+      "details": {
+        "key": "level11:413"
+      }
+    },
+    {
+      "name": "levelConfigs-detail-level13:164",
+      "passed": true,
+      "details": {
+        "key": "level13:164"
+      }
+    },
+    {
+      "name": "levelConfigs-detail-level61:563",
+      "passed": true,
+      "details": {
+        "key": "level61:563"
+      }
+    },
+    {
+      "name": "lootLoaders-count",
+      "passed": true,
+      "details": {
+        "expected": 5653,
+        "actual": 5653
+      }
+    },
+    {
+      "name": "lootLoaders-detail-level10:285402",
+      "passed": true,
+      "details": {
+        "key": "level10:285402"
+      }
+    },
+    {
+      "name": "lootLoaders-detail-level10:286212",
+      "passed": true,
+      "details": {
+        "key": "level10:286212"
+      }
+    },
+    {
+      "name": "lootLoaders-detail-level10:287394",
+      "passed": true,
+      "details": {
+        "key": "level10:287394"
+      }
+    },
+    {
+      "name": "lootSpawners-count",
+      "passed": true,
+      "details": {
+        "expected": 388,
+        "actual": 388
+      }
+    },
+    {
+      "name": "lootSpawners-detail-level10:287550",
+      "passed": true,
+      "details": {
+        "key": "level10:287550"
+      }
+    },
+    {
+      "name": "lootSpawners-detail-level10:287643",
+      "passed": true,
+      "details": {
+        "key": "level10:287643"
+      }
+    },
+    {
+      "name": "lootSpawners-detail-level15:4402",
+      "passed": true,
+      "details": {
+        "key": "level15:4402"
+      }
+    },
+    {
+      "name": "bossPresets-count",
+      "passed": true,
+      "details": {
+        "expected": 61,
+        "actual": 61
+      }
+    },
+    {
+      "name": "bossPresets-detail-EnemyPreset_BossMelee_SchoolBully",
+      "passed": true,
+      "details": {
+        "key": "EnemyPreset_BossMelee_SchoolBully"
+      }
+    },
+    {
+      "name": "bossPresets-detail-EnemyPreset_Boss_3Shot",
+      "passed": true,
+      "details": {
+        "key": "EnemyPreset_Boss_3Shot"
+      }
+    },
+    {
+      "name": "bossPresets-detail-EnemyPreset_Boss_Storm_2_Poison",
+      "passed": true,
+      "details": {
+        "key": "EnemyPreset_Boss_Storm_2_Poison"
+      }
+    },
+    {
+      "name": "gameplay-count",
+      "passed": true,
+      "details": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "gameplay-detail-resources.assets:76721",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:76721"
+      }
+    },
+    {
+      "name": "gameplay-detail-resources.assets:76721",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:76721"
+      }
+    },
+    {
+      "name": "families-count",
+      "passed": true,
+      "details": {
+        "expected": 1053,
+        "actual": 1053
+      }
+    },
+    {
+      "name": "families-detail-(unresolved script)",
+      "passed": true,
+      "details": {
+        "key": "(unresolved script)"
+      }
+    },
+    {
+      "name": "families-detail-ADSAimMarker",
+      "passed": true,
+      "details": {
+        "key": "ADSAimMarker"
+      }
+    },
+    {
+      "name": "families-detail-CA_Attack",
+      "passed": true,
+      "details": {
+        "key": "CA_Attack"
+      }
+    },
+    {
+      "name": "graphs-count",
+      "passed": true,
+      "details": {
+        "expected": 16,
+        "actual": 16
+      }
+    },
+    {
+      "name": "graphs-detail-resources.assets:76579",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:76579"
+      }
+    },
+    {
+      "name": "graphs-detail-resources.assets:76321",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:76321"
+      }
+    },
+    {
+      "name": "graphs-detail-resources.assets:76335",
+      "passed": true,
+      "details": {
+        "key": "resources.assets:76335"
+      }
+    },
+    {
+      "name": "scenes-count",
+      "passed": true,
+      "details": {
+        "expected": 63,
+        "actual": 63
+      }
+    },
+    {
+      "name": "scenes-detail-0",
+      "passed": true,
+      "details": {
+        "key": "0"
+      }
+    },
+    {
+      "name": "scenes-detail-1",
+      "passed": true,
+      "details": {
+        "key": "1"
+      }
+    },
+    {
+      "name": "scenes-detail-49",
+      "passed": true,
+      "details": {
+        "key": "49"
+      }
+    },
+    {
+      "name": "pagination",
+      "passed": true,
+      "details": {
+        "page": 1
+      }
+    },
+    {
+      "name": "code-health-methods",
+      "passed": true,
+      "details": {
+        "type": "Health",
+        "methods": 34
+      }
+    },
+    {
+      "name": "read-only-csharp-body",
+      "passed": true,
+      "details": {
+        "bytes": 11602,
+        "type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "name": "object-script-filter",
+      "passed": true,
+      "details": {
+        "total": 5653
+      }
+    },
+    {
+      "name": "sprite-media",
+      "passed": true,
+      "details": {
+        "bytes": 27605
+      }
+    },
+    {
+      "name": "media-confined-/media/../content-catalog.json",
+      "passed": true,
+      "details": {
+        "expectedHTTP": 400
+      }
+    },
+    {
+      "name": "media-confined-/media/%2e%2e%2fcontent-catalog.json",
+      "passed": true,
+      "details": {
+        "expectedHTTP": 400
+      }
+    },
+    {
+      "name": "media-confined-/source/../content-catalog.json",
+      "passed": true,
+      "details": {
+        "expectedHTTP": 400
+      }
+    },
+    {
+      "name": "audio-total",
+      "passed": true,
+      "details": {
+        "total": 373
+      }
+    },
+    {
+      "name": "samples-total",
+      "passed": true,
+      "details": {
+        "total": 568
+      }
+    },
+    {
+      "name": "code-total",
+      "passed": true,
+      "details": {
+        "total": 29961
+      }
+    },
+    {
+      "name": "objects-total",
+      "passed": true,
+      "details": {
+        "total": 1601352
+      }
+    }
+  ],
+  "browserChecks": [
+    "Chinese item list and item configuration",
+    "Item icon -> Sprite -> PNG visible",
+    "QuestRelation graph details",
+    "Health code search and methods",
+    "Recipe registry detail",
+    "Pagination and audio control",
+    "Local C# and full IL links visibly available"
+  ],
+  "browserVerified": true,
+  "browserDate": "2026-10-13",
+  "noAudioPlayback": true
+}

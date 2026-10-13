@@ -1,0 +1,247 @@
+{
+  "categories": {
+    "items": 1569,
+    "quests": 315,
+    "recipes": 269,
+    "buildings": 27,
+    "merchants": 12,
+    "crops": 23,
+    "sceneInfos": 55,
+    "enemyPresets": 156,
+    "buffs": 116,
+    "perkTrees": 10,
+    "perks": 163,
+    "rules": 7,
+    "levelConfigs": 16,
+    "lootLoaders": 5653,
+    "lootSpawners": 388,
+    "bossPresets": 61,
+    "families": 1053,
+    "graphs": 16,
+    "scenes": 63
+  },
+  "registries": {
+    "items": "resources.assets:76722",
+    "quests": "resources.assets:76578",
+    "recipes": "resources.assets:76575",
+    "buildings": "resources.assets:76418",
+    "merchants": "resources.assets:76730",
+    "crops": "resources.assets:76417",
+    "sceneInfos": "resources.assets:76724",
+    "gameplay": "resources.assets:76721"
+  },
+  "localization": [
+    {
+      "language": "ChineseSimplified",
+      "rows": 5857,
+      "keys": 5857,
+      "empty": 14,
+      "duplicates": [],
+      "sheets": {
+        "Buffs": 164,
+        "Buildings": 24,
+        "Characters": 89,
+        "Default": 711,
+        "Dialogues": 124,
+        "Interact": 132,
+        "Items": 2942,
+        "Locations": 9,
+        "Options": 26,
+        "Perks": 212,
+        "Properties": 156,
+        "Quests": 683,
+        "ScenesAndLocations": 16,
+        "Tags": 127,
+        "TasksAndRewards": 25,
+        "UIText": 414,
+        "": 1,
+        "Note": 2
+      },
+      "missingVsSimplified": 0,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "ChineseTraditional",
+      "rows": 5837,
+      "keys": 5837,
+      "empty": 0,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5820,
+        "Dialogues": 1,
+        "UIText": 2,
+        "Options": 1,
+        "Items": 12,
+        "Tags": 1
+      },
+      "missingVsSimplified": 20,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "English",
+      "rows": 5840,
+      "keys": 5840,
+      "empty": 0,
+      "duplicates": [],
+      "sheets": {
+        "Buffs": 53,
+        "Buildings": 23,
+        "Characters": 35,
+        "Default": 3676,
+        "Dialogues": 76,
+        "Interact": 58,
+        "Items": 1186,
+        "Locations": 9,
+        "Options": 17,
+        "Perks": 53,
+        "Properties": 104,
+        "Quests": 153,
+        "ScenesAndLocations": 16,
+        "Tags": 74,
+        "TasksAndRewards": 20,
+        "UIText": 286,
+        "UIText ": 1
+      },
+      "missingVsSimplified": 20,
+      "extraVsSimplified": 3
+    },
+    {
+      "language": "French",
+      "rows": 5838,
+      "keys": 5838,
+      "empty": 1,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5824,
+        "Items": 13,
+        "Tags": 1
+      },
+      "missingVsSimplified": 19,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "German",
+      "rows": 5838,
+      "keys": 5838,
+      "empty": 1,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5824,
+        "Items": 13,
+        "Tags": 1
+      },
+      "missingVsSimplified": 19,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "Japanese",
+      "rows": 5837,
+      "keys": 5837,
+      "empty": 0,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5810,
+        "UIText": 2,
+        "Items": 20,
+        "Options": 1,
+        "Buffs": 3,
+        "Tags": 1
+      },
+      "missingVsSimplified": 20,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "Korean",
+      "rows": 5837,
+      "keys": 5837,
+      "empty": 0,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5819,
+        "Items": 17,
+        "Tags": 1
+      },
+      "missingVsSimplified": 20,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "Portuguese",
+      "rows": 5838,
+      "keys": 5838,
+      "empty": 1,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5824,
+        "Items": 13,
+        "Tags": 1
+      },
+      "missingVsSimplified": 19,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "Russian",
+      "rows": 5834,
+      "keys": 5834,
+      "empty": 1,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5820,
+        "Items": 13,
+        "Tags": 1
+      },
+      "missingVsSimplified": 23,
+      "extraVsSimplified": 0
+    },
+    {
+      "language": "Spanish",
+      "rows": 5838,
+      "keys": 5838,
+      "empty": 1,
+      "duplicates": [],
+      "sheets": {
+        "Default": 5826,
+        "Items": 11,
+        "Tags": 1
+      },
+      "missingVsSimplified": 19,
+      "extraVsSimplified": 0
+    }
+  ],
+  "taskTypes": {
+    "Duckov.Quests.Tasks.QuestTask_ConstructBuilding": 12,
+    "Duckov.Quests.Tasks.QuestTask_ReachLocation": 37,
+    "Duckov.Quests.Tasks.SubmitItems": 250,
+    "Duckov.Quests.Tasks.QuestTask_Evacuate": 6,
+    "Duckov.Quests.Tasks.QuestTask_UnlockPerk": 5,
+    "Duckov.Quests.Tasks.QuestTask_TaskEvent": 58,
+    "Duckov.Quests.Tasks.QuestTask_KillCount": 124,
+    "Duckov.Quests.Tasks.QuestTask_UseItem": 2,
+    "Duckov.Quests.QuestTask_UnlockBeacon": 6,
+    "Duckov.Quests.Tasks.QuestTask_SubmitMoney": 5,
+    "Duckov.Quests.Tasks.QuestTask_CheckSaveData": 7,
+    "Duckov.Quests.QuestTask_Snake_Score": 7,
+    "Duckov.Quests.QuestTask_GoldMiner_Level": 1,
+    "Duckov.Quests.QuestTask_BubblePopper_Level": 1,
+    "Duckov.Quests.QuestTask_MouseDodger_Score": 1
+  },
+  "rewardTypes": {
+    "Duckov.Quests.Rewards.QuestReward_EXP": 304,
+    "Duckov.Quests.Rewards.QuestReward_Money": 281,
+    "Duckov.Quests.RewardItem": 101,
+    "Duckov.Quests.Rewards.QuestReward_UnlockStockItem": 159
+  },
+  "issues": [],
+  "itemPrefabNull": 0,
+  "questTasks": 522,
+  "questRewards": 846,
+  "questValidRewards": 845,
+  "nullQuestSlots": [
+    {
+      "quest": 939,
+      "objectID": "resources.assets:103691",
+      "kind": "rewards",
+      "index": 2
+    }
+  ],
+  "note": "Registry entries and static objects; no claim of runtime reachability."
+}

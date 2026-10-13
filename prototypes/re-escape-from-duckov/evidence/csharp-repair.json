@@ -1,0 +1,21 @@
+{
+  "assembly": "NodeCanvas",
+  "allTypes": 376,
+  "topLevelTypes": 302,
+  "syntheticTypesRepresentedInIL": [
+    "<PrivateImplementationDetails>"
+  ],
+  "projectEmptyOrMissingTypes": [
+    "UnitySourceGeneratedAssemblyMonoScriptTypes_v1",
+    "NodeCanvas.Tasks.Actions.SetOtherBlackboardVariable"
+  ],
+  "recoveredTypes": [
+    "UnitySourceGeneratedAssemblyMonoScriptTypes_v1"
+  ],
+  "remainingCsharpTypes": [
+    "NodeCanvas.Tasks.Actions.SetOtherBlackboardVariable"
+  ],
+  "fullIL": true,
+  "originalDLL": true,
+  "repairSource": "local/decompiled-repairs/NodeCanvas/recover-0.cs"
+}

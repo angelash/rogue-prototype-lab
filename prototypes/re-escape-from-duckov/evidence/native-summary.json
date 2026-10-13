@@ -1,0 +1,74 @@
+[
+  {
+    "path": "Duckov.exe",
+    "bits": 64,
+    "bytes": 666624,
+    "sha256": "7706a7047b45ffe7e23f041dc5ff229faccba62fee99b8b66cf20d5b90aa5beb",
+    "exports": 2,
+    "imports": 72
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/fmodstudio.dll",
+    "bits": 64,
+    "bytes": 3249152,
+    "sha256": "983887c96299e9e335b1318bd3d36438bdba02fec670894784ed0c60ed9c8576",
+    "exports": 1492,
+    "imports": 140
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/lib_burst_generated.dll",
+    "bits": 64,
+    "bytes": 1340416,
+    "sha256": "cca2753d2839b417b80391ebe07d07f4b21c80d49a38f1a83ae08162c2c73bec",
+    "exports": 901,
+    "imports": 0
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/resonanceaudio.dll",
+    "bits": 64,
+    "bytes": 816640,
+    "sha256": "e1667e5336ae067ab1d9aa04e7bcca9789ff5573ed4c7f6fa9305404d0485f99",
+    "exports": 4,
+    "imports": 81
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/steam_api64.dll",
+    "bits": 64,
+    "bytes": 319584,
+    "sha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d",
+    "exports": 1089,
+    "imports": 95
+  },
+  {
+    "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+    "bits": 64,
+    "bytes": 7897520,
+    "sha256": "309cea0f174b1688e2984c97d8c12b89db0e60e75375b3c7a1f39d3f2f8d1bf6",
+    "exports": 1237,
+    "imports": 316
+  },
+  {
+    "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+    "bits": 64,
+    "bytes": 611240,
+    "sha256": "085802a35347b99661dc8f9fd23f9e6484a45738c09190641aa73f34629d41d1",
+    "exports": 131,
+    "imports": 96
+  },
+  {
+    "path": "UnityCrashHandler64.exe",
+    "bits": 64,
+    "bytes": 1185192,
+    "sha256": "93e0b4b929621c9aaa728e3a6d68ec6d47e6182e7eb9915a4cd5351678eb67e4",
+    "exports": 0,
+    "imports": 221
+  },
+  {
+    "path": "UnityPlayer.dll",
+    "bits": 64,
+    "bytes": 31100840,
+    "sha256": "a8dcc8f6f4cbee3da56552a4adbe56724228a0efcc2fcd737b516933f0418081",
+    "exports": 2,
+    "imports": 502
+  }
+]

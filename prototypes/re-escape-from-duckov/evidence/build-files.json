@@ -1,0 +1,2798 @@
+[
+  {
+    "path": "Duckov.exe",
+    "bytes": 666624,
+    "sha256": "7706a7047b45ffe7e23f041dc5ff229faccba62fee99b8b66cf20d5b90aa5beb",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+    "bytes": 316024,
+    "sha256": "9e3af41bcdc47d3cad9dcefa8c8e8b9b16a07d90631ad5d821119f05640abb10",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/app.info",
+    "bytes": 15,
+    "sha256": "6f7e697eb87b9284d96ee554151c1433cf2d04e363f810ac8b83c51d34b39f8e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/boot.config",
+    "bytes": 130,
+    "sha256": "9e2013451708b1618396ba0238c785c2b04cfb0ac83793f699a6f35f250a3692",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/globalgamemanagers",
+    "bytes": 5818180,
+    "sha256": "73e4d8727c17856cc4ae823431a1682b6141da489994bcfec2df2b282f8a3221",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/globalgamemanagers.assets",
+    "bytes": 1853628,
+    "sha256": "0133f6b828ca2a638e1105742986998bcab32963bdd6429bfc2f5213016d2f82",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/globalgamemanagers.assets.resS",
+    "bytes": 6158560,
+    "sha256": "de648fe0c01bea4e6738a56b43fab2b13a02d089b26e2e65a95e27d2973a6e44",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level0",
+    "bytes": 755220,
+    "sha256": "71f4aa6adcf717fd75e9ff7fd48967648e978ad11d2bcfaa8d4e61126b00ec70",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level0.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level1",
+    "bytes": 1496324,
+    "sha256": "95e906ef92d6e67907ba35d7c6f4dcc582042700a91bc31264d3816c9aa200da",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level1.resS",
+    "bytes": 131232,
+    "sha256": "fbe949afe63fc916b6db0e313a13837d0c7799bf2fef3b2185f0b9dcdc75d059",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level10",
+    "bytes": 39631420,
+    "sha256": "05b43734f8cd498dfe189e7d0aa1fe2f8ddcce3245e7f98867534eb5ceb3779d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level10.resS",
+    "bytes": 6422000,
+    "sha256": "af6b0d58b768fe9d5c2cd6ba5d2c524073e0aee48e669babb562f4a89f11f992",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level11",
+    "bytes": 99868,
+    "sha256": "99f1ea89ea431feb76fcaef27721f74c54ee41bc0f5b44ad7f0ce587baa63890",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level11.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level12",
+    "bytes": 3646336,
+    "sha256": "1ca60fca0bfe1a0d2856d02f23fad4bdf59e19a5560ce20e698bd900529c2c28",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level13",
+    "bytes": 69604,
+    "sha256": "6f1bf14ff696c0d4cd64468a26e8e4d03d2de4cb0b15b36189608c420479f6f8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level14",
+    "bytes": 6933828,
+    "sha256": "3713a31e20b838ab306275e447254e400a0cb788f56911ae2d3f432edebd329d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level15",
+    "bytes": 717696,
+    "sha256": "b79630672cc2251dfaeab4907faebd59faf94670ae6bc2a77cb06efbfb651f43",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level16",
+    "bytes": 67748,
+    "sha256": "61228f479638183e5f6f4d038a01c812e94b03307ca10d17c7d960b058c5c881",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level17",
+    "bytes": 428956,
+    "sha256": "119ee6ca316121d37f5b582668b19111fbd4139667ac85b0358af79a6f978ef2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level18",
+    "bytes": 97860,
+    "sha256": "b793c748041d1201bf716cf7777fad2c447a46cce3801b093a7f47055572f784",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level19",
+    "bytes": 7024592,
+    "sha256": "873a8bf907e68f74cee3347ccf3ad54a8283752180dba105d3ea5586fac4e4a2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level2",
+    "bytes": 29936,
+    "sha256": "4706d9c294675b2383b05517e51f33090811a861c9626ac2c85a6bdc6c54f87c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level2.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level20",
+    "bytes": 127916,
+    "sha256": "1397f906c3b0a2a09479e6f5252044c923f9f877254ed49901de9dacd38cdb64",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level20.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level21",
+    "bytes": 130608,
+    "sha256": "865367da71533f9f380812a55c521f5a76944b28c2934a61e1fdfb3d6fa6f343",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level21.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level22",
+    "bytes": 1213804,
+    "sha256": "bcf6b2952038c74cf3aba9b952db1d28dd5d5a52d5386703121bea615e23e9d0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level22.resS",
+    "bytes": 131232,
+    "sha256": "bb1b8ba1bda469d3763746a85fb902f62c8932421a9d0d4e580cd14cc63007f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level23",
+    "bytes": 2479252,
+    "sha256": "003632de57046781b663d7ddd645f8de9491d42f4fb49f61b6c6d6eaf359033d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level24",
+    "bytes": 2546884,
+    "sha256": "d2ee3cd45fe13302568d8157f797f1fcecdbccc62e7be1cf8018781a9a89784c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level25",
+    "bytes": 126900,
+    "sha256": "be7660338a4c2c5351a2d38e689a32135b27c9da88fc55c0a47d0b6e3f82a3ba",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level26",
+    "bytes": 195600,
+    "sha256": "e836c207d61fa9809ee004206f20fdd141ab9e40df1d13f0d5d6ca029fbce5ff",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level26.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level27",
+    "bytes": 129388,
+    "sha256": "552495ee1f82197ce00e7ddb4edf98828b5a728c2e71fffeb2cbdc39df69383e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level27.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level28",
+    "bytes": 127620,
+    "sha256": "e52e5dec09a0b0c9fefff5047907088109f740aec14d0a76292022f35a80a9a8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level28.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level29",
+    "bytes": 111932,
+    "sha256": "c515777955ef3a90197b94996c32412eedfb70d4cacae8db3b30439f55fde5e3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level29.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level3",
+    "bytes": 126396,
+    "sha256": "19ee89ebeae402fd217f57d75704882ed38c80518a73577788717a8f3e48241f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level30",
+    "bytes": 97524,
+    "sha256": "1e813c9d2fa47529b5ca03a2e1b88d4571274ad108c32ac161e949384fe539ea",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level30.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level31",
+    "bytes": 14116656,
+    "sha256": "eaa64987d590b1289fbb373cf4424d05fc7a33bb43a9bcc927ea12bde806ec1f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level31.resS",
+    "bytes": 2833824,
+    "sha256": "d73227c077b56ddb59c61346e341780e64b22033fc82618f0f6342b2f7994c9e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level32",
+    "bytes": 8049884,
+    "sha256": "34337bfede0610b8e10770930b48934146bc0d14527a2160a2b9957af74d6846",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level33",
+    "bytes": 95796,
+    "sha256": "31e4cd8be37231e0831bcc733cc7df931585918bd1bbfdff60390c7ed6feb22d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level33.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level34",
+    "bytes": 18199924,
+    "sha256": "17976a99a47e26d0f63d3424544f95ea5c9c9249abead7945f334914b9b563b5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level34.resS",
+    "bytes": 8603760,
+    "sha256": "0553fd8805ecb2df1e25cf4a47ff44d0b624869904b2ba70d5e475b4591bf554",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level35",
+    "bytes": 2540,
+    "sha256": "b75d476903a1cb04567b8cf1af1aea81f19b704f33db9a6e3f11c94005739ece",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level35.resS",
+    "bytes": 131232,
+    "sha256": "003395a68e54b50c7758ee0063ee80f1fab500c81b0315423fee9fcddcd27b3a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level36",
+    "bytes": 1866724,
+    "sha256": "12e243abbfa925b0aaedf25a704164593375a6657f8e700556a63b83a607467d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level36.resS",
+    "bytes": 131232,
+    "sha256": "dd2c8b3a1640f94cad47981cf0c29180fc1a2987c96995a26b1e2c90e9e3868c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level37",
+    "bytes": 95908,
+    "sha256": "4aba73b4ba8befafc2826ee34625b96029d6b451e2c0fd7d7a27d17a2d1e9dc9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level38",
+    "bytes": 93516,
+    "sha256": "913d2f4dd8ed0d3a07cf145fd0b76f668098a83e30e975e9414d3f2476a43e25",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level39",
+    "bytes": 4796700,
+    "sha256": "f77dfb82cbb5208e8395c2296b53eefd261a9f563d76977e4ac63393752fd517",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level39.resS",
+    "bytes": 4377760,
+    "sha256": "c64998aa0015fcc2abb7d6616358d611174da07659ef7ad134a31277297a0fe2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level4",
+    "bytes": 1110524,
+    "sha256": "7a60db1df121cb4d2ac7806dca3d201e9d37698e48e47f1ba831f768c365030e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level40",
+    "bytes": 75716,
+    "sha256": "7058ed545d0b8c048305ec36b0d489d3acfc0d87c3ab24454620cadf488530b7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level41",
+    "bytes": 9771360,
+    "sha256": "c49e7bcb00f8f5ed5cdef4fca97889a9d889bfcf932adb15a9490295396a3425",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level42",
+    "bytes": 7191384,
+    "sha256": "393e7c370221f80090d11ddc5d0ef93a0d1785ce90c919a5a51727a175ed71d7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level43",
+    "bytes": 2390124,
+    "sha256": "25484b5a5433b52447169c8c4d7b50a50da07ff6c402c75f24ea00ea06e77131",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level44",
+    "bytes": 2600136,
+    "sha256": "86554ec4edbe0cd7df5f8fbf08ef5a5c5f06f73d710d48855813d11d602b1aa5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level45",
+    "bytes": 3498340,
+    "sha256": "2c10fe22a42bdab960720f30eb74833dd566f80a7cbf3722d7a28fe6877e305f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level46",
+    "bytes": 2740864,
+    "sha256": "ba28e21783d9144944f7016af8bbd1a6d928f9855fe324f17c080b91c5fb7020",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level47",
+    "bytes": 700656,
+    "sha256": "4135de0274b59894d59f23288c055fd6925a4d0ffc9288c6f5f5c5af40565790",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level48",
+    "bytes": 24416140,
+    "sha256": "4f5ccebdb109b7e103af69e6c4c2190d6d6ae366c0db6f866baac4d24dd9fad3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level48.resS",
+    "bytes": 1429056,
+    "sha256": "3518fc9fa0f50826b052ee92c5f81c52de33ceac8ddd60a78a1f74f04040c5db",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level49",
+    "bytes": 95268,
+    "sha256": "36988ca4f63df8656c0b2d2413b96c73a5a3eb3ddaea3f19b142c0dc43787893",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level5",
+    "bytes": 1239292,
+    "sha256": "ce6d7a2d14a2bd3b3b8d69e598841af97d06c313a3a7e1a70b170f6c4d6152d4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level50",
+    "bytes": 2996248,
+    "sha256": "62048e0028619667e7d6e68fa9b3b901e84d0ee7ddf0b1a3642505f714dbf213",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level50.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level51",
+    "bytes": 93900,
+    "sha256": "725ab9e22c6b89f25ad91cb797e8b767ed2ca8b06d50bd5007858df97ff62f77",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level51.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level52",
+    "bytes": 135500,
+    "sha256": "eeff8b25197a41ac4ff99ea1c4702c04aef5578627362af4c16485e4be620069",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level52.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level53",
+    "bytes": 129396,
+    "sha256": "97ce91052f27e5ebd1699316d80e70d8fdd1360bf634540502362f895c08798d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level53.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level54",
+    "bytes": 100260,
+    "sha256": "ded99faf7b8e7f914ec339eb42f0254721d512c09b678596aa0723b680fb132f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level54.resS",
+    "bytes": 131232,
+    "sha256": "9f143cbe2738e8fbeb373061136f795703886623d757477bdbe692eb7afab553",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level55",
+    "bytes": 4547876,
+    "sha256": "35ea9765ca07d88d8a7cbad0d5e40b59b392d3698a5b61155857e4aa01c63768",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level56",
+    "bytes": 95100,
+    "sha256": "99ea3812acc89e21e034efae4c82d0388af04a7f751c4a4e6da776da1a69a632",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level57",
+    "bytes": 1683896,
+    "sha256": "bdf2d29005ee3b1d6f2d6f5fb7d43bbb43d44f16ae3bebae31e0b7d9f001f344",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level57.resS",
+    "bytes": 131232,
+    "sha256": "dd2c8b3a1640f94cad47981cf0c29180fc1a2987c96995a26b1e2c90e9e3868c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level58",
+    "bytes": 69116,
+    "sha256": "585e3a4fb71c421cdd69a1f26b277efb0dd36bd4f68eba3f55d058e900b8a627",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level59",
+    "bytes": 9623936,
+    "sha256": "4464bb65474d56c46f96d658c49e1117c384850efd8d9775e15bbbc846d1693c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level6",
+    "bytes": 1409008,
+    "sha256": "16bf98c7d03aa06a97496291b6d474b965dee367b27318d2be48c7659fa93342",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level60",
+    "bytes": 8145860,
+    "sha256": "cf16a97e48a00d38942f21b26cdd8603524f29630dbedc3ab509d1fa60d9a821",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level60.resS",
+    "bytes": 475648,
+    "sha256": "f20a01bd9549205dae9bea36b4bc1a73d8f4974cf3182c2425060f15c403c070",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level61",
+    "bytes": 120836,
+    "sha256": "3c3c93a9846817c72a4d694dafa554db196f8dcf49548dd13f8d6d3130c0716b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level61.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level62",
+    "bytes": 112516,
+    "sha256": "93f64e9a991aca44609492c0d7eea94bc6699540fe8e1c1104626da78083315c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level62.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level7",
+    "bytes": 2812,
+    "sha256": "0088cc62f61beea7556b67891a0ae338b56e4468a9d9ce79f27fa7754c635038",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level7.resS",
+    "bytes": 131232,
+    "sha256": "26462d370ef96afbc1742bdeba6609713eb6727a87df8d1cf3f54ef0dad1d384",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level8",
+    "bytes": 31788,
+    "sha256": "b038b0449a998206fc2d58817db783fd7e2a1f699bb5c7d2f500d11cde2a6328",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level8.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level9",
+    "bytes": 101852,
+    "sha256": "ab8c3b0dffbe353bfd9e3f87875380eb9d7f48d95416e190196622e933216804",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/level9.resS",
+    "bytes": 131232,
+    "sha256": "5d84ea4cfb54d6329354d3b69443f3f61193220ab9a88a56050bc29d10e238f7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ALINE.dll",
+    "bytes": 153088,
+    "sha256": "916fa8550c79c6d1e9bbdd5119b21bc57327fbacc7c745260af49e1e32635eef",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/andywiecko.BurstTriangulator.dll",
+    "bytes": 69632,
+    "sha256": "2ab3bdc02302731eeb50f4b7ef7cb2f0bc43cfb93d76f3603ba31f5d2fd5d0c7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Animancer.dll",
+    "bytes": 199168,
+    "sha256": "600d8e648a068b7905dccd32176061d600761b2656a3d14c7499e5227e2b63e5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Animancer.FSM.dll",
+    "bytes": 20992,
+    "sha256": "3b66fe5e1ac9fbbcc1d5451b47c96fe85e8967011a7398997d9a601226f2529e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Assembly-CSharp.dll",
+    "bytes": 211968,
+    "sha256": "e5f6f893763d3bfdd49c4c4e778f54562cab2ef237023c2c87c3806a8895e8cf",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/AstarPathfindingProject.dll",
+    "bytes": 956928,
+    "sha256": "d0630d72f2ac9953d65084528221e0601e407e55fd39751f3da84831b4f0fd05",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/BakeryRuntimeAssembly.dll",
+    "bytes": 21504,
+    "sha256": "efd1493bd31433877098d8efeefd0be4cb105023be683f71b3265aabbf5fbfb2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Bilibili.BDS.dll",
+    "bytes": 5120,
+    "sha256": "fdab450812d5f35300a67e8aa99784cacc045604a8b75a305e35a2a30996ab45",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Cinemachine.dll",
+    "bytes": 311296,
+    "sha256": "e22b30d7343ac29e95136f7cf8b9943aa7f066d7bedf51d110daa783824ab0e9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Clipper2Lib.dll",
+    "bytes": 87040,
+    "sha256": "4ae4b585afa04f38ba997c902d47c66182888309f441fb8024805c6e13cbb232",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/com.rlabrecque.steamworks.net.dll",
+    "bytes": 417280,
+    "sha256": "8c63314283762da31ca4417f96cbfabfcd1795365fbb4be0901d25add9f6ab2b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/DemiLib.dll",
+    "bytes": 13312,
+    "sha256": "aeddf43c10c1d8b8ae26d83ac75b227dd73ee64c36bf72ac59e893b7b517468e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/DOTween.dll",
+    "bytes": 172032,
+    "sha256": "a5d5f45d862b2fbc6f4597c2fd01d31f505918459005c461b7142cf898f3b861",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/DOTween.Modules.dll",
+    "bytes": 45568,
+    "sha256": "afe49b7cdf3ab0135ca147a253b1ea8cc8d68d59c4a657dc1dffa34f1d373c8f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/DOTweenPro.dll",
+    "bytes": 15872,
+    "sha256": "a067e3ad9d73f8ae07309b278592ea94f9cf431c646a764c294b8f5531b6aaa1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/DOTweenPro.Scripts.dll",
+    "bytes": 42496,
+    "sha256": "ac7f470b513f5500ff85b6487f5924bb51f83a459fd0f6e1a0e6f719eccf79a9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Drawing.dll",
+    "bytes": 126976,
+    "sha256": "ae72e2b97732ffdbeaf314a13f9f337baaa4c86e5b1e39cffaf1c490e8cec206",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EasySave3.dll",
+    "bytes": 300544,
+    "sha256": "cc5d0ee3a35d5bff1fe275d2e05bb8a260f39cc5390ee816df38d2ed32859e45",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ECM2.dll",
+    "bytes": 93184,
+    "sha256": "ba45d8adb10679666f10ab754d99029fcb8391642ce049f686676d3b55bc3b19",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Eflatun.SceneReference.dll",
+    "bytes": 29184,
+    "sha256": "1dfa63230740651aef182038de2cb8734d65f4b656c58a6ad51121395d51ec61",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EPO.dll",
+    "bytes": 60416,
+    "sha256": "e89210dd87aa22e05f8ce932e45e6f6382f29b6a11c053ba80818f2e2abeecfe",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EPODemo.dll",
+    "bytes": 14848,
+    "sha256": "df7547966d13f2162c725c091367ab4ccb8754d1ee52646bffa757472f5e28b9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EPOHDRP.dll",
+    "bytes": 4096,
+    "sha256": "b6d0736c5df01026936999b34ec5d7e4a7d1a7b769d3915d53b7882ca7ac520d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EPOURP.dll",
+    "bytes": 9728,
+    "sha256": "720a6ec060dc73a06d22457a08063f79ad18a6f752b2c388ea1cf478577cf0d0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/EPOUtilities.dll",
+    "bytes": 5632,
+    "sha256": "dedcdc78318f1e988f29c7b356c792a54dc25c54d81de7522d047c013303916f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/FlexReader.dll",
+    "bytes": 53760,
+    "sha256": "8c31d0e8efda5a0e40b8bb79d2aebfbcfee0f23e0db17ce26c736dd5d9dc1cb1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/FMODUnity.dll",
+    "bytes": 233984,
+    "sha256": "409c228c721bf86eea080bc536daa14125f5791019f4f06de7dab2598dfe1334",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/FMODUnityResonance.dll",
+    "bytes": 11264,
+    "sha256": "bd0ddfd8286b9e70a9af98cf2865fe306a5547f959f8238f8c2742d7d1c5462c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/FOW.dll",
+    "bytes": 60928,
+    "sha256": "081a09d702d978c471ec3dce8ace277c317e595d7970d4b89c0c513de2da81be",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/HBAO.Demo.Runtime.dll",
+    "bytes": 5632,
+    "sha256": "e471a32b99a7ec5776f6956789915760ea7b03d95b75c3caa897e15ca1029fd3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/HBAO.Demo.Universal.Runtime.dll",
+    "bytes": 6144,
+    "sha256": "ca264781720e031fcc562d4397456b16d6ea0a3fca3fb37a0f719899b951231d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/HBAO.Runtime.dll",
+    "bytes": 40960,
+    "sha256": "5854f21efd5337a39ef51f1f555c6965003f5ca86ea7557ec2f5f18708f950d7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/HBAO.Universal.Runtime.dll",
+    "bytes": 44032,
+    "sha256": "762efea7b11873d62814cf4e9c315c8eb3bc77bbcc2e7b6e28de9a0917a0aa43",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ICSharpCode.SharpZipLib.dll",
+    "bytes": 192000,
+    "sha256": "8af6567650c1ac2735f2e7da73e911a4a3ed3109d7b24a22d5e0d8a3ded0b85b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ItemStatsSystem.dll",
+    "bytes": 98304,
+    "sha256": "a276e15c022f71b2214bd05e1b9b0f2e620c16561df576fed0b79c2fe4402e60",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/KAnimationCore.Runtime.dll",
+    "bytes": 26624,
+    "sha256": "bd19f519834ec6dc21d654681d445670310e4f90b5f05c97df212dbd778110f1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/LeTai.TranslucentImage.Demo.dll",
+    "bytes": 16896,
+    "sha256": "95e4f8f194e9e25056074171ad8e74fb564fb90f8b2baf1fa5e08d5d5e22ec91",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/LeTai.TranslucentImage.dll",
+    "bytes": 23552,
+    "sha256": "3cef38dcd931adb5f39b68a6ce67a7da515cc6405968d67f22478664cced0b0d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/LeTai.TranslucentImage.UniversalRP.dll",
+    "bytes": 12800,
+    "sha256": "5e175286a2867e6c18f4f613db159828806dd93f64c0d8ecb27ee1a50cb254a4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/LeTai.TrueShadow.dll",
+    "bytes": 63488,
+    "sha256": "a0fd277f98ba9cf6d8b169fd6e02171f612fbe7b3d7b7decb753bdbea6896208",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/MeshCombineStudio.Runtime.dll",
+    "bytes": 136704,
+    "sha256": "51910850f44ba4510dbcf84933cc34e538cb76db2f58ca3e03a61f9cac066595",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/MeshExtension.dll",
+    "bytes": 6144,
+    "sha256": "25c015a9f171dbb2279f32844d32ff7dd20a5f03a6ff4bcbfefea5b807f3d6a4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/MiniExcel.dll",
+    "bytes": 347136,
+    "sha256": "657bc5fd1f64d3a53eb34251ace39a9252a35f56cce2225cfc4d391c601d67e1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Mono.Security.dll",
+    "bytes": 241152,
+    "sha256": "576f911be2e0db795ea78f78828f3faf4b20900baf1ce8e33ca8fe599370fc1d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/mscorlib.dll",
+    "bytes": 4631552,
+    "sha256": "98c9b62133db5dd33b22bc6aab6f28e4f04f5b5be6559b28ba5c2738241434d0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/netstandard.dll",
+    "bytes": 90112,
+    "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Newtonsoft.Json.dll",
+    "bytes": 691712,
+    "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/NodeCanvas.dll",
+    "bytes": 257536,
+    "sha256": "7b5628701d04b954f166ac7cfd9f1001743662094037dae4957906acb4edb9ca",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/PackageTools.dll",
+    "bytes": 8704,
+    "sha256": "1c17c7d999615d35d6b001b9173fc80ebdca40c8c81bd48e8c195b931bc35cc7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ParadoxNotion.dll",
+    "bytes": 270336,
+    "sha256": "11de3a0b142bfeae75ce2db67aaf91fb92b18b119e825716ce40bb43d26cbf4b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll",
+    "bytes": 240640,
+    "sha256": "481cc0f9a53a9ba94f8ea3fc0fb2a520b41812c2fdc6ab10581751eada743d34",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Plugins.dll",
+    "bytes": 23552,
+    "sha256": "10c3b981c569e7d2c79c4aeafbf1bc142b0c0a274af812a15eef6838fb320e15",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Razer.WyvrnSDK.Editor.dll",
+    "bytes": 4096,
+    "sha256": "863b77d80e48816605cefc6cce3f3fa34d2d1bf8284a291d9757017bda73b02a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Razer.WyvrnSDK.Runtime.dll",
+    "bytes": 9216,
+    "sha256": "ef27025f182dcee5b4b90fdc2bd33954022f840a0d4bdf503cda70b6e53a88c6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Razer.WyvrnSDK.Tests.dll",
+    "bytes": 9216,
+    "sha256": "6bca774475f024a886979ece1882a13665aec534120acbc48c27381d1f08c9b4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/sc.modeling.splines.runtime.dll",
+    "bytes": 36864,
+    "sha256": "37812dff712715619e0e7218cdc4473628709c1689c5830ab8c8ad5e30c621e6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ShapesRuntime.dll",
+    "bytes": 365568,
+    "sha256": "84b1ca1cc8d36ca1c5929140955ca00d41c72760926a5708dc6f00db548668ab",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/ShapesSamples.dll",
+    "bytes": 25088,
+    "sha256": "2a5c79993f5f1287b5c56b44b2ac3367bdb7d1a2b5ef820f4f12ce2567162a9a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Sirenix.OdinInspector.Attributes.dll",
+    "bytes": 105472,
+    "sha256": "207d8eba3f16186cef3e115079f26e6f0e20030d6f27c81b08ccf2b27d255563",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Sirenix.Serialization.Config.dll",
+    "bytes": 17920,
+    "sha256": "909e1025a4819b7c974faf90738741dd784281af217407c98a6dae0ced5efcb5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Sirenix.Serialization.dll",
+    "bytes": 365056,
+    "sha256": "018bbe93f1321d085b7484385733936177a10364febd33a8140237bcb6e4d247",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Sirenix.Utilities.dll",
+    "bytes": 158720,
+    "sha256": "ff4b6d608c4e8d87abf9f98fdca6be0ebc6c2b51ed51d4a9661d022932c57052",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/SodaLocalization.dll",
+    "bytes": 16384,
+    "sha256": "f3af2174321f1193e8eea169b4d6050c5819efc927cf3ad42cde19aa54758c7c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/SymmetryBreak.TastyGrassShader.dll",
+    "bytes": 62976,
+    "sha256": "3e3127ff455f0e1142de66f666d55f4b044f32718ae094c8ac52be2d234c74af",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/SymmetryBreakStudio.TastyGrassShader.Examples.dll",
+    "bytes": 13824,
+    "sha256": "8b0ce4d7f03f52ed668760bc49556a9c282521ea075567d1d58dad8eb66f2fc7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Collections.dll",
+    "bytes": 5120,
+    "sha256": "2c29e42916c7ab1ec30aa529554dd85b3408a70d7de691152ae3885ed9fd1c11",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.ComponentModel.Composition.dll",
+    "bytes": 257024,
+    "sha256": "2535fd6fac676852936cb435d917b2d69cc6fcdd391f7b3009898153ba04919f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Configuration.dll",
+    "bytes": 124928,
+    "sha256": "ec883b49c12ab0e5110337e817a72cf781878d7faf904aa8abb1ab1c4b99bd78",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Core.dll",
+    "bytes": 1113088,
+    "sha256": "f1b33eb1ae8522edcf9ba4c2b85f532d4bab68bfa2a51527264bb61619bed4ea",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Data.DataSetExtensions.dll",
+    "bytes": 29696,
+    "sha256": "1c88d17e686caf77551a18d3672a1589143e6b8ae83bfcf7c306478cdb64ab90",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Data.dll",
+    "bytes": 2125312,
+    "sha256": "534ac87e6a7c1e3ce02ff2d88f4ffa45e7b5fc44e6236922c2f46f8174a29e56",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.dll",
+    "bytes": 2639872,
+    "sha256": "ace2dd6a7d534b581bf4a9d316e743d64508ca2135db73dbff0ddb9365fc454e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Drawing.dll",
+    "bytes": 489984,
+    "sha256": "435cc673a1aba5af488d8af379d96f7e351a4b5ed2a1772892287a8268567deb",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.EnterpriseServices.dll",
+    "bytes": 44544,
+    "sha256": "03f240d259b9cf27dbc5c9e8f42b8746a50cc5c52395d8e2de5730321f9de3b8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.IO.Compression.dll",
+    "bytes": 114688,
+    "sha256": "15e84f38fb5e6bb926fe92a79374a083b8dfbabfa11f8cd1d409f21b98447cfd",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.IO.Compression.FileSystem.dll",
+    "bytes": 18432,
+    "sha256": "02f749fbe31e54cd8b86a35738e1dddae00ccc2e9fdb8990b93f1a494e6e753a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Net.Http.dll",
+    "bytes": 122880,
+    "sha256": "85f6d618b5df944d2271e2d028b94a93cd371c6134507997441475b1700623cf",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Numerics.dll",
+    "bytes": 119296,
+    "sha256": "55eda0fb467f9356d8f63933fb4b237732f1b215cb8eb0380398f05d3e8a3461",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Runtime.dll",
+    "bytes": 12288,
+    "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Runtime.Extensions.dll",
+    "bytes": 5120,
+    "sha256": "b64655f85720718b65b81a03a5d6cdcbddf07fd0bd96daa10e550db80f461e14",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Runtime.InteropServices.dll",
+    "bytes": 7680,
+    "sha256": "e3671531c2c72fd3c923d4a3614feb468af456e51517cb7574b9b91ff724df8d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Runtime.Serialization.dll",
+    "bytes": 934400,
+    "sha256": "c1058a78e3828052b92d535d8fb27f9f3c9eb9cbfcdee1904898611b44d7cdb7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Security.dll",
+    "bytes": 320000,
+    "sha256": "f7f53eb1401f2bd70ea1dcab1c6c30ae7a4a142e26781c4a78bb885d2f6816a3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.ServiceModel.Internals.dll",
+    "bytes": 215040,
+    "sha256": "5f926225818163439d823f9ef0f6e798e16604d8b75b66f22a133b40615f1b05",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Transactions.dll",
+    "bytes": 35328,
+    "sha256": "8983073e9627b1086102a9871a23e2ba53a0bb9fcc76826cab9f5dec9107e21a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Xml.dll",
+    "bytes": 3160064,
+    "sha256": "7a3587565cabf8294cfc372991545f3ae5790d54264e40069f5e0e460b66bc55",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/System.Xml.Linq.dll",
+    "bytes": 136704,
+    "sha256": "48b11f5d3a51034f9b9d330082f9099a0e68956ee2153d151cdf146bf9e76c78",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/TeamSoda.Duckov.Core.dll",
+    "bytes": 1806336,
+    "sha256": "298d5d5885427632d5a94b2f3ce587f8ebc9528ec71e575a475158c326ecae8f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/TeamSoda.Duckov.Utilities.dll",
+    "bytes": 29696,
+    "sha256": "ad1f9a44ba67f4b01e255549d628c711e936cd8eee6ce1c9bb6c861d95f752a2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/TeamSoda.MiniLocalizor.dll",
+    "bytes": 8192,
+    "sha256": "624671bc9afaa475ae9443cd1327ce51fbe8ed9a47eb8d3f558b5784c8b7132a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UISplineRenderer.dll",
+    "bytes": 37888,
+    "sha256": "a9160a56391f382b412ef8a768b423e866faaeced0ab6a3fbc2cd74c67ccba47",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UniTask.Addressables.dll",
+    "bytes": 12800,
+    "sha256": "dbc154b65861d3fc5e6d6370af2d2d71f78b88787e29fc7f65dac6b4b3ed8f0c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UniTask.dll",
+    "bytes": 564224,
+    "sha256": "227fbb0a98579ec587d1e6135053dd1182961136d3f3db9ca1c1e1464e7d25c1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UniTask.DOTween.dll",
+    "bytes": 10752,
+    "sha256": "81bd3d1055d4537fa50778a763d54d419c0f51a26646fc209a199e768dcb8c93",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UniTask.Linq.dll",
+    "bytes": 701952,
+    "sha256": "fb254b8f5499abf56ee4c9a7e49f5427104f01e0d043880e969c50a5d8a6bcdc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UniTask.TextMeshPro.dll",
+    "bytes": 13312,
+    "sha256": "f50487cb4177a77f34006997e5c16cbd0a5d2ccd25452a928d6bafe0cb17d8d2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.2D.Tilemap.Extras.dll",
+    "bytes": 33792,
+    "sha256": "455d9eef20742c9e57c6b3d4f804a6d221bd5e5ccb1d2c5faafcde3d1c9e01f6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Addressables.dll",
+    "bytes": 110592,
+    "sha256": "dda070779b0a1feebea69c8c98e1825ac127a786d513fa9984c99eb99aa4b0ca",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Burst.dll",
+    "bytes": 304640,
+    "sha256": "afc9f2e714b2dce8631ab702feb24d15fee0b83caf75b6e067b6754d06c739e3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Burst.Unsafe.dll",
+    "bytes": 5632,
+    "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Collections.dll",
+    "bytes": 452096,
+    "sha256": "d7b336be6b62b3fdee7ef6879c67bf93b4d20c9c645faf3db9702328010c0985",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+    "bytes": 5120,
+    "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.InputSystem.dll",
+    "bytes": 1128960,
+    "sha256": "2d06fa316c1c8e3c9a83b7c6155c10503c4f0babd3f22a6c35fd5f539ed42d3b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.InputSystem.ForUI.dll",
+    "bytes": 4096,
+    "sha256": "179271f3681c4e8dad6146ef3617a0fe705da67873b438a1aa83582186f367fc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Mathematics.dll",
+    "bytes": 752128,
+    "sha256": "b87faad72ac610ae317d24cf3ad708239b31bf67251164fd1ee1107fe2d8722d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.MemoryProfiler.dll",
+    "bytes": 6144,
+    "sha256": "bdaebe06f2c67ea9993685aeeb3bab4c3d7241aecfa79a08d5704e02a133d46a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Polybrush.dll",
+    "bytes": 47104,
+    "sha256": "b55331882b09777f1762e2344aa38e96268dda4aaad7fc8ed716c4874a42e709",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ProBuilder.Csg.dll",
+    "bytes": 18944,
+    "sha256": "9b161755112f9eea7be8cf9d5bc20977db048a77392cad293a76a47752a15e54",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ProBuilder.dll",
+    "bytes": 402944,
+    "sha256": "4f25daa4db163d989f6944522343c15b9b3573dcca6bf4550c34267679333ea3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ProBuilder.KdTree.dll",
+    "bytes": 20992,
+    "sha256": "589860a88ff5fbdc820bff92924f74c75dc576700f6f0f183549efb43dea1194",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ProBuilder.Poly2Tri.dll",
+    "bytes": 39936,
+    "sha256": "2f9d60ac7d0b0d759a0b36beec7ba012d033c0e66dbe2e2b4a78ad02fc1e6685",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ProBuilder.Stl.dll",
+    "bytes": 14336,
+    "sha256": "027c2348104ceafc07bb25d142c4673e91e7806129c8c04f89c10b1f4e0dc148",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Profiling.Core.dll",
+    "bytes": 10240,
+    "sha256": "79b561587b811957765004728b33065927198e277802ffee53de154a5c679bd8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Recorder.Base.dll",
+    "bytes": 5632,
+    "sha256": "3d7c9c3146665dfdd2c3f752931b11a8c56ffa9a46f5f6fcaaed439f290c5dd9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Recorder.dll",
+    "bytes": 7168,
+    "sha256": "06e602d1661efe68e1c8898773bd60b88905cfbf2181450b9f42d4a278b6ea12",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "bytes": 8192,
+    "sha256": "981cb3ec18e25a35a02be07cfcb7abbc317ad14f450c2221f1e5604b45437572",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+    "bytes": 532480,
+    "sha256": "b9e265c44db7991d99de936298c48320622568d42673c40ef3dc29b168f9e47d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+    "bytes": 4608,
+    "sha256": "87079056715e3341c8c57d5c4eab4f4dcc618a1c5f8d391f300ed8c710e7018c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+    "bytes": 4608,
+    "sha256": "ca39549709c51e9232a5737990c81847a9723925254d74d63e979bc4aeebc4d9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+    "bytes": 5632,
+    "sha256": "58b82f9656f9e5ad9a96f4f051c6a3841182d56377ec2911c5948c6cac2652f8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+    "bytes": 804864,
+    "sha256": "f60e59c0fc42a87d3a404524c4cc8ca9956ed613abfaccee1797488a14b838d7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+    "bytes": 4608,
+    "sha256": "4779f70fc90f2cd84127acc4e5ff65dd01fe41480b9cd54e46f7c080174ef539",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ResourceManager.dll",
+    "bytes": 143872,
+    "sha256": "3ba3302a238f43a75615c98b8836db297711e2e14318a1880a28c22f92f09598",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+    "bytes": 8704,
+    "sha256": "feaf090d3450833cf846cd6c6d15615ec96f0201df3e3cb255f1d9f3f992edaa",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Splines.dll",
+    "bytes": 150016,
+    "sha256": "126ea5a66c8d14afb4ef8e014f8f5d122b6af0f7a96aaecdee9f9eec43c188d7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.TerrainTools.dll",
+    "bytes": 5120,
+    "sha256": "0c5623a2706b56471f20123c00780771bb279c609b58f7b8c6ea69fcae45e316",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.TextMeshPro.dll",
+    "bytes": 380416,
+    "sha256": "b0874e185c9ea2d0fc852b8a030892e4d4461bcbbfbb6dca057534d80b3edcb9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.Timeline.dll",
+    "bytes": 128000,
+    "sha256": "b5508e5d5fd2995a37a2c1b4e62b193241553efa4fda17eddc5676f8cb2c009c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+    "bytes": 86016,
+    "sha256": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.VisualScripting.Core.dll",
+    "bytes": 626688,
+    "sha256": "d22d8d805943928ef915db314ad5f87d23c93f0a5e5f115390595a2b83a33239",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.VisualScripting.Flow.dll",
+    "bytes": 404992,
+    "sha256": "91122a15126df26bc9c00d17fec1aafdbd840649285e31083b2c6bf6f18dc0a6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/Unity.VisualScripting.State.dll",
+    "bytes": 32256,
+    "sha256": "f0949c7f52eaa2687910c148cf0258e4322519f6c5a273633fbae7472c66c631",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AccessibilityModule.dll",
+    "bytes": 23984,
+    "sha256": "493ea5c0d7103c2a6d83015100e7b7481e23b96d842bb18d4de556b2ce60abf4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AIModule.dll",
+    "bytes": 58800,
+    "sha256": "80891902f18d1c4bc4fe25eb0a3be2e03fb83a4bb24c2b2c195b6be2b31988fb",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+    "bytes": 95144,
+    "sha256": "469897cd3b4c70cd9c4ccf74b67bc7751536e8588c2361cb66dc56bfca6d13cc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AnimationModule.dll",
+    "bytes": 164272,
+    "sha256": "0dd736025840f2bc008b61778e65c0ccaa9ce4215e9e261e27eebb526d176d07",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ARModule.dll",
+    "bytes": 21416,
+    "sha256": "644e0cc9cab67af64786b3a7b0fe9c9c560aa0058a1fdea779f937aef533329e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AssetBundleModule.dll",
+    "bytes": 33200,
+    "sha256": "888102f4fac12e8695d185d6770f637d520167caf2aa620d17c5ad1527eb08c3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.AudioModule.dll",
+    "bytes": 71600,
+    "sha256": "ed9a94a6616134863df45b092184ce3e109bcea37da8b96ac7be441c6b0b1d88",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ClothModule.dll",
+    "bytes": 26536,
+    "sha256": "e9e1cb595c46d2ca183e94f13f4c8f61e97ed85295eb41c7667c9c46b498e7bc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ClusterInputModule.dll",
+    "bytes": 21928,
+    "sha256": "53efa3da43db7b0351641e44068d881db9675d2452794ccb14bb283f6564684b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+    "bytes": 22448,
+    "sha256": "1f8ff563e756587ba7c5bf11ae4e340a362bc0d7d10d8586a92f2847ecc3b14e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ContentLoadModule.dll",
+    "bytes": 27568,
+    "sha256": "dea49eb74519473b2f6b866c123191e3ee2c1e216b5e0d11181afa6025945f8f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.CoreModule.dll",
+    "bytes": 1393584,
+    "sha256": "80d43e5f8d52964e3ec0ac514076c3e2ee032af8d9c0c3ef511dfdd9067eee8e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.CrashReportingModule.dll",
+    "bytes": 21424,
+    "sha256": "f178030ddf200c31f62f28d68a0adc05d0b3ef2816b5cda1033ab470c959a434",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.DirectorModule.dll",
+    "bytes": 25000,
+    "sha256": "c05e85f2cb52063216107bda924c76c19f7a779c64639e620ba649e3652d9edc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.dll",
+    "bytes": 126888,
+    "sha256": "9568a6c178e9c322a6b155213be04661c920fcf46418e8e38b4af9646362d5c6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.DSPGraphModule.dll",
+    "bytes": 29616,
+    "sha256": "87593fb8ee263ec30b63791c5216f9f4fc9a509f5a934a3f8087c108e117daab",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.GameCenterModule.dll",
+    "bytes": 40360,
+    "sha256": "e7b29b4690c2e07129f53c57ce2b5bba4de49123950752b8d486fcd64262e9a6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.GIModule.dll",
+    "bytes": 20392,
+    "sha256": "1566cbdde7a181c0fc30775f8866ab2ba933fad7b8b660d2b8006dcec56944e0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.GridModule.dll",
+    "bytes": 25520,
+    "sha256": "8a5b590b2fbf738e640f3b4305c6848f09d187a5a76b141d03548b0036c5540a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.HotReloadModule.dll",
+    "bytes": 20392,
+    "sha256": "47e67f7e36d6dc7cb77e7c7492680565fd3291dd73439cafe468a81712dfc300",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ImageConversionModule.dll",
+    "bytes": 24496,
+    "sha256": "5d6a3bc40d7e8395137cccca9733542916296ab3ced3081de14d335e3c6c606b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.IMGUIModule.dll",
+    "bytes": 191400,
+    "sha256": "b423ff272e70533592cfa62fb87bd571a88ae5d539fd049288069392aaaddd78",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.InputLegacyModule.dll",
+    "bytes": 39336,
+    "sha256": "cd0029606bd708b22424302afd798589a690231c2ac21f299d649bc6e474e375",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.InputModule.dll",
+    "bytes": 23976,
+    "sha256": "e2976d93457871fd8a37835dcd00fdbcdf40fb21e93e05363185f431ac90a323",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+    "bytes": 22440,
+    "sha256": "0341d5af7b88302b4171e91bfe939e9be344ec154679200896d36791728027fa",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.LocalizationModule.dll",
+    "bytes": 21416,
+    "sha256": "95486feea8c917add964eef3f7af4a6cba2449e76457234bdddff3d229c0f189",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.NVIDIAModule.dll",
+    "bytes": 34216,
+    "sha256": "ee648c0d5a6b68eb03e2e79388cab6c24920bc757c281875c4776a630a94d959",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+    "bytes": 161712,
+    "sha256": "030a401e86e075fbd30b02eab4803adcd90413b2d49b3634c8097fd626dea0da",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+    "bytes": 20912,
+    "sha256": "848cee1122e267080afb508d03323967090f4af39dd0116c9ee091114ff25f9f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.Physics2DModule.dll",
+    "bytes": 141736,
+    "sha256": "6489c192c7fff6e4ed2d6bffdb26cb64133143bb117cacda3cb4bd730162294a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.PhysicsModule.dll",
+    "bytes": 138672,
+    "sha256": "dd5c5e60120707036263a77443ab29a21cde540cba927090437b5ec1a3cfb497",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ProfilerModule.dll",
+    "bytes": 20392,
+    "sha256": "05c799d69eb42e909bc85c9dd75ef16b8ba899812812001c9e7fa71f0b8c840a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.PropertiesModule.dll",
+    "bytes": 155568,
+    "sha256": "2871292fadc71916f3b72268b2c5301eaf862954e5197091a8c285bc065e92f2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+    "bytes": 20392,
+    "sha256": "623f5d19a0af24259766ff8654307a9746c3667a4cf3ea29533a4493b7abb12f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+    "bytes": 21416,
+    "sha256": "6a59c42898420d797f49e0872dba69f682351e51261c1338798799e10c9df7cd",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+    "bytes": 33192,
+    "sha256": "b804ebe55dfa6275d8fe7c7d425dc381f691fa7a72ce0c9b0a1512b425e54c6d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+    "bytes": 22440,
+    "sha256": "9854b65a47dfe365c5843fe029de9d8fde2dc67ee8850bc20738510ca98b014c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+    "bytes": 26544,
+    "sha256": "6084f506d4cfdb4833f7035109aaff79c1547b172bfb9531783774095a68f04e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.StreamingModule.dll",
+    "bytes": 20904,
+    "sha256": "d254e43c7a003b072c46e6587794aad1b1a151121f63686cc31d8772bdd12eff",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.SubstanceModule.dll",
+    "bytes": 25000,
+    "sha256": "2c948d96a0118b81914cf1704a4e7b2d8242c55a7d6281c6c7498ba2c46b87fa",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.SubsystemsModule.dll",
+    "bytes": 35248,
+    "sha256": "4b02f77349aa008ac23e78767af97151d02a4373dbe34c0f2a9dd2544a7c3e48",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TerrainModule.dll",
+    "bytes": 101288,
+    "sha256": "735d8f4087c20e14f6eafe1aa164d9e303be4e4d6cf21f26641c9c1a60cb28ff",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+    "bytes": 21424,
+    "sha256": "166981367bda2a1199d2264c542865d3420945e0830db3a35563eb5711a7084a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+    "bytes": 72616,
+    "sha256": "5b906b1dc479169586794cdef42736bef87b91ca98ccd48187040c53dc10458d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+    "bytes": 249264,
+    "sha256": "bd7173ef8c69f8c00baa9d03514a0db63cea93930b1d4de5d8bfd54bf3693dbc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TextRenderingModule.dll",
+    "bytes": 39336,
+    "sha256": "94fb324f4933d8e1b48607c11a280c2f8653495914d82f9b7c1eb11f55b7b51d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TilemapModule.dll",
+    "bytes": 47016,
+    "sha256": "71c4505976bd5e8f5e74206fe69ce4baae96a9eb3e46a467d2a4bd5ac598f69b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.TLSModule.dll",
+    "bytes": 27056,
+    "sha256": "dcf5569ddfe7a9b4c9faa1282ccb969f7554f9adab209783bbd489a79572f64f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UI.dll",
+    "bytes": 265216,
+    "sha256": "b4003eb15f894de8da32b52a8ff832704c5da899780f1a914e85f859c7f34cda",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UIElementsModule.dll",
+    "bytes": 1536424,
+    "sha256": "6ab19ab0de88a60019caf719095fda921cc040ebc9feaf390ee5defce7cc4e6a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UIModule.dll",
+    "bytes": 36776,
+    "sha256": "f3e21499db60bd6a7569f2209d304828eb6778e1143b72a71ad72b4a61848097",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UmbraModule.dll",
+    "bytes": 20392,
+    "sha256": "db07a3daa13d983611ac87b28f1408d1d767973dc484089ed18aea4542f36180",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+    "bytes": 21424,
+    "sha256": "90148a4568bf51f5ded439b3ab591829f5de15941be89d7fb13b5c2af64a5e0b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+    "bytes": 44968,
+    "sha256": "6bab7fc8dd1922630baadc81379695b08c295cf1d12c2d0aaf0e0182043caf0d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityConnectModule.dll",
+    "bytes": 22440,
+    "sha256": "796a33e96fb5ff04a0293ab2bccd34de857b6e5d0ed12360071df078907203ca",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityCurlModule.dll",
+    "bytes": 21936,
+    "sha256": "bf5c1d3657cb474ac96644a81a93e98ceeceae75f2580e18cb121a18bb17dc67",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+    "bytes": 20392,
+    "sha256": "7360877878a36bf20b12319ef80fb8e8d2e6b3b88069a2567ea7cd1260a86ce8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "bytes": 23472,
+    "sha256": "52c366138a739232d74f8a603a87e818cb98dcb8578b6e07686f8fa3dc7d62a6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+    "bytes": 22952,
+    "sha256": "e7efa73e531f74094f7a9ef747568632f40490fb4f922b6cbc6140b63356be99",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+    "bytes": 58792,
+    "sha256": "a8a907c49675672cca0c7354023c9587c42bf5476f9de20d49961347995af616",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+    "bytes": 21936,
+    "sha256": "a2618050847722c62c65a884a84e312f2aae2cc9eb2b09540e78e25c026c78a7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+    "bytes": 31656,
+    "sha256": "af16fb72f19afc8ed1786b74d78727bfeec4a293d542be4fe494e040f3b37f51",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.VehiclesModule.dll",
+    "bytes": 24488,
+    "sha256": "3b158c6e3cb0c8ddceb616eb1a4f49de6e0dc0c5aa78f3b138b2d7c1b8218003",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.VFXModule.dll",
+    "bytes": 58792,
+    "sha256": "530030e75ba90113557ceda2bf228753431f172f1f6b7d7603eb82e1014e05a4",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.VideoModule.dll",
+    "bytes": 41384,
+    "sha256": "91c7859fbbba3f4350d1cb560d398970fe3697ce710b7b6ec821ddd095bacd27",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+    "bytes": 36272,
+    "sha256": "c090f95200a04b6414212d301c67410c9882e0972235e50a773f7ff112cdc180",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.VRModule.dll",
+    "bytes": 27048,
+    "sha256": "8ccc32b331f1bfe8b7be1b0cc8fe92301403b04b0a2be50515e16482931681c3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.WindModule.dll",
+    "bytes": 21424,
+    "sha256": "44d3c86b6f9132cfbb10c542dcc9b32d729c35091544cc35c66da7d236936518",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Managed/UnityEngine.XRModule.dll",
+    "bytes": 71088,
+    "sha256": "3dbb4c0bb20be72689364763975beab069997802d700fd5e08eb3458572cce00",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Plugins/Steamworks.NET.txt",
+    "bytes": 243,
+    "sha256": "9f2a117bb088dd7a01e8d6e1935426fed16d96f769d7e71a9791c65110f8a949",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/fmodstudio.dll",
+    "bytes": 3249152,
+    "sha256": "983887c96299e9e335b1318bd3d36438bdba02fec670894784ed0c60ed9c8576",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/lib_burst_generated.dll",
+    "bytes": 1340416,
+    "sha256": "cca2753d2839b417b80391ebe07d07f4b21c80d49a38f1a83ae08162c2c73bec",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/resonanceaudio.dll",
+    "bytes": 816640,
+    "sha256": "e1667e5336ae067ab1d9aa04e7bcca9789ff5573ed4c7f6fa9305404d0485f99",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Plugins/x86_64/steam_api64.dll",
+    "bytes": 319584,
+    "sha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Resources/unity default resources",
+    "bytes": 1564240,
+    "sha256": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/Resources/unity_builtin_extra",
+    "bytes": 393916,
+    "sha256": "1ce5f65074915096b0ba69d3dd3483d54aaaa10e0808870ea1c8aa46be2add44",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/resources.assets",
+    "bytes": 81926752,
+    "sha256": "93c4ab6ad71fdb3bf4a331bbb2ac6bc2f7db7b0f12efe60dd43ea019ab2e543d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/resources.assets.resS",
+    "bytes": 1154919728,
+    "sha256": "70f5cb509cfcd1efb7ed0e6e3ef4e987777541e6385f3ff579c0dd3f30513e27",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/RuntimeInitializeOnLoads.json",
+    "bytes": 6659,
+    "sha256": "1a4d4dac35d0ce851e666dc35d7b2aefbb85b11d952fd191bad43a2233b36a50",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/ScriptingAssemblies.json",
+    "bytes": 5736,
+    "sha256": "af06f715b68c9711174396df7f95f8c8c953dbc7b5070d1ae93d22dada41ef0a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets0.assets",
+    "bytes": 53952992,
+    "sha256": "049b4b3898fb3bc09a67ff709e95887f7c1529cfc3e8456d6a460542b580172a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets0.assets.resS",
+    "bytes": 9749248,
+    "sha256": "d9c6e5e419973e5c46423d1ece0705e7d7cc7faaa3778692609fe6b125f68e65",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets1.assets",
+    "bytes": 13585356,
+    "sha256": "36b106206e221b176ab3bc3134baaeed2df12fa4b00c2a7524f2e8f1b6828c26",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets1.assets.resS",
+    "bytes": 42478448,
+    "sha256": "9232af0693e5c6a9f1d9fde04dc5dbdc4a5809ca5e3e8f1f2ac9937d080f61c9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets10.assets",
+    "bytes": 28097304,
+    "sha256": "91165ecb2d2ed8ae71dd6150c2d6ff0c0825b88c4f5dc69fd9424495ba76c074",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets10.assets.resS",
+    "bytes": 465149568,
+    "sha256": "9f522e9afb6db3985a177f96cdd408eaa1b1b16f889e058d41996cd6fadb7393",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets11.assets",
+    "bytes": 9461076,
+    "sha256": "558f063150f689edef350fe7973fe02db77b2dba2fa47e917904d06b3d50d081",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets11.assets.resS",
+    "bytes": 4369248,
+    "sha256": "001b6cc502dee7210dbbde3eea3c97794c7f9a79cf2caba7f55c49bbbbbda46f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets12.assets",
+    "bytes": 4676164,
+    "sha256": "0763f54dc795aa8d91bdc627ad859f397917a8b684b1a776f51c2eb84edbf126",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets12.assets.resS",
+    "bytes": 32149424,
+    "sha256": "7e8530c253136e965fea38a51c49c7736288989cfafb91c0155b130deaad3637",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets13.assets",
+    "bytes": 4313424,
+    "sha256": "c7b202fd39c83697fbc1daafc44a655f3356fb3b896fcb140b3305a677f812f9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets13.assets.resS",
+    "bytes": 4194304,
+    "sha256": "28d7d389901cb3e443f96392defabdee1fc319da4ea6e41064b4a3e92d0e4047",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets14.assets",
+    "bytes": 2964716,
+    "sha256": "2a004ac643da3f382b399692072ac9e9cb02e60cf998d87fcd3576314a11b1f9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets14.assets.resS",
+    "bytes": 17688144,
+    "sha256": "174a59fa032af67996af4cd211c11a9aa5a4c08b9117149167810510dd500d2b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets15.assets",
+    "bytes": 724116,
+    "sha256": "c6d28f4469cac5053e89105cbca248849720ff4ec6e0bcd334d0954e75f3309a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets15.assets.resS",
+    "bytes": 131232,
+    "sha256": "0e53bf6d60a465b709a69625bb2292d7815b9b23e56bae6da10462b89ce7ae46",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets16.assets",
+    "bytes": 19844,
+    "sha256": "2b24b5fac70faa1831ba153291264cec33eaad862e715397282a3db1b62230cf",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets16.assets.resS",
+    "bytes": 1441952,
+    "sha256": "ae33779f41924ad2b42c67cff6cc1c129012f539ddf519b19f25069681afb1de",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets17.assets",
+    "bytes": 193992,
+    "sha256": "8f1847cdd8aa0035720909c8acb649f7705c704f91ab6bf03946ac2733fb5b71",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets17.assets.resS",
+    "bytes": 174960,
+    "sha256": "1ae275da878c8f4724911665e0e765e5af9b851f030d4d9e5c5ba96ba0745945",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets18.assets",
+    "bytes": 6005700,
+    "sha256": "7a61c9d1108e7d58a0b0606a3f1cbb296911243580b7f5bd28f472749e83eeb9",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets18.assets.resS",
+    "bytes": 4194304,
+    "sha256": "c5ea13d95f59c5f8952bff66425cc1a0e1860ef10953c885d14227329aece59b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets19.assets",
+    "bytes": 4722464,
+    "sha256": "be97b070e66de26c6847fed89c371868e50d3fffbddeede5786d44ab80bed0f2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets19.assets.resS",
+    "bytes": 5226400,
+    "sha256": "fcd57ece783b19013686559f397bb23b13886eca993b8591dc7eb948ccb3b452",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets2.assets",
+    "bytes": 12976,
+    "sha256": "ce46bfa7fa751b0e1c451797b34885df842a652bfc3faa050308c307f10aecde",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets20.assets",
+    "bytes": 10228,
+    "sha256": "a994df7092fdec44a27991db629331e47f2d3dd46416bf6793d53d2eb05c3ecf",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets21.assets",
+    "bytes": 17024,
+    "sha256": "3a12e5f138f0af1f6ec83eff5a68d5f1db0886ee3673182d6cee544516e9086a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets21.assets.resS",
+    "bytes": 152944,
+    "sha256": "06f4f768a61cadcd500e419bbc87c18affbe5d83b8595c2a9901d3329419dc0f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets22.assets",
+    "bytes": 2798248,
+    "sha256": "23ce37816894740c5229fcce64abed40bc7c2ba74fad5541527b189f3f2671ba",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets22.assets.resS",
+    "bytes": 11771024,
+    "sha256": "f298f1296073a803623b7470f30a8d11a076bf9ffa816dc5a9516751543c475c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets23.assets",
+    "bytes": 87008,
+    "sha256": "393bce6263d1220a612531f0847f103778bc06ec75d9e017b6942f0b3cca0a15",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets23.assets.resS",
+    "bytes": 4510368,
+    "sha256": "16c8d6bfb7b69a8f8355f99afd9c1ffba2dde285751e3e218760b0d7ddc7367e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets24.assets",
+    "bytes": 2050828,
+    "sha256": "f144a7a785711692c650f869149c5e430c40bca319e7e0ad0dba50c9b4638d7d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets24.assets.resS",
+    "bytes": 12238000,
+    "sha256": "5104933fa33ee7f962afe587829093609cd75582358e7bfe8cd6cb9230abe357",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets25.assets",
+    "bytes": 469804,
+    "sha256": "9d9448ea25c13c994039c5c3df00133e383839b680efb0ad5a836708e79fa4e6",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets25.assets.resS",
+    "bytes": 2097152,
+    "sha256": "5cb0d7f7eb6430f0054140037f15ad506402e2946efc02f537d320f89b7d638d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets26.assets",
+    "bytes": 1845,
+    "sha256": "6f4769953df069cacd00ca08630c6f57fd9ae143642df165a841180f2fb1d294",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets27.assets",
+    "bytes": 4492,
+    "sha256": "54db9494447d999e48c2390838f692829e3ba43ae6c62ca7c825cc33f50d4e04",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets28.assets",
+    "bytes": 3184,
+    "sha256": "0d23d9268d3acc92e529e3e945e3c05f6a2520a096d26229a54d09da468ac809",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets29.assets",
+    "bytes": 2125,
+    "sha256": "eb60afb4fc34ce4f232ebf744cb9729217787d77dae4af839f1046e451084412",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets3.assets",
+    "bytes": 417152,
+    "sha256": "e1f423a47e49c1a75ed2814376e6d1620f41bc694adfe812b124999abda0a077",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets3.assets.resS",
+    "bytes": 2974352,
+    "sha256": "532ff16dc6f4ea108efebbb5c80898a6a0fc3195b1e09376e9355f6f7793b162",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets30.assets",
+    "bytes": 1298808,
+    "sha256": "52a2e87823d2dc91d60a1f51433179c10a11d96edf5229abe557ef6642590de2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets30.assets.resS",
+    "bytes": 8388608,
+    "sha256": "4fc5ace68059d1cbae73302a9fbc956ac556fb5ae26c0a0d8f805147017cf6e8",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets31.assets",
+    "bytes": 2302836,
+    "sha256": "6f73843b78c4982f038b6c66cb9b83b82519e3e7945f891fedfb133c82c6ec88",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets31.assets.resS",
+    "bytes": 91322544,
+    "sha256": "2ecc44c1f4b7aa68434deac96dddd390ff26bd4a54c12252111d1d76480795a5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets32.assets",
+    "bytes": 607368,
+    "sha256": "ad400887b84f05868ef96d268831a845e1d12537bb26bfad0498dd47332026e7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets32.assets.resS",
+    "bytes": 13047680,
+    "sha256": "93fba6295befbc32cd8b7f8b30d10f2f4470528300e4ea1c67022e0bdad67656",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets33.assets",
+    "bytes": 2116908,
+    "sha256": "75f7659dfa0b089b63e93feaa518bb67f6d3021db4c67e56b238e01ace2918ed",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets33.assets.resS",
+    "bytes": 8388608,
+    "sha256": "c09bcb7465e3aee15681cff84163fe9edd5b9a53f269f1f2ee6da7521efb8cbe",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets34.assets",
+    "bytes": 9118772,
+    "sha256": "3e7dc001af042f29ff3413a88879b8dd6b3844de6509f817d467e86d9f7ecad5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets34.assets.resS",
+    "bytes": 185291616,
+    "sha256": "7b9229d02e3e6b6a01f5d500d4ec16b11789d217293150f46748a98ef0adc163",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets35.assets",
+    "bytes": 361,
+    "sha256": "8bea5fb116b00572c409ed6634ec5c6726dd47df439ca77130804c21135153e5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets36.assets",
+    "bytes": 2868836,
+    "sha256": "0a25f86b94a404838ebc05f925d51700f2700212c69e868c51074f607115ca5b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets37.assets",
+    "bytes": 321568,
+    "sha256": "6e3ae37e45dc5cc51c65c337d086abeb52729567d244e30e99a7e47f6731fb25",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets37.assets.resS",
+    "bytes": 4325536,
+    "sha256": "a1afdfa98e4d6a1713b03107c2ec40c94f146bf45fb3edc3fb136359b882d55f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets38.assets",
+    "bytes": 2245740,
+    "sha256": "b23cabe30a9d9bfc2974577d686a35c8cb4a6529ee50539619873805c00f43e0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets38.assets.resS",
+    "bytes": 4325536,
+    "sha256": "0fc4a9854c3bdfb80fc15229ef24db367a4e8dba2095e9afbf28464d183d58ab",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets39.assets",
+    "bytes": 2355744,
+    "sha256": "c76da4bea8ed2c0eaf54f30d26b6cf30885380885adbb9fdb2d319af148a74c5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets39.assets.resS",
+    "bytes": 6938432,
+    "sha256": "0145bc31bdf37b2e6e2b4cedf1938da4c4b2933dd13b63bec1bb095cae94510f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets4.assets",
+    "bytes": 131120,
+    "sha256": "7499bc7f5a6d0de1c0fe387d64302065d36c00f9ec46ee07fc985ee380c76202",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets4.assets.resS",
+    "bytes": 15793984,
+    "sha256": "df5f513baf84bfaef9721c7b6612c9a3011a9435eb2d1307e8d744a103179c3e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets40.assets",
+    "bytes": 2248956,
+    "sha256": "2bb7d3d6667153a6f281d9350ccf291bb390b032c858a5715a5097d996633d0f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets40.assets.resS",
+    "bytes": 12714144,
+    "sha256": "a89b07b5b3789fc70e0aca7d63fc1a9989d273e5d5d82478a728243d0e92db90",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets41.assets",
+    "bytes": 6960908,
+    "sha256": "668723f315f1f406176045b26b0ae49c325e5b33be4ee218882f31296d734726",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets41.assets.resS",
+    "bytes": 9861408,
+    "sha256": "cfcffb1703e4e0f673ef089cffe04524f4e92ea1ce68d6b1356114099b3d6518",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets42.assets",
+    "bytes": 589672,
+    "sha256": "aefeea04f9ffa603c7f4f2be1ce89956b94d360ed52a02130d2b63a2b1204fa2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets42.assets.resS",
+    "bytes": 19808400,
+    "sha256": "86b82d33f4f5779db88c3de1ddf538330b98a2fff5d066878cebb5c4d310c6d2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets43.assets",
+    "bytes": 126768,
+    "sha256": "ba15d216af080e2d6786e4ce64afe202decf24d31ac91c48d757e497266b9e03",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets43.assets.resS",
+    "bytes": 1398128,
+    "sha256": "195fb3455398a27098fbed8b603f432c401096d7965ffa6d8e710f5aa9fec76c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets44.assets",
+    "bytes": 112024,
+    "sha256": "f61512e03ff1760a9895a7274b6b0cb1e94f8b7451d375a133ee2492c98bf6ea",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets44.assets.resS",
+    "bytes": 5953696,
+    "sha256": "1febe060402e5015f2085267b1610fb6db49872db95508201da2ca1108782420",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets45.assets",
+    "bytes": 131540,
+    "sha256": "ea0e6a76131fbf641f753c8bcc9e6d4fe18eb25cae7ba1c0fb2f6baf79d08088",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets45.assets.resS",
+    "bytes": 349552,
+    "sha256": "f77a7b9def1aca6a98997a426e014d5abfe89d67e5aa929d4e43307d4eda713c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets46.assets",
+    "bytes": 107896,
+    "sha256": "cc1631ac5e5590991069cc904995f753d3266a80c1ac0cf2a94158213e96739f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets46.assets.resS",
+    "bytes": 699104,
+    "sha256": "a3593400001994d8d76225cc796a950b4ad2f7325109525e225e583c877705de",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets47.assets",
+    "bytes": 50832,
+    "sha256": "900d0b39a50259812a4d4dccf7dc3cb53785fccffb2356b557029f3d1815b69d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets48.assets",
+    "bytes": 4965908,
+    "sha256": "0ff1029cef28d2cd2144175ffe9c8e4ef4dd3e71552b73b9130f2cd9dddc92f1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets48.assets.resS",
+    "bytes": 65977728,
+    "sha256": "99f0833f6b48b392a84a0235dadea1aea5c7b4d3dd4de818673ee8789c2a55ee",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets49.assets",
+    "bytes": 4177068,
+    "sha256": "dc5413a5d00dbdbe06a0a49276b06c8e4b9b720e00069682bdd060f6e008abc2",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets49.assets.resS",
+    "bytes": 8388608,
+    "sha256": "5606710f91cd904d658d01556fa97c18d2a8469ebb1165ed3938064ae1d9f52a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets5.assets",
+    "bytes": 1825836,
+    "sha256": "2413e1675d7d73d080e95cafacbef482a6b1a8d284e5c62d05bdc0c92a952fe7",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets5.assets.resS",
+    "bytes": 130810976,
+    "sha256": "20ace43b943c27ca3e766fd9ec8ddea868a150aca8cb1f87cb88432b9b873f86",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets50.assets",
+    "bytes": 209152,
+    "sha256": "f6ffc4eeb9042758509fef0fa1b88c42d166612e2ef8e5c8b9530e97abcc48ac",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets50.assets.resS",
+    "bytes": 8685904,
+    "sha256": "7ec1f7ec0ac0a756fc1b61ac7b6f03aa7152b7c548a6240271c886696a16362c",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets51.assets",
+    "bytes": 121584,
+    "sha256": "f15870ea4b222915a9d6e47a018c53f3312c2bc98faccea43fe37bc170b30a08",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets51.assets.resS",
+    "bytes": 4194304,
+    "sha256": "ac8b9ebc2d04c686d7540f4ab11ea04c309b097d84b753c9af457a2ca76e48aa",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets52.assets",
+    "bytes": 7356,
+    "sha256": "9c99631fb3c0fc21956e17eaa3fe27c309e4203ed98d4d5437bbee95199a8528",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets53.assets",
+    "bytes": 2209,
+    "sha256": "95e9a4fec48576e823bd1defa16d323ed1c123d8a4370ae9a7303242f966174b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets54.assets",
+    "bytes": 528632,
+    "sha256": "3278dfd8efd7b21401486e08d9d9018f8fee3cb814bb342c93228244ea5d3314",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets54.assets.resS",
+    "bytes": 2480864,
+    "sha256": "c36a114c56af0580d3c9ab37c1411a3e77c8f1f64d487b759e3b48c1003df0ee",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets55.assets",
+    "bytes": 3807528,
+    "sha256": "39be514e53da1016b7b43b233a0a98258d1b713b574c6d2adc3484048ebb9456",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets55.assets.resS",
+    "bytes": 1207856,
+    "sha256": "03c86efe8d995dca0b79cfbe23f2f8b3a3cf77d4a50c18db0db34fccb0b2a6bd",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets56.assets",
+    "bytes": 76308,
+    "sha256": "00b45260cf2fc9f3033b550b5e4ee153769c25c397a925f266ced3cccbcae7a1",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets57.assets",
+    "bytes": 2007948,
+    "sha256": "7e0c96d379ea258b69311159a284ce5137626bac45e127e60946f95cbd7216ec",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets58.assets",
+    "bytes": 3184,
+    "sha256": "8995d1a24f11514f317d250c937eff8a1506650b8550fb56a28e9e7e858831e0",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets58.assets.resS",
+    "bytes": 524288,
+    "sha256": "caa1e3c0f96d0306a22b35052e6f1e4a8c63bde073038170006c34db912e1a31",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets59.assets",
+    "bytes": 44673,
+    "sha256": "fdf22f940479d542275fd3a99a06c47411f296cbb4467461a0d54e6e19568efa",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets6.assets",
+    "bytes": 453212,
+    "sha256": "101ad8d71669b5fb62cae3011784692b152aa7798d3a2cd225a4563a7d1cff2a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets6.assets.resS",
+    "bytes": 10081856,
+    "sha256": "fcebf25cef05e8a3b56583f3b6ae192e28db0db28d58cb00c181ea0a5d532340",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets60.assets",
+    "bytes": 3385120,
+    "sha256": "04a69d4d908eb6508fa7063c0fad6561572043b1c0ff32efc48bf2b2d78c89de",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets60.assets.resS",
+    "bytes": 13615744,
+    "sha256": "0096ddbbb7b3e18384d60d7ead492afbf4b34556249b6bb96118a398b63a2d0b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets61.assets",
+    "bytes": 3942060,
+    "sha256": "65a52ecbe9eb340dbaaec9ff19639860a2e5a9d2285cc8d6e9fcb693f17dc131",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets61.assets.resS",
+    "bytes": 4194304,
+    "sha256": "7b3a72237ea32e636f566a8e15c4e994242f72482a1aedf97e60f4fcf20f6b75",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets62.assets",
+    "bytes": 2461520,
+    "sha256": "bacf1fcf7a2c0feab39d48d2a5d4ab55f9af352d38e53a18a210973c87f89c85",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets7.assets",
+    "bytes": 949,
+    "sha256": "479a00ba51874c769a30a06abaec22c7f3b9c6cd481e467b39a56c46a4122d9a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets8.assets",
+    "bytes": 8116,
+    "sha256": "67bcd463b3d9d386368a71905f134864d52e2506911819325003f006d928e408",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/sharedassets9.assets",
+    "bytes": 53268,
+    "sha256": "9c6ddc1679d480c0459190586e6a9cd561d7b03402da47cd77d4fed975f8116e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/aa/AddressablesLink/link.xml",
+    "bytes": 572,
+    "sha256": "e676677802664de09835833f8814be9b139fa1bff948d4d3a2d909c268f9a023",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/aa/catalog.json",
+    "bytes": 940,
+    "sha256": "a157d1943820a7204c946c210003c830b173e45a054b30a0f85119ecdb209641",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/aa/settings.json",
+    "bytes": 1604,
+    "sha256": "79fcf418b308ed1c4e6e3749a2aeb25d79d92a4ede19e4615809d9b57a5c6e8a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/desc.txt",
+    "bytes": 238,
+    "sha256": "e38b465a91fce04051dea7b2f5f50f839f306ca4f69af6612e3f03d8d96acd83",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/.idea/indexLayout.xml",
+    "bytes": 205,
+    "sha256": "945c1c53591f55fe1e2946b22fd1ac73a4cdfceb8911a2254f39916b0e9ed18e",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/.idea/projectSettingsUpdater.xml",
+    "bytes": 245,
+    "sha256": "516624949a105f8a1c0cd3fdcb4d36e09f9fc4188091be2dd94f536e0c4e2ca5",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/.idea/vcs.xml",
+    "bytes": 197,
+    "sha256": "6ef5efdb3681bb830cf25bf84a9c550fe249c160f6e76ed098dec320c378c166",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/.idea/workspace.xml",
+    "bytes": 4095,
+    "sha256": "104ed4cee43973a052b874d16d78d05eef6e4d1ddb8ef8be6828cf0052c6fe67",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/ChineseSimplified.csv",
+    "bytes": 474525,
+    "sha256": "1817988440bbc692ae9c76b077bbfdfe96f9bc4ceaf4cec24ac8f61db4e3e11d",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/ChineseTraditional.csv",
+    "bytes": 479556,
+    "sha256": "2c173bc2b9124a115cfab8225955177fcee1604eff264947fbdc97c9f8790969",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/English.csv",
+    "bytes": 524703,
+    "sha256": "0a4ccf9635fdb2e65cc81bbfd5ec16480004d5361d633f0572a8568d7a0f65bb",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/French.csv",
+    "bytes": 605018,
+    "sha256": "0472343c196d08cb92e11c62eedcbaa70d666de8dfa5ddf2d87b52a2e0bf1d3b",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/German.csv",
+    "bytes": 569016,
+    "sha256": "c1b9548528e204a04639ed08391170f96fc32c8a9e3160f123fb0d4d42d35a95",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/Japanese.csv",
+    "bytes": 554512,
+    "sha256": "6fede2861b515d684849fb51aec9c7e925aaaed34a22e0e0cc7cfabb8aaf7b95",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/Korean.csv",
+    "bytes": 573150,
+    "sha256": "e0a35012503b2dec85976cc5d759f52ac1317d1aacdbd3098dac9ca05573c0cc",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/Portuguese.csv",
+    "bytes": 591705,
+    "sha256": "6a64ebc4eb6a62037bc2575e88222bae6a9a55464027ce43ec63d286ad3ff92a",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/Russian.csv",
+    "bytes": 763849,
+    "sha256": "077289dbecd8fd8a36189d9d1868163336f44d002dc6fa3d45bcbd4ffd9a5da3",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Localization/Spanish.csv",
+    "bytes": 599400,
+    "sha256": "5c4ebad64462d2611a6f5ca763c502cec716c167022d63bfbb0b6a03a5033704",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Master.bank",
+    "bytes": 57688640,
+    "sha256": "c5bd414ca165dc869260cf6dfbd559b76506af6348be81e7a912db916f97e367",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Master.strings.bank",
+    "bytes": 19344,
+    "sha256": "73d190b746abf4badfb96495d6be9d19e4e23a9763433f6bb2fe983aebed719f",
+    "copyMatches": true
+  },
+  {
+    "path": "Duckov_Data/StreamingAssets/Music/Xavier Wu - Duck Funk.mp3",
+    "bytes": 2148749,
+    "sha256": "81afa4567428516da5f6ffd7ae29d6ef3dfbf301613a52cee68e1166c22cc754",
+    "copyMatches": true
+  },
+  {
+    "path": "Info.ini",
+    "bytes": 48,
+    "sha256": "a9fb7fc55efc494eb765217d1b24223478c62dd7c6df5efcde48e5dbfd6aea9e",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+    "bytes": 7897520,
+    "sha256": "309cea0f174b1688e2984c97d8c12b89db0e60e75375b3c7a1f39d3f2f8d1bf6",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+    "bytes": 611240,
+    "sha256": "085802a35347b99661dc8f9fd23f9e6484a45738c09190641aa73f34629d41d1",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+    "bytes": 1605,
+    "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+    "bytes": 29066,
+    "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+    "bytes": 2622,
+    "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/2.0/web.config",
+    "bytes": 11635,
+    "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+    "bytes": 1605,
+    "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+    "bytes": 33598,
+    "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+    "bytes": 2622,
+    "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.0/web.config",
+    "bytes": 18802,
+    "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+    "bytes": 1605,
+    "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+    "bytes": 60575,
+    "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+    "bytes": 34056,
+    "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+    "bytes": 2622,
+    "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/4.5/web.config",
+    "bytes": 18811,
+    "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/browscap.ini",
+    "bytes": 311984,
+    "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/config",
+    "bytes": 3815,
+    "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
+    "copyMatches": true
+  },
+  {
+    "path": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+    "bytes": 25817,
+    "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
+    "copyMatches": true
+  },
+  {
+    "path": "UnityCrashHandler64.exe",
+    "bytes": 1185192,
+    "sha256": "93e0b4b929621c9aaa728e3a6d68ec6d47e6182e7eb9915a4cd5351678eb67e4",
+    "copyMatches": true
+  },
+  {
+    "path": "UnityPlayer.dll",
+    "bytes": 31100840,
+    "sha256": "a8dcc8f6f4cbee3da56552a4adbe56724228a0efcc2fcd737b516933f0418081",
+    "copyMatches": true
+  }
+]

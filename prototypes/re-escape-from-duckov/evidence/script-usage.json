@@ -1,0 +1,4214 @@
+[
+  {
+    "script": "InteractableLootbox",
+    "objects": 5672
+  },
+  {
+    "script": "Duckov.Utilities.LootBoxLoader",
+    "objects": 5653
+  },
+  {
+    "script": "UnityEngine.UI.ProceduralImage.ProceduralImage",
+    "objects": 5198
+  },
+  {
+    "script": "UnityEngine.UI.LayoutElement",
+    "objects": 4560
+  },
+  {
+    "script": "UnityEngine.UI.Image",
+    "objects": 3707
+  },
+  {
+    "script": "LeTai.TrueShadow.TrueShadow",
+    "objects": 3483
+  },
+  {
+    "script": "UniformModifier",
+    "objects": 3308
+  },
+  {
+    "script": "OcclusionFadeTrigger",
+    "objects": 3087
+  },
+  {
+    "script": "TMPro.TextMeshProUGUI",
+    "objects": 2956
+  },
+  {
+    "script": "OcclusionFadeObject",
+    "objects": 2920
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.DecalProjector",
+    "objects": 2893
+  },
+  {
+    "script": "UnityEngine.UI.HorizontalLayoutGroup",
+    "objects": 2658
+  },
+  {
+    "script": "SodaPointLight",
+    "objects": 2557
+  },
+  {
+    "script": "Points",
+    "objects": 2400
+  },
+  {
+    "script": "RoundModifier",
+    "objects": 1651
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.UniversalAdditionalLightData",
+    "objects": 1650
+  },
+  {
+    "script": "ItemStatsSystem.Item",
+    "objects": 1629
+  },
+  {
+    "script": "Pathfinding.NavmeshCut",
+    "objects": 1604
+  },
+  {
+    "script": "InteractableBase",
+    "objects": 1351
+  },
+  {
+    "script": "Door",
+    "objects": 1220
+  },
+  {
+    "script": "DoorTrigger",
+    "objects": 1060
+  },
+  {
+    "script": "PrefabLineGenrator",
+    "objects": 1044
+  },
+  {
+    "script": "EPOOutline.TargetStateListener",
+    "objects": 1038
+  },
+  {
+    "script": "UnityEngine.UI.VerticalLayoutGroup",
+    "objects": 972
+  },
+  {
+    "script": "RandomCharacterSpawner",
+    "objects": 793
+  },
+  {
+    "script": "ItemStatsSystem.ModifierDescriptionCollection",
+    "objects": 784
+  },
+  {
+    "script": "HurtVisual",
+    "objects": 775
+  },
+  {
+    "script": "DamageReceiver",
+    "objects": 710
+  },
+  {
+    "script": "HealthSimpleBase",
+    "objects": 703
+  },
+  {
+    "script": "SodaCraft.Localizations.TextLocalizor",
+    "objects": 695
+  },
+  {
+    "script": "UnityEngine.Rendering.Volume",
+    "objects": 650
+  },
+  {
+    "script": "ProceduralImageHashProvider",
+    "objects": 606
+  },
+  {
+    "script": "UnityEngine.UI.ContentSizeFitter",
+    "objects": 563
+  },
+  {
+    "script": "MeshCombineStudio.CachedComponents",
+    "objects": 560
+  },
+  {
+    "script": "UnityEngine.UI.Button",
+    "objects": 542
+  },
+  {
+    "script": "UnityEngine.UI.Shadow",
+    "objects": 499
+  },
+  {
+    "script": "CharacterSubVisuals",
+    "objects": 499
+  },
+  {
+    "script": "Duckov.UI.Animations.ButtonAnimation",
+    "objects": 480
+  },
+  {
+    "script": "HalfObsticleTrigger",
+    "objects": 478
+  },
+  {
+    "script": "HalfObsticle",
+    "objects": 478
+  },
+  {
+    "script": "EPOOutline.Outlinable",
+    "objects": 478
+  },
+  {
+    "script": "SetActiveByCondition",
+    "objects": 399
+  },
+  {
+    "script": "Duckov.UI.Animations.CanvasGroupFade",
+    "objects": 396
+  },
+  {
+    "script": "SetActiveByChance",
+    "objects": 390
+  },
+  {
+    "script": "Duckov.Utilities.LootSpawner",
+    "objects": 388
+  },
+  {
+    "script": "MeshCombineStudio.GarbageCollectMesh",
+    "objects": 387
+  },
+  {
+    "script": "CharacterSpawnerRoot",
+    "objects": 385
+  },
+  {
+    "script": "Duckov.UI.Animations.FadeGroup",
+    "objects": 365
+  },
+  {
+    "script": "ItemStatsSystem.StatCollection",
+    "objects": 354
+  },
+  {
+    "script": "Duckov.MiniMaps.SimplePointOfInterest",
+    "objects": 345
+  },
+  {
+    "script": "CharacterSpawnerGroup",
+    "objects": 345
+  },
+  {
+    "script": "CostTaker",
+    "objects": 340
+  },
+  {
+    "script": "Duckov.CreditsUtility.TextEntry",
+    "objects": 334
+  },
+  {
+    "script": "ItemStatsSystem.Items.SlotCollection",
+    "objects": 330
+  },
+  {
+    "script": "Duckov.Quests.Quest",
+    "objects": 315
+  },
+  {
+    "script": "ItemGraphicInfo",
+    "objects": 307
+  },
+  {
+    "script": "Duckov.Quests.Rewards.QuestReward_EXP",
+    "objects": 304
+  },
+  {
+    "script": "ConstructionSite",
+    "objects": 304
+  },
+  {
+    "script": "ScalableMesh",
+    "objects": 298
+  },
+  {
+    "script": "Duckov.UI.Animations.SizeDeltaToggle",
+    "objects": 295
+  },
+  {
+    "script": "Duckov.Quests.Rewards.QuestReward_Money",
+    "objects": 281
+  },
+  {
+    "script": "AudioEventProxy",
+    "objects": 272
+  },
+  {
+    "script": "UnityEngine.Splines.SplineContainer",
+    "objects": 264
+  },
+  {
+    "script": "ItemSetting_Accessory",
+    "objects": 263
+  },
+  {
+    "script": "Duckov.Quests.Tasks.SubmitItems",
+    "objects": 252
+  },
+  {
+    "script": "sc.modeling.splines.runtime.SplineMesher",
+    "objects": 228
+  },
+  {
+    "script": "ItemSetting_Formula",
+    "objects": 215
+  },
+  {
+    "script": "UnityEngine.UI.Scrollbar",
+    "objects": 211
+  },
+  {
+    "script": "Breakable",
+    "objects": 206
+  },
+  {
+    "script": "InputIndicator",
+    "objects": 202
+  },
+  {
+    "script": "Duckov.CreditsUtility.VerticalEntry",
+    "objects": 202
+  },
+  {
+    "script": "ItemStatsSystem.Effect",
+    "objects": 196
+  },
+  {
+    "script": "BoundaryGenerator",
+    "objects": 190
+  },
+  {
+    "script": "FreeModifier",
+    "objects": 186
+  },
+  {
+    "script": "Duckov.UI.PunchReceiver",
+    "objects": 186
+  },
+  {
+    "script": "ModifierAction",
+    "objects": 175
+  },
+  {
+    "script": "PipeRenderer",
+    "objects": 171
+  },
+  {
+    "script": "PipeDecoration",
+    "objects": 171
+  },
+  {
+    "script": "Duckov.Splines.BeveledLineShape",
+    "objects": 171
+  },
+  {
+    "script": "CircularExtrudeShape",
+    "objects": 171
+  },
+  {
+    "script": "VLB.VolumetricLightBeamHD",
+    "objects": 170
+  },
+  {
+    "script": "Duckov.PerkTrees.Perk",
+    "objects": 163
+  },
+  {
+    "script": "Duckov.UI.SlotIndicator",
+    "objects": 161
+  },
+  {
+    "script": "Duckov.UI.Animations.Revolver",
+    "objects": 161
+  },
+  {
+    "script": "Duckov.UI.ItemDisplay",
+    "objects": 160
+  },
+  {
+    "script": "UnityEngine.UI.Mask",
+    "objects": 159
+  },
+  {
+    "script": "Duckov.Quests.Rewards.QuestReward_UnlockStockItem",
+    "objects": 159
+  },
+  {
+    "script": "ItemSetting_Bullet",
+    "objects": 157
+  },
+  {
+    "script": "CharacterRandomPreset",
+    "objects": 156
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireFormulaUnlocked",
+    "objects": 147
+  },
+  {
+    "script": "ItemStatsSystem.Inventory",
+    "objects": 143
+  },
+  {
+    "script": "UnityEngine.UI.ScrollRect",
+    "objects": 139
+  },
+  {
+    "script": "Duckov.Utilities.Tag",
+    "objects": 134
+  },
+  {
+    "script": "DestroyOvertime",
+    "objects": 131
+  },
+  {
+    "script": "ItemSetting_Gun",
+    "objects": 124
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_KillCount",
+    "objects": 124
+  },
+  {
+    "script": "UnityEngine.UI.Text",
+    "objects": 116
+  },
+  {
+    "script": "Duckov.Buffs.Buff",
+    "objects": 116
+  },
+  {
+    "script": "LeTai.Asset.TranslucentImage.TranslucentImage",
+    "objects": 112
+  },
+  {
+    "script": "UIKeybindingEntry",
+    "objects": 111
+  },
+  {
+    "script": "Duckov.UI.SlotDisplay",
+    "objects": 110
+  },
+  {
+    "script": "Duckov.PerkTrees.Behaviours.ModifyCharacterStatsBase",
+    "objects": 110
+  },
+  {
+    "script": "CustomFacePart",
+    "objects": 110
+  },
+  {
+    "script": "JoshH.UI.UIGradient",
+    "objects": 108
+  },
+  {
+    "script": "Duckov.Quests.RewardItem",
+    "objects": 101
+  },
+  {
+    "script": "UnityEngine.UI.Toggle",
+    "objects": 100
+  },
+  {
+    "script": "ItemStatsSystem.UsageUtilities",
+    "objects": 100
+  },
+  {
+    "script": "UnityEngine.Rendering.VolumeProfile",
+    "objects": 97
+  },
+  {
+    "script": "PointerDownUpEvents",
+    "objects": 97
+  },
+  {
+    "script": "ItemStatsSystem.TriggerOnSetItem",
+    "objects": 95
+  },
+  {
+    "script": "OnlyOneEdgeModifier",
+    "objects": 94
+  },
+  {
+    "script": "UnityEngine.UI.GridLayoutGroup",
+    "objects": 93
+  },
+  {
+    "script": "SimpleTeleporter",
+    "objects": 87
+  },
+  {
+    "script": "MoveVisual",
+    "objects": 87
+  },
+  {
+    "script": "Duckov.ItemUsage.FoodDrink",
+    "objects": 86
+  },
+  {
+    "script": "CharacterModel",
+    "objects": 86
+  },
+  {
+    "script": "Duckov.UI.Animations.RectTransformFade",
+    "objects": 85
+  },
+  {
+    "script": "ItemGraphicInfo_Gun",
+    "objects": 83
+  },
+  {
+    "script": "Cinemachine.CinemachineVirtualCamera",
+    "objects": 82
+  },
+  {
+    "script": "Cinemachine.CinemachinePipeline",
+    "objects": 82
+  },
+  {
+    "script": "TimeOfDayEntry",
+    "objects": 80
+  },
+  {
+    "script": "Cinemachine.CinemachineTransposer",
+    "objects": 80
+  },
+  {
+    "script": "Cinemachine.CinemachineComposer",
+    "objects": 80
+  },
+  {
+    "script": "ItemStatsSystem.TickTrigger",
+    "objects": 78
+  },
+  {
+    "script": "RequireInLevelDataBool",
+    "objects": 77
+  },
+  {
+    "script": "WeatherFxControl",
+    "objects": 76
+  },
+  {
+    "script": "Duckov.Quests.SpawnPrefabForTask",
+    "objects": 75
+  },
+  {
+    "script": "Duckov.UI.ScrollViewBorderFrame",
+    "objects": 72
+  },
+  {
+    "script": "Duckov.UI.Animations.LooperClock",
+    "objects": 71
+  },
+  {
+    "script": "Cinemachine.PostFX.CinemachineVolumeSettings",
+    "objects": 70
+  },
+  {
+    "script": "UnityEngine.InputSystem.InputActionReference",
+    "objects": 68
+  },
+  {
+    "script": "Duckov.NoteIndexs.NoteInteract",
+    "objects": 68
+  },
+  {
+    "script": "SodaCraft.SunFogTD",
+    "objects": 67
+  },
+  {
+    "script": "SodaCraft.LightControl",
+    "objects": 67
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.UniversalAdditionalCameraData",
+    "objects": 66
+  },
+  {
+    "script": "TMPro.TMP_Dropdown",
+    "objects": 66
+  },
+  {
+    "script": "OnTriggerEnterEvent",
+    "objects": 66
+  },
+  {
+    "script": "Duckov.Options.UI.OptionsUIEntry_Dropdown",
+    "objects": 66
+  },
+  {
+    "script": "ZoneDamage",
+    "objects": 64
+  },
+  {
+    "script": "Zone",
+    "objects": 64
+  },
+  {
+    "script": "SceneLoaderProxy",
+    "objects": 64
+  },
+  {
+    "script": "NotificationProxy",
+    "objects": 64
+  },
+  {
+    "script": "Cinemachine.CinemachineImpulseSource",
+    "objects": 63
+  },
+  {
+    "script": "UnityEngine.UI.Slider",
+    "objects": 62
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_TaskEvent",
+    "objects": 58
+  },
+  {
+    "script": "ViewsProxy",
+    "objects": 57
+  },
+  {
+    "script": "Duckov.Quests.MapElementForTask",
+    "objects": 57
+  },
+  {
+    "script": "Duckov.ItemUsage.AddBuff",
+    "objects": 57
+  },
+  {
+    "script": "Duckov.UI.Animations.RotationLooper",
+    "objects": 56
+  },
+  {
+    "script": "CharacterAnimationControl",
+    "objects": 56
+  },
+  {
+    "script": "SodaCraft.EdgeLight",
+    "objects": 55
+  },
+  {
+    "script": "CharacterSpawnerGroupSelector",
+    "objects": 55
+  },
+  {
+    "script": "UnityEngine.UI.RectMask2D",
+    "objects": 54
+  },
+  {
+    "script": "AddBuffAction",
+    "objects": 54
+  },
+  {
+    "script": "TMPro.TMP_InputField",
+    "objects": 53
+  },
+  {
+    "script": "Duckov.UI.RectTransformChangeEventEmitter",
+    "objects": 53
+  },
+  {
+    "script": "ItemSetting_MeleeWeapon",
+    "objects": 47
+  },
+  {
+    "script": "NodeCanvas.Framework.Blackboard",
+    "objects": 46
+  },
+  {
+    "script": "CustomFacePreset",
+    "objects": 45
+  },
+  {
+    "script": "Cinemachine.CinemachineBasicMultiChannelPerlin",
+    "objects": 44
+  },
+  {
+    "script": "SodaCraft.TimeOfDayPost",
+    "objects": 43
+  },
+  {
+    "script": "Duckov.CreditsUtility.EmptyEntry",
+    "objects": 43
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.DepthOfField",
+    "objects": 42
+  },
+  {
+    "script": "UnityEngine.UI.GraphicRaycaster",
+    "objects": 40
+  },
+  {
+    "script": "UnityEngine.UI.CanvasScaler",
+    "objects": 40
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ColorAdjustments",
+    "objects": 40
+  },
+  {
+    "script": "UnityEngine.Timeline.AnimationTrack",
+    "objects": 39
+  },
+  {
+    "script": "Duckov.Buildings.Building",
+    "objects": 39
+  },
+  {
+    "script": "Umbra.UmbraSoftShadows",
+    "objects": 38
+  },
+  {
+    "script": "ItemAgent_MeleeWeapon",
+    "objects": 38
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_ReachLocation",
+    "objects": 37
+  },
+  {
+    "script": "Duckov.Scenes.MultiSceneTeleporter",
+    "objects": 36
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireQuestsFinished",
+    "objects": 36
+  },
+  {
+    "script": "UnityEngine.Polybrush.PolybrushMesh",
+    "objects": 34
+  },
+  {
+    "script": "TaskEventEmitter",
+    "objects": 34
+  },
+  {
+    "script": "TMPro.TextMeshPro",
+    "objects": 34
+  },
+  {
+    "script": "Duckov.UI.ScrollViewMaxHeight",
+    "objects": 33
+  },
+  {
+    "script": "Duckov.ItemUsage.RemoveBuff",
+    "objects": 33
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ChromaticAberration",
+    "objects": 32
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle",
+    "objects": 32
+  },
+  {
+    "script": "SingleCrosshair",
+    "objects": 32
+  },
+  {
+    "script": "Duckov.Quests.SpawnItemForTask",
+    "objects": 32
+  },
+  {
+    "script": "Duckov.Economy.StockShop",
+    "objects": 32
+  },
+  {
+    "script": "TestArmRenderer",
+    "objects": 31
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.TgsCollider",
+    "objects": 31
+  },
+  {
+    "script": "KINEMATION.KAnimationCore.Runtime.Rig.KRigComponent",
+    "objects": 31
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerArtifact",
+    "objects": 31
+  },
+  {
+    "script": "Duckov.CreditsUtility.ImageEntry",
+    "objects": 31
+  },
+  {
+    "script": "CharacterModelAudioPoster",
+    "objects": 31
+  },
+  {
+    "script": "UnityEngine.Timeline.ControlPlayableAsset",
+    "objects": 30
+  },
+  {
+    "script": "Skill_Grenade",
+    "objects": 30
+  },
+  {
+    "script": "KINEMATION.MagicBlend.Runtime.MagicBlending",
+    "objects": 30
+  },
+  {
+    "script": "KINEMATION.MagicBlend.Runtime.MagicBlendState",
+    "objects": 30
+  },
+  {
+    "script": "DuckovItemAgent",
+    "objects": 30
+  },
+  {
+    "script": "Duckov.Scenes.SceneLocationsProvider",
+    "objects": 30
+  },
+  {
+    "script": "Duckov.MiniMaps.MiniMapCenter",
+    "objects": 30
+  },
+  {
+    "script": "Duckov.LotteryBox",
+    "objects": 30
+  },
+  {
+    "script": "Duckov.Effects.DamageAction",
+    "objects": 30
+  },
+  {
+    "script": "SodaCraft.CameraArmControl",
+    "objects": 29
+  },
+  {
+    "script": "PlayEventOnAwake",
+    "objects": 29
+  },
+  {
+    "script": "CustomFaceInstance",
+    "objects": 29
+  },
+  {
+    "script": "UnityEngine.Timeline.AnimationPlayableAsset",
+    "objects": 28
+  },
+  {
+    "script": "Duckov.UI.SliderWithTextField",
+    "objects": 28
+  },
+  {
+    "script": "CharacterAnimationControl_MagicBlend",
+    "objects": 27
+  },
+  {
+    "script": "BakeryDirectLight",
+    "objects": 27
+  },
+  {
+    "script": "RemoveBuffAction",
+    "objects": 26
+  },
+  {
+    "script": "ItemAmountDisplay",
+    "objects": 26
+  },
+  {
+    "script": "Duckov.UI.InventoryEntry",
+    "objects": 26
+  },
+  {
+    "script": "Duckov.UI.InventoryDisplay",
+    "objects": 26
+  },
+  {
+    "script": "Cinemachine.CinemachineBrain",
+    "objects": 26
+  },
+  {
+    "script": "Duckov.UI.InventoryEntryTradingPriceDisplay",
+    "objects": 25
+  },
+  {
+    "script": "CostDisplay",
+    "objects": 25
+  },
+  {
+    "script": "SyncDebugEdgeLight",
+    "objects": 24
+  },
+  {
+    "script": "NodeCanvas.DialogueTrees.DialogueTreeController",
+    "objects": 24
+  },
+  {
+    "script": "LeTai.Asset.TranslucentImage.TranslucentImageSource",
+    "objects": 24
+  },
+  {
+    "script": "Duckov.Options.UI.RuleEntry_Float",
+    "objects": 24
+  },
+  {
+    "script": "UnityEngine.Timeline.ControlTrack",
+    "objects": 23
+  },
+  {
+    "script": "Umbra.UmbraProfile",
+    "objects": 23
+  },
+  {
+    "script": "Projectile",
+    "objects": 23
+  },
+  {
+    "script": "Duckov.Quests.QuestGiver",
+    "objects": 23
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireQuestsActive",
+    "objects": 23
+  },
+  {
+    "script": "Duckov.PerkTrees.Interactable.PerkTreeUIInvoker",
+    "objects": 23
+  },
+  {
+    "script": "ftLightmapsStorage",
+    "objects": 22
+  },
+  {
+    "script": "DuckovScreenCapturer",
+    "objects": 22
+  },
+  {
+    "script": "DialogueBubbleProxy",
+    "objects": 22
+  },
+  {
+    "script": "EPOOutline.Outliner",
+    "objects": 21
+  },
+  {
+    "script": "Duckov.UI.ItemSlotCollectionDisplay",
+    "objects": 21
+  },
+  {
+    "script": "CameraShaker",
+    "objects": 21
+  },
+  {
+    "script": "SunFogEntry",
+    "objects": 20
+  },
+  {
+    "script": "EdgeLightEntry",
+    "objects": 20
+  },
+  {
+    "script": "Duckov.UI.PlayerStats.MainCharacterStatValueDisplay",
+    "objects": 20
+  },
+  {
+    "script": "Duckov.UI.CloseViewOnPointerClick",
+    "objects": 20
+  },
+  {
+    "script": "PlayerHurtVisual",
+    "objects": 19
+  },
+  {
+    "script": "ItemSetting_Skill",
+    "objects": 19
+  },
+  {
+    "script": "ItemAgent_Gun",
+    "objects": 19
+  },
+  {
+    "script": "GameCamera",
+    "objects": 19
+  },
+  {
+    "script": "ExplosionProxy",
+    "objects": 19
+  },
+  {
+    "script": "Duckov.CreditsUtility.HorizontalEntry",
+    "objects": 19
+  },
+  {
+    "script": "Cinemachine.CinemachineImpulseListener",
+    "objects": 19
+  },
+  {
+    "script": "CameraArm",
+    "objects": 19
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.MotionBlur",
+    "objects": 18
+  },
+  {
+    "script": "Grenade",
+    "objects": 18
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerEntity",
+    "objects": 18
+  },
+  {
+    "script": "CutScene",
+    "objects": 18
+  },
+  {
+    "script": "CustomFaceSlider",
+    "objects": 18
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.Vignette",
+    "objects": 17
+  },
+  {
+    "script": "LightCookieMove",
+    "objects": 17
+  },
+  {
+    "script": "Duckov.PerkTrees.AddPlayerStorage",
+    "objects": 17
+  },
+  {
+    "script": "AstarPath",
+    "objects": 17
+  },
+  {
+    "script": "TimeOfDayConfig",
+    "objects": 16
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.TgsForUnityTerrain",
+    "objects": 16
+  },
+  {
+    "script": "SetAsTriggerOnAwake",
+    "objects": 16
+  },
+  {
+    "script": "RandomGenerator",
+    "objects": 16
+  },
+  {
+    "script": "LevelConfig",
+    "objects": 16
+  },
+  {
+    "script": "EvacuationCountdownUIProxy",
+    "objects": 16
+  },
+  {
+    "script": "Duckov.Scenes.MultiSceneCore",
+    "objects": 16
+  },
+  {
+    "script": "Duckov.MiniMaps.MiniMapSettings",
+    "objects": 16
+  },
+  {
+    "script": "Duckov.MiniMaps.Editor.MiniMapShooter",
+    "objects": 16
+  },
+  {
+    "script": "Duckov.ItemUsage.Drug",
+    "objects": 16
+  },
+  {
+    "script": "CountDownArea",
+    "objects": 16
+  },
+  {
+    "script": null,
+    "objects": 16
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.FilmGrain",
+    "objects": 15
+  },
+  {
+    "script": "NodeCanvas.BehaviourTrees.BehaviourTree",
+    "objects": 15
+  },
+  {
+    "script": "ItemStatsSystem.OnShootAttackTrigger",
+    "objects": 15
+  },
+  {
+    "script": "HealAction",
+    "objects": 15
+  },
+  {
+    "script": "DuckovDialogueActor",
+    "objects": 15
+  },
+  {
+    "script": "Duckov.UI.ItemVariableEntry",
+    "objects": 15
+  },
+  {
+    "script": "Duckov.UI.ItemStatEntry",
+    "objects": 15
+  },
+  {
+    "script": "Duckov.UI.ItemModifierEntry",
+    "objects": 15
+  },
+  {
+    "script": "Duckov.UI.ItemEffectEntry",
+    "objects": 15
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.LiftGammaGain",
+    "objects": 14
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.Bloom",
+    "objects": 14
+  },
+  {
+    "script": "Pathfinding.Seeker",
+    "objects": 14
+  },
+  {
+    "script": "FloatOnWaterVisual",
+    "objects": 14
+  },
+  {
+    "script": "Duckov.UI.UsageUtilitiesDisplay_Entry",
+    "objects": 14
+  },
+  {
+    "script": "Duckov.UI.UsageUtilitiesDisplay",
+    "objects": 14
+  },
+  {
+    "script": "Duckov.UI.MoneyDisplay",
+    "objects": 14
+  },
+  {
+    "script": "Duckov.UI.ItemDetailsDisplay",
+    "objects": 14
+  },
+  {
+    "script": "Duckov.UI.CashDisplay",
+    "objects": 14
+  },
+  {
+    "script": "ContextualMoneyAndCash",
+    "objects": 14
+  },
+  {
+    "script": "BulletTypeDisplay",
+    "objects": 14
+  },
+  {
+    "script": "AI_PathControl",
+    "objects": 14
+  },
+  {
+    "script": "AICharacterController",
+    "objects": 14
+  },
+  {
+    "script": "UnlockStockShopItem",
+    "objects": 13
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField",
+    "objects": 13
+  },
+  {
+    "script": "SetActiveByEnding",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.UI.TooltipsProvider",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.UI.TagsDisplayEntry",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.UI.TagsDisplay",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.UI.Animations.ToggleAnimation",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.UI.Animations.ChangeGraphicsColorToggle",
+    "objects": 13
+  },
+  {
+    "script": "Duckov.MiniGames.VirtualCursorTarget",
+    "objects": 13
+  },
+  {
+    "script": "RuleEntry_Bool",
+    "objects": 12
+  },
+  {
+    "script": "Pathfinding.RaycastModifier",
+    "objects": 12
+  },
+  {
+    "script": "OptionsPanel_TabButton",
+    "objects": 12
+  },
+  {
+    "script": "MiningMachineCardDisplay",
+    "objects": 12
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_ConstructBuilding",
+    "objects": 12
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.UI.NavEntry",
+    "objects": 12
+  },
+  {
+    "script": "WeightBarHUD",
+    "objects": 11
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerContainer",
+    "objects": 11
+  },
+  {
+    "script": "TMPro.TMP_FontAsset",
+    "objects": 11
+  },
+  {
+    "script": "InteractCrafter",
+    "objects": 11
+  },
+  {
+    "script": "Duckov.UI.GenericButton",
+    "objects": 11
+  },
+  {
+    "script": "Duckov.UI.Animations.ScaleToggle",
+    "objects": 11
+  },
+  {
+    "script": "Duckov.PerkTrees.Behaviours.UnlockAchievement",
+    "objects": 11
+  },
+  {
+    "script": "Condition_TimeOfDay",
+    "objects": 11
+  },
+  {
+    "script": "BakeryPointLight",
+    "objects": 11
+  },
+  {
+    "script": "NodeCanvas.StateMachines.FSMOwner",
+    "objects": 10
+  },
+  {
+    "script": "KINEMATION.MagicBlend.Runtime.MagicBlendAsset",
+    "objects": 10
+  },
+  {
+    "script": "ItemStatsSystem.OnTakeDamageTrigger",
+    "objects": 10
+  },
+  {
+    "script": "Duckov.PerkTrees.PerkTreeRelationGraphOwner",
+    "objects": 10
+  },
+  {
+    "script": "Duckov.PerkTrees.PerkTree",
+    "objects": 10
+  },
+  {
+    "script": "Duckov.Endowment.EndowmentEntry",
+    "objects": 10
+  },
+  {
+    "script": "DarkRoomFade",
+    "objects": 10
+  },
+  {
+    "script": "BakerySkyLight",
+    "objects": 10
+  },
+  {
+    "script": "ADSAimMarker",
+    "objects": 10
+  },
+  {
+    "script": "UnityEngine.Timeline.ActivationTrack",
+    "objects": 9
+  },
+  {
+    "script": "UnityEngine.Timeline.ActivationPlayableAsset",
+    "objects": 9
+  },
+  {
+    "script": "UI_Bus_Slider",
+    "objects": 9
+  },
+  {
+    "script": "RequireEnemyKilled",
+    "objects": 9
+  },
+  {
+    "script": "InteractableCarriable",
+    "objects": 9
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireDemo",
+    "objects": 9
+  },
+  {
+    "script": "CinemachineShot",
+    "objects": 9
+  },
+  {
+    "script": "Carriable",
+    "objects": 9
+  },
+  {
+    "script": "ViewTabDisplayEntry",
+    "objects": 8
+  },
+  {
+    "script": "UnityEngine.Timeline.TimelineAsset",
+    "objects": 8
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.Tonemapping",
+    "objects": 8
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ColorCurves",
+    "objects": 8
+  },
+  {
+    "script": "TeleportBeacon",
+    "objects": 8
+  },
+  {
+    "script": "RequireSaveDataBool",
+    "objects": 8
+  },
+  {
+    "script": "InteractablePickup",
+    "objects": 8
+  },
+  {
+    "script": "FormulasRegisterViewInvoker",
+    "objects": 8
+  },
+  {
+    "script": "Duckov.UI.Inventories.PagesControl_Entry",
+    "objects": 8
+  },
+  {
+    "script": "Duckov.UI.Inventories.PagesControl",
+    "objects": 8
+  },
+  {
+    "script": "Duckov.UI.Animations.LocalPositionLooper",
+    "objects": 8
+  },
+  {
+    "script": "Duckov.DeathLotteries.DeathLotteryCard",
+    "objects": 8
+  },
+  {
+    "script": "Duckov.DeathLotteries.CardDisplay",
+    "objects": 8
+  },
+  {
+    "script": "CustomFaceUIColorPickerButton",
+    "objects": 8
+  },
+  {
+    "script": "CustomFaceUIColorPicker",
+    "objects": 8
+  },
+  {
+    "script": "Conditon_BuildingConstructed",
+    "objects": 8
+  },
+  {
+    "script": "BaseWallPaper",
+    "objects": 8
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.SplitToning",
+    "objects": 7
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ColorLookup",
+    "objects": 7
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.UIFoldout",
+    "objects": 7
+  },
+  {
+    "script": "UnityEngine.Experimental.Rendering.Universal.RenderObjects",
+    "objects": 7
+  },
+  {
+    "script": "TecLazer",
+    "objects": 7
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.TgsPreset",
+    "objects": 7
+  },
+  {
+    "script": "SpaceShipInstaller",
+    "objects": 7
+  },
+  {
+    "script": "SaveDataBoolProxy",
+    "objects": 7
+  },
+  {
+    "script": "RequireBeaconUnlocked",
+    "objects": 7
+  },
+  {
+    "script": "NotHurtForSeconds",
+    "objects": 7
+  },
+  {
+    "script": "Health",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.Utilities.FishSpawner",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.UI.MapSelectionEntry",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.Rules.RulesetFile",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_CheckSaveData",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.Quests.QuestTask_Snake_Score",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequirePerkUnlocked",
+    "objects": 7
+  },
+  {
+    "script": "Duckov.PerkTrees.Behaviours.UnlockFormula",
+    "objects": 7
+  },
+  {
+    "script": "CustomFaceUISwitch",
+    "objects": 7
+  },
+  {
+    "script": "CustomFaceTabs",
+    "objects": 7
+  },
+  {
+    "script": "Action_FishingV2",
+    "objects": 7
+  },
+  {
+    "script": "OnPointerClick",
+    "objects": 6
+  },
+  {
+    "script": "ItemStatsSystem.OnBuffLayerChanged",
+    "objects": 6
+  },
+  {
+    "script": "InteractableVehicle",
+    "objects": 6
+  },
+  {
+    "script": "FadeGroupButton",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.UI.WeightBarComplex",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.UI.MainMenu.SaveSlotSelectionButton",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.UI.ItemShortcutButton",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_Evacuate",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.Quests.QuestTask_UnlockBeacon",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.Quests.PlayDialogueGraphOnQuestActive",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.MiniGames.MiniGame",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerShopUIEntry",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.Buildings.Showcase",
+    "objects": 6
+  },
+  {
+    "script": "Duckov.AudioObject",
+    "objects": 6
+  },
+  {
+    "script": "AISpecialAttachment_Shop",
+    "objects": 6
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.UniversalRendererData",
+    "objects": 5
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.LensDistortion",
+    "objects": 5
+  },
+  {
+    "script": "PlayHurtEventProxy",
+    "objects": 5
+  },
+  {
+    "script": "HorizonBasedAmbientOcclusion.Universal.HBAO",
+    "objects": 5
+  },
+  {
+    "script": "GunSettingExpend_AddBuffToEnemyOnHurt",
+    "objects": 5
+  },
+  {
+    "script": "FillWaterAndFood",
+    "objects": 5
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_UnlockPerk",
+    "objects": 5
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_SubmitMoney",
+    "objects": 5
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireGameobjectsActived",
+    "objects": 5
+  },
+  {
+    "script": "Duckov.PerkTrees.Behaviours.ChangeBlackMarketRefreshTimeFactor",
+    "objects": 5
+  },
+  {
+    "script": "CostStaminaAction",
+    "objects": 5
+  },
+  {
+    "script": "BuffLayersGreaterOrEqual",
+    "objects": 5
+  },
+  {
+    "script": "BowAnimation",
+    "objects": 5
+  },
+  {
+    "script": "AISpecialAttachmentBase",
+    "objects": 5
+  },
+  {
+    "script": "VLB.VolumetricLightBeamSD",
+    "objects": 4
+  },
+  {
+    "script": "UnlockEndowmentWhenQuestComplete",
+    "objects": 4
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights",
+    "objects": 4
+  },
+  {
+    "script": "UnityEngine.EventSystems.EventSystem",
+    "objects": 4
+  },
+  {
+    "script": "Umbra.UmbraRenderFeature",
+    "objects": 4
+  },
+  {
+    "script": "UIPanelButton_OpenChildPanel",
+    "objects": 4
+  },
+  {
+    "script": "Soda_Joysticks",
+    "objects": 4
+  },
+  {
+    "script": "Shapes.ShapesRenderFeature",
+    "objects": 4
+  },
+  {
+    "script": "ScrollViewEventReceiver",
+    "objects": 4
+  },
+  {
+    "script": "LoopSoundWithObject",
+    "objects": 4
+  },
+  {
+    "script": "LeTai.Asset.TranslucentImage.Demo.AutoMoveAndRotate",
+    "objects": 4
+  },
+  {
+    "script": "HideIfSickFriendly",
+    "objects": 4
+  },
+  {
+    "script": "FowSmoke",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.UI.BarDisplay",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.UI.Animations.ImageColorLooper",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.Quests.Conditions.RequireQuestsActiveOrFinished",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.PerkTrees.Behaviours.AddBlackMarketRefreshChance",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.Options.UI.RuleEntry_Int",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.NavGroup",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.MasterKeys.MasterKeyRegisterViewInvoker",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.ItemUsage.DeadByChance",
+    "objects": 4
+  },
+  {
+    "script": "Duckov.Crops.UI.GardenViewToolButton",
+    "objects": 4
+  },
+  {
+    "script": "CanvasScalerController",
+    "objects": 4
+  },
+  {
+    "script": "vSyncSetting",
+    "objects": 3
+  },
+  {
+    "script": "Workbench",
+    "objects": 3
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.DecalRendererFeature",
+    "objects": 3
+  },
+  {
+    "script": "UnityEngine.Rendering.ProbeVolumePerSceneData",
+    "objects": 3
+  },
+  {
+    "script": "UnityEngine.InputSystem.UI.InputSystemUIInputModule",
+    "objects": 3
+  },
+  {
+    "script": "UI_Spline_Renderer.UISplineRenderer",
+    "objects": 3
+  },
+  {
+    "script": "UIShadowOptions",
+    "objects": 3
+  },
+  {
+    "script": "UIInputManager",
+    "objects": 3
+  },
+  {
+    "script": "UIButtonRevertBinding",
+    "objects": 3
+  },
+  {
+    "script": "TimeOfDayAlertTriggerProxy",
+    "objects": 3
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.TastyGrassShaderGlobalSettings",
+    "objects": 3
+  },
+  {
+    "script": "SunFogSettings",
+    "objects": 3
+  },
+  {
+    "script": "SteamLogoImage",
+    "objects": 3
+  },
+  {
+    "script": "SoftShadowOptions",
+    "objects": 3
+  },
+  {
+    "script": "SlotItemSwapper",
+    "objects": 3
+  },
+  {
+    "script": "ShadowSetting",
+    "objects": 3
+  },
+  {
+    "script": "SfxOnClick",
+    "objects": 3
+  },
+  {
+    "script": "ScrollWheelOptionsProvider",
+    "objects": 3
+  },
+  {
+    "script": "SceneLoader",
+    "objects": 3
+  },
+  {
+    "script": "RunInputOptions",
+    "objects": 3
+  },
+  {
+    "script": "RuleIndexDisplay",
+    "objects": 3
+  },
+  {
+    "script": "ResolutionOptions",
+    "objects": 3
+  },
+  {
+    "script": "PlayerStorage",
+    "objects": 3
+  },
+  {
+    "script": "PetHouse",
+    "objects": 3
+  },
+  {
+    "script": "NodeCanvas.StateMachines.FSM",
+    "objects": 3
+  },
+  {
+    "script": "MoveDirectionOptions",
+    "objects": 3
+  },
+  {
+    "script": "LeTai.Asset.TranslucentImage.UniversalRP.TranslucentImageBlurSource",
+    "objects": 3
+  },
+  {
+    "script": "LanguageOptionsProvider",
+    "objects": 3
+  },
+  {
+    "script": "KunEvents",
+    "objects": 3
+  },
+  {
+    "script": "ItemStatsSystem.CheckBuffFilter",
+    "objects": 3
+  },
+  {
+    "script": "ItemSetting_NightVision",
+    "objects": 3
+  },
+  {
+    "script": "ItemSetting_GPU",
+    "objects": 3
+  },
+  {
+    "script": "ItemMetaDisplay",
+    "objects": 3
+  },
+  {
+    "script": "HurtVisualSettings",
+    "objects": 3
+  },
+  {
+    "script": "HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature",
+    "objects": 3
+  },
+  {
+    "script": "HeadCollider",
+    "objects": 3
+  },
+  {
+    "script": "HBAOSettings",
+    "objects": 3
+  },
+  {
+    "script": "GrassOptions",
+    "objects": 3
+  },
+  {
+    "script": "FullScreenOptions",
+    "objects": 3
+  },
+  {
+    "script": "FsrSetting",
+    "objects": 3
+  },
+  {
+    "script": "FrameRateSetting",
+    "objects": 3
+  },
+  {
+    "script": "FishingRod",
+    "objects": 3
+  },
+  {
+    "script": "FMODUnity.FMODEventTrack",
+    "objects": 3
+  },
+  {
+    "script": "FMODUnity.FMODEventPlayable",
+    "objects": 3
+  },
+  {
+    "script": "EdgeLightSettings",
+    "objects": 3
+  },
+  {
+    "script": "EPOOutline.URPOutlineFeature",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.Utilities.StringList",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.UI.WeaponButton",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.UI.RedDots.QuestsButtonRedDot",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.UI.Animations.ScaleLooper",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.UI.Animations.AnchoredPositionLooper",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.Tips.TipsDisplay",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestGiverTabButton",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.PerkTrees.AddGardenSize",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.Options.UI.OptionsUIEntry_Slider",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.Options.UI.OptionsPanel",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.MiniGames.Utilities.ControllerPickupAnimation",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.CustomOptions.CustomOptionsPanel",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.CreditsUtility.CreditsDisplay",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.BasketBalls.BasketTrigger",
+    "objects": 3
+  },
+  {
+    "script": "Duckov.BasketBalls.Basket",
+    "objects": 3
+  },
+  {
+    "script": "Drawing.AlineURPRenderPassFeature",
+    "objects": 3
+  },
+  {
+    "script": "DisableCameraOffset",
+    "objects": 3
+  },
+  {
+    "script": "CopyTextOnClick",
+    "objects": 3
+  },
+  {
+    "script": "Condition_HasBeenToScene",
+    "objects": 3
+  },
+  {
+    "script": "ColorPunch",
+    "objects": 3
+  },
+  {
+    "script": "Button_QuitGame",
+    "objects": 3
+  },
+  {
+    "script": "AddToWishListButton",
+    "objects": 3
+  },
+  {
+    "script": "AISpecialAttachment_Horse",
+    "objects": 3
+  },
+  {
+    "script": "AISpecialAttachment_Hackable",
+    "objects": 3
+  },
+  {
+    "script": "UseToCreateItem",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.UI.RawImage",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.Timeline.MarkerTrack",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ScreenSpaceShadows",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerValue",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.InputSystem.PlayerInput",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.InputSystem.InputActionAsset",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.Experimental.Rendering.Universal.PixelPerfectCamera",
+    "objects": 2
+  },
+  {
+    "script": "UnityEngine.EventSystems.EventTrigger",
+    "objects": 2
+  },
+  {
+    "script": "UIShadowSetter",
+    "objects": 2
+  },
+  {
+    "script": "TimeScaleManager",
+    "objects": 2
+  },
+  {
+    "script": "TaskSkipperUI",
+    "objects": 2
+  },
+  {
+    "script": "TMPro.TMP_SpriteAsset",
+    "objects": 2
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.Example.AutoRotate",
+    "objects": 2
+  },
+  {
+    "script": "StormWeather",
+    "objects": 2
+  },
+  {
+    "script": "SkillHUD",
+    "objects": 2
+  },
+  {
+    "script": "SimpleTeleporterSpawner",
+    "objects": 2
+  },
+  {
+    "script": "SetInLevelDataBoolProxy",
+    "objects": 2
+  },
+  {
+    "script": "SetDoorOpenIfSaveData",
+    "objects": 2
+  },
+  {
+    "script": "SetActiveWithInputGroup",
+    "objects": 2
+  },
+  {
+    "script": "SetActiveOnAwake",
+    "objects": 2
+  },
+  {
+    "script": "SetActiveByInputDevice",
+    "objects": 2
+  },
+  {
+    "script": "ResolutionSetter",
+    "objects": 2
+  },
+  {
+    "script": "RequireWeathers",
+    "objects": 2
+  },
+  {
+    "script": "QuestRequiredItem",
+    "objects": 2
+  },
+  {
+    "script": "PostAudioEventOnEnter",
+    "objects": 2
+  },
+  {
+    "script": "PlayerPositionBackupProxy",
+    "objects": 2
+  },
+  {
+    "script": "PetAI",
+    "objects": 2
+  },
+  {
+    "script": "PerkTreeIDList",
+    "objects": 2
+  },
+  {
+    "script": "PauseMenu",
+    "objects": 2
+  },
+  {
+    "script": "PasswordMachine",
+    "objects": 2
+  },
+  {
+    "script": "OpenSaveFolder",
+    "objects": 2
+  },
+  {
+    "script": "OcclusionFadeChecker",
+    "objects": 2
+  },
+  {
+    "script": "NodeCanvas.BehaviourTrees.BehaviourTreeOwner",
+    "objects": 2
+  },
+  {
+    "script": "NightVisionVisual",
+    "objects": 2
+  },
+  {
+    "script": "MapMarkerPanelButton",
+    "objects": 2
+  },
+  {
+    "script": "MainMenuCamera",
+    "objects": 2
+  },
+  {
+    "script": "LevelManagerProxy",
+    "objects": 2
+  },
+  {
+    "script": "LevelInitializingIndicator",
+    "objects": 2
+  },
+  {
+    "script": "LeTai.TrueShadow.ProjectSettings",
+    "objects": 2
+  },
+  {
+    "script": "ItemStatsSystem.ItemInCharacterSlotFilter",
+    "objects": 2
+  },
+  {
+    "script": "ItemStarterkit",
+    "objects": 2
+  },
+  {
+    "script": "InteractHUD",
+    "objects": 2
+  },
+  {
+    "script": "InputRebinderIndicator",
+    "objects": 2
+  },
+  {
+    "script": "InputRebinder",
+    "objects": 2
+  },
+  {
+    "script": "IndicatorHUD",
+    "objects": 2
+  },
+  {
+    "script": "GunSettingExpend_ExplosionOnHurt",
+    "objects": 2
+  },
+  {
+    "script": "GameManager",
+    "objects": 2
+  },
+  {
+    "script": "GameClockDisplay",
+    "objects": 2
+  },
+  {
+    "script": "FullScreenPassRendererFeature",
+    "objects": 2
+  },
+  {
+    "script": "FreeCameraController",
+    "objects": 2
+  },
+  {
+    "script": "FollowCharacterHUD",
+    "objects": 2
+  },
+  {
+    "script": "FXPool",
+    "objects": 2
+  },
+  {
+    "script": "FOW.FogOfWarRenderFeature",
+    "objects": 2
+  },
+  {
+    "script": "FMODUnity.StudioListener",
+    "objects": 2
+  },
+  {
+    "script": "FMODUnity.StudioBankLoader",
+    "objects": 2
+  },
+  {
+    "script": "ExplosionAction",
+    "objects": 2
+  },
+  {
+    "script": "EventReports.BDSManager",
+    "objects": 2
+  },
+  {
+    "script": "EndingControl",
+    "objects": 2
+  },
+  {
+    "script": "ElementFactorFilter",
+    "objects": 2
+  },
+  {
+    "script": "ECM2.CharacterMovement",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.WyvrnManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.ItemShortcutEditorPanel",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.ItemShortcutEditorEntry",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.FollowCursor",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.DialogueCanvas",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.CopyTextButton",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.BuffsDisplay",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.BuffDetailsOverlay",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.BlackScreen",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.UI.Animations.MaterialPropertyFade",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Tasks.TaskList",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Tasks.PlayTimelineTask",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Tasks.Credits",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Rules.GameRulesManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.RichPresenceManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Quests.UI.RewardEntry",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestViewFlagButton",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestViewDetails",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestSortButton",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Quests.Tasks.QuestTask_UseItem",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Options.OptionsManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.NoteIndexs.NoteIndex",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Modding.ModManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.MiniGames.Utilities.GamingConsoleGraphics",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.MiniGames.SnakeForces.SnakePartDisplay",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.MiniGames.MiniGameInputHandler",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerMoneyDisplay",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.MiniGames.GamingConsole",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.HardwareSyncingManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Endowment.EndowmentManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.CustomerService.QuestionairButton",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.CursorManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Consoles.DConsole",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.AudioManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Achievements.StatisticsManager",
+    "objects": 2
+  },
+  {
+    "script": "Duckov.Achievements.AchievementManager",
+    "objects": 2
+  },
+  {
+    "script": "DigitInputPanel",
+    "objects": 2
+  },
+  {
+    "script": "DevCam",
+    "objects": 2
+  },
+  {
+    "script": "CustomerServiceInfo",
+    "objects": 2
+  },
+  {
+    "script": "CustomFaceManager",
+    "objects": 2
+  },
+  {
+    "script": "ConfirmDialogue",
+    "objects": 2
+  },
+  {
+    "script": "CinemachineTrack",
+    "objects": 2
+  },
+  {
+    "script": "Cinemachine.NoiseSettings",
+    "objects": 2
+  },
+  {
+    "script": "CharacterIsRunning",
+    "objects": 2
+  },
+  {
+    "script": "CameraSystems.CameraPropertiesControl",
+    "objects": 2
+  },
+  {
+    "script": "Button_LoadMainMenu",
+    "objects": 2
+  },
+  {
+    "script": "BulletCountHUD",
+    "objects": 2
+  },
+  {
+    "script": "BuilderViewInvoker",
+    "objects": 2
+  },
+  {
+    "script": "BuffVFX",
+    "objects": 2
+  },
+  {
+    "script": "BaseWallPaperSlot",
+    "objects": 2
+  },
+  {
+    "script": "ActionProgressHUD",
+    "objects": 2
+  },
+  {
+    "script": "AISpecialAttachment_SpawnItemOnCritKill",
+    "objects": 2
+  },
+  {
+    "script": "XlsxObject",
+    "objects": 1
+  },
+  {
+    "script": "WishListProxy",
+    "objects": 1
+  },
+  {
+    "script": "WaterHUD",
+    "objects": 1
+  },
+  {
+    "script": "VolumesControl",
+    "objects": 1
+  },
+  {
+    "script": "ViewTabs",
+    "objects": 1
+  },
+  {
+    "script": "VLB.Config",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Timeline.SignalReceiver",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Splines.SplineExtrude",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.XRSystemData",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.PostProcessData",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.Universal.PaniniProjection",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerVector4",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerVector3",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerVector2",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerValueTuple",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerVBox",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerUIntField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerToggle",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerRow",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerProgressBar",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerPanel",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerObjectList",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerObject",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerMessageBox",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerIntField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerHBox",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerGroup",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerFoldout",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerFloatField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerEnumField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerColor",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerCanvas",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerButton",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.Rendering.UI.DebugUIHandlerBitField",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.InputSystem.OnScreen.OnScreenButton",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.InputSystem.InputSettings",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.GUISkin",
+    "objects": 1
+  },
+  {
+    "script": "UnityEngine.EventSystems.StandaloneInputModule",
+    "objects": 1
+  },
+  {
+    "script": "UI_Spline_Renderer.UISplineRendererSettings",
+    "objects": 1
+  },
+  {
+    "script": "UI.MenuItem",
+    "objects": 1
+  },
+  {
+    "script": "UI.Menu",
+    "objects": 1
+  },
+  {
+    "script": "Title",
+    "objects": 1
+  },
+  {
+    "script": "TimeOfDayVolumeControl",
+    "objects": 1
+  },
+  {
+    "script": "TimeOfDayDisplay",
+    "objects": 1
+  },
+  {
+    "script": "TimeOfDayController",
+    "objects": 1
+  },
+  {
+    "script": "TimeOfDayAlert",
+    "objects": 1
+  },
+  {
+    "script": "TestSetControl",
+    "objects": 1
+  },
+  {
+    "script": "TagillaAI",
+    "objects": 1
+  },
+  {
+    "script": "TMPro.TMP_StyleSheet",
+    "objects": 1
+  },
+  {
+    "script": "TMPro.TMP_Settings",
+    "objects": 1
+  },
+  {
+    "script": "SymmetryBreakStudio.TastyGrassShader.TgsWindSettings",
+    "objects": 1
+  },
+  {
+    "script": "StorageDockCountTMP",
+    "objects": 1
+  },
+  {
+    "script": "StockShopDatabase",
+    "objects": 1
+  },
+  {
+    "script": "SteamManager",
+    "objects": 1
+  },
+  {
+    "script": "StaminaHUD",
+    "objects": 1
+  },
+  {
+    "script": "SplitDialogue",
+    "objects": 1
+  },
+  {
+    "script": "SpawnPaperBoxAction",
+    "objects": 1
+  },
+  {
+    "script": "SpawnControlCharacter",
+    "objects": 1
+  },
+  {
+    "script": "SoulCube",
+    "objects": 1
+  },
+  {
+    "script": "SoulCollector",
+    "objects": 1
+  },
+  {
+    "script": "SodaCraft.Localizations.SpriteRendererLocalizor",
+    "objects": 1
+  },
+  {
+    "script": "SodaCraft.Localizations.LocalizationDatabase",
+    "objects": 1
+  },
+  {
+    "script": "SodaCraft.Localizations.ImageLocalizor",
+    "objects": 1
+  },
+  {
+    "script": "Skill_Shoot",
+    "objects": 1
+  },
+  {
+    "script": "SkillRangeHUD",
+    "objects": 1
+  },
+  {
+    "script": "SkillProjectileLineHUD",
+    "objects": 1
+  },
+  {
+    "script": "SkillHud3D",
+    "objects": 1
+  },
+  {
+    "script": "Sirenix.Serialization.GlobalSerializationConfig",
+    "objects": 1
+  },
+  {
+    "script": "ShootRangeRing",
+    "objects": 1
+  },
+  {
+    "script": "ShapesSkillLine",
+    "objects": 1
+  },
+  {
+    "script": "Shapes.ShapesImportState",
+    "objects": 1
+  },
+  {
+    "script": "Shapes.ShapesConfig",
+    "objects": 1
+  },
+  {
+    "script": "Shapes.ShapesAssets",
+    "objects": 1
+  },
+  {
+    "script": "SetTimeOnEnterBaseFirstTime",
+    "objects": 1
+  },
+  {
+    "script": "SetEndingMissleParameter",
+    "objects": 1
+  },
+  {
+    "script": "SceneInfoCollection",
+    "objects": 1
+  },
+  {
+    "script": "SavesBackupRestoreInvoker",
+    "objects": 1
+  },
+  {
+    "script": "RogueClosureManager",
+    "objects": 1
+  },
+  {
+    "script": "RestoreFailureDetectedIndicator",
+    "objects": 1
+  },
+  {
+    "script": "ReloadHUD",
+    "objects": 1
+  },
+  {
+    "script": "PlayerStorageBuffer",
+    "objects": 1
+  },
+  {
+    "script": "PlayerPositionBackupManager",
+    "objects": 1
+  },
+  {
+    "script": "PlayableDirectorEvents",
+    "objects": 1
+  },
+  {
+    "script": "PetProxy",
+    "objects": 1
+  },
+  {
+    "script": "PerkTreeManager",
+    "objects": 1
+  },
+  {
+    "script": "Pathfinding.FunnelModifier",
+    "objects": 1
+  },
+  {
+    "script": "Pathfinding.Drawing.DrawingSettings",
+    "objects": 1
+  },
+  {
+    "script": "PaperBox",
+    "objects": 1
+  },
+  {
+    "script": "OxygenHUD",
+    "objects": 1
+  },
+  {
+    "script": "OverrideDeathSceneRouting",
+    "objects": 1
+  },
+  {
+    "script": "OcclusionFadeManager",
+    "objects": 1
+  },
+  {
+    "script": "NodeCanvas.DialogueTrees.DialogueActor",
+    "objects": 1
+  },
+  {
+    "script": "MultiInteractionMenuButton",
+    "objects": 1
+  },
+  {
+    "script": "MultiInteractionMenu",
+    "objects": 1
+  },
+  {
+    "script": "MultiInteraction",
+    "objects": 1
+  },
+  {
+    "script": "Movement",
+    "objects": 1
+  },
+  {
+    "script": "MoveRing",
+    "objects": 1
+  },
+  {
+    "script": "ModUploadPanel",
+    "objects": 1
+  },
+  {
+    "script": "MiningMachineVisual",
+    "objects": 1
+  },
+  {
+    "script": "MapMarkerSettingsPanel",
+    "objects": 1
+  },
+  {
+    "script": "MapImageToShader",
+    "objects": 1
+  },
+  {
+    "script": "MainMenu",
+    "objects": 1
+  },
+  {
+    "script": "MainCharacterFace",
+    "objects": 1
+  },
+  {
+    "script": "LongPressButton",
+    "objects": 1
+  },
+  {
+    "script": "LogOnEnableAndDisable",
+    "objects": 1
+  },
+  {
+    "script": "LittleMoveHUD",
+    "objects": 1
+  },
+  {
+    "script": "LevelManager",
+    "objects": 1
+  },
+  {
+    "script": "LeTai.TrueShadow.DisableShadowCache",
+    "objects": 1
+  },
+  {
+    "script": "LeTai.Asset.TranslucentImage.ScalableBlurConfig",
+    "objects": 1
+  },
+  {
+    "script": "LabelAndValue",
+    "objects": 1
+  },
+  {
+    "script": "KINEMATION.KAnimationCore.Runtime.Rig.KRig",
+    "objects": 1
+  },
+  {
+    "script": "ItemWishlist",
+    "objects": 1
+  },
+  {
+    "script": "ItemStatsSystem.ItemAssetsCollection",
+    "objects": 1
+  },
+  {
+    "script": "ItemRepair_RepairAllPanel",
+    "objects": 1
+  },
+  {
+    "script": "ItemPropertiesDisplay",
+    "objects": 1
+  },
+  {
+    "script": "ItemDraggingPointerDisplay",
+    "objects": 1
+  },
+  {
+    "script": "ItemAgent_Kazoo",
+    "objects": 1
+  },
+  {
+    "script": "ItemAgentHolder",
+    "objects": 1
+  },
+  {
+    "script": "InventoryFilterProvider",
+    "objects": 1
+  },
+  {
+    "script": "InventoryFilterDisplayEntry",
+    "objects": 1
+  },
+  {
+    "script": "InventoryFilterDisplay",
+    "objects": 1
+  },
+  {
+    "script": "InteractablePMC",
+    "objects": 1
+  },
+  {
+    "script": "Interact_CustomFace",
+    "objects": 1
+  },
+  {
+    "script": "InteractSelectionHUD",
+    "objects": 1
+  },
+  {
+    "script": "InteractMarker",
+    "objects": 1
+  },
+  {
+    "script": "InputManager",
+    "objects": 1
+  },
+  {
+    "script": "InputIconDatabase",
+    "objects": 1
+  },
+  {
+    "script": "HitMarker",
+    "objects": 1
+  },
+  {
+    "script": "HealthHUD",
+    "objects": 1
+  },
+  {
+    "script": "HealthBar_DamageBar",
+    "objects": 1
+  },
+  {
+    "script": "HandheldSprite",
+    "objects": 1
+  },
+  {
+    "script": "HUDManager",
+    "objects": 1
+  },
+  {
+    "script": "GimpPalette",
+    "objects": 1
+  },
+  {
+    "script": "GamingConsoleView",
+    "objects": 1
+  },
+  {
+    "script": "GamePrepareProcess",
+    "objects": 1
+  },
+  {
+    "script": "GameClock",
+    "objects": 1
+  },
+  {
+    "script": "FxAction",
+    "objects": 1
+  },
+  {
+    "script": "FormulasDetailsDisplay",
+    "objects": 1
+  },
+  {
+    "script": "FogOfWarManager",
+    "objects": 1
+  },
+  {
+    "script": "Fishing.UI.FishingUI",
+    "objects": 1
+  },
+  {
+    "script": "Fishing.UI.ConfirmPanel",
+    "objects": 1
+  },
+  {
+    "script": "Fishing.UI.BaitSelectPanelEntry",
+    "objects": 1
+  },
+  {
+    "script": "Fishing.UI.BaitSelectPanel",
+    "objects": 1
+  },
+  {
+    "script": "Fishing.FishingHUD",
+    "objects": 1
+  },
+  {
+    "script": "FX.PopTextEntity",
+    "objects": 1
+  },
+  {
+    "script": "FX.PopText",
+    "objects": 1
+  },
+  {
+    "script": "FOW.FogOfWarWorld",
+    "objects": 1
+  },
+  {
+    "script": "FOW.FogOfWarRevealer3D",
+    "objects": 1
+  },
+  {
+    "script": "FOW.FogOfWarHider",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.Settings",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformWindows",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformWebGL",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformVisionOS",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformPlayInEditor",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformMobileLow",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformMobileHigh",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformMac",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformLinux",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformIOS",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformDefault",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformAppleTV",
+    "objects": 1
+  },
+  {
+    "script": "FMODUnity.PlatformAndroid",
+    "objects": 1
+  },
+  {
+    "script": "ExplosionManager",
+    "objects": 1
+  },
+  {
+    "script": "ExpDisplay",
+    "objects": 1
+  },
+  {
+    "script": "ExitCreator",
+    "objects": 1
+  },
+  {
+    "script": "EventIfSteamChina",
+    "objects": 1
+  },
+  {
+    "script": "EvacuationCountdownUI",
+    "objects": 1
+  },
+  {
+    "script": "EnergyHUD",
+    "objects": 1
+  },
+  {
+    "script": "Egg",
+    "objects": 1
+  },
+  {
+    "script": "ES3Defaults",
+    "objects": 1
+  },
+  {
+    "script": "Duckvo.Beacons.BeaconManager",
+    "objects": 1
+  },
+  {
+    "script": "DuckovHider",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Weathers.WeatherManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Utilities.StringLists",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Utilities.SetActiveByPlayerDistance",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Utilities.GameplayDataSettings",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Utilities.DuckovUtilitiesSettings",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Utilities.CommonVariables",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.UIPrefabsReference",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.Tooltips",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.StorageDockEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.StorageDock",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.StatInfoDatabase",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.SleepView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ShowcaseView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.SavesRestore.SavesBackupRestorePanelEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.SavesRestore.SavesBackupRestorePanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.PlayerStatsView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.PerkTreeView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.PerkLineEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.PerkEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.PerkDetails",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.NotificationText",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.NoteIndexView_Inspector",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.NoteIndexView_Entry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.NoteIndexView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.MapSelectionView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.MainMenu.SavesButton",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.MainMenu.SaveSlotSelectionMenu",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.MainMenu.ContinueButton",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.LootView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemShortcutPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemRepairView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemPickerEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemPicker",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemOperationMenu",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemHoveringUI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemDetailsPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemDecomposeView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemCustomizeView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ItemCustomizeSelectionView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.IslandClosure_ItemEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.IslandClosureView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.InventoryView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.HealthBarManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.HealthBar",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.GameplayUIManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.FormulasRegisterView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.FormulasIndexView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.FormulasIndexEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ExtraBuffViewHoverPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ExtraBuffViewEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ExtraBuffView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.DialogueBubbles.DialogueBubblesManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.DialogueBubbles.DialogueBubble",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.ClosureView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.BuffsDisplayEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.BarDisplays.BarDisplayController_Thurst",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.BarDisplays.BarDisplayController_Stemina",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.BarDisplays.BarDisplayController_Hunger",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.BarDisplays.BarDisplayController_HP",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.UI.Animations.ScaleFade",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Tasks.Startup",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Tasks.EndingFlow",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.StrongNotification",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Sounds.SoundVisualization",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Sounds.SoundDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Rules.UI.DifficultySelection_Entry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Rules.UI.DifficultySelection",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.TaskEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestGiverView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestGiverTabs",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.UI.QuestCompletePanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.Relations.QuestRelationGraph",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.QuestTask_MouseDodger_Score",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.QuestTask_GoldMiner_Level",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.QuestTask_BubblePopper_Level",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.QuestManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Quests.QuestCollection",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.PerkTrees.GardenAutoWater",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Modding.UI.ModPathButton",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Modding.UI.ModManagerUI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Modding.UI.ModEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Modding.UI.ModChangedWarning",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Modding.SteamWorkshopManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.UI.PointOfInterestEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.UI.MiniMapView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.UI.MiniMapDisplayEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.UI.MiniMapDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.MiniMapCompass",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.MapMarkerPOI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniMaps.MapMarkerManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.VirtualCursor",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Utilities.ControllerAnimator",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.SnakeForces.SnakeForce",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.SnakeForces.SnakeDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.MouseDodger.MouseDodger",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Island.PressStartText",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Island.Island",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.StrengthPotionDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.StaminaDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.ScoreDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.PigBehaviour",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.PassivePropsUI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.PassivePropDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.NavGroupLinearController",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.LevelSettlementUI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.HookHead",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Hook",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMiner_PopTextEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMiner_PopText",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerShopUIRefreshBtn",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerShopUIContinueBtn",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerShopUI",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMinerShop",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.GoldMiner",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.ExplodeOnAttach",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.EagleEyePotionDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.BombDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Bomb",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_032",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_031",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_030",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_029",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_028",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_027",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_026",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_025",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_024",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_023",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_022",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_021",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_020",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_019",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_018",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_017",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_016",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_015",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_014",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_012",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_011",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_010",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_009",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_008",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_007",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_006",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_005",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_004",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_003",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_002",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.Artifacts.GMA_001",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.AddStrengthPotionOnRetrieve",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.AddEagleEyePotionOnRetrieve",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GoldMiner.AddBombOnRetrieve",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.GamingConsoleHUD",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Examples.FPS.UICrossHair",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Examples.FPS.FPSMovement",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Examples.FPS.FPSGunControl",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Examples.FPS.FPSGun",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.Examples.FPS.FPSCharacter",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.BubblePoppers.BubblePopperLevelDataProvider",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.BubblePoppers.BubblePopperLayout",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.BubblePoppers.BubblePopper",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MiniGames.BubblePoppers.Bubble",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.UI.MasterKeysView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.UI.MasterKeysRegisterView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.UI.MasterKeysIndexList",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.UI.MasterKeysIndexInspector",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.UI.MasterKeysIndexEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.MasterKeys.MasterKeysManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.ItemUsage.SpawnEgg",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.ItemUnlockNotification",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.ItemShortcut",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.GameVersionDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.GameVersionData",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.GameMetaData",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Endowment.UI.EndowmentSelectionPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Endowment.UI.EndowmentSelectionEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Endowment.UI.EndowmentDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Economy.UI.StockShopView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Economy.UI.StockShopItemEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Economy.EconomyManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.EXPManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.DeathLotteries.DeathLotteryVIew",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.DeadBodyManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.UI.GardenViewCropSelector",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.UI.GardenView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.UI.CellContextDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.GardenSprayer",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.Garden",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.CropDatabase",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.CropAnimator",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.Crop",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Crops.CellDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Consoles.Give",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.GridDisplay",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.BuildingSelectionPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.BuildingContextMenuEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.BuildingContextMenu",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.BuildingBtnEntry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.UI.BuilderView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.BuildingManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.BuildingEffect",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.BuildingDataCollection",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buildings.BuildingArea",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Buffs.CharacterBuffManager",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.UI.SupplyPanel_Entry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.UI.SupplyPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.UI.DemandPanel_Entry",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.UI.DemandPanel",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.UI.BlackMarketView",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BlackMarkets.BlackMarket",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Bitcoins.BitcoinMiner",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.BasketBalls.BasketBall",
+    "objects": 1
+  },
+  {
+    "script": "Duckov.Achievements.AchievementDatabase",
+    "objects": 1
+  },
+  {
+    "script": "Drawing.DrawingSettings",
+    "objects": 1
+  },
+  {
+    "script": "DragHandler",
+    "objects": 1
+  },
+  {
+    "script": "Dialogues.DialogueUIChoice",
+    "objects": 1
+  },
+  {
+    "script": "Dialogues.DialogueUI",
+    "objects": 1
+  },
+  {
+    "script": "DeleteSaveDataButton",
+    "objects": 1
+  },
+  {
+    "script": "DecomposeSlider",
+    "objects": 1
+  },
+  {
+    "script": "DecomposeDatabase",
+    "objects": 1
+  },
+  {
+    "script": "DG.Tweening.Core.DOTweenSettings",
+    "objects": 1
+  },
+  {
+    "script": "CustomFaceUI",
+    "objects": 1
+  },
+  {
+    "script": "CustomFaceSaveLoad",
+    "objects": 1
+  },
+  {
+    "script": "CustomFaceLoadSaveButton",
+    "objects": 1
+  },
+  {
+    "script": "CustomFaceData",
+    "objects": 1
+  },
+  {
+    "script": "CraftingManager",
+    "objects": 1
+  },
+  {
+    "script": "CraftingFormulaCollection",
+    "objects": 1
+  },
+  {
+    "script": "CraftView_ListEntry",
+    "objects": 1
+  },
+  {
+    "script": "CraftViewFilterBtnEntry",
+    "objects": 1
+  },
+  {
+    "script": "CraftView",
+    "objects": 1
+  },
+  {
+    "script": "CostTakerHUD_Entry",
+    "objects": 1
+  },
+  {
+    "script": "CostTakerHUD",
+    "objects": 1
+  },
+  {
+    "script": "Condition_RaidDead",
+    "objects": 1
+  },
+  {
+    "script": "Condition_CharacterLevel",
+    "objects": 1
+  },
+  {
+    "script": "Cinemachine.CinemachineBlenderSettings",
+    "objects": 1
+  },
+  {
+    "script": "CheatingManager",
+    "objects": 1
+  },
+  {
+    "script": "CharacterTouchInputControl",
+    "objects": 1
+  },
+  {
+    "script": "CharacterSoundMaker",
+    "objects": 1
+  },
+  {
+    "script": "CharacterPosInShader",
+    "objects": 1
+  },
+  {
+    "script": "CharacterMainControl",
+    "objects": 1
+  },
+  {
+    "script": "CharacterItemControl",
+    "objects": 1
+  },
+  {
+    "script": "CharacterInputControl",
+    "objects": 1
+  },
+  {
+    "script": "CharacterEquipmentController",
+    "objects": 1
+  },
+  {
+    "script": "CharacterCreator",
+    "objects": 1
+  },
+  {
+    "script": "CharacterAnimationControl_Moto",
+    "objects": 1
+  },
+  {
+    "script": "ChangeModelAction",
+    "objects": 1
+  },
+  {
+    "script": "CameraModeController",
+    "objects": 1
+  },
+  {
+    "script": "CameraMode",
+    "objects": 1
+  },
+  {
+    "script": "CA_UseItem",
+    "objects": 1
+  },
+  {
+    "script": "CA_Skill",
+    "objects": 1
+  },
+  {
+    "script": "CA_Reload",
+    "objects": 1
+  },
+  {
+    "script": "CA_Interact",
+    "objects": 1
+  },
+  {
+    "script": "CA_Dash",
+    "objects": 1
+  },
+  {
+    "script": "CA_ControlOtherCharacter",
+    "objects": 1
+  },
+  {
+    "script": "CA_Carry",
+    "objects": 1
+  },
+  {
+    "script": "CA_Attack",
+    "objects": 1
+  },
+  {
+    "script": "BunkerDoorVisual",
+    "objects": 1
+  },
+  {
+    "script": "BulletTypeSelectButton",
+    "objects": 1
+  },
+  {
+    "script": "BulletTypeHUD",
+    "objects": 1
+  },
+  {
+    "script": "BulletRandomDirection",
+    "objects": 1
+  },
+  {
+    "script": "BulletPool",
+    "objects": 1
+  },
+  {
+    "script": "BulletBlocker",
+    "objects": 1
+  },
+  {
+    "script": "BlueNoiseSetter",
+    "objects": 1
+  },
+  {
+    "script": "BitcoinMinerView",
+    "objects": 1
+  },
+  {
+    "script": "BaseWallMaterialSetter",
+    "objects": 1
+  },
+  {
+    "script": "BaseSceneUtilities",
+    "objects": 1
+  },
+  {
+    "script": "BaseBGMSelector",
+    "objects": 1
+  },
+  {
+    "script": "AimTargetFinder",
+    "objects": 1
+  },
+  {
+    "script": "AimMarker",
+    "objects": 1
+  },
+  {
+    "script": "ATMView",
+    "objects": 1
+  },
+  {
+    "script": "ATMPanel_SavePanel",
+    "objects": 1
+  },
+  {
+    "script": "ATMPanel_DrawPanel",
+    "objects": 1
+  },
+  {
+    "script": "ATMPanel",
+    "objects": 1
+  },
+  {
+    "script": "AISpecialAttachment_BoomCar",
+    "objects": 1
+  },
+  {
+    "script": "AIMainBrain",
+    "objects": 1
+  }
+]
