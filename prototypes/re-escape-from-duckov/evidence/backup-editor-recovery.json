@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13T22:10:32.318359",
+  "localRepository": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local",
+  "localCommit": "16bf138571ad7a401ea12fcef56526375c6aa8fd",
+  "localTree": "8e7f3845f693923a0e618d3fdef167a63467015d",
+  "localTrackedFiles": 110508,
+  "localTrackedBytes": 21099500671,
+  "allLocalResearchTracked": true,
+  "ignoredCachesExcluded": true,
+  "installationBlobsVerified": 466,
+  "localGitFsck": true,
+  "localRemote": null,
+  "bundle": {
+    "path": "D:\\CodexBackups\\duckov-editor-recovery-2026-10-13-local.bundle",
+    "bytes": 6667924178,
+    "sha256": "995fb17c3eb7826e30b562906e4986c7cfe593662ac8625badd7af066d397cf9",
+    "verified": true
+  },
+  "reportBackup": {
+    "status": "complete",
+    "branch": "codex/duckov-analysis",
+    "includesThirdPartyBodiesOrMedia": false,
+    "verifiedRemoteCommit": "79bb481f4feb79dc7d23f2c6f3f965c2946c8bbd",
+    "verifiedAt": "2026-10-13T22:11:37.388934+08:00",
+    "workspaceReportCommit": "c5337c0"
+  }
+}
