@@ -4,9 +4,10 @@
   "scope": "Static restoration, data, font and full image import coverage; not a claim of pixel or native experience equivalence",
   "checks": [
     {
-      "name": "All business scripts differ only by declared Unity API bridges, eight company names and an audio-option display alias",
+      "name": "All 30 business scripts differ only by declared API bridges, company/display aliases and explicit packaging color literals",
       "passed": true,
-      "scripts": 30
+      "scripts": 30,
+      "colorLiteralOccurrences": 15
     },
     {
       "name": "All 95 card rule records preserve source numeric parameters and references",
@@ -75,213 +76,308 @@
       "passed": true
     },
     {
+      "name": "Native language badge labels match original Options.AddFlag order and ENG=Chinese / SPA=English XML slots",
+      "passed": true
+    },
+    {
       "name": "All 82 replacement textures have source dimensions, provenance and runtime copies; historical generated originals are retained",
       "passed": true,
       "historicalGeneratedSources": 82,
       "exported": 82
     },
     {
-      "name": "Twenty-six shared UI layers retain exact functional alpha; twenty-four declared surfaces and two native language badges use no generated frame or navy fallback",
+      "name": "All 38 themed UI layers retain exact dimensions/alpha and declared aspect-preserving material sources",
       "passed": true,
       "textures": [
         {
-          "name": "TitleBackground Left",
-          "role": "Sliding left phase backplate; no inner frame",
-          "mode": "flat",
-          "maxChannelError": 0.5,
+          "name": "CARD_01_Base_3T",
+          "role": "card_lower",
+          "mode": "framed",
+          "exactAlpha": true,
           "passed": true
         },
         {
-          "name": "TitleBackground Right",
-          "role": "Sliding right phase backplate; no inner frame",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "TitleBackground Line Left",
-          "role": "Left phase outline only",
-          "mode": "flat",
-          "maxChannelError": 0.44999999999998863,
-          "passed": true
-        },
-        {
-          "name": "TitleBackground Line Right",
-          "role": "Right phase outline only",
-          "mode": "flat",
-          "maxChannelError": 0.44999999999998863,
-          "passed": true
-        },
-        {
-          "name": "ButtonBig",
-          "role": "Original clipped button fill and thin bevel",
-          "mode": "luminance",
-          "maxChannelError": 0.46000000000000796,
-          "passed": true
-        },
-        {
-          "name": "ButtonSmall",
-          "role": "Vertical settings/resume button, original fill and bevel",
-          "mode": "luminance",
-          "maxChannelError": 0.46000000000000796,
-          "passed": true
-        },
-        {
-          "name": "CARD_00_Background",
-          "role": "Shared card back and company surface; no frame, picture placeholder or baked watermark",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "CARD_01_BaseTop",
-          "role": "Dark picture surround; no added frame",
-          "mode": "luminance",
-          "maxChannelError": 0.4800000000000004,
-          "passed": true
-        },
-        {
-          "name": "CARD_03_DetailsTop",
-          "role": "Tintable header and outline, shared by cards and projects",
-          "mode": "luminance",
-          "maxChannelError": 0.5000000000000284,
-          "passed": true
-        },
-        {
-          "name": "PRJ_CARD_01_Base_Project",
-          "role": "Project panel and five progress grooves; no added frame",
-          "mode": "luminance",
-          "maxChannelError": 0.4800000000000004,
-          "passed": true
-        },
-        {
-          "name": "PRJ_CARD_02_Details",
-          "role": "Project dividers only",
-          "mode": "luminance",
-          "maxChannelError": 0.5000000000000284,
-          "passed": true
-        },
-        {
-          "name": "PRJ_Button_Gradient",
-          "role": "Darkening gradient over the work button; alpha supplies gradient",
-          "mode": "flat",
-          "maxChannelError": 0.375,
-          "passed": true
-        },
-        {
-          "name": "PRJ_Dot",
-          "role": "Tintable work progress pip; alpha only, omit source baked writing",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "PRJ_Dot 1",
-          "role": "Round counter pip; alpha only, omit source baked writing",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "PRJ_Ok",
-          "role": "Completed work check silhouette",
-          "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
-          "passed": true
-        },
-        {
-          "name": "PRJ_No",
-          "role": "Incomplete work indicator silhouette",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "PRJ_WIP",
-          "role": "Work in progress silhouette",
-          "mode": "flat",
-          "maxChannelError": 0.5,
-          "passed": true
-        },
-        {
-          "name": "CARD_10_LightTop",
-          "role": "Top selection glow; alpha supplies feathered edge",
-          "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
-          "passed": true
-        },
-        {
-          "name": "CARD_10_LightMiddle",
-          "role": "Side selection glow; no stretched decoration",
-          "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
-          "passed": true
-        },
-        {
-          "name": "CARD_10_LightBottom",
-          "role": "Bottom selection glow",
-          "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
-          "passed": true
-        },
-        {
-          "name": "OptionRed",
-          "role": "Disabled option lamp, full original rectangular silhouette",
-          "mode": "luminance",
-          "maxChannelError": 0.5000000000000284,
-          "passed": true
-        },
-        {
-          "name": "OptionGreen",
-          "role": "Enabled option lamp, same functional silhouette",
-          "mode": "luminance",
-          "maxChannelError": 0.480000000000004,
-          "passed": true
-        },
-        {
-          "name": "OptionLight",
-          "role": "Option hover glow only",
-          "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
+          "name": "CARD_01_Base_0T",
+          "role": "card_lower",
+          "mode": "framed",
+          "exactAlpha": true,
           "passed": true
         },
         {
           "name": "FlagHighlight",
-          "role": "Language selection glow only",
+          "role": "glow",
           "mode": "flat",
-          "maxChannelError": 0.3999999999999915,
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Left",
+          "role": "phase_surface",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "OptionRed",
+          "role": "option_token",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightTop",
+          "role": "glow",
+          "mode": "flat",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_01_BaseTop",
+          "role": "picture_surround",
+          "mode": "outlined_paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Line Right",
+          "role": "phase_outline",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Button_Gradient",
+          "role": "technical_shading",
+          "mode": "flat",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_01_Base_4T",
+          "role": "card_lower",
+          "mode": "framed",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Right",
+          "role": "phase_surface",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "OptionGreen",
+          "role": "option_token",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "Mouse",
+          "role": "navigation",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "OptionLight",
+          "role": "glow",
+          "mode": "flat",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_CARD_01_Base_Project",
+          "role": "ledger",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_02_Details",
+          "role": "tintable_dividers",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_01_Base_1T",
+          "role": "card_lower",
+          "mode": "framed",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Dot 1",
+          "role": "token",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "Forward",
+          "role": "navigation",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_00_Background",
+          "role": "surface",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_Selection_Background",
+          "role": "selection_surface",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "ButtonSmall",
+          "role": "button",
+          "mode": "outlined_paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Line Left",
+          "role": "phase_outline",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Dot",
+          "role": "tintable_token",
+          "mode": "paper",
+          "exactAlpha": true,
           "passed": true
         },
         {
           "name": "English",
-          "role": "Original language slot 0 now contains Chinese; native font glyph inside original 36px badge",
+          "role": "native_badge",
           "mode": "label",
-          "maxChannelError": 224.6,
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_03_DetailsTop",
+          "role": "tintable_header",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Ok",
+          "role": "status_icon",
+          "mode": "paper",
+          "exactAlpha": true,
           "passed": true
         },
         {
           "name": "Spanish",
-          "role": "Original language slot 1 now contains English; native font glyph inside original 36px badge",
+          "role": "native_badge",
           "mode": "label",
-          "maxChannelError": 224.6,
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "ButtonBig",
+          "role": "button",
+          "mode": "outlined_paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightMiddle",
+          "role": "glow",
+          "mode": "flat",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "Arrow",
+          "role": "navigation",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_No",
+          "role": "status_icon",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_01_Base_2T",
+          "role": "card_lower",
+          "mode": "framed",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_Selection",
+          "role": "selection_outline",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightBottom",
+          "role": "glow",
+          "mode": "flat",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "SubTitle",
+          "role": "prompt_surface",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_CARD_02_Details",
+          "role": "tintable_dividers",
+          "mode": "paper",
+          "exactAlpha": true,
+          "passed": true
+        },
+        {
+          "name": "PRJ_WIP",
+          "role": "status_icon",
+          "mode": "paper",
+          "exactAlpha": true,
           "passed": true
         }
       ]
     },
     {
-      "name": "Continue background is text-free uniform dark RGB with exact original alpha and dimensions",
+      "name": "Continue uses the declared text-free indigo paper source with exact alpha and 628x174 dimensions",
       "passed": true,
       "role": "Continue.Background, both aspect ratio trees"
     },
     {
-      "name": "No original art was supplied to image generation",
+      "name": "Imagegen uses only registered original night-market references; all new production-source hashes match",
       "passed": true,
       "ownEditReferences": [
         "fidelity/art/revisions/CARD_01_BaseTop.raw.10c053d6b41f.png",
         "fidelity/art/revisions/CARD_03_DetailsTop.raw.fcb49b020222.png",
         "fidelity/art/revisions/CARD_Score.raw.b9094e399310.png",
-        "fidelity/art/revisions/PRJ_CARD_01_Base_Project.raw.f2c9aefb90c1.png"
-      ]
+        "fidelity/art/revisions/PRJ_CARD_01_Base_Project.raw.f2c9aefb90c1.png",
+        "fidelity/art/generated/PRGGuy.raw.png",
+        "fidelity/art-direction-v2.8/samples/style-proof-v1.png",
+        "fidelity/art/generated/PRGGuy.raw.png",
+        "fidelity/art/generated/PRGGuy.raw.png",
+        "fidelity/art-direction-v2.8/samples/style-proof-v2.png",
+        "fidelity/art-direction-v2.8/materials/card-lower-master-v1.raw.png"
+      ],
+      "newSources": 6
     },
     {
       "name": "Serialized structure audit passed",
@@ -353,7 +449,7 @@
     {
       "file": "Continue.cs",
       "referenceSHA256": "dfd68d0e4dc352d7114fa3e5efa28143fec36b66fbf34ee2916782d6b2042dbd",
-      "runtimeSHA256": "97fe4524acd2fd3fb77a015b962ee83523152c1d6dba67862ad8c2c7bbf2f6ef",
+      "runtimeSHA256": "f0bff4a1caf667db2a43e2e0c9bcfac45d0d349cc5a9443a3c4e144d3769a0be",
       "onlyDeclaredAdaptations": true
     },
     {
@@ -419,7 +515,7 @@
     {
       "file": "PlayCard.cs",
       "referenceSHA256": "cd98a6a14877d3ec363a3efaf7f78ead6364c8234fc8aa9958009e46fbd35ed0",
-      "runtimeSHA256": "a12b89e7f8b05f4f6ca70c8d097733e399354a48a55eca9be306c97ceb198b1e",
+      "runtimeSHA256": "cc0226b799c40014bc9f87ac716a4fff9774e82cc6c3f3f3b7ff1a99a84ace77",
       "onlyDeclaredAdaptations": true
     },
     {
@@ -431,7 +527,7 @@
     {
       "file": "ProjectCard.cs",
       "referenceSHA256": "8d06b4f028c230b0ad53701d22b3cec54b5aaf8ea28a63bf5bc45c2b181ba2f7",
-      "runtimeSHA256": "b6b52a5e78f8785d12b9229c2cbf9615bd86b80ee0510e005d2b34de1fb8cba9",
+      "runtimeSHA256": "5f81a12e0498d4eaa5ccedfbe1526826a71656a61eaf3cf5c8cf384959fb6dec",
       "onlyDeclaredAdaptations": true
     },
     {
@@ -485,7 +581,7 @@
     {
       "file": "TitleManager.cs",
       "referenceSHA256": "a00cb290f672147e7c473129f740c2361a2839fc8b33ac5f3a50d274ce03b7d8",
-      "runtimeSHA256": "47032117ff181477579329d901d8ebc2bf35f07e2dfadce0acbd0fd518052f48",
+      "runtimeSHA256": "11c432d8e400a76935dacdf3914c02bb82229979ee47431ed1246551c5a9ae96",
       "onlyDeclaredAdaptations": true
     },
     {
@@ -498,17 +594,17 @@
   "originalTools": [
     {
       "file": "scripts/unity/NightAssetExport.cs",
-      "sha256LF": "e0302243f1212220bc9a71d391c3f698031a2dcfe704a5f8bcef9cf678edf96b",
+      "sha256LF": "106c2f12c8dc170e6c86de96a8c5f838f015c941f6b87f11787de2d0262b3bce",
       "sameRuntimeSource": true
     },
     {
       "file": "scripts/unity/NightReadability.cs",
-      "sha256LF": "16f65f1dab8acdb44853d2c77d5d948b9b85c31ec92b9d9b7552b6eb501103cd",
+      "sha256LF": "56ea5880000758876817f60f104c40d288fdb2b83eae29b63c174dafee47e4f3",
       "sameRuntimeSource": true
     },
     {
       "file": "scripts/unity/RecoveryEditor.cs",
-      "sha256LF": "29554f4aaf317d5852aea4b8104df235face874fcbe834f92839c30830fea92d",
+      "sha256LF": "9361f2a9787786921342add0ebad40ca05a45930b81d6d84c20db83a42be96f1",
       "sameRuntimeSource": true
     },
     {
@@ -584,14 +680,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "8eba6af29f9dc59494500cab961f3f91f4aca2ed18efc09cd5ff356dfbf8764c",
-      "runtimeSHA256": "bc34ca66b0bcbf2f853ced4e3d4ba6bb9bcc7e07cfc10d060203aa470828bb49",
+      "runtimeSHA256": "77a9ecd9e52d29fa6dcc958672804a0d338d9c77f3c67df648dda9593c1255b0",
       "originalReferencePNG_SHA256": "0192bf9c8524b6e23b30f381fb5171d2809cfac6bb848b41dedf2479b8c93d6f"
     },
     {
@@ -652,14 +748,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "e8fe88f02d7f0a4ab9926501c846c82bfa9f4c42743d7b12c71a77e9cf95b007",
-      "runtimeSHA256": "06d07ebdeaf2bf5e25a9222704a1ac5aa09c6b9feddc542e88c07a6121c022f9",
+      "runtimeSHA256": "5cb10dc065e3755f5d19621fb89084e1447f0402b59e5f9f920aa9a663b5abcc",
       "originalReferencePNG_SHA256": "bfa6b5471e2179a7a7de49f71fb45b14ae4c09c0d86a0d880286b11ed531239c"
     },
     {
@@ -999,7 +1095,7 @@
         219
       ],
       "rawSHA256": "3a763f12e7105755cf38027a9cd7885b0f66c3185f49ece229227dbbd054698d",
-      "runtimeSHA256": "9414b3a14aa5c70ebd72ac97c642cb5e5638878a26b35244e5b86cf67be7dd80",
+      "runtimeSHA256": "befd456ec16081c42f1b687c97b644bc16470df3bedf05c12d327dd440235cfb",
       "originalReferencePNG_SHA256": "ac73a74a015b219c3ea5b6a7aba84a416793507129c47afa0d4e73e14065b6d5"
     },
     {
@@ -1016,7 +1112,7 @@
         255
       ],
       "rawSHA256": "afe5dc7df3520f85feaba80c9de6d9d339870a64c2f6f0171322ef7af91e21c8",
-      "runtimeSHA256": "3a28ea4840db52c94386b67d57c551fb8e793697026f804e397ca248312ee7ba",
+      "runtimeSHA256": "bd94d4c7aba62df8f13f41a7298fc5d46a42becb4ac6b2ab1a076a57646ed4b5",
       "originalReferencePNG_SHA256": "5b43e992fa3f708db0c553be1a2e0eb67676ee6486c2b7c7652d7b7aa6cf9b9d"
     },
     {
@@ -1050,7 +1146,7 @@
         255
       ],
       "rawSHA256": "29bbbd37bc89fe6bc5370fc305b4a4963571add6fe8d6bc62331cabf0632ea50",
-      "runtimeSHA256": "c7dc5acc5271a4a90abe80d21eaae05502177d3bc9df87712213ff820024b1ac",
+      "runtimeSHA256": "f33e5e516cfe7fa56e31e095f747c3382abf770aabe678687b7d505ac2f3c539",
       "originalReferencePNG_SHA256": "506726c955da85a059be4ba14f4f75953e2adf30de53b2f53c8eaed97d63104c"
     },
     {
@@ -1084,7 +1180,7 @@
         255
       ],
       "rawSHA256": "e6705979e8b95544ca2677fb185adc38fd0e8b50d7cad7030c9425a0a7251bf2",
-      "runtimeSHA256": "16ac2eebc4ac809f4beba54d4c7994227cff19d363d36ca6481e0c5acc269c93",
+      "runtimeSHA256": "63c1b898c9683d37d4ec37a4a00ebd1d246e398d5a2ab5c3541626fa2d07c871",
       "originalReferencePNG_SHA256": "08819fa785db9b7d57b5d62ae75779a1a1ead6c5f31e4aa0bd9e42efa5d420e4"
     },
     {
@@ -1101,7 +1197,7 @@
         255
       ],
       "rawSHA256": "9b769062a6a3d181022ed23e0e53fd87876dff72fe62a6c48bbe710ee5369829",
-      "runtimeSHA256": "1edea41bad6e644dcffea1856243ce1ead7ac313e5b48b4dadbf63922ee352d4",
+      "runtimeSHA256": "ac2cf355022ab141b54b405c29b2cc3c3201620a56a8c802e659a1af69eeeb76",
       "originalReferencePNG_SHA256": "9c16aa9407c897ea84f07c67aafba8cc24dc6aec04674b588534ee81a8c84aa1"
     },
     {
@@ -1118,7 +1214,7 @@
         255
       ],
       "rawSHA256": "ba2633d4c5e6f425c2086d0390c2fc7b7fb34c4472dde327616b64d2976ff149",
-      "runtimeSHA256": "4a4c1f8e5806439e497b2f8530d6e13c4f01446f41cb91f7e4a99f8f3aad4a4a",
+      "runtimeSHA256": "834cf4f2811c611ca40c20b4448683880b72b1ab973c152ff95836fa22b488b4",
       "originalReferencePNG_SHA256": "0535b523c4ef98dbda6453c47414980b3e8301356fc67110c40d04c5263e3cc2"
     },
     {
@@ -1135,7 +1231,7 @@
         255
       ],
       "rawSHA256": "f63720d673099e12751c564acc19569541324fa8de9bc50cc7a7c7225cc5439b",
-      "runtimeSHA256": "92e0448edc2c5277f9f73a30b022c4c43d860ee1c2df32fcf8307b951c650030",
+      "runtimeSHA256": "c8dd3d5ffd1d5e20f9d3e6927682715de6375b774bfc975b38f7dd53a28806fb",
       "originalReferencePNG_SHA256": "bf60ce0c4c902e5591cad3f7f27524eeaba0ed23115f1b9dcc8ddf295310c902"
     },
     {
@@ -1196,14 +1292,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "e2843c029954d8b271323ab7ad3033efe8f21e837af1f94b756f5de975a10f66",
-      "runtimeSHA256": "113fda33bb9d25d8572059fb4aeff52011d23a5aa474e2f96400b106e99b99d9",
+      "runtimeSHA256": "d0f3ee18ec1f3efd3de59fc8aa8a4dd0dc4754d3b7441da021faecf08929bf76",
       "originalReferencePNG_SHA256": "a90a7b401c5fa22e0e53c8b0f2644371c71ac2386156ac965ba8f1525155040d"
     },
     {
@@ -1220,7 +1316,7 @@
         255
       ],
       "rawSHA256": "1a30139d930df954b80b795abfaceeb63bdbab8b1759e0a7f8b9a68747d6dedb",
-      "runtimeSHA256": "36a653ee0b35f8fdce4c14eb5486ecbcb82da21f9ffdfad8c71b941b51a35cb1",
+      "runtimeSHA256": "084bb63df485d3215a4668e2be01f1ac1f0ed10d59f1ef8b23d722389a1f8ed9",
       "originalReferencePNG_SHA256": "86ba993b76c67dbbc073fa035e8fb21583bdc01e4dafe1be707bfcfad46b72c9"
     },
     {
@@ -1254,7 +1350,7 @@
         255
       ],
       "rawSHA256": "aae60d93ec80512ec48648bdff98801a08dc465a76664b3d29a89f87e73e291f",
-      "runtimeSHA256": "4f1a8f63b4863f66d3b8075711b694e7852722dfe7e9c9d77975dd5996be8290",
+      "runtimeSHA256": "28a2bc177b37bfa31d74ecea857178b1a246fe316cd9da7ded8ed93c6c3fea2c",
       "originalReferencePNG_SHA256": "0b11d64a5cb596ada972fedd03bdc311a5025237f26f5aa8299a113315e05935"
     },
     {
@@ -1264,14 +1360,14 @@
         32,
         32
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         204
       ],
       "rawSHA256": "eb8cadc1ce3c4e034c62c7aaa84e578fbfe20362701983e0f39e4c4d08cf8693",
-      "runtimeSHA256": "730306e7c10f01d2c0fcb9a750f9fbf67a3ff3a5032604b9c59c5ac13444aa65",
+      "runtimeSHA256": "49168333555ae8b746bf86b8c20cf64d65a4e6deb481445a9ccd30b3e67fabbe",
       "originalReferencePNG_SHA256": "5975b41b0a1933710615e219092c42966a8b74ace04bbfca9e7d01cfdfdea818"
     },
     {
@@ -1288,7 +1384,7 @@
         191
       ],
       "rawSHA256": "28ce552326ec11a395010f80b06cd03d2aae1269bb42130c01e85a5e52222137",
-      "runtimeSHA256": "52414f4366404a5cb35ba658141cdd669dc49a30cce37803c4b53ed9e34d0b1a",
+      "runtimeSHA256": "5bc3eef64495bee634bd1d0e923b83cbb24cf8ad6e7083167cfa2c9b1b60f273",
       "originalReferencePNG_SHA256": "72c165b4bb9f64b0424d8cee5dd3b1392f47e0a6965deeb9d218c05e26a5f186"
     },
     {
@@ -1305,7 +1401,7 @@
         255
       ],
       "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
-      "runtimeSHA256": "fea4700c10ed62415672f0fcfa3434a5819eca885140a7d762ee21ea46c7b3b3",
+      "runtimeSHA256": "c1eef8d8a5da9a2721ce62736c106be5b7dc282257306c463249f92f667c4245",
       "originalReferencePNG_SHA256": "f39cbad36c8d713312c3c9fee2672582dd68332837048b7d1d45594f84c455b4"
     },
     {
@@ -1315,14 +1411,14 @@
         1232,
         920
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "cd03f2226a4d5a7ebcdba4997a5cbbd03560e955ab8532aace660b719e0c68c0",
-      "runtimeSHA256": "55c68fab594efbe54fcb510a26c5aa71fd7126e788bc50f30342f58eb6e397fc",
+      "runtimeSHA256": "e4476d72d475139bd0131e3eb33148807754c8b1cb44013508a235360c844498",
       "originalReferencePNG_SHA256": "fcb8607e3af5ffd4f2ab7b693da3d4d857c4273c1e50ecbfb970cc1e0864bda4"
     },
     {
@@ -1349,14 +1445,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "7417b8541e0138011de3d2814a68db32cbcda27a32bc9559c3379468a71a162c",
-      "runtimeSHA256": "f33caee9824bf7df1d80125c89299bf3332d4fec8307f994c9ee6b7ef461df9b",
+      "runtimeSHA256": "cec1fd3521ed03cb4168f927d0624de5c91d4e7ebe09512cc86e06853a4fa110",
       "originalReferencePNG_SHA256": "e0391b7e1f6d8e66321143ea865f9b3d5328924f89374ea8e3ab2c54549cb28d"
     },
     {
@@ -1390,7 +1486,7 @@
         255
       ],
       "rawSHA256": "c73637162bff96dfb6252440d1bba3cc280aca39bb7504e42abb942ae1e531d2",
-      "runtimeSHA256": "53857be699cedeeecec0aa2c0cd5d422fc57256d4a05f27ab045d740e5f8bf0e",
+      "runtimeSHA256": "541218f15fc030965a3a794f64c369868a9f4fe230155e56b1dfff84484005d2",
       "originalReferencePNG_SHA256": "cac4b12579db215138394b84cb80819083dec04a5bb90380340ca10146baf3f9"
     },
     {
@@ -1400,14 +1496,14 @@
         38,
         32
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "66f13c24c272c93f8834084d8fa63b0fdd966c5988bad2dd9321cc9f21774b9c",
-      "runtimeSHA256": "c65599ed9d4ab58609520e7a11f2a0d0498625096b58f2aaa16285bc0ddcbd25",
+      "runtimeSHA256": "672dbc8b83b76b0e0549d5c3282ffcf9a303f97ac8b1abc15f020fc8e3f839c8",
       "originalReferencePNG_SHA256": "fc475d00d58d7fb0ec12c23798cc34df2011d868b8c5e66e773b438f66d307ff"
     },
     {
@@ -1424,7 +1520,7 @@
         255
       ],
       "rawSHA256": "5328622cedec2f971684faf1f289e65a07024c82111542299bbd76c3ea953435",
-      "runtimeSHA256": "70bf6ca18d6a319e5e91737654ec421eceacd3e78cf7b7e999c17077d7a9d570",
+      "runtimeSHA256": "271fb96a814170c6be20c0cf374f7b8bdfd0e56dfefb2bfc624201d8237682db",
       "originalReferencePNG_SHA256": "fae91103ba57d74c6cdc4e80dee2baa3b033790d75c8e8469d6e0365f7555647"
     },
     {
@@ -1434,14 +1530,14 @@
         310,
         272
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "bcdfc430f30d74cd5c82a802e03f340da426f44585c6dac3a30ff5a861a26c23",
-      "runtimeSHA256": "994bd21335a38e89e09d36e95cdb00a16fc221cbbe1ce7d54e85649090fa8624",
+      "runtimeSHA256": "55cc848dbe86095fcc4b8fa03ed123d743c55954926a36eab7f5481f21fd016f",
       "originalReferencePNG_SHA256": "8d5f6fe205cbe364580047dc1bb7107fafeeea739009b00d19fefa5e8734a5b0"
     },
     {
@@ -1458,7 +1554,7 @@
         255
       ],
       "rawSHA256": "9b06359cc42467bba4cbdf1b80bb34e9930b0f4a7dd417ae7fb33d078e542276",
-      "runtimeSHA256": "a1aa18e7dc4b221d97e7ff13fae66688f7ecc9f4d161427ef7140257157a3e7d",
+      "runtimeSHA256": "f138d9f2a5ae024c1e7cd68e2e19abbcfafb603300d497d9dbd216732de4af76",
       "originalReferencePNG_SHA256": "194b8d05cc21b0111cbca11a446e49fb613da3b5a9d4db616a3a4b7d51a6b4c7"
     },
     {
@@ -1475,7 +1571,7 @@
         255
       ],
       "rawSHA256": "fcb9592dc704a978636ff6ecb95f038b36693665f3f2430fbe42e2dd2d9a5ada",
-      "runtimeSHA256": "5608d2868a77a0ef8dbd40d029d086c01e01643cf81a04d8eee03bcd9f072419",
+      "runtimeSHA256": "9a30823a42f4d4fab4012bcfca588a1c13c9409d64fa254261916a1e6b8b44a4",
       "originalReferencePNG_SHA256": "ed9ddc2e2ff2efcaf54ac288739006b3bb1296a1173190b59b308933703589a0"
     },
     {
@@ -1526,7 +1622,7 @@
         255
       ],
       "rawSHA256": "03ff01dcb39a96b85a68135ea1cb5d375d8ea7bea1a819df993368d264acaae1",
-      "runtimeSHA256": "5c7ee5218fad3f6713e5053caea512cfbd3b516dfe94e2befa169db86e35171c",
+      "runtimeSHA256": "461e8ee99dd4bc778ae13f3479a12e5907b442d9a1b8129bcf536662263318da",
       "originalReferencePNG_SHA256": "be3657408dc950e313a00ab3b00b1d08640b9ca2143387f187d902d82648faed"
     },
     {
@@ -1543,7 +1639,7 @@
         255
       ],
       "rawSHA256": "ca193a7402c5b7ccbb3bc50176d594067b034720e7cc5028a8e02d5b33bfe540",
-      "runtimeSHA256": "ae8483bac4eeb882846912a26c74f302acc8cb4a446d30dd051ef49ba9ac3560",
+      "runtimeSHA256": "fdfcae4926d9cab5e6a82c97a11d31cfb7507b55f63a13f8c7f94948e7c31f81",
       "originalReferencePNG_SHA256": "0d585f3f336c54b5bce9876dc8609b8dae6d560bfbb4b46f95960f47c19a7dce"
     },
     {
@@ -1577,7 +1673,7 @@
         255
       ],
       "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
-      "runtimeSHA256": "57aa1a76cdb5397b9c7da1000125c9fdb14f9cf78b36bd48bdf1e13b27b3ffe0",
+      "runtimeSHA256": "c6fba9ab73e2e881fa897d2cb4e43cde17ce33e8f0681ae8babae5bd4041bef2",
       "originalReferencePNG_SHA256": "9e04d1d58b8c6a5d395df14392560d97b2d4a5ff0f35b91cd3b12f31f046dbae"
     },
     {
@@ -1611,7 +1707,7 @@
         255
       ],
       "rawSHA256": "6fc4a3eeab9aba0b122c2d15f47f718da8e73d9091b86762b3aa18ebafaff196",
-      "runtimeSHA256": "145ef9f7a3555a3a872c052d3c85a40e7f492125af338308413e62924551a54d",
+      "runtimeSHA256": "07afa3990f8f0f7771226d44bdd2dcd5e79835a270e640e69e7a677f1f58c8c6",
       "originalReferencePNG_SHA256": "d1c01008517659590d192d78520e1f1957b722473cb38915d6e1215a2d422964"
     },
     {
@@ -1662,7 +1758,7 @@
         255
       ],
       "rawSHA256": "fc75501b37ad7b03784cf22ce69d215a9d9a55567cd3dfdfefacf9351cd71e7c",
-      "runtimeSHA256": "678c9711149bab02155b2beb8c6e354ff6d2ac3cb84bd7206017a6863471254b",
+      "runtimeSHA256": "22a6b6068b94217721f3d1aad78b5c2775a5a212ebdebd4828f5020f8774cfea",
       "originalReferencePNG_SHA256": "93ae1565edf66811e7c3a7374944ea7fa2e0d4b368fce328cba6571add100a35"
     },
     {
@@ -1679,7 +1775,7 @@
         255
       ],
       "rawSHA256": "cc7cc574d3b82af276990b58cec9f7254a11666b360ba30a76f17c3ed954b101",
-      "runtimeSHA256": "19e24d2243d17c24b9e5eba5bd544bf87137e1d964935a997b16e7430ee17b82",
+      "runtimeSHA256": "6ce6b66ba92cacc25d6c838baf20eb9cb28077962c6db4bc91c265a9deef3de0",
       "originalReferencePNG_SHA256": "e12528762541a31afd8e48fe2213af52810dc37117d4a85562b991c2cdb225c9"
     },
     {
@@ -1696,7 +1792,7 @@
         255
       ],
       "rawSHA256": "01c9bde41a912639befbf3b50813772cd6636e482dede895367989f3d470788a",
-      "runtimeSHA256": "b9c3af42e42924cc05514d29ee8aa069093ef37ec39468fa1b8277f612e1fdb9",
+      "runtimeSHA256": "c5ab3d308bedb3c1d4e07d2b201e91de24d9655d16f92206127d5ace63db683e",
       "originalReferencePNG_SHA256": "430c6d1e320376371648bb1f435209d6190ba692f85d588a9ad692aa2e40d505"
     },
     {
@@ -1706,14 +1802,14 @@
         164,
         152
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         19
       ],
       "rawSHA256": "59f0e87c1e8867e7311fe2dd08600bed645188f4e0dea9d8cc86a9c4b5105673",
-      "runtimeSHA256": "b74e6365af66a16d7eeb2d4429fdb49d1ef52080c0971deefc0e883051455092",
+      "runtimeSHA256": "150a0f706c1c28ce0ab600606c5a2dc12730de81ddf4b307219c70b52a7e7534",
       "originalReferencePNG_SHA256": "8533bff9562f5565f2dfddb825c5f3f44bf55e819e379090ec2eb596f035efdc"
     },
     {
@@ -1747,7 +1843,7 @@
         255
       ],
       "rawSHA256": "12b071abff953e660ca49eec491953f3037cd03da1e576a06110d1659100efa7",
-      "runtimeSHA256": "0403468d259c65f6ba7776f7ead8450df7bba935b9498cb5d2cb5c0f811dbfa3",
+      "runtimeSHA256": "17314602683c3d6579eb7b01cc4dccdf5947339cb92810d224576e84cabd9d54",
       "originalReferencePNG_SHA256": "380944514c0de6ded06197a16ea7b1c45613a67162f7f872553e5ffdcbe9315e"
     },
     {
@@ -1791,14 +1887,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "0dedd3aa9162c12914e11b29de64385a04402576792f44b86d06f3aba40fdb65",
-      "runtimeSHA256": "da60b0e22d7315bbb2e0302e943178afe7c1135b640edd75112cbff979094a46",
+      "runtimeSHA256": "0a862a23abcf107dc22462a6b4c1b8ceab547e57877a726b47a67ba917d2ed03",
       "originalReferencePNG_SHA256": "ca56d7f9b4076c590d76e63436b03ac567f56fb08a380cfcba0cab000c75d42a"
     },
     {
@@ -1808,14 +1904,14 @@
         310,
         272
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "c1149d4b97a8fe6eb7d9159121673c2fc0d514ba367142a17f9a1ed08fbd1a13",
-      "runtimeSHA256": "8733179e4b83d95dbd46518cb829565c9ebe5a54641fbbec0ca3b86a91987206",
+      "runtimeSHA256": "553136d036686e17664e808ac5b5e623ce42ec1a31d4ad3d1c459162e71e9051",
       "originalReferencePNG_SHA256": "b856e16361fe52e3b1a2dea214ee1656b86346929bb7c0598606dd57c60a29b9"
     },
     {
@@ -1832,7 +1928,7 @@
         255
       ],
       "rawSHA256": "90f416c1b867b20f4e2a2efdf066c03cf74c3aa5624e5651eb238b9a03c9841f",
-      "runtimeSHA256": "8c7c3924703a10fc23a81d2a2667aea4d991cedbc360088da06d6b953cb5a70e",
+      "runtimeSHA256": "9a26d63c542d7d17dbae08fe3eade80971b8e69e75e9d2efedaf479ac58cb3be",
       "originalReferencePNG_SHA256": "257d644c248defbaec3c6e46ec75b274c35abd8967e183d6adf3badecbdcc2b0"
     },
     {
@@ -1866,7 +1962,7 @@
         255
       ],
       "rawSHA256": "4de5d77e3ec6d38619483fe94082d8af8fea2d295cf3026d1ea63fff26c02192",
-      "runtimeSHA256": "54f735a6576e7d64d8bc038e1cf73145a76a924e1a4dd649050e5b803f4516aa",
+      "runtimeSHA256": "a16ec6dc2c5f0859d4e55813110990e0d88e119c3c607c2071a1d12aaf7b9b93",
       "originalReferencePNG_SHA256": "0b0f3190922083bdbad4233cc49d02b45fef8de76508238a8ea0caeab6bbdedf"
     },
     {
@@ -1883,7 +1979,7 @@
         255
       ],
       "rawSHA256": "2360cadce9ad3af0f2a5eb8d7c3a90b91e8dc4b4617a8dc85e1d4e49653acd06",
-      "runtimeSHA256": "dbf7dd0e9ad5ae5bd35139fafa6e03ee0c5838589a81f12e1b584a9e0d3db969",
+      "runtimeSHA256": "67357479d05908071bd1fef66b6a7828bb12d684c100c832a1d43b9806b59e54",
       "originalReferencePNG_SHA256": "6da6ababb3e8d810033892553d0b019704b83f6af1c37f5a82875e6859e87291"
     },
     {
@@ -1900,7 +1996,7 @@
         255
       ],
       "rawSHA256": "eeb2cb87aac124ccbe3b2eba4fe78bcc313531f89e8273d37228e39b30fe46b2",
-      "runtimeSHA256": "e14cc83963f5a2734a825ac55b8305b975dc2c040ddaae590f4f6db4fc11ed3a",
+      "runtimeSHA256": "875983ad2589ce251926207eb6de4f3788585e4d348e0e729daf13023c306030",
       "originalReferencePNG_SHA256": "0a1bee15a09184a164ce6c35249cbb7fd02a6b67910fbd850eb48a65cb836517"
     },
     {

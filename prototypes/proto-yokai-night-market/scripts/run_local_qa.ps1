@@ -1,10 +1,11 @@
 # Isolated command-line QA only. This script performs no native window input.
-param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$VisualOnly, [switch]$EnglishSurvey, [switch]$FlowOnly, [switch]$PromptsOnly, [switch]$SurfacesOnly)
+param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$VisualOnly, [switch]$EnglishSurvey, [switch]$FlowOnly, [switch]$PromptsOnly, [switch]$SurfacesOnly, [switch]$RulesOnly, [string]$PlayerPath = '')
 $ErrorActionPreference = 'Stop'
 $taskRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $taskLocal = Join-Path $taskRoot 'local'
 $qaRoot = Join-Path $taskLocal 'Builds/QA-Visual'
 $qaPlayer = Join-Path $qaRoot 'NightMarketQA.exe'
+if ($PlayerPath) { $qaPlayer = (Resolve-Path -LiteralPath $PlayerPath).Path; $qaRoot = Split-Path -Parent $qaPlayer }
 $qaBuild = Get-Content -LiteralPath (Join-Path $taskLocal 'qa-visual-build-report.json') -Raw | ConvertFrom-Json
 if ($qaBuild.result -ne 'Succeeded' -or $qaBuild.errors -ne 0) { throw 'QA build has not passed' }
 
@@ -41,6 +42,10 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     [ordered]@{case=$archiveName;passed=$report.passed;width=$report.width;height=$report.height;state=$report.state;frames=$report.captures.Count;rules=$report.rules.Count;winner=$report.winner;rounds=$report.rounds} | ConvertTo-Json -Compress
 }
 
+if ($RulesOnly) {
+    Run-Check '--night-rules' '16x9' 1920 'smoke-evidence' 'rules.json' 'rules' @()
+    exit 0
+}
 if ($SurfacesOnly) {
     Run-Check '--night-surfaces' '16x9' 1920 'surface-evidence' 'report.json' 'surfaces-16x9' @()
     Run-Check '--night-surfaces' '4x3' 1440 'surface-evidence' 'report.json' 'surfaces-4x3' @()

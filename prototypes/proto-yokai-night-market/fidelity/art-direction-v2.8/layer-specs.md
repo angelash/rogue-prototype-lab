@@ -1,6 +1,6 @@
 # 分层与生图规格
 
-本页决定“生成什么”，最终尺寸见 replacements.json。生成器输出的真实大小另记；Unity 导出匹配原尺寸、alpha、枢轴、网格与 UV，并保留 .meta。当前文档为生产要求，尚未证明新资产已导入。
+本页决定“生成什么”，最终尺寸见 replacements.json。生成器输出的真实大小另记；Unity 导出匹配原尺寸、alpha、枢轴、网格与 UV，并保留 .meta。当前已导入，实际生产与检查见 [integration-and-review.md](integration-and-review.md)。
 
 ## 底材
 

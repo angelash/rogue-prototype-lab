@@ -1,0 +1,629 @@
+{
+  "version": "2.8",
+  "baseline": "749b4e530a2598e2c2fb5f6852b4afbbe15d7e38",
+  "project": "UnityProject",
+  "passed": true,
+  "statistics": {
+    "lockedFiles": 580,
+    "sprites": 78,
+    "sceneDeclaredColors": 52,
+    "prefabDeclaredColors": 52,
+    "prefabs": 18,
+    "materials": 28,
+    "textures": 82,
+    "replaced": 38,
+    "retained": 44
+  },
+  "failures": [],
+  "surfaces": [
+    {
+      "name": "CARD_01_Base_3T",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.8539944903581267,
+      "sourceSize": [
+        1452,
+        1083
+      ],
+      "aspectError": 0.0009471897060137069,
+      "runtimeSHA256": "77a9ecd9e52d29fa6dcc958672804a0d338d9c77f3c67df648dda9593c1255b0"
+    },
+    {
+      "name": "CARD_01_Base_0T",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.8539944903581267,
+      "sourceSize": [
+        1452,
+        1083
+      ],
+      "aspectError": 0.0009471897060137069,
+      "runtimeSHA256": "5cb10dc065e3755f5d19621fb89084e1447f0402b59e5f9f920aa9a663b5abcc"
+    },
+    {
+      "name": "FlagHighlight",
+      "size": [
+        42,
+        42
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.03349282296650718,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "befd456ec16081c42f1b687c97b644bc16470df3bedf05c12d327dd440235cfb"
+    },
+    {
+      "name": "TitleBackground Left",
+      "size": [
+        1920,
+        280
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.5311004784688995,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.8541666666666666,
+      "runtimeSHA256": "bd94d4c7aba62df8f13f41a7298fc5d46a42becb4ac6b2ab1a076a57646ed4b5"
+    },
+    {
+      "name": "OptionRed",
+      "size": [
+        32,
+        21
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.025518341307814992,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.34375,
+      "runtimeSHA256": "f33e5e516cfe7fa56e31e095f747c3382abf770aabe678687b7d505ac2f3c539"
+    },
+    {
+      "name": "CARD_10_LightTop",
+      "size": [
+        1336,
+        117
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.065390749601276,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.9124251497005988,
+      "runtimeSHA256": "63c1b898c9683d37d4ec37a4a00ebd1d246e398d5a2ab5c3541626fa2d07c871"
+    },
+    {
+      "name": "CARD_01_BaseTop",
+      "size": [
+        1240,
+        831
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.988835725677831,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.32983870967741935,
+      "runtimeSHA256": "ac2cf355022ab141b54b405c29b2cc3c3201620a56a8c802e659a1af69eeeb76"
+    },
+    {
+      "name": "TitleBackground Line Right",
+      "size": [
+        1920,
+        280
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.5311004784688995,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.8541666666666666,
+      "runtimeSHA256": "834cf4f2811c611ca40c20b4448683880b72b1ab973c152ff95836fa22b488b4"
+    },
+    {
+      "name": "PRJ_Button_Gradient",
+      "size": [
+        256,
+        32
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.20414673046251994,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.875,
+      "runtimeSHA256": "c8dd3d5ffd1d5e20f9d3e6927682715de6375b774bfc975b38f7dd53a28806fb"
+    },
+    {
+      "name": "CARD_01_Base_4T",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.8539944903581267,
+      "sourceSize": [
+        1452,
+        1083
+      ],
+      "aspectError": 0.0009471897060137069,
+      "runtimeSHA256": "d0f3ee18ec1f3efd3de59fc8aa8a4dd0dc4754d3b7441da021faecf08929bf76"
+    },
+    {
+      "name": "TitleBackground Right",
+      "size": [
+        1920,
+        280
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.5311004784688995,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.8541666666666666,
+      "runtimeSHA256": "084bb63df485d3215a4668e2be01f1ac1f0ed10d59f1ef8b23d722389a1f8ed9"
+    },
+    {
+      "name": "OptionGreen",
+      "size": [
+        32,
+        21
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.025518341307814992,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.34375,
+      "runtimeSHA256": "28a2bc177b37bfa31d74ecea857178b1a246fe316cd9da7ded8ed93c6c3fea2c"
+    },
+    {
+      "name": "Mouse",
+      "size": [
+        32,
+        32
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.025518341307814992,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "49168333555ae8b746bf86b8c20cf64d65a4e6deb481445a9ccd30b3e67fabbe"
+    },
+    {
+      "name": "OptionLight",
+      "size": [
+        34,
+        24
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.02711323763955343,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.2941176470588236,
+      "runtimeSHA256": "5bc3eef64495bee634bd1d0e923b83cbb24cf8ad6e7083167cfa2c9b1b60f273"
+    },
+    {
+      "name": "PRJ_CARD_01_Base_Project",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.988835725677831,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.2548387096774194,
+      "runtimeSHA256": "c1eef8d8a5da9a2721ce62736c106be5b7dc282257306c463249f92f667c4245"
+    },
+    {
+      "name": "CARD_02_Details",
+      "size": [
+        1232,
+        920
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.9824561403508771,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.2532467532467533,
+      "runtimeSHA256": "e4476d72d475139bd0131e3eb33148807754c8b1cb44013508a235360c844498"
+    },
+    {
+      "name": "CARD_01_Base_1T",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.8539944903581267,
+      "sourceSize": [
+        1452,
+        1083
+      ],
+      "aspectError": 0.0009471897060137069,
+      "runtimeSHA256": "cec1fd3521ed03cb4168f927d0624de5c91d4e7ebe09512cc86e06853a4fa110"
+    },
+    {
+      "name": "PRJ_Dot 1",
+      "size": [
+        32,
+        32
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.025518341307814992,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "541218f15fc030965a3a794f64c369868a9f4fe230155e56b1dfff84484005d2"
+    },
+    {
+      "name": "Forward",
+      "size": [
+        38,
+        32
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.030303030303030304,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.1578947368421053,
+      "runtimeSHA256": "672dbc8b83b76b0e0549d5c3282ffcf9a303f97ac8b1abc15f020fc8e3f839c8"
+    },
+    {
+      "name": "CARD_00_Background",
+      "size": [
+        1240,
+        831
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.988835725677831,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.32983870967741935,
+      "runtimeSHA256": "271fb96a814170c6be20c0cf374f7b8bdfd0e56dfefb2bfc624201d8237682db"
+    },
+    {
+      "name": "CARD_Selection_Background",
+      "size": [
+        310,
+        272
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.24720893141945774,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.1225806451612903,
+      "runtimeSHA256": "55cc848dbe86095fcc4b8fa03ed123d743c55954926a36eab7f5481f21fd016f"
+    },
+    {
+      "name": "ButtonSmall",
+      "size": [
+        128,
+        260
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.20733652312599682,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 1.03125,
+      "runtimeSHA256": "f138d9f2a5ae024c1e7cd68e2e19abbcfafb603300d497d9dbd216732de4af76"
+    },
+    {
+      "name": "TitleBackground Line Left",
+      "size": [
+        1920,
+        280
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.5311004784688995,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.8541666666666666,
+      "runtimeSHA256": "9a30823a42f4d4fab4012bcfca588a1c13c9409d64fa254261916a1e6b8b44a4"
+    },
+    {
+      "name": "PRJ_Dot",
+      "size": [
+        44,
+        44
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.03508771929824561,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "461e8ee99dd4bc778ae13f3479a12e5907b442d9a1b8129bcf536662263318da"
+    },
+    {
+      "name": "English",
+      "size": [
+        36,
+        36
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.028708133971291867,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "fdfcae4926d9cab5e6a82c97a11d31cfb7507b55f63a13f8c7f94948e7c31f81"
+    },
+    {
+      "name": "CARD_03_DetailsTop",
+      "size": [
+        1240,
+        831
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.988835725677831,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.32983870967741935,
+      "runtimeSHA256": "c6fba9ab73e2e881fa897d2cb4e43cde17ce33e8f0681ae8babae5bd4041bef2"
+    },
+    {
+      "name": "PRJ_Ok",
+      "size": [
+        64,
+        64
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.051036682615629984,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "07afa3990f8f0f7771226d44bdd2dcd5e79835a270e640e69e7a677f1f58c8c6"
+    },
+    {
+      "name": "Spanish",
+      "size": [
+        36,
+        36
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.028708133971291867,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "22a6b6068b94217721f3d1aad78b5c2775a5a212ebdebd4828f5020f8774cfea"
+    },
+    {
+      "name": "ButtonBig",
+      "size": [
+        244,
+        128
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.19457735247208932,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.47540983606557374,
+      "runtimeSHA256": "6ce6b66ba92cacc25d6c838baf20eb9cb28077962c6db4bc91c265a9deef3de0"
+    },
+    {
+      "name": "CARD_10_LightMiddle",
+      "size": [
+        1336,
+        85
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.065390749601276,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.936377245508982,
+      "runtimeSHA256": "c5ab3d308bedb3c1d4e07d2b201e91de24d9655d16f92206127d5ace63db683e"
+    },
+    {
+      "name": "Arrow",
+      "size": [
+        164,
+        152
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.13078149920255183,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.07317073170731714,
+      "runtimeSHA256": "150a0f706c1c28ce0ab600606c5a2dc12730de81ddf4b307219c70b52a7e7534"
+    },
+    {
+      "name": "PRJ_No",
+      "size": [
+        64,
+        64
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.051036682615629984,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "17314602683c3d6579eb7b01cc4dccdf5947339cb92810d224576e84cabd9d54"
+    },
+    {
+      "name": "CARD_01_Base_2T",
+      "size": [
+        1240,
+        924
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.8539944903581267,
+      "sourceSize": [
+        1452,
+        1083
+      ],
+      "aspectError": 0.0009471897060137069,
+      "runtimeSHA256": "0a862a23abcf107dc22462a6b4c1b8ceab547e57877a726b47a67ba917d2ed03"
+    },
+    {
+      "name": "CARD_Selection",
+      "size": [
+        310,
+        272
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.24720893141945774,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.1225806451612903,
+      "runtimeSHA256": "553136d036686e17664e808ac5b5e623ce42ec1a31d4ad3d1c459162e71e9051"
+    },
+    {
+      "name": "CARD_10_LightBottom",
+      "size": [
+        1336,
+        117
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 1.065390749601276,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.9124251497005988,
+      "runtimeSHA256": "9a26d63c542d7d17dbae08fe3eade80971b8e69e75e9d2efedaf479ac58cb3be"
+    },
+    {
+      "name": "SubTitle",
+      "size": [
+        628,
+        174
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.5007974481658692,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.7229299363057324,
+      "runtimeSHA256": "a16ec6dc2c5f0859d4e55813110990e0d88e119c3c607c2071a1d12aaf7b9b93"
+    },
+    {
+      "name": "PRJ_CARD_02_Details",
+      "size": [
+        1232,
+        920
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.9824561403508771,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.2532467532467533,
+      "runtimeSHA256": "67357479d05908071bd1fef66b6a7828bb12d684c100c832a1d43b9806b59e54"
+    },
+    {
+      "name": "PRJ_WIP",
+      "size": [
+        64,
+        64
+      ],
+      "exactAlpha": true,
+      "sampling": "uniform_cover",
+      "uniformScale": 0.051036682615629984,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "aspectError": 0.0,
+      "runtimeSHA256": "875983ad2589ce251926207eb6de4f3788585e4d348e0e729daf13023c306030"
+    }
+  ],
+  "scope": "Every scene/prefab serialized field; 78 Sprite binaries, importer/meta/package/settings byte locks; 82 dimensions and 38 alpha planes. Visual quality requires actual Player review."
+}

@@ -1,6 +1,6 @@
 {
-  "version": "2.8-plan-1",
-  "status": "planned_not_applied",
+  "version": "2.8-style-r3",
+  "status": "applied_verified",
   "colors": {
     "inkSurface": {
       "hex": "#202D36",

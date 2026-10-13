@@ -30,7 +30,7 @@
     {
       "id": "resources.assets:18",
       "name": "CARD_01_Base_3T",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -38,7 +38,11 @@
       "raw": "fidelity/art/generated/CARD_01_Base_3T.raw.png",
       "final": "local/NightArt/CARD_01_Base_3T.png",
       "status": "imported_verified",
-      "runtimeSHA256": "bc34ca66b0bcbf2f853ced4e3d4ba6bb9bcc7e07cfc10d060203aa470828bb49"
+      "materialSource": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "materialMode": "framed",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "77a9ecd9e52d29fa6dcc958672804a0d338d9c77f3c67df648dda9593c1255b0"
     },
     {
       "id": "resources.assets:19",
@@ -82,7 +86,7 @@
     {
       "id": "resources.assets:22",
       "name": "CARD_01_Base_0T",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -90,7 +94,11 @@
       "raw": "fidelity/art/generated/CARD_01_Base_0T.raw.png",
       "final": "local/NightArt/CARD_01_Base_0T.png",
       "status": "imported_verified",
-      "runtimeSHA256": "06d07ebdeaf2bf5e25a9222704a1ac5aa09c6b9feddc542e88c07a6121c022f9"
+      "materialSource": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "materialMode": "framed",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "5cb10dc065e3755f5d19621fb89084e1447f0402b59e5f9f920aa9a663b5abcc"
     },
     {
       "id": "resources.assets:23",
@@ -350,7 +358,11 @@
       "raw": "fidelity/art/generated/FlagHighlight.raw.png",
       "final": "local/NightArt/FlagHighlight.png",
       "status": "imported_verified",
-      "runtimeSHA256": "9414b3a14aa5c70ebd72ac97c642cb5e5638878a26b35244e5b86cf67be7dd80"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "befd456ec16081c42f1b687c97b644bc16470df3bedf05c12d327dd440235cfb"
     },
     {
       "id": "sharedassets0.assets:35",
@@ -363,7 +375,11 @@
       "raw": "fidelity/art/generated/TitleBackground_Left.raw.png",
       "final": "local/NightArt/TitleBackground_Left.png",
       "status": "imported_verified",
-      "runtimeSHA256": "3a28ea4840db52c94386b67d57c551fb8e793697026f804e397ca248312ee7ba"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "bd94d4c7aba62df8f13f41a7298fc5d46a42becb4ac6b2ab1a076a57646ed4b5"
     },
     {
       "id": "sharedassets0.assets:36",
@@ -389,7 +405,11 @@
       "raw": "fidelity/art/generated/OptionRed.raw.png",
       "final": "local/NightArt/OptionRed.png",
       "status": "imported_verified",
-      "runtimeSHA256": "c7dc5acc5271a4a90abe80d21eaae05502177d3bc9df87712213ff820024b1ac"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "f33e5e516cfe7fa56e31e095f747c3382abf770aabe678687b7d505ac2f3c539"
     },
     {
       "id": "sharedassets0.assets:38",
@@ -415,7 +435,11 @@
       "raw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
       "final": "local/NightArt/CARD_10_LightTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "16ac2eebc4ac809f4beba54d4c7994227cff19d363d36ca6481e0c5acc269c93"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "63c1b898c9683d37d4ec37a4a00ebd1d246e398d5a2ab5c3541626fa2d07c871"
     },
     {
       "id": "sharedassets0.assets:40",
@@ -428,7 +452,11 @@
       "raw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
       "final": "local/NightArt/CARD_01_BaseTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "1edea41bad6e644dcffea1856243ce1ead7ac313e5b48b4dadbf63922ee352d4"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "outlined_paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "ac2cf355022ab141b54b405c29b2cc3c3201620a56a8c802e659a1af69eeeb76"
     },
     {
       "id": "sharedassets0.assets:42",
@@ -441,7 +469,11 @@
       "raw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
       "final": "local/NightArt/TitleBackground_Line_Right.png",
       "status": "imported_verified",
-      "runtimeSHA256": "4a4c1f8e5806439e497b2f8530d6e13c4f01446f41cb91f7e4a99f8f3aad4a4a"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "834cf4f2811c611ca40c20b4448683880b72b1ab973c152ff95836fa22b488b4"
     },
     {
       "id": "sharedassets0.assets:43",
@@ -454,7 +486,11 @@
       "raw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
       "final": "local/NightArt/PRJ_Button_Gradient.png",
       "status": "imported_verified",
-      "runtimeSHA256": "92e0448edc2c5277f9f73a30b022c4c43d860ee1c2df32fcf8307b951c650030"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "c8dd3d5ffd1d5e20f9d3e6927682715de6375b774bfc975b38f7dd53a28806fb"
     },
     {
       "id": "sharedassets0.assets:45",
@@ -498,7 +534,7 @@
     {
       "id": "sharedassets0.assets:48",
       "name": "CARD_01_Base_4T",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -506,7 +542,11 @@
       "raw": "fidelity/art/generated/CARD_01_Base_4T.raw.png",
       "final": "local/NightArt/CARD_01_Base_4T.png",
       "status": "imported_verified",
-      "runtimeSHA256": "113fda33bb9d25d8572059fb4aeff52011d23a5aa474e2f96400b106e99b99d9"
+      "materialSource": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "materialMode": "framed",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "d0f3ee18ec1f3efd3de59fc8aa8a4dd0dc4754d3b7441da021faecf08929bf76"
     },
     {
       "id": "sharedassets0.assets:49",
@@ -519,7 +559,11 @@
       "raw": "fidelity/art/generated/TitleBackground_Right.raw.png",
       "final": "local/NightArt/TitleBackground_Right.png",
       "status": "imported_verified",
-      "runtimeSHA256": "36a653ee0b35f8fdce4c14eb5486ecbcb82da21f9ffdfad8c71b941b51a35cb1"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "084bb63df485d3215a4668e2be01f1ac1f0ed10d59f1ef8b23d722389a1f8ed9"
     },
     {
       "id": "sharedassets0.assets:50",
@@ -545,12 +589,16 @@
       "raw": "fidelity/art/generated/OptionGreen.raw.png",
       "final": "local/NightArt/OptionGreen.png",
       "status": "imported_verified",
-      "runtimeSHA256": "4f1a8f63b4863f66d3b8075711b694e7852722dfe7e9c9d77975dd5996be8290"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "28a2bc177b37bfa31d74ecea857178b1a246fe316cd9da7ded8ed93c6c3fea2c"
     },
     {
       "id": "sharedassets0.assets:52",
       "name": "Mouse",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 32,
       "height": 32,
       "transparent": true,
@@ -558,7 +606,11 @@
       "raw": "fidelity/art/generated/Mouse.raw.png",
       "final": "local/NightArt/Mouse.png",
       "status": "imported_verified",
-      "runtimeSHA256": "730306e7c10f01d2c0fcb9a750f9fbf67a3ff3a5032604b9c59c5ac13444aa65"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "49168333555ae8b746bf86b8c20cf64d65a4e6deb481445a9ccd30b3e67fabbe"
     },
     {
       "id": "sharedassets0.assets:53",
@@ -571,7 +623,11 @@
       "raw": "fidelity/art/generated/OptionLight.raw.png",
       "final": "local/NightArt/OptionLight.png",
       "status": "imported_verified",
-      "runtimeSHA256": "52414f4366404a5cb35ba658141cdd669dc49a30cce37803c4b53ed9e34d0b1a"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "5bc3eef64495bee634bd1d0e923b83cbb24cf8ad6e7083167cfa2c9b1b60f273"
     },
     {
       "id": "sharedassets0.assets:54",
@@ -584,12 +640,16 @@
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "final": "local/NightArt/PRJ_CARD_01_Base_Project.png",
       "status": "imported_verified",
-      "runtimeSHA256": "fea4700c10ed62415672f0fcfa3434a5819eca885140a7d762ee21ea46c7b3b3"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "c1eef8d8a5da9a2721ce62736c106be5b7dc282257306c463249f92f667c4245"
     },
     {
       "id": "sharedassets0.assets:55",
       "name": "CARD_02_Details",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1232,
       "height": 920,
       "transparent": true,
@@ -597,7 +657,11 @@
       "raw": "fidelity/art/generated/CARD_02_Details.raw.png",
       "final": "local/NightArt/CARD_02_Details.png",
       "status": "imported_verified",
-      "runtimeSHA256": "55c68fab594efbe54fcb510a26c5aa71fd7126e788bc50f30342f58eb6e397fc"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "e4476d72d475139bd0131e3eb33148807754c8b1cb44013508a235360c844498"
     },
     {
       "id": "sharedassets0.assets:57",
@@ -615,7 +679,7 @@
     {
       "id": "sharedassets0.assets:58",
       "name": "CARD_01_Base_1T",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -623,7 +687,11 @@
       "raw": "fidelity/art/generated/CARD_01_Base_1T.raw.png",
       "final": "local/NightArt/CARD_01_Base_1T.png",
       "status": "imported_verified",
-      "runtimeSHA256": "f33caee9824bf7df1d80125c89299bf3332d4fec8307f994c9ee6b7ef461df9b"
+      "materialSource": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "materialMode": "framed",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "cec1fd3521ed03cb4168f927d0624de5c91d4e7ebe09512cc86e06853a4fa110"
     },
     {
       "id": "sharedassets0.assets:59",
@@ -649,12 +717,16 @@
       "raw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
       "final": "local/NightArt/PRJ_Dot_1.png",
       "status": "imported_verified",
-      "runtimeSHA256": "53857be699cedeeecec0aa2c0cd5d422fc57256d4a05f27ab045d740e5f8bf0e"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "541218f15fc030965a3a794f64c369868a9f4fe230155e56b1dfff84484005d2"
     },
     {
       "id": "sharedassets0.assets:61",
       "name": "Forward",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 38,
       "height": 32,
       "transparent": true,
@@ -662,7 +734,11 @@
       "raw": "fidelity/art/generated/Forward.raw.png",
       "final": "local/NightArt/Forward.png",
       "status": "imported_verified",
-      "runtimeSHA256": "c65599ed9d4ab58609520e7a11f2a0d0498625096b58f2aaa16285bc0ddcbd25"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "672dbc8b83b76b0e0549d5c3282ffcf9a303f97ac8b1abc15f020fc8e3f839c8"
     },
     {
       "id": "sharedassets0.assets:62",
@@ -675,12 +751,16 @@
       "raw": "fidelity/art/generated/CARD_00_Background.raw.png",
       "final": "local/NightArt/CARD_00_Background.png",
       "status": "imported_verified",
-      "runtimeSHA256": "70bf6ca18d6a319e5e91737654ec421eceacd3e78cf7b7e999c17077d7a9d570"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "271fb96a814170c6be20c0cf374f7b8bdfd0e56dfefb2bfc624201d8237682db"
     },
     {
       "id": "sharedassets0.assets:63",
       "name": "CARD_Selection_Background",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 310,
       "height": 272,
       "transparent": true,
@@ -688,7 +768,11 @@
       "raw": "fidelity/art/generated/CARD_Selection_Background.raw.png",
       "final": "local/NightArt/CARD_Selection_Background.png",
       "status": "imported_verified",
-      "runtimeSHA256": "994bd21335a38e89e09d36e95cdb00a16fc221cbbe1ce7d54e85649090fa8624"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "55cc848dbe86095fcc4b8fa03ed123d743c55954926a36eab7f5481f21fd016f"
     },
     {
       "id": "sharedassets0.assets:64",
@@ -701,7 +785,11 @@
       "raw": "fidelity/art/generated/ButtonSmall.raw.png",
       "final": "local/NightArt/ButtonSmall.png",
       "status": "imported_verified",
-      "runtimeSHA256": "a1aa18e7dc4b221d97e7ff13fae66688f7ecc9f4d161427ef7140257157a3e7d"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "outlined_paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "f138d9f2a5ae024c1e7cd68e2e19abbcfafb603300d497d9dbd216732de4af76"
     },
     {
       "id": "sharedassets0.assets:65",
@@ -714,7 +802,11 @@
       "raw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
       "final": "local/NightArt/TitleBackground_Line_Left.png",
       "status": "imported_verified",
-      "runtimeSHA256": "5608d2868a77a0ef8dbd40d029d086c01e01643cf81a04d8eee03bcd9f072419"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "9a30823a42f4d4fab4012bcfca588a1c13c9409d64fa254261916a1e6b8b44a4"
     },
     {
       "id": "sharedassets0.assets:66",
@@ -753,7 +845,11 @@
       "raw": "fidelity/art/generated/PRJ_Dot.raw.png",
       "final": "local/NightArt/PRJ_Dot.png",
       "status": "imported_verified",
-      "runtimeSHA256": "5c7ee5218fad3f6713e5053caea512cfbd3b516dfe94e2befa169db86e35171c"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "461e8ee99dd4bc778ae13f3479a12e5907b442d9a1b8129bcf536662263318da"
     },
     {
       "id": "sharedassets0.assets:71",
@@ -766,7 +862,11 @@
       "raw": "fidelity/art/generated/English.raw.png",
       "final": "local/NightArt/English.png",
       "status": "imported_verified",
-      "runtimeSHA256": "ae8483bac4eeb882846912a26c74f302acc8cb4a446d30dd051ef49ba9ac3560"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "label",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "fdfcae4926d9cab5e6a82c97a11d31cfb7507b55f63a13f8c7f94948e7c31f81"
     },
     {
       "id": "sharedassets0.assets:72",
@@ -792,7 +892,11 @@
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "final": "local/NightArt/CARD_03_DetailsTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "57aa1a76cdb5397b9c7da1000125c9fdb14f9cf78b36bd48bdf1e13b27b3ffe0"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "c6fba9ab73e2e881fa897d2cb4e43cde17ce33e8f0681ae8babae5bd4041bef2"
     },
     {
       "id": "sharedassets0.assets:75",
@@ -818,7 +922,11 @@
       "raw": "fidelity/art/generated/PRJ_Ok.raw.png",
       "final": "local/NightArt/PRJ_Ok.png",
       "status": "imported_verified",
-      "runtimeSHA256": "145ef9f7a3555a3a872c052d3c85a40e7f492125af338308413e62924551a54d"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "07afa3990f8f0f7771226d44bdd2dcd5e79835a270e640e69e7a677f1f58c8c6"
     },
     {
       "id": "sharedassets0.assets:77",
@@ -857,7 +965,11 @@
       "raw": "fidelity/art/generated/Spanish.raw.png",
       "final": "local/NightArt/Spanish.png",
       "status": "imported_verified",
-      "runtimeSHA256": "678c9711149bab02155b2beb8c6e354ff6d2ac3cb84bd7206017a6863471254b"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "label",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "22a6b6068b94217721f3d1aad78b5c2775a5a212ebdebd4828f5020f8774cfea"
     },
     {
       "id": "sharedassets0.assets:80",
@@ -870,7 +982,11 @@
       "raw": "fidelity/art/generated/ButtonBig.raw.png",
       "final": "local/NightArt/ButtonBig.png",
       "status": "imported_verified",
-      "runtimeSHA256": "19e24d2243d17c24b9e5eba5bd544bf87137e1d964935a997b16e7430ee17b82"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "outlined_paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "6ce6b66ba92cacc25d6c838baf20eb9cb28077962c6db4bc91c265a9deef3de0"
     },
     {
       "id": "sharedassets0.assets:81",
@@ -883,12 +999,16 @@
       "raw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
       "final": "local/NightArt/CARD_10_LightMiddle.png",
       "status": "imported_verified",
-      "runtimeSHA256": "b9c3af42e42924cc05514d29ee8aa069093ef37ec39468fa1b8277f612e1fdb9"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "c5ab3d308bedb3c1d4e07d2b201e91de24d9655d16f92206127d5ace63db683e"
     },
     {
       "id": "sharedassets0.assets:83",
       "name": "Arrow",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 164,
       "height": 152,
       "transparent": true,
@@ -896,7 +1016,11 @@
       "raw": "fidelity/art/generated/Arrow.raw.png",
       "final": "local/NightArt/Arrow.png",
       "status": "imported_verified",
-      "runtimeSHA256": "b74e6365af66a16d7eeb2d4429fdb49d1ef52080c0971deefc0e883051455092"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "150a0f706c1c28ce0ab600606c5a2dc12730de81ddf4b307219c70b52a7e7534"
     },
     {
       "id": "sharedassets0.assets:85",
@@ -922,7 +1046,11 @@
       "raw": "fidelity/art/generated/PRJ_No.raw.png",
       "final": "local/NightArt/PRJ_No.png",
       "status": "imported_verified",
-      "runtimeSHA256": "0403468d259c65f6ba7776f7ead8450df7bba935b9498cb5d2cb5c0f811dbfa3"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "17314602683c3d6579eb7b01cc4dccdf5947339cb92810d224576e84cabd9d54"
     },
     {
       "id": "sharedassets0.assets:88",
@@ -953,7 +1081,7 @@
     {
       "id": "sharedassets0.assets:90",
       "name": "CARD_01_Base_2T",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -961,12 +1089,16 @@
       "raw": "fidelity/art/generated/CARD_01_Base_2T.raw.png",
       "final": "local/NightArt/CARD_01_Base_2T.png",
       "status": "imported_verified",
-      "runtimeSHA256": "da60b0e22d7315bbb2e0302e943178afe7c1135b640edd75112cbff979094a46"
+      "materialSource": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "materialMode": "framed",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "0a862a23abcf107dc22462a6b4c1b8ceab547e57877a726b47a67ba917d2ed03"
     },
     {
       "id": "sharedassets0.assets:91",
       "name": "CARD_Selection",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 310,
       "height": 272,
       "transparent": true,
@@ -974,7 +1106,11 @@
       "raw": "fidelity/art/generated/CARD_Selection.raw.png",
       "final": "local/NightArt/CARD_Selection.png",
       "status": "imported_verified",
-      "runtimeSHA256": "8733179e4b83d95dbd46518cb829565c9ebe5a54641fbbec0ca3b86a91987206"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "553136d036686e17664e808ac5b5e623ce42ec1a31d4ad3d1c459162e71e9051"
     },
     {
       "id": "sharedassets0.assets:92",
@@ -987,7 +1123,11 @@
       "raw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
       "final": "local/NightArt/CARD_10_LightBottom.png",
       "status": "imported_verified",
-      "runtimeSHA256": "8c7c3924703a10fc23a81d2a2667aea4d991cedbc360088da06d6b953cb5a70e"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "flat",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "9a26d63c542d7d17dbae08fe3eade80971b8e69e75e9d2efedaf479ac58cb3be"
     },
     {
       "id": "sharedassets0.assets:93",
@@ -1013,7 +1153,11 @@
       "raw": "fidelity/art/generated/SubTitle.raw.png",
       "final": "local/NightArt/SubTitle.png",
       "status": "imported_verified",
-      "runtimeSHA256": "54f735a6576e7d64d8bc038e1cf73145a76a924e1a4dd649050e5b803f4516aa"
+      "materialSource": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "a16ec6dc2c5f0859d4e55813110990e0d88e119c3c607c2071a1d12aaf7b9b93"
     },
     {
       "id": "sharedassets0.assets:96",
@@ -1026,7 +1170,11 @@
       "raw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
       "final": "local/NightArt/PRJ_CARD_02_Details.png",
       "status": "imported_verified",
-      "runtimeSHA256": "dbf7dd0e9ad5ae5bd35139fafa6e03ee0c5838589a81f12e1b584a9e0d3db969"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "67357479d05908071bd1fef66b6a7828bb12d684c100c832a1d43b9806b59e54"
     },
     {
       "id": "sharedassets0.assets:98",
@@ -1039,7 +1187,11 @@
       "raw": "fidelity/art/generated/PRJ_WIP.raw.png",
       "final": "local/NightArt/PRJ_WIP.png",
       "status": "imported_verified",
-      "runtimeSHA256": "e14cc83963f5a2734a825ac55b8305b975dc2c040ddaae590f4f6db4fc11ed3a"
+      "materialSource": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "materialMode": "paper",
+      "sampling": "uniform_cover",
+      "surfaceSpec": "fidelity/data/ui-surfaces.json",
+      "runtimeSHA256": "875983ad2589ce251926207eb6de4f3788585e4d348e0e729daf13023c306030"
     },
     {
       "id": "sharedassets0.assets:99",

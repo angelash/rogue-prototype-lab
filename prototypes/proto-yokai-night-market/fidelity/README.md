@@ -9,7 +9,8 @@
 - [流程与原生用例源](test-cases/flow-and-native.md)：新增重开/保存断言与实际键鼠检查。
 - [UI 功能层规格](data/ui-surfaces.json) / [UI 回归用例](test-cases/ui-surfaces.md)：设置、左框、阶段底图、进度/状态标记和原生语言图标。
 - [替换数据](data/theme.json) / [内容查阅](data/content-guide.md) / [原图规格](image-specs.json)。
-- [文案制作源](data/copy.json)：95 条双语台词、28 份双语委托说明、界面与名称修订；由 create_fidelity_theme.py 合入全部 420 键与生产 XML。[文字颜色](data/presentation.json)记录八处文字与八份卡牌标签材质颜色；后续校对遵循仓库 game-copy-polish skill。
+- [文案制作源](data/copy.json)：95 条双语台词、28 份双语委托说明、界面与名称修订；由 create_fidelity_theme.py 合入全部 420 键与生产 XML。[主题颜色](data/presentation.json)记录当前 17 个字色、35 个组件颜色及 28 个材质颜色；后续校对遵循仓库 game-copy-polish skill。
+- [v2.8 包装集成](art-direction-v2.8/integration-and-review.md)：38 张 UI 的实际生产、尺寸/透明度/几何锁定、原生纸签与当前构建检查。
 
 本机运行 ../local/Builds/Release/YokaiNightMarket.exe。独立 Unity 工程 ../local/UnityProject/，场景 Assets/Recovery/Scenes/NightMarket.unity，prefab 在 Assets/Recovery/Prefabs/。使用 Unity 2022.3.62f3c1 Windows x64 Mono。完整业务源码在本机 Assets/Recovery/Scripts/，公开 scripts/ 保存原创恢复与验证工具。
 

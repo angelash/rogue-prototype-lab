@@ -55,7 +55,7 @@
     },
     {
       "name": "indigo-paper-v1",
-      "status": "production_source_pending_integration",
+      "status": "production_source_integrated_verified",
       "raw": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
       "rawSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
       "rawSize": [
@@ -81,7 +81,7 @@
     },
     {
       "name": "neutral-paper-v1",
-      "status": "production_source_pending_integration",
+      "status": "production_source_integrated_verified",
       "raw": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
       "rawSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
       "rawSize": [
@@ -104,6 +104,58 @@
       "tool": "image_gen.imagegen",
       "registeredAt": "2026-10-13T14:47:06.445422+08:00",
       "review": "已查看：连续浅中性纸纹，未见文字/框/大图案，可用于矿物类别乘色底材。尚未导出/集成，最终乘色须实机检验。"
+    },
+    {
+      "name": "card-lower-master-v1",
+      "status": "rejected_frame_overlap_history",
+      "raw": "fidelity/art-direction-v2.8/materials/card-lower-master-v1.raw.png",
+      "rawSHA256": "78599145b055be3c312832766ec7019601b49570f28af8393dcadb64d9f29a9e",
+      "rawSize": [
+        1452,
+        1083
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/materials/card-lower-master-v1.prompt.txt",
+      "promptSHA256": "20583f6ed5abed537afedfc334a0e56baafebeb3e7a8b4fd2532005bea594bab",
+      "references": [
+        {
+          "path": "fidelity/art-direction-v2.8/samples/style-proof-v2.png",
+          "sha256": "49eb46e0ade14f230c100e5fed8f06654101c5b6e5acd074871b7f3e81eb5002"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T15:21:51.356378+08:00",
+      "review": "单层靛蓝纸底与薄旧金边；等比裁切派生，不携带功能孔位或烘焙文字。"
+    },
+    {
+      "name": "card-lower-master-v2",
+      "status": "production_source_integrated_verified",
+      "raw": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "rawSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "rawSize": [
+        1452,
+        1083
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.prompt.txt",
+      "promptSHA256": "0d44040cfd785f97e549bc07206a445005000a28a6e50f9818037d706cbfad94",
+      "references": [
+        {
+          "path": "fidelity/art-direction-v2.8/materials/card-lower-master-v1.raw.png",
+          "sha256": "78599145b055be3c312832766ec7019601b49570f28af8393dcadb64d9f29a9e"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T15:42:27.987799+08:00",
+      "review": "实机发现分隔条与旧金线相交，右边24–33%和底边20–82%留断口；不修改分隔条或 alpha。"
     }
   ],
   "runtimeChanged": false,

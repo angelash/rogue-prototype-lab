@@ -2,13 +2,13 @@
 No recovered code or source media is included in the output.
 """
 from pathlib import Path
-import hashlib,json,re,xml.etree.ElementTree as ET
+import hashlib,json,re,os,xml.etree.ElementTree as ET
 from PIL import Image
 import numpy as np
 from fontTools.ttLib import TTFont
 ROOT=Path(__file__).resolve().parents[1]
 REPO=ROOT.parents[1]
-PROJECT=ROOT/'local/UnityProject'
+PROJECT=Path(os.environ.get('NIGHT_MARKET_PROJECT_PATH',ROOT/'local/UnityProject')).resolve()
 SOURCE=REPO/'prototypes/re-crunch-time'
 def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -18,16 +18,21 @@ def verify():
     checks=[]
     def check(name,ok,**facts):checks.append(dict(name=name,passed=bool(ok),**facts))
     theme=read(ROOT/'fidelity/data/theme.json');cat=read(SOURCE/'local/content-catalog.json')
+    presentation=read(ROOT/'fidelity/data/presentation.json')
     adaptations=[]
     for p in sorted((SOURCE/'local/decompiled').glob('*.cs')):
         expected=normalized(p)
         for a,b in [('base.collider2D','GetComponent<Collider2D>()'),('Screen.showCursor','Cursor.visible'),('.collider2D','.GetComponent<Collider2D>()'),('component.castShadows = false;','component.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;'),('Application.isLoadingLevel','LegacyEngine.IsLoadingLevel'),('Application.LoadLevel(Application.loadedLevel)','UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex)')]:expected=expected.replace(a,b)
         if p.name=='ProjectCard.cs':expected,n=re.subn(r'm_asCompanyName = new string\[8\] \{[^;]+;','m_asCompanyName = new string[8] { '+', '.join(json.dumps(x,ensure_ascii=False) for x in theme['companies'])+' };',expected,count=1);assert n==1
         if p.name=='Option.cs':expected=expected.replace('m_oMain.GetComponent<TextMesh>().text = hLanguage.sGetText(m_sTextID);','m_oMain.GetComponent<TextMesh>().text = m_sTextID == "Sound" ? (hLanguage.iLanguage == 0 ? "声音" : "Sound") : hLanguage.sGetText(m_sTextID);')
+        for delta in presentation.get('codeColorReplacements',[]):
+            if delta['file']==p.name:
+                assert expected.count(delta['before'])==delta['count'],delta
+                expected=expected.replace(delta['before'],delta['after'])
         actual=PROJECT/'Assets/Recovery/Scripts'/p.name
         ok=normalized(actual)==expected
         adaptations.append(dict(file=p.name,referenceSHA256=sha(p),runtimeSHA256=sha(actual),onlyDeclaredAdaptations=ok))
-    check('All business scripts differ only by declared Unity API bridges, eight company names and an audio-option display alias',len(adaptations)==30 and all(x['onlyDeclaredAdaptations'] for x in adaptations),scripts=len(adaptations))
+    check('All 30 business scripts differ only by declared API bridges, company/display aliases and explicit packaging color literals',len(adaptations)==30 and all(x['onlyDeclaredAdaptations'] for x in adaptations),scripts=len(adaptations),colorLiteralOccurrences=sum(d['count'] for d in presentation.get('codeColorReplacements',[])))
     fields={'id':'ID','type':'Type','turns':'Turns','target':'Target','function':'Function','amount':'Num','repair':'Repair','picture':'Picture'}
     check('All 95 card rule records preserve source numeric parameters and references',len(theme['cards'])==95 and all(all(c[a]==s[b] for a,b in fields.items()) for c,s in zip(theme['cards'],cat['cards'])))
     check('All 28 effective project goals preserve source Testing=2 behavior',len(theme['projects'])==28 and all(t['id']==s['ID'] and t['effectiveGoals']==s['effectiveTasks'] for t,s in zip(theme['projects'],cat['projects'])))
@@ -53,7 +58,7 @@ def verify():
           all(theme['strings']['Quote'+str(i)]==dict(zip(('zh','en'),v)) for i,v in enumerate(copy['quotes'],1)) and
           all(theme['strings']['SubTitle'+str(i)]==dict(zip(('zh','en'),v)) for i,v in enumerate(copy['projectSubtitles'],1)) and
           all(len({v[lang] for v in copy[family]})==len(copy[family]) for lang in (0,1) for family in ('quotes','projectSubtitles')))
-    presentation=read(ROOT/'fidelity/data/presentation.json');palette=presentation['textColorOverrides'];valid=len(palette)==8
+    presentation=read(ROOT/'fidelity/data/presentation.json');palette=presentation['textColorOverrides'];valid=len(palette)==17
     for key,color in palette.items():
         packed=sum(round(color[channel]*255) << (8*i) for i,channel in enumerate('rgba'))
         valid &= objects[key]['tree']['m_Color']['rgba']==packed
@@ -70,7 +75,7 @@ def verify():
     for key,color in presentation['materialColorOverrides'].items():
         expected={channel:color[channel] for channel in 'rgba'}
         valid &= next(v for k,v in objects[key]['tree']['m_SavedProperties']['m_Colors'] if k['name']=='_Color')==expected
-        material=normalized(PROJECT/('Assets/Resources/'+color['resource']+'.asset'))
+        material=normalized(PROJECT/(color.get('assetPath') or ('Assets/Resources/'+color['resource']+'.asset')))
         match=re.search(r'- _Color: \{r: ([^,]+), g: ([^,]+), b: ([^,]+), a: ([^}]+)\}',material)
         valid &= match is not None and all(abs(float(match.group(i+1))-color[c])<.000001 for i,c in enumerate('rgba'))
     check('Declared text and worker-label colors are synchronized in recovery input, scene, prefabs and materials',valid)
@@ -92,8 +97,11 @@ def verify():
     check('All thirteen source font references bind to the same licensed CJK font bytes',sum(o['type']=='Font' for o in objects.values())==13 and all(sha(PROJECT/o['assetPath'])==sha(fontfile) for o in objects.values() if o['type']=='Font'))
     ledger=read(ROOT/'fidelity/art/generation-register.json');registrations={r['name']:r for r in ledger['images']};images=[]
     jobs=read(ROOT/'fidelity/art/jobs.json')['jobs']
+    surfaces=read(ROOT/'fidelity/data/ui-surfaces.json')['textures']
+    check('Native language badge labels match original Options.AddFlag order and ENG=Chinese / SPA=English XML slots',surfaces['English']['label']=='中' and surfaces['English']['languageSlot']==0 and surfaces['Spanish']['label']=='EN' and surfaces['Spanish']['languageSlot']==1 and 'AddFlag(GameObject.Find("LNG-English"))' in normalized(PROJECT/'Assets/Recovery/Scripts/Options.cs'))
+    def final_path(j):return Path(os.environ['NIGHT_MARKET_ART_OUTPUT'])/Path(j['final']).name if os.environ.get('NIGHT_MARKET_ART_OUTPUT') and j['name'] in surfaces else ROOT/j['final']
     for j in jobs:
-        raw=ROOT/j['raw'];final=ROOT/j['final'];obj=objects[j['id']];working=PROJECT/obj['assetPath'];record=registrations.get(j['name'],{});ok=raw.exists() and final.exists()
+        raw=ROOT/j['raw'];final=final_path(j);obj=objects[j['id']];working=PROJECT/obj['assetPath'];record=registrations.get(j['name'],{});ok=raw.exists() and final.exists()
         item=dict(id=j['id'],name=j['name'],targetSize=[j['width'],j['height']],kind=j['kind'],passed=False)
         if ok:
             with Image.open(final) as im:validSize=list(im.size)==item['targetSize'];item['alphaRange']=list(im.getchannel('A').getextrema()) if 'A' in im.getbands() else [255,255]
@@ -102,22 +110,22 @@ def verify():
             item.update(rawSHA256=sha(raw),runtimeSHA256=sha(final),originalReferencePNG_SHA256=sha(original),passed=ok)
         images.append(item)
     check('All 82 replacement textures have source dimensions, provenance and runtime copies; historical generated originals are retained',len(images)==82 and all(i['passed'] for i in images),historicalGeneratedSources=len(registrations),exported=sum(i['passed'] for i in images))
-    surfaces=read(ROOT/'fidelity/data/ui-surfaces.json')['textures'];valid=True;facts=[]
+    valid=True;facts=[]
     for name,role in surfaces.items():
         j=next(j for j in jobs if j['name']==name);original=SOURCE/objects[j['id']]['exportFiles'][0]['path']
-        with Image.open(original) as source,Image.open(ROOT/j['final']) as final:
+        with Image.open(original) as source,Image.open(final_path(j)) as final:
             s=np.asarray(source.convert('RGBA'));f=np.asarray(final.convert('RGBA'))
-            level=s[:,:,:3].max(axis=2)/255 if role['mode']=='luminance' else np.ones(s.shape[:2]);expected=level[:,:,None]*np.array(role['rgb'])*255
-            error=float(np.abs(f[:,:,:3].astype(float)-expected).max())
-            nativeLabel=role['mode']=='label';ink=((f[:,:,0]>100)&(f[:,:,1]>80)&(f[:,:,3]>128)).sum()
-            ok=j['kind']=='functional_ui' and source.size==final.size and np.array_equal(s[:,:,3],f[:,:,3]) and (ink>=15 if nativeLabel else error<=1)
-            valid &= ok;facts.append(dict(name=name,role=role['role'],mode=role['mode'],maxChannelError=error,passed=bool(ok)))
-    check('Twenty-six shared UI layers retain exact functional alpha; twenty-four declared surfaces and two native language badges use no generated frame or navy fallback',len(surfaces)==26 and valid,textures=facts)
+            ok=j['kind']==('prompt_backplate' if name=='SubTitle' else 'functional_ui') and source.size==final.size and np.array_equal(s[:,:,3],f[:,:,3]) and role['sampling']=='uniform_cover' and sha(ROOT/role['source'])==role['sourceSHA256']
+            valid &= ok;facts.append(dict(name=name,role=role['role'],mode=role['mode'],exactAlpha=bool(np.array_equal(s[:,:,3],f[:,:,3])),passed=bool(ok)))
+    check('All 38 themed UI layers retain exact dimensions/alpha and declared aspect-preserving material sources',len(surfaces)==38 and valid,textures=facts)
     prompt=next(j for j in jobs if j['name']=='SubTitle');original=SOURCE/objects[prompt['id']]['exportFiles'][0]['path']
-    with Image.open(ROOT/prompt['final']) as plate, Image.open(original) as source:
-        check('Continue background is text-free uniform dark RGB with exact original alpha and dimensions',prompt['kind']=='prompt_backplate' and plate.size==source.size==(628,174) and plate.getchannel('A').tobytes()==source.getchannel('A').tobytes() and all(a==b and b<=11 for a,b in plate.getextrema()[:3]),role='Continue.Background, both aspect ratio trees')
+    with Image.open(final_path(prompt)) as plate, Image.open(original) as source:
+        check('Continue uses the declared text-free indigo paper source with exact alpha and 628x174 dimensions',prompt['kind']=='prompt_backplate' and plate.size==source.size==(628,174) and plate.getchannel('A').tobytes()==source.getchannel('A').tobytes() and surfaces['SubTitle']['mode']=='paper' and surfaces['SubTitle']['source'].endswith('indigo-paper-v1.raw.png'),role='Continue.Background, both aspect ratio trees')
     ownReferences=[p for r in ledger['images'] for p in r['references']]
-    check('No original art was supplied to image generation',all(p.startswith('fidelity/art/revisions/') and (ROOT/p).exists() for p in ownReferences),ownEditReferences=ownReferences)
+    styleLedger=read(ROOT/'fidelity/art-direction-v2.8/generation-register.json')
+    ownReferences += [ref['path'] for row in styleLedger['images'] for ref in row['references']]
+    ledgerValid=all(sha(ROOT/r['raw'])==r['rawSHA256'] and sha(ROOT/r['prompt'])==r['promptSHA256'] and all(sha(ROOT/ref['path'])==ref['sha256'] for ref in r['references']) for r in styleLedger['images'])
+    check('Imagegen uses only registered original night-market references; all new production-source hashes match',ledgerValid and all(p.startswith(('fidelity/art/revisions/','fidelity/art/generated/','fidelity/art-direction-v2.8/')) and (ROOT/p).exists() for p in ownReferences),ownEditReferences=ownReferences,newSources=len(styleLedger['images']))
     structure=read(ROOT/'local/structure-audit.json');prefabs=read(ROOT/'local/prefab-report.json')
     check('Serialized structure audit passed',structure['passed'] and structure['transforms']==462 and structure['components']==1063 and structure['spriteVertices']==970,**{k:v for k,v in structure.items() if k not in ('passed','failures')})
     check('All eighteen scene roots exist as editable prefabs',prefabs['rootPrefabs']==18 and prefabs['nodesCovered']==462)

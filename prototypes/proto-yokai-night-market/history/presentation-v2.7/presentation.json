@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "textStyleOverrides": {
+    "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "characterSize": 0.85, "reason": "Noto CJK glyphs need a clear gap beneath the original collapsed title; node transforms and references stay original."}
+  },
+  "textColorOverrides": {
+    "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "r": 0.82, "g": 0.80, "b": 0.72, "a": 1},
+    "mainData:1211": {"object": "Pag 1.4- Programming", "key": "Programming", "r": 0.42, "g": 0.64, "b": 1, "a": 1},
+    "mainData:1224": {"object": "Pag 1.6 - Sound", "key": "Sound", "r": 0.42, "g": 0.85, "b": 0.52, "a": 1},
+    "mainData:1225": {"object": "0 Anna Department", "key": "THE SOUND DESIGNER", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "mainData:1327": {"object": "0 Abel Department", "key": "THE ARTIST", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "mainData:1323": {"object": "0 Rosa Department", "key": "THE ARTIST'S SUPPORT", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "mainData:1190": {"object": "0 Mikis Department", "key": "ARTISTAS CONCEPTUALES", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "mainData:1279": {"object": "0 Marc Department", "key": "THE TESTER", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1}
+  },
+  "materialColorOverrides": {
+    "sharedassets0.assets:10": {"resource": "00_neg_detail", "r": 0.72, "g": 0.24, "b": 0.18, "a": 1, "reason": "Replace the original pure-black negative-card classification bands with muted terracotta; preserve classification, alpha, meshes and all interactions."},
+    "resources.assets:1": {"resource": "00_art_dark", "r": 0.07, "g": 0.04, "b": 0.02, "a": 1},
+    "resources.assets:4": {"resource": "00_dsg_dark", "r": 0.06, "g": 0.05, "b": 0.02, "a": 1},
+    "resources.assets:9": {"resource": "00_prg_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "resources.assets:11": {"resource": "00_snd_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "resources.assets:13": {"resource": "00_tst_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "resources.assets:2": {"resource": "00_dir_dark", "r": 0.06, "g": 0.05, "b": 0.02, "a": 1},
+    "resources.assets:12": {"resource": "00_spc_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
+    "sharedassets0.assets:11": {"resource": "00_pos_dark", "r": 0.025, "g": 0.04, "b": 0.075, "a": 1}
+  },
+  "scope": "Eight text colors, eight card-label material colors and one negative-card band color; one declared project-subtitle characterSize. Preserve nodes, geometry, text keys, references, shaders and all game behavior."
+}

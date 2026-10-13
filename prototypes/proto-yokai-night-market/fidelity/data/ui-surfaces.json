@@ -1,32 +1,442 @@
 {
-  "version": 1,
-  "scope": "Functional UI layers only. Keep source size, alpha, sprite mesh, pivot, UV and tint. Flat surfaces do not copy source decorative RGB or generated frames. Luminance layers retain the original grayscale partition with a declared night-market palette. Historical generated inputs stay archived.",
+  "version": 2,
+  "date": "2026-10-13",
+  "scope": "38 night-market layers. Uniform cover sampling, source alpha byte-for-byte, unchanged sprites/import settings/scene geometry. Only five declared ledger grooves retain source functional RGB partitions.",
   "textures": {
-    "TitleBackground Left": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Sliding left phase backplate; no inner frame"},
-    "TitleBackground Right": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Sliding right phase backplate; no inner frame"},
-    "TitleBackground Line Left": {"mode": "flat", "rgb": [0.76, 0.59, 0.32], "role": "Left phase outline only"},
-    "TitleBackground Line Right": {"mode": "flat", "rgb": [0.76, 0.59, 0.32], "role": "Right phase outline only"},
-    "ButtonBig": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Original clipped button fill and thin bevel"},
-    "ButtonSmall": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Vertical settings/resume button, original fill and bevel"},
-    "CARD_00_Background": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Shared card back and company surface; no frame, picture placeholder or baked watermark"},
-    "CARD_01_BaseTop": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Dark picture surround; no added frame"},
-    "CARD_03_DetailsTop": {"mode": "luminance", "rgb": [1.0, 0.97, 0.90], "role": "Tintable header and outline, shared by cards and projects"},
-    "PRJ_CARD_01_Base_Project": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Project panel and five progress grooves; no added frame"},
-    "PRJ_CARD_02_Details": {"mode": "luminance", "rgb": [1.0, 0.97, 0.90], "role": "Project dividers only"},
-    "PRJ_Button_Gradient": {"mode": "flat", "rgb": [0.02, 0.025, 0.04], "role": "Darkening gradient over the work button; alpha supplies gradient"},
-    "PRJ_Dot": {"mode": "flat", "rgb": [1.0, 0.97, 0.90], "role": "Tintable work progress pip; alpha only, omit source baked writing"},
-    "PRJ_Dot 1": {"mode": "flat", "rgb": [1.0, 0.97, 0.90], "role": "Round counter pip; alpha only, omit source baked writing"},
-    "PRJ_Ok": {"mode": "flat", "rgb": [0.44, 0.80, 0.48], "role": "Completed work check silhouette"},
-    "PRJ_No": {"mode": "flat", "rgb": [0.90, 0.32, 0.22], "role": "Incomplete work indicator silhouette"},
-    "PRJ_WIP": {"mode": "flat", "rgb": [0.86, 0.70, 0.31], "role": "Work in progress silhouette"},
-    "CARD_10_LightTop": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Top selection glow; alpha supplies feathered edge"},
-    "CARD_10_LightMiddle": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Side selection glow; no stretched decoration"},
-    "CARD_10_LightBottom": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Bottom selection glow"},
-    "OptionRed": {"mode": "luminance", "rgb": [0.90, 0.32, 0.22], "role": "Disabled option lamp, full original rectangular silhouette"},
-    "OptionGreen": {"mode": "luminance", "rgb": [0.44, 0.80, 0.48], "role": "Enabled option lamp, same functional silhouette"},
-    "OptionLight": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Option hover glow only"},
-    "FlagHighlight": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Language selection glow only"},
-    "English": {"mode": "label", "rgb": [0.08, 0.10, 0.14], "label": "中", "role": "Original language slot 0 now contains Chinese; native font glyph inside original 36px badge"},
-    "Spanish": {"mode": "label", "rgb": [0.08, 0.10, 0.14], "label": "EN", "role": "Original language slot 1 now contains English; native font glyph inside original 36px badge"}
+    "CARD_01_Base_3T": {
+      "mode": "framed",
+      "role": "card_lower",
+      "source": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "maxAspectError": 0.005
+    },
+    "CARD_01_Base_0T": {
+      "mode": "framed",
+      "role": "card_lower",
+      "source": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "maxAspectError": 0.005
+    },
+    "FlagHighlight": {
+      "mode": "flat",
+      "role": "glow",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "TitleBackground Left": {
+      "mode": "paper",
+      "role": "phase_surface",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d"
+    },
+    "OptionRed": {
+      "mode": "paper",
+      "role": "option_token",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.619608,
+        0.352941,
+        0.286275
+      ]
+    },
+    "CARD_10_LightTop": {
+      "mode": "flat",
+      "role": "glow",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "CARD_01_BaseTop": {
+      "mode": "outlined_paper",
+      "role": "picture_surround",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "borderRGB": [
+        0.717647,
+        0.580392,
+        0.368627
+      ],
+      "borderPixels": 7
+    },
+    "TitleBackground Line Right": {
+      "mode": "paper",
+      "role": "phase_outline",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "PRJ_Button_Gradient": {
+      "mode": "flat",
+      "role": "technical_shading",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "CARD_01_Base_4T": {
+      "mode": "framed",
+      "role": "card_lower",
+      "source": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "maxAspectError": 0.005
+    },
+    "TitleBackground Right": {
+      "mode": "paper",
+      "role": "phase_surface",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d"
+    },
+    "OptionGreen": {
+      "mode": "paper",
+      "role": "option_token",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.32549,
+        0.435294,
+        0.403922
+      ]
+    },
+    "Mouse": {
+      "mode": "paper",
+      "role": "navigation",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "OptionLight": {
+      "mode": "flat",
+      "role": "glow",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "PRJ_CARD_01_Base_Project": {
+      "mode": "paper",
+      "role": "ledger",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "functionalSlots": {
+        "xMin": 600,
+        "xMax": 1200,
+        "topRows": [
+          [
+            347,
+            415
+          ],
+          [
+            442,
+            511
+          ],
+          [
+            538,
+            607
+          ],
+          [
+            635,
+            703
+          ],
+          [
+            731,
+            798
+          ]
+        ],
+        "sourceMaxRGB": 0.02,
+        "rgb": [
+          0.065,
+          0.09,
+          0.105
+        ]
+      }
+    },
+    "CARD_02_Details": {
+      "mode": "paper",
+      "role": "tintable_dividers",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10"
+    },
+    "CARD_01_Base_1T": {
+      "mode": "framed",
+      "role": "card_lower",
+      "source": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "maxAspectError": 0.005
+    },
+    "PRJ_Dot 1": {
+      "mode": "paper",
+      "role": "token",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.909804,
+        0.839216,
+        0.686275
+      ]
+    },
+    "Forward": {
+      "mode": "paper",
+      "role": "navigation",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "CARD_00_Background": {
+      "mode": "paper",
+      "role": "surface",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d"
+    },
+    "CARD_Selection_Background": {
+      "mode": "paper",
+      "role": "selection_surface",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d"
+    },
+    "ButtonSmall": {
+      "mode": "outlined_paper",
+      "role": "button",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "borderRGB": [
+        0.717647,
+        0.580392,
+        0.368627
+      ],
+      "borderPixels": 2
+    },
+    "TitleBackground Line Left": {
+      "mode": "paper",
+      "role": "phase_outline",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "PRJ_Dot": {
+      "mode": "paper",
+      "role": "tintable_token",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10"
+    },
+    "English": {
+      "mode": "label",
+      "role": "native_badge",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "label": "中",
+      "rgb": [
+        0.909804,
+        0.839216,
+        0.686275
+      ],
+      "labelRGB": [
+        0.211765,
+        0.176471,
+        0.141176
+      ],
+      "languageSlot": 0
+    },
+    "CARD_03_DetailsTop": {
+      "mode": "paper",
+      "role": "tintable_header",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10"
+    },
+    "PRJ_Ok": {
+      "mode": "paper",
+      "role": "status_icon",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.721569,
+        0.784314,
+        0.623529
+      ]
+    },
+    "Spanish": {
+      "mode": "label",
+      "role": "native_badge",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "label": "EN",
+      "rgb": [
+        0.909804,
+        0.839216,
+        0.686275
+      ],
+      "labelRGB": [
+        0.211765,
+        0.176471,
+        0.141176
+      ],
+      "languageSlot": 1
+    },
+    "ButtonBig": {
+      "mode": "outlined_paper",
+      "role": "button",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "borderRGB": [
+        0.717647,
+        0.580392,
+        0.368627
+      ],
+      "borderPixels": 2
+    },
+    "CARD_10_LightMiddle": {
+      "mode": "flat",
+      "role": "glow",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "Arrow": {
+      "mode": "paper",
+      "role": "navigation",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "PRJ_No": {
+      "mode": "paper",
+      "role": "status_icon",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.839216,
+        0.545098,
+        0.443137
+      ]
+    },
+    "CARD_01_Base_2T": {
+      "mode": "framed",
+      "role": "card_lower",
+      "source": "fidelity/art-direction-v2.8/materials/card-lower-master-v2.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "15615453d8367bde4b21c9930ca08f5f24c9bedf6b678f0bc3e4c02a93dee0f3",
+      "maxAspectError": 0.005
+    },
+    "CARD_Selection": {
+      "mode": "paper",
+      "role": "selection_outline",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "CARD_10_LightBottom": {
+      "mode": "flat",
+      "role": "glow",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    },
+    "SubTitle": {
+      "mode": "paper",
+      "role": "prompt_surface",
+      "source": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d"
+    },
+    "PRJ_CARD_02_Details": {
+      "mode": "paper",
+      "role": "tintable_dividers",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10"
+    },
+    "PRJ_WIP": {
+      "mode": "paper",
+      "role": "status_icon",
+      "source": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "sampling": "uniform_cover",
+      "sourceSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    }
   }
 }

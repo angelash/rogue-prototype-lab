@@ -1,29 +1,815 @@
 {
-  "version": 1,
+  "version": 2,
   "date": "2026-10-13",
   "textStyleOverrides": {
-    "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "characterSize": 0.85, "reason": "Noto CJK glyphs need a clear gap beneath the original collapsed title; node transforms and references stay original."}
+    "mainData:1315": {
+      "object": "13 Subtitle",
+      "key": "SubTitle",
+      "characterSize": 0.85,
+      "reason": "Noto CJK glyphs need a clear gap beneath the original collapsed title; node transforms and references stay original."
+    }
   },
   "textColorOverrides": {
-    "mainData:1315": {"object": "13 Subtitle", "key": "SubTitle", "r": 0.82, "g": 0.80, "b": 0.72, "a": 1},
-    "mainData:1211": {"object": "Pag 1.4- Programming", "key": "Programming", "r": 0.42, "g": 0.64, "b": 1, "a": 1},
-    "mainData:1224": {"object": "Pag 1.6 - Sound", "key": "Sound", "r": 0.42, "g": 0.85, "b": 0.52, "a": 1},
-    "mainData:1225": {"object": "0 Anna Department", "key": "THE SOUND DESIGNER", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "mainData:1327": {"object": "0 Abel Department", "key": "THE ARTIST", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "mainData:1323": {"object": "0 Rosa Department", "key": "THE ARTIST'S SUPPORT", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "mainData:1190": {"object": "0 Mikis Department", "key": "ARTISTAS CONCEPTUALES", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "mainData:1279": {"object": "0 Marc Department", "key": "THE TESTER", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1}
+    "mainData:1315": {
+      "object": "13 Subtitle",
+      "key": "SubTitle",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1211": {
+      "object": "Pag 1.4- Programming",
+      "key": "Programming",
+      "r": 0.647059,
+      "g": 0.72549,
+      "b": 0.788235,
+      "a": 1
+    },
+    "mainData:1224": {
+      "object": "Pag 1.6 - Sound",
+      "key": "Sound",
+      "r": 0.721569,
+      "g": 0.784314,
+      "b": 0.623529,
+      "a": 1
+    },
+    "mainData:1225": {
+      "object": "0 Anna Department",
+      "key": "THE SOUND DESIGNER",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1327": {
+      "object": "0 Abel Department",
+      "key": "THE ARTIST",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1323": {
+      "object": "0 Rosa Department",
+      "key": "THE ARTIST'S SUPPORT",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1190": {
+      "object": "0 Mikis Department",
+      "key": "ARTISTAS CONCEPTUALES",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1279": {
+      "object": "0 Marc Department",
+      "key": "THE TESTER",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "mainData:1222": {
+      "object": "64 Count",
+      "key": "5",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1228": {
+      "object": "64 Count2nd",
+      "key": "",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 0.0784313725490196
+    },
+    "mainData:1235": {
+      "object": "60 Continue",
+      "key": "9 - Click to use",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1290": {
+      "object": "65 Exit",
+      "key": "Saliendo en... 3",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1293": {
+      "object": "Pag 1.3 - Design",
+      "key": "Design",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1299": {
+      "object": "60 Continue",
+      "key": "Continue",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1308": {
+      "object": "65 Exit2nd",
+      "key": "",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 0.0784313725490196
+    },
+    "mainData:1318": {
+      "object": "21 Weeks",
+      "key": "Semana 1",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    },
+    "mainData:1319": {
+      "object": "Pag 0 - Title",
+      "key": "TUTO_Welcome",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1.0
+    }
   },
   "materialColorOverrides": {
-    "sharedassets0.assets:10": {"resource": "00_neg_detail", "r": 0.72, "g": 0.24, "b": 0.18, "a": 1, "reason": "Replace the original pure-black negative-card classification bands with muted terracotta; preserve classification, alpha, meshes and all interactions."},
-    "resources.assets:1": {"resource": "00_art_dark", "r": 0.07, "g": 0.04, "b": 0.02, "a": 1},
-    "resources.assets:4": {"resource": "00_dsg_dark", "r": 0.06, "g": 0.05, "b": 0.02, "a": 1},
-    "resources.assets:9": {"resource": "00_prg_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "resources.assets:11": {"resource": "00_snd_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "resources.assets:13": {"resource": "00_tst_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "resources.assets:2": {"resource": "00_dir_dark", "r": 0.06, "g": 0.05, "b": 0.02, "a": 1},
-    "resources.assets:12": {"resource": "00_spc_dark", "r": 0.96, "g": 0.94, "b": 0.87, "a": 1},
-    "sharedassets0.assets:11": {"resource": "00_pos_dark", "r": 0.025, "g": 0.04, "b": 0.075, "a": 1}
+    "sharedassets0.assets:13": {
+      "assetPath": "Assets/Resources/00_snd_detail.asset",
+      "name": "00_SND_Detail",
+      "palette": "sound",
+      "r": 0.376471,
+      "g": 0.458824,
+      "b": 0.364706,
+      "a": 1
+    },
+    "resources.assets:11": {
+      "assetPath": "Assets/Resources/00_snd_dark.asset",
+      "name": "00_SND_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:6": {
+      "assetPath": "Assets/Recovery/Generated/sharedassets0.assets_6.asset",
+      "name": "00_SND_Bar",
+      "palette": "sound",
+      "r": 0.376471,
+      "g": 0.458824,
+      "b": 0.364706,
+      "a": 1
+    },
+    "resources.assets:10": {
+      "assetPath": "Assets/Resources/00_prg_detail.asset",
+      "name": "00_PRG_Detail",
+      "palette": "programming",
+      "r": 0.32549,
+      "g": 0.431373,
+      "b": 0.533333,
+      "a": 1
+    },
+    "resources.assets:9": {
+      "assetPath": "Assets/Resources/00_prg_dark.asset",
+      "name": "00_PRG_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:5": {
+      "assetPath": "Assets/Recovery/Generated/sharedassets0.assets_5.asset",
+      "name": "00_PRG_Bar",
+      "palette": "programming",
+      "r": 0.32549,
+      "g": 0.431373,
+      "b": 0.533333,
+      "a": 1
+    },
+    "resources.assets:5": {
+      "assetPath": "Assets/Resources/00_dsg_detail.asset",
+      "name": "00_DSG_Detail",
+      "palette": "design",
+      "r": 0.462745,
+      "g": 0.384314,
+      "b": 0.223529,
+      "a": 1
+    },
+    "resources.assets:4": {
+      "assetPath": "Assets/Resources/00_dsg_dark.asset",
+      "name": "00_DSG_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:4": {
+      "assetPath": "Assets/Recovery/Generated/sharedassets0.assets_4.asset",
+      "name": "00_DSG_Bar",
+      "palette": "design",
+      "r": 0.462745,
+      "g": 0.384314,
+      "b": 0.223529,
+      "a": 1
+    },
+    "sharedassets0.assets:9": {
+      "assetPath": "Assets/Resources/00_art_detail.asset",
+      "name": "00_ART_Detail",
+      "palette": "art",
+      "r": 0.607843,
+      "g": 0.388235,
+      "b": 0.27451,
+      "a": 1
+    },
+    "resources.assets:1": {
+      "assetPath": "Assets/Resources/00_art_dark.asset",
+      "name": "00_ART_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:3": {
+      "assetPath": "Assets/Recovery/Generated/sharedassets0.assets_3.asset",
+      "name": "00_ART_Bar",
+      "palette": "art",
+      "r": 0.607843,
+      "g": 0.388235,
+      "b": 0.27451,
+      "a": 1
+    },
+    "sharedassets0.assets:15": {
+      "assetPath": "Assets/Resources/00_tst_detail.asset",
+      "name": "00_TST_Detail",
+      "palette": "testing",
+      "r": 0.509804,
+      "g": 0.407843,
+      "b": 0.513725,
+      "a": 1
+    },
+    "resources.assets:13": {
+      "assetPath": "Assets/Resources/00_tst_dark.asset",
+      "name": "00_TST_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:7": {
+      "assetPath": "Assets/Recovery/Generated/sharedassets0.assets_7.asset",
+      "name": "00_TST_Bar",
+      "palette": "testing",
+      "r": 0.509804,
+      "g": 0.407843,
+      "b": 0.513725,
+      "a": 1
+    },
+    "sharedassets0.assets:10": {
+      "assetPath": "Assets/Resources/00_neg_detail.asset",
+      "name": "00_NEG_Detail",
+      "palette": "negative",
+      "r": 0.619608,
+      "g": 0.352941,
+      "b": 0.286275,
+      "a": 1
+    },
+    "resources.assets:8": {
+      "assetPath": "Assets/Resources/00_neg_dark.asset",
+      "name": "00_NEG_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:12": {
+      "assetPath": "Assets/Resources/00_pos_detail.asset",
+      "name": "00_POS_Detail",
+      "palette": "positive",
+      "r": 0.32549,
+      "g": 0.435294,
+      "b": 0.403922,
+      "a": 1
+    },
+    "sharedassets0.assets:11": {
+      "assetPath": "Assets/Resources/00_pos_dark.asset",
+      "name": "00_POS_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:14": {
+      "assetPath": "Assets/Resources/00_spc_detail.asset",
+      "name": "00_SPC_Detail",
+      "palette": "special",
+      "r": 0.458824,
+      "g": 0.380392,
+      "b": 0.505882,
+      "a": 1
+    },
+    "resources.assets:12": {
+      "assetPath": "Assets/Resources/00_spc_dark.asset",
+      "name": "00_SPC_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "resources.assets:3": {
+      "assetPath": "Assets/Resources/00_dir_detail.asset",
+      "name": "00_DIR_Detail",
+      "palette": "direction",
+      "r": 0.572549,
+      "g": 0.45098,
+      "b": 0.282353,
+      "a": 1
+    },
+    "resources.assets:2": {
+      "assetPath": "Assets/Resources/00_dir_dark.asset",
+      "name": "00_DIR_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "resources.assets:7": {
+      "assetPath": "Assets/Resources/00_hqt_detail.asset",
+      "name": "00_HQT_Detail",
+      "palette": "headquarters",
+      "r": 0.560784,
+      "g": 0.305882,
+      "b": 0.247059,
+      "a": 1
+    },
+    "resources.assets:6": {
+      "assetPath": "Assets/Resources/00_hqt_dark.asset",
+      "name": "00_HQT_Dark",
+      "palette": "lightText",
+      "r": 0.941176,
+      "g": 0.894118,
+      "b": 0.792157,
+      "a": 1
+    },
+    "sharedassets0.assets:16": {
+      "assetPath": "Assets/Resources/10_prj_detail.asset",
+      "name": "10_PRJ_Detail",
+      "palette": "project",
+      "r": 0.815686,
+      "g": 0.717647,
+      "b": 0.513725,
+      "a": 1
+    },
+    "resources.assets:14": {
+      "assetPath": "Assets/Resources/10_prj_dark.asset",
+      "name": "10_PRJ_Dark",
+      "palette": "darkText",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1
+    },
+    "resources.assets:15": {
+      "assetPath": "Assets/Resources/materials_card_01_base_1t_mask 1.asset",
+      "name": "CARD_01_Base_1T_Mask 1",
+      "palette": "sound",
+      "r": 0.376471,
+      "g": 0.458824,
+      "b": 0.364706,
+      "a": 1
+    }
   },
-  "scope": "Eight text colors, eight card-label material colors and one negative-card band color; one declared project-subtitle characterSize. Preserve nodes, geometry, text keys, references, shaders and all game behavior."
+  "scope": "28 material colors, 35 serialized component colors, 17 TextMesh colors, 14 explicit runtime color literals (15 occurrences), existing subtitle-size exception. No geometry, callbacks, numeric rules, timing or alpha changes.",
+  "componentColorOverrides": {
+    "mainData:1352": {
+      "path": "90 Tutorial/Pag 2/Pag 2.10 - English/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1355": {
+      "path": "90 Tutorial/Pag 2/Pag 2.7 - Abel/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1369": {
+      "path": "20 CardBase/000 Top/04 Light Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1374": {
+      "path": "90 Tutorial/Pag 2/Pag 2.9 - Mikis/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1376": {
+      "path": "20 CardBase/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1378": {
+      "path": "90 Tutorial/Pag 2/Pag 2.11 - Marc/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1382": {
+      "path": "90 Tutorial/Pag 2/Pag 2.7 - Abel/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1384": {
+      "path": "90 Tutorial/Pag 2/Pag 2.9 - Mikis/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1406": {
+      "path": "90 Tutorial/Pag 2/Pag 2.6 - Anna/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1407": {
+      "path": "90 Tutorial/Pag 2/Pag 2.11 - Marc/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1410": {
+      "path": "90 Tutorial/Pag 2/Pag 2.10 - English/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1419": {
+      "path": "90 Tutorial/Pag 2/Pag 2.8 - Rosa/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1429": {
+      "path": "90 Tutorial/Pag 2/Pag 2.11 - Marc/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1430": {
+      "path": "90 Tutorial/Pag 2/Pag 2.9 - Mikis/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1434": {
+      "path": "90 Tutorial/Pag 2/Pag 2.7 - Abel/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1436": {
+      "path": "20 CardBase/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1440": {
+      "path": "90 Tutorial/Pag 2/Pag 2.6 - Anna/000 Top/04 Light Middle",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1445": {
+      "path": "90 Tutorial/Pag 2/Pag 2.8 - Rosa/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1471": {
+      "path": "90 Tutorial/Pag 2/Pag 2.10 - English/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1480": {
+      "path": "90 Tutorial/Pag 2/Pag 2.8 - Rosa/000 Top/04 Light Top",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1484": {
+      "path": "90 Tutorial/Pag 2/Pag 2.6 - Anna/001 Bottom/04 Light Bottom",
+      "component": "SpriteRenderer",
+      "field": "m_Color",
+      "r": 0.894118,
+      "g": 0.764706,
+      "b": 0.52549,
+      "a": 1.0
+    },
+    "mainData:1508": {
+      "path": "25 CardProjectBase/001 Bottom/50 Progress/17 Art Number",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1509": {
+      "path": "25 CardProjectBase/001 Bottom/50 Progress/18 Testing Number",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1516": {
+      "path": "25 CardProjectBase/001 Bottom/50 Progress/15 Design Number",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1517": {
+      "path": "50 Options/Tutorial",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1524": {
+      "path": "50 Options/Sound",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1525": {
+      "path": "25 CardProjectBase/001 Bottom/50 Progress/16 Programming Number",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1526": {
+      "path": "50 Options/FastMode",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1527": {
+      "path": "01 Positions/Aspect Ratio 16:9/60 Continue/Disable",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1528": {
+      "path": "30 CardSelector/31 Reason",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1532": {
+      "path": "25 CardProjectBase/001 Bottom/50 Progress/19 Sound Number",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1535": {
+      "path": "60 Title Manager",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1538": {
+      "path": "01 Positions/Aspect Ratio 4:3/60 Continue/Disable",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1539": {
+      "path": "50 Options/AutoPause",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    },
+    "mainData:1546": {
+      "path": "20 CardBase/000 Top/10 Name",
+      "component": "TextOutline",
+      "field": "outlineColor",
+      "r": 0.211765,
+      "g": 0.176471,
+      "b": 0.141176,
+      "a": 1.0
+    }
+  },
+  "codeColorReplacements": [
+    {
+      "file": "TitleManager.cs",
+      "before": "new Color(0.9254902f, 0f, 0f)",
+      "after": "new Color(0.839216f, 0.545098f, 0.443137f)",
+      "count": 1,
+      "palette": "dangerText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "before": "new Color(32f / 51f, 73f / 85f, 0.050980393f)",
+      "after": "new Color(0.721569f, 0.784314f, 0.623529f)",
+      "count": 1,
+      "palette": "successText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "before": "new Color(0.85f, 0.85f, 0.85f)",
+      "after": "new Color(0.941176f, 0.894118f, 0.792157f)",
+      "count": 1,
+      "palette": "lightText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "before": "new Color(12f / 85f, 12f / 85f, 12f / 85f)",
+      "after": "new Color(0.211765f, 0.176471f, 0.141176f)",
+      "count": 1,
+      "palette": "darkText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "before": "new Color(0f, 0f, 0.9254902f)",
+      "after": "new Color(0.647059f, 0.725490f, 0.788235f)",
+      "count": 1,
+      "palette": "blueText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "before": "new Color(12f / 85f, 12f / 85f, 12f / 85f)",
+      "after": "new Color(0.211765f, 0.176471f, 0.141176f)",
+      "count": 1,
+      "palette": "darkText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "before": "new Color(0f, 0f, 0f)",
+      "after": "new Color(0.211765f, 0.176471f, 0.141176f)",
+      "count": 1,
+      "palette": "darkText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "before": "new Color(0.8f, 0.8f, 0.8f)",
+      "after": "new Color(0.941176f, 0.894118f, 0.792157f)",
+      "count": 1,
+      "palette": "lightText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "before": "new Color(0.29f, 0.93f, 0.4f)",
+      "after": "new Color(0.721569f, 0.784314f, 0.623529f)",
+      "count": 1,
+      "palette": "successText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "before": "Color.red",
+      "after": "new Color(0.839216f, 0.545098f, 0.443137f)",
+      "count": 2,
+      "palette": "dangerText"
+    },
+    {
+      "file": "PlayCard.cs",
+      "before": "new Color(0.80784315f, 0.80784315f, 0.80784315f)",
+      "after": "new Color(0.941176f, 0.894118f, 0.792157f)",
+      "count": 1,
+      "palette": "lightText"
+    },
+    {
+      "file": "PlayCard.cs",
+      "before": "new Color(0.5882353f, 44f / 51f, 46f / 51f, 0.5f)",
+      "after": "new Color(0.325490f, 0.435294f, 0.403922f, 0.5f)",
+      "count": 1,
+      "palette": "positive"
+    },
+    {
+      "file": "Continue.cs",
+      "before": "Color.green",
+      "after": "new Color(0.721569f, 0.784314f, 0.623529f)",
+      "count": 2,
+      "palette": "successText"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "version": "2.8-plan-1",
+  "version": "2.8-style-r3",
   "date": "2026-10-13",
-  "status": "design_frozen_representative_sample_reviewed",
+  "status": "integrated_verified_in_current_player",
   "authority": "latest user: audit and decide before visual replacement",
   "coverage": 82,
   "counts": {
@@ -24,7 +24,7 @@
       "currentRaw": "fidelity/art/generated/Crash.raw.png",
       "currentFinal": "local/NightArt/Crash.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -41,7 +41,7 @@
       "currentRaw": "fidelity/art/generated/SNDGuy.raw.png",
       "currentFinal": "local/NightArt/SNDGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -58,7 +58,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_3T.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_3T.png",
       "newPrompt": "prompts/CARD_01_Base_3T.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -75,7 +75,7 @@
       "currentRaw": "fidelity/art/generated/Sick.raw.png",
       "currentFinal": "local/NightArt/Sick.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -92,7 +92,7 @@
       "currentRaw": "fidelity/art/generated/Attack.raw.png",
       "currentFinal": "local/NightArt/Attack.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -109,7 +109,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_3T_Mask.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_3T_Mask.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -126,7 +126,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_0T.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_0T.png",
       "newPrompt": "prompts/CARD_01_Base_0T.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -143,7 +143,7 @@
       "currentRaw": "fidelity/art/generated/Light_Off.raw.png",
       "currentFinal": "local/NightArt/Light_Off.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -160,7 +160,7 @@
       "currentRaw": "fidelity/art/generated/Hunger.raw.png",
       "currentFinal": "local/NightArt/Hunger.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -177,7 +177,7 @@
       "currentRaw": "fidelity/art/generated/All_finish.raw.png",
       "currentFinal": "local/NightArt/All_finish.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -194,7 +194,7 @@
       "currentRaw": "fidelity/art/generated/Bug.raw.png",
       "currentFinal": "local/NightArt/Bug.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -211,7 +211,7 @@
       "currentRaw": "fidelity/art/generated/Phone.raw.png",
       "currentFinal": "local/NightArt/Phone.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -228,7 +228,7 @@
       "currentRaw": "fidelity/art/generated/Holidays.raw.png",
       "currentFinal": "local/NightArt/Holidays.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -245,7 +245,7 @@
       "currentRaw": "fidelity/art/generated/List.raw.png",
       "currentFinal": "local/NightArt/List.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -262,7 +262,7 @@
       "currentRaw": "fidelity/art/generated/Released.raw.png",
       "currentFinal": "local/NightArt/Released.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -279,7 +279,7 @@
       "currentRaw": "fidelity/art/generated/Done.raw.png",
       "currentFinal": "local/NightArt/Done.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -296,7 +296,7 @@
       "currentRaw": "fidelity/art/generated/All_forward.raw.png",
       "currentFinal": "local/NightArt/All_forward.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -313,7 +313,7 @@
       "currentRaw": "fidelity/art/generated/TSTGirl.raw.png",
       "currentFinal": "local/NightArt/TSTGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -330,7 +330,7 @@
       "currentRaw": "fidelity/art/generated/Resignation.raw.png",
       "currentFinal": "local/NightArt/Resignation.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -347,7 +347,7 @@
       "currentRaw": "fidelity/art/generated/ITGirl.raw.png",
       "currentFinal": "local/NightArt/ITGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -364,7 +364,7 @@
       "currentRaw": "fidelity/art/generated/Door.raw.png",
       "currentFinal": "local/NightArt/Door.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -381,7 +381,7 @@
       "currentRaw": "fidelity/art/generated/PRGGirl.raw.png",
       "currentFinal": "local/NightArt/PRGGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -398,7 +398,7 @@
       "currentRaw": "fidelity/art/generated/DSGGuy.raw.png",
       "currentFinal": "local/NightArt/DSGGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -415,7 +415,7 @@
       "currentRaw": "fidelity/art/generated/ITGuy.raw.png",
       "currentFinal": "local/NightArt/ITGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -432,7 +432,7 @@
       "currentRaw": "fidelity/art/generated/PRGGuy.raw.png",
       "currentFinal": "local/NightArt/PRGGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -449,7 +449,7 @@
       "currentRaw": "fidelity/art/generated/Negotiator.raw.png",
       "currentFinal": "local/NightArt/Negotiator.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -466,7 +466,7 @@
       "currentRaw": "fidelity/art/generated/FlagHighlight.raw.png",
       "currentFinal": "local/NightArt/FlagHighlight.png",
       "newPrompt": "prompts/FlagHighlight.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -483,7 +483,7 @@
       "currentRaw": "fidelity/art/generated/TitleBackground_Left.raw.png",
       "currentFinal": "local/NightArt/TitleBackground_Left.png",
       "newPrompt": "prompts/TitleBackground_Left.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -500,7 +500,7 @@
       "currentRaw": "fidelity/art/generated/SNDGirl.raw.png",
       "currentFinal": "local/NightArt/SNDGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -517,7 +517,7 @@
       "currentRaw": "fidelity/art/generated/OptionRed.raw.png",
       "currentFinal": "local/NightArt/OptionRed.png",
       "newPrompt": "prompts/OptionRed.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -534,7 +534,7 @@
       "currentRaw": "fidelity/art/generated/Meeting.raw.png",
       "currentFinal": "local/NightArt/Meeting.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -551,7 +551,7 @@
       "currentRaw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
       "currentFinal": "local/NightArt/CARD_10_LightTop.png",
       "newPrompt": "prompts/CARD_10_LightTop.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -568,7 +568,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
       "currentFinal": "local/NightArt/CARD_01_BaseTop.png",
       "newPrompt": "prompts/CARD_01_BaseTop.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -585,7 +585,7 @@
       "currentRaw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
       "currentFinal": "local/NightArt/TitleBackground_Line_Right.png",
       "newPrompt": "prompts/TitleBackground_Line_Right.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -602,7 +602,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
       "currentFinal": "local/NightArt/PRJ_Button_Gradient.png",
       "newPrompt": "prompts/PRJ_Button_Gradient.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -619,7 +619,7 @@
       "currentRaw": "fidelity/art/generated/DSGGirl.raw.png",
       "currentFinal": "local/NightArt/DSGGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -636,7 +636,7 @@
       "currentRaw": "fidelity/art/generated/All_depts.raw.png",
       "currentFinal": "local/NightArt/All_depts.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -653,7 +653,7 @@
       "currentRaw": "fidelity/art/generated/Title_16_9.raw.png",
       "currentFinal": "local/NightArt/Title_16_9.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -670,7 +670,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_4T.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_4T.png",
       "newPrompt": "prompts/CARD_01_Base_4T.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -687,7 +687,7 @@
       "currentRaw": "fidelity/art/generated/TitleBackground_Right.raw.png",
       "currentFinal": "local/NightArt/TitleBackground_Right.png",
       "newPrompt": "prompts/TitleBackground_Right.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -704,7 +704,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_2T_Mask.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_2T_Mask.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -721,7 +721,7 @@
       "currentRaw": "fidelity/art/generated/OptionGreen.raw.png",
       "currentFinal": "local/NightArt/OptionGreen.png",
       "newPrompt": "prompts/OptionGreen.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -738,7 +738,7 @@
       "currentRaw": "fidelity/art/generated/Mouse.raw.png",
       "currentFinal": "local/NightArt/Mouse.png",
       "newPrompt": "prompts/Mouse.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -755,7 +755,7 @@
       "currentRaw": "fidelity/art/generated/OptionLight.raw.png",
       "currentFinal": "local/NightArt/OptionLight.png",
       "newPrompt": "prompts/OptionLight.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -772,7 +772,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "currentFinal": "local/NightArt/PRJ_CARD_01_Base_Project.png",
       "newPrompt": "prompts/PRJ_CARD_01_Base_Project.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -789,7 +789,7 @@
       "currentRaw": "fidelity/art/generated/CARD_02_Details.raw.png",
       "currentFinal": "local/NightArt/CARD_02_Details.png",
       "newPrompt": "prompts/CARD_02_Details.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -806,7 +806,7 @@
       "currentRaw": "fidelity/art/generated/ARTGuy.raw.png",
       "currentFinal": "local/NightArt/ARTGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -823,7 +823,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_1T.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_1T.png",
       "newPrompt": "prompts/CARD_01_Base_1T.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -840,7 +840,7 @@
       "currentRaw": "fidelity/art/generated/TSTGuy.raw.png",
       "currentFinal": "local/NightArt/TSTGuy.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -857,7 +857,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
       "currentFinal": "local/NightArt/PRJ_Dot_1.png",
       "newPrompt": "prompts/PRJ_Dot_1.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -874,7 +874,7 @@
       "currentRaw": "fidelity/art/generated/Forward.raw.png",
       "currentFinal": "local/NightArt/Forward.png",
       "newPrompt": "prompts/Forward.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -891,7 +891,7 @@
       "currentRaw": "fidelity/art/generated/CARD_00_Background.raw.png",
       "currentFinal": "local/NightArt/CARD_00_Background.png",
       "newPrompt": "prompts/CARD_00_Background.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -908,7 +908,7 @@
       "currentRaw": "fidelity/art/generated/CARD_Selection_Background.raw.png",
       "currentFinal": "local/NightArt/CARD_Selection_Background.png",
       "newPrompt": "prompts/CARD_Selection_Background.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -925,7 +925,7 @@
       "currentRaw": "fidelity/art/generated/ButtonSmall.raw.png",
       "currentFinal": "local/NightArt/ButtonSmall.png",
       "newPrompt": "prompts/ButtonSmall.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -942,7 +942,7 @@
       "currentRaw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
       "currentFinal": "local/NightArt/TitleBackground_Line_Left.png",
       "newPrompt": "prompts/TitleBackground_Line_Left.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -959,7 +959,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_BUTTON.raw.png",
       "currentFinal": "local/NightArt/PRJ_BUTTON.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -976,7 +976,7 @@
       "currentRaw": "fidelity/art/generated/Solid.raw.png",
       "currentFinal": "local/NightArt/Solid.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -993,7 +993,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_Dot.raw.png",
       "currentFinal": "local/NightArt/PRJ_Dot.png",
       "newPrompt": "prompts/PRJ_Dot.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1010,7 +1010,7 @@
       "currentRaw": "fidelity/art/generated/English.raw.png",
       "currentFinal": "local/NightArt/English.png",
       "newPrompt": "prompts/English.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1027,7 +1027,7 @@
       "currentRaw": "fidelity/art/generated/Table_4_3.raw.png",
       "currentFinal": "local/NightArt/Table_4_3.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1044,7 +1044,7 @@
       "currentRaw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "currentFinal": "local/NightArt/CARD_03_DetailsTop.png",
       "newPrompt": "prompts/CARD_03_DetailsTop.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1061,7 +1061,7 @@
       "currentRaw": "fidelity/art/generated/CARD_04_Turn.raw.png",
       "currentFinal": "local/NightArt/CARD_04_Turn.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1078,7 +1078,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_Ok.raw.png",
       "currentFinal": "local/NightArt/PRJ_Ok.png",
       "newPrompt": "prompts/PRJ_Ok.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1095,7 +1095,7 @@
       "currentRaw": "fidelity/art/generated/ARTGirl.raw.png",
       "currentFinal": "local/NightArt/ARTGirl.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1112,7 +1112,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_4T_Mask.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_4T_Mask.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1129,7 +1129,7 @@
       "currentRaw": "fidelity/art/generated/Spanish.raw.png",
       "currentFinal": "local/NightArt/Spanish.png",
       "newPrompt": "prompts/Spanish.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1146,7 +1146,7 @@
       "currentRaw": "fidelity/art/generated/ButtonBig.raw.png",
       "currentFinal": "local/NightArt/ButtonBig.png",
       "newPrompt": "prompts/ButtonBig.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1163,7 +1163,7 @@
       "currentRaw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
       "currentFinal": "local/NightArt/CARD_10_LightMiddle.png",
       "newPrompt": "prompts/CARD_10_LightMiddle.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1180,7 +1180,7 @@
       "currentRaw": "fidelity/art/generated/Arrow.raw.png",
       "currentFinal": "local/NightArt/Arrow.png",
       "newPrompt": "prompts/Arrow.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1197,7 +1197,7 @@
       "currentRaw": "fidelity/art/generated/Table_16_9.raw.png",
       "currentFinal": "local/NightArt/Table_16_9.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1214,7 +1214,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_No.raw.png",
       "currentFinal": "local/NightArt/PRJ_No.png",
       "newPrompt": "prompts/PRJ_No.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1231,7 +1231,7 @@
       "currentRaw": "fidelity/art/generated/Title_4_3.raw.png",
       "currentFinal": "local/NightArt/Title_4_3.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1248,7 +1248,7 @@
       "currentRaw": "fidelity/art/generated/Blocked.raw.png",
       "currentFinal": "local/NightArt/Blocked.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1265,7 +1265,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_2T.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_2T.png",
       "newPrompt": "prompts/CARD_01_Base_2T.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1282,7 +1282,7 @@
       "currentRaw": "fidelity/art/generated/CARD_Selection.raw.png",
       "currentFinal": "local/NightArt/CARD_Selection.png",
       "newPrompt": "prompts/CARD_Selection.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1299,7 +1299,7 @@
       "currentRaw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
       "currentFinal": "local/NightArt/CARD_10_LightBottom.png",
       "newPrompt": "prompts/CARD_10_LightBottom.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1316,7 +1316,7 @@
       "currentRaw": "fidelity/art/generated/Cancelled.raw.png",
       "currentFinal": "local/NightArt/Cancelled.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1333,7 +1333,7 @@
       "currentRaw": "fidelity/art/generated/SubTitle.raw.png",
       "currentFinal": "local/NightArt/SubTitle.png",
       "newPrompt": "prompts/SubTitle.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1350,7 +1350,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
       "currentFinal": "local/NightArt/PRJ_CARD_02_Details.png",
       "newPrompt": "prompts/PRJ_CARD_02_Details.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1367,7 +1367,7 @@
       "currentRaw": "fidelity/art/generated/PRJ_WIP.raw.png",
       "currentFinal": "local/NightArt/PRJ_WIP.png",
       "newPrompt": "prompts/PRJ_WIP.txt",
-      "productionStatus": "not_integrated",
+      "productionStatus": "imported_dimension_alpha_verified_and_player_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1384,7 +1384,7 @@
       "currentRaw": "fidelity/art/generated/CARD_01_Base_1T_Mask.raw.png",
       "currentFinal": "local/NightArt/CARD_01_Base_1T_Mask.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     },
     {
@@ -1401,7 +1401,7 @@
       "currentRaw": "fidelity/art/generated/CARD_Score.raw.png",
       "currentFinal": "local/NightArt/CARD_Score.png",
       "newPrompt": null,
-      "productionStatus": "retain_pending_family_review",
+      "productionStatus": "retained_bytes_verified_and_family_reviewed",
       "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
     }
   ],

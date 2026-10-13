@@ -26,3 +26,7 @@ Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 lo
 2026-10-13 v2.6 将干预牌分类配色、实际材质与恢复输入、NightVisualProbe 的实际像素断言、运行检查入口及用例规格继续纳入完整分支。82 图片和文案本轮未改；报告、截图和 zip 保持忽略。完整历史备份使用根 `local/git-backups/yokai-night-market-source-v2.6-bands.bundle`，实际提交、hash 和恢复检查记录为 `yokai-night-market-v2.6-record.json`；公开原创资料推送记录为 `yokai-night-market-public-v2.6.json`。
 
 2026-10-13 v2.7 将 26 张功能 UI 运行 PNG、对应制作规格、导出器、NightSurfaceProbe/运行入口和回归用例纳入完整分支，全部 82 份历史生成源保留。新增输入按 Git 索引核对，必需文件为 3,649；结果、截图、zip 和缓存仍忽略。完整历史备份使用根 `local/git-backups/yokai-night-market-source-v2.7-ui.bundle`，提交、hash 和裸仓恢复核验记录为 `yokai-night-market-v2.7-record.json`；公开原创工具与规格推送记录为 `yokai-night-market-public-v2.7.json`。旧版包/bundle 和失败记录保留。
+
+2026-10-13 v2.8 包装集成把 38 个最终 UI PNG、正式工程副本、28 材质/35 组件/17 字色、14 对显示颜色替换、4 份生成底材与提示/谱系、旧 v2.7 规格、严格字段/尺寸/alpha 保护器及语言身份回归纳入完整本地分支。其余 44 图保持，所有历史生成输入继续保留。Git 索引检查为 3,710 个必需输入，其中新方向 57 文件；没有缺失、字节差异或已跟踪缓存/输出。截图、联系表、日志、独立试验工程、zip 和运行报告仍忽略；有限 hash/计数摘要沿既有 evidence 管理。
+
+本轮独立完整历史备份使用根 local/git-backups/yokai-night-market-source-v2.8-style.bundle；实际提交、SHA256、字节数、Git 索引覆盖与裸仓恢复/fsck 结果登记于同目录 yokai-night-market-v2.8-style-record.json。公开原创资料推送记录为 yokai-night-market-public-v2.8-style.json。这些记录以工具真实输出为准；不覆盖此前 art-direction 方案 bundle 或旧源码/Player 包。

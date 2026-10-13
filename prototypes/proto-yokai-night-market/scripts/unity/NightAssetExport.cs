@@ -33,6 +33,16 @@ public static class NightAssetExport
         ExportSet(System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Select(((JObject)spec["textures"]).Properties(),p=>p.Name)));
         RecoveryEditor.BuildFinalCandidates();
     }
+    public static void ExportNightStyle()
+    {
+        var spec=JObject.Parse(File.ReadAllText("../../fidelity/data/ui-surfaces.json"));
+        ExportSet(System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Select(((JObject)spec["textures"]).Properties(),p=>p.Name)));
+    }
+    public static void FixLanguageBadgesAndBuild()
+    {
+        ExportSet(new[]{"English","Spanish"});
+        RecoveryEditor.BuildFinalCandidates();
+    }
     public static void FixPromptsAndBuild()
     {
         ExportPromptFix();
@@ -48,7 +58,8 @@ public static class NightAssetExport
         foreach(var job in jobs["jobs"])
         {
             if(selected!=null && Array.IndexOf(selected,(string)job["name"])<0)continue;
-            string raw=Path.Combine(root,(string)job["raw"]);if(!File.Exists(raw))continue;
+            var surface=surfaces[(string)job["name"]];
+            string raw=Path.Combine(root,surface!=null?(string)surface["source"]:(string)job["raw"]);if(!File.Exists(raw))throw new Exception("Missing production art: "+raw);
             string id=(string)job["id"];JToken original=null;
             foreach(var o in manifest["objects"])if((string)o["id"]==id){original=o;break;}
             if(original==null)throw new Exception("Unknown texture id: "+id);
@@ -58,6 +69,8 @@ public static class NightAssetExport
             string kind=(string)job["kind"];Texture2D stencil=null;
             Rect rawBounds=new Rect(0,0,input.width,input.height),slot=new Rect(0,0,width,height);
             float stampScale=1;
+            if(surface!=null && (string)surface["mode"]=="framed" && Mathf.Abs((float)input.width/input.height/((float)width/height)-1)>(float)surface["maxAspectError"])
+                throw new Exception("Framed art aspect drift: "+job["name"]);
             if(kind=="stamp")
             {
                 rawBounds=AlphaBounds(input);slot=SpriteBounds(manifest,original);
@@ -76,13 +89,12 @@ public static class NightAssetExport
                 Color color=input.GetPixelBilinear(u,v);
                 // SubTitle is Continue.Background, not a logo. Its inherited tight
                 // mesh and alpha define the prompt plate; every label is live TextMesh.
-                if(kind=="prompt_backplate")color=new Color(.02f,.025f,.04f,stencil.GetPixel(x,y).a);
-                if(kind=="functional_ui")
+                if(surface!=null)
                 {
-                    var spec=surfaces[(string)job["name"]];if(spec==null)throw new Exception("Missing functional UI role");
-                    var source=stencil.GetPixel(x,y);float level=(string)spec["mode"]=="luminance"?Mathf.Max(source.r,Mathf.Max(source.g,source.b)):1f;
-                    var rgb=spec["rgb"];color=new Color((float)rgb[0]*level,(float)rgb[1]*level,(float)rgb[2]*level,source.a);
+                    if(stencil==null)throw new Exception("UI role has no geometry stencil");
+                    color=SurfacePixel(input,stencil,x,y,width,height,surface);
                 }
+                else if(kind=="prompt_backplate")color=new Color(.02f,.025f,.04f,stencil.GetPixel(x,y).a);
                 if(kind=="stamp")
                 {
                     // Technical atlas placement: retain the source sprite's pivot and tight mesh.
@@ -113,7 +125,7 @@ public static class NightAssetExport
                 pixels[y*width+x]=color;
             }
             output.SetPixels(pixels);output.Apply();
-            if(kind=="functional_ui" && (string)surfaces[(string)job["name"]]["mode"]=="label")
+            if(surface!=null && (string)surface["mode"]=="label")
             {
                 BakeLabel(output,(string)surfaces[(string)job["name"]]["label"],manifest,true);
                 var labeled=output.GetPixels();for(int y=0;y<height;y++)for(int x=0;x<width;x++)labeled[y*width+x].a=stencil.GetPixel(x,y).a;
@@ -122,7 +134,8 @@ public static class NightAssetExport
             if((string)job["name"]=="SubTitle" && kind!="prompt_backplate")throw new Exception("SubTitle must remain a text-free Continue background");
             string label=kind=="title"?"妖怪夜市开张":"";
             if(label!="")BakeLabel(output,label,manifest,false);
-            string final=Path.Combine(root,"local/NightArt",Path.GetFileName((string)job["final"]));
+            string exportRoot=Environment.GetEnvironmentVariable("NIGHT_MARKET_ART_OUTPUT")??Path.Combine(root,"local/NightArt");
+            string final=Path.Combine(exportRoot,Path.GetFileName((string)job["final"]));
             Directory.CreateDirectory(Path.GetDirectoryName(final));File.WriteAllBytes(final,output.EncodeToPNG());
             string working=(string)original["assetPath"];File.Copy(final,working,true);
             UnityEngine.Object.DestroyImmediate(input);UnityEngine.Object.DestroyImmediate(output);if(stencil)UnityEngine.Object.DestroyImmediate(stencil);
@@ -130,6 +143,37 @@ public static class NightAssetExport
         }
         AssetDatabase.Refresh();File.WriteAllText(selected==null?"../image-export-report.json":"../image-background-fix-report.json",new JObject{{"exported",count},{"technicalResize",true},{"referenceStencilsLocalOnly",true}}.ToString());
         Debug.Log("NIGHT_IMAGE_EXPORT_OK "+count);
+    }
+    static Color RGB(JToken v) => new Color((float)v[0],(float)v[1],(float)v[2],1);
+    static Color SurfacePixel(Texture2D input,Texture2D stencil,int x,int y,int width,int height,JToken spec)
+    {
+        // One scale for both axes. Center-crop only; never stretch ornaments or grain.
+        float scale=Mathf.Max((float)width/input.width,(float)height/input.height);
+        float sx=(x+.5f-width*.5f)/scale+input.width*.5f;
+        float sy=(y+.5f-height*.5f)/scale+input.height*.5f;
+        Color c=input.GetPixelBilinear(sx/input.width,sy/input.height);
+        if((string)spec["mode"]=="flat")c=RGB(spec["rgb"]);
+        else if(spec["rgb"]!=null){Color tint=RGB(spec["rgb"]);c=new Color(c.r*tint.r,c.g*tint.g,c.b*tint.b,1);}
+        var slots=spec["functionalSlots"];
+        if(slots!=null && x>=(int)slots["xMin"] && x<(int)slots["xMax"])
+        {
+            int topY=height-1-y;
+            foreach(var band in slots["topRows"])
+                if(topY>=(int)band[0] && topY<=(int)band[1])
+                {
+                    var source=stencil.GetPixel(x,y);
+                    if(Mathf.Max(source.r,Mathf.Max(source.g,source.b))<(float)slots["sourceMaxRGB"])c=RGB(slots["rgb"]);
+                }
+        }
+        if((string)spec["mode"]=="outlined_paper")
+        {
+            int d=(int)spec["borderPixels"];
+            // Boundary comes only from the original functional silhouette, including clipped corners.
+            bool edge=x<d || y<d || x>=width-d || y>=height-d;
+            if(!edge)edge=stencil.GetPixel(x-d,y).a<.1f || stencil.GetPixel(x+d,y).a<.1f || stencil.GetPixel(x,y-d).a<.1f || stencil.GetPixel(x,y+d).a<.1f;
+            if(edge)c=RGB(spec["borderRGB"]);
+        }
+        c.a=stencil.GetPixel(x,y).a;return c;
     }
     static Rect AlphaBounds(Texture2D input)
     {
@@ -161,11 +205,11 @@ public static class NightAssetExport
         camera.orthographic=true;camera.orthographicSize=target.height*.5f;camera.nearClipPlane=.1f;camera.farClipPlane=100;camera.transform.position=new Vector3(0,0,-10);camera.cullingMask=1<<31;
         var textObject=new GameObject("Native title");textObject.layer=31;SceneManager.MoveGameObjectToScene(textObject,scene);
         var text=textObject.AddComponent<TextMesh>();text.font=font;text.fontSize=256;text.characterSize=1;text.anchor=TextAnchor.MiddleCenter;text.text=label;
-        text.color=new Color(.96f,.81f,.48f,1);text.GetComponent<MeshRenderer>().sharedMaterial=font.material;
+        text.color=small?new Color(.211765f,.176471f,.141176f,1):new Color(.96f,.81f,.48f,1);text.GetComponent<MeshRenderer>().sharedMaterial=font.material;
         var rt=new RenderTexture(target.width,target.height,24);camera.targetTexture=rt;camera.Render();
         var bounds=text.GetComponent<MeshRenderer>().bounds;if(bounds.size.x<=0)throw new Exception("Native title has empty bounds");float scale=target.width*(small?.7f:.61f)/bounds.size.x;
         textObject.transform.localScale=Vector3.one*scale;textObject.transform.position=new Vector3(-bounds.center.x*scale,small?0:-target.height*.12f-bounds.center.y*scale,0);
-        for(int i=0;i<4;i++)
+        for(int i=0;i<(small?0:4);i++)
         {
             var shadow=UnityEngine.Object.Instantiate(textObject);SceneManager.MoveGameObjectToScene(shadow,scene);
             shadow.GetComponent<TextMesh>().color=new Color(.045f,.065f,.10f,1);

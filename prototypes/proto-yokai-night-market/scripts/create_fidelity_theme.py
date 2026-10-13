@@ -1,11 +1,12 @@
 """Original night-market text/art specification. Numeric behavior comes from the local reference."""
 from __future__ import annotations
-import json, re, shutil, hashlib, textwrap, xml.etree.ElementTree as ET
+import json, re, shutil, hashlib, textwrap, os, xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 REPO=ROOT.parents[1]
 SOURCE=REPO/'prototypes/re-crunch-time'
-PROJECT=ROOT/'local/UnityProject'
+PROJECT=Path(os.environ.get('NIGHT_MARKET_PROJECT_PATH',ROOT/'local/UnityProject')).resolve()
+assert PROJECT.is_relative_to((ROOT/'local').resolve())
 
 def read(p):return json.loads(p.read_text('utf-8'))
 def write(p,v):
@@ -265,12 +266,14 @@ def make_theme():
         else:
             subject='a flat functional night-market game interface texture for '+name+', muted paper-and-timber styling, simple readable geometry and restrained edge decoration'
             content='A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.';alpha=True;kind='interface'
-        if name in read(ROOT/'fidelity/data/ui-surfaces.json')['textures']:kind='functional_ui'
+        surface=read(ROOT/'fidelity/data/ui-surfaces.json')['textures'].get(name)
+        if surface and name!='SubTitle':kind='functional_ui'
         prompt=f'Use case: stylized-concept\nAsset key: {name}\nTarget runtime dimensions: {asset["width"]} x {asset["height"]} pixels.\nSubject: {subject}\nComposition: {content}\nStyle: {STYLE}\nText: none; do not generate letters or numbers.\nAvoid: {AVOID}\n'
         safe=name.replace(' ','_');promptPath=ROOT/'fidelity/art/prompts'/f'{safe}.txt'
         if not promptPath.exists():write(promptPath,prompt)
         jobs.append({'id':asset['id'],'name':name,'kind':kind,'width':asset['width'],'height':asset['height'],'transparent':alpha,'prompt':promptPath.relative_to(ROOT).as_posix(),
                      'raw':f'fidelity/art/generated/{safe}.raw.png','final':f'local/NightArt/{safe}.png','status':'raw_generated' if (ROOT/'fidelity/art/generated'/f'{safe}.raw.png').exists() else 'specified'})
+        if surface:jobs[-1].update(materialSource=surface['source'],materialMode=surface['mode'],sampling=surface['sampling'],surfaceSpec='fidelity/data/ui-surfaces.json')
     write(ROOT/'fidelity/art/jobs.json',{'version':2,'jobs':jobs})
     write(ROOT/'fidelity/data/theme-verification.json',{'cardCount':len(cards),'projectCount':len(theme['projects']),'textCount':len(strings),'allSourceKeysCovered':all(t['id'] in strings for t in cat['translations']),'effectiveTestingPreserved':all(p['testing']==2 for p in theme['projects']),
              'languageSlotsPreserved':2,'companyPoolPreserved':8,'fontSHA256':sha(font),'images':len(jobs)})

@@ -371,7 +371,7 @@ public static class RecoveryEditor
     static void BuildValidation(string bucket,string product,string output)
     {
         EditorSceneManager.OpenScene(ScenePath);Settings();PlayerSettings.productName=product;
-        string path="../Builds/"+bucket+"/NightMarketQA.exe";Directory.CreateDirectory(Path.GetDirectoryName(path));
+        string path=Path.Combine(Environment.GetEnvironmentVariable("NIGHT_MARKET_BUILD_OUTPUT")??"../Builds",bucket,"NightMarketQA.exe");Directory.CreateDirectory(Path.GetDirectoryName(path));
         var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{ScenePath},locationPathName=path,target=BuildTarget.StandaloneWindows64,options=BuildOptions.None|BuildOptions.CleanBuildCache,extraScriptingDefines=new[]{"NIGHT_MARKET_VALIDATION"}});
         PlayerSettings.productName="妖怪夜市开张";
         File.WriteAllText(output,Newtonsoft.Json.JsonConvert.SerializeObject(new{result=report.summary.result.ToString(),errors=report.summary.totalErrors,warnings=report.summary.totalWarnings,bytes=report.summary.totalSize},Newtonsoft.Json.Formatting.Indented));
@@ -380,7 +380,7 @@ public static class RecoveryEditor
     public static void BuildRelease()
     {
         EditorSceneManager.OpenScene(ScenePath);Settings();
-        string path="../Builds/Release/YokaiNightMarket.exe";Directory.CreateDirectory(Path.GetDirectoryName(path));
+        string path=Path.Combine(Environment.GetEnvironmentVariable("NIGHT_MARKET_BUILD_OUTPUT")??"../Builds","Release","YokaiNightMarket.exe");Directory.CreateDirectory(Path.GetDirectoryName(path));
         var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{ScenePath},locationPathName=path,target=BuildTarget.StandaloneWindows64,options=BuildOptions.None|BuildOptions.CleanBuildCache});
         File.WriteAllText("../release-build-report.json",Newtonsoft.Json.JsonConvert.SerializeObject(new{result=report.summary.result.ToString(),development=false,errors=report.summary.totalErrors,warnings=report.summary.totalWarnings,bytes=report.summary.totalSize,seconds=report.summary.totalTime.TotalSeconds},Newtonsoft.Json.Formatting.Indented));
         if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Release build failed");
