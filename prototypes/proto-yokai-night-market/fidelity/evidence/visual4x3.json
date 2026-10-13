@@ -6,7 +6,11 @@
   "cards": 95,
   "projects": 28,
   "tutorialPages": 2,
+  "tutorialTextBoundsChecks": 31,
   "qaFrameRate": 60,
+  "language": 0,
+  "verifiedCardLanguages": 95,
+  "verifiedProjectLanguages": 28,
   "errors": [],
   "captures": [
     "title.png",

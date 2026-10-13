@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "sourceHead": "56cc790f8e8cd3b6fc3808b4a0ea8fce887106fb",
+  "readOnly": true,
+  "files": [
+    {
+      "path": "F:\\workspace\\open-share\\10_md\\game-dev-knowledge\\08-ux-ui-interaction\\ux-writing.md",
+      "sha256": "9202ee7095f2bae099f67de6808f639e80e7ff3304b9d3a55bf164f21b6c685c"
+    },
+    {
+      "path": "F:\\workspace\\open-share\\skills\\zhangxuefeng-skill\\SKILL.md",
+      "sha256": "7dbd490302d78245e1995f62cdd43fa63b434c44c8868091a8e8bb5fc3694b61"
+    },
+    {
+      "path": "F:\\workspace\\open-share\\.cursor\\rules\\spec-unit-format.mdc",
+      "sha256": "56b10df81a06fd5bbbc1d26180543c8e5b5e929f8251303f267255d68b347355"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\.codex\\skills\\humanizer\\SKILL.md",
+      "sha256": "70938f3cce25970e1ded5fdd194b755c03f1e4e4fa76820958ce78f86b677b1a"
+    }
+  ]
+}

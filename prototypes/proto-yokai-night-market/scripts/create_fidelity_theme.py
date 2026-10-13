@@ -1,6 +1,6 @@
 """Original night-market text/art specification. Numeric behavior comes from the local reference."""
 from __future__ import annotations
-import json, re, shutil, hashlib, xml.etree.ElementTree as ET
+import json, re, shutil, hashlib, textwrap, xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 REPO=ROOT.parents[1]
@@ -10,8 +10,11 @@ PROJECT=ROOT/'local/UnityProject'
 def read(p):return json.loads(p.read_text('utf-8'))
 def write(p,v):
     p.parent.mkdir(parents=True,exist_ok=True)
-    p.write_text(v if isinstance(v,str) else json.dumps(v,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+    content=(v if isinstance(v,str) else json.dumps(v,ensure_ascii=False,indent=2)).encode('utf-8')
+    if not p.exists() or p.read_bytes()!=content:p.write_bytes(content)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def copy_if_changed(source,target):
+    if not target.exists() or sha(source)!=sha(target):shutil.copyfile(source,target)
 
 UI={
  '':'', 'Pause':'设置','Resume':'继续','NextTurn':'交班','AutoPause':'逐牌停顿','FastMode':'快进',
@@ -73,7 +76,7 @@ EN={
  'AFFECT':'Affects: ','TUTO_Dept_Anna':'Market helper','TUTO_Dept_Abel':'Market helper','TUTO_Dept_Rosa':'Market helper',
  'TUTO_Dept_Mikis':'Market helper','TUTO_Dept_English':'Market helper','TUTO_Dept_Marc':'Market helper','ExitIn':'Leaving in '
 }
-ROLE=['招徕','料理','备货','灯饰','护阵']; ROLE_EN=['calling','cooking','supply','decor','ward']
+ROLE=['招客','备餐','备货','挂灯','布符']; ROLE_EN=['guest','food','supply','lantern','ward']
 def compact_chinese(value):
     # Source word wrapping is Latin-space based. Explicit line breaks keep CJK
     # inside the unchanged TextMesh region without changing that production logic.
@@ -88,27 +91,28 @@ def compact_chinese(value):
 
 def description(c):
     typ, turns, function, target, amount=c['Type'],c['Turns'],c['Function'],c['Target'],c['Num']
-    if typ<5:return (f'在岗工作 {turns} 轮，完成一项{ROLE[typ]}筹备。', f'Work for {turns} shifts to finish one {ROLE_EN[typ]} task.')
+    if typ<5:return (f'干活 {turns} 轮，完成一项{ROLE[typ]}工作。', f'Work for {turns} turns to finish one {ROLE_EN[typ]} task.')
     if typ==6:
         role='所有岗位' if target<0 else ROLE[target]
         role_en='all departments' if target<0 else ROLE_EN[target]
-        return (f'隔壁的{role}停工 {turns} 轮。',f'Block rival helpers in {role_en} for {turns} shifts.')
+        return (f'隔壁的{role}帮工停工 {turns} 轮。',f'Block rival helpers in {role_en} for {turns} turns.')
     if typ==7:
-        return [('选一名隔壁在岗帮工，挖到己方空位。','Take one working rival helper into your empty slot.'),
-                ('选一名隔壁在岗帮工，退回隔壁手牌。','Return one working rival helper to their hand.'),
-                ('选一名隔壁在岗帮工，让其离岗进弃牌堆。','Discard one working rival helper.')][function]
+        return [('选隔壁一名在岗帮工，带到自己的空位。','Take one working rival helper into your empty slot.'),
+                ('选隔壁一名在岗帮工，让他回到隔壁手牌。','Return one working rival helper to their hand.'),
+                ('选隔壁一名在岗帮工，将这张牌弃掉。','Discard one working rival helper.')][function]
     if typ==8:
-        return [('让己方所有未受阻帮工推进一次工作。','Progress every unblocked helper at your stall once.'),
-                ('本轮可以招募任意岗位的帮工。','Hire helpers from any department this shift.'),
-                ('让己方所有未受阻帮工立即完成当前工作。','Finish the current task of every unblocked helper.'),
-                ('选择己方一个岗位，委托需求减少一项。','Choose a department and reduce its requirement by one.')][function]
+        return [('自己所有没被闹场拦住的帮工各干一次活。','Advance every unblocked helper at your stall once.'),
+                ('本轮可以招任意岗位的帮工。','Hire helpers from any department this turn.'),
+                ('自己所有没被闹场拦住的帮工立即完工。','Finish the current task of every unblocked helper.'),
+                ('选自己的一个岗位，少做一项就能开摊。','Choose a department and reduce its requirement by one.')][function]
     if typ==9:
         names='阴雨漏棚、暴雨封街、河雾淹摊或伞海堵门' if c['ID']<85 else '灯线短路或灯芯熄灭'
-        return (f'修补匹配的闹场：{names}。','Remove matching weather trouble.' if c['ID']<85 else 'Remove matching light trouble.')
-    if typ==10:return ('巡街牌来临时，可在倒计时内反制；双方牌离场。','During an inspection prompt, cancel it and discard both cards.')
+        english='Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门.' if c['ID']<85 else 'Remove either:\n灯线短路 / 灯芯熄灭.'
+        return (f'解除这些闹场：{names}。',english)
+    if typ==10:return ('收到巡街牌时，在倒计时内使用。巡街无效，两张牌都弃掉。','Use during the inspection countdown. Cancel the inspection and discard both cards.')
     if typ==11:
-        if function==0:return (f'隔壁{ROLE[target]}委托需求增加 {amount} 项。',f'Add {amount} tasks to the rival {ROLE_EN[target]} requirement.')
-        return ('选择隔壁一个已有成果的岗位，已完成工作减少一项。','Choose a rival department with completed work; remove one completed task.')
+        if function==0:return (f'隔壁的{ROLE[target]}工作要多做 {amount} 项。',f'Add {amount} tasks to the rival {ROLE_EN[target]} requirement.')
+        return ('选隔壁一个做过工作的岗位，扣掉一项已完成工作。','Choose a rival department with completed work; remove one completed task.')
     raise ValueError(typ)
 
 PICTURE_SUBJECTS={
@@ -142,7 +146,7 @@ def make_theme():
             strings[key]={'zh':UI[key],'en':EN[key]}
     changes={63:'隔摊借工',64:'铃诱跳槽',65:'送回歇息',66:'热汤请假',67:'闹脾气回家',68:'解散小工'}
     for c in cat['cards']:
-        oldcard=originals[c['ID']];cn,en=description(c);cn=compact_chinese(cn);name=changes.get(c['ID'],oldcard['name'])
+        oldcard=originals[c['ID']];cn,en=description(c);cn=compact_chinese(cn);en='\n'.join(textwrap.fill(line,36,break_long_words=False,break_on_hyphens=False) for line in en.split('\n'));name=changes.get(c['ID'],oldcard['name'])
         strings['Name'+str(c['ID'])]={'zh':name,'en':name}
         strings['Quote'+str(c['ID'])]={'zh':oldcard['quote'],'en':{'worker':'Every good stall needs steady hands.','disruption':'A busy market brings surprises.','instant':'A helper can always find another stall.','positive':'Many hands make a brighter night.','repair':'A little care puts everything right.','counter':'Let us settle this before the bell rings.','inspection':'The night market keeps its own accounts.'}.get(oldcard['kind'],'The lanterns will be lit tonight.')}
         strings['Description'+str(c['ID'])]={'zh':cn,'en':en}
@@ -159,7 +163,16 @@ def make_theme():
             elif key=='Quote0':strings[key]={'zh':'今晚一起把摊位做好。','en':'Let us make a good stall tonight.'}
             elif key=='Description0':strings[key]={'zh':'帮工将在夜市派上用场。','en':'A helper for the night market.'}
             else:raise ValueError('Unmapped text '+key)
-    theme={'version':2,'languages':[{'index':0,'name':'简体中文','xmlSlot':'ENG'},{'index':1,'name':'English','xmlSlot':'SPA'}],
+    copy=read(ROOT/'fidelity/data/copy.json')
+    assert len(copy['quotes'])==95 and len(copy['projectSubtitles'])==28
+    for key,pair in copy['ui'].items():
+        assert key in strings and len(pair)==2, key
+        strings[key]=dict(zip(('zh','en'),pair))
+    for i,pair in enumerate(copy['quotes'],1):strings['Quote'+str(i)]=dict(zip(('zh','en'),pair))
+    for i,pair in enumerate(copy['projectSubtitles'],1):strings['SubTitle'+str(i)]=dict(zip(('zh','en'),pair))
+    for key,name in copy['names'].items():
+        strings['Name'+key]={'zh':name,'en':name};cards[int(key)-1]['name']=name
+    theme={'version':2,'copyRevision':copy['date'],'languages':[{'index':0,'name':'简体中文','xmlSlot':'ENG'},{'index':1,'name':'English','xmlSlot':'SPA'}],
            'optionDisplayAlias':{'Sound':{'zh':'声音','en':'Sound'}},
            'strings':strings,'cards':cards,'companies':['铜铃社','月灯坊','百味摊','赤伞堂','狸掌柜铺','井边小馆','纸月社','巷尾杂货'],
            'districts':{'Oui':'铜铃巷','X720':'河灯渡','Doors OS':'雨棚街','EnjoyStation':'纸月坡','Touch OS':'鬼门台'},
@@ -184,8 +197,10 @@ def make_theme():
     # bytes synchronized on subsequent packaging edits without replacing .meta.
     for name in ['Texts','TextsCards','TextsProjects','CardsPlay','CardsProject']:
         runtime=PROJECT/('Assets/Resources/'+name+'.xml')
-        if runtime.exists():shutil.copyfile(PROJECT/('Assets/Recovery/Media/night-'+name+'.xml'),runtime)
+        if runtime.exists():copy_if_changed(PROJECT/('Assets/Recovery/Media/night-'+name+'.xml'),runtime)
     manifest=read(PROJECT/'Assets/Editor/RecoverySource/manifest.json')
+    palette=read(ROOT/'fidelity/data/presentation.json')['textColorOverrides']
+    materials=read(ROOT/'fidelity/data/presentation.json')['materialColorOverrides']
     names=['铃羽','灯芽','纸鸢','符青与符白','铜铃兄弟','门石小队']
     # Six baked tutorial example titles are not dictionary keys or runtime card data.
     example_ids=['mainData:1204','mainData:1239','mainData:1285','mainData:1306','mainData:1304','mainData:1196']
@@ -195,15 +210,21 @@ def make_theme():
     font=REPO/'prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/RingToss/Resources/Fonts/NotoSansCJKsc-Regular.otf'
     fontfolder=PROJECT/'Assets/Recovery/NightFonts';fontfolder.mkdir(parents=True,exist_ok=True)
     for o in manifest['objects']:
+        if o['id'] in materials:
+            for pair in o['tree']['m_SavedProperties']['m_Colors']:
+                if pair[0]['name']=='_Color':pair[1]={channel:materials[o['id']][channel] for channel in 'rgba'}
         if o['type']=='TextAsset':o['assetPath']='Assets/Recovery/Media/night-'+textnames[o['id']]+'.xml'
         if o['type']=='Font':
-            target=fontfolder/(o['id'].replace(':','_').replace(' ','_')+'.otf');shutil.copyfile(font,target)
+            target=fontfolder/(o['id'].replace(':','_').replace(' ','_')+'.otf');copy_if_changed(font,target)
             o['assetPath']=target.relative_to(PROJECT).as_posix()
         if o['type']=='TextMesh':
             original=read(SOURCE/'local/typetrees'/o['container']/(str(o['pathID'])+'_TextMesh.json'))
             # The production TextInfo constructor caches these values as lookup keys.
             # Translate dictionary values, never the serialized initial key.
             o['tree']['m_Text']=theme['staticTextOverrides'].get(o['id'],original['m_Text'])
+            if o['id'] in palette:
+                color=palette[o['id']]
+                o['tree']['m_Color']={'rgba':sum(round(color[channel]*255) << (8*i) for i,channel in enumerate('rgba'))}
     write(PROJECT/'Assets/Editor/RecoverySource/manifest.json',manifest)
     # Keep the exact eight-entry random pool and call count; only its displayed contents change.
     code=PROJECT/'Assets/Recovery/Scripts/ProjectCard.cs';text=code.read_text('utf-8')
@@ -216,7 +237,7 @@ def make_theme():
     write(code,text.replace(original,replacement))
     notices=PROJECT/'Assets/StreamingAssets/ThirdPartyNotices';notices.mkdir(parents=True,exist_ok=True)
     for file in (REPO/'prototypes/proto-013-ring-toss/game/RingTossWorkshop/Assets/StreamingAssets/ThirdPartyNotices').glob('Noto*.txt'):
-        shutil.copyfile(file,notices/file.name)
+        copy_if_changed(file,notices/file.name)
     specs=read(ROOT/'fidelity/image-specs.json');jobs=[]
     for asset in specs['textures']:
         name=asset['name'];first=next((c for c in cat['cards'] if c['Picture']==name),None)

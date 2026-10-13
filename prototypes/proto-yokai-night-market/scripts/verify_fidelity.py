@@ -46,6 +46,33 @@ def verify():
     check('All five logical Resources XML files match their verified production inputs',all((PROJECT/f'Assets/Resources/{name}.xml').exists() and sha(PROJECT/f'Assets/Resources/{name}.xml')==sha(PROJECT/f'Assets/Recovery/Media/night-{name}.xml') for name in ['Texts','TextsCards','TextsProjects','CardsPlay','CardsProject']))
     manifest=read(PROJECT/'Assets/Editor/RecoverySource/manifest.json');objects={o['id']:o for o in manifest['objects']}
     check('Initial TextMesh values preserve dictionary keys, with six declared static tutorial-title overrides',len(theme['staticTextOverrides'])==6 and all(o['tree']['m_Text']==theme['staticTextOverrides'].get(o['id'],read(SOURCE/'local/typetrees'/o['container']/(str(o['pathID'])+'_TextMesh.json'))['m_Text']) for o in objects.values() if o['type']=='TextMesh'))
+    copy=read(ROOT/'fidelity/data/copy.json')
+    check('All 95 bilingual quotes and 28 bilingual project subtitles match the authoring source without repeated filler',
+          len(copy['quotes'])==95 and len(copy['projectSubtitles'])==28 and
+          all(theme['strings']['Quote'+str(i)]==dict(zip(('zh','en'),v)) for i,v in enumerate(copy['quotes'],1)) and
+          all(theme['strings']['SubTitle'+str(i)]==dict(zip(('zh','en'),v)) for i,v in enumerate(copy['projectSubtitles'],1)) and
+          all(len({v[lang] for v in copy[family]})==len(copy[family]) for lang in (0,1) for family in ('quotes','projectSubtitles')))
+    presentation=read(ROOT/'fidelity/data/presentation.json');palette=presentation['textColorOverrides'];valid=len(palette)==8
+    for key,color in palette.items():
+        packed=sum(round(color[channel]*255) << (8*i) for i,channel in enumerate('rgba'))
+        valid &= objects[key]['tree']['m_Color']['rgba']==packed
+        def matching_colors(text):
+            chunks=re.split(r'(?m)^--- !u!\d+ &(\d+)\n',text);nodes=dict(zip(chunks[1::2],chunks[2::2]));found=[]
+            for body in nodes.values():
+                if not body.startswith('TextMesh:') or not re.search(r'(?m)^  m_Text: '+re.escape(color['key'])+r'$',body):continue
+                owner=re.search(r'm_GameObject: \{fileID: (\d+)\}',body);go=nodes.get(owner.group(1),'') if owner else ''
+                if re.search(r'(?m)^  m_Name: '+re.escape(color['object'])+r'$',go):found.append(re.search(r'rgba: (\d+)',body))
+            return found
+        for texts in [[normalized(PROJECT/'Assets/Recovery/Scenes/NightMarket.unity')], [normalized(p) for p in (PROJECT/'Assets/Recovery/Prefabs').glob('*.prefab')]]:
+            blocks=[m for text in texts for m in matching_colors(text)]
+            valid &= len(blocks)==1 and int(blocks[0].group(1))==packed
+    for key,color in presentation['materialColorOverrides'].items():
+        expected={channel:color[channel] for channel in 'rgba'}
+        valid &= next(v for k,v in objects[key]['tree']['m_SavedProperties']['m_Colors'] if k['name']=='_Color')==expected
+        material=normalized(PROJECT/('Assets/Resources/'+color['resource']+'.asset'))
+        match=re.search(r'- _Color: \{r: ([^,]+), g: ([^,]+), b: ([^,]+), a: ([^}]+)\}',material)
+        valid &= match is not None and all(abs(float(match.group(i+1))-color[c])<.000001 for i,c in enumerate('rgba'))
+    check('Declared text and worker-label colors are synchronized in recovery input, scene, prefabs and materials',valid)
     font=next(o for o in objects.values() if o['type']=='Font');fontfile=PROJECT/font['assetPath'];f=TTFont(fontfile);chars=set().union(*(set(t.cmap) for t in f['cmap'].tables));wanted={ord(c) for v in theme['strings'].values() for text in v.values() for c in text if not c.isspace()};wanted.update(ord(c) for t in theme['staticTextOverrides'].values() for c in t);wanted.update(ord(c) for v in theme['optionDisplayAlias'].values() for t in v.values() for c in t);missing=sorted(wanted-chars)
     check('Chinese font covers every replacement text character',not missing,missingCodePoints=missing,fontSHA256=sha(fontfile))
     check('All thirteen source font references bind to the same licensed CJK font bytes',sum(o['type']=='Font' for o in objects.values())==13 and all(sha(PROJECT/o['assetPath'])==sha(fontfile) for o in objects.values() if o['type']=='Font'))

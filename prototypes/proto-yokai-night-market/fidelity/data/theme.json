@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "copyRevision": "2026-10-13",
   "languages": [
     {
       "index": 0,
@@ -32,8 +33,8 @@
       "en": "Resume"
     },
     "NextTurn": {
-      "zh": "交班",
-      "en": "Pass Shift"
+      "zh": "结束本轮",
+      "en": "End turn"
     },
     "AutoPause": {
       "zh": "逐牌停顿",
@@ -68,16 +69,16 @@
       "en": "Hiring helpers"
     },
     "SelectingProjects": {
-      "zh": "抽取开张委托",
-      "en": "Drawing opening orders"
+      "zh": "抽取开摊委托",
+      "en": "Drawing stall orders"
     },
     "YourTurn": {
-      "zh": "轮到你的摊位",
-      "en": "Your stall moves"
+      "zh": "轮到你了",
+      "en": "Your turn"
     },
     "AITurn": {
-      "zh": "隔壁摊位行动",
-      "en": "The rival stall moves"
+      "zh": "隔壁正在忙",
+      "en": "Rival's turn"
     },
     "YouWin": {
       "zh": "你的夜市开张了",
@@ -100,8 +101,8 @@
       "en": "You"
     },
     "YOURPROJECT": {
-      "zh": "你的委托",
-      "en": "Your order"
+      "zh": "我的摊位",
+      "en": "My stall"
     },
     "EDIT": {
       "zh": "改名",
@@ -112,35 +113,35 @@
       "en": "Supplies"
     },
     "Programming": {
-      "zh": "料理",
-      "en": "Cooking"
+      "zh": "备餐",
+      "en": "Food"
     },
     "Art": {
-      "zh": "灯饰",
-      "en": "Decor"
+      "zh": "挂灯",
+      "en": "Lanterns"
     },
     "Testing": {
-      "zh": "护阵",
+      "zh": "布符",
       "en": "Wards"
     },
     "Sound": {
-      "zh": "招徕",
-      "en": "Calling"
+      "zh": "招客",
+      "en": "Guests"
     },
     "SOUND DESIGNER": {
-      "zh": "招徕帮工",
+      "zh": "招客帮工",
       "en": "CALLER"
     },
     "SOUND DESIGNERGirl": {
-      "zh": "招徕帮工",
+      "zh": "招客帮工",
       "en": "CALLER"
     },
     "PROGRAMMER": {
-      "zh": "料理帮工",
+      "zh": "备餐帮工",
       "en": "COOK"
     },
     "PROGRAMMERGirl": {
-      "zh": "料理帮工",
+      "zh": "备餐帮工",
       "en": "COOK"
     },
     "DESIGNER": {
@@ -152,15 +153,15 @@
       "en": "SUPPLIER"
     },
     "ARTIST": {
-      "zh": "灯饰帮工",
-      "en": "DECORATOR"
+      "zh": "挂灯帮工",
+      "en": "LAMPLIGHTER"
     },
     "TESTER": {
-      "zh": "护阵帮工",
+      "zh": "布符帮工",
       "en": "WARD KEEPER"
     },
     "TESTERGirl": {
-      "zh": "护阵帮工",
+      "zh": "布符帮工",
       "en": "WARD KEEPER"
     },
     "OUCH": {
@@ -192,8 +193,8 @@
       "en": "ORDER"
     },
     "Week": {
-      "zh": "第",
-      "en": "Shift "
+      "zh": "轮次",
+      "en": "Turn "
     },
     "MoneySymbol": {
       "zh": "文",
@@ -212,52 +213,52 @@
       "en": "Welcome to the Yokai Night Market!"
     },
     "TUTO_Obj": {
-      "zh": "目标：比隔壁摊先完成五项筹备。",
-      "en": "Finish all five preparations before the rival stall."
+      "zh": "比隔壁先备好摊位，就算赢。",
+      "en": "Get your stall ready before the rival to win."
     },
     "TUTO_Para": {
-      "zh": "每个摊位抽到一份不同的委托。\n左边数字是已完成工作，右边是所需工作。",
-      "en": "Each stall draws a different opening order.\nThe left number is work done; the right is work needed."
+      "zh": "双方各抽一份委托。\n数字左边是已做的，右边是要做的。",
+      "en": "Each stall draws an order.\nThe left number is work done; the right is work needed."
     },
     "TUTO_Turno": {
-      "zh": "每轮先自动修补、推进在岗帮工，再补牌。\n随后可以连续出牌，准备好就交班。",
-      "en": "A shift starts with automatic repairs and helper progress,\nthen draws cards. Play as many cards as you can, then pass."
+      "zh": "轮到你时，先自动修补、让帮工干活，再补牌。\n接着可以连续出牌，准备好了就结束本轮。",
+      "en": "Your turn starts with repairs, helper work and a draw.\nThen play your cards and end the turn when ready."
     },
     "TUTO_Cada": {
-      "zh": "帮工需工作两轮或四轮，完成一项筹备后离岗。\n第一个上岗的帮工决定本轮可招募的岗位。",
-      "en": "Helpers take two or four shifts to finish one task and leave.\nThe first helper hired limits this shift to that department."
+      "zh": "帮工干两轮或四轮，做完一项就离岗。\n本轮先招哪个岗位，后面就只能招这个岗位。",
+      "en": "Helpers finish one task in two or four turns, then leave.\nThe first helper hired sets the department for this turn."
     },
     "TUTO_Termina": {
-      "zh": "先完成招徕、料理、备货、灯饰、护阵的摊位获胜。\n筹备完成时立即结算。",
-      "en": "Finish calling, cooking, supplies, decor and wards to win.\nThe result is settled immediately when the order is ready."
+      "zh": "招客、备餐、备货、挂灯、布符，五栏都做够就开摊。\n哪边先做够，哪边立刻获胜。",
+      "en": "Complete the guests, food, supplies, lanterns and wards.\nThe first stall to meet all five goals wins immediately."
     },
     "TUTO2_Cont": {
       "zh": "继续认识夜市里的牌。",
       "en": "Meet the market cards."
     },
     "TUTO2_Dev": {
-      "zh": "帮工：上岗完成筹备。",
-      "en": "Helpers work on one preparation at your stall."
+      "zh": "帮工：到自己摊位干活，做完一项就离岗。",
+      "en": "Helpers finish a task at your stall, then leave."
     },
     "TUTO2_Neg": {
-      "zh": "闹场使隔壁停工；挖角作用于在岗帮工。",
-      "en": "Trouble pauses rival helpers. Interventions target working helpers."
+      "zh": "闹场让隔壁停工；挖角可以带走隔壁的帮工。",
+      "en": "Trouble stops rival work. Interventions move rival helpers."
     },
     "TUTO2_Pos": {
-      "zh": "搭把手：推进、完工、开放岗位或减需求。",
-      "en": "Helping hands progress work or simplify preparations."
+      "zh": "搭把手：帮着赶工、完工，或减少要做的事。",
+      "en": "Helping hands advance or finish work, or reduce goals."
     },
     "TUTO2_Esp": {
-      "zh": "修补解除事件；调停在巡街倒计时内反制。",
-      "en": "Repairs remove trouble; mediators cancel inspections."
+      "zh": "修补处理指定闹场；巡街倒计时内可以用调停。",
+      "en": "Repairs fix listed trouble; mediators stop inspections."
     },
     "TUTO2_Juega": {
-      "zh": "点牌使用；空格或右键交班，Tab 快进。",
-      "en": "Click to play; Space or right-click passes; Tab fast-forwards."
+      "zh": "点牌使用；空格或右键结束本轮，Tab 快进。",
+      "en": "Click to play; Space/right-click: end turn; Tab: speed up."
     },
     "TUTO2_Buena": {
-      "zh": "铃声响起，准备开摊！",
-      "en": "Ring the bell and open your stall!"
+      "zh": "牌都认识了，来开摊吧！",
+      "en": "Use a mediator before time runs out. Let's open the stall!"
     },
     "REASON_-1": {
       "zh": "可以使用",
@@ -272,8 +273,8 @@
       "en": "All five helper slots are occupied"
     },
     "REASON_2": {
-      "zh": "本轮已选定另一个岗位",
-      "en": "Another department was chosen this shift"
+      "zh": "本轮只能再招已选岗位的帮工",
+      "en": "Hire from the department already chosen this turn"
     },
     "REASON_3": {
       "zh": "隔壁五个闹场位已满",
@@ -288,20 +289,20 @@
       "en": "The rival has no completed tasks"
     },
     "REASON_6": {
-      "zh": "同号帮工正在隔壁上岗",
-      "en": "The same helper is working for the rival"
+      "zh": "这位帮工正在隔壁干活",
+      "en": "This helper is already working for the rival"
     },
     "REASON_7": {
-      "zh": "没有可推进的帮工",
-      "en": "No unblocked helper can progress"
+      "zh": "没有能继续干活的帮工",
+      "en": "No helper can advance their work"
     },
     "REASON_8": {
       "zh": "手里没有帮工牌",
       "en": "No helper card in hand"
     },
     "REASON_9": {
-      "zh": "没有匹配事件或反制时机",
-      "en": "No matching trouble or response window"
+      "zh": "没有对应闹场，或已错过调停时机",
+      "en": "No matching trouble, or the mediator window has closed"
     },
     "AFFECT": {
       "zh": "受影响：",
@@ -340,803 +341,803 @@
       "en": "阿铃·快工"
     },
     "Quote1": {
-      "zh": "铃声不用大，让路口先听见。",
-      "en": "Every good stall needs steady hands."
+      "zh": "铃挂这儿。巷口的人一来，我就摇。",
+      "en": "Hang the bell here. I'll ring it when\nsomeone comes."
     },
     "Description1": {
-      "zh": "在岗工作 2 轮，完成一项招徕筹备。",
-      "en": "Work for 2 shifts to finish one calling task."
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask."
     },
     "Name2": {
       "zh": "小哨·快工",
       "en": "小哨·快工"
     },
     "Quote2": {
-      "zh": "我只叫醒该醒的那条街。",
-      "en": "Every good stall needs steady hands."
+      "zh": "喂，里头有热汤！别光在门口闻。",
+      "en": "Hot soup inside! Come in and try it."
     },
     "Description2": {
-      "zh": "在岗工作 2 轮，完成一项招徕筹备。",
-      "en": "Work for 2 shifts to finish one calling task."
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask."
     },
     "Name3": {
       "zh": "鼓豆·慢工",
       "en": "鼓豆·慢工"
     },
     "Quote3": {
-      "zh": "慢一点，客人才听得清。",
-      "en": "Every good stall needs steady hands."
+      "zh": "我敲三下，你们记得接着喊。",
+      "en": "I'll beat the drum three times. Then you\ncall out."
     },
     "Description3": {
-      "zh": "在岗工作 4 轮，完成一项招徕筹备。",
-      "en": "Work for 4 shifts to finish one calling task."
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask."
     },
     "Name4": {
       "zh": "柳声·慢工",
       "en": "柳声·慢工"
     },
     "Quote4": {
-      "zh": "风走到哪里，消息就到哪里。",
-      "en": "Every good stall needs steady hands."
+      "zh": "风往桥头吹，咱们朝那边喊。",
+      "en": "The wind's headed for the bridge. Call\nthat way."
     },
     "Description4": {
-      "zh": "在岗工作 4 轮，完成一项招徕筹备。",
-      "en": "Work for 4 shifts to finish one calling task."
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask."
     },
     "Name5": {
       "zh": "铜姨·快工",
       "en": "铜姨·快工"
     },
     "Quote5": {
-      "zh": "旧铃的音，最认得回家的路。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这口旧铃，隔两条巷都听得见。",
+      "en": "They can hear this old bell two streets\naway."
     },
     "Description5": {
-      "zh": "在岗工作 2 轮，完成一项招徕筹备。",
-      "en": "Work for 2 shifts to finish one calling task."
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask."
     },
     "Name6": {
       "zh": "苔笛·慢工",
       "en": "苔笛·慢工"
     },
     "Quote6": {
-      "zh": "石头也有想说的话。",
-      "en": "Every good stall needs steady hands."
+      "zh": "等我吹完这段。客人爱听尾音。",
+      "en": "Let me finish. They like the last few\nnotes."
     },
     "Description6": {
-      "zh": "在岗工作 4 轮，完成一项招徕筹备。",
-      "en": "Work for 4 shifts to finish one calling task."
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask."
     },
     "Name7": {
       "zh": "锅青·快工",
       "en": "锅青·快工"
     },
     "Quote7": {
-      "zh": "热汤先给怕冷的客人。",
-      "en": "Every good stall needs steady hands."
+      "zh": "尝一口？烫，先吹吹。",
+      "en": "Want a taste? Careful, it's hot."
     },
     "Description7": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name8": {
       "zh": "火栗·快工",
       "en": "火栗·快工"
     },
     "Quote8": {
-      "zh": "火候一急，味道就跑。",
-      "en": "Every good stall needs steady hands."
+      "zh": "火别添了，这锅已经滚了。",
+      "en": "No more fuel. The pot's already boiling."
     },
     "Description8": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name9": {
       "zh": "面团·快工",
       "en": "面团·快工"
     },
     "Quote9": {
-      "zh": "我把夜风揉进面里。",
-      "en": "Every good stall needs steady hands."
+      "zh": "别戳了，再戳包子就瘪了。",
+      "en": "Stop poking it. You'll flatten the bun."
     },
     "Description9": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name10": {
       "zh": "荷婶·快工",
       "en": "荷婶·快工"
     },
     "Quote10": {
-      "zh": "掀盖之前，先等一口气。",
-      "en": "Every good stall needs steady hands."
+      "zh": "先把碗摆好，我这就掀盖。",
+      "en": "Set out the bowls. I'm lifting the lid."
     },
     "Description10": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name11": {
       "zh": "盐尾·慢工",
       "en": "盐尾·慢工"
     },
     "Quote11": {
-      "zh": "有些味道，一小撮就够。",
-      "en": "Every good stall needs steady hands."
+      "zh": "盐放哪儿了？我尾巴底下？",
+      "en": "Where's the salt? Under my tail?"
     },
     "Description11": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name12": {
       "zh": "炭伯·快工",
       "en": "炭伯·快工"
     },
     "Quote12": {
-      "zh": "我守小火，你守好心。",
-      "en": "Every good stall needs steady hands."
+      "zh": "炭我看着。你去把葱切了。",
+      "en": "I'll watch the coals. You chop the\nspring onions."
     },
     "Description12": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name13": {
       "zh": "姜黄·快工",
       "en": "姜黄·快工"
     },
     "Quote13": {
-      "zh": "凉意来了，添一片姜。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这锅添姜，那锅别放，有客人不吃。",
+      "en": "Ginger in this pot, none in that one."
     },
     "Description13": {
-      "zh": "在岗工作 2 轮，完成一项料理筹备。",
-      "en": "Work for 2 shifts to finish one cooking task."
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask."
     },
     "Name14": {
       "zh": "米满·慢工",
       "en": "米满·慢工"
     },
     "Quote14": {
-      "zh": "盛饭的手要稳。",
-      "en": "Every good stall needs steady hands."
+      "zh": "碗递过来，别挡着饭勺。",
+      "en": "Pass me the bowl. Mind the rice scoop."
     },
     "Description14": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name15": {
       "zh": "汤白·慢工",
       "en": "汤白·慢工"
     },
     "Quote15": {
-      "zh": "碗里盛着一段暖路。",
-      "en": "Every good stall needs steady hands."
+      "zh": "碗沿擦一擦，汤都洒外头了。",
+      "en": "Wipe the rim. The soup's spilled over."
     },
     "Description15": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name16": {
       "zh": "藕节·慢工",
       "en": "藕节·慢工"
     },
     "Quote16": {
-      "zh": "刀放稳，故事慢慢切。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这段藕留着，切坏了正好下汤。",
+      "en": "Keep that bit of lotus root for the\nsoup."
     },
     "Description16": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name17": {
       "zh": "椒九·慢工",
       "en": "椒九·慢工"
     },
     "Quote17": {
-      "zh": "辣不辣，先问客人。",
-      "en": "Every good stall needs steady hands."
+      "zh": "辣椒另放一碟，谁吃谁添。",
+      "en": "Put the chilli on the side. Let them\nchoose."
     },
     "Description17": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name18": {
       "zh": "灶婆·慢工",
       "en": "灶婆·慢工"
     },
     "Quote18": {
-      "zh": "旧锅认火，新摊认人。",
-      "en": "Every good stall needs steady hands."
+      "zh": "锅盖别拿走，我还得焖一会儿。",
+      "en": "Leave the lid. It needs a little longer."
     },
     "Description18": {
-      "zh": "在岗工作 4 轮，完成一项料理筹备。",
-      "en": "Work for 4 shifts to finish one cooking task."
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask."
     },
     "Name19": {
       "zh": "筐子·快工",
       "en": "筐子·快工"
     },
     "Quote19": {
-      "zh": "留一点空，才装得下意外。",
-      "en": "Every good stall needs steady hands."
+      "zh": "筐别装太满，提手都快断了。",
+      "en": "Don't fill the basket. The handle's\nabout to snap."
     },
     "Description19": {
-      "zh": "在岗工作 2 轮，完成一项备货筹备。",
-      "en": "Work for 2 shifts to finish one supply task."
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task."
     },
     "Name20": {
       "zh": "苇舟·快工",
       "en": "苇舟·快工"
     },
     "Quote20": {
-      "zh": "水路来的货，先晾一晾。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这包沾了河水，先摊开晾。",
+      "en": "This parcel got wet. Spread it out to\ndry."
     },
     "Description20": {
-      "zh": "在岗工作 2 轮，完成一项备货筹备。",
-      "en": "Work for 2 shifts to finish one supply task."
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task."
     },
     "Name21": {
       "zh": "账梨·快工",
       "en": "账梨·快工"
     },
     "Quote21": {
-      "zh": "记清来处，就不怕走错。",
-      "en": "Every good stall needs steady hands."
+      "zh": "三捆竹竿，四卷布。我再数一遍。",
+      "en": "Three bundles of poles, four rolls of\ncloth. Let me count."
     },
     "Description21": {
-      "zh": "在岗工作 2 轮，完成一项备货筹备。",
-      "en": "Work for 2 shifts to finish one supply task."
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task."
     },
     "Name22": {
       "zh": "石背·慢工",
       "en": "石背·慢工"
     },
     "Quote22": {
-      "zh": "重的放底下，心就稳了。",
-      "en": "Every good stall needs steady hands."
+      "zh": "重箱我来。你把门帘掀开。",
+      "en": "I'll take the heavy box. Hold the\ncurtain up."
     },
     "Description22": {
-      "zh": "在岗工作 4 轮，完成一项备货筹备。",
-      "en": "Work for 4 shifts to finish one supply task."
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task."
     },
     "Name23": {
       "zh": "麻绳·慢工",
       "en": "麻绳·慢工"
     },
     "Quote23": {
-      "zh": "拴住货，别拴住路。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这个结还得绕一圈，路上别散了。",
+      "en": "One more loop round that knot, or it'll\ncome loose."
     },
     "Description23": {
-      "zh": "在岗工作 4 轮，完成一项备货筹备。",
-      "en": "Work for 4 shifts to finish one supply task."
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task."
     },
     "Name24": {
       "zh": "纸秤·慢工",
       "en": "纸秤·慢工"
     },
     "Quote24": {
-      "zh": "秤的是货，称呼要留情。",
-      "en": "Every good stall needs steady hands."
+      "zh": "等秤杆停稳了再报数。",
+      "en": "Wait for the scales to settle before you\nread it."
     },
     "Description24": {
-      "zh": "在岗工作 4 轮，完成一项备货筹备。",
-      "en": "Work for 4 shifts to finish one supply task."
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task."
     },
     "Name25": {
       "zh": "灯芽·快工",
       "en": "灯芽·快工"
     },
     "Quote25": {
-      "zh": "一盏灯，也能认出整条街。",
-      "en": "Every good stall needs steady hands."
+      "zh": "左边那盏歪了。再往上提一点。",
+      "en": "The left lantern's crooked. Lift it a\nlittle."
     },
     "Description25": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name26": {
       "zh": "布云·快工",
       "en": "布云·快工"
     },
     "Quote26": {
-      "zh": "棚下面，雨也会轻一点。",
-      "en": "Every good stall needs steady hands."
+      "zh": "布先拉平，别把褶子缝进去了。",
+      "en": "Pull the cloth flat before you stitch\nit."
     },
     "Description26": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name27": {
       "zh": "墨角·快工",
       "en": "墨角·快工"
     },
     "Quote27": {
-      "zh": "量过两遍，再落第一笔。",
-      "en": "Every good stall needs steady hands."
+      "zh": "墨还没干，别靠在招牌上。",
+      "en": "The ink's wet. Don't lean on the sign."
     },
     "Description27": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name28": {
       "zh": "伞扣·慢工",
       "en": "伞扣·慢工"
     },
     "Quote28": {
-      "zh": "别让好看的东西堵住路。",
-      "en": "Every good stall needs steady hands."
+      "zh": "伞转过来，破洞朝墙。",
+      "en": "Turn the umbrella. Put the hole against\nthe wall."
     },
     "Description28": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name29": {
       "zh": "绣点·慢工",
       "en": "绣点·慢工"
     },
     "Quote29": {
-      "zh": "花纹可以热闹，边线要干净。",
-      "en": "Every good stall needs steady hands."
+      "zh": "最后两针。谁也别拽这条边。",
+      "en": "Two stitches left. Nobody pull on that\nedge."
     },
     "Description29": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name30": {
       "zh": "竹影·慢工",
       "en": "竹影·慢工"
     },
     "Quote30": {
-      "zh": "支架稳，灯才敢亮。",
-      "en": "Every good stall needs steady hands."
+      "zh": "扶一下竹竿，我腾只手绑绳。",
+      "en": "Hold the pole while I tie the rope."
     },
     "Description30": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name31": {
       "zh": "漆月·快工",
       "en": "漆月·快工"
     },
     "Quote31": {
-      "zh": "旧木头也能接住月光。",
-      "en": "Every good stall needs steady hands."
+      "zh": "漆了两遍，今晚先别摸。",
+      "en": "Two coats of lacquer. Don't touch it\ntonight."
     },
     "Description31": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name32": {
       "zh": "帘子·快工",
       "en": "帘子·快工"
     },
     "Quote32": {
-      "zh": "把杂声拦在帘外。",
-      "en": "Every good stall needs steady hands."
+      "zh": "帘子留条缝，端汤的人得过。",
+      "en": "Leave a gap in the curtain for the soup\nbowls."
     },
     "Description32": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name33": {
       "zh": "瓦圆·快工",
       "en": "瓦圆·快工"
     },
     "Quote33": {
-      "zh": "敲轻一些，夜还没睡。",
-      "en": "Every good stall needs steady hands."
+      "zh": "轻点敲，这块瓦上回就裂过。",
+      "en": "Tap gently. This tile's cracked before."
     },
     "Description33": {
-      "zh": "在岗工作 2 轮，完成一项灯饰筹备。",
-      "en": "Work for 2 shifts to finish one decor task."
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task."
     },
     "Name34": {
       "zh": "线雀·慢工",
       "en": "线雀·慢工"
     },
     "Quote34": {
-      "zh": "一根线，也要有来有回。",
-      "en": "Every good stall needs steady hands."
+      "zh": "线头呢？刚才还在我手里。",
+      "en": "Where's the end of the thread? I just\nhad it."
     },
     "Description34": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name35": {
       "zh": "叶牌·慢工",
       "en": "叶牌·慢工"
     },
     "Quote35": {
-      "zh": "招牌先站稳，再说开张。",
-      "en": "Every good stall needs steady hands."
+      "zh": "招牌钉高点，别碰着客人的角。",
+      "en": "Hang the sign higher. Mind the\ncustomers' horns."
     },
     "Description35": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name36": {
       "zh": "色婆·慢工",
       "en": "色婆·慢工"
     },
     "Quote36": {
-      "zh": "颜色要让人看懂路。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这块布褪色了，翻面还能用。",
+      "en": "The cloth's faded. We can use the other\nside."
     },
     "Description36": {
-      "zh": "在岗工作 4 轮，完成一项灯饰筹备。",
-      "en": "Work for 4 shifts to finish one decor task."
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task."
     },
     "Name37": {
       "zh": "符青·快工",
       "en": "符青·快工"
     },
     "Quote37": {
-      "zh": "规矩不是吓人的。",
-      "en": "Every good stall needs steady hands."
+      "zh": "符贴正了。倒着贴，鬼也看不懂。",
+      "en": "Right way up. Even a ghost can't read it\nupside down."
     },
     "Description37": {
-      "zh": "在岗工作 2 轮，完成一项护阵筹备。",
-      "en": "Work for 2 shifts to finish one ward task."
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask."
     },
     "Name38": {
       "zh": "门石·快工",
       "en": "门石·快工"
     },
     "Quote38": {
-      "zh": "路要留给晚到的人。",
-      "en": "Every good stall needs steady hands."
+      "zh": "这块石头挪开，门口要留路。",
+      "en": "Move this stone. Keep the entrance\nclear."
     },
     "Description38": {
-      "zh": "在岗工作 2 轮，完成一项护阵筹备。",
-      "en": "Work for 2 shifts to finish one ward task."
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask."
     },
     "Name39": {
       "zh": "绳七·快工",
       "en": "绳七·快工"
     },
     "Quote39": {
-      "zh": "一个结，记住一种麻烦。",
-      "en": "Every good stall needs steady hands."
+      "zh": "绳留长一点，回头还得解开。",
+      "en": "Leave a longer tail. We'll need to undo\nit later."
     },
     "Description39": {
-      "zh": "在岗工作 2 轮，完成一项护阵筹备。",
-      "en": "Work for 2 shifts to finish one ward task."
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask."
     },
     "Name40": {
       "zh": "夜巡·慢工",
       "en": "夜巡·慢工"
     },
     "Quote40": {
-      "zh": "我巡的是路，不是热闹。",
-      "en": "Every good stall needs steady hands."
+      "zh": "我从桥头回来，后巷还得走一趟。",
+      "en": "The bridge is checked. I've still got\nthe back lane."
     },
     "Description40": {
-      "zh": "在岗工作 4 轮，完成一项护阵筹备。",
-      "en": "Work for 4 shifts to finish one ward task."
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask."
     },
     "Name41": {
       "zh": "砂眼·慢工",
       "en": "砂眼·慢工"
     },
     "Quote41": {
-      "zh": "细小的缝，也要看见。",
-      "en": "Every good stall needs steady hands."
+      "zh": "柜子底下有缝，我蹲下看看。",
+      "en": "There's a gap under the cabinet. Let me\nlook."
     },
     "Description41": {
-      "zh": "在岗工作 4 轮，完成一项护阵筹备。",
-      "en": "Work for 4 shifts to finish one ward task."
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask."
     },
     "Name42": {
       "zh": "印婆·慢工",
       "en": "印婆·慢工"
     },
     "Quote42": {
-      "zh": "盖过的印，要经得起雨。",
-      "en": "Every good stall needs steady hands."
+      "zh": "印泥没干，别把单子摞一起。",
+      "en": "The seal's still wet. Don't stack the\npapers."
     },
     "Description42": {
-      "zh": "在岗工作 4 轮，完成一项护阵筹备。",
-      "en": "Work for 4 shifts to finish one ward task."
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask."
     },
     "Name43": {
       "zh": "小鬼闹场",
       "en": "小鬼闹场"
     },
     "Quote43": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "不买，先看看。让我们再挤两只进来。",
+      "en": "Just looking. Make room for two more of\nus."
     },
     "Description43": {
-      "zh": "隔壁的所有岗位停工 1 轮。",
-      "en": "Block rival helpers in all departments for 1 shifts."
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns."
     },
     "Name44": {
       "zh": "阴雨漏棚",
       "en": "阴雨漏棚"
     },
     "Quote44": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "接雨盆呢？这儿又滴上了。",
+      "en": "Where's the basin? It's dripping again."
     },
     "Description44": {
-      "zh": "隔壁的所有岗位停工 2 轮。",
-      "en": "Block rival helpers in all departments for 2 shifts."
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns."
     },
     "Name45": {
       "zh": "暴雨封街",
       "en": "暴雨封街"
     },
     "Quote45": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "桥头全是水，今晚谁也搬不过去。",
+      "en": "The bridge is flooded. Nothing's getting\nacross tonight."
     },
     "Description45": {
-      "zh": "隔壁的所有岗位停工 3 轮。",
-      "en": "Block rival helpers in all departments for 3 shifts."
+      "zh": "隔壁的所有岗位帮工停工 3 轮。",
+      "en": "Block rival helpers in all\ndepartments for 3 turns."
     },
     "Name46": {
       "zh": "无名怪风",
       "en": "无名怪风"
     },
     "Quote46": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "刚摆好的筐呢？追风去吧！",
+      "en": "Where's that basket? Gone with the wind!"
     },
     "Description46": {
-      "zh": "隔壁的所有岗位停工 1 轮。",
-      "en": "Block rival helpers in all departments for 1 shifts."
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns."
     },
     "Name47": {
       "zh": "灯线短路",
       "en": "灯线短路"
     },
     "Quote47": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "先别碰线，灯还在冒火星。",
+      "en": "Leave that wire. The lamp's still\nsparking."
     },
     "Description47": {
-      "zh": "隔壁的所有岗位停工 2 轮。",
-      "en": "Block rival helpers in all departments for 2 shifts."
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns."
     },
     "Name48": {
       "zh": "灯芯熄灭",
       "en": "灯芯熄灭"
     },
     "Quote48": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "谁吹的？刚才还亮着呢。",
+      "en": "Who blew it out? It was lit a moment\nago."
     },
     "Description48": {
-      "zh": "隔壁的所有岗位停工 1 轮。",
-      "en": "Block rival helpers in all departments for 1 shifts."
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns."
     },
     "Name49": {
       "zh": "河雾淹摊",
       "en": "河雾淹摊"
     },
     "Quote49": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "雾都钻进筐里了，货往高处搬。",
+      "en": "The mist's in the baskets. Move the\ngoods up."
     },
     "Description49": {
-      "zh": "隔壁的所有岗位停工 3 轮。",
-      "en": "Block rival helpers in all departments for 3 shifts."
+      "zh": "隔壁的所有岗位帮工停工 3 轮。",
+      "en": "Block rival helpers in all\ndepartments for 3 turns."
     },
     "Name50": {
       "zh": "伞海堵门",
       "en": "伞海堵门"
     },
     "Quote50": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "收一收伞，后面的人过不来了。",
+      "en": "Fold your umbrellas. Nobody can get\nthrough."
     },
     "Description50": {
-      "zh": "隔壁的所有岗位停工 2 轮。",
-      "en": "Block rival helpers in all departments for 2 shifts."
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns."
     },
     "Name51": {
       "zh": "嗓子冒烟",
       "en": "嗓子冒烟"
     },
     "Quote51": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "咳，咳……今天先别让我喊了。",
+      "en": "Cough, cough... Someone else can call\ntoday."
     },
     "Description51": {
-      "zh": "隔壁的招徕停工 1 轮。",
-      "en": "Block rival helpers in calling for 1 shifts."
+      "zh": "隔壁的招客帮工停工 1 轮。",
+      "en": "Block rival helpers in guest for 1\nturns."
     },
     "Name52": {
       "zh": "铜铃失声",
       "en": "铜铃失声"
     },
     "Quote52": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "铃摇得挺响，怎么一点声也没有？",
+      "en": "I'm shaking the bell. Why can't I hear\nit?"
     },
     "Description52": {
-      "zh": "隔壁的招徕停工 1 轮。",
-      "en": "Block rival helpers in calling for 1 shifts."
+      "zh": "隔壁的招客帮工停工 1 轮。",
+      "en": "Block rival helpers in guest for 1\nturns."
     },
     "Name53": {
       "zh": "锅底结冰",
       "en": "锅底结冰"
     },
     "Quote53": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "这不是汤块，是整锅冻住了！",
+      "en": "That's no lump of soup. The whole pot's\nfrozen!"
     },
     "Description53": {
-      "zh": "隔壁的料理停工 1 轮。",
-      "en": "Block rival helpers in cooking for 1 shifts."
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns."
     },
     "Name54": {
       "zh": "灶火离家",
       "en": "灶火离家"
     },
     "Quote54": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "回来！那团火往隔壁跑了！",
+      "en": "Come back! The flame's off to the next\nstall!"
     },
     "Description54": {
-      "zh": "隔壁的料理停工 1 轮。",
-      "en": "Block rival helpers in cooking for 1 shifts."
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns."
     },
     "Name55": {
       "zh": "汤勺打结",
       "en": "汤勺打结"
     },
     "Quote55": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "勺柄缠一起了，先别硬拽。",
+      "en": "The ladles are tangled. Don't pull so\nhard."
     },
     "Description55": {
-      "zh": "隔壁的料理停工 1 轮。",
-      "en": "Block rival helpers in cooking for 1 shifts."
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns."
     },
     "Name56": {
       "zh": "货单迷路",
       "en": "货单迷路"
     },
     "Quote56": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "按这张单子送？上面连摊名都没有。",
+      "en": "Deliver it here? This list has no stall\nname."
     },
     "Description56": {
-      "zh": "隔壁的备货停工 1 轮。",
-      "en": "Block rival helpers in supply for 1 shifts."
+      "zh": "隔壁的备货帮工停工 1 轮。",
+      "en": "Block rival helpers in supply for 1\nturns."
     },
     "Name57": {
       "zh": "筐底漏风",
       "en": "筐底漏风"
     },
     "Quote57": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "少了一把豆子。筐底那个洞呢？",
+      "en": "We're missing some beans. Is that a hole\nin the basket?"
     },
     "Description57": {
-      "zh": "隔壁的备货停工 1 轮。",
-      "en": "Block rival helpers in supply for 1 shifts."
+      "zh": "隔壁的备货帮工停工 1 轮。",
+      "en": "Block rival helpers in supply for 1\nturns."
     },
     "Name58": {
       "zh": "灯笼乱跑",
       "en": "灯笼乱跑"
     },
     "Quote58": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "抓住绳！灯笼又往天上跑了。",
+      "en": "Grab the cord! The lantern's flying off\nagain."
     },
     "Description58": {
-      "zh": "隔壁的灯饰停工 1 轮。",
-      "en": "Block rival helpers in decor for 1 shifts."
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns."
     },
     "Name59": {
       "zh": "彩布褪色",
       "en": "彩布褪色"
     },
     "Quote59": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "昨晚还是红的，一场雨就白了。",
+      "en": "It was red last night. One shower washed\nit white."
     },
     "Description59": {
-      "zh": "隔壁的灯饰停工 1 轮。",
-      "en": "Block rival helpers in decor for 1 shifts."
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns."
     },
     "Name60": {
       "zh": "招牌倒挂",
       "en": "招牌倒挂"
     },
     "Quote60": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "难怪没人进来，招牌朝墙挂着呢。",
+      "en": "No wonder it's empty. The sign's facing\nthe wall."
     },
     "Description60": {
-      "zh": "隔壁的灯饰停工 1 轮。",
-      "en": "Block rival helpers in decor for 1 shifts."
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns."
     },
     "Name61": {
       "zh": "符绳打结",
       "en": "符绳打结"
     },
     "Quote61": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "这结谁打的？符全缠里面了。",
+      "en": "Who tied this knot? The charms are\ncaught in it."
     },
     "Description61": {
-      "zh": "隔壁的护阵停工 1 轮。",
-      "en": "Block rival helpers in ward for 1 shifts."
+      "zh": "隔壁的布符帮工停工 1 轮。",
+      "en": "Block rival helpers in ward for 1\nturns."
     },
     "Name62": {
       "zh": "安检瞌睡",
       "en": "安检瞌睡"
     },
     "Quote62": {
-      "zh": "夜市的麻烦，也要一件件收拾。",
-      "en": "The lanterns will be lit tonight."
+      "zh": "醒醒，后巷还没查呢。",
+      "en": "Wake up. The back lane hasn't been\nchecked."
     },
     "Description62": {
-      "zh": "隔壁的护阵停工 1 轮。",
-      "en": "Block rival helpers in ward for 1 shifts."
+      "zh": "隔壁的布符帮工停工 1 轮。",
+      "en": "Block rival helpers in ward for 1\nturns."
     },
     "Name63": {
       "zh": "隔摊借工",
       "en": "隔摊借工"
     },
     "Quote63": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "隔壁给你什么？我这儿也能商量。",
+      "en": "What's the other stall offering? We can\ntalk."
     },
     "Description63": {
-      "zh": "选一名隔壁在岗帮工，挖到己方空位。",
-      "en": "Take one working rival helper into your empty slot."
+      "zh": "选隔壁一名在岗帮工，带到自己的空位。",
+      "en": "Take one working rival helper into\nyour empty slot."
     },
     "Name64": {
       "zh": "铃诱跳槽",
       "en": "铃诱跳槽"
     },
     "Quote64": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "听这铃声。来我摊上试试？",
+      "en": "Hear that bell? Fancy working at my\nstall?"
     },
     "Description64": {
-      "zh": "选一名隔壁在岗帮工，挖到己方空位。",
-      "en": "Take one working rival helper into your empty slot."
+      "zh": "选隔壁一名在岗帮工，带到自己的空位。",
+      "en": "Take one working rival helper into\nyour empty slot."
     },
     "Name65": {
       "zh": "送回歇息",
       "en": "送回歇息"
     },
     "Quote65": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "歇会儿吧，活先放着。",
+      "en": "Take a break. The work can wait."
     },
     "Description65": {
-      "zh": "选一名隔壁在岗帮工，退回隔壁手牌。",
-      "en": "Return one working rival helper to their hand."
+      "zh": "选隔壁一名在岗帮工，让他回到隔壁手牌。",
+      "en": "Return one working rival helper to\ntheir hand."
     },
     "Name66": {
-      "zh": "热汤请假",
-      "en": "热汤请假"
+      "zh": "灯会请假",
+      "en": "灯会请假"
     },
     "Quote66": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "灯会开了？那我先回去一趟。",
+      "en": "The lantern fair's started? I'll head\nhome first."
     },
     "Description66": {
-      "zh": "选一名隔壁在岗帮工，退回隔壁手牌。",
-      "en": "Return one working rival helper to their hand."
+      "zh": "选隔壁一名在岗帮工，让他回到隔壁手牌。",
+      "en": "Return one working rival helper to\ntheir hand."
     },
     "Name67": {
       "zh": "闹脾气回家",
       "en": "闹脾气回家"
     },
     "Quote67": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "不干了！这围裙谁爱系谁系。",
+      "en": "I quit! Someone else can wear this\napron."
     },
     "Description67": {
-      "zh": "选一名隔壁在岗帮工，让其离岗进弃牌堆。",
+      "zh": "选隔壁一名在岗帮工，将这张牌弃掉。",
       "en": "Discard one working rival helper."
     },
     "Name68": {
@@ -1144,11 +1145,11 @@
       "en": "解散小工"
     },
     "Quote68": {
-      "zh": "风一转，手上的安排就变了。",
-      "en": "A helper can always find another stall."
+      "zh": "散了散了，今天不在这儿干了。",
+      "en": "Pack up. We're done working here today."
     },
     "Description68": {
-      "zh": "选一名隔壁在岗帮工，让其离岗进弃牌堆。",
+      "zh": "选隔壁一名在岗帮工，将这张牌弃掉。",
       "en": "Discard one working rival helper."
     },
     "Name69": {
@@ -1156,548 +1157,548 @@
       "en": "齐心搭把手"
     },
     "Quote69": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "一人扶一边，喊一二三就抬。",
+      "en": "Take one side each. Lift on three."
     },
     "Description69": {
-      "zh": "让己方所有未受阻帮工推进一次工作。",
-      "en": "Progress every unblocked helper at your stall once."
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once."
     },
     "Name70": {
       "zh": "趁月赶工",
       "en": "趁月赶工"
     },
     "Quote70": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "月亮还没落，咱们再做一点。",
+      "en": "The moon's still up. We can get a bit\nmore done."
     },
     "Description70": {
-      "zh": "让己方所有未受阻帮工推进一次工作。",
-      "en": "Progress every unblocked helper at your stall once."
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once."
     },
     "Name71": {
       "zh": "顺风开干",
       "en": "顺风开干"
     },
     "Quote71": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "趁风小，赶紧把棚架起来。",
+      "en": "The wind's eased. Get the awning up."
     },
     "Description71": {
-      "zh": "让己方所有未受阻帮工推进一次工作。",
-      "en": "Progress every unblocked helper at your stall once."
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once."
     },
     "Name72": {
       "zh": "百妖搭棚",
       "en": "百妖搭棚"
     },
     "Quote72": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "扶的扶，绑的绑，谁也别撒手。",
+      "en": "Hold it, tie it, and nobody let go."
     },
     "Description72": {
-      "zh": "让己方所有未受阻帮工立即完成当前工作。",
-      "en": "Finish the current task of every unblocked helper."
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper."
     },
     "Name73": {
       "zh": "邻摊来帮",
       "en": "邻摊来帮"
     },
     "Quote73": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "我那边忙完了，过来帮你收尾。",
+      "en": "I'm done over there. I'll help you\nfinish."
     },
     "Description73": {
-      "zh": "让己方所有未受阻帮工立即完成当前工作。",
-      "en": "Finish the current task of every unblocked helper."
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper."
     },
     "Name74": {
       "zh": "一夜收齐",
       "en": "一夜收齐"
     },
     "Quote74": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "缺的都找齐了，摆好就行。",
+      "en": "We've found the missing bits. Set them\nout."
     },
     "Description74": {
-      "zh": "让己方所有未受阻帮工立即完成当前工作。",
-      "en": "Finish the current task of every unblocked helper."
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper."
     },
     "Name75": {
       "zh": "旧物显灵",
       "en": "旧物显灵"
     },
     "Quote75": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "旧架子正好合适，省得再做一个。",
+      "en": "The old stand fits. No need to build\nanother."
     },
     "Description75": {
-      "zh": "让己方所有未受阻帮工立即完成当前工作。",
-      "en": "Finish the current task of every unblocked helper."
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper."
     },
     "Name76": {
       "zh": "随手好活",
       "en": "随手好活"
     },
     "Quote76": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "我会一点。锅、灯、货，都能搭把手。",
+      "en": "I can help a bit with the pots, lamps or\ngoods."
     },
     "Description76": {
-      "zh": "本轮可以招募任意岗位的帮工。",
-      "en": "Hire helpers from any department this shift."
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn."
     },
     "Name77": {
       "zh": "跨摊支援",
       "en": "跨摊支援"
     },
     "Quote77": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "谁缺人就喊，我这会儿有空。",
+      "en": "Call if you need help. I'm free for a\nwhile."
     },
     "Description77": {
-      "zh": "本轮可以招募任意岗位的帮工。",
-      "en": "Hire helpers from any department this shift."
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn."
     },
     "Name78": {
       "zh": "多面帮工",
       "en": "多面帮工"
     },
     "Quote78": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "别光看围裙，我也会挂灯。",
+      "en": "Don't judge by the apron. I can hang\nlanterns too."
     },
     "Description78": {
-      "zh": "本轮可以招募任意岗位的帮工。",
-      "en": "Hire helpers from any department this shift."
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn."
     },
     "Name79": {
       "zh": "以小见好",
       "en": "以小见好"
     },
     "Quote79": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "这张旧单子还能用，少抄一份。",
+      "en": "This old list will do. No need to copy\nanother."
     },
     "Description79": {
-      "zh": "选择己方一个岗位，委托需求减少一项。",
-      "en": "Choose a department and reduce its requirement by one."
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one."
     },
     "Name80": {
       "zh": "减一道手续",
       "en": "减一道手续"
     },
     "Quote80": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "这项不用重报，划掉吧。",
+      "en": "No need to file this twice. Cross it\nout."
     },
     "Description80": {
-      "zh": "选择己方一个岗位，委托需求减少一项。",
-      "en": "Choose a department and reduce its requirement by one."
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one."
     },
     "Name81": {
       "zh": "够用就行",
       "en": "够用就行"
     },
     "Quote81": {
-      "zh": "手边的旧物，今天又派上用场。",
-      "en": "Many hands make a brighter night."
+      "zh": "先用现成的，少做一件也够开摊。",
+      "en": "Use what we have. One less job before\nopening."
     },
     "Description81": {
-      "zh": "选择己方一个岗位，委托需求减少一项。",
-      "en": "Choose a department and reduce its requirement by one."
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one."
     },
     "Name82": {
       "zh": "补雨布",
       "en": "补雨布"
     },
     "Quote82": {
-      "zh": "把来处看清，才知道从哪补起。",
-      "en": "A little care puts everything right."
+      "zh": "破口在这儿，垫块布再缝。",
+      "en": "The tear's here. Put a patch under it\nand stitch."
     },
     "Description82": {
-      "zh": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
-      "en": "Remove matching weather trouble."
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门."
     },
     "Name83": {
       "zh": "扎好棚角",
       "en": "扎好棚角"
     },
     "Quote83": {
-      "zh": "把来处看清，才知道从哪补起。",
-      "en": "A little care puts everything right."
+      "zh": "棚角再扎紧点，这回别让雨掀开。",
+      "en": "Tie that corner tight. Keep the rain out\nthis time."
     },
     "Description83": {
-      "zh": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
-      "en": "Remove matching weather trouble."
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门."
     },
     "Name84": {
       "zh": "疏开水路",
       "en": "疏开水路"
     },
     "Quote84": {
-      "zh": "把来处看清，才知道从哪补起。",
-      "en": "A little care puts everything right."
+      "zh": "扒开落叶，水就能往沟里走。",
+      "en": "Clear the leaves so the water can drain."
     },
     "Description84": {
-      "zh": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
-      "en": "Remove matching weather trouble."
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门."
     },
     "Name85": {
       "zh": "换灯芯",
       "en": "换灯芯"
     },
     "Quote85": {
-      "zh": "把来处看清，才知道从哪补起。",
-      "en": "A little care puts everything right."
+      "zh": "旧灯芯烧完了，换根新的。",
+      "en": "The wick's burnt out. Put a new one in."
     },
     "Description85": {
-      "zh": "修补匹配的闹场：灯线短路或灯芯熄灭。",
-      "en": "Remove matching light trouble."
+      "zh": "解除这些闹场：灯线短路或灯芯熄灭。",
+      "en": "Remove either:\n灯线短路 / 灯芯熄灭."
     },
     "Name86": {
       "zh": "接好灯线",
       "en": "接好灯线"
     },
     "Quote86": {
-      "zh": "把来处看清，才知道从哪补起。",
-      "en": "A little care puts everything right."
+      "zh": "断的这头接上，先别开灯。",
+      "en": "Join the broken ends. Leave the lamp off\nfor now."
     },
     "Description86": {
-      "zh": "修补匹配的闹场：灯线短路或灯芯熄灭。",
-      "en": "Remove matching light trouble."
+      "zh": "解除这些闹场：灯线短路或灯芯熄灭。",
+      "en": "Remove either:\n灯线短路 / 灯芯熄灭."
     },
     "Name87": {
       "zh": "狸掌柜说和",
       "en": "狸掌柜说和"
     },
     "Quote87": {
-      "zh": "开张前，先把话说顺。",
-      "en": "Let us settle this before the bell rings."
+      "zh": "都先放下单子，咱们当面说。",
+      "en": "Put the papers down. Let's talk face to\nface."
     },
     "Description87": {
-      "zh": "巡街牌来临时，可在倒计时内反制；\n双方牌离场。",
-      "en": "During an inspection prompt, cancel it and discard both cards."
+      "zh": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。",
+      "en": "Use during the inspection countdown.\nCancel the inspection and discard\nboth cards."
     },
     "Name88": {
       "zh": "纸书记调停",
       "en": "纸书记调停"
     },
     "Quote88": {
-      "zh": "开张前，先把话说顺。",
-      "en": "Let us settle this before the bell rings."
+      "zh": "等一下，这条规矩得说清楚。",
+      "en": "Hold on. We need to clear up that rule."
     },
     "Description88": {
-      "zh": "巡街牌来临时，可在倒计时内反制；\n双方牌离场。",
-      "en": "During an inspection prompt, cancel it and discard both cards."
+      "zh": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。",
+      "en": "Use during the inspection countdown.\nCancel the inspection and discard\nboth cards."
     },
     "Name89": {
-      "zh": "加一道热食",
-      "en": "加一道热食"
+      "zh": "添两锅热食",
+      "en": "添两锅热食"
     },
     "Quote89": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "这几样也得上桌，少了不让开。",
+      "en": "These dishes need to be on the table\nbefore you open."
     },
     "Description89": {
-      "zh": "隔壁料理委托需求增加 2 项。",
-      "en": "Add 2 tasks to the rival cooking requirement."
+      "zh": "隔壁的备餐工作要多做 2 项。",
+      "en": "Add 2 tasks to the rival food\nrequirement."
     },
     "Name90": {
       "zh": "加一批货架",
       "en": "加一批货架"
     },
     "Quote90": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "货架不够，旁边再摆一排。",
+      "en": "Not enough shelving. Put another row\nbeside it."
     },
     "Description90": {
-      "zh": "隔壁备货委托需求增加 1 项。",
-      "en": "Add 1 tasks to the rival supply requirement."
+      "zh": "隔壁的备货工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival supply\nrequirement."
     },
     "Name91": {
-      "zh": "加一组灯彩",
-      "en": "加一组灯彩"
+      "zh": "添两组灯彩",
+      "en": "添两组灯彩"
     },
     "Quote91": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "桥头还黑着，再挂两组。",
+      "en": "The bridge is dark. Hang two more sets\nof lights."
     },
     "Description91": {
-      "zh": "隔壁灯饰委托需求增加 2 项。",
-      "en": "Add 2 tasks to the rival decor requirement."
+      "zh": "隔壁的挂灯工作要多做 2 项。",
+      "en": "Add 2 tasks to the rival lantern\nrequirement."
     },
     "Name92": {
-      "zh": "加一轮巡摊",
-      "en": "加一轮巡摊"
+      "zh": "再巡一遍",
+      "en": "再巡一遍"
     },
     "Quote92": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "后巷漏了，回去再巡一遍。",
+      "en": "You missed the back lane. Check it\nagain."
     },
     "Description92": {
-      "zh": "隔壁护阵委托需求增加 1 项。",
-      "en": "Add 1 tasks to the rival ward requirement."
+      "zh": "隔壁的布符工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival ward\nrequirement."
     },
     "Name93": {
-      "zh": "加一阵招呼",
-      "en": "加一阵招呼"
+      "zh": "再吆喝一轮",
+      "en": "再吆喝一轮"
     },
     "Quote93": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "街口没人知道，还得再喊一轮。",
+      "en": "They haven't heard at the entrance. Call\nagain."
     },
     "Description93": {
-      "zh": "隔壁招徕委托需求增加 1 项。",
-      "en": "Add 1 tasks to the rival calling requirement."
+      "zh": "隔壁的招客工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival guest\nrequirement."
     },
     "Name94": {
       "zh": "门牌复查",
       "en": "门牌复查"
     },
     "Quote94": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "先别算做完，拿单子再核一遍。",
+      "en": "Don't mark that done yet. Check the list\nagain."
     },
     "Description94": {
-      "zh": "选择隔壁一个已有成果的岗位，\n已完成工作减少一项。",
-      "en": "Choose a rival department with completed work; remove one completed task."
+      "zh": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。",
+      "en": "Choose a rival department with\ncompleted work; remove one completed\ntask."
     },
     "Name95": {
       "zh": "通路复核",
       "en": "通路复核"
     },
     "Quote95": {
-      "zh": "多查一步，给晚来的客人留条路。",
-      "en": "The night market keeps its own accounts."
+      "zh": "这处先不算，查过再记。",
+      "en": "Leave this one uncounted until it's\nchecked."
     },
     "Description95": {
-      "zh": "选择隔壁一个已有成果的岗位，\n已完成工作减少一项。",
-      "en": "Choose a rival department with completed work; remove one completed task."
+      "zh": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。",
+      "en": "Choose a rival department with\ncompleted work; remove one completed\ntask."
     },
     "Title1": {
       "zh": "巷口第一盏",
       "en": "巷口第一盏"
     },
     "SubTitle1": {
-      "zh": "先让路口有光，再让锅里有热气。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "灯先挂在巷口，晚来的客人才找得着。",
+      "en": "Hang the first lamp at the entrance\nso late guests can find you."
     },
     "Title2": {
       "zh": "两碗热汤",
       "en": "两碗热汤"
     },
     "SubTitle2": {
-      "zh": "热汤之外，还要给客人一处避雨地。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "两位夜班客人说好了，收工来喝热汤。",
+      "en": "Two night workers promised to stop\nby for hot soup."
     },
     "Title3": {
       "zh": "桥头候月",
       "en": "桥头候月"
     },
     "SubTitle3": {
-      "zh": "把清水送到亮处，渡口就有人停步。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "桥边风大，给等月亮的人留个背风位。",
+      "en": "Save a sheltered seat for the\nmoon-watchers by the bridge."
     },
     "Title4": {
       "zh": "风来旧货摊",
       "en": "风来旧货摊"
     },
     "SubTitle4": {
-      "zh": "一面帘、一根符绳，给纸客留个安静角。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "旧货擦干净再摆，轻东西别让风卷跑。",
+      "en": "Wipe the old wares clean and weigh\ndown anything light."
     },
     "Title5": {
       "zh": "河雾补棚",
       "en": "河雾补棚"
     },
     "SubTitle5": {
-      "zh": "锅和风琴都摆好，今晚来客爱热闹。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "河雾又漫上来了，补好棚再搬货。",
+      "en": "The river mist is back. Patch the\nawning before moving the goods."
     },
     "Title6": {
       "zh": "灯下裁衣会",
       "en": "灯下裁衣会"
     },
     "SubTitle6": {
-      "zh": "雨打棚角，灯要先站稳。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "衣服送来了，灯挂近一点才看得清针脚。",
+      "en": "The clothes are here. Bring the lamp\ncloser to the stitching."
     },
     "Title7": {
       "zh": "柳街小戏台",
       "en": "柳街小戏台"
     },
     "SubTitle7": {
-      "zh": "两种手艺在同一张桌上相遇。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "小戏班今晚来，把台前那条路空出来。",
+      "en": "The little troupe is coming. Keep\nthe path in front clear."
     },
     "Title8": {
       "zh": "回家的纸伞",
       "en": "回家的纸伞"
     },
     "SubTitle8": {
-      "zh": "先让路口有光，再让锅里有热气。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "伞骨修好，最后一位客人还要走远路。",
+      "en": "Fix the umbrella ribs. The last\ncustomer has a long walk home."
     },
     "Title9": {
       "zh": "子时干粮铺",
       "en": "子时干粮铺"
     },
     "SubTitle9": {
-      "zh": "热汤之外，还要给客人一处避雨地。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "过了子时还有船，干粮包好，别沾河水。",
+      "en": "Boats run after midnight. Wrap the\nfood and keep it dry."
     },
     "Title10": {
       "zh": "铜铃过石桥",
       "en": "铜铃过石桥"
     },
     "SubTitle10": {
-      "zh": "把清水送到亮处，渡口就有人停步。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "铃挂桥头，搬货的听见就知道往哪儿走。",
+      "en": "Hang the bell by the bridge to guide\nthe deliveries."
     },
     "Title11": {
       "zh": "静巷借火",
       "en": "静巷借火"
     },
     "SubTitle11": {
-      "zh": "一面帘、一根符绳，给纸客留个安静角。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "邻摊来借火，记得留一盆炭。",
+      "en": "The neighbours need a light. Save\nthem a pan of coals."
     },
     "Title12": {
       "zh": "狐尾暖锅局",
       "en": "狐尾暖锅局"
     },
     "SubTitle12": {
-      "zh": "锅和风琴都摆好，今晚来客爱热闹。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "狐狸们订了一桌，锅边多留几个矮凳。",
+      "en": "The foxes booked a table. Leave a\nfew low stools by the pot."
     },
     "Title13": {
       "zh": "渡口亮水摊",
       "en": "渡口亮水摊"
     },
     "SubTitle13": {
-      "zh": "雨打棚角，灯要先站稳。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "水摊摆在渡口，夜船一靠岸就看得见。",
+      "en": "Put the water stall where the night\nboats can see it."
     },
     "Title14": {
       "zh": "月影布篷会",
       "en": "月影布篷会"
     },
     "SubTitle14": {
-      "zh": "两种手艺在同一张桌上相遇。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "篷布拉平，客人今晚就在月下坐。",
+      "en": "Stretch the canopy smooth. The\nguests are sitting under the moon."
     },
     "Title15": {
       "zh": "纸窗安睡摊",
       "en": "纸窗安睡摊"
     },
     "SubTitle15": {
-      "zh": "先让路口有光，再让锅里有热气。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "纸客怕吵，灯别太亮，帘子放下来。",
+      "en": "The paper guests need quiet. Dim the\nlamp and lower the curtain."
     },
     "Title16": {
       "zh": "敲碗会朋友",
       "en": "敲碗会朋友"
     },
     "SubTitle16": {
-      "zh": "热汤之外，还要给客人一处避雨地。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "朋友们带着碗来了，再添几张凳子。",
+      "en": "Friends have brought their bowls.\nSet out a few more stools."
     },
     "Title17": {
       "zh": "黑水桥守夜",
       "en": "黑水桥守夜"
     },
     "SubTitle17": {
-      "zh": "把清水送到亮处，渡口就有人停步。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "桥边今晚有人守夜，留灯，也留一锅热的。",
+      "en": "Someone's on watch by the bridge.\nLeave a lamp and a hot pot."
     },
     "Title18": {
       "zh": "旧木柜开箱",
       "en": "旧木柜开箱"
     },
     "SubTitle18": {
-      "zh": "一面帘、一根符绳，给纸客留个安静角。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "柜子里还有没见过的旧货，一件件摆出来。",
+      "en": "The cabinet holds unseen wares. Lay\nthem out one at a time."
     },
     "Title19": {
       "zh": "灯火引归客",
       "en": "灯火引归客"
     },
     "SubTitle19": {
-      "zh": "锅和风琴都摆好，今晚来客爱热闹。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "末班船快到了，灯挂高些，别让人走错巷。",
+      "en": "The last boat's due. Raise the lamp\nso nobody takes the wrong lane."
     },
     "Title20": {
       "zh": "落帘听小雨",
       "en": "落帘听小雨"
     },
     "SubTitle20": {
-      "zh": "雨打棚角，灯要先站稳。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "雨声正好，帘下摆两把椅子。",
+      "en": "The rain sounds lovely. Put two\nchairs under the curtain."
     },
     "Title21": {
       "zh": "鼓声绕长街",
       "en": "鼓声绕长街"
     },
     "SubTitle21": {
-      "zh": "两种手艺在同一张桌上相遇。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "鼓队沿街走，摊前别堆货挡路。",
+      "en": "The drummers are coming down the\nstreet. Keep goods out of their way."
     },
     "Title22": {
       "zh": "两把伞留座",
       "en": "两把伞留座"
     },
     "SubTitle22": {
-      "zh": "先让路口有光，再让锅里有热气。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "两把旧伞撑开，给约好的人留座。",
+      "en": "Open the two old umbrellas and save\nthe promised seats."
     },
     "Title23": {
       "zh": "河灯照归途",
       "en": "河灯照归途"
     },
     "SubTitle23": {
-      "zh": "热汤之外，还要给客人一处避雨地。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "送灯的客人要过河，先把岸边照亮。",
+      "en": "The lantern-bearers need to cross.\nLight the riverbank first."
     },
     "Title24": {
       "zh": "纸符护小路",
       "en": "纸符护小路"
     },
     "SubTitle24": {
-      "zh": "把清水送到亮处，渡口就有人停步。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "小路通着荒坟，符绳系好，给行人留缝。",
+      "en": "The path leads past old graves. Tie\nthe charms and leave a gap to pass."
     },
     "Title25": {
       "zh": "锅边叙旧夜",
       "en": "锅边叙旧夜"
     },
     "SubTitle25": {
-      "zh": "一面帘、一根符绳，给纸客留个安静角。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "旧友们要来叙旧，大锅洗净，多备几个碗。",
+      "en": "Old friends are coming. Wash the big\npot and bring more bowls."
     },
     "Title26": {
       "zh": "秋风摆旧货",
       "en": "秋风摆旧货"
     },
     "SubTitle26": {
-      "zh": "锅和风琴都摆好，今晚来客爱热闹。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "秋风起了，布压住，旧货按轻重排。",
+      "en": "The autumn wind's up. Weigh down the\ncloth and sort the wares."
     },
     "Title27": {
       "zh": "五巷同开张",
       "en": "五巷同开张"
     },
     "SubTitle27": {
-      "zh": "雨打棚角，灯要先站稳。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "五条巷今晚一起开摊，各摊听见铃就准备。",
+      "en": "All five lanes open tonight. Every\nstall gets ready when the bell\nrings."
     },
     "Title28": {
       "zh": "鬼门前最后一摊",
       "en": "鬼门前最后一摊"
     },
     "SubTitle28": {
-      "zh": "两种手艺在同一张桌上相遇。",
-      "en": "Prepare the stall and greet the creatures of the night."
+      "zh": "摆在鬼门前，灯、汤和回去的路都要备好。",
+      "en": "By the ghost gate, have the lamps,\nsoup and way home ready."
     }
   },
   "cards": [
@@ -1711,7 +1712,7 @@
       "repair": "",
       "picture": "SNDGuy",
       "name": "阿铃·快工",
-      "description": "在岗工作 2 轮，完成一项招徕筹备。"
+      "description": "干活 2 轮，完成一项招客工作。"
     },
     {
       "id": 2,
@@ -1723,7 +1724,7 @@
       "repair": "",
       "picture": "SNDGirl",
       "name": "小哨·快工",
-      "description": "在岗工作 2 轮，完成一项招徕筹备。"
+      "description": "干活 2 轮，完成一项招客工作。"
     },
     {
       "id": 3,
@@ -1735,7 +1736,7 @@
       "repair": "",
       "picture": "SNDGuy",
       "name": "鼓豆·慢工",
-      "description": "在岗工作 4 轮，完成一项招徕筹备。"
+      "description": "干活 4 轮，完成一项招客工作。"
     },
     {
       "id": 4,
@@ -1747,7 +1748,7 @@
       "repair": "",
       "picture": "SNDGuy",
       "name": "柳声·慢工",
-      "description": "在岗工作 4 轮，完成一项招徕筹备。"
+      "description": "干活 4 轮，完成一项招客工作。"
     },
     {
       "id": 5,
@@ -1759,7 +1760,7 @@
       "repair": "",
       "picture": "SNDGirl",
       "name": "铜姨·快工",
-      "description": "在岗工作 2 轮，完成一项招徕筹备。"
+      "description": "干活 2 轮，完成一项招客工作。"
     },
     {
       "id": 6,
@@ -1771,7 +1772,7 @@
       "repair": "",
       "picture": "SNDGirl",
       "name": "苔笛·慢工",
-      "description": "在岗工作 4 轮，完成一项招徕筹备。"
+      "description": "干活 4 轮，完成一项招客工作。"
     },
     {
       "id": 7,
@@ -1783,7 +1784,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "锅青·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 8,
@@ -1795,7 +1796,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "火栗·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 9,
@@ -1807,7 +1808,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "面团·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 10,
@@ -1819,7 +1820,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "荷婶·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 11,
@@ -1831,7 +1832,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "盐尾·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 12,
@@ -1843,7 +1844,7 @@
       "repair": "",
       "picture": "PRGGirl",
       "name": "炭伯·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 13,
@@ -1855,7 +1856,7 @@
       "repair": "",
       "picture": "PRGGirl",
       "name": "姜黄·快工",
-      "description": "在岗工作 2 轮，完成一项料理筹备。"
+      "description": "干活 2 轮，完成一项备餐工作。"
     },
     {
       "id": 14,
@@ -1867,7 +1868,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "米满·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 15,
@@ -1879,7 +1880,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "汤白·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 16,
@@ -1891,7 +1892,7 @@
       "repair": "",
       "picture": "PRGGirl",
       "name": "藕节·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 17,
@@ -1903,7 +1904,7 @@
       "repair": "",
       "picture": "PRGGirl",
       "name": "椒九·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 18,
@@ -1915,7 +1916,7 @@
       "repair": "",
       "picture": "PRGGuy",
       "name": "灶婆·慢工",
-      "description": "在岗工作 4 轮，完成一项料理筹备。"
+      "description": "干活 4 轮，完成一项备餐工作。"
     },
     {
       "id": 19,
@@ -1927,7 +1928,7 @@
       "repair": "",
       "picture": "DSGGirl",
       "name": "筐子·快工",
-      "description": "在岗工作 2 轮，完成一项备货筹备。"
+      "description": "干活 2 轮，完成一项备货工作。"
     },
     {
       "id": 20,
@@ -1939,7 +1940,7 @@
       "repair": "",
       "picture": "DSGGirl",
       "name": "苇舟·快工",
-      "description": "在岗工作 2 轮，完成一项备货筹备。"
+      "description": "干活 2 轮，完成一项备货工作。"
     },
     {
       "id": 21,
@@ -1951,7 +1952,7 @@
       "repair": "",
       "picture": "DSGGuy",
       "name": "账梨·快工",
-      "description": "在岗工作 2 轮，完成一项备货筹备。"
+      "description": "干活 2 轮，完成一项备货工作。"
     },
     {
       "id": 22,
@@ -1963,7 +1964,7 @@
       "repair": "",
       "picture": "DSGGuy",
       "name": "石背·慢工",
-      "description": "在岗工作 4 轮，完成一项备货筹备。"
+      "description": "干活 4 轮，完成一项备货工作。"
     },
     {
       "id": 23,
@@ -1975,7 +1976,7 @@
       "repair": "",
       "picture": "DSGGirl",
       "name": "麻绳·慢工",
-      "description": "在岗工作 4 轮，完成一项备货筹备。"
+      "description": "干活 4 轮，完成一项备货工作。"
     },
     {
       "id": 24,
@@ -1987,7 +1988,7 @@
       "repair": "",
       "picture": "DSGGuy",
       "name": "纸秤·慢工",
-      "description": "在岗工作 4 轮，完成一项备货筹备。"
+      "description": "干活 4 轮，完成一项备货工作。"
     },
     {
       "id": 25,
@@ -1999,7 +2000,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "灯芽·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 26,
@@ -2011,7 +2012,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "布云·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 27,
@@ -2023,7 +2024,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "墨角·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 28,
@@ -2035,7 +2036,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "伞扣·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 29,
@@ -2047,7 +2048,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "绣点·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 30,
@@ -2059,7 +2060,7 @@
       "repair": "",
       "picture": "ARTGuy",
       "name": "竹影·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 31,
@@ -2071,7 +2072,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "漆月·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 32,
@@ -2083,7 +2084,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "帘子·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 33,
@@ -2095,7 +2096,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "瓦圆·快工",
-      "description": "在岗工作 2 轮，完成一项灯饰筹备。"
+      "description": "干活 2 轮，完成一项挂灯工作。"
     },
     {
       "id": 34,
@@ -2107,7 +2108,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "线雀·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 35,
@@ -2119,7 +2120,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "叶牌·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 36,
@@ -2131,7 +2132,7 @@
       "repair": "",
       "picture": "ARTGirl",
       "name": "色婆·慢工",
-      "description": "在岗工作 4 轮，完成一项灯饰筹备。"
+      "description": "干活 4 轮，完成一项挂灯工作。"
     },
     {
       "id": 37,
@@ -2143,7 +2144,7 @@
       "repair": "",
       "picture": "TSTGirl",
       "name": "符青·快工",
-      "description": "在岗工作 2 轮，完成一项护阵筹备。"
+      "description": "干活 2 轮，完成一项布符工作。"
     },
     {
       "id": 38,
@@ -2155,7 +2156,7 @@
       "repair": "",
       "picture": "TSTGuy",
       "name": "门石·快工",
-      "description": "在岗工作 2 轮，完成一项护阵筹备。"
+      "description": "干活 2 轮，完成一项布符工作。"
     },
     {
       "id": 39,
@@ -2167,7 +2168,7 @@
       "repair": "",
       "picture": "TSTGuy",
       "name": "绳七·快工",
-      "description": "在岗工作 2 轮，完成一项护阵筹备。"
+      "description": "干活 2 轮，完成一项布符工作。"
     },
     {
       "id": 40,
@@ -2179,7 +2180,7 @@
       "repair": "",
       "picture": "TSTGuy",
       "name": "夜巡·慢工",
-      "description": "在岗工作 4 轮，完成一项护阵筹备。"
+      "description": "干活 4 轮，完成一项布符工作。"
     },
     {
       "id": 41,
@@ -2191,7 +2192,7 @@
       "repair": "",
       "picture": "TSTGirl",
       "name": "砂眼·慢工",
-      "description": "在岗工作 4 轮，完成一项护阵筹备。"
+      "description": "干活 4 轮，完成一项布符工作。"
     },
     {
       "id": 42,
@@ -2203,7 +2204,7 @@
       "repair": "",
       "picture": "TSTGirl",
       "name": "印婆·慢工",
-      "description": "在岗工作 4 轮，完成一项护阵筹备。"
+      "description": "干活 4 轮，完成一项布符工作。"
     },
     {
       "id": 43,
@@ -2215,7 +2216,7 @@
       "repair": "",
       "picture": "Meeting",
       "name": "小鬼闹场",
-      "description": "隔壁的所有岗位停工 1 轮。"
+      "description": "隔壁的所有岗位帮工停工 1 轮。"
     },
     {
       "id": 44,
@@ -2227,7 +2228,7 @@
       "repair": "",
       "picture": "Light Off",
       "name": "阴雨漏棚",
-      "description": "隔壁的所有岗位停工 2 轮。"
+      "description": "隔壁的所有岗位帮工停工 2 轮。"
     },
     {
       "id": 45,
@@ -2239,7 +2240,7 @@
       "repair": "",
       "picture": "Light Off",
       "name": "暴雨封街",
-      "description": "隔壁的所有岗位停工 3 轮。"
+      "description": "隔壁的所有岗位帮工停工 3 轮。"
     },
     {
       "id": 46,
@@ -2251,7 +2252,7 @@
       "repair": "",
       "picture": "Attack",
       "name": "无名怪风",
-      "description": "隔壁的所有岗位停工 1 轮。"
+      "description": "隔壁的所有岗位帮工停工 1 轮。"
     },
     {
       "id": 47,
@@ -2263,7 +2264,7 @@
       "repair": "",
       "picture": "Crash",
       "name": "灯线短路",
-      "description": "隔壁的所有岗位停工 2 轮。"
+      "description": "隔壁的所有岗位帮工停工 2 轮。"
     },
     {
       "id": 48,
@@ -2275,7 +2276,7 @@
       "repair": "",
       "picture": "Crash",
       "name": "灯芯熄灭",
-      "description": "隔壁的所有岗位停工 1 轮。"
+      "description": "隔壁的所有岗位帮工停工 1 轮。"
     },
     {
       "id": 49,
@@ -2287,7 +2288,7 @@
       "repair": "",
       "picture": "Light Off",
       "name": "河雾淹摊",
-      "description": "隔壁的所有岗位停工 3 轮。"
+      "description": "隔壁的所有岗位帮工停工 3 轮。"
     },
     {
       "id": 50,
@@ -2299,7 +2300,7 @@
       "repair": "",
       "picture": "Light Off",
       "name": "伞海堵门",
-      "description": "隔壁的所有岗位停工 2 轮。"
+      "description": "隔壁的所有岗位帮工停工 2 轮。"
     },
     {
       "id": 51,
@@ -2311,7 +2312,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "嗓子冒烟",
-      "description": "隔壁的招徕停工 1 轮。"
+      "description": "隔壁的招客帮工停工 1 轮。"
     },
     {
       "id": 52,
@@ -2323,7 +2324,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "铜铃失声",
-      "description": "隔壁的招徕停工 1 轮。"
+      "description": "隔壁的招客帮工停工 1 轮。"
     },
     {
       "id": 53,
@@ -2335,7 +2336,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "锅底结冰",
-      "description": "隔壁的料理停工 1 轮。"
+      "description": "隔壁的备餐帮工停工 1 轮。"
     },
     {
       "id": 54,
@@ -2347,7 +2348,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "灶火离家",
-      "description": "隔壁的料理停工 1 轮。"
+      "description": "隔壁的备餐帮工停工 1 轮。"
     },
     {
       "id": 55,
@@ -2359,7 +2360,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "汤勺打结",
-      "description": "隔壁的料理停工 1 轮。"
+      "description": "隔壁的备餐帮工停工 1 轮。"
     },
     {
       "id": 56,
@@ -2371,7 +2372,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "货单迷路",
-      "description": "隔壁的备货停工 1 轮。"
+      "description": "隔壁的备货帮工停工 1 轮。"
     },
     {
       "id": 57,
@@ -2383,7 +2384,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "筐底漏风",
-      "description": "隔壁的备货停工 1 轮。"
+      "description": "隔壁的备货帮工停工 1 轮。"
     },
     {
       "id": 58,
@@ -2395,7 +2396,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "灯笼乱跑",
-      "description": "隔壁的灯饰停工 1 轮。"
+      "description": "隔壁的挂灯帮工停工 1 轮。"
     },
     {
       "id": 59,
@@ -2407,7 +2408,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "彩布褪色",
-      "description": "隔壁的灯饰停工 1 轮。"
+      "description": "隔壁的挂灯帮工停工 1 轮。"
     },
     {
       "id": 60,
@@ -2419,7 +2420,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "招牌倒挂",
-      "description": "隔壁的灯饰停工 1 轮。"
+      "description": "隔壁的挂灯帮工停工 1 轮。"
     },
     {
       "id": 61,
@@ -2431,7 +2432,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "符绳打结",
-      "description": "隔壁的护阵停工 1 轮。"
+      "description": "隔壁的布符帮工停工 1 轮。"
     },
     {
       "id": 62,
@@ -2443,7 +2444,7 @@
       "repair": "",
       "picture": "Bug",
       "name": "安检瞌睡",
-      "description": "隔壁的护阵停工 1 轮。"
+      "description": "隔壁的布符帮工停工 1 轮。"
     },
     {
       "id": 63,
@@ -2455,7 +2456,7 @@
       "repair": "",
       "picture": "Hunger",
       "name": "隔摊借工",
-      "description": "选一名隔壁在岗帮工，挖到己方空位。"
+      "description": "选隔壁一名在岗帮工，带到自己的空位。"
     },
     {
       "id": 64,
@@ -2467,7 +2468,7 @@
       "repair": "",
       "picture": "Hunger",
       "name": "铃诱跳槽",
-      "description": "选一名隔壁在岗帮工，挖到己方空位。"
+      "description": "选隔壁一名在岗帮工，带到自己的空位。"
     },
     {
       "id": 65,
@@ -2479,7 +2480,7 @@
       "repair": "",
       "picture": "Sick",
       "name": "送回歇息",
-      "description": "选一名隔壁在岗帮工，退回隔壁手牌。"
+      "description": "选隔壁一名在岗帮工，让他回到隔壁手牌。"
     },
     {
       "id": 66,
@@ -2490,8 +2491,8 @@
       "amount": 0,
       "repair": "",
       "picture": "Holidays",
-      "name": "热汤请假",
-      "description": "选一名隔壁在岗帮工，退回隔壁手牌。"
+      "name": "灯会请假",
+      "description": "选隔壁一名在岗帮工，让他回到隔壁手牌。"
     },
     {
       "id": 67,
@@ -2503,7 +2504,7 @@
       "repair": "",
       "picture": "Resignation",
       "name": "闹脾气回家",
-      "description": "选一名隔壁在岗帮工，让其离岗进弃牌堆。"
+      "description": "选隔壁一名在岗帮工，将这张牌弃掉。"
     },
     {
       "id": 68,
@@ -2515,7 +2516,7 @@
       "repair": "",
       "picture": "Door",
       "name": "解散小工",
-      "description": "选一名隔壁在岗帮工，让其离岗进弃牌堆。"
+      "description": "选隔壁一名在岗帮工，将这张牌弃掉。"
     },
     {
       "id": 69,
@@ -2527,7 +2528,7 @@
       "repair": "",
       "picture": "All forward",
       "name": "齐心搭把手",
-      "description": "让己方所有未受阻帮工推进一次工作。"
+      "description": "自己所有没被闹场拦住的帮工各干一次活。"
     },
     {
       "id": 70,
@@ -2539,7 +2540,7 @@
       "repair": "",
       "picture": "All forward",
       "name": "趁月赶工",
-      "description": "让己方所有未受阻帮工推进一次工作。"
+      "description": "自己所有没被闹场拦住的帮工各干一次活。"
     },
     {
       "id": 71,
@@ -2551,7 +2552,7 @@
       "repair": "",
       "picture": "All forward",
       "name": "顺风开干",
-      "description": "让己方所有未受阻帮工推进一次工作。"
+      "description": "自己所有没被闹场拦住的帮工各干一次活。"
     },
     {
       "id": 72,
@@ -2563,7 +2564,7 @@
       "repair": "",
       "picture": "All finish",
       "name": "百妖搭棚",
-      "description": "让己方所有未受阻帮工立即完成当前工作。"
+      "description": "自己所有没被闹场拦住的帮工立即完工。"
     },
     {
       "id": 73,
@@ -2575,7 +2576,7 @@
       "repair": "",
       "picture": "All finish",
       "name": "邻摊来帮",
-      "description": "让己方所有未受阻帮工立即完成当前工作。"
+      "description": "自己所有没被闹场拦住的帮工立即完工。"
     },
     {
       "id": 74,
@@ -2587,7 +2588,7 @@
       "repair": "",
       "picture": "All finish",
       "name": "一夜收齐",
-      "description": "让己方所有未受阻帮工立即完成当前工作。"
+      "description": "自己所有没被闹场拦住的帮工立即完工。"
     },
     {
       "id": 75,
@@ -2599,7 +2600,7 @@
       "repair": "",
       "picture": "All finish",
       "name": "旧物显灵",
-      "description": "让己方所有未受阻帮工立即完成当前工作。"
+      "description": "自己所有没被闹场拦住的帮工立即完工。"
     },
     {
       "id": 76,
@@ -2611,7 +2612,7 @@
       "repair": "",
       "picture": "All depts",
       "name": "随手好活",
-      "description": "本轮可以招募任意岗位的帮工。"
+      "description": "本轮可以招任意岗位的帮工。"
     },
     {
       "id": 77,
@@ -2623,7 +2624,7 @@
       "repair": "",
       "picture": "All depts",
       "name": "跨摊支援",
-      "description": "本轮可以招募任意岗位的帮工。"
+      "description": "本轮可以招任意岗位的帮工。"
     },
     {
       "id": 78,
@@ -2635,7 +2636,7 @@
       "repair": "",
       "picture": "All depts",
       "name": "多面帮工",
-      "description": "本轮可以招募任意岗位的帮工。"
+      "description": "本轮可以招任意岗位的帮工。"
     },
     {
       "id": 79,
@@ -2647,7 +2648,7 @@
       "repair": "",
       "picture": "List",
       "name": "以小见好",
-      "description": "选择己方一个岗位，委托需求减少一项。"
+      "description": "选自己的一个岗位，少做一项就能开摊。"
     },
     {
       "id": 80,
@@ -2659,7 +2660,7 @@
       "repair": "",
       "picture": "List",
       "name": "减一道手续",
-      "description": "选择己方一个岗位，委托需求减少一项。"
+      "description": "选自己的一个岗位，少做一项就能开摊。"
     },
     {
       "id": 81,
@@ -2671,7 +2672,7 @@
       "repair": "",
       "picture": "List",
       "name": "够用就行",
-      "description": "选择己方一个岗位，委托需求减少一项。"
+      "description": "选自己的一个岗位，少做一项就能开摊。"
     },
     {
       "id": 82,
@@ -2683,7 +2684,7 @@
       "repair": "44|45|49|50",
       "picture": "ITGuy",
       "name": "补雨布",
-      "description": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
+      "description": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
     },
     {
       "id": 83,
@@ -2695,7 +2696,7 @@
       "repair": "44|45|49|50",
       "picture": "ITGuy",
       "name": "扎好棚角",
-      "description": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
+      "description": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
     },
     {
       "id": 84,
@@ -2707,7 +2708,7 @@
       "repair": "44|45|49|50",
       "picture": "ITGuy",
       "name": "疏开水路",
-      "description": "修补匹配的闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
+      "description": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。"
     },
     {
       "id": 85,
@@ -2719,7 +2720,7 @@
       "repair": "47|48",
       "picture": "ITGirl",
       "name": "换灯芯",
-      "description": "修补匹配的闹场：灯线短路或灯芯熄灭。"
+      "description": "解除这些闹场：灯线短路或灯芯熄灭。"
     },
     {
       "id": 86,
@@ -2731,7 +2732,7 @@
       "repair": "47|48",
       "picture": "ITGirl",
       "name": "接好灯线",
-      "description": "修补匹配的闹场：灯线短路或灯芯熄灭。"
+      "description": "解除这些闹场：灯线短路或灯芯熄灭。"
     },
     {
       "id": 87,
@@ -2743,7 +2744,7 @@
       "repair": "",
       "picture": "Negotiator",
       "name": "狸掌柜说和",
-      "description": "巡街牌来临时，可在倒计时内反制；\n双方牌离场。"
+      "description": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。"
     },
     {
       "id": 88,
@@ -2755,7 +2756,7 @@
       "repair": "",
       "picture": "Negotiator",
       "name": "纸书记调停",
-      "description": "巡街牌来临时，可在倒计时内反制；\n双方牌离场。"
+      "description": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。"
     },
     {
       "id": 89,
@@ -2766,8 +2767,8 @@
       "amount": 2,
       "repair": "",
       "picture": "Phone",
-      "name": "加一道热食",
-      "description": "隔壁料理委托需求增加 2 项。"
+      "name": "添两锅热食",
+      "description": "隔壁的备餐工作要多做 2 项。"
     },
     {
       "id": 90,
@@ -2779,7 +2780,7 @@
       "repair": "",
       "picture": "Phone",
       "name": "加一批货架",
-      "description": "隔壁备货委托需求增加 1 项。"
+      "description": "隔壁的备货工作要多做 1 项。"
     },
     {
       "id": 91,
@@ -2790,8 +2791,8 @@
       "amount": 2,
       "repair": "",
       "picture": "Phone",
-      "name": "加一组灯彩",
-      "description": "隔壁灯饰委托需求增加 2 项。"
+      "name": "添两组灯彩",
+      "description": "隔壁的挂灯工作要多做 2 项。"
     },
     {
       "id": 92,
@@ -2802,8 +2803,8 @@
       "amount": 1,
       "repair": "",
       "picture": "Phone",
-      "name": "加一轮巡摊",
-      "description": "隔壁护阵委托需求增加 1 项。"
+      "name": "再巡一遍",
+      "description": "隔壁的布符工作要多做 1 项。"
     },
     {
       "id": 93,
@@ -2814,8 +2815,8 @@
       "amount": 1,
       "repair": "",
       "picture": "Phone",
-      "name": "加一阵招呼",
-      "description": "隔壁招徕委托需求增加 1 项。"
+      "name": "再吆喝一轮",
+      "description": "隔壁的招客工作要多做 1 项。"
     },
     {
       "id": 94,
@@ -2827,7 +2828,7 @@
       "repair": "",
       "picture": "Phone",
       "name": "门牌复查",
-      "description": "选择隔壁一个已有成果的岗位，\n已完成工作减少一项。"
+      "description": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。"
     },
     {
       "id": 95,
@@ -2839,7 +2840,7 @@
       "repair": "",
       "picture": "Phone",
       "name": "通路复核",
-      "description": "选择隔壁一个已有成果的岗位，\n已完成工作减少一项。"
+      "description": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。"
     }
   ],
   "companies": [

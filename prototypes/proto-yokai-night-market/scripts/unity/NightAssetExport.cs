@@ -19,6 +19,10 @@ public static class NightAssetExport
     {
         ExportSet(new[]{"CARD_00_Background","CARD_Selection_Background","CARD_Score","PRJ_Dot","PRJ_Dot 1"});
     }
+    public static void ExportReadabilityFix()
+    {
+        ExportSet(new[]{"CARD_03_DetailsTop","PRJ_CARD_01_Base_Project"});
+    }
     static void ExportSet(string[] selected)
     {
         string root=Path.GetFullPath("../..");

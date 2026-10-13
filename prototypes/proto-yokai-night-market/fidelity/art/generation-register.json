@@ -559,11 +559,11 @@
     {
       "name": "CARD_03_DetailsTop",
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
-      "rawSHA256": "fcb49b0202220672867d7fea87985301370d4e0dfbd5fcaf9428a62b40fada9e",
+      "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
       "prompt": "fidelity/art/prompts/CARD_03_DetailsTop.txt",
-      "promptSHA256": "c4da60ce6ecfeb7325fea39ba7d99dadb500f24f839f258f39a764830bc93129",
+      "promptSHA256": "76c272c70a94c918d8fb09dd655fd6a749a38a329028eb7289faa3ecc37947ab",
       "rawSize": [
-        1532,
+        1531,
         1027
       ],
       "targetSize": [
@@ -575,9 +575,11 @@
         255
       ],
       "transparentRequested": true,
-      "references": [],
-      "generatedAt": "2026-10-12T20:49:42.581836+08:00",
-      "toolOutputFile": "exec-4967000a-03af-4b77-870f-b7c2022f3f8b.png",
+      "references": [
+        "fidelity/art/revisions/CARD_03_DetailsTop.raw.fcb49b020222.png"
+      ],
+      "generatedAt": "2026-10-13T01:52:38.762622+00:00",
+      "toolOutputFile": "exec-868da8cd-296e-4476-97a1-67706b0dc9bc.png",
       "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
     },
     {
@@ -1353,11 +1355,11 @@
     {
       "name": "PRJ_CARD_01_Base_Project",
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
-      "rawSHA256": "f2c9aefb90c1dd35d30ab7d5022ab3dc4820c9942effe1721e3ace4ca27fc787",
+      "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
       "prompt": "fidelity/art/prompts/PRJ_CARD_01_Base_Project.txt",
-      "promptSHA256": "52819fe1f1a13a71cdf76348c3255159d4df84dafd71d75f08d87133f38bbdcc",
+      "promptSHA256": "17b28840522feaeeb8ec372173dcb32180c3ad69b94992f9948c8802f7bd0cef",
       "rawSize": [
-        1453,
+        1452,
         1083
       ],
       "targetSize": [
@@ -1369,9 +1371,11 @@
         255
       ],
       "transparentRequested": true,
-      "references": [],
-      "generatedAt": "2026-10-12T20:44:05.385671+08:00",
-      "toolOutputFile": "exec-40060b3c-f434-4ce6-84c2-3988e001941e.png",
+      "references": [
+        "fidelity/art/revisions/PRJ_CARD_01_Base_Project.raw.f2c9aefb90c1.png"
+      ],
+      "generatedAt": "2026-10-13T01:52:39.057341+00:00",
+      "toolOutputFile": "exec-b37a9c93-af51-4b6e-b870-08eac842f9b8.png",
       "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
     },
     {
@@ -2024,6 +2028,54 @@
       "toolOutputFile": "exec-302c1da0-d2ed-4d32-bff9-19df9a0308c5.png",
       "review": "generated image visually inspected; runtime fit pending",
       "oldPromptArchive": "fidelity/art/revisions/CARD_01_BaseTop.prompt.10c053d6b41f.txt"
+    },
+    {
+      "name": "CARD_03_DetailsTop",
+      "raw": "fidelity/art/revisions/CARD_03_DetailsTop.raw.fcb49b020222.png",
+      "rawSHA256": "fcb49b0202220672867d7fea87985301370d4e0dfbd5fcaf9428a62b40fada9e",
+      "prompt": "fidelity/art/revisions/CARD_03_DetailsTop.c4da60ce6ecf.txt",
+      "promptSHA256": "c4da60ce6ecfeb7325fea39ba7d99dadb500f24f839f258f39a764830bc93129",
+      "rawSize": [
+        1532,
+        1027
+      ],
+      "targetSize": [
+        1240,
+        831
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:49:42.581836+08:00",
+      "toolOutputFile": "exec-4967000a-03af-4b77-870f-b7c2022f3f8b.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+    },
+    {
+      "name": "PRJ_CARD_01_Base_Project",
+      "raw": "fidelity/art/revisions/PRJ_CARD_01_Base_Project.raw.f2c9aefb90c1.png",
+      "rawSHA256": "f2c9aefb90c1dd35d30ab7d5022ab3dc4820c9942effe1721e3ace4ca27fc787",
+      "prompt": "fidelity/art/revisions/PRJ_CARD_01_Base_Project.52819fe1f1a1.txt",
+      "promptSHA256": "52819fe1f1a13a71cdf76348c3255159d4df84dafd71d75f08d87133f38bbdcc",
+      "rawSize": [
+        1453,
+        1083
+      ],
+      "targetSize": [
+        1240,
+        924
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentRequested": true,
+      "references": [],
+      "generatedAt": "2026-10-12T20:44:05.385671+08:00",
+      "toolOutputFile": "exec-40060b3c-f434-4ce6-84c2-3988e001941e.png",
+      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
     }
   ]
 }

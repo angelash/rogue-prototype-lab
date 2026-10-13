@@ -628,8 +628,8 @@
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_CARD_01_Base_Project.txt",
       "kind": "interface",
-      "rawSHA256": "f2c9aefb90c1dd35d30ab7d5022ab3dc4820c9942effe1721e3ace4ca27fc787",
-      "runtimeSHA256": "62afcfab2481c2cd0cae0ea70e147c976eb16cdf9735d46ede60fa30667bf39a"
+      "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
+      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22"
     },
     {
       "id": "sharedassets0.assets:55",
@@ -852,8 +852,8 @@
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "prompt": "fidelity/art/prompts/CARD_03_DetailsTop.txt",
       "kind": "interface",
-      "rawSHA256": "fcb49b0202220672867d7fea87985301370d4e0dfbd5fcaf9428a62b40fada9e",
-      "runtimeSHA256": "b86210586955a8caa2418c14ab260d85d2fb1a5dc456228e103018d61ca621fe"
+      "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
+      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd"
     },
     {
       "id": "sharedassets0.assets:75",

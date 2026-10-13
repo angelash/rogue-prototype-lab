@@ -53,6 +53,14 @@
       "passed": true
     },
     {
+      "name": "All 95 bilingual quotes and 28 bilingual project subtitles match the authoring source without repeated filler",
+      "passed": true
+    },
+    {
+      "name": "Declared text and worker-label colors are synchronized in recovery input, scene, prefabs and materials",
+      "passed": true
+    },
+    {
       "name": "Chinese font covers every replacement text character",
       "passed": true,
       "missingCodePoints": [],
@@ -73,7 +81,9 @@
       "passed": true,
       "ownEditReferences": [
         "fidelity/art/revisions/CARD_01_BaseTop.raw.10c053d6b41f.png",
-        "fidelity/art/revisions/CARD_Score.raw.b9094e399310.png"
+        "fidelity/art/revisions/CARD_03_DetailsTop.raw.fcb49b020222.png",
+        "fidelity/art/revisions/CARD_Score.raw.b9094e399310.png",
+        "fidelity/art/revisions/PRJ_CARD_01_Base_Project.raw.f2c9aefb90c1.png"
       ]
     },
     {
@@ -291,7 +301,12 @@
   "originalTools": [
     {
       "file": "scripts/unity/NightAssetExport.cs",
-      "sha256LF": "311754e13ccb8c8dcefd9b3da1e18f812fa590d41e4bd7f21996550650358577",
+      "sha256LF": "97a1d6cafaccdff489a3639c1b73d77d10f43bf2f8596fe95c220633bb649b2a",
+      "sameRuntimeSource": true
+    },
+    {
+      "file": "scripts/unity/NightReadability.cs",
+      "sha256LF": "9f9d270c6dc87e196cde90cb7673c6456fc82eac8a64c34217cbd78728b5fc30",
       "sameRuntimeSource": true
     },
     {
@@ -316,7 +331,7 @@
     },
     {
       "file": "scripts/runtime/NightVisualProbe.cs",
-      "sha256LF": "dc2352e832740861a36145e2aff2390fc132c5fc87f641a353258b56ea92f4f1",
+      "sha256LF": "05e9c428759a1f805fd7c30c326dc7d6affc7cb78c005c4eeee905c9eb6b4eab",
       "sameRuntimeSource": true
     }
   ],
@@ -1082,8 +1097,8 @@
         0,
         255
       ],
-      "rawSHA256": "f2c9aefb90c1dd35d30ab7d5022ab3dc4820c9942effe1721e3ace4ca27fc787",
-      "runtimeSHA256": "62afcfab2481c2cd0cae0ea70e147c976eb16cdf9735d46ede60fa30667bf39a",
+      "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
+      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22",
       "originalReferencePNG_SHA256": "f39cbad36c8d713312c3c9fee2672582dd68332837048b7d1d45594f84c455b4"
     },
     {
@@ -1354,8 +1369,8 @@
         0,
         255
       ],
-      "rawSHA256": "fcb49b0202220672867d7fea87985301370d4e0dfbd5fcaf9428a62b40fada9e",
-      "runtimeSHA256": "b86210586955a8caa2418c14ab260d85d2fb1a5dc456228e103018d61ca621fe",
+      "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
+      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd",
       "originalReferencePNG_SHA256": "9e04d1d58b8c6a5d395df14392560d97b2d4a5ff0f35b91cd3b12f31f046dbae"
     },
     {

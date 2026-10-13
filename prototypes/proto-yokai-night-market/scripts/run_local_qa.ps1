@@ -1,5 +1,5 @@
 # Isolated command-line QA only. This script performs no native window input.
-param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$FlowOnly)
+param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$VisualOnly, [switch]$EnglishSurvey, [switch]$FlowOnly)
 $ErrorActionPreference = 'Stop'
 $taskRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $taskLocal = Join-Path $taskRoot 'local'
@@ -14,13 +14,15 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     if (Test-Path -LiteralPath $archive) { throw ('Preserve existing evidence: ' + $archive) }
     $log = Join-Path $taskLocal ($archiveName + '-final.log')
     $started = Get-Date
-    $process = Start-Process -FilePath $qaPlayer -ArgumentList @('-batchmode', $flag, '-screen-width', "$width", '-screen-height', '1080', '-screen-fullscreen', '1', '-logFile', ('"' + $log + '"')) -WindowStyle Hidden -PassThru -Wait
+    $arguments = @('-batchmode', $flag, '-screen-width', "$width", '-screen-height', '1080', '-screen-fullscreen', '1', '-logFile', ('"' + $log + '"'))
+    if ($EnglishSurvey -and $flag -eq '--night-visual') { $arguments += '--night-visual-en' }
+    $process = Start-Process -FilePath $qaPlayer -ArgumentList $arguments -WindowStyle Hidden -PassThru -Wait
     if ($process.ExitCode -ne 0) { throw ($archiveName + ' exited with ' + $process.ExitCode) }
     $reportPath = Join-Path $qaRoot ($reportFolder + '/' + $reportName)
     if ((Get-Item -LiteralPath $reportPath).LastWriteTime -lt $started) { throw 'Stale QA report' }
     $report = Get-Content -LiteralPath $reportPath -Raw | ConvertFrom-Json
     if (!$report.passed -or $report.errors.Count -ne 0 -or $report.width -ne $width -or $report.height -ne 1080) { throw ('QA failed: ' + $archiveName) }
-    if ($flag -eq '--night-visual' -and ($report.captures.Count -ne 128 -or $report.tutorialPages -ne 2)) { throw 'Incomplete visual survey' }
+    if ($flag -eq '--night-visual' -and ($report.captures.Count -ne 128 -or $report.tutorialPages -ne 2 -or $report.tutorialTextBoundsChecks -lt 1 -or $report.verifiedCardLanguages -ne 95 -or $report.verifiedProjectLanguages -ne 28 -or $report.language -ne [int]$EnglishSurvey.IsPresent)) { throw 'Incomplete visual or language survey' }
     if ($flag -eq '--night-rules' -and $report.rules.Count -ne 40) { throw 'Incomplete rule suite' }
     if ($flag -eq '--night-flow' -and ($report.checks.Count -ne 15 -or $report.reloads -ne 1)) { throw 'Incomplete replay/settings suite' }
     New-Item -ItemType Directory -Path $archive | Out-Null
@@ -40,6 +42,7 @@ if ($FlowOnly) {
 }
 Run-Check '--night-visual' '16x9' 1920 'visual-evidence' 'report.json' 'visual-complete-16x9' @()
 Run-Check '--night-visual' '4x3' 1440 'visual-evidence' 'report.json' 'visual-complete-4x3' @()
+if ($VisualOnly) { exit 0 }
 if (!$VisualAndMatchOnly) {
     Run-Check '--night-rules' '16x9' 1920 'smoke-evidence' 'rules.json' 'rules' @()
     Run-Check '--night-smoke' '16x9' 1920 'smoke-evidence' 'report.json' 'smoke-16x9' @('opening.png','last.png')

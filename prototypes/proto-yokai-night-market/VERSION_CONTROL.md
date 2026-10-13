@@ -18,3 +18,5 @@ Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 lo
 完整历史备份在根目录 local/git-backups/，可用 `git bundle verify <bundle>` 校验，或 `git clone -b codex/yokai-night-market-source <bundle> <目标目录>` 恢复。此前 v2.2 的源码 zip/Player zip 和结果保持历史原样；Git bundle 包括制作源、测试及参考输入，覆盖范围比旧源码 zip 更完整。具体提交与 bundle hash 见本机版本检查记录及本轮实际交付。
 
 首次完整资产提交 e0b1c7ccfbe862d743191f8efc33d63a5e3acd1a；`local/git-backups/yokai-night-market-source-v2.3.bundle` 为 394,453,117 字节，SHA256 `673ad0a2c245f1a0a210516d6d8e568ba1d1247ba94a87cdaa777b9005c7be38`。已执行 bundle verify、克隆恢复和 git fsck --full；新增流程用例的后续提交另存 final bundle，保留首份备份。
+
+2026-10-13 v2.4 将 game-copy-polish skill、来源摘要、copy.json、presentation.json、修订前生图与提示、当前生图和 Unity 导入副本、可读性导出工具及双语视觉测试一并纳入。报告和截图仍按既有输出规则排除。当前完整历史备份使用根 `local/git-backups/yokai-night-market-source-v2.4-reviewed.bundle`；对应提交、SHA256 与恢复核验登记在同目录 `yokai-night-market-v2.4-record.json`，不覆盖早期备份。

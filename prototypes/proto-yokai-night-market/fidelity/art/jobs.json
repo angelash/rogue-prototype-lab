@@ -584,7 +584,7 @@
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "final": "local/NightArt/PRJ_CARD_01_Base_Project.png",
       "status": "imported_verified",
-      "runtimeSHA256": "62afcfab2481c2cd0cae0ea70e147c976eb16cdf9735d46ede60fa30667bf39a"
+      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22"
     },
     {
       "id": "sharedassets0.assets:55",
@@ -792,7 +792,7 @@
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "final": "local/NightArt/CARD_03_DetailsTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "b86210586955a8caa2418c14ab260d85d2fb1a5dc456228e103018d61ca621fe"
+      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd"
     },
     {
       "id": "sharedassets0.assets:75",

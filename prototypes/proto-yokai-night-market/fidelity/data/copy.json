@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "scope": "Authoring copy only; numeric rules and source lookup keys stay unchanged.",
+  "ui": {
+    "NextTurn": [
+      "结束本轮",
+      "End turn"
+    ],
+    "YourTurn": [
+      "轮到你了",
+      "Your turn"
+    ],
+    "AITurn": [
+      "隔壁正在忙",
+      "Rival's turn"
+    ],
+    "YOURPROJECT": [
+      "我的摊位",
+      "My stall"
+    ],
+    "SelectingProjects": [
+      "抽取开摊委托",
+      "Drawing stall orders"
+    ],
+    "Design": [
+      "备货",
+      "Supplies"
+    ],
+    "Programming": [
+      "备餐",
+      "Food"
+    ],
+    "Art": [
+      "挂灯",
+      "Lanterns"
+    ],
+    "Testing": [
+      "布符",
+      "Wards"
+    ],
+    "Sound": [
+      "招客",
+      "Guests"
+    ],
+    "SOUND DESIGNER": [
+      "招客帮工",
+      "CALLER"
+    ],
+    "SOUND DESIGNERGirl": [
+      "招客帮工",
+      "CALLER"
+    ],
+    "PROGRAMMER": [
+      "备餐帮工",
+      "COOK"
+    ],
+    "PROGRAMMERGirl": [
+      "备餐帮工",
+      "COOK"
+    ],
+    "ARTIST": [
+      "挂灯帮工",
+      "LAMPLIGHTER"
+    ],
+    "TESTER": [
+      "布符帮工",
+      "WARD KEEPER"
+    ],
+    "TESTERGirl": [
+      "布符帮工",
+      "WARD KEEPER"
+    ],
+    "Week": [
+      "轮次",
+      "Turn "
+    ],
+    "TUTO_Obj": [
+      "比隔壁先备好摊位，就算赢。",
+      "Get your stall ready before the rival to win."
+    ],
+    "TUTO_Para": [
+      "双方各抽一份委托。\n数字左边是已做的，右边是要做的。",
+      "Each stall draws an order.\nThe left number is work done; the right is work needed."
+    ],
+    "TUTO_Turno": [
+      "轮到你时，先自动修补、让帮工干活，再补牌。\n接着可以连续出牌，准备好了就结束本轮。",
+      "Your turn starts with repairs, helper work and a draw.\nThen play your cards and end the turn when ready."
+    ],
+    "TUTO_Cada": [
+      "帮工干两轮或四轮，做完一项就离岗。\n本轮先招哪个岗位，后面就只能招这个岗位。",
+      "Helpers finish one task in two or four turns, then leave.\nThe first helper hired sets the department for this turn."
+    ],
+    "TUTO_Termina": [
+      "招客、备餐、备货、挂灯、布符，五栏都做够就开摊。\n哪边先做够，哪边立刻获胜。",
+      "Complete the guests, food, supplies, lanterns and wards.\nThe first stall to meet all five goals wins immediately."
+    ],
+    "TUTO2_Dev": [
+      "帮工：到自己摊位干活，做完一项就离岗。",
+      "Helpers finish a task at your stall, then leave."
+    ],
+    "TUTO2_Neg": [
+      "闹场让隔壁停工；挖角可以带走隔壁的帮工。",
+      "Trouble stops rival work. Interventions move rival helpers."
+    ],
+    "TUTO2_Pos": [
+      "搭把手：帮着赶工、完工，或减少要做的事。",
+      "Helping hands advance or finish work, or reduce goals."
+    ],
+    "TUTO2_Esp": [
+      "修补处理指定闹场；巡街倒计时内可以用调停。",
+      "Repairs fix listed trouble; mediators stop inspections."
+    ],
+    "TUTO2_Juega": [
+      "点牌使用；空格或右键结束本轮，Tab 快进。",
+      "Click to play; Space/right-click: end turn; Tab: speed up."
+    ],
+    "TUTO2_Buena": [
+      "牌都认识了，来开摊吧！",
+      "Use a mediator before time runs out. Let's open the stall!"
+    ],
+    "REASON_2": [
+      "本轮只能再招已选岗位的帮工",
+      "Hire from the department already chosen this turn"
+    ],
+    "REASON_6": [
+      "这位帮工正在隔壁干活",
+      "This helper is already working for the rival"
+    ],
+    "REASON_7": [
+      "没有能继续干活的帮工",
+      "No helper can advance their work"
+    ],
+    "REASON_9": [
+      "没有对应闹场，或已错过调停时机",
+      "No matching trouble, or the mediator window has closed"
+    ]
+  },
+  "names": {
+    "66": "灯会请假",
+    "89": "添两锅热食",
+    "91": "添两组灯彩",
+    "92": "再巡一遍",
+    "93": "再吆喝一轮"
+  },
+  "quotes": [
+    [
+      "铃挂这儿。巷口的人一来，我就摇。",
+      "Hang the bell here. I'll ring it when\nsomeone comes."
+    ],
+    [
+      "喂，里头有热汤！别光在门口闻。",
+      "Hot soup inside! Come in and try it."
+    ],
+    [
+      "我敲三下，你们记得接着喊。",
+      "I'll beat the drum three times. Then you\ncall out."
+    ],
+    [
+      "风往桥头吹，咱们朝那边喊。",
+      "The wind's headed for the bridge. Call\nthat way."
+    ],
+    [
+      "这口旧铃，隔两条巷都听得见。",
+      "They can hear this old bell two streets\naway."
+    ],
+    [
+      "等我吹完这段。客人爱听尾音。",
+      "Let me finish. They like the last few\nnotes."
+    ],
+    [
+      "尝一口？烫，先吹吹。",
+      "Want a taste? Careful, it's hot."
+    ],
+    [
+      "火别添了，这锅已经滚了。",
+      "No more fuel. The pot's already boiling."
+    ],
+    [
+      "别戳了，再戳包子就瘪了。",
+      "Stop poking it. You'll flatten the bun."
+    ],
+    [
+      "先把碗摆好，我这就掀盖。",
+      "Set out the bowls. I'm lifting the lid."
+    ],
+    [
+      "盐放哪儿了？我尾巴底下？",
+      "Where's the salt? Under my tail?"
+    ],
+    [
+      "炭我看着。你去把葱切了。",
+      "I'll watch the coals. You chop the\nspring onions."
+    ],
+    [
+      "这锅添姜，那锅别放，有客人不吃。",
+      "Ginger in this pot, none in that one."
+    ],
+    [
+      "碗递过来，别挡着饭勺。",
+      "Pass me the bowl. Mind the rice scoop."
+    ],
+    [
+      "碗沿擦一擦，汤都洒外头了。",
+      "Wipe the rim. The soup's spilled over."
+    ],
+    [
+      "这段藕留着，切坏了正好下汤。",
+      "Keep that bit of lotus root for the\nsoup."
+    ],
+    [
+      "辣椒另放一碟，谁吃谁添。",
+      "Put the chilli on the side. Let them\nchoose."
+    ],
+    [
+      "锅盖别拿走，我还得焖一会儿。",
+      "Leave the lid. It needs a little longer."
+    ],
+    [
+      "筐别装太满，提手都快断了。",
+      "Don't fill the basket. The handle's\nabout to snap."
+    ],
+    [
+      "这包沾了河水，先摊开晾。",
+      "This parcel got wet. Spread it out to\ndry."
+    ],
+    [
+      "三捆竹竿，四卷布。我再数一遍。",
+      "Three bundles of poles, four rolls of\ncloth. Let me count."
+    ],
+    [
+      "重箱我来。你把门帘掀开。",
+      "I'll take the heavy box. Hold the\ncurtain up."
+    ],
+    [
+      "这个结还得绕一圈，路上别散了。",
+      "One more loop round that knot, or it'll\ncome loose."
+    ],
+    [
+      "等秤杆停稳了再报数。",
+      "Wait for the scales to settle before you\nread it."
+    ],
+    [
+      "左边那盏歪了。再往上提一点。",
+      "The left lantern's crooked. Lift it a\nlittle."
+    ],
+    [
+      "布先拉平，别把褶子缝进去了。",
+      "Pull the cloth flat before you stitch\nit."
+    ],
+    [
+      "墨还没干，别靠在招牌上。",
+      "The ink's wet. Don't lean on the sign."
+    ],
+    [
+      "伞转过来，破洞朝墙。",
+      "Turn the umbrella. Put the hole against\nthe wall."
+    ],
+    [
+      "最后两针。谁也别拽这条边。",
+      "Two stitches left. Nobody pull on that\nedge."
+    ],
+    [
+      "扶一下竹竿，我腾只手绑绳。",
+      "Hold the pole while I tie the rope."
+    ],
+    [
+      "漆了两遍，今晚先别摸。",
+      "Two coats of lacquer. Don't touch it\ntonight."
+    ],
+    [
+      "帘子留条缝，端汤的人得过。",
+      "Leave a gap in the curtain for the soup\nbowls."
+    ],
+    [
+      "轻点敲，这块瓦上回就裂过。",
+      "Tap gently. This tile's cracked before."
+    ],
+    [
+      "线头呢？刚才还在我手里。",
+      "Where's the end of the thread? I just\nhad it."
+    ],
+    [
+      "招牌钉高点，别碰着客人的角。",
+      "Hang the sign higher. Mind the\ncustomers' horns."
+    ],
+    [
+      "这块布褪色了，翻面还能用。",
+      "The cloth's faded. We can use the other\nside."
+    ],
+    [
+      "符贴正了。倒着贴，鬼也看不懂。",
+      "Right way up. Even a ghost can't read it\nupside down."
+    ],
+    [
+      "这块石头挪开，门口要留路。",
+      "Move this stone. Keep the entrance\nclear."
+    ],
+    [
+      "绳留长一点，回头还得解开。",
+      "Leave a longer tail. We'll need to undo\nit later."
+    ],
+    [
+      "我从桥头回来，后巷还得走一趟。",
+      "The bridge is checked. I've still got\nthe back lane."
+    ],
+    [
+      "柜子底下有缝，我蹲下看看。",
+      "There's a gap under the cabinet. Let me\nlook."
+    ],
+    [
+      "印泥没干，别把单子摞一起。",
+      "The seal's still wet. Don't stack the\npapers."
+    ],
+    [
+      "不买，先看看。让我们再挤两只进来。",
+      "Just looking. Make room for two more of\nus."
+    ],
+    [
+      "接雨盆呢？这儿又滴上了。",
+      "Where's the basin? It's dripping again."
+    ],
+    [
+      "桥头全是水，今晚谁也搬不过去。",
+      "The bridge is flooded. Nothing's getting\nacross tonight."
+    ],
+    [
+      "刚摆好的筐呢？追风去吧！",
+      "Where's that basket? Gone with the wind!"
+    ],
+    [
+      "先别碰线，灯还在冒火星。",
+      "Leave that wire. The lamp's still\nsparking."
+    ],
+    [
+      "谁吹的？刚才还亮着呢。",
+      "Who blew it out? It was lit a moment\nago."
+    ],
+    [
+      "雾都钻进筐里了，货往高处搬。",
+      "The mist's in the baskets. Move the\ngoods up."
+    ],
+    [
+      "收一收伞，后面的人过不来了。",
+      "Fold your umbrellas. Nobody can get\nthrough."
+    ],
+    [
+      "咳，咳……今天先别让我喊了。",
+      "Cough, cough... Someone else can call\ntoday."
+    ],
+    [
+      "铃摇得挺响，怎么一点声也没有？",
+      "I'm shaking the bell. Why can't I hear\nit?"
+    ],
+    [
+      "这不是汤块，是整锅冻住了！",
+      "That's no lump of soup. The whole pot's\nfrozen!"
+    ],
+    [
+      "回来！那团火往隔壁跑了！",
+      "Come back! The flame's off to the next\nstall!"
+    ],
+    [
+      "勺柄缠一起了，先别硬拽。",
+      "The ladles are tangled. Don't pull so\nhard."
+    ],
+    [
+      "按这张单子送？上面连摊名都没有。",
+      "Deliver it here? This list has no stall\nname."
+    ],
+    [
+      "少了一把豆子。筐底那个洞呢？",
+      "We're missing some beans. Is that a hole\nin the basket?"
+    ],
+    [
+      "抓住绳！灯笼又往天上跑了。",
+      "Grab the cord! The lantern's flying off\nagain."
+    ],
+    [
+      "昨晚还是红的，一场雨就白了。",
+      "It was red last night. One shower washed\nit white."
+    ],
+    [
+      "难怪没人进来，招牌朝墙挂着呢。",
+      "No wonder it's empty. The sign's facing\nthe wall."
+    ],
+    [
+      "这结谁打的？符全缠里面了。",
+      "Who tied this knot? The charms are\ncaught in it."
+    ],
+    [
+      "醒醒，后巷还没查呢。",
+      "Wake up. The back lane hasn't been\nchecked."
+    ],
+    [
+      "隔壁给你什么？我这儿也能商量。",
+      "What's the other stall offering? We can\ntalk."
+    ],
+    [
+      "听这铃声。来我摊上试试？",
+      "Hear that bell? Fancy working at my\nstall?"
+    ],
+    [
+      "歇会儿吧，活先放着。",
+      "Take a break. The work can wait."
+    ],
+    [
+      "灯会开了？那我先回去一趟。",
+      "The lantern fair's started? I'll head\nhome first."
+    ],
+    [
+      "不干了！这围裙谁爱系谁系。",
+      "I quit! Someone else can wear this\napron."
+    ],
+    [
+      "散了散了，今天不在这儿干了。",
+      "Pack up. We're done working here today."
+    ],
+    [
+      "一人扶一边，喊一二三就抬。",
+      "Take one side each. Lift on three."
+    ],
+    [
+      "月亮还没落，咱们再做一点。",
+      "The moon's still up. We can get a bit\nmore done."
+    ],
+    [
+      "趁风小，赶紧把棚架起来。",
+      "The wind's eased. Get the awning up."
+    ],
+    [
+      "扶的扶，绑的绑，谁也别撒手。",
+      "Hold it, tie it, and nobody let go."
+    ],
+    [
+      "我那边忙完了，过来帮你收尾。",
+      "I'm done over there. I'll help you\nfinish."
+    ],
+    [
+      "缺的都找齐了，摆好就行。",
+      "We've found the missing bits. Set them\nout."
+    ],
+    [
+      "旧架子正好合适，省得再做一个。",
+      "The old stand fits. No need to build\nanother."
+    ],
+    [
+      "我会一点。锅、灯、货，都能搭把手。",
+      "I can help a bit with the pots, lamps or\ngoods."
+    ],
+    [
+      "谁缺人就喊，我这会儿有空。",
+      "Call if you need help. I'm free for a\nwhile."
+    ],
+    [
+      "别光看围裙，我也会挂灯。",
+      "Don't judge by the apron. I can hang\nlanterns too."
+    ],
+    [
+      "这张旧单子还能用，少抄一份。",
+      "This old list will do. No need to copy\nanother."
+    ],
+    [
+      "这项不用重报，划掉吧。",
+      "No need to file this twice. Cross it\nout."
+    ],
+    [
+      "先用现成的，少做一件也够开摊。",
+      "Use what we have. One less job before\nopening."
+    ],
+    [
+      "破口在这儿，垫块布再缝。",
+      "The tear's here. Put a patch under it\nand stitch."
+    ],
+    [
+      "棚角再扎紧点，这回别让雨掀开。",
+      "Tie that corner tight. Keep the rain out\nthis time."
+    ],
+    [
+      "扒开落叶，水就能往沟里走。",
+      "Clear the leaves so the water can drain."
+    ],
+    [
+      "旧灯芯烧完了，换根新的。",
+      "The wick's burnt out. Put a new one in."
+    ],
+    [
+      "断的这头接上，先别开灯。",
+      "Join the broken ends. Leave the lamp off\nfor now."
+    ],
+    [
+      "都先放下单子，咱们当面说。",
+      "Put the papers down. Let's talk face to\nface."
+    ],
+    [
+      "等一下，这条规矩得说清楚。",
+      "Hold on. We need to clear up that rule."
+    ],
+    [
+      "这几样也得上桌，少了不让开。",
+      "These dishes need to be on the table\nbefore you open."
+    ],
+    [
+      "货架不够，旁边再摆一排。",
+      "Not enough shelving. Put another row\nbeside it."
+    ],
+    [
+      "桥头还黑着，再挂两组。",
+      "The bridge is dark. Hang two more sets\nof lights."
+    ],
+    [
+      "后巷漏了，回去再巡一遍。",
+      "You missed the back lane. Check it\nagain."
+    ],
+    [
+      "街口没人知道，还得再喊一轮。",
+      "They haven't heard at the entrance. Call\nagain."
+    ],
+    [
+      "先别算做完，拿单子再核一遍。",
+      "Don't mark that done yet. Check the list\nagain."
+    ],
+    [
+      "这处先不算，查过再记。",
+      "Leave this one uncounted until it's\nchecked."
+    ]
+  ],
+  "projectSubtitles": [
+    [
+      "灯先挂在巷口，晚来的客人才找得着。",
+      "Hang the first lamp at the entrance\nso late guests can find you."
+    ],
+    [
+      "两位夜班客人说好了，收工来喝热汤。",
+      "Two night workers promised to stop\nby for hot soup."
+    ],
+    [
+      "桥边风大，给等月亮的人留个背风位。",
+      "Save a sheltered seat for the\nmoon-watchers by the bridge."
+    ],
+    [
+      "旧货擦干净再摆，轻东西别让风卷跑。",
+      "Wipe the old wares clean and weigh\ndown anything light."
+    ],
+    [
+      "河雾又漫上来了，补好棚再搬货。",
+      "The river mist is back. Patch the\nawning before moving the goods."
+    ],
+    [
+      "衣服送来了，灯挂近一点才看得清针脚。",
+      "The clothes are here. Bring the lamp\ncloser to the stitching."
+    ],
+    [
+      "小戏班今晚来，把台前那条路空出来。",
+      "The little troupe is coming. Keep\nthe path in front clear."
+    ],
+    [
+      "伞骨修好，最后一位客人还要走远路。",
+      "Fix the umbrella ribs. The last\ncustomer has a long walk home."
+    ],
+    [
+      "过了子时还有船，干粮包好，别沾河水。",
+      "Boats run after midnight. Wrap the\nfood and keep it dry."
+    ],
+    [
+      "铃挂桥头，搬货的听见就知道往哪儿走。",
+      "Hang the bell by the bridge to guide\nthe deliveries."
+    ],
+    [
+      "邻摊来借火，记得留一盆炭。",
+      "The neighbours need a light. Save\nthem a pan of coals."
+    ],
+    [
+      "狐狸们订了一桌，锅边多留几个矮凳。",
+      "The foxes booked a table. Leave a\nfew low stools by the pot."
+    ],
+    [
+      "水摊摆在渡口，夜船一靠岸就看得见。",
+      "Put the water stall where the night\nboats can see it."
+    ],
+    [
+      "篷布拉平，客人今晚就在月下坐。",
+      "Stretch the canopy smooth. The\nguests are sitting under the moon."
+    ],
+    [
+      "纸客怕吵，灯别太亮，帘子放下来。",
+      "The paper guests need quiet. Dim the\nlamp and lower the curtain."
+    ],
+    [
+      "朋友们带着碗来了，再添几张凳子。",
+      "Friends have brought their bowls.\nSet out a few more stools."
+    ],
+    [
+      "桥边今晚有人守夜，留灯，也留一锅热的。",
+      "Someone's on watch by the bridge.\nLeave a lamp and a hot pot."
+    ],
+    [
+      "柜子里还有没见过的旧货，一件件摆出来。",
+      "The cabinet holds unseen wares. Lay\nthem out one at a time."
+    ],
+    [
+      "末班船快到了，灯挂高些，别让人走错巷。",
+      "The last boat's due. Raise the lamp\nso nobody takes the wrong lane."
+    ],
+    [
+      "雨声正好，帘下摆两把椅子。",
+      "The rain sounds lovely. Put two\nchairs under the curtain."
+    ],
+    [
+      "鼓队沿街走，摊前别堆货挡路。",
+      "The drummers are coming down the\nstreet. Keep goods out of their way."
+    ],
+    [
+      "两把旧伞撑开，给约好的人留座。",
+      "Open the two old umbrellas and save\nthe promised seats."
+    ],
+    [
+      "送灯的客人要过河，先把岸边照亮。",
+      "The lantern-bearers need to cross.\nLight the riverbank first."
+    ],
+    [
+      "小路通着荒坟，符绳系好，给行人留缝。",
+      "The path leads past old graves. Tie\nthe charms and leave a gap to pass."
+    ],
+    [
+      "旧友们要来叙旧，大锅洗净，多备几个碗。",
+      "Old friends are coming. Wash the big\npot and bring more bowls."
+    ],
+    [
+      "秋风起了，布压住，旧货按轻重排。",
+      "The autumn wind's up. Weigh down the\ncloth and sort the wares."
+    ],
+    [
+      "五条巷今晚一起开摊，各摊听见铃就准备。",
+      "All five lanes open tonight. Every\nstall gets ready when the bell\nrings."
+    ],
+    [
+      "摆在鬼门前，灯、汤和回去的路都要备好。",
+      "By the ghost gate, have the lamps,\nsoup and way home ready."
+    ]
+  ]
+}

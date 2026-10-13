@@ -8,7 +8,7 @@ def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');args=parser.parse_args()
     verification=read(ROOT/'fidelity/evidence/fidelity-verification.json');assert verification['passed']
     images={r['id']:r for r in verification['images']};jobs=read(ROOT/'fidelity/art/jobs.json');spec=read(ROOT/'fidelity/image-specs.json');book=read(ROOT/'fidelity/art/generation-register.json')
     for j in jobs['jobs']:j['status']='imported_verified';j['runtimeSHA256']=images[j['id']]['runtimeSHA256']
@@ -18,12 +18,14 @@ def main():
     write(ROOT/'fidelity/art/jobs.json',jobs);write(ROOT/'fidelity/image-specs.json',spec);write(ROOT/'fidelity/art/generation-register.json',book)
     reports={}
     for key,relative in [('rules','QAResults/rules/rules.json'),('smoke16x9','QAResults/smoke-16x9/report.json'),('smoke4x3','QAResults/smoke-4x3/report.json'),('visual16x9','QAResults/visual-complete-16x9-v2.2/report.json'),('visual4x3','QAResults/visual-complete-4x3-v2.2/report.json'),('match','QAResults/match-v2.2/report.json')]:
+        if key.startswith('visual') and args.visual_suffix:relative=relative.replace('-v2.2/',args.visual_suffix+'/')
         p=LOCAL/relative;r=read(p);assert r['passed'],key;reports[key]=dict(report=r,localPath='local/'+relative,sha256=sha(p));write(ROOT/'fidelity/evidence'/(key+'.json'),r)
     assert len(reports['rules']['report']['rules'])==40 and all(r['passed'] for r in reports['rules']['report']['rules'])
     for label,size in [('16x9',(1920,1080)),('4x3',(1440,1080))]:
         for family in ['smoke','visual']:
             report=reports[family+label]['report'];assert (report['width'],report['height'])==size and report['cards']==95 and report['projects']==28
         report=reports['visual'+label]['report'];assert report['tutorialPages']==2 and len(report['captures'])==128 and report['qaFrameRate']==60
+        if args.visual_suffix:assert report['language']==0 and report['tutorialTextBoundsChecks']>0 and report['verifiedCardLanguages']==95 and report['verifiedProjectLanguages']==28 and not report['errors']
     match=reports['match']['report'];assert match['state']==50 and match['replayReady'] and len(match['winnerDone'])==5 and all(done>=goal for done,goal in zip(match['winnerDone'],match['winnerGoals']))
     if args.flow_report:
         p=ROOT/args.flow_report;r=read(p);assert r['passed'] and len(r['checks'])==15 and r['reloads']==1 and not r['errors'];reports['flow']=dict(report=r,localPath=args.flow_report,sha256=sha(p))
@@ -48,5 +50,13 @@ def main():
     if args.flow_report:
         out['qaRevisionScope']['flowAddition']=['flow'];out['qaRevisionScope']['flowReason']='v2.3 adds a QA-only integration driver and version-controls full production/test inputs. All 30 production scripts, 95/28 numeric records, 420 text keys and 82 image bytes remain verified. Existing v2.2 visual/full-match reports retain their original runtime scope.'
     out['versionControl']=dict(fullSourceBranch='codex/yokai-night-market-source',assetCommit='e0b1c7ccfbe862d743191f8efc33d63a5e3acd1a',scope='Unity Assets/.meta, Packages, ProjectSettings, all art sources/exports and tests/reference fixtures; caches and outputs excluded',remote='full source history stays local; public origin retains original material only')
+    if args.visual_suffix:
+        out['qaRevisionScope']['copyPolish']=['visual16x9','visual4x3','visualEnglish16x9','visualEnglish4x3'];out['qaRevisionScope']['copyPolishReason']='v2.4 changes bilingual copy, two generated frames, eight declared TextMesh colors and eight label material colors. New visual reports verify each template language and text width in the current rendered packaging. Earlier rules, smoke, flow, native and full-match reports retain their original revision scope. Production business code and numeric rules remain unchanged.'
+        out['qaRevisionScope']['finalHeaderArt']=['match'];out['qaRevisionScope']['reason']='The full-match report belongs to v2.2; retained as behavior history, it does not attest the v2.4 rendered copy.'
+        for label in ('16x9','4x3'):
+            p=LOCAL/f'QAResults/visual-complete-{label}{args.visual_suffix}-en/report.json';r=read(p)
+            assert r['passed'] and not r['errors'] and len(r['captures'])==128 and r['tutorialTextBoundsChecks']>0 and r['language']==1 and r['verifiedCardLanguages']==95 and r['verifiedProjectLanguages']==28
+            reports['visualEnglish'+label]=dict(report=r,localPath=p.relative_to(ROOT).as_posix(),sha256=sha(p))
+            write(ROOT/'fidelity/evidence'/('visualEnglish'+label+'.json'),r)
     write(ROOT/'fidelity/evidence/delivery.json',out);print(json.dumps(dict(status=out['status'],sourceFiles=len(inputs),images=82,qaReports=len(reports),release=release,backups=out['backups']),ensure_ascii=False))
 if __name__=='__main__':main()
