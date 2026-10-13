@@ -1,6 +1,6 @@
 # Escape from Duckov 逆向与 Unity 还原项目合同
 
-版本 v2.3；2026-10-13（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
+版本 v2.4；2026-10-13（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
 
 ## 1. 项目标识与执行依据
 
@@ -18,7 +18,7 @@
 - Mono：主要游戏程序集 `TeamSoda.Duckov.Core.dll`，另有 `Assembly-CSharp.dll`、`ItemStatsSystem.dll` 等；引擎版本以容器实际解析结果登记。
 - 已有 Python 3.10.8 / UnityPy 1.25.0 / .NET SDK / ILSpy 9.1.0.7988 / TypeTreeGeneratorAPI 0.0.10 / FFmpeg；使用现有工具，不安装新软件。
 - 静态交付时未创建 Unity 作者工程、未构建或运行游戏。还原阶段本机再次核实 `D:\Program files\2022.3.62f3c1\Editor\Unity.exe`，Unity 2022.3.62f3c1，已有 Windows 独立构建模块；原容器版本 2022.3.62f2，版本差异必须通过运行和画面对照验证。
-- 编辑恢复候选入口为 `local/RestoredUnityProject`；此前 `local/UnityProject` 是探针宿主，保留用于 AB/res 与最小构建实验。第三方内容只留本机；必要恢复工具使用官方便携构建并登记版本、来源和哈希。F 盘开工可用约 17 GB 的记录是历史条件，用户清理后已将缓存迁回 F 盘。
+- 当前混合源码工程入口为 `local/HybridUnityProject`，运行包为 `local/HybridPlayer`；资产继续沿旧宿主原生 res 路线。`RestoredUnityProject` 保留为未通过完整运行的导出编辑候选，`UnityProject` 保留原 AB/res 探针。第三方内容只留本机。F 盘初始约 17 GB 是历史，清理后缓存已迁回。
 
 ## 3. 本项目分析要求
 
@@ -61,6 +61,8 @@
 还原阶段：已恢复原 Resources/shared/脚本映射与 63 场景编号，使用本机 f3c1 引擎进入原 MainMenu（编号 1），正常窗口运行 0 个记录异常、标题截图通过目检，Windows 原生点击打开空存档列表。独立保存目录为 `RoguePrototypeLab/DuckovRestorationLab`，只改变该目录中的测试 Options。桌面输入被用户 Escape 停止；实际关卡、保存闭环、主观听音和像素对照未通过。构建与运行证据见 [还原进度](evidence/restoration-progress.json)、[正常窗口证据](evidence/native-game-qa.json) 与 [还原记录](reports/restoration.md)。
 
 ## 6. 缺口、下一步与变更记录
+
+2026-10-13 v2.4：用户明确要求反编译代码源码恢复、资产继续使用旧宿主 AB/res，目标完整且像素一致。新增 HybridUnityProject，十个业务/配套程序集、1,430 C# 文件接入本地 Unity，实际编译构建 0 错误；绑定审计 1,716 类型/5,900 序列化字段一致，207 原生文件摘要核验通过。混合 Player 完成代表性序章/移动/背包/基地/保存重启/零号地区/伤害/撤离集成；原引擎、第三方与平台 DLL 仍为匹配依赖。完整启动有 Steam 初始化错误，真实键盘、全内容可达和全像素验收未通过，不承诺未实测 100%。详情见[混合还原记录](reports/hybrid-restoration.md)；原候选和失败证据保留。
 
 2026-10-13 v2.3：用户指出工程没有场景/资产、主要是 DLL，且 Editor Play 崩溃。核实旧 `UnityProject` 确为实验宿主，前述工程入口说明纠正。新增 `RestoredUnityProject` 接回 63 场景与导出资产；修复 Player Burst/Input/UI 依赖误用于 Editor、脚本引用、FMOD 子资产/银行位置、场景映射 TextAsset 扩展名，以及样条 UI 的 Editor GC/job 差异。编辑器已逐场景打开 63 个场景、412,789 个 GameObject；4 场景仍有 16 个空脚本组件。无图形启动进入 MainMenu，8 秒检查仍有错误，正常图形与完整游戏尚未通过；原生 Shader 桥接实验导致加载停滞，默认关闭。业务 DLL 仍未全部转为可编译源码；完整还原与像素级一致未完成。事实记录见[编辑工程证据](evidence/editor-project-recovery.json)与[还原记录](reports/restoration.md)。
 

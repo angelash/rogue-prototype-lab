@@ -2,20 +2,22 @@
 
 输入：用户指定的本机 Steam **2.3.30**，Unity **2022.3.62f2 / Windows x64 Mono**。2026-10-13 已建立全量静态研究库、中文系统报告与本地检索工具；[开发合同](DEVELOPMENT.md)记录范围与实际落地。
 
-后续用户要求用本地 **Unity 2022.3.62f3c1** 还原全部内容，以像素级复刻为目标。此前标注的 `local/UnityProject` 实际是资源加载实验宿主，不是完整可编辑游戏工程；2026-10-13 用户发现缺场景/资产并报告 Play 崩溃后，已明确纠正入口。场景与资产编辑恢复候选为 **`local/RestoredUnityProject`**，实施与验证见[还原记录](reports/restoration.md)；原生资产恢复、编辑器运行、完整游戏闭环和像素等价分别验收。
+最新路线使用本地 **Unity 2022.3.62f3c1**：反编译业务代码接入源码编译，资产继续沿旧实验宿主原生 AB/res 路线。当前工程为 **`local/HybridUnityProject`**、运行包为 **`local/HybridPlayer`**，详见[混合还原记录](reports/hybrid-restoration.md)。原始目标仍是全部内容、像素级一致；平台和全像素验收尚未通过。
 
 ## 当前目录怎么使用
 
+- **`local/HybridUnityProject`**：当前混合源码工程。十个业务/配套程序集、1,430 C# 文件在 `Assets/Reconstructed`，已通过本地 Unity 编译构建。游戏资产在原生运行数据中，编辑器 Play 打开独立 Player。用 [start-hybrid-project.ps1](scripts/start-hybrid-project.ps1) 的 `-Editor` 参数打开，源码修改后执行 [build-hybrid-project.ps1](scripts/build-hybrid-project.ps1)。
+- **`local/HybridPlayer`**：当前源码重编译运行包，保留旧宿主资源/依赖并替换本轮 Unity 编译的十个业务 DLL。新游戏、基地、保存重启、零号地区、伤害/撤离集成已实测；完整启动仍有 Steam 初始化错误，不能登记总验收通过。
 - **`local/RestoredUnityProject`**：新增的编辑恢复候选。`Assets/Scenes` 有 63 个恢复场景，`GameObject` 为预制体，`Material`/`Texture2D`/`Mesh`/`AnimationClip`/`Resources` 等保存资产；`ProjectSettings` 登记 63 个构建场景。可用 [start-editor-project.ps1](scripts/start-editor-project.ps1) 打开。候选的实际导入/运行结论见还原记录，不能仅凭文件存在认定还原完成。
 - **`local/UnityProject`**：原生 AB/res 实验与最小宿主构建工具，只有探针场景。保留供复跑，编辑器 Duckov 菜单可打开上述候选。旧目录中的 DLL 不代表源码化完成。
 - **`local/AssetRipperExport/ExportedProject`**：未覆盖的原始恢复导出，35,815 文件。它是新编辑候选的输入，保留原导出数据以供核对。
-- **`local/decompiled` / `local/il`**：反编译研究代码与完整 IL；共有 19,615 个 C# 文件，主要游戏程序集目录为 `TeamSoda.Duckov.Core`。C# 派生代码尚未全部接入 Unity 编译；新候选仍用业务 DLL 保持组件绑定。一个 NodeCanvas 顶层类型只有 IL。
+- **`local/decompiled` / `local/il`**：反编译研究代码与完整 IL；共有 19,615 个 C# 文件，主要游戏程序集目录为 `TeamSoda.Duckov.Core`。当前混合版接入十个业务/配套程序集源码；其余引擎和第三方依赖保留匹配 DLL。一个 NodeCanvas 顶层类型只有 IL。
 - **`local/Player`**：另外拼装的原生运行候选，沿原 `.assets`/流/场景布局加载。此前原标题运行通过的是它，不能替代编辑恢复工程验收。
 - **`reports` / `scripts` / `evidence`**：原创分析、恢复工具和事实记录。`local/build-copy` 为只读分析输入；`Native*`、`StorageExperiments` 为试验产物与缓存。
 
-当前仍未交付原作者工程、全部业务源码化、完整游戏流程或像素级复刻验收。
+原作者工程没有找回。当前十个业务/配套程序集已源码化，第三方/引擎依赖仍使用匹配 DLL；全游戏所有路径和全像素复刻未验收。
 
-本机运行候选为 `local/Player/DuckovRestored.exe`，可用 [start-restored-game.ps1](scripts/start-restored-game.ps1) 启动。已进入原标题/主菜单，保留 63 场景编号，使用独立保存目录；完整游玩和像素一致尚未验收。第三方资产、截图和完整日志仅本机保存。
+旧原生运行候选为 `local/Player/DuckovRestored.exe`，可用 [start-restored-game.ps1](scripts/start-restored-game.ps1) 复跑历史方案。当前混合源码版用 [start-hybrid-project.ps1](scripts/start-hybrid-project.ps1) 启动，保留 63 场景编号，使用独立保存目录；完整游玩和全像素一致尚未验收。第三方资产、截图和完整日志仅本机保存。
 
 2026-10-13 已迁回 F 盘：Unity 缓存、本地版本库、构建/实验目录和当前运行包均位于本项目 `local/`，不再依赖 D 盘目录链接。64,999 文件 / 38,182,411,681 字节逐文件 SHA256 核验通过，D 盘原件保留为备份；详见[迁移证据](evidence/storage-migration.json)。
 

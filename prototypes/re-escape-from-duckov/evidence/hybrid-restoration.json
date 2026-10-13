@@ -1,0 +1,476 @@
+{
+  "version": "hybrid-source-v1",
+  "date": "2026-10-13",
+  "unity": "2022.3.62f3c1",
+  "originalUnity": "2022.3.62f2",
+  "unityProject": "local/HybridUnityProject",
+  "player": "local/HybridPlayer",
+  "sourceAssemblies": 10,
+  "unityBusinessSourceFiles": 1430,
+  "businessCoreSourceFiles": 1105,
+  "runtimeAssets": "frozen-native-Resources/shared/scenes; AB supplement retained",
+  "unityBuild": {
+    "result": "Succeeded",
+    "unity": "2022.3.62f3c1",
+    "errors": 0,
+    "warnings": 0,
+    "registeredScripts": 2062,
+    "bytes": 88311659
+  },
+  "abiAudit": {
+    "passed": true,
+    "assemblies": 10,
+    "typesChecked": 1716,
+    "serializedFieldsChecked": 5900,
+    "perAssembly": [
+      {
+        "assembly": "TeamSoda.Duckov.Core",
+        "identityMatches": true,
+        "typesChecked": 1298,
+        "serializedFieldsChecked": 5131,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "TeamSoda.Duckov.Utilities",
+        "identityMatches": true,
+        "typesChecked": 22,
+        "serializedFieldsChecked": 33,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "TeamSoda.MiniLocalizor",
+        "identityMatches": true,
+        "typesChecked": 5,
+        "serializedFieldsChecked": 5,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "ItemStatsSystem",
+        "identityMatches": true,
+        "typesChecked": 54,
+        "serializedFieldsChecked": 146,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "SodaLocalization",
+        "identityMatches": true,
+        "typesChecked": 14,
+        "serializedFieldsChecked": 20,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "Plugins",
+        "identityMatches": true,
+        "typesChecked": 23,
+        "serializedFieldsChecked": 39,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "Assembly-CSharp",
+        "identityMatches": true,
+        "typesChecked": 207,
+        "serializedFieldsChecked": 439,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "KAnimationCore.Runtime",
+        "identityMatches": true,
+        "typesChecked": 43,
+        "serializedFieldsChecked": 75,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "FlexReader",
+        "identityMatches": true,
+        "typesChecked": 42,
+        "serializedFieldsChecked": 5,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      },
+      {
+        "assembly": "PackageTools",
+        "identityMatches": true,
+        "typesChecked": 8,
+        "serializedFieldsChecked": 7,
+        "missingTypes": [],
+        "serializedFieldDifferences": [],
+        "missingPublicMethods": [],
+        "inheritanceDifferences": [],
+        "passed": true
+      }
+    ]
+  },
+  "nativeVerification": {
+    "nativeResourceFilesChecked": 207,
+    "sourceAssembliesChecked": 10,
+    "engineMatchesFrozenLocalHost": true,
+    "failures": [],
+    "pixelSample": {
+      "scope": "frozen title; original business DLL versus Unity-recompiled business DLL; same f3c1 engine",
+      "width": 1280,
+      "height": 720,
+      "pixels": 921600,
+      "identicalPixels": 921600,
+      "identicalFraction": 1.0,
+      "meanAbsoluteChannelDelta": 0.0,
+      "maxChannelDelta": 0,
+      "allPixelsIdentical": true,
+      "referenceSHA256": "760cef489a774c115d1c5ca6bbcf4a4a87141f98c53feacc60f3dbf1421b5b49",
+      "candidateSHA256": "760cef489a774c115d1c5ca6bbcf4a4a87141f98c53feacc60f3dbf1421b5b49",
+      "provesFullGameEquivalence": false
+    }
+  },
+  "tests": {
+    "suite": {
+      "phase": "quitting",
+      "unity": "2022.3.62f3c1",
+      "scene": "Assets/Scenes/Base_SceneV2.unity",
+      "scenes": [
+        "Assets/Scenes/Base.unity",
+        "Assets/Scenes/Base_SceneV2.unity"
+      ],
+      "milestones": [
+        "main-menu",
+        "new-game-button-invoked",
+        "default-difficulty-confirmed",
+        "new-game-character-initialized",
+        "input-layer-movement",
+        "inventory-open-close",
+        "base-loaded",
+        "save-written",
+        "save-scene-reload"
+      ],
+      "cameras": 1,
+      "objects": 2160,
+      "width": 1280,
+      "height": 720,
+      "focused": true,
+      "levelManager": true,
+      "mainCharacter": true,
+      "saveRoundTrip": true,
+      "movementDistance": 7.94624137878418,
+      "damagePassed": false,
+      "evacuationObserved": false,
+      "characterCount": 0,
+      "elapsed": 104.82823944091797,
+      "platformErrorCount": 1,
+      "gameplayErrorCount": 0,
+      "errors": [
+        "SteamAPI_Init() failed"
+      ],
+      "completeSelfTestPassed": false,
+      "testedAssemblyHashesMatchDeliveredBuild": true,
+      "privateEvidence": "local/hybrid-qa-20261013-234438",
+      "gameplayIntegrationPassed": true
+    },
+    "resume": {
+      "phase": "quitting",
+      "unity": "2022.3.62f3c1",
+      "scene": "Assets/Scenes/Base_SceneV2.unity",
+      "scenes": [
+        "Assets/Scenes/Base.unity",
+        "Assets/Scenes/Base_SceneV2.unity"
+      ],
+      "milestones": [
+        "main-menu",
+        "save-marker-read-in-new-process",
+        "saved-character-loaded-in-new-process"
+      ],
+      "cameras": 1,
+      "objects": 2169,
+      "width": 1280,
+      "height": 720,
+      "focused": true,
+      "levelManager": true,
+      "mainCharacter": true,
+      "saveRoundTrip": true,
+      "movementDistance": 0.0,
+      "damagePassed": false,
+      "evacuationObserved": false,
+      "characterCount": 0,
+      "elapsed": 26.9505558013916,
+      "platformErrorCount": 1,
+      "gameplayErrorCount": 0,
+      "errors": [
+        "SteamAPI_Init() failed"
+      ],
+      "completeSelfTestPassed": false,
+      "testedAssemblyHashesMatchDeliveredBuild": true,
+      "privateEvidence": "local/hybrid-qa-20261013-234641",
+      "gameplayIntegrationPassed": true
+    },
+    "combat": {
+      "phase": "quitting",
+      "unity": "2022.3.62f3c1",
+      "scene": "Assets/Scenes/Base_SceneV2.unity",
+      "scenes": [
+        "Assets/Scenes/Base.unity",
+        "Assets/Scenes/Base_SceneV2.unity"
+      ],
+      "milestones": [
+        "main-menu",
+        "save-marker-read-in-new-process",
+        "saved-character-loaded-in-new-process",
+        "ground-zero-loaded",
+        "damage-pipeline-five-hp",
+        "evacuation-event-and-base-return"
+      ],
+      "cameras": 1,
+      "objects": 2169,
+      "width": 1280,
+      "height": 720,
+      "focused": true,
+      "levelManager": true,
+      "mainCharacter": true,
+      "saveRoundTrip": true,
+      "movementDistance": 0.0,
+      "damagePassed": true,
+      "evacuationObserved": true,
+      "characterCount": 5,
+      "elapsed": 47.68019104003906,
+      "platformErrorCount": 1,
+      "gameplayErrorCount": 0,
+      "errors": [
+        "SteamAPI_Init() failed"
+      ],
+      "completeSelfTestPassed": false,
+      "testedAssemblyHashesMatchDeliveredBuild": true,
+      "privateEvidence": "local/hybrid-qa-20261013-234711",
+      "gameplayIntegrationPassed": true
+    },
+    "pixel": {
+      "phase": "quitting",
+      "unity": "2022.3.62f3c1",
+      "scene": "Assets/Scenes/MainMenu/MainMenu.unity",
+      "scenes": [
+        "Assets/Scenes/MainMenu/MainMenu.unity"
+      ],
+      "milestones": [
+        "main-menu",
+        "frozen-title-sample"
+      ],
+      "cameras": 1,
+      "objects": 65,
+      "width": 1280,
+      "height": 720,
+      "focused": true,
+      "levelManager": false,
+      "mainCharacter": false,
+      "saveRoundTrip": false,
+      "movementDistance": 0.0,
+      "damagePassed": false,
+      "evacuationObserved": false,
+      "characterCount": 0,
+      "elapsed": 21.257137298583984,
+      "platformErrorCount": 1,
+      "gameplayErrorCount": 0,
+      "errors": [
+        "SteamAPI_Init() failed"
+      ],
+      "completeSelfTestPassed": false,
+      "testedAssemblyHashesMatchDeliveredBuild": true,
+      "privateEvidence": "local/hybrid-qa-20261013-234801",
+      "gameplayIntegrationPassed": true
+    }
+  },
+  "mouseTitleMenuNewGameDifficultyPassed": true,
+  "physicalKeyboardPassed": false,
+  "physicalKeyboardFailure": "Computer Use failed to activate captured window twice; stopped keyboard attempts",
+  "platformInitializationPassed": false,
+  "allContentCoveragePassed": false,
+  "fullPixelEquivalencePassed": false,
+  "totalAcceptancePassed": false,
+  "referenceImageScope": "same f3c1 engine and assets, original business DLL versus Unity-compiled business DLL; frame-aligned frozen title only",
+  "pixelControl": {
+    "captureFramerate": 60,
+    "originalPostProcessingRetained": true,
+    "firstBlankSampleRejected": true,
+    "freezeStartingFrame": 900
+  },
+  "earlyLogCorrection": "Older AfterSceneLoad observer missed startup Steam errors; BeforeSceneLoad observer records them",
+  "rejectedCandidate": "local/HybridPlayer-UnityHost-v2: early Startup exit; current candidate retains frozen original runtime dependencies",
+  "notTested": [
+    "all 63 scenes playable",
+    "all quests/items/weapons/AI/audio paths",
+    "physical shooting and evacuation countdown",
+    "original f2 engine versus f3c1 all frames"
+  ],
+  "privateLogsAndImages": true,
+  "originalInstallationAndRealSavesModified": false,
+  "priorPixelSample": {
+    "scope": "frozen title; original business DLL versus Unity-recompiled business DLL; same f3c1 engine; prior build, not final delivery",
+    "width": 1280,
+    "height": 720,
+    "pixels": 921600,
+    "identicalPixels": 921600,
+    "identicalFraction": 1.0,
+    "meanAbsoluteChannelDelta": 0.0,
+    "maxChannelDelta": 0,
+    "allPixelsIdentical": true,
+    "referenceSHA256": "6f15ed6e4b7014be714d38390ef57b91d9d472156e06f305887a7784daffe674",
+    "candidateSHA256": "6f15ed6e4b7014be714d38390ef57b91d9d472156e06f305887a7784daffe674",
+    "provesFullGameEquivalence": false
+  },
+  "deliveredAssemblies": [
+    {
+      "assembly": "TeamSoda.Duckov.Core",
+      "sha256": "c75ea6448eac5b4ff4bab467968e5389d4942eff0fa1fdd4229a2cc073abd762",
+      "unitySourceFiles": 1105,
+      "unitySourceDigest": "09fa549526ff9f4997bc1ee8e0a44a3d9d61bbff8ea4ae83f66064084a172c7f"
+    },
+    {
+      "assembly": "TeamSoda.Duckov.Utilities",
+      "sha256": "cf7afb15d653752377edeb253d4ba98e7a7280779f0bcb3145e7ee5a1cb6ad9e",
+      "unitySourceFiles": 19,
+      "unitySourceDigest": "f623862df6164e561de92c18661c72db732467ead3127718b445edb5d5199552"
+    },
+    {
+      "assembly": "TeamSoda.MiniLocalizor",
+      "sha256": "bddcbb8ec67cd33a2f9dfe49f1f65227d9d056ddf40c04e95b1287885377782b",
+      "unitySourceFiles": 4,
+      "unitySourceDigest": "cee32af21d5ec8269f3eeecdf6bd3e624ac2946d96db7b0f566a2ace623034a0"
+    },
+    {
+      "assembly": "ItemStatsSystem",
+      "sha256": "0740999e1aa84630adf677c569b2676cbd3d76185b9afd105cced8b686fea8e9",
+      "unitySourceFiles": 43,
+      "unitySourceDigest": "b6a302522a0d552de2225e2671d5f272a4dc9070bde3b087cd8e18244e5c417d"
+    },
+    {
+      "assembly": "SodaLocalization",
+      "sha256": "860835b365b53078b5fe770f14dade6e1e23f7588d03ebc28982954eb7d931f8",
+      "unitySourceFiles": 11,
+      "unitySourceDigest": "6c2b0da34f7e23b6bb10aa28b13c6c872578f7700e624b3699940967c1a1a673"
+    },
+    {
+      "assembly": "Plugins",
+      "sha256": "167e5016ae209a5ab49ce752ebe73d5e48bfa10a465b6f9303537e891a5a58be",
+      "unitySourceFiles": 17,
+      "unitySourceDigest": "ac4f4eeb0aaf82389bb965774e8183d4d08cae13bcaa22517b2e6603064a5d7f"
+    },
+    {
+      "assembly": "Assembly-CSharp",
+      "sha256": "9502d7bb6090ad54a6b45ea68fdc7e5f0353fb0dd76ea3dc98e75e24d412f1b1",
+      "unitySourceFiles": 147,
+      "unitySourceDigest": "e98942798c6bd36cf08c509c7a6e029f8976c79d20178f32764e75dfb577e69c"
+    },
+    {
+      "assembly": "KAnimationCore.Runtime",
+      "sha256": "2d33f3eacf3554f3b9d801502b9942882b42c34f8da2d0fdf827b110d818ee57",
+      "unitySourceFiles": 42,
+      "unitySourceDigest": "82fa4ba02e7a9ab8791a9bad7d4d200c8187eb59f08fc84770d2c666d8496946"
+    },
+    {
+      "assembly": "FlexReader",
+      "sha256": "08ae8d3e12c0c78239e3eefa1342ad191bd91b2ff7ac620ff82cefb5888b9e38",
+      "unitySourceFiles": 35,
+      "unitySourceDigest": "269ff0189183b29da5b23b55997b9418d83a26e562d47bd584e318c4f3bb4048"
+    },
+    {
+      "assembly": "PackageTools",
+      "sha256": "021f9a52085b0a1a94930db3433cc6e289a500d9167ce96dbb8ad6e42f2a1b0f",
+      "unitySourceFiles": 7,
+      "unitySourceDigest": "a21faa6e00da846fc23b370455bb6239b89bd16d0350ebc0e380af76837bab23"
+    }
+  ],
+  "runnableSnapshot": "local/hybrid-source-player-build-20261013-233539",
+  "finalBuildRetested": true,
+  "mouseEvidenceScope": "Roslyn source trial HybridPlayer-v1; final Unity build UI paths tested through original button callbacks",
+  "referenceAssembliesVerified": [
+    {
+      "assembly": "TeamSoda.Duckov.Core",
+      "originalSHA256": "298d5d5885427632d5a94b2f3ce587f8ebc9528ec71e575a475158c326ecae8f",
+      "referenceSHA256": "298d5d5885427632d5a94b2f3ce587f8ebc9528ec71e575a475158c326ecae8f"
+    },
+    {
+      "assembly": "TeamSoda.Duckov.Utilities",
+      "originalSHA256": "ad1f9a44ba67f4b01e255549d628c711e936cd8eee6ce1c9bb6c861d95f752a2",
+      "referenceSHA256": "ad1f9a44ba67f4b01e255549d628c711e936cd8eee6ce1c9bb6c861d95f752a2"
+    },
+    {
+      "assembly": "TeamSoda.MiniLocalizor",
+      "originalSHA256": "624671bc9afaa475ae9443cd1327ce51fbe8ed9a47eb8d3f558b5784c8b7132a",
+      "referenceSHA256": "624671bc9afaa475ae9443cd1327ce51fbe8ed9a47eb8d3f558b5784c8b7132a"
+    },
+    {
+      "assembly": "ItemStatsSystem",
+      "originalSHA256": "a276e15c022f71b2214bd05e1b9b0f2e620c16561df576fed0b79c2fe4402e60",
+      "referenceSHA256": "a276e15c022f71b2214bd05e1b9b0f2e620c16561df576fed0b79c2fe4402e60"
+    },
+    {
+      "assembly": "SodaLocalization",
+      "originalSHA256": "f3af2174321f1193e8eea169b4d6050c5819efc927cf3ad42cde19aa54758c7c",
+      "referenceSHA256": "f3af2174321f1193e8eea169b4d6050c5819efc927cf3ad42cde19aa54758c7c"
+    },
+    {
+      "assembly": "Plugins",
+      "originalSHA256": "10c3b981c569e7d2c79c4aeafbf1bc142b0c0a274af812a15eef6838fb320e15",
+      "referenceSHA256": "10c3b981c569e7d2c79c4aeafbf1bc142b0c0a274af812a15eef6838fb320e15"
+    },
+    {
+      "assembly": "Assembly-CSharp",
+      "originalSHA256": "e5f6f893763d3bfdd49c4c4e778f54562cab2ef237023c2c87c3806a8895e8cf",
+      "referenceSHA256": "e5f6f893763d3bfdd49c4c4e778f54562cab2ef237023c2c87c3806a8895e8cf"
+    },
+    {
+      "assembly": "KAnimationCore.Runtime",
+      "originalSHA256": "bd19f519834ec6dc21d654681d445670310e4f90b5f05c97df212dbd778110f1",
+      "referenceSHA256": "bd19f519834ec6dc21d654681d445670310e4f90b5f05c97df212dbd778110f1"
+    },
+    {
+      "assembly": "FlexReader",
+      "originalSHA256": "8c31d0e8efda5a0e40b8bb79d2aebfbcfee0f23e0db17ce26c736dd5d9dc1cb1",
+      "referenceSHA256": "8c31d0e8efda5a0e40b8bb79d2aebfbcfee0f23e0db17ce26c736dd5d9dc1cb1"
+    },
+    {
+      "assembly": "PackageTools",
+      "originalSHA256": "1c17c7d999615d35d6b001b9173fc80ebdca40c8c81bd48e8c195b931bc35cc7",
+      "referenceSHA256": "1c17c7d999615d35d6b001b9173fc80ebdca40c8c81bd48e8c195b931bc35cc7"
+    }
+  ],
+  "referenceSample": "local/hybrid-qa-pixel-reference-final/pixel-title.png",
+  "candidateSample": "local/hybrid-qa-20261013-234801/pixel-title.png",
+  "oldReferenceVersusFinalSample": {
+    "identicalPixels": 916711,
+    "pixels": 921600,
+    "meanAbsoluteChannelDelta": 0.002184244791666667,
+    "maxChannelDelta": 7,
+    "originalDLLRepeatVariedLikewise": true,
+    "inference": "Earlier frozen-frame reference differs from a fresh original-DLL reference by the same pixels; final candidate matches the fresh reference exactly. Whole-game reproducibility is not established."
+  }
+}
