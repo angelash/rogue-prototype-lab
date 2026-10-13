@@ -16,8 +16,14 @@
     "verified": true
   },
   "reportBackup": {
-    "status": "pending",
+    "status": "complete",
     "branch": "codex/duckov-analysis",
-    "includesThirdPartyBodiesOrMedia": false
-  }
+    "includesThirdPartyBodiesOrMedia": false,
+    "repository": "https://github.com/angelash/rogue-prototype-lab.git",
+    "primaryReportCommit": "d162ce62168963760f4aa7b90c2895cd9dc077b7",
+    "verifiedRemoteCommit": "d162ce62168963760f4aa7b90c2895cd9dc077b7",
+    "verifiedAt": "2026-10-13T16:30:14.570527",
+    "historyContainsLocalRecoveryInputs": false
+  },
+  "workspaceReportCommit": "f5c21ee4d63bcfdd7ebb765c52c181e4bb1bfa6d"
 }
