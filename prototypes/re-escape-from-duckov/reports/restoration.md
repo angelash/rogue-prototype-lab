@@ -47,3 +47,5 @@ Unity 官方提供 [ResourcesAPI](https://docs.unity3d.com/2022.3/Documentation/
 [迁移证据](../evidence/storage-migration.json)：19 个目录、64,999 文件、38,182,411,681 字节（35.56 GiB），每个文件在复制时计算源 SHA256，再独立读取目标校验，通过后切换原目录链接；8 个活动 junction 已撤掉，D 盘原件保留。完成时 F 可用 301,324,279,808 字节（约 280.63 GiB）。Unity 安装位置和独立保存身份沿用原值；迁移未重建或更改游戏内容。逐文件清单位于本机 `local/storage-migration/2026-10-13-return-to-f-verified/`。
 
 初次串行复制仅生成未激活阶段目录，随后改用多线程逐文件核验完成迁移；旧阶段与记录保留并被忽略，不参与版本快照。运行日志不纳入新增快照，完整工程/资产输入与原创报告分别备份。
+
+[还原阶段本地备份](../evidence/backup-restoration.json)已通过：69,086 文件 / 15,161,947,550 字节纳入本机无远程版本库，466 原始输入 blob 与工作字节一致，Git 完整性检查通过。新恢复包 `D:\CodexBackups\duckov-restoration-2026-10-13-local.bundle` 为 6,024,793,112 字节，完整历史校验通过；SHA256 为 `eb919efc4c70f45191af54cc82e5a728fac8f3643a7b3a5156ddd9bd72d04da0`。原静态包不覆盖，缓存可从原输入、恢复工具和已保存宿主重新生成。
