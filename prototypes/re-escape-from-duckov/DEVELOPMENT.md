@@ -64,6 +64,8 @@
 
 2026-10-13 v2.4：用户明确要求反编译代码源码恢复、资产继续使用旧宿主 AB/res，目标完整且像素一致。新增 HybridUnityProject，十个业务/配套程序集、1,430 C# 文件接入本地 Unity，实际编译构建 0 错误；绑定审计 1,716 类型/5,900 序列化字段一致，207 原生文件摘要核验通过。混合 Player 完成代表性序章/移动/背包/基地/保存重启/零号地区/伤害/撤离集成；原引擎、第三方与平台 DLL 仍为匹配依赖。完整启动有 Steam 初始化错误，真实键盘、全内容可达和全像素验收未通过，不承诺未实测 100%。详情见[混合还原记录](reports/hybrid-restoration.md)；原候选和失败证据保留。
 
+2026-10-14 v2.4 备份完成：最终 Unity 包的代表性流程及同条件冻结标题样本复测通过，Steam 初始化错误和全覆盖缺口保留。118,574 本地文件 / 25,453,817,573 字节纳入无远程版本库，包含源码和可运行版本；466 输入 blob、Git 完整性、独立恢复包核验通过。[备份证据](evidence/backup-hybrid-restoration.json)登记实际路径与摘要。
+
 2026-10-13 v2.3：用户指出工程没有场景/资产、主要是 DLL，且 Editor Play 崩溃。核实旧 `UnityProject` 确为实验宿主，前述工程入口说明纠正。新增 `RestoredUnityProject` 接回 63 场景与导出资产；修复 Player Burst/Input/UI 依赖误用于 Editor、脚本引用、FMOD 子资产/银行位置、场景映射 TextAsset 扩展名，以及样条 UI 的 Editor GC/job 差异。编辑器已逐场景打开 63 个场景、412,789 个 GameObject；4 场景仍有 16 个空脚本组件。无图形启动进入 MainMenu，8 秒检查仍有错误，正常图形与完整游戏尚未通过；原生 Shader 桥接实验导致加载停滞，默认关闭。业务 DLL 仍未全部转为可编译源码；完整还原与像素级一致未完成。事实记录见[编辑工程证据](evidence/editor-project-recovery.json)与[还原记录](reports/restoration.md)。
 
 2026-10-13 v2.2：用户清理 F 盘后要求工程迁回。Unity Library、本地无远程版本库、NativeProbe/绑定实验、当前 Player 与其余旧候选全部复制回 `local/`；64,999 文件 / 38,182,411,681 字节 SHA256 全部相符，撤掉 8 个活动目录链接，D 原件保留。[迁移证据](evidence/storage-migration.json)记录源/目标与逐目录状态，逐文件清单仅本机保存。启动脚本默认采用工程内 `local/Player`，不再硬编码 D 缓存；本轮只验迁移字节与版本管理，未增加游戏/像素验收结论。

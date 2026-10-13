@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14T00:03:13.065238",
+  "localRepository": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local",
+  "localCommit": "44e74a798107ecb3094d471704b166f96f07ebf7",
+  "localTree": "1d76c41662023039287c4caa86a9ec14bf94a13c",
+  "localTrackedFiles": 118574,
+  "localTrackedBytes": 25453817573,
+  "allLocalResearchTracked": true,
+  "ignoredCachesExcluded": true,
+  "installationBlobsVerified": 466,
+  "localGitFsck": true,
+  "localRemote": null,
+  "bundle": {
+    "path": "D:\\CodexBackups\\duckov-hybrid-source-2026-10-13-local.bundle",
+    "bytes": 6862615198,
+    "sha256": "665c67b728f9e67640aea0742ccd3da8dd1d9f09eac773c196f035ef9b5fac0a",
+    "verified": true
+  },
+  "reportBackup": {
+    "status": "backed-up",
+    "branch": "codex/duckov-analysis",
+    "includesThirdPartyBodiesOrMedia": false,
+    "remote": "https://github.com/angelash/rogue-prototype-lab.git",
+    "implementationCommit": "fcc4ecd",
+    "implementationPushVerified": true
+  },
+  "includesRunnableSourceSnapshot": "local/hybrid-source-player-build-20261013-233539"
+}

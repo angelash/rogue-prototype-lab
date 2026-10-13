@@ -47,3 +47,5 @@
 反编译不是原作者源码；原生 Player 启动已通过，但完整可编辑 Unity 作者工程、所有方法逐行审阅及全游戏游玩仍未完成。静态阶段完整本地版本与报告/工具备份见 [备份记录](evidence/backup.json)，后续恢复状态以还原记录为准。
 
 编辑恢复阶段完整本机快照见[备份证据](evidence/backup-editor-recovery.json)：110,508 文件 / 21,099,500,671 字节，466 原始输入 blob 与 Git 完整性核验通过；离线恢复包另存 D 盘，原备份保留。编辑器运行与完整游戏验收仍按上述实际结果记录。
+
+混合源码版快照于 2026-10-14 完成，见[备份证据](evidence/backup-hybrid-restoration.json)：118,574 文件 / 25,453,817,573 字节，包含当前源码工程和可运行版本；466 输入 blob、Git 完整性及离线包校验通过。恢复包在 `D:\CodexBackups\duckov-hybrid-source-2026-10-13-local.bundle`；只有原创工具、报告和摘要备份到远程。

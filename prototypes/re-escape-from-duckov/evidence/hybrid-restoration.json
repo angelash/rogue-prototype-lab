@@ -472,5 +472,8 @@
     "maxChannelDelta": 7,
     "originalDLLRepeatVariedLikewise": true,
     "inference": "Earlier frozen-frame reference differs from a fresh original-DLL reference by the same pixels; final candidate matches the fresh reference exactly. Whole-game reproducibility is not established."
-  }
+  },
+  "referenceNativeFilesVerified": 207,
+  "referenceEngineSettingsCallbacksAndQAObserverIdentical": true,
+  "originalBusinessReferencePlatformErrorCount": 1
 }
