@@ -34,6 +34,18 @@ serve_explorer.py / explorer.html 提供搜索、分页、配置详情、代码�
 
 现使用本机 Unity 2022.3.62f3c1；独立宿主为 `local/UnityProject`，全部派生代码、原资产与构建仅本机保存。进度和已通过/未通过范围见 [还原记录](../reports/restoration.md)，不要把可加载资源当成完整游戏验收。
 
+场景与资产的编辑恢复候选现为 `local/RestoredUnityProject`，用 `start-editor-project.ps1` 打开。`prepare_editor_project.py --project <本项目>` 从保留的 AssetRipper 导出建立新候选，补原生 FMOD/平台 DLL、独立产品身份与本地 Unity 版本；拒绝覆盖已有候选。业务 DLL 保持类型绑定，反编译 C# 未全部接入编译。
+
+编辑器兼容流程：先对旧宿主执行 `DuckovEditorQA.DumpPluginScriptMap`，再执行 `configure_editor_packages.py --project <本项目>`。使用本机缓存 Input System 1.14.0、Burst 1.8.21 与本地 UGUI 1.0.0 编辑器包，移出对应 Player DLL，重映射 UI/Input 的 MonoScript 引用；不下载或安装新软件。`--remap-only` 可单独复核/修复引用。包内 Tests 保留为 `Tests~`，Input 的 UGUI asmdef 名称适配本地 2022，Burst 不重复引入已有 Mathematics DLL。
+
+`DuckovEditorCompatibility` 将编辑器恢复检查置于 Burst 托管回退，并阻止误在空宿主里启动完整游戏。`DuckovEditorQA.AuditAuthoringAssets` 逐个打开构建场景统计对象与缺脚本；`--duckov-editor-play-qa` 自动进入 Play、等待 8 秒、记录异常并退出，仅用于定向检查。`DUCKOV_EDITOR_QA_SCENE` 与 `DUCKOV_EDITOR_QA_REPORT` 可指定场景和本机报告。完整日志仅本机保存。
+
+`repair_editor_burst.ps1` 保留了早期兼容实验：只在副本的 Burst native 可用性探测前添加 Editor 分支，原始副本另存；它解决了原生崩溃，却没有补上 Input 的 Editor 支持，因此正式编辑候选采用上述编辑器包流程。原始构建、独立原生 Player 和此前备份不修改。
+
+`repair_editor_asset_layout.py` 恢复 FMOD 平台子资产的 Resources 路径、场景映射 TextAsset 后缀和编辑器银行路径；保持原内容/GUID。`repair_editor_gc.ps1` 与 `repair_editor_spline_job.ps1` 对候选副本添加 Editor 专属兼容分支并备份原 DLL，分别处理不支持的 GCMode 切换和 Player NativeList job 的 Editor 安全检查差异，保留 Player 分支。
+
+`DuckovNativeShaderEditor` 是未通过的原生 Shader 桥接实验，默认关闭；只有显式 `--duckov-native-shader-editor` 才启用。完整 AB Shader 加载发生停滞，不能据此宣称正常图形恢复通过。当前完整编辑器运行仍有未解决错误，见编辑工程证据。
+
 `prepare_runtime.py` 按登记拷贝原匹配运行 DLL；`scripts/unity/` 是原创宿主、构建和实测代码。Unity Editor 对工程执行 `DuckovRecoveryEditor.BuildNativeProbe` 生成独立 Windows Mono 宿主。需要稳定完成构建后再生成 Player，避免在 Unity 写构建文件期间读取。
 
 `prepare_native_player.py --project <本项目> --output <新的专属目录>` 使用本地宿主引擎、构建/许可设置与独立产品身份，保留原 Resources/shared 文件布局和原脚本登记，逐容器核验原对象载荷不变。`--game-scenes` 同时接回原 63 个场景和编号；Steam SDK 使用原合法 AppID 进行正常开发启动，原 Steam 检查保持。

@@ -1,6 +1,6 @@
 # Escape from Duckov 逆向与 Unity 还原项目合同
 
-版本 v2.2；2026-10-13（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
+版本 v2.3；2026-10-13（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
 
 ## 1. 项目标识与执行依据
 
@@ -18,7 +18,7 @@
 - Mono：主要游戏程序集 `TeamSoda.Duckov.Core.dll`，另有 `Assembly-CSharp.dll`、`ItemStatsSystem.dll` 等；引擎版本以容器实际解析结果登记。
 - 已有 Python 3.10.8 / UnityPy 1.25.0 / .NET SDK / ILSpy 9.1.0.7988 / TypeTreeGeneratorAPI 0.0.10 / FFmpeg；使用现有工具，不安装新软件。
 - 静态交付时未创建 Unity 作者工程、未构建或运行游戏。还原阶段本机再次核实 `D:\Program files\2022.3.62f3c1\Editor\Unity.exe`，Unity 2022.3.62f3c1，已有 Windows 独立构建模块；原容器版本 2022.3.62f2，版本差异必须通过运行和画面对照验证。
-- Unity 工程入口为 `local/UnityProject`。第三方内容只留本机；必要恢复工具使用官方便携构建并登记版本、来源和哈希。F 盘开工可用约 17 GB，生成缓存需要时放到独立 D 盘目录并登记链接。
+- 编辑恢复候选入口为 `local/RestoredUnityProject`；此前 `local/UnityProject` 是探针宿主，保留用于 AB/res 与最小构建实验。第三方内容只留本机；必要恢复工具使用官方便携构建并登记版本、来源和哈希。F 盘开工可用约 17 GB 的记录是历史条件，用户清理后已将缓存迁回 F 盘。
 
 ## 3. 本项目分析要求
 
@@ -61,6 +61,8 @@
 还原阶段：已恢复原 Resources/shared/脚本映射与 63 场景编号，使用本机 f3c1 引擎进入原 MainMenu（编号 1），正常窗口运行 0 个记录异常、标题截图通过目检，Windows 原生点击打开空存档列表。独立保存目录为 `RoguePrototypeLab/DuckovRestorationLab`，只改变该目录中的测试 Options。桌面输入被用户 Escape 停止；实际关卡、保存闭环、主观听音和像素对照未通过。构建与运行证据见 [还原进度](evidence/restoration-progress.json)、[正常窗口证据](evidence/native-game-qa.json) 与 [还原记录](reports/restoration.md)。
 
 ## 6. 缺口、下一步与变更记录
+
+2026-10-13 v2.3：用户指出工程没有场景/资产、主要是 DLL，且 Editor Play 崩溃。核实旧 `UnityProject` 确为实验宿主，前述工程入口说明纠正。新增 `RestoredUnityProject` 接回 63 场景与导出资产；修复 Player Burst/Input/UI 依赖误用于 Editor、脚本引用、FMOD 子资产/银行位置、场景映射 TextAsset 扩展名，以及样条 UI 的 Editor GC/job 差异。编辑器已逐场景打开 63 个场景、412,789 个 GameObject；4 场景仍有 16 个空脚本组件。无图形启动进入 MainMenu，8 秒检查仍有错误，正常图形与完整游戏尚未通过；原生 Shader 桥接实验导致加载停滞，默认关闭。业务 DLL 仍未全部转为可编译源码；完整还原与像素级一致未完成。事实记录见[编辑工程证据](evidence/editor-project-recovery.json)与[还原记录](reports/restoration.md)。
 
 2026-10-13 v2.2：用户清理 F 盘后要求工程迁回。Unity Library、本地无远程版本库、NativeProbe/绑定实验、当前 Player 与其余旧候选全部复制回 `local/`；64,999 文件 / 38,182,411,681 字节 SHA256 全部相符，撤掉 8 个活动目录链接，D 原件保留。[迁移证据](evidence/storage-migration.json)记录源/目标与逐目录状态，逐文件清单仅本机保存。启动脚本默认采用工程内 `local/Player`，不再硬编码 D 缓存；本轮只验迁移字节与版本管理，未增加游戏/像素验收结论。
 

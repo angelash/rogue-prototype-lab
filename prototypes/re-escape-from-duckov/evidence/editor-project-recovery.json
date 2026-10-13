@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-13T21:57:21.437814+08:00",
+  "unity": "2022.3.62f3c1",
+  "hostProject": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\UnityProject",
+  "hostRole": "native resource probe; not the complete game authoring project",
+  "editorCandidate": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\RestoredUnityProject",
+  "candidateRole": "scene and asset recovery; business source compilation incomplete",
+  "assembliesKeptForGameBinding": true,
+  "originalExportFiles": 35815,
+  "decompiledCSharpFiles": 19615,
+  "coreCSharpFiles": 1106,
+  "sceneAudit": {
+    "scenes": 63,
+    "assetPaths": 19065,
+    "gameObjects": 412789,
+    "missingScripts": 16,
+    "scenesWithMissingScripts": [
+      {
+        "path": "Assets/Scenes/Base_Scene.unity",
+        "gameObjects": 1253,
+        "missingScripts": 8
+      },
+      {
+        "path": "Assets/Scenes/Base_SceneV2_Sub_01.unity",
+        "gameObjects": 2019,
+        "missingScripts": 6
+      },
+      {
+        "path": "Assets/Scenes/Level_DemoChallenge/Level_DemoChallenge_Main.unity",
+        "gameObjects": 104,
+        "missingScripts": 1
+      },
+      {
+        "path": "Assets/Scenes/Level_Zombie/Level_Zombie_Main.unity",
+        "gameObjects": 102,
+        "missingScripts": 1
+      }
+    ],
+    "complete": true,
+    "log": "local/editor-authoring-import-audit-2.log",
+    "limitations": "16 null script components in retained export; original build provenance not yet traced"
+  },
+  "editorPlay": {
+    "unity": "2022.3.62f3c1",
+    "project": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\RestoredUnityProject",
+    "scene": "Assets/Scenes/MainMenu/MainMenu.unity",
+    "sceneName": "MainMenu",
+    "company": "RoguePrototypeLab",
+    "product": "DuckovEditorRecoveryLab",
+    "persistentDataPath": "C:/Users/Lenovo/AppData/LocalLow/RoguePrototypeLab/DuckovEditorRecoveryLab",
+    "errors": 163,
+    "seconds": 8,
+    "burstEnabled": false
+  },
+  "editorPlayAccepted": false,
+  "editorPlayLog": "local/editor-authoring-play-qa-batch-last.log",
+  "normalGraphicsAccepted": false,
+  "normalGraphicsLog": "local/editor-authoring-play-qa.log",
+  "nativeShaderBridge": {
+    "accepted": false,
+    "defaultEnabled": false,
+    "failure": "Full bundle loading stalled; dedicated test processes stopped",
+    "logs": [
+      "local/editor-authoring-play-qa-normal-2.log",
+      "local/editor-authoring-play-qa-normal-3.log"
+    ]
+  },
+  "dependencyRepairs": {
+    "burst": "1.8.21 cached Editor package",
+    "inputSystem": "1.14.0 cached Editor package",
+    "ugui": "1.0.0 bundled package",
+    "remainingOldPluginScriptReferences": 0,
+    "fmodPlatformsMoved": 12,
+    "sceneMapsRenamed": 2,
+    "editorGcGuard": true,
+    "editorSplineManagedExecution": true
+  },
+  "nativePlayerUntouched": true,
+  "fullGameSourceProjectComplete": false,
+  "fullGameplayAccepted": false,
+  "pixelEquivalent": false
+}

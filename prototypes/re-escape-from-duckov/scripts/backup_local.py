@@ -26,7 +26,7 @@ def main():
     for folder,dirs,files in os.walk(local,followlinks=False):
         rel=Path(folder).relative_to(local)
         dirs[:]=[d for d in dirs if not(rel==Path('.') and (d in ['.git','tools','NativeProbe','NativeMerged','NativeRuntimeLocalScriptProbe'] or d.startswith('NativeRuntimeABBinding')))
-            and not(rel==Path('UnityProject') and d in ['Library','Temp','Logs','obj','UserSettings'])]
+            and not(rel in [Path('UnityProject'),Path('RestoredUnityProject')] and d in ['Library','Temp','Logs','obj','UserSettings'])]
         candidates.extend((rel/f).as_posix() for f in files if not f.startswith('assets.sqlite-'))
     ignored=subprocess.run(['git','check-ignore','--no-index','-z','--stdin'],cwd=local,input=('\0'.join(candidates)+'\0').encode('utf-8'),capture_output=True)
     if ignored.returncode not in [0,1]:raise RuntimeError(ignored.stderr.decode('utf-8',errors='replace'))

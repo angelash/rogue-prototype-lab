@@ -1,6 +1,6 @@
 # Unity 还原记录
 
-2026-10-13；执行依据：[项目合同 v2.2](../DEVELOPMENT.md)。
+2026-10-13；执行依据：[项目合同 v2.3](../DEVELOPMENT.md)。
 
 用户要求全部内容、像素级复刻；使用本机 Unity 2022.3.62f3c1（原构建 2022.3.62f2）。输入为已核验的 Steam 2.3.30 隔离副本，不改原安装与真实存档。
 
@@ -9,6 +9,24 @@
 正在恢复完整 Unity 工程。优先采用原生场景、资产和完整脚本序列化引用；已有研究库提供稳定对象编号、63 场景、201 托管程序集、内容登记和全引用对照。
 
 原生 Player 已进入原标题/主菜单；完整运行闭环、全内容可达、音画和像素对照尚未验证，不能以启动成功替代还原完成。
+
+## 编辑工程入口纠正与崩溃诊断
+
+用户指出 `UnityProject` 没有完整场景/资产、代码主要是 DLL，点击 Play 会崩溃。该反馈属实：这个目录一直是 AB/res 探针和最小宿主，`EditorBuildSettings.m_Scenes` 为空；此前将它简单标为独立工程入口不准确。先前通过原标题测试的是后处理拼装的原生 Player，不是 AssetRipper 作者工程的导入、Play 或完整 BuildPipeline 构建。
+
+当前入口分工已在 README 说明。新增 `local/RestoredUnityProject` 由保留的 AssetRipper 导出建立，包含 63 个 `.unity` 场景、3,112 预制体、2,863 材质、4,395 PNG、238 AnimationClip、37 AnimatorController，使用本地 f3c1 和独立 `RoguePrototypeLab / DuckovEditorRecoveryLab` 身份。`local/decompiled` 有 19,615 个 C# 文件，主业务目录有 1,106 个文件（类型/嵌套类数量是另一口径）；它们是反编译派生资料，尚未整体成为 Unity 可编译源码。业务运行 DLL 暂时保留组件绑定。
+
+用户崩溃日志明确指向 Player Burst DLL 的 `$BurstDirectCallInitializer` / `BurstCompilerHelper.IsCompiledByBurst` 调用未准备好的 Editor 原生编译服务，产生 SIGSEGV。关闭编译选项与设置环境变量均不足以阻止其静态构造。早期副本兼容分支能消除原生崩溃，但随后 Player Input DLL 在 Editor 更新阶段产生大量 `Unrecognized InputUpdateType: Editor`；该路线未作为正式工程方案。
+
+现接入本机缓存的 Burst 1.8.21、Input System 1.14.0 与本地 UGUI 1.0.0 编辑器包，移出对应四个 Player DLL 与 meta，备份保留。UI/Input 的 DLL MonoScript 引用重映射到包源码 GUID；最终残留旧引用为 0。Input 包的 UGUI asmdef 名称适配 Unity 2022，Tests 原样保留于不导入的目录；编辑检查使用 Burst 托管回退。旧宿主 Play 已不再原生崩溃，但因没有游戏资源仍有 3 个资源错误，普通 Play 已增加用途提示/阻止误启动。
+
+资产布局修复：FMOD Settings 原子资产被导出成独立资产，原 `Resources.LoadAll<Platform>("FMODStudioSettings")` 会清空平台列表；将 12 个平台资产移到同名 Resources 子目录并保持 GUID/内容，恢复加载。两个场景映射 `.generated.generated` 文件改为 `.generated.bytes`，恢复 TextAsset 资源键，内容哈希不变。编辑器读取的 `FMODBanks/Desktop` 补原 Master 银行，StreamingAssets 原银行保留。样条 UI 仅在 Editor 跳过不受支持的 GCMode 切换并同步执行同一 spline job，Player 分支保留原计算/调度；所有 DLL 修复前副本及哈希保留。
+
+实际验证：编辑器编译与导入完成，63 场景逐个打开，共 412,789 GameObject、19,065 导入路径；4 场景有 16 个空脚本组件，导出文本本来即为 `m_Script: {fileID: 0}`，其原始输入来源仍需追溯。首次菜单组件读取独立保存路径时目录未建立，已在 Editor 初始化补建本项目自己的 Saves 目录。
+
+Startup 无图形 Play 已进入 MainMenu 并能退出，最新 8 秒记录仍有 163 个错误；无图形输入设备及资源/渲染错误不计为通过。正常图形尝试另暴露 URP 后处理材质空引用，尚未通过图形运行。原生 Shader 桥接尝试在完整 AB 加载时停滞，已经停止专属测试进程，默认不开启；其参数 `--duckov-native-shader-editor` 只作为后续实验入口，不能称正式 Shader 修复。没有用禁用画面后处理证明像素等价。
+
+[编辑工程证据](../evidence/editor-project-recovery.json)保存上述结果与本机日志路径。原始导出未覆盖，原安装和原生 `local/Player` 未修改；此前启动通过的结论继续仅适用于该原生 Player。编辑工程完整业务源码化、正常画面/原生操作、所有游戏流程、保存重载及逐像素对照均未完成。
 
 ## 原生资源路线实测
 

@@ -2,7 +2,18 @@
 
 输入：用户指定的本机 Steam **2.3.30**，Unity **2022.3.62f2 / Windows x64 Mono**。2026-10-13 已建立全量静态研究库、中文系统报告与本地检索工具；[开发合同](DEVELOPMENT.md)记录范围与实际落地。
 
-后续用户要求用本地 **Unity 2022.3.62f3c1** 还原全部内容，以像素级复刻为目标。独立工程入口为 `local/UnityProject`，实施与验证见[还原记录](reports/restoration.md)；原生资产恢复、可运行闭环和像素等价分别验收。
+后续用户要求用本地 **Unity 2022.3.62f3c1** 还原全部内容，以像素级复刻为目标。此前标注的 `local/UnityProject` 实际是资源加载实验宿主，不是完整可编辑游戏工程；2026-10-13 用户发现缺场景/资产并报告 Play 崩溃后，已明确纠正入口。场景与资产编辑恢复候选为 **`local/RestoredUnityProject`**，实施与验证见[还原记录](reports/restoration.md)；原生资产恢复、编辑器运行、完整游戏闭环和像素等价分别验收。
+
+## 当前目录怎么使用
+
+- **`local/RestoredUnityProject`**：新增的编辑恢复候选。`Assets/Scenes` 有 63 个恢复场景，`GameObject` 为预制体，`Material`/`Texture2D`/`Mesh`/`AnimationClip`/`Resources` 等保存资产；`ProjectSettings` 登记 63 个构建场景。可用 [start-editor-project.ps1](scripts/start-editor-project.ps1) 打开。候选的实际导入/运行结论见还原记录，不能仅凭文件存在认定还原完成。
+- **`local/UnityProject`**：原生 AB/res 实验与最小宿主构建工具，只有探针场景。保留供复跑，编辑器 Duckov 菜单可打开上述候选。旧目录中的 DLL 不代表源码化完成。
+- **`local/AssetRipperExport/ExportedProject`**：未覆盖的原始恢复导出，35,815 文件。它是新编辑候选的输入，保留原导出数据以供核对。
+- **`local/decompiled` / `local/il`**：反编译研究代码与完整 IL；共有 19,615 个 C# 文件，主要游戏程序集目录为 `TeamSoda.Duckov.Core`。C# 派生代码尚未全部接入 Unity 编译；新候选仍用业务 DLL 保持组件绑定。一个 NodeCanvas 顶层类型只有 IL。
+- **`local/Player`**：另外拼装的原生运行候选，沿原 `.assets`/流/场景布局加载。此前原标题运行通过的是它，不能替代编辑恢复工程验收。
+- **`reports` / `scripts` / `evidence`**：原创分析、恢复工具和事实记录。`local/build-copy` 为只读分析输入；`Native*`、`StorageExperiments` 为试验产物与缓存。
+
+当前仍未交付原作者工程、全部业务源码化、完整游戏流程或像素级复刻验收。
 
 本机运行候选为 `local/Player/DuckovRestored.exe`，可用 [start-restored-game.ps1](scripts/start-restored-game.ps1) 启动。已进入原标题/主菜单，保留 63 场景编号，使用独立保存目录；完整游玩和像素一致尚未验收。第三方资产、截图和完整日志仅本机保存。
 
