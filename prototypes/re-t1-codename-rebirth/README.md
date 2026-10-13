@@ -13,4 +13,4 @@
 
 运行 `python prototypes/re-t1-codename-rebirth/scripts/serve_catalog.py` 后访问本机 http://127.0.0.1:8769/，可搜索源码、方法/调用、中文配置、对象与媒体。服务绑定 127.0.0.1，只读本机数据。
 
-原件、副本、第三方源码/配置全文/媒体在 local/ 无远程版本库中保留，不公开上传。完整提交 433faff 纳入 71554 文件 / 8.22 GB；C 盘独立 Git 备份全对象与原 APK 哈希校验通过。local/.git 借用 C 库对象，保存版本历史时须保留 C 库；具体位置见备份证据。原创报告、工具和汇总证据独立备份。
+原件、副本、第三方源码/配置全文/媒体在 local/ 无远程版本库中保留，不公开上传。完整提交 433faff 纳入 71554 文件 / 8.22 GB。此前临时放在 C 盘的独立 Git 备份已搬回本项目 local/.git/private-backup；工作库采用项目内相对引用，不再依赖 C 盘对象。全对象与原 APK 哈希校验通过，保存版本历史时保留整个 local/.git。[迁移证据](evidence/storage-migration.json)。原创报告、工具和汇总证据独立备份。

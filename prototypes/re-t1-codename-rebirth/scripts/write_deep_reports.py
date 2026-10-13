@@ -47,7 +47,7 @@ QGSG 与 QXTL 外层签名未独立验签；内部摘要、HMAC、分片/块 SHA
 
 所有原件及第三方派生产物留在 local/ 独立无远程 Git。公开仓库只备份原创报告/工具和汇总证据；源码、配置全文、媒体不公开上传。初查证据保留，与深层结果分别登记。
 
-完整本地提交 `433faff` 保存 71554 文件 / 8.22 GB；C 盘独立备份的全部 Git 对象检查与原 APK blob SHA256 通过。F 盘研究文件保留原位，工作库借用 C 库对象，迁移版本历史须保留 C 库。[本地备份](../evidence/deep-backup.json)、[原创资料远程备份](../evidence/deep-publication.json)
+完整本地提交 `433faff` 保存 71554 文件 / 8.22 GB。临时 C 盘独立备份已按用户授权搬回项目 `local/.git/private-backup`，全部 Git 对象检查与原 APK blob SHA256 通过。工作库采用项目内相对引用，不再依赖 C 盘；保存版本历史时保留整个 local/.git。[本地备份](../evidence/deep-backup.json)、[迁移记录](../evidence/storage-migration.json)、[原创资料远程备份](../evidence/deep-publication.json)
 
 ## 使用
 

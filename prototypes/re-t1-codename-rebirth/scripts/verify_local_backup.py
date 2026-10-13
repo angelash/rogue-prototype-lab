@@ -34,8 +34,17 @@ def main():
         digest.update(block)
     assert proc.wait() == 0
     assert digest.hexdigest() == intake['sourceSHA256']
-    alternates = LOCAL / '.git/objects/info/alternates'
-    mirror = Path(alternates.read_text('utf8').strip()).parent
+    git_directory = Path(git('rev-parse', '--absolute-git-dir').decode().strip())
+    alternates = git_directory / 'objects/info/alternates'
+    alternate_rows = alternates.read_text('utf8').splitlines()
+    assert len(alternate_rows) == 1 and alternate_rows[0].strip()
+    alternate_reference = alternate_rows[0].strip()
+    alternate_objects = Path(alternate_reference)
+    if not alternate_objects.is_absolute():
+        alternate_objects = git_directory / 'objects' / alternate_objects
+    alternate_objects = alternate_objects.resolve()
+    mirror = alternate_objects.parent
+    project_contained = mirror.is_relative_to(git_directory.resolve())
     mirror_head = subprocess.check_output(['git', '--git-dir', str(mirror),
                                            'rev-parse', 'HEAD']).decode().strip()
     mirror_remotes = subprocess.check_output(['git', '--git-dir', str(mirror),
@@ -68,16 +77,24 @@ def main():
     assert counts['exportedMediaFiles'] >= 11558 + 333
     evidence = {
         'date': '2026-10-13', 'localRepository': str(LOCAL),
-        'gitDirectory': git('rev-parse', '--absolute-git-dir').decode().strip(),
+        'gitDirectory': str(git_directory),
         'standaloneLocalMirror': str(mirror), 'mirrorCommit': mirror_head,
         'mirrorRemotes': mirror_remotes, 'mirrorHasAlternates': False,
-        'gitStorageReason': 'F drive was low on space. C holds a complete independent private Git snapshot; local/.git shares its old objects. Work files remain in the project.',
-        'migrationAudit': 'An empty hidden .git directory remained after the move. Automatic review rejected its deletion; retained it and used Git shared-clone initialization, then fetched the complete new snapshot into C. No safeguard bypass.',
+        'alternateReference': alternate_reference,
+        'alternateObjectDirectory': str(alternate_objects),
+        'projectContainedObjectStore': project_contained,
+        'externalObjectStoreDependencies': [] if project_contained else [str(alternate_objects)],
+        'gitStorageReason': ('User authorized returning the temporary C backup to F after freeing space. '
+                             'Both private Git stores are inside this project; the working repository '
+                             'uses a relative object reference and has no cross-drive dependency.'
+                             if project_contained else
+                             'The working repository shares objects from the independent mirror recorded above.'),
+        'migrationAudit': 'Earlier C-storage evidence and its automatic-review history are preserved in storage-before-f-return.json. The authorized return is recorded in storage-migration.json.',
         'localCommit': head, 'remotes': remotes, 'localClean': clean,
         'trackedFiles': len(files), 'trackedBytes': sum(files.values()),
         'trackedManifestSHA256': hashlib.sha256(git('ls-tree', '-r', '-l', '-z', head)).hexdigest(),
         'originalAPKBlobSHA256': digest.hexdigest(), 'originalAPKBlobVerified': True,
-        'trackedGroups': counts, 'gitFsckSource': 'standalone C mirror without alternates',
+        'trackedGroups': counts, 'gitFsckSource': 'standalone private mirror without alternates',
         'gitFsckExitCode': fsck.returncode,
         'gitFsckDiagnosticLines': len((fsck.stdout + fsck.stderr).splitlines()),
         'gitFsckDiagnosticsSHA256': hashlib.sha256((fsck.stdout + fsck.stderr).encode()).hexdigest(),

@@ -38,6 +38,6 @@ python prototypes/re-t1-codename-rebirth/scripts/verify_deep.py
 
 ## 保存与范围
 
-local/.git 无远程，源码/输入/资产全字节保留，tools/logs 是缓存；可追溯摘要与诊断另存。完整提交 433faff 的 71554 文件 / 8.22 GB 另保存在 `C:\Users\Lenovo\.codex\backups\t1-codename-rebirth-local-git-20261013` 的独立 Git 库。此库无 alternate 依赖、全对象校验通过；工作 local/.git 借用 C 库旧对象，因此迁移版本历史须保留 C 库。[备份证据](../evidence/deep-backup.json)。verify_local_backup.py 针对此本机双库布局核验，无联网行为。
+local/.git 无远程，源码/输入/资产全字节保留，tools/logs 是缓存；可追溯摘要与诊断另存。完整提交 433faff 的 71554 文件 / 8.22 GB 另保存在项目内 `local/.git/private-backup` 的独立 Git 库，此前的 C 盘临时库已按用户授权搬回。此库无 alternate 依赖、全对象校验通过；工作库采用 `../private-backup/objects` 相对引用，全部对象位于项目内。保存版本历史时保留整个 local/.git。[备份证据](../evidence/deep-backup.json)、[迁移记录](../evidence/storage-migration.json)。verify_local_backup.py 支持解析 Git 的相对 alternate 路径，核对两库与外部依赖，无联网行为；历史 C 盘证据保留在 storage-before-f-return.json。
 
 公开仓库仅原创工具/报告和汇总证据，[远程记录](../evidence/deep-publication.json)。当前完整静态交付与原作者工程、所有 native 高级伪代码、服务器及实际游玩验证分开登记。
