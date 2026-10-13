@@ -1,0 +1,1413 @@
+{
+  "version": "2.8-plan-1",
+  "date": "2026-10-13",
+  "status": "design_frozen_representative_sample_reviewed",
+  "authority": "latest user: audit and decide before visual replacement",
+  "coverage": 82,
+  "counts": {
+    "retain": 44,
+    "replace_art": 30,
+    "theme_native": 8
+  },
+  "entries": [
+    {
+      "id": "resources.assets:16",
+      "name": "Crash",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Crash.raw.png",
+      "currentFinal": "local/NightArt/Crash.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:17",
+      "name": "SNDGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/SNDGuy.raw.png",
+      "currentFinal": "local/NightArt/SNDGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:18",
+      "name": "CARD_01_Base_3T",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "card_lower",
+      "target": "靛蓝账签，低密度纸纤维和单一薄旧金边；原 3T 槽区用墨色记工格，云角不压正文。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_3T.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_3T.png",
+      "newPrompt": "prompts/CARD_01_Base_3T.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:19",
+      "name": "Sick",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Sick.raw.png",
+      "currentFinal": "local/NightArt/Sick.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:20",
+      "name": "Attack",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Attack.raw.png",
+      "currentFinal": "local/NightArt/Attack.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:21",
+      "name": "CARD_01_Base_3T_Mask",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_3T_Mask.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_3T_Mask.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:22",
+      "name": "CARD_01_Base_0T",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "card_lower",
+      "target": "靛蓝账签，低密度纸纤维和单一薄旧金边；原 0T 槽区用墨色记工格，云角不压正文。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_0T.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_0T.png",
+      "newPrompt": "prompts/CARD_01_Base_0T.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:23",
+      "name": "Light Off",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Light_Off.raw.png",
+      "currentFinal": "local/NightArt/Light_Off.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:24",
+      "name": "Hunger",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Hunger.raw.png",
+      "currentFinal": "local/NightArt/Hunger.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:25",
+      "name": "All finish",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/All_finish.raw.png",
+      "currentFinal": "local/NightArt/All_finish.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:26",
+      "name": "Bug",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Bug.raw.png",
+      "currentFinal": "local/NightArt/Bug.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:27",
+      "name": "Phone",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Phone.raw.png",
+      "currentFinal": "local/NightArt/Phone.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:28",
+      "name": "Holidays",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Holidays.raw.png",
+      "currentFinal": "local/NightArt/Holidays.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:29",
+      "name": "List",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/List.raw.png",
+      "currentFinal": "local/NightArt/List.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:30",
+      "name": "Released",
+      "originalRuntimeSize": [
+        1024,
+        1024
+      ],
+      "currentKind": "stamp",
+      "action": "retain",
+      "role": "stamp",
+      "target": "保留语义和首轮原图：原创开张/结绳/交叉绳/折伞；代表实机确认墨量与遮挡后才定向细化。",
+      "currentRaw": "fidelity/art/generated/Released.raw.png",
+      "currentFinal": "local/NightArt/Released.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:31",
+      "name": "Done",
+      "originalRuntimeSize": [
+        1024,
+        1024
+      ],
+      "currentKind": "stamp",
+      "action": "retain",
+      "role": "stamp",
+      "target": "保留语义和首轮原图：原创开张/结绳/交叉绳/折伞；代表实机确认墨量与遮挡后才定向细化。",
+      "currentRaw": "fidelity/art/generated/Done.raw.png",
+      "currentFinal": "local/NightArt/Done.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:32",
+      "name": "All forward",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/All_forward.raw.png",
+      "currentFinal": "local/NightArt/All_forward.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:33",
+      "name": "TSTGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/TSTGirl.raw.png",
+      "currentFinal": "local/NightArt/TSTGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:34",
+      "name": "Resignation",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Resignation.raw.png",
+      "currentFinal": "local/NightArt/Resignation.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:35",
+      "name": "ITGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/ITGirl.raw.png",
+      "currentFinal": "local/NightArt/ITGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:36",
+      "name": "Door",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Door.raw.png",
+      "currentFinal": "local/NightArt/Door.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:37",
+      "name": "PRGGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/PRGGirl.raw.png",
+      "currentFinal": "local/NightArt/PRGGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:38",
+      "name": "DSGGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/DSGGuy.raw.png",
+      "currentFinal": "local/NightArt/DSGGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:39",
+      "name": "ITGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/ITGuy.raw.png",
+      "currentFinal": "local/NightArt/ITGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:40",
+      "name": "PRGGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/PRGGuy.raw.png",
+      "currentFinal": "local/NightArt/PRGGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "resources.assets:41",
+      "name": "Negotiator",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Negotiator.raw.png",
+      "currentFinal": "local/NightArt/Negotiator.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:34",
+      "name": "FlagHighlight",
+      "originalRuntimeSize": [
+        42,
+        42
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "glow",
+      "target": "原 alpha 的柔暖语言选中光，不增加描框。",
+      "currentRaw": "fidelity/art/generated/FlagHighlight.raw.png",
+      "currentFinal": "local/NightArt/FlagHighlight.png",
+      "newPrompt": "prompts/FlagHighlight.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:35",
+      "name": "TitleBackground Left",
+      "originalRuntimeSize": [
+        1920,
+        280
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "phase_surface",
+      "target": "原 Left 滑入底板铺连续靛蓝染纸/布纹，中心完全空白，边线在独立 Line 层。",
+      "currentRaw": "fidelity/art/generated/TitleBackground_Left.raw.png",
+      "currentFinal": "local/NightArt/TitleBackground_Left.png",
+      "newPrompt": "prompts/TitleBackground_Left.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:36",
+      "name": "SNDGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/SNDGirl.raw.png",
+      "currentFinal": "local/NightArt/SNDGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:37",
+      "name": "OptionRed",
+      "originalRuntimeSize": [
+        32,
+        21
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "option_token",
+      "target": "原关闭灯槽内朱砂纸墨，去立体电脑灯样式。",
+      "currentRaw": "fidelity/art/generated/OptionRed.raw.png",
+      "currentFinal": "local/NightArt/OptionRed.png",
+      "newPrompt": "prompts/OptionRed.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:38",
+      "name": "Meeting",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/Meeting.raw.png",
+      "currentFinal": "local/NightArt/Meeting.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:39",
+      "name": "CARD_10_LightTop",
+      "originalRuntimeSize": [
+        1336,
+        117
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "glow",
+      "target": "原 Top 高光 alpha 中为蜜金暖灯光，不画硬边或完整装饰框。",
+      "currentRaw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
+      "currentFinal": "local/NightArt/CARD_10_LightTop.png",
+      "newPrompt": "prompts/CARD_10_LightTop.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:40",
+      "name": "CARD_01_BaseTop",
+      "originalRuntimeSize": [
+        1240,
+        831
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "picture_surround",
+      "target": "插画洞之外用薄旧木/靛蓝纸边；没有第二个完整花框。",
+      "currentRaw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_BaseTop.png",
+      "newPrompt": "prompts/CARD_01_BaseTop.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:42",
+      "name": "TitleBackground Line Right",
+      "originalRuntimeSize": [
+        1920,
+        280
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "phase_outline",
+      "target": "仅原 Right 细边提供旧金颜料笔触，无整幅横幅/小灯笼/重复内框。",
+      "currentRaw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
+      "currentFinal": "local/NightArt/TitleBackground_Line_Right.png",
+      "newPrompt": "prompts/TitleBackground_Line_Right.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:43",
+      "name": "PRJ_Button_Gradient",
+      "originalRuntimeSize": [
+        256,
+        32
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "technical_shading",
+      "target": "原 alpha 渐变提供原明暗反馈，RGB 换成暖墨；不能画装饰或改变 alpha。",
+      "currentRaw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
+      "currentFinal": "local/NightArt/PRJ_Button_Gradient.png",
+      "newPrompt": "prompts/PRJ_Button_Gradient.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:45",
+      "name": "DSGGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/DSGGirl.raw.png",
+      "currentFinal": "local/NightArt/DSGGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:46",
+      "name": "All depts",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/All_depts.raw.png",
+      "currentFinal": "local/NightArt/All_depts.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:47",
+      "name": "Title_16_9",
+      "originalRuntimeSize": [
+        1920,
+        1080
+      ],
+      "currentKind": "title",
+      "action": "retain",
+      "role": "title",
+      "target": "保留：摊棚、月亮、灯笼和 Noto 中文标题已符合夜市方向；不得误用于 Continue。",
+      "currentRaw": "fidelity/art/generated/Title_16_9.raw.png",
+      "currentFinal": "local/NightArt/Title_16_9.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:48",
+      "name": "CARD_01_Base_4T",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "card_lower",
+      "target": "靛蓝账签，低密度纸纤维和单一薄旧金边；原 4T 槽区用墨色记工格，云角不压正文。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_4T.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_4T.png",
+      "newPrompt": "prompts/CARD_01_Base_4T.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:49",
+      "name": "TitleBackground Right",
+      "originalRuntimeSize": [
+        1920,
+        280
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "phase_surface",
+      "target": "原 Right 滑入底板铺连续靛蓝染纸/布纹，中心完全空白，边线在独立 Line 层。",
+      "currentRaw": "fidelity/art/generated/TitleBackground_Right.raw.png",
+      "currentFinal": "local/NightArt/TitleBackground_Right.png",
+      "newPrompt": "prompts/TitleBackground_Right.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:50",
+      "name": "CARD_01_Base_2T_Mask",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_2T_Mask.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_2T_Mask.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:51",
+      "name": "OptionGreen",
+      "originalRuntimeSize": [
+        32,
+        21
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "option_token",
+      "target": "原开启灯槽内苔绿纸墨，和关闭同材质，状态清楚。",
+      "currentRaw": "fidelity/art/generated/OptionGreen.raw.png",
+      "currentFinal": "local/NightArt/OptionGreen.png",
+      "newPrompt": "prompts/OptionGreen.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:52",
+      "name": "Mouse",
+      "originalRuntimeSize": [
+        32,
+        32
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "navigation",
+      "target": "原鼠标轮廓内用旧金/纸白笔触，保持指尖热点和方向。",
+      "currentRaw": "fidelity/art/generated/Mouse.raw.png",
+      "currentFinal": "local/NightArt/Mouse.png",
+      "newPrompt": "prompts/Mouse.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:53",
+      "name": "OptionLight",
+      "originalRuntimeSize": [
+        34,
+        24
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "glow",
+      "target": "原 alpha 的柔暖灯光；无硬框、灯笼或文字。",
+      "currentRaw": "fidelity/art/generated/OptionLight.raw.png",
+      "currentFinal": "local/NightArt/OptionLight.png",
+      "newPrompt": "prompts/OptionLight.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:54",
+      "name": "PRJ_CARD_01_Base_Project",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "ledger",
+      "target": "靛蓝账簿纸底，消除棋盘纹；保留五条原工作槽，槽为平缓墨色而非金属倒角。",
+      "currentRaw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
+      "currentFinal": "local/NightArt/PRJ_CARD_01_Base_Project.png",
+      "newPrompt": "prompts/PRJ_CARD_01_Base_Project.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:55",
+      "name": "CARD_02_Details",
+      "originalRuntimeSize": [
+        1232,
+        920
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "tintable_dividers",
+      "target": "只保留原色条轮廓，内部为轻纸纹/颜料刷痕，不承载完整边框。",
+      "currentRaw": "fidelity/art/generated/CARD_02_Details.raw.png",
+      "currentFinal": "local/NightArt/CARD_02_Details.png",
+      "newPrompt": "prompts/CARD_02_Details.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:57",
+      "name": "ARTGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/ARTGuy.raw.png",
+      "currentFinal": "local/NightArt/ARTGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:58",
+      "name": "CARD_01_Base_1T",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "card_lower",
+      "target": "靛蓝账签，低密度纸纤维和单一薄旧金边；原 1T 槽区用墨色记工格，云角不压正文。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_1T.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_1T.png",
+      "newPrompt": "prompts/CARD_01_Base_1T.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:59",
+      "name": "TSTGuy",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/TSTGuy.raw.png",
+      "currentFinal": "local/NightArt/TSTGuy.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:60",
+      "name": "PRJ_Dot 1",
+      "originalRuntimeSize": [
+        32,
+        32
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "token",
+      "target": "原 32px 轮廓内暖纸筹；轮次数字独立显示，无烘焙字符。",
+      "currentRaw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
+      "currentFinal": "local/NightArt/PRJ_Dot_1.png",
+      "newPrompt": "prompts/PRJ_Dot_1.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:61",
+      "name": "Forward",
+      "originalRuntimeSize": [
+        38,
+        32
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "navigation",
+      "target": "快进箭头用蜜金/纸白墨线，保持原双箭头轮廓与闪烁。",
+      "currentRaw": "fidelity/art/generated/Forward.raw.png",
+      "currentFinal": "local/NightArt/Forward.png",
+      "newPrompt": "prompts/Forward.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:62",
+      "name": "CARD_00_Background",
+      "originalRuntimeSize": [
+        1240,
+        831
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "surface",
+      "target": "去平冷空板，改连续靛蓝染纸；共享商号/卡背只一块安静底，无占位插画。",
+      "currentRaw": "fidelity/art/generated/CARD_00_Background.raw.png",
+      "currentFinal": "local/NightArt/CARD_00_Background.png",
+      "newPrompt": "prompts/CARD_00_Background.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:63",
+      "name": "CARD_Selection_Background",
+      "originalRuntimeSize": [
+        310,
+        272
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "selection_surface",
+      "target": "安静靛蓝底，只提供底材，不画完整金框；选中边框由 Selection 负责。",
+      "currentRaw": "fidelity/art/generated/CARD_Selection_Background.raw.png",
+      "currentFinal": "local/NightArt/CARD_Selection_Background.png",
+      "newPrompt": "prompts/CARD_Selection_Background.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:64",
+      "name": "ButtonSmall",
+      "originalRuntimeSize": [
+        128,
+        260
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "button",
+      "target": "竖向设置/继续原槽位改靛蓝小木牌，细纸金边，不加挂绳超出几何。",
+      "currentRaw": "fidelity/art/generated/ButtonSmall.raw.png",
+      "currentFinal": "local/NightArt/ButtonSmall.png",
+      "newPrompt": "prompts/ButtonSmall.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:65",
+      "name": "TitleBackground Line Left",
+      "originalRuntimeSize": [
+        1920,
+        280
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "phase_outline",
+      "target": "仅原 Left 细边提供旧金颜料笔触，无整幅横幅/小灯笼/重复内框。",
+      "currentRaw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
+      "currentFinal": "local/NightArt/TitleBackground_Line_Left.png",
+      "newPrompt": "prompts/TitleBackground_Line_Left.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:66",
+      "name": "PRJ_BUTTON",
+      "originalRuntimeSize": [
+        2,
+        2
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/PRJ_BUTTON.raw.png",
+      "currentFinal": "local/NightArt/PRJ_BUTTON.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:69",
+      "name": "Solid",
+      "originalRuntimeSize": [
+        2,
+        2
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/Solid.raw.png",
+      "currentFinal": "local/NightArt/Solid.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:70",
+      "name": "PRJ_Dot",
+      "originalRuntimeSize": [
+        44,
+        44
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "tintable_token",
+      "target": "原 44px 轮廓中的浅纸筹，乘岗位矿物色；无旧字/新字，无整幅场景。",
+      "currentRaw": "fidelity/art/generated/PRJ_Dot.raw.png",
+      "currentFinal": "local/NightArt/PRJ_Dot.png",
+      "newPrompt": "prompts/PRJ_Dot.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:71",
+      "name": "English",
+      "originalRuntimeSize": [
+        36,
+        36
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "native_badge",
+      "target": "原 36px 语言槽改暖纸签，实时技术排 Noto 中；槽 0 语义中文。",
+      "currentRaw": "fidelity/art/generated/English.raw.png",
+      "currentFinal": "local/NightArt/English.png",
+      "newPrompt": "prompts/English.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:72",
+      "name": "Table_4_3",
+      "originalRuntimeSize": [
+        2048,
+        1536
+      ],
+      "currentKind": "table",
+      "action": "retain",
+      "role": "table",
+      "target": "保留：夜市旧木桌与外围灯/篮/蓝布符合方向，工作区域留空；不改变桌面/相机。",
+      "currentRaw": "fidelity/art/generated/Table_4_3.raw.png",
+      "currentFinal": "local/NightArt/Table_4_3.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:73",
+      "name": "CARD_03_DetailsTop",
+      "originalRuntimeSize": [
+        1240,
+        831
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "tintable_header",
+      "target": "顶部与周边原功能面改浅中性染纸纹，乘类别矿物色；去金属渐变。",
+      "currentRaw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
+      "currentFinal": "local/NightArt/CARD_03_DetailsTop.png",
+      "newPrompt": "prompts/CARD_03_DetailsTop.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:75",
+      "name": "CARD_04_Turn",
+      "originalRuntimeSize": [
+        2,
+        2
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/CARD_04_Turn.raw.png",
+      "currentFinal": "local/NightArt/CARD_04_Turn.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:76",
+      "name": "PRJ_Ok",
+      "originalRuntimeSize": [
+        64,
+        64
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "status_icon",
+      "target": "原勾轮廓内用苔绿印泥颗粒，不加细图；完成语义不变。",
+      "currentRaw": "fidelity/art/generated/PRJ_Ok.raw.png",
+      "currentFinal": "local/NightArt/PRJ_Ok.png",
+      "newPrompt": "prompts/PRJ_Ok.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:77",
+      "name": "ARTGirl",
+      "originalRuntimeSize": [
+        1174,
+        718
+      ],
+      "currentKind": "illustration",
+      "action": "retain",
+      "role": "illustration",
+      "target": "保留：暖灯/木刻纸纹/具体夜市动作符合新方向；集成后复核缩小裁切，不批量重画。",
+      "currentRaw": "fidelity/art/generated/ARTGirl.raw.png",
+      "currentFinal": "local/NightArt/ARTGirl.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:78",
+      "name": "CARD_01_Base_4T_Mask",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_4T_Mask.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_4T_Mask.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:79",
+      "name": "Spanish",
+      "originalRuntimeSize": [
+        36,
+        36
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "native_badge",
+      "target": "原 36px 语言槽改暖纸签，实时技术排 Noto EN；槽 1 语义英文。",
+      "currentRaw": "fidelity/art/generated/Spanish.raw.png",
+      "currentFinal": "local/NightArt/Spanish.png",
+      "newPrompt": "prompts/Spanish.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:80",
+      "name": "ButtonBig",
+      "originalRuntimeSize": [
+        244,
+        128
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "button",
+      "target": "原外轮廓内靛蓝账签，细旧金边，去金属倒角与纯冷面；原反馈着色仍能辨。",
+      "currentRaw": "fidelity/art/generated/ButtonBig.raw.png",
+      "currentFinal": "local/NightArt/ButtonBig.png",
+      "newPrompt": "prompts/ButtonBig.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:81",
+      "name": "CARD_10_LightMiddle",
+      "originalRuntimeSize": [
+        1336,
+        85
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "glow",
+      "target": "原 Middle 高光 alpha 中为蜜金暖灯光，不画硬边或完整装饰框。",
+      "currentRaw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
+      "currentFinal": "local/NightArt/CARD_10_LightMiddle.png",
+      "newPrompt": "prompts/CARD_10_LightMiddle.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:83",
+      "name": "Arrow",
+      "originalRuntimeSize": [
+        164,
+        152
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "navigation",
+      "target": "原岗位定位箭头用低密度纸金墨色，方向/透明/运动沿原状态。",
+      "currentRaw": "fidelity/art/generated/Arrow.raw.png",
+      "currentFinal": "local/NightArt/Arrow.png",
+      "newPrompt": "prompts/Arrow.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:85",
+      "name": "Table_16_9",
+      "originalRuntimeSize": [
+        1920,
+        1080
+      ],
+      "currentKind": "table",
+      "action": "retain",
+      "role": "table",
+      "target": "保留：夜市旧木桌与外围灯/篮/蓝布符合方向，工作区域留空；不改变桌面/相机。",
+      "currentRaw": "fidelity/art/generated/Table_16_9.raw.png",
+      "currentFinal": "local/NightArt/Table_16_9.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:86",
+      "name": "PRJ_No",
+      "originalRuntimeSize": [
+        64,
+        64
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "status_icon",
+      "target": "原提醒轮廓内用朱砂墨；未完成语义不变，不换成失败叉。",
+      "currentRaw": "fidelity/art/generated/PRJ_No.raw.png",
+      "currentFinal": "local/NightArt/PRJ_No.png",
+      "newPrompt": "prompts/PRJ_No.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:88",
+      "name": "Title_4_3",
+      "originalRuntimeSize": [
+        2048,
+        1536
+      ],
+      "currentKind": "title",
+      "action": "retain",
+      "role": "title",
+      "target": "保留：摊棚、月亮、灯笼和 Noto 中文标题已符合夜市方向；不得误用于 Continue。",
+      "currentRaw": "fidelity/art/generated/Title_4_3.raw.png",
+      "currentFinal": "local/NightArt/Title_4_3.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:89",
+      "name": "Blocked",
+      "originalRuntimeSize": [
+        1024,
+        1024
+      ],
+      "currentKind": "stamp",
+      "action": "retain",
+      "role": "stamp",
+      "target": "保留语义和首轮原图：原创开张/结绳/交叉绳/折伞；代表实机确认墨量与遮挡后才定向细化。",
+      "currentRaw": "fidelity/art/generated/Blocked.raw.png",
+      "currentFinal": "local/NightArt/Blocked.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:90",
+      "name": "CARD_01_Base_2T",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "card_lower",
+      "target": "靛蓝账签，低密度纸纤维和单一薄旧金边；原 2T 槽区用墨色记工格，云角不压正文。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_2T.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_2T.png",
+      "newPrompt": "prompts/CARD_01_Base_2T.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:91",
+      "name": "CARD_Selection",
+      "originalRuntimeSize": [
+        310,
+        272
+      ],
+      "currentKind": "interface",
+      "action": "replace_art",
+      "role": "selection_outline",
+      "target": "仅选中原边线的墨金/纸金笔触，中心没有底材。",
+      "currentRaw": "fidelity/art/generated/CARD_Selection.raw.png",
+      "currentFinal": "local/NightArt/CARD_Selection.png",
+      "newPrompt": "prompts/CARD_Selection.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:92",
+      "name": "CARD_10_LightBottom",
+      "originalRuntimeSize": [
+        1336,
+        117
+      ],
+      "currentKind": "functional_ui",
+      "action": "theme_native",
+      "role": "glow",
+      "target": "原 Bottom 高光 alpha 中为蜜金暖灯光，不画硬边或完整装饰框。",
+      "currentRaw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
+      "currentFinal": "local/NightArt/CARD_10_LightBottom.png",
+      "newPrompt": "prompts/CARD_10_LightBottom.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:93",
+      "name": "Cancelled",
+      "originalRuntimeSize": [
+        1024,
+        1024
+      ],
+      "currentKind": "stamp",
+      "action": "retain",
+      "role": "stamp",
+      "target": "保留语义和首轮原图：原创开张/结绳/交叉绳/折伞；代表实机确认墨量与遮挡后才定向细化。",
+      "currentRaw": "fidelity/art/generated/Cancelled.raw.png",
+      "currentFinal": "local/NightArt/Cancelled.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:94",
+      "name": "SubTitle",
+      "originalRuntimeSize": [
+        628,
+        174
+      ],
+      "currentKind": "prompt_backplate",
+      "action": "replace_art",
+      "role": "prompt_surface",
+      "target": "原小提示 plate 改靛蓝染纸轻质地，无字/logo；原 alpha 不变。",
+      "currentRaw": "fidelity/art/generated/SubTitle.raw.png",
+      "currentFinal": "local/NightArt/SubTitle.png",
+      "newPrompt": "prompts/SubTitle.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:96",
+      "name": "PRJ_CARD_02_Details",
+      "originalRuntimeSize": [
+        1232,
+        920
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "tintable_dividers",
+      "target": "委托细分隔条用旧纸金颜料纹，保持原范围；不叠加画框。",
+      "currentRaw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
+      "currentFinal": "local/NightArt/PRJ_CARD_02_Details.png",
+      "newPrompt": "prompts/PRJ_CARD_02_Details.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:98",
+      "name": "PRJ_WIP",
+      "originalRuntimeSize": [
+        64,
+        64
+      ],
+      "currentKind": "functional_ui",
+      "action": "replace_art",
+      "role": "status_icon",
+      "target": "原工作中轮廓内用赭金印泥；缩小后仍清楚，不伪造新功能。",
+      "currentRaw": "fidelity/art/generated/PRJ_WIP.raw.png",
+      "currentFinal": "local/NightArt/PRJ_WIP.png",
+      "newPrompt": "prompts/PRJ_WIP.txt",
+      "productionStatus": "not_integrated",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:99",
+      "name": "CARD_01_Base_1T_Mask",
+      "originalRuntimeSize": [
+        1240,
+        924
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "technical_mask",
+      "target": "保留功能 mask：原 alpha/槽位及纯中性输入不承载原作画风；最终材质色按新 palette 更新。",
+      "currentRaw": "fidelity/art/generated/CARD_01_Base_1T_Mask.raw.png",
+      "currentFinal": "local/NightArt/CARD_01_Base_1T_Mask.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    },
+    {
+      "id": "sharedassets0.assets:100",
+      "name": "CARD_Score",
+      "originalRuntimeSize": [
+        1550,
+        1000
+      ],
+      "currentKind": "interface",
+      "action": "retain",
+      "role": "interface",
+      "target": "保留：木框/纸签/靛蓝成绩板同属夜市；最后检查字号和缩小装饰密度。",
+      "currentRaw": "fidelity/art/generated/CARD_Score.raw.png",
+      "currentFinal": "local/NightArt/CARD_Score.png",
+      "newPrompt": null,
+      "productionStatus": "retain_pending_family_review",
+      "geometryPolicy": "preserve dimensions, original alpha/sprite mesh/UV/pivot/nodes/references/input/timing"
+    }
+  ],
+  "sample": "samples/style-proof-v2.png",
+  "continuousMaterialSources": [
+    "materials/indigo-paper-v1.raw.png",
+    "materials/neutral-paper-v1.raw.png"
+  ]
+}

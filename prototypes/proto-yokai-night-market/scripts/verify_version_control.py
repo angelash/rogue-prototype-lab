@@ -26,6 +26,7 @@ def verify():
         "projectSettings": PROJECT / "ProjectSettings",
         "imageExports": TASK / "local/NightArt",
         "imageGenerationSources": TASK / "fidelity/art",
+        "artDirectionSources": TASK / "fidelity/art-direction-v2.8",
         "packagingData": TASK / "fidelity/data",
         "copySkill": REPO / ".agents/skills/game-copy-polish",
         "testAndProductionTools": TASK / "scripts",

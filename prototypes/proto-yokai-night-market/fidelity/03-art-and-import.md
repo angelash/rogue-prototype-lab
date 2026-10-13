@@ -2,6 +2,8 @@
 
 日期 2026-10-12。有限清单 [image-specs.json](image-specs.json)，任务 [jobs.json](art/jobs.json)，提示词 art/prompts/，独立生成原图 art/generated/，谱系 [generation-register](art/generation-register.json)。实际尺寸/hash 由静态验证登记。
 
+2026-10-13 最新美术要求以 [v2.8 审视与生产规格](art-direction-v2.8/README.md)为准。下方 v2.7 的分层修复保留为历史：尺寸/alpha/功能层的修复有效，但它采用的原荧光色、金属亮度与棋盘 RGB 已被用户否定。v2.8 重新制作属于视觉包装的 RGB、材质与字色，不能把恢复原作外观当作包装完成。当前运行仍是 v2.7，新目录样稿与底材尚未导入。
+
 ## 制作范围和规格
 
 原 82 张游戏非内置 Texture2D 一对一换图。包括 28 张插画（13 人物、15 事件）、2 桌面、4 印章、两画幅标题与一个操作提示底板、45 功能/UI 纹理。共享原图仍共享夜市图；没有给 95 卡另配 95 张插画。引擎内置纹理和动态字体 atlas 不冒称生成素材。

@@ -1,0 +1,370 @@
+{
+  "version": "2.8-plan-1",
+  "status": "planned_not_applied",
+  "colors": {
+    "inkSurface": {
+      "hex": "#202D36",
+      "rgb": [
+        0.12549,
+        0.176471,
+        0.211765
+      ]
+    },
+    "secondarySurface": {
+      "hex": "#293740",
+      "rgb": [
+        0.160784,
+        0.215686,
+        0.25098
+      ]
+    },
+    "paper": {
+      "hex": "#E8D6AF",
+      "rgb": [
+        0.909804,
+        0.839216,
+        0.686275
+      ]
+    },
+    "lightText": {
+      "hex": "#F0E4CA",
+      "rgb": [
+        0.941176,
+        0.894118,
+        0.792157
+      ]
+    },
+    "darkText": {
+      "hex": "#362D24",
+      "rgb": [
+        0.211765,
+        0.176471,
+        0.141176
+      ]
+    },
+    "oldGold": {
+      "hex": "#B7945E",
+      "rgb": [
+        0.717647,
+        0.580392,
+        0.368627
+      ]
+    },
+    "sound": {
+      "hex": "#60755D",
+      "rgb": [
+        0.376471,
+        0.458824,
+        0.364706
+      ]
+    },
+    "programming": {
+      "hex": "#536E88",
+      "rgb": [
+        0.32549,
+        0.431373,
+        0.533333
+      ]
+    },
+    "design": {
+      "hex": "#766239",
+      "rgb": [
+        0.462745,
+        0.384314,
+        0.223529
+      ]
+    },
+    "art": {
+      "hex": "#9B6346",
+      "rgb": [
+        0.607843,
+        0.388235,
+        0.27451
+      ]
+    },
+    "testing": {
+      "hex": "#826883",
+      "rgb": [
+        0.509804,
+        0.407843,
+        0.513725
+      ]
+    },
+    "negative": {
+      "hex": "#9E5A49",
+      "rgb": [
+        0.619608,
+        0.352941,
+        0.286275
+      ]
+    },
+    "positive": {
+      "hex": "#536F67",
+      "rgb": [
+        0.32549,
+        0.435294,
+        0.403922
+      ]
+    },
+    "special": {
+      "hex": "#756181",
+      "rgb": [
+        0.458824,
+        0.380392,
+        0.505882
+      ]
+    },
+    "direction": {
+      "hex": "#927348",
+      "rgb": [
+        0.572549,
+        0.45098,
+        0.282353
+      ]
+    },
+    "headquarters": {
+      "hex": "#8F4E3F",
+      "rgb": [
+        0.560784,
+        0.305882,
+        0.247059
+      ]
+    },
+    "project": {
+      "hex": "#D0B783",
+      "rgb": [
+        0.815686,
+        0.717647,
+        0.513725
+      ]
+    },
+    "successText": {
+      "hex": "#B8C89F",
+      "rgb": [
+        0.721569,
+        0.784314,
+        0.623529
+      ]
+    },
+    "dangerText": {
+      "hex": "#D68B71",
+      "rgb": [
+        0.839216,
+        0.545098,
+        0.443137
+      ]
+    },
+    "blueText": {
+      "hex": "#A5B9C9",
+      "rgb": [
+        0.647059,
+        0.72549,
+        0.788235
+      ]
+    },
+    "hover": {
+      "hex": "#E4C386",
+      "rgb": [
+        0.894118,
+        0.764706,
+        0.52549
+      ]
+    }
+  },
+  "materialTargets": [
+    {
+      "id": "sharedassets0.assets:13",
+      "name": "00_SND_Detail",
+      "palette": "sound"
+    },
+    {
+      "id": "resources.assets:11",
+      "name": "00_SND_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:6",
+      "name": "00_SND_Bar",
+      "palette": "sound"
+    },
+    {
+      "id": "resources.assets:10",
+      "name": "00_PRG_Detail",
+      "palette": "programming"
+    },
+    {
+      "id": "resources.assets:9",
+      "name": "00_PRG_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:5",
+      "name": "00_PRG_Bar",
+      "palette": "programming"
+    },
+    {
+      "id": "resources.assets:5",
+      "name": "00_DSG_Detail",
+      "palette": "design"
+    },
+    {
+      "id": "resources.assets:4",
+      "name": "00_DSG_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:4",
+      "name": "00_DSG_Bar",
+      "palette": "design"
+    },
+    {
+      "id": "sharedassets0.assets:9",
+      "name": "00_ART_Detail",
+      "palette": "art"
+    },
+    {
+      "id": "resources.assets:1",
+      "name": "00_ART_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:3",
+      "name": "00_ART_Bar",
+      "palette": "art"
+    },
+    {
+      "id": "sharedassets0.assets:15",
+      "name": "00_TST_Detail",
+      "palette": "testing"
+    },
+    {
+      "id": "resources.assets:13",
+      "name": "00_TST_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:7",
+      "name": "00_TST_Bar",
+      "palette": "testing"
+    },
+    {
+      "id": "sharedassets0.assets:10",
+      "name": "00_NEG_Detail",
+      "palette": "negative"
+    },
+    {
+      "id": "resources.assets:8",
+      "name": "00_NEG_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:12",
+      "name": "00_POS_Detail",
+      "palette": "positive"
+    },
+    {
+      "id": "sharedassets0.assets:11",
+      "name": "00_POS_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:14",
+      "name": "00_SPC_Detail",
+      "palette": "special"
+    },
+    {
+      "id": "resources.assets:12",
+      "name": "00_SPC_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "resources.assets:3",
+      "name": "00_DIR_Detail",
+      "palette": "direction"
+    },
+    {
+      "id": "resources.assets:2",
+      "name": "00_DIR_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "resources.assets:7",
+      "name": "00_HQT_Detail",
+      "palette": "headquarters"
+    },
+    {
+      "id": "resources.assets:6",
+      "name": "00_HQT_Dark",
+      "palette": "lightText"
+    },
+    {
+      "id": "sharedassets0.assets:16",
+      "name": "10_PRJ_Detail",
+      "palette": "project"
+    },
+    {
+      "id": "resources.assets:14",
+      "name": "10_PRJ_Dark",
+      "palette": "darkText"
+    },
+    {
+      "id": "resources.assets:15",
+      "name": "CARD_01_Base_1T_Mask 1",
+      "palette": "sound",
+      "note": "serialized tint carrier; verify actual renderer usage before migration"
+    }
+  ],
+  "runtimeColorAudit": [
+    {
+      "file": "TitleManager.cs",
+      "entry": "COLOR_BAD",
+      "palette": "dangerText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "entry": "COLOR_GOOD",
+      "palette": "successText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "entry": "COLOR_NEUTRAL",
+      "palette": "lightText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "entry": "COLOR_36",
+      "palette": "darkText"
+    },
+    {
+      "file": "TitleManager.cs",
+      "entry": "COLOR_BLUE",
+      "palette": "blueText"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "entry": "TASK_NUMBER_GREEN_COLOR / completion tint / Color.red warning",
+      "palette": "successText / dangerText",
+      "note": "keep which branch selects color and its alpha/timing; inspect all call sites"
+    },
+    {
+      "file": "ProjectCard.cs",
+      "entry": "score/rename text dark and light",
+      "palette": "darkText / lightText",
+      "note": "shared TitleManager COLOR_36 used during rename, retained dark on light sign"
+    },
+    {
+      "file": "PlayCard.cs",
+      "entry": "0 Name hardcoded gray; assistance FX color",
+      "palette": "lightText; positive",
+      "note": "no font size/positions/callback change"
+    },
+    {
+      "file": "Continue / SpriteRenderer / TextOutline",
+      "entry": "serialized neon tint / black outline",
+      "palette": "hover / oldGold / darkText",
+      "note": "enumerate exact fields before implementation; do not replace alpha or add per-frame repaint"
+    }
+  ],
+  "unchanged": "numeric rules, random call sites, hierarchy, transforms, callbacks, alpha and state timing",
+  "implementationGate": "record exact color-only delta before adapting any production C#; current verification allowlist must be extended honestly"
+}

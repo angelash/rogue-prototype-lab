@@ -1,0 +1,111 @@
+{
+  "version": "2.8-plan-1",
+  "images": [
+    {
+      "name": "style-proof-v1",
+      "status": "concept_history",
+      "raw": "fidelity/art-direction-v2.8/samples/style-proof-v1.png",
+      "rawSHA256": "38e3ea565f94dd76bb5e9561dcf10f36529bee42448559f69c2ee7e29d5c5a05",
+      "rawSize": [
+        1536,
+        1024
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/samples/style-proof-v1.prompt.txt",
+      "promptSHA256": "3f494c373c08541a2b63ecae9944c3ca28f4240e1ab0a67f8f2b42ec4a4f3246",
+      "references": [
+        {
+          "path": "fidelity/art/generated/PRGGuy.raw.png",
+          "sha256": "4200d5ff431db855cb70e140c87aa600db3fb18178d81e24a462e490ca832176"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T14:47:06.326562+08:00",
+      "review": "拒用 v1 的圆孔、滑动开关与标题中月亮；保留它的材质方向，已由 v2 修订。"
+    },
+    {
+      "name": "style-proof-v2",
+      "status": "concept_direction",
+      "raw": "fidelity/art-direction-v2.8/samples/style-proof-v2.png",
+      "rawSHA256": "49eb46e0ade14f230c100e5fed8f06654101c5b6e5acd074871b7f3e81eb5002",
+      "rawSize": [
+        1536,
+        1024
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/samples/style-proof-v2.prompt.txt",
+      "promptSHA256": "39c298e833d0d734db9b7b3d95cd4135b9d9c32109a8f8de20daff33e06a6c2b",
+      "references": [
+        {
+          "path": "fidelity/art-direction-v2.8/samples/style-proof-v1.png",
+          "sha256": "38e3ea565f94dd76bb5e9561dcf10f36529bee42448559f69c2ee7e29d5c5a05"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T14:47:06.376470+08:00",
+      "review": "助手选作材质/风格方向样稿。斜切槽与矩形设置已修订；组件比例与画中人物只是概念，不能替代原游戏模板、点击/网格或既有人物插画。"
+    },
+    {
+      "name": "indigo-paper-v1",
+      "status": "production_source_pending_integration",
+      "raw": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.raw.png",
+      "rawSHA256": "54cadbc8c0afbbe27080334bf44828c16fe765aad5e0eb47845565aab51dd78d",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/materials/indigo-paper-v1.prompt.txt",
+      "promptSHA256": "38bc346429d01e062ca33cc646504c21efafceada1ed8c25803266a6939f9615",
+      "references": [
+        {
+          "path": "fidelity/art/generated/PRGGuy.raw.png",
+          "sha256": "4200d5ff431db855cb70e140c87aa600db3fb18178d81e24a462e490ca832176"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T14:47:06.411556+08:00",
+      "review": "已查看：连续靛蓝纤维，未见文字/框/大图案，适合作深纸底材。尚未经过原 alpha 技术导出或实际 Player 验收。"
+    },
+    {
+      "name": "neutral-paper-v1",
+      "status": "production_source_pending_integration",
+      "raw": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.raw.png",
+      "rawSHA256": "614a9a39aa41d57df9f4d286b2a821d81f7d7c55dbdfc1d6e6b790ba9d771e10",
+      "rawSize": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "prompt": "fidelity/art-direction-v2.8/materials/neutral-paper-v1.prompt.txt",
+      "promptSHA256": "219b1e80db343aacdf351782608d1981d899ce119aa869e7ff329856eb04f9c5",
+      "references": [
+        {
+          "path": "fidelity/art/generated/PRGGuy.raw.png",
+          "sha256": "4200d5ff431db855cb70e140c87aa600db3fb18178d81e24a462e490ca832176"
+        }
+      ],
+      "transparentRequested": false,
+      "tool": "image_gen.imagegen",
+      "registeredAt": "2026-10-13T14:47:06.445422+08:00",
+      "review": "已查看：连续浅中性纸纹，未见文字/框/大图案，可用于矿物类别乘色底材。尚未导出/集成，最终乘色须实机检验。"
+    }
+  ],
+  "runtimeChanged": false,
+  "playerEvidence": null
+}

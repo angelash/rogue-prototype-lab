@@ -9,6 +9,7 @@
 - [内容查阅](fidelity/data/content-guide.md)：当前卡牌参数和委托目标。
 - [原图尺寸与导入](fidelity/image-specs.json)：82 张游戏纹理。
 - [UI 分层规格](fidelity/data/ui-surfaces.json) / [对应回归用例](fidelity/test-cases/ui-surfaces.md)：设置、左侧面板、阶段底图及功能标记。
+- [v2.8 界面重整方案](fidelity/art-direction-v2.8/README.md)：用户否定 v2.7 混合外观后建立的 82 项审视、38 项变更目标、28 处材质迁移、独立提示词和原创样稿。运行工程当前仍为 v2.7，方案和新底材不冒充已导入结果。
 - [实际提示词](fidelity/art/prompts/) / [生成原图](fidelity/art/generated/) / [来源谱系](fidelity/art/generation-register.json)。
 - [静态验证](fidelity/evidence/fidelity-verification.json) / [交付证据](fidelity/evidence/delivery.json) / [验收说明](fidelity/04-validation-and-delivery.md)。
 
