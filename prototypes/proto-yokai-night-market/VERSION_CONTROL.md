@@ -24,3 +24,5 @@ Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 lo
 2026-10-13 v2.5 将无字提示底板、旧提示历史、31 键文案修订、声明的委托副说明字号、场景及 prefab 工作副本、导出与静态检查工具、NightPromptProbe 测试源/用例合同纳入完整分支。结果、截图、日志和 zip 保持忽略。本轮完整历史备份为根 `local/git-backups/yokai-night-market-source-v2.5-final.bundle`，提交、hash、恢复核验和实际版本覆盖登记在同目录 `yokai-night-market-v2.5-record.json`；公开原创文件推送记录为 `yokai-night-market-public-v2.5.json`。旧版 bundle 和恢复校验仓库保留。
 
 2026-10-13 v2.6 将干预牌分类配色、实际材质与恢复输入、NightVisualProbe 的实际像素断言、运行检查入口及用例规格继续纳入完整分支。82 图片和文案本轮未改；报告、截图和 zip 保持忽略。完整历史备份使用根 `local/git-backups/yokai-night-market-source-v2.6-bands.bundle`，实际提交、hash 和恢复检查记录为 `yokai-night-market-v2.6-record.json`；公开原创资料推送记录为 `yokai-night-market-public-v2.6.json`。
+
+2026-10-13 v2.7 将 26 张功能 UI 运行 PNG、对应制作规格、导出器、NightSurfaceProbe/运行入口和回归用例纳入完整分支，全部 82 份历史生成源保留。新增输入按 Git 索引核对，必需文件为 3,649；结果、截图、zip 和缓存仍忽略。完整历史备份使用根 `local/git-backups/yokai-night-market-source-v2.7-ui.bundle`，提交、hash 和裸仓恢复核验记录为 `yokai-night-market-v2.7-record.json`；公开原创工具与规格推送记录为 `yokai-night-market-public-v2.7.json`。旧版包/bundle 和失败记录保留。

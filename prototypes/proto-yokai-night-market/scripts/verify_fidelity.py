@@ -4,6 +4,7 @@ No recovered code or source media is included in the output.
 from pathlib import Path
 import hashlib,json,re,xml.etree.ElementTree as ET
 from PIL import Image
+import numpy as np
 from fontTools.ttLib import TTFont
 ROOT=Path(__file__).resolve().parents[1]
 REPO=ROOT.parents[1]
@@ -100,7 +101,18 @@ def verify():
             ok=validSize and sha(final)==sha(working) and sha(raw)==record.get('rawSHA256') and sha(ROOT/j['prompt'])==record.get('promptSHA256') and sha(final)!=sha(original)
             item.update(rawSHA256=sha(raw),runtimeSHA256=sha(final),originalReferencePNG_SHA256=sha(original),passed=ok)
         images.append(item)
-    check('All 82 replacement textures have source dimensions, provenance and runtime copies (81 generated art, one procedural prompt plate)',len(images)==82 and all(i['passed'] for i in images),historicalGeneratedSources=len(registrations),exported=sum(i['passed'] for i in images))
+    check('All 82 replacement textures have source dimensions, provenance and runtime copies; historical generated originals are retained',len(images)==82 and all(i['passed'] for i in images),historicalGeneratedSources=len(registrations),exported=sum(i['passed'] for i in images))
+    surfaces=read(ROOT/'fidelity/data/ui-surfaces.json')['textures'];valid=True;facts=[]
+    for name,role in surfaces.items():
+        j=next(j for j in jobs if j['name']==name);original=SOURCE/objects[j['id']]['exportFiles'][0]['path']
+        with Image.open(original) as source,Image.open(ROOT/j['final']) as final:
+            s=np.asarray(source.convert('RGBA'));f=np.asarray(final.convert('RGBA'))
+            level=s[:,:,:3].max(axis=2)/255 if role['mode']=='luminance' else np.ones(s.shape[:2]);expected=level[:,:,None]*np.array(role['rgb'])*255
+            error=float(np.abs(f[:,:,:3].astype(float)-expected).max())
+            nativeLabel=role['mode']=='label';ink=((f[:,:,0]>100)&(f[:,:,1]>80)&(f[:,:,3]>128)).sum()
+            ok=j['kind']=='functional_ui' and source.size==final.size and np.array_equal(s[:,:,3],f[:,:,3]) and (ink>=15 if nativeLabel else error<=1)
+            valid &= ok;facts.append(dict(name=name,role=role['role'],mode=role['mode'],maxChannelError=error,passed=bool(ok)))
+    check('Twenty-six shared UI layers retain exact functional alpha; twenty-four declared surfaces and two native language badges use no generated frame or navy fallback',len(surfaces)==26 and valid,textures=facts)
     prompt=next(j for j in jobs if j['name']=='SubTitle');original=SOURCE/objects[prompt['id']]['exportFiles'][0]['path']
     with Image.open(ROOT/prompt['final']) as plate, Image.open(original) as source:
         check('Continue background is text-free uniform dark RGB with exact original alpha and dimensions',prompt['kind']=='prompt_backplate' and plate.size==source.size==(628,174) and plate.getchannel('A').tobytes()==source.getchannel('A').tobytes() and all(a==b and b<=11 for a,b in plate.getextrema()[:3]),role='Continue.Background, both aspect ratio trees')

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "revision": "v2.6-bands",
-  "date": "2026-10-13T04:37:31.788756+00:00",
+  "revision": "v2.7-ui-final-r2",
+  "date": "2026-10-13T05:20:31.403704+00:00",
   "status": "local playable restoration candidate; native and pixel-equivalence acceptance incomplete",
   "unity": "2022.3.62f3c1",
   "platform": "Windows x64 Mono",
@@ -14,12 +14,12 @@
     "errors": 0,
     "warnings": 7,
     "bytes": 610454383,
-    "seconds": 7.157527399999999
+    "seconds": 6.650892
   },
-  "sourceInputFiles": 965,
-  "sourceInputSHA256": "0561fde870e9417c184f00c1533a6cd806f66f199e3d5dcc37754d7463759a48",
+  "sourceInputFiles": 967,
+  "sourceInputSHA256": "9ecd161c009702cfa92af737876d64dd65879391be550510fb4e9eb89bcd025f",
   "sourceInputManifest": "local/source-inputs.json",
-  "releaseAssemblySHA256": "de1ae6c7ddaf536e5054592b0a37ca022cbc72849cfa8c44a8aac656ca030a84",
+  "releaseAssemblySHA256": "d6e539503c190b6e186ff4d1e3ec97f37585ba7876b5fff240c407b196a81e19",
   "releaseQAClasses": [],
   "originalInstallFilesVerified": 25,
   "originalInstallUnchanged": true,
@@ -119,9 +119,11 @@
     "generated": 82,
     "imported": 82,
     "referenceArtNeverSuppliedToImagegen": true,
-    "runtimeGeneratedArt": 81,
+    "runtimeGeneratedArt": 55,
     "proceduralPromptPlates": 1,
-    "historicalGeneratedSources": 82
+    "historicalGeneratedSources": 82,
+    "proceduralUISurfaces": 24,
+    "nativeLanguageBadges": 2
   },
   "qa": {
     "rules": {
@@ -634,7 +636,7 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-16x9-v2.6-r1/report.json",
+      "localPath": "local/QAResults/visual-complete-16x9-v2.7-r3/report.json",
       "sha256": "ef470e871d598d767b32faa05542496520c560ca365b828ea239721bc6b0927a"
     },
     "visual4x3": {
@@ -785,7 +787,7 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-4x3-v2.6-r1/report.json",
+      "localPath": "local/QAResults/visual-complete-4x3-v2.7-r3/report.json",
       "sha256": "ef50d8c3e4ba8eb2586418efc290187b97de4c377ad5283571251a6cfc9c2484"
     },
     "match": {
@@ -1547,7 +1549,7 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-16x9-v2.6-r1-en/report.json",
+      "localPath": "local/QAResults/visual-complete-16x9-v2.7-r3-en/report.json",
       "sha256": "5459c58086985398e8c2de8422edfd39ec3783e133c0201209494a9973b393fb"
     },
     "visualEnglish4x3": {
@@ -1698,7 +1700,7 @@
           "project-028.png"
         ]
       },
-      "localPath": "local/QAResults/visual-complete-4x3-v2.6-r1-en/report.json",
+      "localPath": "local/QAResults/visual-complete-4x3-v2.7-r3-en/report.json",
       "sha256": "34226c035caa7639e4a94f723bd689b21062bd63b14104262a73d75922b88dd8"
     },
     "prompts16x9Chinese": {
@@ -1747,7 +1749,7 @@
         ],
         "errors": []
       },
-      "localPath": "local/QAResults/prompts-16x9-v2.5-r9/report.json",
+      "localPath": "local/QAResults/prompts-16x9-v2.7-r3/report.json",
       "sha256": "e064d7f0766ba7eca8619ab540c9062b4068ea39834a79f8b766965dace41e53"
     },
     "prompts16x9English": {
@@ -1796,7 +1798,7 @@
         ],
         "errors": []
       },
-      "localPath": "local/QAResults/prompts-16x9-v2.5-r9-en/report.json",
+      "localPath": "local/QAResults/prompts-16x9-v2.7-r3-en/report.json",
       "sha256": "8425bfee10007136f0373f3a7c0cc7f76928f01e3b40e195a411075c56ac5a5e"
     },
     "prompts4x3Chinese": {
@@ -1845,7 +1847,7 @@
         ],
         "errors": []
       },
-      "localPath": "local/QAResults/prompts-4x3-v2.5-r9/report.json",
+      "localPath": "local/QAResults/prompts-4x3-v2.7-r3/report.json",
       "sha256": "8ce6a71db032444352471dedc98d10e71ebaa55da88143f02e2b725a0f6e9966"
     },
     "prompts4x3English": {
@@ -1894,37 +1896,205 @@
         ],
         "errors": []
       },
-      "localPath": "local/QAResults/prompts-4x3-v2.5-r9-en/report.json",
+      "localPath": "local/QAResults/prompts-4x3-v2.7-r3-en/report.json",
       "sha256": "3a17dc0b1f5572e4bdf7b4ea50675c6298494940ce02286e8aed4a51725062e1"
+    },
+    "surfaces16x9Chinese": {
+      "report": {
+        "passed": true,
+        "scope": "Actual QA Player: production table, original options pause/resume callbacks and seven phase animations (enter/display/exit). Loader frozen after a normal opening, 60 FPS. Not native mouse input or a complete played match.",
+        "width": 1920,
+        "height": 1080,
+        "language": 0,
+        "phaseChecks": 7,
+        "optionChecks": 10,
+        "captures": [
+          "01-table.png",
+          "02-options.png",
+          "03-options-disabled.png",
+          "04-options-enabled.png",
+          "05-options-closed.png",
+          "phase-Recruiting-enter.png",
+          "phase-Recruiting-display.png",
+          "phase-Recruiting-exit.png",
+          "phase-SelectingProjects-enter.png",
+          "phase-SelectingProjects-display.png",
+          "phase-SelectingProjects-exit.png",
+          "phase-YourTurn-enter.png",
+          "phase-YourTurn-display.png",
+          "phase-YourTurn-exit.png",
+          "phase-AITurn-enter.png",
+          "phase-AITurn-display.png",
+          "phase-AITurn-exit.png",
+          "phase-YouWin-enter.png",
+          "phase-YouWin-display.png",
+          "phase-YouWin-exit.png",
+          "phase-YouLose-enter.png",
+          "phase-YouLose-display.png",
+          "phase-YouLose-exit.png",
+          "phase-NewRecord-enter.png",
+          "phase-NewRecord-display.png",
+          "phase-NewRecord-exit.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/surfaces-16x9-v2.7-r4/report.json",
+      "sha256": "d1388aad92d7c866f4e73136a5c87f57278f40e7b707b8bd453cdde2c3527068"
+    },
+    "surfaces16x9English": {
+      "report": {
+        "passed": true,
+        "scope": "Actual QA Player: production table, original options pause/resume callbacks and seven phase animations (enter/display/exit). Loader frozen after a normal opening, 60 FPS. Not native mouse input or a complete played match.",
+        "width": 1920,
+        "height": 1080,
+        "language": 1,
+        "phaseChecks": 7,
+        "optionChecks": 10,
+        "captures": [
+          "01-table.png",
+          "02-options.png",
+          "03-options-disabled.png",
+          "04-options-enabled.png",
+          "05-options-closed.png",
+          "phase-Recruiting-enter.png",
+          "phase-Recruiting-display.png",
+          "phase-Recruiting-exit.png",
+          "phase-SelectingProjects-enter.png",
+          "phase-SelectingProjects-display.png",
+          "phase-SelectingProjects-exit.png",
+          "phase-YourTurn-enter.png",
+          "phase-YourTurn-display.png",
+          "phase-YourTurn-exit.png",
+          "phase-AITurn-enter.png",
+          "phase-AITurn-display.png",
+          "phase-AITurn-exit.png",
+          "phase-YouWin-enter.png",
+          "phase-YouWin-display.png",
+          "phase-YouWin-exit.png",
+          "phase-YouLose-enter.png",
+          "phase-YouLose-display.png",
+          "phase-YouLose-exit.png",
+          "phase-NewRecord-enter.png",
+          "phase-NewRecord-display.png",
+          "phase-NewRecord-exit.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/surfaces-16x9-v2.7-r4-en/report.json",
+      "sha256": "9e9641d9a38e5dcda65528704c686e748871f1fea9993e7268bd043002410c19"
+    },
+    "surfaces4x3Chinese": {
+      "report": {
+        "passed": true,
+        "scope": "Actual QA Player: production table, original options pause/resume callbacks and seven phase animations (enter/display/exit). Loader frozen after a normal opening, 60 FPS. Not native mouse input or a complete played match.",
+        "width": 1440,
+        "height": 1080,
+        "language": 0,
+        "phaseChecks": 7,
+        "optionChecks": 10,
+        "captures": [
+          "01-table.png",
+          "02-options.png",
+          "03-options-disabled.png",
+          "04-options-enabled.png",
+          "05-options-closed.png",
+          "phase-Recruiting-enter.png",
+          "phase-Recruiting-display.png",
+          "phase-Recruiting-exit.png",
+          "phase-SelectingProjects-enter.png",
+          "phase-SelectingProjects-display.png",
+          "phase-SelectingProjects-exit.png",
+          "phase-YourTurn-enter.png",
+          "phase-YourTurn-display.png",
+          "phase-YourTurn-exit.png",
+          "phase-AITurn-enter.png",
+          "phase-AITurn-display.png",
+          "phase-AITurn-exit.png",
+          "phase-YouWin-enter.png",
+          "phase-YouWin-display.png",
+          "phase-YouWin-exit.png",
+          "phase-YouLose-enter.png",
+          "phase-YouLose-display.png",
+          "phase-YouLose-exit.png",
+          "phase-NewRecord-enter.png",
+          "phase-NewRecord-display.png",
+          "phase-NewRecord-exit.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/surfaces-4x3-v2.7-r4/report.json",
+      "sha256": "644544e862b11576d38937811241804e037f2b445944b805ff42e4973d0abe22"
+    },
+    "surfaces4x3English": {
+      "report": {
+        "passed": true,
+        "scope": "Actual QA Player: production table, original options pause/resume callbacks and seven phase animations (enter/display/exit). Loader frozen after a normal opening, 60 FPS. Not native mouse input or a complete played match.",
+        "width": 1440,
+        "height": 1080,
+        "language": 1,
+        "phaseChecks": 7,
+        "optionChecks": 10,
+        "captures": [
+          "01-table.png",
+          "02-options.png",
+          "03-options-disabled.png",
+          "04-options-enabled.png",
+          "05-options-closed.png",
+          "phase-Recruiting-enter.png",
+          "phase-Recruiting-display.png",
+          "phase-Recruiting-exit.png",
+          "phase-SelectingProjects-enter.png",
+          "phase-SelectingProjects-display.png",
+          "phase-SelectingProjects-exit.png",
+          "phase-YourTurn-enter.png",
+          "phase-YourTurn-display.png",
+          "phase-YourTurn-exit.png",
+          "phase-AITurn-enter.png",
+          "phase-AITurn-display.png",
+          "phase-AITurn-exit.png",
+          "phase-YouWin-enter.png",
+          "phase-YouWin-display.png",
+          "phase-YouWin-exit.png",
+          "phase-YouLose-enter.png",
+          "phase-YouLose-display.png",
+          "phase-YouLose-exit.png",
+          "phase-NewRecord-enter.png",
+          "phase-NewRecord-display.png",
+          "phase-NewRecord-exit.png"
+        ],
+        "errors": []
+      },
+      "localPath": "local/QAResults/surfaces-4x3-v2.7-r4-en/report.json",
+      "sha256": "0585add0b9599bc641e11efa378602f9740085320ca492a04aee0bf7b6679fbe"
     }
   },
   "backups": {
     "version": 2,
-    "revision": "v2.6-bands",
+    "revision": "v2.7-ui-final-r2",
     "scope": "Private local restoration backups; not redistribution packages",
     "source": {
-      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.6-bands.zip",
-      "bytes": 354442904,
-      "sha256": "41b4316b7e7587e8d2802014b84d9fa0e5986b77a9833a82cf05a548d12b8416",
-      "files": 965,
-      "uncompressedBytes": 418386962,
+      "path": "local/Backups/YokaiNightMarket-UnitySource-v2.7-ui-final-r2.zip",
+      "bytes": 350258827,
+      "sha256": "39b6884908e9c39d9824a2e5ffec35658090f612e4dcde8f42b29d22cffed922",
+      "files": 967,
+      "uncompressedBytes": 414256904,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.6-bands.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-UnitySource-v2.7-ui-final-r2.files.json"
     },
     "player": {
-      "path": "local/Backups/YokaiNightMarket-Windows-v2.6-bands.zip",
-      "bytes": 375156968,
-      "sha256": "3b8f3c5805dee037d11738b918c6fcc69a231639dfcd40b023303154f36ac2fa",
+      "path": "local/Backups/YokaiNightMarket-Windows-v2.7-ui-final-r2.zip",
+      "bytes": 369450961,
+      "sha256": "2ab49f2f3da1f90f78025469a01b23b1400f96340ccd4990a24a459df51a12b8",
       "files": 129,
       "uncompressedBytes": 610455294,
       "readbackVerified": true,
-      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.6-bands.files.json"
+      "manifest": "local/Backups/YokaiNightMarket-Windows-v2.7-ui-final-r2.files.json"
     }
   },
   "native": {
     "passed": false,
     "partialChecks": 13,
-    "status": "partial native Release coverage completed; remaining cases listed in the actual report",
+    "status": "Recorded earlier partial native history; no current v2.7 native input acceptance while Windows is locked",
     "localPath": "local/QAResults/native-v2.3/report.json",
     "sha256": "03175c5fec5c32fa9ed8d41d9c37969b9e4bb2dfcba658a38cb4789178139844",
     "report": {
@@ -2184,7 +2354,8 @@
           "29-restored-name.png"
         ]
       }
-    }
+    },
+    "testedCurrentBuild": false
   },
   "limitations": [
     "No Unity 4 vs Unity 2022 same-seed RNG or rasterizer equivalence proof",
@@ -2203,7 +2374,7 @@
     "finalHeaderArt": [
       "match"
     ],
-    "reason": "Rules, smoke, flow, match and partial native reports retain their recorded earlier revision scope; only the four listed visual surveys attest the current v2.6 packaging.",
+    "reason": "Current v2.7 reports cover all card/tutorial/project renders, repeated prompt/header spacing and seven phase animations plus settings states in both languages/aspect ratios. Earlier rules, smoke, flow, match and partial native reports keep their recorded scope; no new native input evidence while Windows is locked.",
     "flowAddition": [
       "flow"
     ],
@@ -2214,7 +2385,7 @@
       "visualEnglish16x9",
       "visualEnglish4x3"
     ],
-    "copyPolishReason": "The v2.4 copy remains unchanged. Listed visual reports now come from the current v2.6 band repair; older copy-polish captures remain in local archives.",
+    "copyPolishReason": "v2.4 copy remains unchanged; the listed complete visual reports are now current v2.7 packaging.",
     "promptRepair": {
       "reports": [
         "prompts16x9Chinese",
@@ -2222,28 +2393,19 @@
         "prompts4x3Chinese",
         "prompts4x3English"
       ],
-      "reason": "The v2.5 prompt repair reports remain their recorded history; v2.6 changes only one negative-card band material and the QA-only pixel checks. No prompt texture, node, text or behavior changes in this revision."
+      "reason": "v2.7 repeats the v2.5 Continue and collapsed-header fixtures after the shared UI layer correction, using the current Player."
     },
-    "bandRepair": {
+    "surfaceRepair": {
       "reports": [
-        "visual16x9",
-        "visual4x3",
-        "visualEnglish16x9",
-        "visualEnglish4x3"
+        "surfaces16x9Chinese",
+        "surfaces16x9English",
+        "surfaces4x3Chinese",
+        "surfaces4x3English"
       ],
-      "material": "00_NEG_Detail",
-      "rgba": [
-        0.72,
-        0.24,
-        0.18,
-        1
-      ],
-      "affectedCardTypes": [
-        6,
-        7
-      ],
-      "affectedCards": 26,
-      "reason": "Original pure-black classification bands are intentional source design; change their packaging tint to terracotta so the title and separators remain identifiable on the night-market frame. Each affected card renders both bands separately on black and must have at least 100 colored pixels. All 82 PNG bytes, text, geometry, references, business code and numeric rules remain unchanged."
+      "specification": "fidelity/data/ui-surfaces.json",
+      "layers": 26,
+      "reason": "Replace full generated decorations and opaque navy gap filling on primitive UI layers with role-specific backgrounds, outlines, gradients, glows, progress/status markers and two native language badges. Preserve source dimensions and alpha, transforms, meshes/UV, hit areas, materials, copy and all 30 business scripts. The faint enlarging phase echo is the original TitleManager animation and remains intact.",
+      "nativeRecheck": "Release started, but target window capture showed Windows lock screen. No input sent; awaiting manual unlock."
     }
   },
   "versionControl": {

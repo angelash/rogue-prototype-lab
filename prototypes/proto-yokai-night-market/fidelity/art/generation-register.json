@@ -240,7 +240,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:05:05.647162+08:00",
       "toolOutputFile": "exec-dbf7daf0-81ca-4d14-9360-6317fa0b6f9a.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "ButtonSmall",
@@ -264,7 +264,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:05:06.768877+08:00",
       "toolOutputFile": "exec-732d1da9-e558-4934-b1d3-e3f6eccf1c42.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_00_Background",
@@ -288,7 +288,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:49:41.795614+08:00",
       "toolOutputFile": "exec-32324645-702f-4d50-8d76-c24e076da2ea.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_01_BaseTop",
@@ -314,7 +314,7 @@
       ],
       "generatedAt": "2026-10-12T14:53:50.554708+00:00",
       "toolOutputFile": "exec-2637da47-85a4-41f7-8d2d-fa22fa728cc3.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_01_Base_0T",
@@ -580,7 +580,7 @@
       ],
       "generatedAt": "2026-10-13T01:52:38.762622+00:00",
       "toolOutputFile": "exec-868da8cd-296e-4476-97a1-67706b0dc9bc.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_04_Turn",
@@ -628,7 +628,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:55:08.112793+08:00",
       "toolOutputFile": "exec-a907a8de-3b76-47a1-ade1-2d68247c121f.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_10_LightMiddle",
@@ -652,7 +652,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:55:07.223516+08:00",
       "toolOutputFile": "exec-b721e1af-c6e6-4252-bd3a-9a9e1f8c321d.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_10_LightTop",
@@ -676,7 +676,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:55:06.377629+08:00",
       "toolOutputFile": "exec-8d336c33-31eb-4015-855d-8884aab875ee.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "CARD_Score",
@@ -918,7 +918,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:16:24.079543+08:00",
       "toolOutputFile": "exec-574871c7-124e-4167-961b-5db33bc8d9a7.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "FlagHighlight",
@@ -942,7 +942,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:10:49.844867+08:00",
       "toolOutputFile": "exec-55183870-961c-481a-bdf1-ceeb753507f9.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "Forward",
@@ -1206,7 +1206,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:10:47.584751+08:00",
       "toolOutputFile": "exec-c8868d41-99c4-4952-bc71-84bd4f5393fd.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "OptionLight",
@@ -1230,7 +1230,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:10:48.682761+08:00",
       "toolOutputFile": "exec-e7ab3886-ac15-47c3-b11c-ec630a8e306a.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "OptionRed",
@@ -1254,7 +1254,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:10:46.605591+08:00",
       "toolOutputFile": "exec-c15b677e-a306-4e3c-8b37-4ea79a421d77.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRGGirl",
@@ -1350,7 +1350,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:26:23.274508+08:00",
       "toolOutputFile": "exec-44eb025b-2cfe-4fa5-9bba-d065e9e01854.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_CARD_01_Base_Project",
@@ -1376,7 +1376,7 @@
       ],
       "generatedAt": "2026-10-13T01:52:39.057341+00:00",
       "toolOutputFile": "exec-b37a9c93-af51-4b6e-b870-08eac842f9b8.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_CARD_02_Details",
@@ -1400,7 +1400,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:44:07.220976+08:00",
       "toolOutputFile": "exec-b3021a41-7f98-4cd1-a27e-76048b56d457.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_Dot",
@@ -1424,7 +1424,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:20:45.716743+08:00",
       "toolOutputFile": "exec-41986e77-802b-4123-99f5-cfcf2239d9f9.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_Dot 1",
@@ -1448,7 +1448,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:20:46.777971+08:00",
       "toolOutputFile": "exec-1776eaf3-a70c-4a8e-9947-fcc02d6ffc42.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_No",
@@ -1472,7 +1472,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:34:48.197936+08:00",
       "toolOutputFile": "exec-bb0bda59-1a25-499f-aee6-981bda60453c.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_Ok",
@@ -1496,7 +1496,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:20:48.014567+08:00",
       "toolOutputFile": "exec-ed234ae0-faf8-4fa1-82c1-969fa54b116e.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "PRJ_WIP",
@@ -1520,7 +1520,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:26:22.264266+08:00",
       "toolOutputFile": "exec-a22f55a8-bd81-480d-b886-49f89a2d7c5e.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "Phone",
@@ -1712,7 +1712,7 @@
       "references": [],
       "generatedAt": "2026-10-12T21:16:25.077908+08:00",
       "toolOutputFile": "exec-1da73c01-a620-46d8-9d9e-6ca2c72320a5.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "SubTitle",
@@ -1859,7 +1859,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:58:53.054473+08:00",
       "toolOutputFile": "exec-a342fdeb-8e5b-4193-b5ad-241c25347055.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "TitleBackground Line Left",
@@ -1883,7 +1883,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:58:54.950842+08:00",
       "toolOutputFile": "exec-74f61ef1-6cb1-4786-b622-f3fff711fd25.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "TitleBackground Line Right",
@@ -1907,7 +1907,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:58:55.942027+08:00",
       "toolOutputFile": "exec-db361460-f188-4aae-bf0a-fe929cbba767.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "TitleBackground Right",
@@ -1931,7 +1931,7 @@
       "references": [],
       "generatedAt": "2026-10-12T20:58:54.000803+08:00",
       "toolOutputFile": "exec-7fd3f03f-81a7-455b-83a2-2e7c6d16b38f.png",
-      "review": "Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence."
+      "review": "Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified."
     },
     {
       "name": "Title_16_9",

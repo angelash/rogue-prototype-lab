@@ -8,6 +8,7 @@
 - [全量替换数据](fidelity/data/theme.json)：95 卡、28 委托、420 双语键。
 - [内容查阅](fidelity/data/content-guide.md)：当前卡牌参数和委托目标。
 - [原图尺寸与导入](fidelity/image-specs.json)：82 张游戏纹理。
+- [UI 分层规格](fidelity/data/ui-surfaces.json) / [对应回归用例](fidelity/test-cases/ui-surfaces.md)：设置、左侧面板、阶段底图及功能标记。
 - [实际提示词](fidelity/art/prompts/) / [生成原图](fidelity/art/generated/) / [来源谱系](fidelity/art/generation-register.json)。
 - [静态验证](fidelity/evidence/fidelity-verification.json) / [交付证据](fidelity/evidence/delivery.json) / [验收说明](fidelity/04-validation-and-delivery.md)。
 

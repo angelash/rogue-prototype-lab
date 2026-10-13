@@ -1,5 +1,5 @@
 # Isolated command-line QA only. This script performs no native window input.
-param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$VisualOnly, [switch]$EnglishSurvey, [switch]$FlowOnly, [switch]$PromptsOnly)
+param([string]$EvidenceSuffix = '', [switch]$VisualAndMatchOnly, [switch]$VisualOnly, [switch]$EnglishSurvey, [switch]$FlowOnly, [switch]$PromptsOnly, [switch]$SurfacesOnly)
 $ErrorActionPreference = 'Stop'
 $taskRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $taskLocal = Join-Path $taskRoot 'local'
@@ -17,6 +17,7 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     $arguments = @('-batchmode', $flag, '-screen-width', "$width", '-screen-height', '1080', '-screen-fullscreen', '1', '-logFile', ('"' + $log + '"'))
     if ($EnglishSurvey -and $flag -eq '--night-visual') { $arguments += '--night-visual-en' }
     if ($EnglishSurvey -and $flag -eq '--night-prompts') { $arguments += '--night-prompts-en' }
+    if ($EnglishSurvey -and $flag -eq '--night-surfaces') { $arguments += '--night-surfaces-en' }
     $process = Start-Process -FilePath $qaPlayer -ArgumentList $arguments -WindowStyle Hidden -PassThru -Wait
     if ($process.ExitCode -ne 0) { throw ($archiveName + ' exited with ' + $process.ExitCode) }
     $reportPath = Join-Path $qaRoot ($reportFolder + '/' + $reportName)
@@ -27,10 +28,11 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     if ($flag -eq '--night-visual' -and ($report.negativeCardsChecked -ne 26 -or $report.negativeBandInkChecks -ne 52)) { throw 'Incomplete negative-card band pixel checks' }
     if ($flag -eq '--night-prompts' -and ($report.captures.Count -ne 33 -or $report.boundsChecks -lt 4 -or $report.projectHeaderChecks -ne 28 -or $report.language -ne [int]$EnglishSurvey.IsPresent)) { throw 'Incomplete prompt and project-header survey' }
     if ($flag -eq '--night-rules' -and $report.rules.Count -ne 40) { throw 'Incomplete rule suite' }
+    if ($flag -eq '--night-surfaces' -and ($report.captures.Count -ne 26 -or $report.phaseChecks -ne 7 -or $report.optionChecks -ne 10 -or $report.language -ne [int]$EnglishSurvey.IsPresent)) { throw 'Incomplete UI surface survey' }
     if ($flag -eq '--night-flow' -and ($report.checks.Count -ne 15 -or $report.reloads -ne 1)) { throw 'Incomplete replay/settings suite' }
     New-Item -ItemType Directory -Path $archive | Out-Null
     Copy-Item -LiteralPath $reportPath -Destination (Join-Path $archive $reportName)
-    if ($flag -eq '--night-visual' -or $flag -eq '--night-prompts') { $captureNames = $report.captures }
+    if ($flag -eq '--night-visual' -or $flag -eq '--night-prompts' -or $flag -eq '--night-surfaces') { $captureNames = $report.captures }
     foreach ($name in $captureNames) {
         $imagePath = Join-Path $qaRoot ($reportFolder + '/' + $name)
         if ((Get-Item -LiteralPath $imagePath).LastWriteTime -lt $started) { throw ('Stale QA capture: ' + $name) }
@@ -39,6 +41,11 @@ function Run-Check($flag, $aspect, $width, $reportFolder, $reportName, $archiveN
     [ordered]@{case=$archiveName;passed=$report.passed;width=$report.width;height=$report.height;state=$report.state;frames=$report.captures.Count;rules=$report.rules.Count;winner=$report.winner;rounds=$report.rounds} | ConvertTo-Json -Compress
 }
 
+if ($SurfacesOnly) {
+    Run-Check '--night-surfaces' '16x9' 1920 'surface-evidence' 'report.json' 'surfaces-16x9' @()
+    Run-Check '--night-surfaces' '4x3' 1440 'surface-evidence' 'report.json' 'surfaces-4x3' @()
+    exit 0
+}
 if ($PromptsOnly) {
     Run-Check '--night-prompts' '16x9' 1920 'prompt-evidence' 'report.json' 'prompts-16x9' @()
     Run-Check '--night-prompts' '4x3' 1440 'prompt-evidence' 'report.json' 'prompts-4x3' @()

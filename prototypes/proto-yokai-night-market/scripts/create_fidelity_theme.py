@@ -265,6 +265,7 @@ def make_theme():
         else:
             subject='a flat functional night-market game interface texture for '+name+', muted paper-and-timber styling, simple readable geometry and restrained edge decoration'
             content='A single isolated flat texture with true transparency around its functional silhouette. No surrounding mockup, no labels, no writing, no shadows outside the asset. Text and numbers are native Unity overlays. The exact original dimensions and pivot are applied by the technical export.';alpha=True;kind='interface'
+        if name in read(ROOT/'fidelity/data/ui-surfaces.json')['textures']:kind='functional_ui'
         prompt=f'Use case: stylized-concept\nAsset key: {name}\nTarget runtime dimensions: {asset["width"]} x {asset["height"]} pixels.\nSubject: {subject}\nComposition: {content}\nStyle: {STYLE}\nText: none; do not generate letters or numbers.\nAvoid: {AVOID}\n'
         safe=name.replace(' ','_');promptPath=ROOT/'fidelity/art/prompts'/f'{safe}.txt'
         if not promptPath.exists():write(promptPath,prompt)

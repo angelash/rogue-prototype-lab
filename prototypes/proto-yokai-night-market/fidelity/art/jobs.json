@@ -342,7 +342,7 @@
     {
       "id": "sharedassets0.assets:34",
       "name": "FlagHighlight",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 42,
       "height": 42,
       "transparent": true,
@@ -350,12 +350,12 @@
       "raw": "fidelity/art/generated/FlagHighlight.raw.png",
       "final": "local/NightArt/FlagHighlight.png",
       "status": "imported_verified",
-      "runtimeSHA256": "2fa41a81b992542322b36784b346e56cbd671b9a40054f90937b8eb61a3bbe4c"
+      "runtimeSHA256": "9414b3a14aa5c70ebd72ac97c642cb5e5638878a26b35244e5b86cf67be7dd80"
     },
     {
       "id": "sharedassets0.assets:35",
       "name": "TitleBackground Left",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1920,
       "height": 280,
       "transparent": true,
@@ -363,7 +363,7 @@
       "raw": "fidelity/art/generated/TitleBackground_Left.raw.png",
       "final": "local/NightArt/TitleBackground_Left.png",
       "status": "imported_verified",
-      "runtimeSHA256": "82d0f7680ae7964574541804ae26e68656e01218e20224c44f946d303f58864d"
+      "runtimeSHA256": "3a28ea4840db52c94386b67d57c551fb8e793697026f804e397ca248312ee7ba"
     },
     {
       "id": "sharedassets0.assets:36",
@@ -381,7 +381,7 @@
     {
       "id": "sharedassets0.assets:37",
       "name": "OptionRed",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 32,
       "height": 21,
       "transparent": true,
@@ -389,7 +389,7 @@
       "raw": "fidelity/art/generated/OptionRed.raw.png",
       "final": "local/NightArt/OptionRed.png",
       "status": "imported_verified",
-      "runtimeSHA256": "b49a1d0ed1e9bd56ed8820a4074a7a1bc967a8c3bf69ef31206661bed7c9c8f5"
+      "runtimeSHA256": "c7dc5acc5271a4a90abe80d21eaae05502177d3bc9df87712213ff820024b1ac"
     },
     {
       "id": "sharedassets0.assets:38",
@@ -407,7 +407,7 @@
     {
       "id": "sharedassets0.assets:39",
       "name": "CARD_10_LightTop",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1336,
       "height": 117,
       "transparent": true,
@@ -415,12 +415,12 @@
       "raw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
       "final": "local/NightArt/CARD_10_LightTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "9b740dbdfee9af552890cee9110d1c5d4745f9b11aca6d9b6fb608002deb4cb4"
+      "runtimeSHA256": "16ac2eebc4ac809f4beba54d4c7994227cff19d363d36ca6481e0c5acc269c93"
     },
     {
       "id": "sharedassets0.assets:40",
       "name": "CARD_01_BaseTop",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 831,
       "transparent": true,
@@ -428,12 +428,12 @@
       "raw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
       "final": "local/NightArt/CARD_01_BaseTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "0f994b5de497b24226d83a648620bd0d501a1879d56cec4c6ea5a426ede984c2"
+      "runtimeSHA256": "1edea41bad6e644dcffea1856243ce1ead7ac313e5b48b4dadbf63922ee352d4"
     },
     {
       "id": "sharedassets0.assets:42",
       "name": "TitleBackground Line Right",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1920,
       "height": 280,
       "transparent": true,
@@ -441,12 +441,12 @@
       "raw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
       "final": "local/NightArt/TitleBackground_Line_Right.png",
       "status": "imported_verified",
-      "runtimeSHA256": "50df3c7b0c990a1eaca97c1650443ece23d30ae1127bc7ecd143313e28d902ca"
+      "runtimeSHA256": "4a4c1f8e5806439e497b2f8530d6e13c4f01446f41cb91f7e4a99f8f3aad4a4a"
     },
     {
       "id": "sharedassets0.assets:43",
       "name": "PRJ_Button_Gradient",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 256,
       "height": 32,
       "transparent": true,
@@ -454,7 +454,7 @@
       "raw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
       "final": "local/NightArt/PRJ_Button_Gradient.png",
       "status": "imported_verified",
-      "runtimeSHA256": "c8ae53b5833edeed9957e4840d8f0e461f0e2e6e98e3e86b3f83e9007c575a45"
+      "runtimeSHA256": "92e0448edc2c5277f9f73a30b022c4c43d860ee1c2df32fcf8307b951c650030"
     },
     {
       "id": "sharedassets0.assets:45",
@@ -511,7 +511,7 @@
     {
       "id": "sharedassets0.assets:49",
       "name": "TitleBackground Right",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1920,
       "height": 280,
       "transparent": true,
@@ -519,7 +519,7 @@
       "raw": "fidelity/art/generated/TitleBackground_Right.raw.png",
       "final": "local/NightArt/TitleBackground_Right.png",
       "status": "imported_verified",
-      "runtimeSHA256": "e37d465ac1e978b8a2dc85248951f1b4c7f0468f96e78aa40cc4425b448ce964"
+      "runtimeSHA256": "36a653ee0b35f8fdce4c14eb5486ecbcb82da21f9ffdfad8c71b941b51a35cb1"
     },
     {
       "id": "sharedassets0.assets:50",
@@ -537,7 +537,7 @@
     {
       "id": "sharedassets0.assets:51",
       "name": "OptionGreen",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 32,
       "height": 21,
       "transparent": true,
@@ -545,7 +545,7 @@
       "raw": "fidelity/art/generated/OptionGreen.raw.png",
       "final": "local/NightArt/OptionGreen.png",
       "status": "imported_verified",
-      "runtimeSHA256": "1bc7038543c0b1810789853691cebc3669e0dbb81ee9c1db8fac099aa189f9ef"
+      "runtimeSHA256": "4f1a8f63b4863f66d3b8075711b694e7852722dfe7e9c9d77975dd5996be8290"
     },
     {
       "id": "sharedassets0.assets:52",
@@ -563,7 +563,7 @@
     {
       "id": "sharedassets0.assets:53",
       "name": "OptionLight",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 34,
       "height": 24,
       "transparent": true,
@@ -571,12 +571,12 @@
       "raw": "fidelity/art/generated/OptionLight.raw.png",
       "final": "local/NightArt/OptionLight.png",
       "status": "imported_verified",
-      "runtimeSHA256": "43017a80e22c9fedf1fb104045f929fa28e7eeccab51003de359a0c46cbb666f"
+      "runtimeSHA256": "52414f4366404a5cb35ba658141cdd669dc49a30cce37803c4b53ed9e34d0b1a"
     },
     {
       "id": "sharedassets0.assets:54",
       "name": "PRJ_CARD_01_Base_Project",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 924,
       "transparent": true,
@@ -584,7 +584,7 @@
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "final": "local/NightArt/PRJ_CARD_01_Base_Project.png",
       "status": "imported_verified",
-      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22"
+      "runtimeSHA256": "fea4700c10ed62415672f0fcfa3434a5819eca885140a7d762ee21ea46c7b3b3"
     },
     {
       "id": "sharedassets0.assets:55",
@@ -641,7 +641,7 @@
     {
       "id": "sharedassets0.assets:60",
       "name": "PRJ_Dot 1",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 32,
       "height": 32,
       "transparent": true,
@@ -649,7 +649,7 @@
       "raw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
       "final": "local/NightArt/PRJ_Dot_1.png",
       "status": "imported_verified",
-      "runtimeSHA256": "36a9cde7bcd82f491469cda16d166743bb6e646fafc859845cbfdddb823e7679"
+      "runtimeSHA256": "53857be699cedeeecec0aa2c0cd5d422fc57256d4a05f27ab045d740e5f8bf0e"
     },
     {
       "id": "sharedassets0.assets:61",
@@ -667,7 +667,7 @@
     {
       "id": "sharedassets0.assets:62",
       "name": "CARD_00_Background",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 831,
       "transparent": true,
@@ -675,7 +675,7 @@
       "raw": "fidelity/art/generated/CARD_00_Background.raw.png",
       "final": "local/NightArt/CARD_00_Background.png",
       "status": "imported_verified",
-      "runtimeSHA256": "9b41faef3e82fe95f45fc8041a01a5c6835404790ee402e09bbf19e570c2314e"
+      "runtimeSHA256": "70bf6ca18d6a319e5e91737654ec421eceacd3e78cf7b7e999c17077d7a9d570"
     },
     {
       "id": "sharedassets0.assets:63",
@@ -693,7 +693,7 @@
     {
       "id": "sharedassets0.assets:64",
       "name": "ButtonSmall",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 128,
       "height": 260,
       "transparent": true,
@@ -701,12 +701,12 @@
       "raw": "fidelity/art/generated/ButtonSmall.raw.png",
       "final": "local/NightArt/ButtonSmall.png",
       "status": "imported_verified",
-      "runtimeSHA256": "9e6e8150352b0f194dd48a4061627a4e4b155b8b5846f825ab8632a6728dae08"
+      "runtimeSHA256": "a1aa18e7dc4b221d97e7ff13fae66688f7ecc9f4d161427ef7140257157a3e7d"
     },
     {
       "id": "sharedassets0.assets:65",
       "name": "TitleBackground Line Left",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1920,
       "height": 280,
       "transparent": true,
@@ -714,7 +714,7 @@
       "raw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
       "final": "local/NightArt/TitleBackground_Line_Left.png",
       "status": "imported_verified",
-      "runtimeSHA256": "ea3028bc811837cfaa27eacca8ecaabd778927a89010cbddf1a4680acacd9b1d"
+      "runtimeSHA256": "5608d2868a77a0ef8dbd40d029d086c01e01643cf81a04d8eee03bcd9f072419"
     },
     {
       "id": "sharedassets0.assets:66",
@@ -745,7 +745,7 @@
     {
       "id": "sharedassets0.assets:70",
       "name": "PRJ_Dot",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 44,
       "height": 44,
       "transparent": true,
@@ -753,12 +753,12 @@
       "raw": "fidelity/art/generated/PRJ_Dot.raw.png",
       "final": "local/NightArt/PRJ_Dot.png",
       "status": "imported_verified",
-      "runtimeSHA256": "2be992aea12341db5661fe5a9b0d11de47bb4ad59ad3dd2fd14f1f6a7d48e139"
+      "runtimeSHA256": "5c7ee5218fad3f6713e5053caea512cfbd3b516dfe94e2befa169db86e35171c"
     },
     {
       "id": "sharedassets0.assets:71",
       "name": "English",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 36,
       "height": 36,
       "transparent": true,
@@ -766,7 +766,7 @@
       "raw": "fidelity/art/generated/English.raw.png",
       "final": "local/NightArt/English.png",
       "status": "imported_verified",
-      "runtimeSHA256": "4af54fac7344749b5557928bd9505ac5e87c41fe1a6c3bdaec0c7c39a9403927"
+      "runtimeSHA256": "ae8483bac4eeb882846912a26c74f302acc8cb4a446d30dd051ef49ba9ac3560"
     },
     {
       "id": "sharedassets0.assets:72",
@@ -784,7 +784,7 @@
     {
       "id": "sharedassets0.assets:73",
       "name": "CARD_03_DetailsTop",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1240,
       "height": 831,
       "transparent": true,
@@ -792,7 +792,7 @@
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "final": "local/NightArt/CARD_03_DetailsTop.png",
       "status": "imported_verified",
-      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd"
+      "runtimeSHA256": "57aa1a76cdb5397b9c7da1000125c9fdb14f9cf78b36bd48bdf1e13b27b3ffe0"
     },
     {
       "id": "sharedassets0.assets:75",
@@ -810,7 +810,7 @@
     {
       "id": "sharedassets0.assets:76",
       "name": "PRJ_Ok",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 64,
       "height": 64,
       "transparent": true,
@@ -818,7 +818,7 @@
       "raw": "fidelity/art/generated/PRJ_Ok.raw.png",
       "final": "local/NightArt/PRJ_Ok.png",
       "status": "imported_verified",
-      "runtimeSHA256": "423d40a8197805d5bbf43143b7b6bcfd2e14d81cf8b85a79e98e7c4b5bd000fb"
+      "runtimeSHA256": "145ef9f7a3555a3a872c052d3c85a40e7f492125af338308413e62924551a54d"
     },
     {
       "id": "sharedassets0.assets:77",
@@ -849,7 +849,7 @@
     {
       "id": "sharedassets0.assets:79",
       "name": "Spanish",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 36,
       "height": 36,
       "transparent": true,
@@ -857,12 +857,12 @@
       "raw": "fidelity/art/generated/Spanish.raw.png",
       "final": "local/NightArt/Spanish.png",
       "status": "imported_verified",
-      "runtimeSHA256": "e403b1e5292c7bbac5c1b737d77fa1a531d9bdacb95dbdde25699b2d9e6b2209"
+      "runtimeSHA256": "678c9711149bab02155b2beb8c6e354ff6d2ac3cb84bd7206017a6863471254b"
     },
     {
       "id": "sharedassets0.assets:80",
       "name": "ButtonBig",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 244,
       "height": 128,
       "transparent": true,
@@ -870,12 +870,12 @@
       "raw": "fidelity/art/generated/ButtonBig.raw.png",
       "final": "local/NightArt/ButtonBig.png",
       "status": "imported_verified",
-      "runtimeSHA256": "be089af8c6d8bf73d84d7d6f6ce0744013045b16f6bbf17c52aa2bce3f6edbd9"
+      "runtimeSHA256": "19e24d2243d17c24b9e5eba5bd544bf87137e1d964935a997b16e7430ee17b82"
     },
     {
       "id": "sharedassets0.assets:81",
       "name": "CARD_10_LightMiddle",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1336,
       "height": 85,
       "transparent": true,
@@ -883,7 +883,7 @@
       "raw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
       "final": "local/NightArt/CARD_10_LightMiddle.png",
       "status": "imported_verified",
-      "runtimeSHA256": "5a8b6e9177b6512bc3110737b828fd8f0ee36c1e3d98f133e690d011601ce4e3"
+      "runtimeSHA256": "b9c3af42e42924cc05514d29ee8aa069093ef37ec39468fa1b8277f612e1fdb9"
     },
     {
       "id": "sharedassets0.assets:83",
@@ -914,7 +914,7 @@
     {
       "id": "sharedassets0.assets:86",
       "name": "PRJ_No",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 64,
       "height": 64,
       "transparent": true,
@@ -922,7 +922,7 @@
       "raw": "fidelity/art/generated/PRJ_No.raw.png",
       "final": "local/NightArt/PRJ_No.png",
       "status": "imported_verified",
-      "runtimeSHA256": "a3349032309bf94b7dfda38f23a680c2bcc2910a4b40ce29b8607b6547ac70a4"
+      "runtimeSHA256": "0403468d259c65f6ba7776f7ead8450df7bba935b9498cb5d2cb5c0f811dbfa3"
     },
     {
       "id": "sharedassets0.assets:88",
@@ -979,7 +979,7 @@
     {
       "id": "sharedassets0.assets:92",
       "name": "CARD_10_LightBottom",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1336,
       "height": 117,
       "transparent": true,
@@ -987,7 +987,7 @@
       "raw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
       "final": "local/NightArt/CARD_10_LightBottom.png",
       "status": "imported_verified",
-      "runtimeSHA256": "1e69a4054d38bdd4c22b4bbe0282384246ca864251808110f7ad74619bb7c937"
+      "runtimeSHA256": "8c7c3924703a10fc23a81d2a2667aea4d991cedbc360088da06d6b953cb5a70e"
     },
     {
       "id": "sharedassets0.assets:93",
@@ -1018,7 +1018,7 @@
     {
       "id": "sharedassets0.assets:96",
       "name": "PRJ_CARD_02_Details",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 1232,
       "height": 920,
       "transparent": true,
@@ -1026,12 +1026,12 @@
       "raw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
       "final": "local/NightArt/PRJ_CARD_02_Details.png",
       "status": "imported_verified",
-      "runtimeSHA256": "08ba51810b972775ca30d9c9e9ffd71a7bd6752d0e056b1e92e3e6c1693d47c2"
+      "runtimeSHA256": "dbf7dd0e9ad5ae5bd35139fafa6e03ee0c5838589a81f12e1b584a9e0d3db969"
     },
     {
       "id": "sharedassets0.assets:98",
       "name": "PRJ_WIP",
-      "kind": "interface",
+      "kind": "functional_ui",
       "width": 64,
       "height": 64,
       "transparent": true,
@@ -1039,7 +1039,7 @@
       "raw": "fidelity/art/generated/PRJ_WIP.raw.png",
       "final": "local/NightArt/PRJ_WIP.png",
       "status": "imported_verified",
-      "runtimeSHA256": "a733ca3fc29b583c5436330113bfb4e780acbe0c575952f54f2819a8373581b2"
+      "runtimeSHA256": "e14cc83963f5a2734a825ac55b8305b975dc2c040ddaae590f4f6db4fc11ed3a"
     },
     {
       "id": "sharedassets0.assets:99",

@@ -375,9 +375,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/FlagHighlight.raw.png",
       "prompt": "fidelity/art/prompts/FlagHighlight.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "3a763f12e7105755cf38027a9cd7885b0f66c3185f49ece229227dbbd054698d",
-      "runtimeSHA256": "2fa41a81b992542322b36784b346e56cbd671b9a40054f90937b8eb61a3bbe4c"
+      "runtimeSHA256": "9414b3a14aa5c70ebd72ac97c642cb5e5638878a26b35244e5b86cf67be7dd80"
     },
     {
       "id": "sharedassets0.assets:35",
@@ -389,9 +389,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/TitleBackground_Left.raw.png",
       "prompt": "fidelity/art/prompts/TitleBackground_Left.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "afe5dc7df3520f85feaba80c9de6d9d339870a64c2f6f0171322ef7af91e21c8",
-      "runtimeSHA256": "82d0f7680ae7964574541804ae26e68656e01218e20224c44f946d303f58864d"
+      "runtimeSHA256": "3a28ea4840db52c94386b67d57c551fb8e793697026f804e397ca248312ee7ba"
     },
     {
       "id": "sharedassets0.assets:36",
@@ -417,9 +417,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/OptionRed.raw.png",
       "prompt": "fidelity/art/prompts/OptionRed.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "29bbbd37bc89fe6bc5370fc305b4a4963571add6fe8d6bc62331cabf0632ea50",
-      "runtimeSHA256": "b49a1d0ed1e9bd56ed8820a4074a7a1bc967a8c3bf69ef31206661bed7c9c8f5"
+      "runtimeSHA256": "c7dc5acc5271a4a90abe80d21eaae05502177d3bc9df87712213ff820024b1ac"
     },
     {
       "id": "sharedassets0.assets:38",
@@ -445,9 +445,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_10_LightTop.raw.png",
       "prompt": "fidelity/art/prompts/CARD_10_LightTop.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "e6705979e8b95544ca2677fb185adc38fd0e8b50d7cad7030c9425a0a7251bf2",
-      "runtimeSHA256": "9b740dbdfee9af552890cee9110d1c5d4745f9b11aca6d9b6fb608002deb4cb4"
+      "runtimeSHA256": "16ac2eebc4ac809f4beba54d4c7994227cff19d363d36ca6481e0c5acc269c93"
     },
     {
       "id": "sharedassets0.assets:40",
@@ -459,9 +459,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_01_BaseTop.raw.png",
       "prompt": "fidelity/art/prompts/CARD_01_BaseTop.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "9b769062a6a3d181022ed23e0e53fd87876dff72fe62a6c48bbe710ee5369829",
-      "runtimeSHA256": "0f994b5de497b24226d83a648620bd0d501a1879d56cec4c6ea5a426ede984c2"
+      "runtimeSHA256": "1edea41bad6e644dcffea1856243ce1ead7ac313e5b48b4dadbf63922ee352d4"
     },
     {
       "id": "sharedassets0.assets:42",
@@ -473,9 +473,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/TitleBackground_Line_Right.raw.png",
       "prompt": "fidelity/art/prompts/TitleBackground_Line_Right.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "ba2633d4c5e6f425c2086d0390c2fc7b7fb34c4472dde327616b64d2976ff149",
-      "runtimeSHA256": "50df3c7b0c990a1eaca97c1650443ece23d30ae1127bc7ecd143313e28d902ca"
+      "runtimeSHA256": "4a4c1f8e5806439e497b2f8530d6e13c4f01446f41cb91f7e4a99f8f3aad4a4a"
     },
     {
       "id": "sharedassets0.assets:43",
@@ -487,9 +487,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_Button_Gradient.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_Button_Gradient.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "f63720d673099e12751c564acc19569541324fa8de9bc50cc7a7c7225cc5439b",
-      "runtimeSHA256": "c8ae53b5833edeed9957e4840d8f0e461f0e2e6e98e3e86b3f83e9007c575a45"
+      "runtimeSHA256": "92e0448edc2c5277f9f73a30b022c4c43d860ee1c2df32fcf8307b951c650030"
     },
     {
       "id": "sharedassets0.assets:45",
@@ -557,9 +557,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/TitleBackground_Right.raw.png",
       "prompt": "fidelity/art/prompts/TitleBackground_Right.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "1a30139d930df954b80b795abfaceeb63bdbab8b1759e0a7f8b9a68747d6dedb",
-      "runtimeSHA256": "e37d465ac1e978b8a2dc85248951f1b4c7f0468f96e78aa40cc4425b448ce964"
+      "runtimeSHA256": "36a653ee0b35f8fdce4c14eb5486ecbcb82da21f9ffdfad8c71b941b51a35cb1"
     },
     {
       "id": "sharedassets0.assets:50",
@@ -585,9 +585,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/OptionGreen.raw.png",
       "prompt": "fidelity/art/prompts/OptionGreen.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "aae60d93ec80512ec48648bdff98801a08dc465a76664b3d29a89f87e73e291f",
-      "runtimeSHA256": "1bc7038543c0b1810789853691cebc3669e0dbb81ee9c1db8fac099aa189f9ef"
+      "runtimeSHA256": "4f1a8f63b4863f66d3b8075711b694e7852722dfe7e9c9d77975dd5996be8290"
     },
     {
       "id": "sharedassets0.assets:52",
@@ -613,9 +613,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/OptionLight.raw.png",
       "prompt": "fidelity/art/prompts/OptionLight.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "28ce552326ec11a395010f80b06cd03d2aae1269bb42130c01e85a5e52222137",
-      "runtimeSHA256": "43017a80e22c9fedf1fb104045f929fa28e7eeccab51003de359a0c46cbb666f"
+      "runtimeSHA256": "52414f4366404a5cb35ba658141cdd669dc49a30cce37803c4b53ed9e34d0b1a"
     },
     {
       "id": "sharedassets0.assets:54",
@@ -627,9 +627,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_CARD_01_Base_Project.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_CARD_01_Base_Project.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
-      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22"
+      "runtimeSHA256": "fea4700c10ed62415672f0fcfa3434a5819eca885140a7d762ee21ea46c7b3b3"
     },
     {
       "id": "sharedassets0.assets:55",
@@ -697,9 +697,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_Dot_1.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_Dot_1.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "c73637162bff96dfb6252440d1bba3cc280aca39bb7504e42abb942ae1e531d2",
-      "runtimeSHA256": "36a9cde7bcd82f491469cda16d166743bb6e646fafc859845cbfdddb823e7679"
+      "runtimeSHA256": "53857be699cedeeecec0aa2c0cd5d422fc57256d4a05f27ab045d740e5f8bf0e"
     },
     {
       "id": "sharedassets0.assets:61",
@@ -725,9 +725,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_00_Background.raw.png",
       "prompt": "fidelity/art/prompts/CARD_00_Background.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "5328622cedec2f971684faf1f289e65a07024c82111542299bbd76c3ea953435",
-      "runtimeSHA256": "9b41faef3e82fe95f45fc8041a01a5c6835404790ee402e09bbf19e570c2314e"
+      "runtimeSHA256": "70bf6ca18d6a319e5e91737654ec421eceacd3e78cf7b7e999c17077d7a9d570"
     },
     {
       "id": "sharedassets0.assets:63",
@@ -753,9 +753,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/ButtonSmall.raw.png",
       "prompt": "fidelity/art/prompts/ButtonSmall.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "9b06359cc42467bba4cbdf1b80bb34e9930b0f4a7dd417ae7fb33d078e542276",
-      "runtimeSHA256": "9e6e8150352b0f194dd48a4061627a4e4b155b8b5846f825ab8632a6728dae08"
+      "runtimeSHA256": "a1aa18e7dc4b221d97e7ff13fae66688f7ecc9f4d161427ef7140257157a3e7d"
     },
     {
       "id": "sharedassets0.assets:65",
@@ -767,9 +767,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/TitleBackground_Line_Left.raw.png",
       "prompt": "fidelity/art/prompts/TitleBackground_Line_Left.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "fcb9592dc704a978636ff6ecb95f038b36693665f3f2430fbe42e2dd2d9a5ada",
-      "runtimeSHA256": "ea3028bc811837cfaa27eacca8ecaabd778927a89010cbddf1a4680acacd9b1d"
+      "runtimeSHA256": "5608d2868a77a0ef8dbd40d029d086c01e01643cf81a04d8eee03bcd9f072419"
     },
     {
       "id": "sharedassets0.assets:66",
@@ -809,9 +809,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_Dot.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_Dot.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "03ff01dcb39a96b85a68135ea1cb5d375d8ea7bea1a819df993368d264acaae1",
-      "runtimeSHA256": "2be992aea12341db5661fe5a9b0d11de47bb4ad59ad3dd2fd14f1f6a7d48e139"
+      "runtimeSHA256": "5c7ee5218fad3f6713e5053caea512cfbd3b516dfe94e2befa169db86e35171c"
     },
     {
       "id": "sharedassets0.assets:71",
@@ -823,9 +823,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/English.raw.png",
       "prompt": "fidelity/art/prompts/English.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "ca193a7402c5b7ccbb3bc50176d594067b034720e7cc5028a8e02d5b33bfe540",
-      "runtimeSHA256": "4af54fac7344749b5557928bd9505ac5e87c41fe1a6c3bdaec0c7c39a9403927"
+      "runtimeSHA256": "ae8483bac4eeb882846912a26c74f302acc8cb4a446d30dd051ef49ba9ac3560"
     },
     {
       "id": "sharedassets0.assets:72",
@@ -851,9 +851,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_03_DetailsTop.raw.png",
       "prompt": "fidelity/art/prompts/CARD_03_DetailsTop.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
-      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd"
+      "runtimeSHA256": "57aa1a76cdb5397b9c7da1000125c9fdb14f9cf78b36bd48bdf1e13b27b3ffe0"
     },
     {
       "id": "sharedassets0.assets:75",
@@ -879,9 +879,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_Ok.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_Ok.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "6fc4a3eeab9aba0b122c2d15f47f718da8e73d9091b86762b3aa18ebafaff196",
-      "runtimeSHA256": "423d40a8197805d5bbf43143b7b6bcfd2e14d81cf8b85a79e98e7c4b5bd000fb"
+      "runtimeSHA256": "145ef9f7a3555a3a872c052d3c85a40e7f492125af338308413e62924551a54d"
     },
     {
       "id": "sharedassets0.assets:77",
@@ -921,9 +921,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/Spanish.raw.png",
       "prompt": "fidelity/art/prompts/Spanish.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "fc75501b37ad7b03784cf22ce69d215a9d9a55567cd3dfdfefacf9351cd71e7c",
-      "runtimeSHA256": "e403b1e5292c7bbac5c1b737d77fa1a531d9bdacb95dbdde25699b2d9e6b2209"
+      "runtimeSHA256": "678c9711149bab02155b2beb8c6e354ff6d2ac3cb84bd7206017a6863471254b"
     },
     {
       "id": "sharedassets0.assets:80",
@@ -935,9 +935,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/ButtonBig.raw.png",
       "prompt": "fidelity/art/prompts/ButtonBig.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "cc7cc574d3b82af276990b58cec9f7254a11666b360ba30a76f17c3ed954b101",
-      "runtimeSHA256": "be089af8c6d8bf73d84d7d6f6ce0744013045b16f6bbf17c52aa2bce3f6edbd9"
+      "runtimeSHA256": "19e24d2243d17c24b9e5eba5bd544bf87137e1d964935a997b16e7430ee17b82"
     },
     {
       "id": "sharedassets0.assets:81",
@@ -949,9 +949,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_10_LightMiddle.raw.png",
       "prompt": "fidelity/art/prompts/CARD_10_LightMiddle.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "01c9bde41a912639befbf3b50813772cd6636e482dede895367989f3d470788a",
-      "runtimeSHA256": "5a8b6e9177b6512bc3110737b828fd8f0ee36c1e3d98f133e690d011601ce4e3"
+      "runtimeSHA256": "b9c3af42e42924cc05514d29ee8aa069093ef37ec39468fa1b8277f612e1fdb9"
     },
     {
       "id": "sharedassets0.assets:83",
@@ -991,9 +991,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_No.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_No.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "12b071abff953e660ca49eec491953f3037cd03da1e576a06110d1659100efa7",
-      "runtimeSHA256": "a3349032309bf94b7dfda38f23a680c2bcc2910a4b40ce29b8607b6547ac70a4"
+      "runtimeSHA256": "0403468d259c65f6ba7776f7ead8450df7bba935b9498cb5d2cb5c0f811dbfa3"
     },
     {
       "id": "sharedassets0.assets:88",
@@ -1061,9 +1061,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/CARD_10_LightBottom.raw.png",
       "prompt": "fidelity/art/prompts/CARD_10_LightBottom.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "90f416c1b867b20f4e2a2efdf066c03cf74c3aa5624e5651eb238b9a03c9841f",
-      "runtimeSHA256": "1e69a4054d38bdd4c22b4bbe0282384246ca864251808110f7ad74619bb7c937"
+      "runtimeSHA256": "8c7c3924703a10fc23a81d2a2667aea4d991cedbc360088da06d6b953cb5a70e"
     },
     {
       "id": "sharedassets0.assets:93",
@@ -1103,9 +1103,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_CARD_02_Details.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_CARD_02_Details.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "2360cadce9ad3af0f2a5eb8d7c3a90b91e8dc4b4617a8dc85e1d4e49653acd06",
-      "runtimeSHA256": "08ba51810b972775ca30d9c9e9ffd71a7bd6752d0e056b1e92e3e6c1693d47c2"
+      "runtimeSHA256": "dbf7dd0e9ad5ae5bd35139fafa6e03ee0c5838589a81f12e1b584a9e0d3db969"
     },
     {
       "id": "sharedassets0.assets:98",
@@ -1117,9 +1117,9 @@
       "status": "imported_verified",
       "raw": "fidelity/art/generated/PRJ_WIP.raw.png",
       "prompt": "fidelity/art/prompts/PRJ_WIP.txt",
-      "kind": "interface",
+      "kind": "functional_ui",
       "rawSHA256": "eeb2cb87aac124ccbe3b2eba4fe78bcc313531f89e8273d37228e39b30fe46b2",
-      "runtimeSHA256": "a733ca3fc29b583c5436330113bfb4e780acbe0c575952f54f2819a8373581b2"
+      "runtimeSHA256": "e14cc83963f5a2734a825ac55b8305b975dc2c040ddaae590f4f6db4fc11ed3a"
     },
     {
       "id": "sharedassets0.assets:99",

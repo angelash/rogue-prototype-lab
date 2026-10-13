@@ -7,6 +7,7 @@
 - [美术与导入](03-art-and-import.md)：82 图规格、生成、技术导出和修订。
 - [验收与交付](04-validation-and-delivery.md)：真实覆盖、失败记录、构建和缺口。
 - [流程与原生用例源](test-cases/flow-and-native.md)：新增重开/保存断言与实际键鼠检查。
+- [UI 功能层规格](data/ui-surfaces.json) / [UI 回归用例](test-cases/ui-surfaces.md)：设置、左框、阶段底图、进度/状态标记和原生语言图标。
 - [替换数据](data/theme.json) / [内容查阅](data/content-guide.md) / [原图规格](image-specs.json)。
 - [文案制作源](data/copy.json)：95 条双语台词、28 份双语委托说明、界面与名称修订；由 create_fidelity_theme.py 合入全部 420 键与生产 XML。[文字颜色](data/presentation.json)记录八处文字与八份卡牌标签材质颜色；后续校对遵循仓库 game-copy-polish skill。
 

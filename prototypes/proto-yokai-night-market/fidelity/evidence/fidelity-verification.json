@@ -75,10 +75,198 @@
       "passed": true
     },
     {
-      "name": "All 82 replacement textures have source dimensions, provenance and runtime copies (81 generated art, one procedural prompt plate)",
+      "name": "All 82 replacement textures have source dimensions, provenance and runtime copies; historical generated originals are retained",
       "passed": true,
       "historicalGeneratedSources": 82,
       "exported": 82
+    },
+    {
+      "name": "Twenty-six shared UI layers retain exact functional alpha; twenty-four declared surfaces and two native language badges use no generated frame or navy fallback",
+      "passed": true,
+      "textures": [
+        {
+          "name": "TitleBackground Left",
+          "role": "Sliding left phase backplate; no inner frame",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Right",
+          "role": "Sliding right phase backplate; no inner frame",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Line Left",
+          "role": "Left phase outline only",
+          "mode": "flat",
+          "maxChannelError": 0.44999999999998863,
+          "passed": true
+        },
+        {
+          "name": "TitleBackground Line Right",
+          "role": "Right phase outline only",
+          "mode": "flat",
+          "maxChannelError": 0.44999999999998863,
+          "passed": true
+        },
+        {
+          "name": "ButtonBig",
+          "role": "Original clipped button fill and thin bevel",
+          "mode": "luminance",
+          "maxChannelError": 0.46000000000000796,
+          "passed": true
+        },
+        {
+          "name": "ButtonSmall",
+          "role": "Vertical settings/resume button, original fill and bevel",
+          "mode": "luminance",
+          "maxChannelError": 0.46000000000000796,
+          "passed": true
+        },
+        {
+          "name": "CARD_00_Background",
+          "role": "Shared card back and company surface; no frame, picture placeholder or baked watermark",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "CARD_01_BaseTop",
+          "role": "Dark picture surround; no added frame",
+          "mode": "luminance",
+          "maxChannelError": 0.4800000000000004,
+          "passed": true
+        },
+        {
+          "name": "CARD_03_DetailsTop",
+          "role": "Tintable header and outline, shared by cards and projects",
+          "mode": "luminance",
+          "maxChannelError": 0.5000000000000284,
+          "passed": true
+        },
+        {
+          "name": "PRJ_CARD_01_Base_Project",
+          "role": "Project panel and five progress grooves; no added frame",
+          "mode": "luminance",
+          "maxChannelError": 0.4800000000000004,
+          "passed": true
+        },
+        {
+          "name": "PRJ_CARD_02_Details",
+          "role": "Project dividers only",
+          "mode": "luminance",
+          "maxChannelError": 0.5000000000000284,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Button_Gradient",
+          "role": "Darkening gradient over the work button; alpha supplies gradient",
+          "mode": "flat",
+          "maxChannelError": 0.375,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Dot",
+          "role": "Tintable work progress pip; alpha only, omit source baked writing",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Dot 1",
+          "role": "Round counter pip; alpha only, omit source baked writing",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "PRJ_Ok",
+          "role": "Completed work check silhouette",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "PRJ_No",
+          "role": "Incomplete work indicator silhouette",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "PRJ_WIP",
+          "role": "Work in progress silhouette",
+          "mode": "flat",
+          "maxChannelError": 0.5,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightTop",
+          "role": "Top selection glow; alpha supplies feathered edge",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightMiddle",
+          "role": "Side selection glow; no stretched decoration",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "CARD_10_LightBottom",
+          "role": "Bottom selection glow",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "OptionRed",
+          "role": "Disabled option lamp, full original rectangular silhouette",
+          "mode": "luminance",
+          "maxChannelError": 0.5000000000000284,
+          "passed": true
+        },
+        {
+          "name": "OptionGreen",
+          "role": "Enabled option lamp, same functional silhouette",
+          "mode": "luminance",
+          "maxChannelError": 0.480000000000004,
+          "passed": true
+        },
+        {
+          "name": "OptionLight",
+          "role": "Option hover glow only",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "FlagHighlight",
+          "role": "Language selection glow only",
+          "mode": "flat",
+          "maxChannelError": 0.3999999999999915,
+          "passed": true
+        },
+        {
+          "name": "English",
+          "role": "Original language slot 0 now contains Chinese; native font glyph inside original 36px badge",
+          "mode": "label",
+          "maxChannelError": 224.6,
+          "passed": true
+        },
+        {
+          "name": "Spanish",
+          "role": "Original language slot 1 now contains English; native font glyph inside original 36px badge",
+          "mode": "label",
+          "maxChannelError": 224.6,
+          "passed": true
+        }
+      ]
     },
     {
       "name": "Continue background is text-free uniform dark RGB with exact original alpha and dimensions",
@@ -310,7 +498,7 @@
   "originalTools": [
     {
       "file": "scripts/unity/NightAssetExport.cs",
-      "sha256LF": "f1a24abb05007f511d8f8f28ea092bf290ba6eb9e444d45ed820038ee3acecdb",
+      "sha256LF": "e0302243f1212220bc9a71d391c3f698031a2dcfe704a5f8bcef9cf678edf96b",
       "sameRuntimeSource": true
     },
     {
@@ -341,6 +529,11 @@
     {
       "file": "scripts/runtime/NightSmokeProbe.cs",
       "sha256LF": "e2237026bff2dadeee363be10a26011303bc26a28a3995a42c592eedeeca93fa",
+      "sameRuntimeSource": true
+    },
+    {
+      "file": "scripts/runtime/NightSurfaceProbe.cs",
+      "sha256LF": "6fbbcd90c0a2f11f9209c14a8a7a196bf6c6aa37347192833db26146fa2088c6",
       "sameRuntimeSource": true
     },
     {
@@ -799,14 +992,14 @@
         42,
         42
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         219
       ],
       "rawSHA256": "3a763f12e7105755cf38027a9cd7885b0f66c3185f49ece229227dbbd054698d",
-      "runtimeSHA256": "2fa41a81b992542322b36784b346e56cbd671b9a40054f90937b8eb61a3bbe4c",
+      "runtimeSHA256": "9414b3a14aa5c70ebd72ac97c642cb5e5638878a26b35244e5b86cf67be7dd80",
       "originalReferencePNG_SHA256": "ac73a74a015b219c3ea5b6a7aba84a416793507129c47afa0d4e73e14065b6d5"
     },
     {
@@ -816,14 +1009,14 @@
         1920,
         280
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "afe5dc7df3520f85feaba80c9de6d9d339870a64c2f6f0171322ef7af91e21c8",
-      "runtimeSHA256": "82d0f7680ae7964574541804ae26e68656e01218e20224c44f946d303f58864d",
+      "runtimeSHA256": "3a28ea4840db52c94386b67d57c551fb8e793697026f804e397ca248312ee7ba",
       "originalReferencePNG_SHA256": "5b43e992fa3f708db0c553be1a2e0eb67676ee6486c2b7c7652d7b7aa6cf9b9d"
     },
     {
@@ -850,14 +1043,14 @@
         32,
         21
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "29bbbd37bc89fe6bc5370fc305b4a4963571add6fe8d6bc62331cabf0632ea50",
-      "runtimeSHA256": "b49a1d0ed1e9bd56ed8820a4074a7a1bc967a8c3bf69ef31206661bed7c9c8f5",
+      "runtimeSHA256": "c7dc5acc5271a4a90abe80d21eaae05502177d3bc9df87712213ff820024b1ac",
       "originalReferencePNG_SHA256": "506726c955da85a059be4ba14f4f75953e2adf30de53b2f53c8eaed97d63104c"
     },
     {
@@ -884,14 +1077,14 @@
         1336,
         117
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "e6705979e8b95544ca2677fb185adc38fd0e8b50d7cad7030c9425a0a7251bf2",
-      "runtimeSHA256": "9b740dbdfee9af552890cee9110d1c5d4745f9b11aca6d9b6fb608002deb4cb4",
+      "runtimeSHA256": "16ac2eebc4ac809f4beba54d4c7994227cff19d363d36ca6481e0c5acc269c93",
       "originalReferencePNG_SHA256": "08819fa785db9b7d57b5d62ae75779a1a1ead6c5f31e4aa0bd9e42efa5d420e4"
     },
     {
@@ -901,14 +1094,14 @@
         1240,
         831
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "9b769062a6a3d181022ed23e0e53fd87876dff72fe62a6c48bbe710ee5369829",
-      "runtimeSHA256": "0f994b5de497b24226d83a648620bd0d501a1879d56cec4c6ea5a426ede984c2",
+      "runtimeSHA256": "1edea41bad6e644dcffea1856243ce1ead7ac313e5b48b4dadbf63922ee352d4",
       "originalReferencePNG_SHA256": "9c16aa9407c897ea84f07c67aafba8cc24dc6aec04674b588534ee81a8c84aa1"
     },
     {
@@ -918,14 +1111,14 @@
         1920,
         280
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "ba2633d4c5e6f425c2086d0390c2fc7b7fb34c4472dde327616b64d2976ff149",
-      "runtimeSHA256": "50df3c7b0c990a1eaca97c1650443ece23d30ae1127bc7ecd143313e28d902ca",
+      "runtimeSHA256": "4a4c1f8e5806439e497b2f8530d6e13c4f01446f41cb91f7e4a99f8f3aad4a4a",
       "originalReferencePNG_SHA256": "0535b523c4ef98dbda6453c47414980b3e8301356fc67110c40d04c5263e3cc2"
     },
     {
@@ -935,14 +1128,14 @@
         256,
         32
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "f63720d673099e12751c564acc19569541324fa8de9bc50cc7a7c7225cc5439b",
-      "runtimeSHA256": "c8ae53b5833edeed9957e4840d8f0e461f0e2e6e98e3e86b3f83e9007c575a45",
+      "runtimeSHA256": "92e0448edc2c5277f9f73a30b022c4c43d860ee1c2df32fcf8307b951c650030",
       "originalReferencePNG_SHA256": "bf60ce0c4c902e5591cad3f7f27524eeaba0ed23115f1b9dcc8ddf295310c902"
     },
     {
@@ -1020,14 +1213,14 @@
         1920,
         280
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "1a30139d930df954b80b795abfaceeb63bdbab8b1759e0a7f8b9a68747d6dedb",
-      "runtimeSHA256": "e37d465ac1e978b8a2dc85248951f1b4c7f0468f96e78aa40cc4425b448ce964",
+      "runtimeSHA256": "36a653ee0b35f8fdce4c14eb5486ecbcb82da21f9ffdfad8c71b941b51a35cb1",
       "originalReferencePNG_SHA256": "86ba993b76c67dbbc073fa035e8fb21583bdc01e4dafe1be707bfcfad46b72c9"
     },
     {
@@ -1054,14 +1247,14 @@
         32,
         21
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "aae60d93ec80512ec48648bdff98801a08dc465a76664b3d29a89f87e73e291f",
-      "runtimeSHA256": "1bc7038543c0b1810789853691cebc3669e0dbb81ee9c1db8fac099aa189f9ef",
+      "runtimeSHA256": "4f1a8f63b4863f66d3b8075711b694e7852722dfe7e9c9d77975dd5996be8290",
       "originalReferencePNG_SHA256": "0b11d64a5cb596ada972fedd03bdc311a5025237f26f5aa8299a113315e05935"
     },
     {
@@ -1088,14 +1281,14 @@
         34,
         24
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         191
       ],
       "rawSHA256": "28ce552326ec11a395010f80b06cd03d2aae1269bb42130c01e85a5e52222137",
-      "runtimeSHA256": "43017a80e22c9fedf1fb104045f929fa28e7eeccab51003de359a0c46cbb666f",
+      "runtimeSHA256": "52414f4366404a5cb35ba658141cdd669dc49a30cce37803c4b53ed9e34d0b1a",
       "originalReferencePNG_SHA256": "72c165b4bb9f64b0424d8cee5dd3b1392f47e0a6965deeb9d218c05e26a5f186"
     },
     {
@@ -1105,14 +1298,14 @@
         1240,
         924
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "00b8b4a15e5387d8ac088fd85257b7f77c5870ab512f508fbfe8ea9713f55c29",
-      "runtimeSHA256": "06000fdaafac64d31727126bdb184729a3a505f21e3c054b05154ae0c7499c22",
+      "runtimeSHA256": "fea4700c10ed62415672f0fcfa3434a5819eca885140a7d762ee21ea46c7b3b3",
       "originalReferencePNG_SHA256": "f39cbad36c8d713312c3c9fee2672582dd68332837048b7d1d45594f84c455b4"
     },
     {
@@ -1190,14 +1383,14 @@
         32,
         32
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "c73637162bff96dfb6252440d1bba3cc280aca39bb7504e42abb942ae1e531d2",
-      "runtimeSHA256": "36a9cde7bcd82f491469cda16d166743bb6e646fafc859845cbfdddb823e7679",
+      "runtimeSHA256": "53857be699cedeeecec0aa2c0cd5d422fc57256d4a05f27ab045d740e5f8bf0e",
       "originalReferencePNG_SHA256": "cac4b12579db215138394b84cb80819083dec04a5bb90380340ca10146baf3f9"
     },
     {
@@ -1224,14 +1417,14 @@
         1240,
         831
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         255,
         255
       ],
       "rawSHA256": "5328622cedec2f971684faf1f289e65a07024c82111542299bbd76c3ea953435",
-      "runtimeSHA256": "9b41faef3e82fe95f45fc8041a01a5c6835404790ee402e09bbf19e570c2314e",
+      "runtimeSHA256": "70bf6ca18d6a319e5e91737654ec421eceacd3e78cf7b7e999c17077d7a9d570",
       "originalReferencePNG_SHA256": "fae91103ba57d74c6cdc4e80dee2baa3b033790d75c8e8469d6e0365f7555647"
     },
     {
@@ -1258,14 +1451,14 @@
         128,
         260
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "9b06359cc42467bba4cbdf1b80bb34e9930b0f4a7dd417ae7fb33d078e542276",
-      "runtimeSHA256": "9e6e8150352b0f194dd48a4061627a4e4b155b8b5846f825ab8632a6728dae08",
+      "runtimeSHA256": "a1aa18e7dc4b221d97e7ff13fae66688f7ecc9f4d161427ef7140257157a3e7d",
       "originalReferencePNG_SHA256": "194b8d05cc21b0111cbca11a446e49fb613da3b5a9d4db616a3a4b7d51a6b4c7"
     },
     {
@@ -1275,14 +1468,14 @@
         1920,
         280
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "fcb9592dc704a978636ff6ecb95f038b36693665f3f2430fbe42e2dd2d9a5ada",
-      "runtimeSHA256": "ea3028bc811837cfaa27eacca8ecaabd778927a89010cbddf1a4680acacd9b1d",
+      "runtimeSHA256": "5608d2868a77a0ef8dbd40d029d086c01e01643cf81a04d8eee03bcd9f072419",
       "originalReferencePNG_SHA256": "ed9ddc2e2ff2efcaf54ac288739006b3bb1296a1173190b59b308933703589a0"
     },
     {
@@ -1326,14 +1519,14 @@
         44,
         44
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "03ff01dcb39a96b85a68135ea1cb5d375d8ea7bea1a819df993368d264acaae1",
-      "runtimeSHA256": "2be992aea12341db5661fe5a9b0d11de47bb4ad59ad3dd2fd14f1f6a7d48e139",
+      "runtimeSHA256": "5c7ee5218fad3f6713e5053caea512cfbd3b516dfe94e2befa169db86e35171c",
       "originalReferencePNG_SHA256": "be3657408dc950e313a00ab3b00b1d08640b9ca2143387f187d902d82648faed"
     },
     {
@@ -1343,14 +1536,14 @@
         36,
         36
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "ca193a7402c5b7ccbb3bc50176d594067b034720e7cc5028a8e02d5b33bfe540",
-      "runtimeSHA256": "4af54fac7344749b5557928bd9505ac5e87c41fe1a6c3bdaec0c7c39a9403927",
+      "runtimeSHA256": "ae8483bac4eeb882846912a26c74f302acc8cb4a446d30dd051ef49ba9ac3560",
       "originalReferencePNG_SHA256": "0d585f3f336c54b5bce9876dc8609b8dae6d560bfbb4b46f95960f47c19a7dce"
     },
     {
@@ -1377,14 +1570,14 @@
         1240,
         831
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "f91ac58e701052a8c9213935978d1598ba374d001b74d30282f71ebede0f3636",
-      "runtimeSHA256": "7607c8c74ddd8a3e424eb3ef89df918a2cc65282da941ba8b38d470c75b284cd",
+      "runtimeSHA256": "57aa1a76cdb5397b9c7da1000125c9fdb14f9cf78b36bd48bdf1e13b27b3ffe0",
       "originalReferencePNG_SHA256": "9e04d1d58b8c6a5d395df14392560d97b2d4a5ff0f35b91cd3b12f31f046dbae"
     },
     {
@@ -1411,14 +1604,14 @@
         64,
         64
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "6fc4a3eeab9aba0b122c2d15f47f718da8e73d9091b86762b3aa18ebafaff196",
-      "runtimeSHA256": "423d40a8197805d5bbf43143b7b6bcfd2e14d81cf8b85a79e98e7c4b5bd000fb",
+      "runtimeSHA256": "145ef9f7a3555a3a872c052d3c85a40e7f492125af338308413e62924551a54d",
       "originalReferencePNG_SHA256": "d1c01008517659590d192d78520e1f1957b722473cb38915d6e1215a2d422964"
     },
     {
@@ -1462,14 +1655,14 @@
         36,
         36
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "fc75501b37ad7b03784cf22ce69d215a9d9a55567cd3dfdfefacf9351cd71e7c",
-      "runtimeSHA256": "e403b1e5292c7bbac5c1b737d77fa1a531d9bdacb95dbdde25699b2d9e6b2209",
+      "runtimeSHA256": "678c9711149bab02155b2beb8c6e354ff6d2ac3cb84bd7206017a6863471254b",
       "originalReferencePNG_SHA256": "93ae1565edf66811e7c3a7374944ea7fa2e0d4b368fce328cba6571add100a35"
     },
     {
@@ -1479,14 +1672,14 @@
         244,
         128
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "cc7cc574d3b82af276990b58cec9f7254a11666b360ba30a76f17c3ed954b101",
-      "runtimeSHA256": "be089af8c6d8bf73d84d7d6f6ce0744013045b16f6bbf17c52aa2bce3f6edbd9",
+      "runtimeSHA256": "19e24d2243d17c24b9e5eba5bd544bf87137e1d964935a997b16e7430ee17b82",
       "originalReferencePNG_SHA256": "e12528762541a31afd8e48fe2213af52810dc37117d4a85562b991c2cdb225c9"
     },
     {
@@ -1496,14 +1689,14 @@
         1336,
         85
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "01c9bde41a912639befbf3b50813772cd6636e482dede895367989f3d470788a",
-      "runtimeSHA256": "5a8b6e9177b6512bc3110737b828fd8f0ee36c1e3d98f133e690d011601ce4e3",
+      "runtimeSHA256": "b9c3af42e42924cc05514d29ee8aa069093ef37ec39468fa1b8277f612e1fdb9",
       "originalReferencePNG_SHA256": "430c6d1e320376371648bb1f435209d6190ba692f85d588a9ad692aa2e40d505"
     },
     {
@@ -1547,14 +1740,14 @@
         64,
         64
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "12b071abff953e660ca49eec491953f3037cd03da1e576a06110d1659100efa7",
-      "runtimeSHA256": "a3349032309bf94b7dfda38f23a680c2bcc2910a4b40ce29b8607b6547ac70a4",
+      "runtimeSHA256": "0403468d259c65f6ba7776f7ead8450df7bba935b9498cb5d2cb5c0f811dbfa3",
       "originalReferencePNG_SHA256": "380944514c0de6ded06197a16ea7b1c45613a67162f7f872553e5ffdcbe9315e"
     },
     {
@@ -1632,14 +1825,14 @@
         1336,
         117
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "90f416c1b867b20f4e2a2efdf066c03cf74c3aa5624e5651eb238b9a03c9841f",
-      "runtimeSHA256": "1e69a4054d38bdd4c22b4bbe0282384246ca864251808110f7ad74619bb7c937",
+      "runtimeSHA256": "8c7c3924703a10fc23a81d2a2667aea4d991cedbc360088da06d6b953cb5a70e",
       "originalReferencePNG_SHA256": "257d644c248defbaec3c6e46ec75b274c35abd8967e183d6adf3badecbdcc2b0"
     },
     {
@@ -1683,14 +1876,14 @@
         1232,
         920
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "2360cadce9ad3af0f2a5eb8d7c3a90b91e8dc4b4617a8dc85e1d4e49653acd06",
-      "runtimeSHA256": "08ba51810b972775ca30d9c9e9ffd71a7bd6752d0e056b1e92e3e6c1693d47c2",
+      "runtimeSHA256": "dbf7dd0e9ad5ae5bd35139fafa6e03ee0c5838589a81f12e1b584a9e0d3db969",
       "originalReferencePNG_SHA256": "6da6ababb3e8d810033892553d0b019704b83f6af1c37f5a82875e6859e87291"
     },
     {
@@ -1700,14 +1893,14 @@
         64,
         64
       ],
-      "kind": "interface",
+      "kind": "functional_ui",
       "passed": true,
       "alphaRange": [
         0,
         255
       ],
       "rawSHA256": "eeb2cb87aac124ccbe3b2eba4fe78bcc313531f89e8273d37228e39b30fe46b2",
-      "runtimeSHA256": "a733ca3fc29b583c5436330113bfb4e780acbe0c575952f54f2819a8373581b2",
+      "runtimeSHA256": "e14cc83963f5a2734a825ac55b8305b975dc2c040ddaae590f4f6db4fc11ed3a",
       "originalReferencePNG_SHA256": "0a1bee15a09184a164ce6c35249cbb7fd02a6b67910fbd850eb48a65cb836517"
     },
     {

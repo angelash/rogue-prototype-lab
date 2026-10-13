@@ -27,6 +27,12 @@ public static class NightAssetExport
     {
         ExportSet(new[]{"SubTitle"});
     }
+    public static void FixUISurfacesAndBuild()
+    {
+        var spec=JObject.Parse(File.ReadAllText("../../fidelity/data/ui-surfaces.json"));
+        ExportSet(System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Select(((JObject)spec["textures"]).Properties(),p=>p.Name)));
+        RecoveryEditor.BuildFinalCandidates();
+    }
     public static void FixPromptsAndBuild()
     {
         ExportPromptFix();
@@ -37,6 +43,7 @@ public static class NightAssetExport
         string root=Path.GetFullPath("../..");
         var jobs=JObject.Parse(File.ReadAllText(Path.Combine(root,"fidelity/art/jobs.json")));
         var manifest=JObject.Parse(File.ReadAllText("Assets/Editor/RecoverySource/manifest.json"));
+        var surfaces=JObject.Parse(File.ReadAllText(Path.Combine(root,"fidelity/data/ui-surfaces.json")))["textures"];
         int count=0;
         foreach(var job in jobs["jobs"])
         {
@@ -56,7 +63,7 @@ public static class NightAssetExport
                 rawBounds=AlphaBounds(input);slot=SpriteBounds(manifest,original);
                 stampScale=Mathf.Min(slot.width/rawBounds.width,slot.height/rawBounds.height)*.9f;
             }
-            if(kind=="interface" || kind=="prompt_backplate")
+            if(kind=="interface" || kind=="prompt_backplate" || kind=="functional_ui")
             {
                 // Geometry is part of the recovered UI. Read the pristine reference, never the overwritten working asset.
                 var e=original["exportFiles"][0];
@@ -70,6 +77,12 @@ public static class NightAssetExport
                 // SubTitle is Continue.Background, not a logo. Its inherited tight
                 // mesh and alpha define the prompt plate; every label is live TextMesh.
                 if(kind=="prompt_backplate")color=new Color(.02f,.025f,.04f,stencil.GetPixel(x,y).a);
+                if(kind=="functional_ui")
+                {
+                    var spec=surfaces[(string)job["name"]];if(spec==null)throw new Exception("Missing functional UI role");
+                    var source=stencil.GetPixel(x,y);float level=(string)spec["mode"]=="luminance"?Mathf.Max(source.r,Mathf.Max(source.g,source.b)):1f;
+                    var rgb=spec["rgb"];color=new Color((float)rgb[0]*level,(float)rgb[1]*level,(float)rgb[2]*level,source.a);
+                }
                 if(kind=="stamp")
                 {
                     // Technical atlas placement: retain the source sprite's pivot and tight mesh.
@@ -100,6 +113,12 @@ public static class NightAssetExport
                 pixels[y*width+x]=color;
             }
             output.SetPixels(pixels);output.Apply();
+            if(kind=="functional_ui" && (string)surfaces[(string)job["name"]]["mode"]=="label")
+            {
+                BakeLabel(output,(string)surfaces[(string)job["name"]]["label"],manifest,true);
+                var labeled=output.GetPixels();for(int y=0;y<height;y++)for(int x=0;x<width;x++)labeled[y*width+x].a=stencil.GetPixel(x,y).a;
+                output.SetPixels(labeled);output.Apply();
+            }
             if((string)job["name"]=="SubTitle" && kind!="prompt_backplate")throw new Exception("SubTitle must remain a text-free Continue background");
             string label=kind=="title"?"妖怪夜市开张":"";
             if(label!="")BakeLabel(output,label,manifest,false);
@@ -144,7 +163,7 @@ public static class NightAssetExport
         var text=textObject.AddComponent<TextMesh>();text.font=font;text.fontSize=256;text.characterSize=1;text.anchor=TextAnchor.MiddleCenter;text.text=label;
         text.color=new Color(.96f,.81f,.48f,1);text.GetComponent<MeshRenderer>().sharedMaterial=font.material;
         var rt=new RenderTexture(target.width,target.height,24);camera.targetTexture=rt;camera.Render();
-        var bounds=text.GetComponent<MeshRenderer>().bounds;if(bounds.size.x<=0)throw new Exception("Native title has empty bounds");float scale=target.width*(small?.9f:.61f)/bounds.size.x;
+        var bounds=text.GetComponent<MeshRenderer>().bounds;if(bounds.size.x<=0)throw new Exception("Native title has empty bounds");float scale=target.width*(small?.7f:.61f)/bounds.size.x;
         textObject.transform.localScale=Vector3.one*scale;textObject.transform.position=new Vector3(-bounds.center.x*scale,small?0:-target.height*.12f-bounds.center.y*scale,0);
         for(int i=0;i<4;i++)
         {

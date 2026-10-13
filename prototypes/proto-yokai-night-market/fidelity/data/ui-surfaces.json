@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "scope": "Functional UI layers only. Keep source size, alpha, sprite mesh, pivot, UV and tint. Flat surfaces do not copy source decorative RGB or generated frames. Luminance layers retain the original grayscale partition with a declared night-market palette. Historical generated inputs stay archived.",
+  "textures": {
+    "TitleBackground Left": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Sliding left phase backplate; no inner frame"},
+    "TitleBackground Right": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Sliding right phase backplate; no inner frame"},
+    "TitleBackground Line Left": {"mode": "flat", "rgb": [0.76, 0.59, 0.32], "role": "Left phase outline only"},
+    "TitleBackground Line Right": {"mode": "flat", "rgb": [0.76, 0.59, 0.32], "role": "Right phase outline only"},
+    "ButtonBig": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Original clipped button fill and thin bevel"},
+    "ButtonSmall": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Vertical settings/resume button, original fill and bevel"},
+    "CARD_00_Background": {"mode": "flat", "rgb": [0.08, 0.10, 0.14], "role": "Shared card back and company surface; no frame, picture placeholder or baked watermark"},
+    "CARD_01_BaseTop": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Dark picture surround; no added frame"},
+    "CARD_03_DetailsTop": {"mode": "luminance", "rgb": [1.0, 0.97, 0.90], "role": "Tintable header and outline, shared by cards and projects"},
+    "PRJ_CARD_01_Base_Project": {"mode": "luminance", "rgb": [0.78, 0.87, 1.0], "role": "Project panel and five progress grooves; no added frame"},
+    "PRJ_CARD_02_Details": {"mode": "luminance", "rgb": [1.0, 0.97, 0.90], "role": "Project dividers only"},
+    "PRJ_Button_Gradient": {"mode": "flat", "rgb": [0.02, 0.025, 0.04], "role": "Darkening gradient over the work button; alpha supplies gradient"},
+    "PRJ_Dot": {"mode": "flat", "rgb": [1.0, 0.97, 0.90], "role": "Tintable work progress pip; alpha only, omit source baked writing"},
+    "PRJ_Dot 1": {"mode": "flat", "rgb": [1.0, 0.97, 0.90], "role": "Round counter pip; alpha only, omit source baked writing"},
+    "PRJ_Ok": {"mode": "flat", "rgb": [0.44, 0.80, 0.48], "role": "Completed work check silhouette"},
+    "PRJ_No": {"mode": "flat", "rgb": [0.90, 0.32, 0.22], "role": "Incomplete work indicator silhouette"},
+    "PRJ_WIP": {"mode": "flat", "rgb": [0.86, 0.70, 0.31], "role": "Work in progress silhouette"},
+    "CARD_10_LightTop": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Top selection glow; alpha supplies feathered edge"},
+    "CARD_10_LightMiddle": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Side selection glow; no stretched decoration"},
+    "CARD_10_LightBottom": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Bottom selection glow"},
+    "OptionRed": {"mode": "luminance", "rgb": [0.90, 0.32, 0.22], "role": "Disabled option lamp, full original rectangular silhouette"},
+    "OptionGreen": {"mode": "luminance", "rgb": [0.44, 0.80, 0.48], "role": "Enabled option lamp, same functional silhouette"},
+    "OptionLight": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Option hover glow only"},
+    "FlagHighlight": {"mode": "flat", "rgb": [1.0, 0.84, 0.48], "role": "Language selection glow only"},
+    "English": {"mode": "label", "rgb": [0.08, 0.10, 0.14], "label": "中", "role": "Original language slot 0 now contains Chinese; native font glyph inside original 36px badge"},
+    "Spanish": {"mode": "label", "rgb": [0.08, 0.10, 0.14], "label": "EN", "role": "Original language slot 1 now contains English; native font glyph inside original 36px badge"}
+  }
+}

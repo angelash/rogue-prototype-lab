@@ -8,13 +8,17 @@ def read(p):return json.loads(p.read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');parser.add_argument('--prompt-suffix',default='');parser.add_argument('--band-repair',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--flow-report');parser.add_argument('--native-report');parser.add_argument('--visual-suffix',default='');parser.add_argument('--prompt-suffix',default='');parser.add_argument('--band-repair',action='store_true');parser.add_argument('--surface-suffix',default='');args=parser.parse_args()
     verification=read(ROOT/'fidelity/evidence/fidelity-verification.json');assert verification['passed']
     images={r['id']:r for r in verification['images']};jobs=read(ROOT/'fidelity/art/jobs.json');spec=read(ROOT/'fidelity/image-specs.json');book=read(ROOT/'fidelity/art/generation-register.json')
     for j in jobs['jobs']:j['status']='imported_verified';j['runtimeSHA256']=images[j['id']]['runtimeSHA256']
     for s in spec['textures']:
         j=next(j for j in jobs['jobs'] if j['id']==s['id']);s.update(replacement=j['final'],raw=j['raw'],prompt=j['prompt'],kind=j['kind'],status='imported_verified',rawSHA256=images[s['id']]['rawSHA256'],runtimeSHA256=images[s['id']]['runtimeSHA256'])
     for r in book['images']:r['review']='Generated raw retained as rejected history; runtime uses a uniform procedural Continue plate with original alpha, verified in the prompt survey.' if r['name']=='SubTitle' and args.prompt_suffix else 'Raw image inspected; exact runtime dimensions and copy hashes verified; actual Player family samples checked separately in delivery evidence.'
+    if args.surface_suffix:
+        surfaces=read(ROOT/'fidelity/data/ui-surfaces.json')['textures']
+        for r in book['images']:
+            if r['name'] in surfaces:r['review']='Generated input retained as unused history; runtime uses the declared functional UI layer or native language badge from fidelity/data/ui-surfaces.json. Exact alpha, dimensions, color roles and actual Player states verified.'
     write(ROOT/'fidelity/art/jobs.json',jobs);write(ROOT/'fidelity/image-specs.json',spec);write(ROOT/'fidelity/art/generation-register.json',book)
     reports={}
     for key,relative in [('rules','QAResults/rules/rules.json'),('smoke16x9','QAResults/smoke-16x9/report.json'),('smoke4x3','QAResults/smoke-4x3/report.json'),('visual16x9','QAResults/visual-complete-16x9-v2.2/report.json'),('visual4x3','QAResults/visual-complete-4x3-v2.2/report.json'),('match','QAResults/match-v2.2/report.json')]:
@@ -29,7 +33,7 @@ def main():
     match=reports['match']['report'];assert match['state']==50 and match['replayReady'] and len(match['winnerDone'])==5 and all(done>=goal for done,goal in zip(match['winnerDone'],match['winnerGoals']))
     if args.flow_report:
         p=ROOT/args.flow_report;r=read(p);assert r['passed'] and len(r['checks'])==15 and r['reloads']==1 and not r['errors'];reports['flow']=dict(report=r,localPath=args.flow_report,sha256=sha(p))
-    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe','NightFlowProbe','NightPromptProbe'])];assert not qaTypes
+    metadata=read(LOCAL/'release-code-metadata.json');qaTypes=[t['name'] for t in metadata['types'] if any(k in t['name'] for k in ['NightSmokeProbe','NightRuleChecks','NightVisualProbe','NightFlowProbe','NightPromptProbe','NightSurfaceProbe'])];assert not qaTypes
     original=read(SOURCE/'evidence/build-files.json');installation=Path('E:/SteamLibrary/steamapps/common/Crunch Time');unchanged=all(sha(installation/f['path'])==f['sha256'] for f in original);assert unchanged
     inputs=[]
     for folder in ['Assets','Packages','ProjectSettings']:
@@ -70,7 +74,9 @@ def main():
         nativePrompt=read(ROOT/'fidelity/evidence/prompt-native.json')
         assert all(c['passed'] for c in nativePrompt['cases'])
         for capture in nativePrompt['captures']:assert sha(ROOT/capture['path'])==capture['sha256']
-        testedCurrentBuild=nativePrompt['releasePlayerSHA256']==sha(LOCAL/'Builds/Release/YokaiNightMarket.exe') and nativePrompt['releaseAssemblySHA256']==out['releaseAssemblySHA256']
+        # Player executable and managed assembly can stay identical after a PNG or
+        # scene-only change. Native evidence must also identify all source inputs.
+        testedCurrentBuild=nativePrompt.get('sourceInputSHA256')==fingerprint and nativePrompt['releasePlayerSHA256']==sha(LOCAL/'Builds/Release/YokaiNightMarket.exe') and nativePrompt['releaseAssemblySHA256']==out['releaseAssemblySHA256']
         out['promptNative']=dict(report=nativePrompt,testedCurrentBuild=testedCurrentBuild,status='partial native prompt checks on the recorded build' if testedCurrentBuild else 'Recorded v2.5-r4 native prompt history; not a native recheck of the current release')
     if args.band_repair:
         assert args.visual_suffix and args.prompt_suffix
@@ -81,5 +87,20 @@ def main():
         out['qaRevisionScope']['promptRepair']['reason']='The v2.5 prompt repair reports remain their recorded history; v2.6 changes only one negative-card band material and the QA-only pixel checks. No prompt texture, node, text or behavior changes in this revision.'
         out['qaRevisionScope']['reason']='Rules, smoke, flow, match and partial native reports retain their recorded earlier revision scope; only the four listed visual surveys attest the current v2.6 packaging.'
         out['qaRevisionScope']['bandRepair']=dict(reports=current,material='00_NEG_Detail',rgba=[.72,.24,.18,1],affectedCardTypes=[6,7],affectedCards=26,reason='Original pure-black classification bands are intentional source design; change their packaging tint to terracotta so the title and separators remain identifiable on the night-market frame. Each affected card renders both bands separately on black and must have at least 100 colored pixels. All 82 PNG bytes, text, geometry, references, business code and numeric rules remain unchanged.')
+    if args.surface_suffix:
+        assert args.visual_suffix and args.prompt_suffix
+        out['native'].update(testedCurrentBuild=False,status='Recorded earlier partial native history; no current v2.7 native input acceptance while Windows is locked')
+        current=[]
+        for label,size in [('16x9',(1920,1080)),('4x3',(1440,1080))]:
+            for lang,ending in [(0,''),(1,'-en')]:
+                p=LOCAL/f'QAResults/surfaces-{label}{args.surface_suffix}{ending}/report.json';r=read(p)
+                assert r['passed'] and not r['errors'] and len(r['captures'])==26 and r['phaseChecks']==7 and r['optionChecks']==10 and r['language']==lang and (r['width'],r['height'])==size
+                key=f'surfaces{label}'+('English' if lang else 'Chinese');current.append(key)
+                reports[key]=dict(report=r,localPath=p.relative_to(ROOT).as_posix(),sha256=sha(p));write(ROOT/'fidelity/evidence'/(key+'.json'),r)
+        out['images'].update(runtimeGeneratedArt=55,proceduralPromptPlates=1,proceduralUISurfaces=24,nativeLanguageBadges=2,historicalGeneratedSources=82)
+        out['qaRevisionScope']['reason']='Current v2.7 reports cover all card/tutorial/project renders, repeated prompt/header spacing and seven phase animations plus settings states in both languages/aspect ratios. Earlier rules, smoke, flow, match and partial native reports keep their recorded scope; no new native input evidence while Windows is locked.'
+        out['qaRevisionScope']['copyPolishReason']='v2.4 copy remains unchanged; the listed complete visual reports are now current v2.7 packaging.'
+        out['qaRevisionScope']['promptRepair']['reason']='v2.7 repeats the v2.5 Continue and collapsed-header fixtures after the shared UI layer correction, using the current Player.'
+        out['qaRevisionScope']['surfaceRepair']=dict(reports=current,specification='fidelity/data/ui-surfaces.json',layers=26,reason='Replace full generated decorations and opaque navy gap filling on primitive UI layers with role-specific backgrounds, outlines, gradients, glows, progress/status markers and two native language badges. Preserve source dimensions and alpha, transforms, meshes/UV, hit areas, materials, copy and all 30 business scripts. The faint enlarging phase echo is the original TitleManager animation and remains intact.',nativeRecheck='Release started, but target window capture showed Windows lock screen. No input sent; awaiting manual unlock.')
     write(ROOT/'fidelity/evidence/delivery.json',out);print(json.dumps(dict(status=out['status'],sourceFiles=len(inputs),images=82,qaReports=len(reports),release=release,backups=out['backups']),ensure_ascii=False))
 if __name__=='__main__':main()
