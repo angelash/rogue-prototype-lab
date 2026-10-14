@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14T10:19:24.260095",
+  "archive": "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-escape-from-duckov\\local\\sharing\\HybridUnityProject-share-20261014-v1.zip",
+  "files": 6680,
+  "inputBytes": 4357360728,
+  "archiveBytes": 2042614264,
+  "sha256": "86d29d15bcef1aa8a690b6fa0275048d65c7270aef6523d2433228e774e6da73",
+  "allEntriesReadbackVerified": true,
+  "allSourceMatchesTestedPlayer": true,
+  "fullGameAcceptancePassed": false,
+  "userConfirmedDistributionAuthorization": true,
+  "authorizationScope": "This recipient; explicit user reply on 2026-10-14",
+  "cleanExtractionRebuild": {
+    "unityBuild": {
+      "result": "Succeeded",
+      "unity": "2022.3.62f3c1",
+      "errors": 0,
+      "warnings": 75,
+      "registeredScripts": 2062,
+      "bytes": 88311659
+    },
+    "abiAssembliesPassed": 10,
+    "typesChecked": 1716,
+    "serializedFieldsChecked": 5900,
+    "scope": "Same-machine clean extraction; original working project unchanged; other-machine validation not performed",
+    "nativePlayerVerification": {
+      "nativeResourceFilesChecked": 207,
+      "sourceAssembliesChecked": 10,
+      "engineMatchesFrozenLocalHost": true,
+      "failures": []
+    },
+    "passed": true
+  },
+  "temporaryVerificationDirectoryRetained": "F:/workspace/duckov-share-check-20261014",
+  "cleanupApprovalReview": "Recursive removal blocked by policy; directory retained, archive unaffected"
+}

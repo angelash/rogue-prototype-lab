@@ -2,6 +2,8 @@
 
 当前混合源码入口：[start-hybrid-project.ps1](start-hybrid-project.ps1)，`-Editor` 打开源码工程，不带参数运行混合 Player。`build-hybrid-project.ps1 -Launch` 调用本地 Unity 构建、核对 ABI、接回旧宿主原生 res 运行布局，并保留可运行的版本快照。`-SelfTest`/`-Suite` 收集代表性自测记录；Suite 会先保留独立自测槽位 6 的旧数据，再从空槽位复跑。随后 `-Resume` 检查保存重启、`-Combat` 检查伤害/撤离、`-Pixel` 截取标题样本。Steam 平台错误仍保留，不以游戏集成通过冒称总自测通过。详情见[混合还原记录](../reports/hybrid-restoration.md)。
 
+`package_hybrid_project.py` 用于用户已确认分发授权的完整交接 ZIP，必须传入 `--distribution-authorized`，保留 `.meta`、嵌入包、运行宿主和原始引用，排除缓存/日志/存档/Git。包内构建脚本单独适配路径和冻结基线，原工程不改；全条目回读 CRC/SHA256 后输出摘要与证据。交接布局和启动命令见[PACKAGING.md](../PACKAGING.md)。
+
 输入固定为用户指定的 Steam 2.3.30，Unity 容器模式为 2022.3.62f2。工具只在副本上分析，原安装和真实存档不写入。全量操作会产生数 GB 本机数据，C# 部分转换可能较慢；失败日志保留，工具不自动安装软件。
 
 ## 工具要求

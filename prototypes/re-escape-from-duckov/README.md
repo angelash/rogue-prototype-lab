@@ -4,6 +4,8 @@
 
 最新路线使用本地 **Unity 2022.3.62f3c1**：反编译业务代码接入源码编译，资产继续沿旧实验宿主原生 AB/res 路线。当前工程为 **`local/HybridUnityProject`**、运行包为 **`local/HybridPlayer`**，详见[混合还原记录](reports/hybrid-restoration.md)。原始目标仍是全部内容、像素级一致；平台和全像素验收尚未通过。
 
+2026-10-14 按用户确认的本次接收方分发授权制作工程 ZIP，位于 `local/sharing/HybridUnityProject-share-20261014-v1.zip`。包含源码工程、原生运行包和必要重建依赖，不包含个人存档、日志、缓存和旧实验。全 ZIP 条目回读与干净解压重建核验通过，参见[交接说明](PACKAGING.md)及[压缩证据](evidence/share-package.json)；没有自动上传压缩包。
+
 ## 当前目录怎么使用
 
 - **`local/HybridUnityProject`**：当前混合源码工程。十个业务/配套程序集、1,430 C# 文件在 `Assets/Reconstructed`，已通过本地 Unity 编译构建。游戏资产在原生运行数据中，编辑器 Play 打开独立 Player。用 [start-hybrid-project.ps1](scripts/start-hybrid-project.ps1) 的 `-Editor` 参数打开，源码修改后执行 [build-hybrid-project.ps1](scripts/build-hybrid-project.ps1)。

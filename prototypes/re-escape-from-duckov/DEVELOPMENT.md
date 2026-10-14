@@ -1,6 +1,6 @@
 # Escape from Duckov 逆向与 Unity 还原项目合同
 
-版本 v2.4；2026-10-13（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
+版本 v2.5；2026-10-14（Asia/Shanghai）。继承[共同规范](../../DEVELOPMENT_STANDARD.md)，按[项目模板](../../DEVELOPMENT_TEMPLATE.md)建立。静态分析已交付；用户随后明确要求使用本地 Unity 还原全部内容，并以像素级复刻为目标。
 
 ## 1. 项目标识与执行依据
 
@@ -8,7 +8,7 @@
 - 目录：`prototypes/re-escape-from-duckov`；不占用原方案编号，不改变其他项目排期。
 - 原始请求授权本机静态研究；后续请求授权建立独立 Unity 工程、恢复内容、实现运行、修复导入与构建问题并验证还原效果。原安装保持只读，输入使用 `local/build-copy`；还原工程使用独立产品身份与存档目录，不改真实存档，不绕过平台授权。
 - 助手实施选择：全文件 SHA256、全部托管程序集元数据/C#/IL、全部 Unity 容器对象与引用、内容配置/场景/本地化/资产目录和本地可搜索浏览器；每阶段记录实际数量、失败和覆盖。
-- 第三方构建、反编译源码、文本和媒体仅本机 `local/` 保存；原创报告、工具与摘要可以纳入现有仓库。完整本地输入与分析产物另做无远程的本地版本快照。
+- 第三方构建、反编译源码、文本和媒体默认仅本机 `local/` 保存；原创报告、工具与摘要可以纳入现有仓库。完整本地输入与分析产物另做无远程的本地版本快照。2026-10-14 用户明确确认权利方允许向本次接收方分发反编译代码、DLL 和资产，授权制作完整交接 ZIP；压缩包仍保存在本机，不自动上传远程或扩大为公开发布。
 - [项目入口](README.md) · [来源记录](sources/target-register.md) · [总报告](reports/analysis.md) · [工具入口](scripts/README.md)。
 
 ## 2. 开工准备
@@ -61,6 +61,8 @@
 还原阶段：已恢复原 Resources/shared/脚本映射与 63 场景编号，使用本机 f3c1 引擎进入原 MainMenu（编号 1），正常窗口运行 0 个记录异常、标题截图通过目检，Windows 原生点击打开空存档列表。独立保存目录为 `RoguePrototypeLab/DuckovRestorationLab`，只改变该目录中的测试 Options。桌面输入被用户 Escape 停止；实际关卡、保存闭环、主观听音和像素对照未通过。构建与运行证据见 [还原进度](evidence/restoration-progress.json)、[正常窗口证据](evidence/native-game-qa.json) 与 [还原记录](reports/restoration.md)。
 
 ## 6. 缺口、下一步与变更记录
+
+2026-10-14 v2.5：按用户分享请求与明确分发授权，生成完整 HybridUnityProject 交接 ZIP，保留源码工程、嵌入包、设置、原生 Player、原始 Managed 引用及必要重建记录，排除缓存、旧实验、日志、存档与 Git。包内脚本支持接收方 Unity/Python 路径并使用已打包的 HybridPlayer 作为冻结基线，避免重复旧 Player。全条目 CRC/SHA256 与干净解压后的源码重建、组件 ABI 和原生运行摘要核验通过；另一台机器的平台/游玩仍未验，完整游戏验收状态不变。入口见[交接说明](PACKAGING.md)与[压缩证据](evidence/share-package.json)。
 
 2026-10-13 v2.4：用户明确要求反编译代码源码恢复、资产继续使用旧宿主 AB/res，目标完整且像素一致。新增 HybridUnityProject，十个业务/配套程序集、1,430 C# 文件接入本地 Unity，实际编译构建 0 错误；绑定审计 1,716 类型/5,900 序列化字段一致，207 原生文件摘要核验通过。混合 Player 完成代表性序章/移动/背包/基地/保存重启/零号地区/伤害/撤离集成；原引擎、第三方与平台 DLL 仍为匹配依赖。完整启动有 Steam 初始化错误，真实键盘、全内容可达和全像素验收未通过，不承诺未实测 100%。详情见[混合还原记录](reports/hybrid-restoration.md)；原候选和失败证据保留。
 
