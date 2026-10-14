@@ -175,7 +175,10 @@
     }
   ],
   "schedule": {
-    "feeWaitingDaysObserved": 21,
+    "feeWaitingDaysObserved": [
+      21,
+      30
+    ],
     "comingSoonMinimumDays": 14,
     "reviewBusinessDaysTypical": [
       3,
@@ -184,6 +187,8 @@
     "reviewSubmissionBufferBusinessDays": 7,
     "formula": "最早日期=max(实际后台缴费等待截止, Coming Soon实际公开日+14天, 所有审核完成, 权利/质量与定价就绪)。等待可并行，不简单相加。",
     "source": "official-sources.json",
-    "actualDatesKnown": false
+    "actualDatesKnown": false,
+    "planningFeeWaitDays": 30,
+    "documentationConflict": "onboarding文档21天、Steam Direct入口30天；暂按30天保守试算，以App后台实际资格为准。"
   }
 }

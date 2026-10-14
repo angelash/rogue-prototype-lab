@@ -32,4 +32,6 @@ Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 lo
 
 本轮独立完整历史备份使用根 local/git-backups/yokai-night-market-source-v2.8-style.bundle；实际提交、SHA256、字节数、Git 索引覆盖与裸仓恢复/fsck 结果登记于同目录 yokai-night-market-v2.8-style-record.json。公开原创资料推送记录为 yokai-night-market-public-v2.8-style.json。这些记录以工具真实输出为准；不覆盖此前 art-direction 方案 bundle 或旧源码/Player 包。
 
-2026-10-14 Steam准备新增30个release输入和6个工具，必需版本覆盖为3,746个，索引字节核对通过；游戏工程967输入摘要仍与v2.8最终包一致。所有新增图片、提示、规格、模板和用例受Git管理，公开远程仅接收本轮原创准备资料。独立输入增量包为根local/git-backups/yokai-night-market-steam-preparation-20261014-inputs.zip，真实提交/远程核验、清单与完整读回摘要登记于同目录yokai-night-market-steam-preparation-20261014.json。此增量不是游戏包，也不替代既有完整研究工程bundle；私有授权、税务、账号及运行报告不公开。
+2026-10-14 Steam准备新增30个release输入和6个工具，必需版本覆盖为3,746个，索引字节核对通过；游戏工程967输入摘要仍与v2.8最终包一致。所有新增图片、提示、规格、模板和用例受Git管理，公开远程仅接收本轮原创准备资料。独立输入增量包为根local/git-backups/yokai-night-market-steam-preparation-20261014-r2-inputs.zip，真实提交/远程核验、清单与完整读回摘要登记于同目录yokai-night-market-steam-preparation-20261014-r2.json。此增量不是游戏包，也不替代既有完整研究工程bundle；私有授权、税务、账号及运行报告不公开。
+
+Steam准备r2补记官方等待期冲突：入驻文档21天、Steam Direct入口30天；保持两处来源，保守试算30天，以应用后台为准。r2准备输入包包含本轮41文件的当前完整快照；首次准备包/记录保留。

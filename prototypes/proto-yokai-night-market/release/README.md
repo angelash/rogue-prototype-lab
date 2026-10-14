@@ -17,7 +17,7 @@
 5. **准备商店**：我制作中英文介绍、胶囊、库图、图标、真实截图、预告片和问卷草稿。当前已备两份生成主视觉和9张原生排字候选，逐项尺寸已核对；真实截图/录像等可发行包完成再录。95牌/28委托来自当前研究版，若独立版变更，草稿必须同步。
 6. **平台集成与实际下载验证**：Steamworks API 集成并非上架的统一前提；上传使用其工具。首发不为凑清单强加成就、Cloud或手柄。我完成 SteamPipe/Preview、测试分支、真实 Steam 安装/离线/更新与回滚；仅声明通过测试的功能。[SDK说明](https://partner.steamgames.com/doc/sdk)、[上传说明](https://partner.steamgames.com/doc/sdk/uploading)
 7. **分开审核与公开**：先完成商店清单并送审，再处理构建审核；审核通常各3–5工作日，按官方建议至少预留7工作日处理修改。通过后另行公开 Coming Soon，不会因为审核通过就自动开售。我处理资料与反馈，公开动作按具体版本和你批准的范围执行。[审核流程](https://partner.steamgames.com/doc/store/review_process)、[发布流程](https://partner.steamgames.com/doc/store/releasing)
-8. **时间与最后决定**：本次读取官方英文入驻页为缴费后21天，Coming Soon 至少公开两周；最终依应用后台实际截止日期。来源、质量、审核和价格也须就绪，不能只按日历倒数。你批准具体售价、地区、日期和最终包，我准备发布/回滚检查；身份、签署和最终商业决定由你作出。
+8. **时间与最后决定**：本次官方入驻文档写缴费后21天，[Steam Direct注册入口](https://partner.steamgames.com/steamdirect)写30天，公开说明存在差异。暂按30天保守准备，Coming Soon 至少公开两周；最终依应用后台实际截止日期。来源、质量、审核和价格也须就绪，不能只按日历倒数。你批准具体售价、地区、日期和最终包，我准备发布/回滚检查；身份、签署和最终商业决定由你作出。
 9. **上线维护**：我继续处理问题复现、修复、回归、补丁、备份、公告和支持回复草稿。对外发送消息、重大商业承诺与额外费用按实际授权处理。
 
 全球 Steam 商店与 Steam China/蒸汽平台是不同流程；Steam China 的政府批准/ISBN 等要求应另行处理，不把全球发行准备当成该资格。[Steam China说明](https://partner.steamgames.com/doc/store/china)

@@ -16,7 +16,7 @@ function addDays(value:string,days:number){if(!/^\d{4}-\d{2}-\d{2}$/.test(value)
 export default function SteamRelease(){
  const t=useHostTheme(),dispatch=useCanvasAction();
  const [owner,setOwner]=useState("all"),[selected,setSelected]=useState("rights");
- const [paid,setPaid]=useState("2026-10-14"),[soon,setSoon]=useState("2026-10-21"),[wait,setWait]=useState("21");
+ const [paid,setPaid]=useState("2026-10-14"),[soon,setSoon]=useState("2026-10-21"),[wait,setWait]=useState("30");
  const waiting=Number(wait),fee=Number.isInteger(waiting)&&waiting>0&&waiting<=180?addDays(paid,waiting):null,coming=addDays(soon,14),earliest=fee&&coming?[fee,coming].sort()[1]:null;
  const visible=plan.steps.filter(s=>owner==="all"||(owner==="user"?s.owner!=="assistant":s.owner!=="user"&&s.owner!=="user_final_approval"));
  const focus=plan.steps.find(s=>s.id===selected)!;
@@ -36,7 +36,7 @@ export default function SteamRelease(){
   <H2>日期试算，示例不代表已经缴费或公开</H2>
   <Grid columns={3} gap={16}><Stack gap={6}><Text size="small">假设缴费日期</Text><TextInput value={paid} onChange={setPaid}/></Stack><Stack gap={6}><Text size="small">假设Coming Soon公开日期</Text><TextInput value={soon} onChange={setSoon}/></Stack><Stack gap={6}><Text size="small">缴费等待天数，以后台为准</Text><TextInput type="number" value={wait} onChange={setWait}/></Stack></Grid>
   {earliest&&<Text weight="semibold">仅这两项日期门槛的较晚日：{earliest}</Text>}
-  <Text tone="secondary" size="small">本次官方英文页写缴费后21天，Coming Soon至少14天，两者可并行。审核通常3–5工作日，建议至少预留7工作日处理修改。真正能发售还取决于来源、质量、审核、定价和后台资格，不能把试算当承诺。</Text>
+  <Text tone="secondary" size="small">官方入驻文档写21天、Steam Direct入口写30天，暂按30天保守试算；Coming Soon至少14天，两者可并行。审核通常3–5工作日，建议至少预留7工作日处理修改。真正能发售还取决于来源、质量、审核、定价和后台资格，不能把试算当承诺。</Text>
   <H2>官方依据</H2><Row wrap gap={12}>{sources.map(s=><Link href={s.url}>{s.id}</Link>)}</Row>
   <Text tone="tertiary" size="small">来源：本机v2.8工程与发行门禁、Steamworks官方文档（2026-10-14）。9张图为宣传插画候选；真实玩法截图/录像待可发行包完成后制作。当前游戏内82纹理及Player字节未改。</Text>
  </Stack>;
