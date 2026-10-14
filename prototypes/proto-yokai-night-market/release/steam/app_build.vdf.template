@@ -1,0 +1,12 @@
+"AppBuild"
+{
+    "AppID" "@APP_ID@"
+    "Desc" "@BUILD_DESCRIPTION@"
+    "BuildOutput" "@BUILD_OUTPUT@"
+    "ContentRoot" "@CONTENT_ROOT@"
+    "Preview" "1"
+    "Depots"
+    {
+        "@WINDOWS_DEPOT_ID@" "depot_windows.vdf"
+    }
+}

@@ -31,6 +31,7 @@ def verify():
         "copySkill": REPO / ".agents/skills/game-copy-polish",
         "testAndProductionTools": TASK / "scripts",
         "testSpecifications": TASK / "fidelity/test-cases",
+        "steamReleaseInputs": TASK / "release",
         "referenceCodeFixtures": REFERENCE / "decompiled",
         "referenceAssetFixtures": REFERENCE / "exports",
         "referenceStructureFixtures": REFERENCE / "typetrees",

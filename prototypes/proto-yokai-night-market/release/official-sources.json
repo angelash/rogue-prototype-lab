@@ -1,0 +1,15 @@
+{
+  "checkedDate": "2026-10-14",
+  "sources": [
+    {"id":"onboarding","url":"https://partner.steamgames.com/doc/gettingstarted/onboarding","facts":"实名主体、协议、收款/税务及核验；本次官方英文页面写缴费后 21 天、Coming Soon 至少两周；最终可发行日期以本游戏后台为准，不能把历史常见 30 天机械写成当前值。"},
+    {"id":"fee","url":"https://partner.steamgames.com/doc/gettingstarted/appfee","facts":"每应用 100 美元或等值；可能另有当地税；Steam 钱包不可支付；达到 1000 美元 Adjusted Gross Revenue 后在后续结算回收费用，不是无条件退款。"},
+    {"id":"release","url":"https://partner.steamgames.com/doc/store/releasing","facts":"商店与构建分两份清单/审核；先送商店审核；审核后不会自动发行；Coming Soon 与商业发布有独立公开动作。"},
+    {"id":"review","url":"https://partner.steamgames.com/doc/store/review_process","facts":"商店/构建通常各需 3–5 个工作日，至少预留 7 个工作日用于审查和修改；商店承诺应与启动包一致，截图必须为游戏内容。"},
+    {"id":"assets","url":"https://partner.steamgames.com/doc/store/assets","facts":"当前胶囊与库图规格在 media/specs.json；旧胶囊尺寸已不接受。"},
+    {"id":"asset-rules","url":"https://partner.steamgames.com/doc/store/assets/rules","facts":"胶囊只放游戏图、游戏名和官方副标题等允许内容；不加价格、折扣、评分、促销字样；Hero 无字，Logo 透明。"},
+    {"id":"ai-survey","url":"https://partner.steamgames.com/doc/gettingstarted/contentsurvey","facts":"本项目使用面向玩家的 AI 辅助图像、叙事/文案和本地化，应如实申报预生成内容；当前未实现游戏运行中生成式 AI。成熟内容需完整申报，评级结果不能预填。"},
+    {"id":"upload","url":"https://partner.steamgames.com/doc/sdk/uploading","facts":"完整 Windows Player 作为 depot 内容；先 Preview/私有测试分支，再核对实际 Steam 下载所得安装；模板不含账号密码、不设 SetLive。"},
+    {"id":"sdk","url":"https://partner.steamgames.com/doc/sdk","facts":"Steamworks API 集成可选；成就、Cloud、覆盖层和手柄支持分别按实际接入与测试声明。"},
+    {"id":"china","url":"https://partner.steamgames.com/doc/store/china","facts":"全球 Steam 商店与 Steam China 是不同发行流程；不把全球商店准备写成已取得中国大陆专项出版/运营资格。"}
+  ]
+}

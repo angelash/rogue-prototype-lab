@@ -1,0 +1,19 @@
+{
+  "status": "draft_not_for_publication_until_release_scope_and_rights_are_approved",
+  "basis": "当前 v2.8 行为/内容；独立发行版若更改范围需同步改写，不能直接当成未来版本承诺。",
+  "zh-CN": {
+    "title": "妖怪夜市开张",
+    "short": "招来妖怪帮工，备餐、挂灯、摆好摊位。用手里的牌化解闹场、抢先完成开张清单，与隔壁摊主比一比谁先开市。",
+    "about": "[h2]今晚，和隔壁比谁先开张[/h2]\n夜市开张前，锅要热，货要齐，灯也得挂好。你和隔壁摊主各有一份清单：安排手里的妖怪帮工，完成备货、备餐、挂灯、招客和布符。谁先做完，谁先开市。\n\n[h2]安排帮工，也要留意隔壁[/h2]\n快工两轮做完一项工作，慢工要四轮。人手和位置有限，先把谁派上去、下一轮留什么牌，都得算一算。\n\n[h2]麻烦来了，手里留一招[/h2]\n漏雨、灯线故障、小鬼闹场，都可能打断安排。修补能让帮工继续干活，搭把手能赶一赶进度；碰上巡街，还得在时机内拿出调停牌。\n\n[h2]一张牌，听一句夜市闲话[/h2]\n当前内容有95张卡牌、28份开张委托和两页教学。单人对战电脑摊主，中文与英文界面可切换。纸面卡框、暖灯和木桌围出这一晚的小摊。",
+    "featureNotes": "无在线多人、关卡解锁或局内保存承诺；95/28 是牌/委托数量，不是95张独立插画或95个独立角色。"
+  },
+  "en": {
+    "title": "Yokai Night Market",
+    "titleStatus": "working_title_not_approved",
+    "short": "Put your yokai helpers to work, keep the lanterns lit, and finish your stall's opening checklist before your rival. Play cards to lend a hand, mend a mishap, or stir up trouble next door.",
+    "about": "[h2]Open your stall before the neighbours[/h2]\nThe pot needs heating, the shelves need filling, and the lanterns are still waiting. You and a computer-controlled rival each have an opening checklist. Assign your yokai helpers to supplies, food, lanterns, guests, and wards. Finish all five jobs first to open the market.\n\n[h2]Choose who works next[/h2]\nFast helpers finish a task in two turns; slower helpers take four. Your work slots are limited, so make room for the right helper and keep an eye on the next turn.\n\n[h2]Keep a card for trouble[/h2]\nLeaks, broken lantern wires, and rowdy spirits can interrupt the work. Repair mishaps, lend a hand to speed things up, or find the right moment to mediate a patrol.\n\n[h2]A little talk around the night market[/h2]\nThe current game contains 95 cards, 28 opening commissions, and a two-page tutorial. Play solo against a computer rival with Chinese and English interface options, on painted paper cards around a lantern-lit wooden counter."
+  },
+  "suggestedTags": ["Card Game", "Turn-Based Strategy", "Singleplayer", "Strategy", "2D"],
+  "capabilities": {"windows64":true,"singleplayer":true,"keyboardMouse":true,"interfaceLanguages":["schinese","english"],"fullAudioLanguages":[],"onlineMultiplayer":false,"achievements":false,"steamCloud":false,"fullControllerSupport":false,"steamDeckVerified":false},
+  "systemRequirements": {"status":"not_measured_do_not_publish_guessed_minimums","plan":"先完成可发行来源清理，再在声明的低配/正常目标设备测加载、CPU/GPU帧时、内存、分辨率与长局。Windows10/11及最低显卡/内存不得仅按Unity理论支持填入商店。"}
+}

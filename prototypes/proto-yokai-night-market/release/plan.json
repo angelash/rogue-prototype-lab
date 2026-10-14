@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "state": "preparation_only_not_ready_for_store_or_build_review",
+  "steps": [
+    {
+      "id": "rights",
+      "stage": 1,
+      "title": "确认商业路线与来源",
+      "owner": "shared",
+      "status": "awaiting_user",
+      "assistant": "完成逐项来源/权利登记；授权路线核对许可范围，原创路线独立实现并替换受限音频、UI和数据表达。",
+      "user": "说明已有授权及其实际范围，或确认采用独立原创发行路线。",
+      "doneWhen": "足够许可或独立生产证据与最终包逐项闭合。"
+    },
+    {
+      "id": "onboard",
+      "stage": 2,
+      "title": "Steamworks 入驻",
+      "owner": "user",
+      "status": "awaiting_user",
+      "assistant": "整理官方入口、需要的资料与逐步操作说明。",
+      "user": "本人登录与二次验证，选择真实个人/企业主体，签署NDA/SDA，实名、税务及银行核验。",
+      "doneWhen": "后台入驻和收款核验通过。"
+    },
+    {
+      "id": "app",
+      "stage": 2,
+      "title": "购买并激活应用名额",
+      "owner": "user",
+      "status": "awaiting_user",
+      "assistant": "核对AppID/Depot配置与后台待办；不使用原作340550或测试480。",
+      "user": "本人支付每应用100美元或等值及适用税、激活应用名额；提供非敏感AppID和后台状态。",
+      "doneWhen": "本游戏独立AppID及账户权限可用。"
+    },
+    {
+      "id": "scope",
+      "stage": 3,
+      "title": "冻结首发范围",
+      "owner": "shared",
+      "status": "prepared",
+      "assistant": "建议首发Windows单机、键鼠、简中/英文；不把成就/Cloud/手柄当必做清单。当前草稿按95卡/28委托写，改版同步。",
+      "user": "最终确定产品名、首发地区/售价和重要商业取舍；我准备建议后交你定。",
+      "doneWhen": "商业路线与最终可兑现功能一致。"
+    },
+    {
+      "id": "production",
+      "stage": 3,
+      "title": "完成可发行工程与素材",
+      "owner": "assistant",
+      "status": "blocked_by_rights_route",
+      "assistant": "按确认路线独立生产/许可集成；保留现有研究候选；补完整输入、目标/反制、胜负/重开、窗口失焦和音频。",
+      "user": "只处理真实必须由权利人签署或购买的外部条件。",
+      "doneWhen": "来源、代码、UI、音频及内容可商业发行；无未清理受限输入。"
+    },
+    {
+      "id": "qa",
+      "stage": 3,
+      "title": "完整发行验证",
+      "owner": "assistant",
+      "status": "not_started_for_publishable_build",
+      "assistant": "规则/流程/原生完整回归，干净目录安装、长局、性能与最低配置、听感、设置保存与退出。现有748渲染和14原生代表检查不能替代。",
+      "user": "若目标设备无法取得，只提供所需的实际设备/测试机会；不要求你编写测试。",
+      "doneWhen": "当前源摘要、完整包、实际环境证据匹配。"
+    },
+    {
+      "id": "store-copy",
+      "stage": 4,
+      "title": "商店中英文文案",
+      "owner": "assistant",
+      "status": "draft_prepared",
+      "assistant": "短介绍、长介绍、标签、语言表、支持范围、系统要求填写依据；删未实现承诺。",
+      "user": "最终品牌/商业口径确认。",
+      "doneWhen": "最终包功能与全部商店陈述一致。"
+    },
+    {
+      "id": "store-art",
+      "stage": 4,
+      "title": "Steam 宣传图",
+      "owner": "assistant",
+      "status": "candidate_assets_prepared",
+      "assistant": "独立胶囊、库图、透明Logo和图标；游戏内82规格不动。保留原图、提示、原生文字排版及尺寸校验。",
+      "user": "最终品牌视觉定稿确认。",
+      "doneWhen": "必需规格、清晰标题、缩小可读和权利通过。"
+    },
+    {
+      "id": "screenshots-video",
+      "stage": 4,
+      "title": "真实截图与预告片",
+      "owner": "assistant",
+      "status": "shot_list_prepared",
+      "assistant": "最终可发行包取6张代表实机图并录制玩法优先短片；只捕本游戏，受限音频不进入对外资料。",
+      "user": "没有独立的素材制作任务。",
+      "doneWhen": "最终包版本、截图/录像来源、音画和商店一致。"
+    },
+    {
+      "id": "survey",
+      "stage": 4,
+      "title": "内容问卷与AI披露",
+      "owner": "shared",
+      "status": "draft_prepared",
+      "assistant": "按最终全部内容核对成熟内容、地区评级与AI预生成披露，准备逐题事实依据。",
+      "user": "对真实权利及提交声明作最终确认；账号中需要本人认证的环节本人完成。",
+      "doneWhen": "问卷与实际完整包一致、后台接受。"
+    },
+    {
+      "id": "depot",
+      "stage": 5,
+      "title": "构建与SteamPipe配置",
+      "owner": "assistant",
+      "status": "templates_prepared",
+      "assistant": "完整Windows目录清单/哈希、Preview、独立Depot、启动项/必要运行依赖、测试分支、版本回滚；凭据不写脚本。",
+      "user": "只需本人登录/Steam Guard；我可继续处理配置和上传操作。",
+      "doneWhen": "通过门禁的包上传到正确应用和分支，得到BuildID。"
+    },
+    {
+      "id": "store-review",
+      "stage": 5,
+      "title": "商店送审与Coming Soon",
+      "owner": "shared",
+      "status": "not_submitted",
+      "assistant": "填写素材/文案/支持信息、检查审核清单、处理反馈；先把可审版本准备完整。",
+      "user": "批准具体商店内容首次对外公开；必要账号认证。",
+      "doneWhen": "商店审核通过并实际公开Coming Soon，记录时间。"
+    },
+    {
+      "id": "steam-install",
+      "stage": 5,
+      "title": "从Steam重新安装验证",
+      "owner": "assistant",
+      "status": "awaiting_app_and_publishable_build",
+      "assistant": "通过账号实际下载的安装包检查启动、离线、覆盖层焦点、卸载/重装、配置保存及实际承诺的平台功能。",
+      "user": "仅提供必要账户/设备认证条件，不需要手工写测试。",
+      "doneWhen": "实际BuildID、depot及包与本次测试闭合。"
+    },
+    {
+      "id": "build-review",
+      "stage": 5,
+      "title": "构建送审与修订",
+      "owner": "assistant",
+      "status": "not_submitted",
+      "assistant": "按官方清单准备默认分支的近最终包，在商店已送审后提交构建审核并处理反馈。",
+      "user": "审批需要法律/权利声明的具体事项。",
+      "doneWhen": "商店和构建均通过，全部问题有闭环。"
+    },
+    {
+      "id": "pricing",
+      "stage": 6,
+      "title": "定价、折扣与发售时间",
+      "owner": "shared",
+      "status": "awaiting_final_product",
+      "assistant": "按最终体量、实际试玩和同类市场资料准备售价/地区价格与首发方案；不在内容未定时随意报数。",
+      "user": "最终批准售价、折扣、地区和发售日。",
+      "doneWhen": "后台价格通过、等待期和Coming Soon时长满足。"
+    },
+    {
+      "id": "launch",
+      "stage": 6,
+      "title": "最终发布",
+      "owner": "user_final_approval",
+      "status": "not_authorized_for_specific_build",
+      "assistant": "冻结版本、整理审查/回滚/支持材料、现场检查Release App的具体影响；按可用权限执行已明确批准的操作。",
+      "user": "对具体最终包/价格/日期作最终发布决定；本人处理签署和验证。",
+      "doneWhen": "明确批准后在后台执行实际发布，Valve审核通过不会自动开售。"
+    },
+    {
+      "id": "support",
+      "stage": 7,
+      "title": "上线后的支持与补丁",
+      "owner": "assistant",
+      "status": "procedure_prepared",
+      "assistant": "问题收集模板、复现/修复/回归、版本备份、Steam更新与回滚、公告/FAQ草稿。",
+      "user": "仅批准重大商业/对外立场和费用，第三方消息未授权不自动发送。",
+      "doneWhen": "支持邮箱/渠道真实可用、已测试更新与回滚流程。"
+    }
+  ],
+  "schedule": {
+    "feeWaitingDaysObserved": 21,
+    "comingSoonMinimumDays": 14,
+    "reviewBusinessDaysTypical": [
+      3,
+      5
+    ],
+    "reviewSubmissionBufferBusinessDays": 7,
+    "formula": "最早日期=max(实际后台缴费等待截止, Coming Soon实际公开日+14天, 所有审核完成, 权利/质量与定价就绪)。等待可并行，不简单相加。",
+    "source": "official-sources.json",
+    "actualDatesKnown": false
+  }
+}

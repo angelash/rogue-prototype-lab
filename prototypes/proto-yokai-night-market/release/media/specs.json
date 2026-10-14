@@ -1,0 +1,19 @@
+{
+  "source":"https://partner.steamgames.com/doc/store/assets",
+  "checkedDate":"2026-10-14",
+  "scope":"独立商店资产；绝不更改游戏内82张资源规格。",
+  "libraryHeader":"复用920×430的header.png；官方允许未另设Library Header时使用Store Header。",
+  "assets":[
+    {"id":"header","width":920,"height":430,"format":"png","text":"game_title_only","required":true},
+    {"id":"small","width":462,"height":174,"format":"png","text":"readable_game_title_only","required":true},
+    {"id":"main","width":1232,"height":706,"format":"png","text":"game_title_only","required":true},
+    {"id":"vertical","width":748,"height":896,"format":"png","text":"game_title_only","required":true},
+    {"id":"library-capsule","width":600,"height":900,"format":"png","text":"game_title_only","required":true},
+    {"id":"library-hero","width":3840,"height":1240,"format":"png","text":"none","required":true},
+    {"id":"library-logo","width":1280,"height":720,"format":"png","text":"title_only_transparent_background","required":true},
+    {"id":"shortcut-icon","width":256,"height":256,"format":"png","text":"none","required":true},
+    {"id":"app-icon","width":184,"height":184,"format":"jpg","text":"none","required":true}
+  ],
+  "screenshots":{"width":1920,"height":1080,"minimumWidth":1920,"aspect":"16:9","plannedCount":6,"status":"pending_publishable_build","rules":"从最终完整游戏的真实运行取得；不使用概念图、孤立牌调查或调试夹具作商店实机截图，不把已有1284x753原生截图放大冒充1920x1080。"},
+  "trailer":{"status":"shot_list_prepared_capture_pending","target":"1920x1080 gameplay-first","shots":["0–5秒：一回合真实选牌与派工，直接展示游戏","5–15秒：五项清单和帮工完成工作","15–25秒：闹场、修补及调停窗口的真实操作","25–35秒：对手行动与己方应对","35–45秒：完整胜负反馈与最终游戏名"],"rules":"建议时长，不是已录制视频；只捕获本游戏，音频权利清理后录音，不伪造操作与效果，不混入桌面或原作素材。"}
+}

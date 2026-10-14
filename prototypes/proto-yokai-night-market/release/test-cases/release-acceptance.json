@@ -1,0 +1,17 @@
+{
+  "status":"test_specifications_not_execution_results",
+  "cases":[
+    {"id":"rights","check":"原实现/音频/UI/stencil/数据来源无未清理项；最终发行依赖和许可匹配包。"},
+    {"id":"first-run","check":"Steam完整下载所得包首次启动、教程/跳过、中文/英文、默认设置正常，不带开发探针。"},
+    {"id":"full-match","check":"原生鼠标完整一局胜与负、目标选择、反制成功/超时、无合法牌、反复连按和重开；原速操作。"},
+    {"id":"focus","check":"Alt-Tab、最小化、覆盖层进入/退出、失焦和恢复；输入不穿透，倒计时行为符合最终设计。"},
+    {"id":"persistence","check":"设置、改名、成绩跨进程保留；不误宣称局内保存；升级后旧设置行为明确。"},
+    {"id":"presentation","check":"16:9/4:3、选定最小分辨率、长文本、全部卡/委托、教程、设置、阶段、胜负和成绩。"},
+    {"id":"audio","check":"实际听各事件、BGM循环、并发/峰值、静音/恢复、无丢声；来源许可逐音闭合。"},
+    {"id":"performance","check":"声明的Windows/硬件实际加载、长局帧时/内存及最低配置；不以理论Unity支持代替。"},
+    {"id":"steam-install","check":"测试分支安装/启动、离线、更新、卸载/重装、回滚与正确AppID/BuildID。"},
+    {"id":"features","check":"只勾选实际支持的平台特性；Cloud/成就/手柄/Deck未测不宣称。"},
+    {"id":"marketing","check":"胶囊尺寸、Logo/库Hero文字规则、截图与真实最终包一致，无原作媒体或假玩法。"},
+    {"id":"publish","check":"已核对发布权、商店/构建审核、Coming Soon、后台等待、价格/地区/版本与最终明确批准。"}
+  ]
+}

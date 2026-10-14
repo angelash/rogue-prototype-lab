@@ -7,6 +7,7 @@
 - local/UnityProject/Assets 全部文件及 .meta，包括脚本、场景、18 个 prefab、材质、Sprite 网格、图片、字体、音频、XML、恢复清单和验证用例。
 - Packages/manifest.json、packages-lock.json 与全部 ProjectSettings。
 - fidelity/art 的生图原图、修订源、提示词与谱系；local/NightArt 的全部最终尺寸图片；旧包装制作源继续保留。
+- release/ 的发行计划、权利来源清单、商店/问卷草稿、Steam宣发原图/提示及规格导出、模板与发行用例；对应 scripts/ 的生产、门禁和测试。私有授权文书、账号凭据与运行结果只在忽略的 local/steam-release/ 管理。
 - scripts/ 的生产、验证和测试入口，fidelity/test-cases/ 的用例规格；re-crunch-time/local 的 decompiled、exports、typetrees 和必需规则/结构输入，供重建及测试使用。
 
 Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 local 中的 QA 结果/报告排除。已提交的历史验收摘要保留，新运行输出不必提交。资产不是测试结果：生图原图、最终图片、参考夹具、字体/许可和 .meta 均保留。
@@ -30,3 +31,5 @@ Library、Temp、Obj、Logs、UserSettings、Windows 构建、压缩备份及 lo
 2026-10-13 v2.8 包装集成把 38 个最终 UI PNG、正式工程副本、28 材质/35 组件/17 字色、14 对显示颜色替换、4 份生成底材与提示/谱系、旧 v2.7 规格、严格字段/尺寸/alpha 保护器及语言身份回归纳入完整本地分支。其余 44 图保持，所有历史生成输入继续保留。Git 索引检查为 3,710 个必需输入，其中新方向 57 文件；没有缺失、字节差异或已跟踪缓存/输出。截图、联系表、日志、独立试验工程、zip 和运行报告仍忽略；有限 hash/计数摘要沿既有 evidence 管理。
 
 本轮独立完整历史备份使用根 local/git-backups/yokai-night-market-source-v2.8-style.bundle；实际提交、SHA256、字节数、Git 索引覆盖与裸仓恢复/fsck 结果登记于同目录 yokai-night-market-v2.8-style-record.json。公开原创资料推送记录为 yokai-night-market-public-v2.8-style.json。这些记录以工具真实输出为准；不覆盖此前 art-direction 方案 bundle 或旧源码/Player 包。
+
+2026-10-14 Steam准备新增30个release输入和6个工具，必需版本覆盖为3,746个，索引字节核对通过；游戏工程967输入摘要仍与v2.8最终包一致。所有新增图片、提示、规格、模板和用例受Git管理，公开远程仅接收本轮原创准备资料。独立输入增量包为根local/git-backups/yokai-night-market-steam-preparation-20261014-inputs.zip，真实提交/远程核验、清单与完整读回摘要登记于同目录yokai-night-market-steam-preparation-20261014.json。此增量不是游戏包，也不替代既有完整研究工程bundle；私有授权、税务、账号及运行报告不公开。

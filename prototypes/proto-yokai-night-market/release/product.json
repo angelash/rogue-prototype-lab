@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "productName": "妖怪夜市开张",
+  "englishWorkingTitle": "Yokai Night Market",
+  "englishTitleApproved": false,
+  "target": "Windows x64 / Steam global store",
+  "executable": "YokaiNightMarket.exe",
+  "commercialRoute": "awaiting_rights_confirmation",
+  "appId": null,
+  "windowsDepotId": null,
+  "publisherDisplayName": null,
+  "supportEmail": null,
+  "candidateBuild": null,
+  "candidateSourceSHA256": null,
+  "publishApproved": false,
+  "notes": "准备配置，不是已审核发行包。实名、税务、银行资料和账号凭据只在官方后台填写，不进入 Git。"
+}

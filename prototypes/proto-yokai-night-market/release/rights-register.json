@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "decision": "not_cleared_for_commercial_distribution",
+  "groups": [
+    {"id":"recovered-code","status":"unresolved","count":30,"scope":"恢复的原作业务脚本","action":"提供覆盖商业改编/发行的明确许可，或独立实现；改名、换颜色和 API 适配不消除来源。","owner":"assistant_implementation_or_user_authorization"},
+    {"id":"original-audio","status":"unresolved","count":91,"scope":"当前 Unity 工程原作 WAV 音频","action":"逐项取得足够商业使用权，或重做原创/明确许可音乐音效，并保持事件语义。","owner":"assistant_replacement_or_user_authorization"},
+    {"id":"recovered-presentation","status":"unresolved","scope":"原场景、18 个根 prefab、78 Sprite 几何、碰撞/排版、功能 alpha 派生和数据组织","action":"把规则概念与原作表达分开；取得授权，或独立制作 UI、几何与内容组织。仅重写 C# 不等于已清理全部来源。","owner":"assistant_implementation_or_user_authorization"},
+    {"id":"generated-art","status":"review_required","scope":"原创生成原图、编辑历史和本轮独立宣发图","action":"核对实际工具/条款、输入引用、人物/商标、图像缺陷及必要声明；原图谱系完整不等于所有权利自动放行。","owner":"assistant"},
+    {"id":"authored-copy","status":"review_required","scope":"中文原创台词、委托说明、英文解释和本轮商店草稿","action":"核对最终可发布功能、翻译、名称与公开宣传口径；不得将参考游戏名称作为本游戏品牌。","owner":"assistant"},
+    {"id":"font-and-dependencies","status":"review_required","scope":"13 份 Noto 字体/OFL、12 份研究工程历史 TTF 输入、Unity 运行库与其它实际发行依赖","action":"Noto 已有 OFL 随包；历史 TTF 不因它而自动取得许可，须检查最终依赖及是否进入包。还需 Unity 使用资格与包内声明核对；Editor-only DLL 不混入运行依赖承诺。","owner":"assistant_with_user_license_facts"},
+    {"id":"product-name","status":"review_required","scope":"中文名、建议英文名、图标及发行商展示名","action":"做名称冲突检索并按实际销售地区复核；英文名当前仅工作名，不冒称商标检索已完成。","owner":"assistant_research_user_business_decision"}
+  ],
+  "allowedRoutes": [
+    {"id":"licensed","requires":"明确许可的对象、代码/音频/美术/UI/改编、Steam 商业分发、地域、期限和再分发范围；文书保存在私有位置，不公开提交。"},
+    {"id":"independent","requires":"保留研究候选；独立发行工程只读可用原创素材/经确认的行为规格，禁止直接带入原作源码、音频、序列化结构和 stencil。独立实现后仍需整体来源及产品表达复核。"}
+  ]
+}

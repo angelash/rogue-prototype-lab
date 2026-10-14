@@ -4,6 +4,7 @@
 
 - [开发合同](DEVELOPMENT.md)：当前决定、范围和实际限制。
 - [工程与资产版本管理](VERSION_CONTROL.md)：完整源码分支、资产/测试覆盖及历史恢复。
+- [Steam发行准备](release/README.md)：2026-10-14新增流程、分工、来源门槛、中英文商店草稿、独立宣发候选与Preview模板。当前研究包未取得商业来源放行，不能直接送审。
 - [实现入口](fidelity/README.md)：规则、恢复、素材与启动。
 - [全量替换数据](fidelity/data/theme.json)：95 卡、28 委托、420 双语键。
 - [内容查阅](fidelity/data/content-guide.md)：当前卡牌参数和委托目标。

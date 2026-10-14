@@ -1,0 +1,16 @@
+"DepotBuild"
+{
+    "DepotID" "@WINDOWS_DEPOT_ID@"
+    "ContentRoot" "@CONTENT_ROOT@"
+    "FileMapping"
+    {
+        "LocalPath" "*"
+        "DepotPath" "."
+        "recursive" "1"
+    }
+    "FileExclusion" "*.pdb"
+    "FileExclusion" "*.mdb"
+    "FileExclusion" "*.log"
+    "FileExclusion" "steam_appid.txt"
+    "FileExclusion" "*_BackUpThisFolder_ButDontShipItWithYourGame/*"
+}

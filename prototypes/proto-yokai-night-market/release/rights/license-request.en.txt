@@ -1,0 +1,22 @@
+Subject: Inquiry about commercial adaptation and Steam distribution rights for Crunch Time
+
+Hello,
+
+I am exploring a possible independently branded, night-market-themed commercial adaptation of Crunch Time for Windows on Steam. Before proceeding with a release, I would like to confirm who controls the relevant rights and whether a written licence is available.
+
+The proposed licence would need to state which of the following are included or excluded:
+- adaptation and commercial distribution of the game;
+- use and modification of the original implementation or recovered code;
+- UI layout, serialized scene/prefab structures, sprites, masks and other presentation elements;
+- card data, text, game content and their organization;
+- the 91 music/sound assets currently used in our private research build, including any third-party restrictions;
+- new branding, generated artwork, credits and any approval requirements;
+- Steam distribution, territories, languages, term, updates, royalties or fees, and handling after termination.
+
+The current build is a private research candidate and has not been submitted to Steam or commercially distributed. We are not assuming that owning a retail copy, changing the visuals or identifying a developer grants these rights.
+
+Could you confirm that you are the party entitled to grant this permission, identify any excluded third-party rights, and let us know whether you would be open to discussing terms? No commercial release would proceed on the basis of this inquiry alone.
+
+Thank you.
+
+Draft only. Add the sender's real identity and contact details privately before sending. No recipient or message has been submitted; do not assume a store credit is proof of present ownership.

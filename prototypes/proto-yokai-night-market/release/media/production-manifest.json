@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-14",
+  "status": "draft_candidates_not_approved_or_uploaded",
+  "assets": [
+    {
+      "id": "header",
+      "path": "release/media/generated/header.png",
+      "width": 920,
+      "height": 430,
+      "format": "PNG",
+      "bytes": 1105669,
+      "sha256": "f1f79465316e3c916cdeb4fd8a253a53b78ced53e831fa014e72d6f918bc6de8",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "small",
+      "path": "release/media/generated/small.png",
+      "width": 462,
+      "height": 174,
+      "format": "PNG",
+      "bytes": 233863,
+      "sha256": "73c44edf962e7fe86c5ea440f0dae5dbf821f21b7ea8d780d7f32bccdf353df8",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "main",
+      "path": "release/media/generated/main.png",
+      "width": 1232,
+      "height": 706,
+      "format": "PNG",
+      "bytes": 2390936,
+      "sha256": "04c6d607f77a0fba49462973bb648cc9196536e1c931648b695af9f7776f638c",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "vertical",
+      "path": "release/media/generated/vertical.png",
+      "width": 748,
+      "height": 896,
+      "format": "PNG",
+      "bytes": 1856901,
+      "sha256": "cd335ca8b7234ecedced828efe96ceae5ab4152075606680c275502fc0c7cc37",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "library-capsule",
+      "path": "release/media/generated/library-capsule.png",
+      "width": 600,
+      "height": 900,
+      "format": "PNG",
+      "bytes": 1442202,
+      "sha256": "c0c34b7a76f56e1d196fc5e7d929920b397218617a6d227f260d415bfa83f4ba",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "library-hero",
+      "path": "release/media/generated/library-hero.png",
+      "width": 3840,
+      "height": 1240,
+      "format": "PNG",
+      "bytes": 12313091,
+      "sha256": "0efe6a54d6457963fdaebbb8a8c9a87f7a1680c8bca240b8028520d07069246e",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "library-logo",
+      "path": "release/media/generated/library-logo.png",
+      "width": 1280,
+      "height": 720,
+      "format": "PNG",
+      "bytes": 39852,
+      "sha256": "cd20b16936087fc19e15f6dd2a7fa2be04be9cc251c79f76279a1705ec25f026",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "shortcut-icon",
+      "path": "release/media/generated/shortcut-icon.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "bytes": 196232,
+      "sha256": "d75509095bf7d788641525512d6797c1d972bf5fd26c6c0bdaef974dc8b798db",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    },
+    {
+      "id": "app-icon",
+      "path": "release/media/generated/app-icon.jpg",
+      "width": 184,
+      "height": 184,
+      "format": "JPEG",
+      "bytes": 18012,
+      "sha256": "3cdb14667c4be032259ace8b9539660f585c62fcf4b3ba1891e2978d0a3a573d",
+      "status": "candidate_dimension_verified_human_reviewed_not_published"
+    }
+  ],
+  "sources": [
+    {
+      "id": "landscape-master-v1",
+      "path": "release/media/source/landscape-master-v1.raw.png",
+      "actualSize": [
+        2172,
+        724
+      ],
+      "sha256": "8eecc5e4aa00ffe0662e3328c0ce4007db7e98f6b583faea83d122367aa8a633",
+      "prompt": "release/media/source/landscape-master-v1.prompt.txt",
+      "promptSHA256": "0a79bed8edfab9cbdb8dd15ba5d237cdb4de10e8e7a7c7e55233ef3d73e2cc95",
+      "tool": "image_gen.imagegen built-in",
+      "references": [
+        {
+          "path": "fidelity/art/generated/SNDGuy.raw.png",
+          "sha256": "34b9788bed2d54d7139344ceaf71208cf4881511f84808f7b28f7007184cc9a3",
+          "role": "own_original_generated_style_and_character_reference"
+        }
+      ]
+    },
+    {
+      "id": "portrait-master-v1",
+      "path": "release/media/source/portrait-master-v1.raw.png",
+      "actualSize": [
+        1122,
+        1402
+      ],
+      "sha256": "58d5a89ea8de5c2c62556e2c1b7ecc887c21b8e16b6ef12bb81e2772ed5b3ed4",
+      "prompt": "release/media/source/portrait-master-v1.prompt.txt",
+      "promptSHA256": "13e837ea5cf76c19c8f3ad412295bd6bf7f4510250b73ebfa234b9dd1b17e805",
+      "tool": "image_gen.imagegen built-in",
+      "references": [
+        {
+          "path": "fidelity/art/generated/SNDGuy.raw.png",
+          "sha256": "34b9788bed2d54d7139344ceaf71208cf4881511f84808f7b28f7007184cc9a3",
+          "role": "own_original_generated_style_and_character_reference"
+        }
+      ]
+    }
+  ],
+  "technicalExport": {
+    "script": "scripts/export_steam_media.ps1",
+    "sampling": "single_uniform_scale_centered_cover_crop",
+    "text": "native Noto glyphs, not imagegen text",
+    "fontSHA256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "fontNoticeSHA256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "hero": "no text",
+    "logo": "transparent",
+    "note": "Generated landscape is 2172x724; hero is technically upsampled to official3840x1240, not claimed as native4K detail. Portrait actual size recorded above."
+  },
+  "scope": "Marketing art only. No game texture, stencil, prefab or Player modified; no gameplay screenshot/trailer produced."
+}

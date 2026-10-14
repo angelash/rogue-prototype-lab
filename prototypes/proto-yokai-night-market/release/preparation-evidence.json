@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-14",
+  "status":"preparation_complete_for_current_independent_tasks_release_not_ready",
+  "canonicalPlayerChanged":false,
+  "canonicalSourceFiles":967,
+  "requiredVersionedInputs":3746,
+  "steamReleaseInputFiles":30,
+  "canonicalSourceSHA256":"a618d666e4b63a5d1332602426436aca2f6b92ebcd75532ad11604eebe5cd84a",
+  "inventory":{"recoveredBusinessScripts":30,"wavFiles":91,"wavHashesMatchingOriginalExports":91,"nightFonts":13,"historicalTTFInputs":12,"fontNoticePresent":true},
+  "drafts":{"storeLanguages":["zh-CN","en"],"shortDescriptionCharacters":{"zh-CN":50,"en":187},"aiSurvey":"prepared_not_submitted","licenseInquiryLanguages":["zh-CN","en"],"externalMessagesSent":0},
+  "marketing":{"originalGeneratedMasters":2,"exactSizeCandidates":9,"dimensionsVerified":true,"contactSheetHumanReviewed":true,"inGameTexturesChanged":0,"gameplayScreenshotsOrTrailersProduced":0,"status":"candidates_not_approved_or_uploaded","manifest":"media/production-manifest.json"},
+  "tools":{"releaseGateRegressionTests":7,"regressionPassed":true,"currentResearchBuildAccepted":false,"steamPreviewConfigurationGenerated":false,"steamUploadsExecuted":0,"steamSubmissionsExecuted":0,"canvasSdkTypeCheckErrors":0,"canvasHostRender":"not_verified_open_queued"},
+  "limits":["Commercial route and licence facts await user clarification.","Steamworks account/AppID status has not been supplied.","No publisher identity, bank or tax details were inferred.","No final source clearance, complete publishable-game QA, Steam install, minimum specification or listening acceptance is claimed.","Existing v2.8 evidence retains its own scope; no unnecessary repeat of 748 captures for this documentation/marketing-only change."],
+  "privateReport":"local/steam-release/readiness.json"
+}

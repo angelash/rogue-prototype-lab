@@ -1,0 +1,10 @@
+{
+  "status":"draft_needs_final_build_review_and_owner_attestation",
+  "preGeneratedAI":true,
+  "liveGeneratedAI":false,
+  "enDisclosure":"AI tools assisted in creating pre-generated character and event illustrations, backgrounds, UI paper textures, some narrative text, and localization. The outputs were selected, edited, integrated and reviewed during development. The game does not generate images, text, speech or music with generative AI while running.",
+  "zhDisclosure":"制作中使用AI辅助生成预制人物/事件插画、背景、界面纸纹，以及部分文案和本地化；经筛选、编辑、集成和检查后随游戏提供。当前游戏运行中不调用生成式AI生成图像、文字、语音或音乐。",
+  "finalReview": ["最终发行包全部可访问及不可访问内容","卡面/音频的成熟内容与准确问卷答案","新制作音频或宣传图是否追加AI披露","开发者确认拥有足够发布权利"],
+  "rating":null,
+  "rightsNotCuredByDisclosure":true
+}
