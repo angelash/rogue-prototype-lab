@@ -8,7 +8,10 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIVATE = ["prototypes/proto-yokai-night-market/local/", "prototypes/re-crunch-time/local/"]
+PRIVATE = ["prototypes/proto-yokai-night-market/local/", "prototypes/re-crunch-time/local/",
+           "prototypes/re-escape-from-duckov/local/", "prototypes/re-t1-codename-rebirth/local/",
+           "prototypes/re-shijuan-lite/local/", "prototypes/re-xxsb-xiaoxiaoshenbing/local/",
+           "prototypes/re-shijuanbao-service/local/"]
 
 
 def contains_private_history(ref):

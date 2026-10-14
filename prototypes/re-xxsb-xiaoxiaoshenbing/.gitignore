@@ -1,0 +1,4 @@
+# The original APK and third-party derived code/media remain in a local-only repository.
+/local/
+__pycache__/
+*.py[cod]

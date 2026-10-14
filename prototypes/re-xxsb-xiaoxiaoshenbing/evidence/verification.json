@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-14",
+  "phase": "preparation-only",
+  "checks": {
+    "identity": true,
+    "version": true,
+    "copy_and_original": true,
+    "entry_coverage": true,
+    "size_coverage": true,
+    "archive_checks": true,
+    "hash_coverage": true,
+    "dex_coverage": true,
+    "library_coverage": true,
+    "bundle_coverage": true,
+    "private_backup": true,
+    "scope": true,
+    "document_links": true
+  },
+  "passed": 13,
+  "total": 13,
+  "missing_links": [],
+  "scope": "Cross-file coverage, identity, preparation checks, local input backup and document links only; no gameplay/source/asset recovery claims."
+}

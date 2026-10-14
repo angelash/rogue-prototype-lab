@@ -66,3 +66,5 @@
 本地工作簿 [熟悉与意外_120个游戏方案.xlsx](sources/chatgpt/熟悉与意外_120个游戏方案.xlsx) 保留原文件名与内容。已核对文件大小、包结构、四个工作表名称和 SHA-256，本轮只读核对了六个候选及原型优先级相关单元格，定位见 [筛选登记](sources/chatgpt/first-batch-selection.md)。未与云端逐字节比对，也未全面复审全部旧 120 案。
 
 本轮只读参考 highschool、world-of-claudecraft 与 live-avatar；原工程的版本、校验与筛选理由见 [工程参考登记](sources/references/local-project-reference-register.md)。world-of-claudecraft 的 14 项音频尚未确认可商用，未复制进游戏，结论见 [音频复用登记](sources/references/woc-audio-reuse-register.md)；live-avatar 仅作 TTS 架构参考，见 [音频能力登记](sources/references/live-avatar-audio-capability-register.md)。仓库内的 [Unity PC 开发技能](.agents/skills/unity-pc-prototype/SKILL.md) 与 [套圈素材技能](.agents/skills/ring-toss-asset-pipeline/SKILL.md) 通过权威文档路由具体工作。
+
+- 2026-10-14 新增 [小小神兵 APK 静态研究](prototypes/re-xxsb-xiaoxiaoshenbing/README.md)：授权后的代码、配置、资产全量索引与核心系统分析；21 托管镜像、36 DEX、双 ABI、150 配置项及 59,312 对象，恢复结果仅本地保存，原作者工程/服务器和实机验证另列边界。

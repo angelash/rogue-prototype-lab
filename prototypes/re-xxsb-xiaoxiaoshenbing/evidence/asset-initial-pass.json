@@ -1,0 +1,2734 @@
+{
+  "tool": "UnityPy 1.25.0",
+  "generator": "TypeTreeGeneratorAPI, full hotfix + IL2CPP declaration references",
+  "input_candidates": 561,
+  "bundle_inputs": 485,
+  "bundle_containers_ok": 485,
+  "serialized_files": 561,
+  "objects": 59312,
+  "types": {
+    "GameObject": 15920,
+    "MonoBehaviour": 8938,
+    "RectTransform": 8673,
+    "Transform": 7247,
+    "CanvasRenderer": 5977,
+    "MonoScript": 4227,
+    "Texture2D": 1504,
+    "Sprite": 1004,
+    "ParticleSystemRenderer": 938,
+    "ParticleSystem": 938,
+    "Material": 857,
+    "AssetBundle": 485,
+    "MeshFilter": 434,
+    "MeshRenderer": 434,
+    "Animator": 258,
+    "Mesh": 230,
+    "AudioClip": 215,
+    "AnimationClip": 190,
+    "SkinnedMeshRenderer": 167,
+    "CanvasGroup": 156,
+    "Shader": 122,
+    "Avatar": 114,
+    "TextAsset": 92,
+    "SpriteAtlas": 65,
+    "AnimatorController": 57,
+    "TrailRenderer": 22,
+    "Canvas": 8,
+    "LineRenderer": 6,
+    "ComputeShader": 6,
+    "Font": 3,
+    "PreloadData": 2,
+    "Camera": 1,
+    "ShaderVariantCollection": 1,
+    "PlayerSettings": 1,
+    "InputManager": 1,
+    "TagManager": 1,
+    "AudioManager": 1,
+    "ScriptMapper": 1,
+    "MonoManager": 1,
+    "GraphicsSettings": 1,
+    "TimeManager": 1,
+    "DelayedCallManager": 1,
+    "PhysicsManager": 1,
+    "BuildSettings": 1,
+    "QualitySettings": 1,
+    "ResourceManager": 1,
+    "NavMeshProjectSettings": 1,
+    "Physics2DSettings": 1,
+    "RuntimeInitializeOnLoadManager": 1,
+    "StreamingManager": 1,
+    "VFXManager": 1,
+    "RenderSettings": 1,
+    "LightmapSettings": 1,
+    "NavMeshSettings": 1
+  },
+  "unity_versions": {
+    "2022.3.62f3": 560,
+    "2022.3.54f1": 1
+  },
+  "tree_success": 58781,
+  "tree_failures": 531,
+  "text_assets": 4,
+  "reference_edges": 234376,
+  "resolved_edges": 234366,
+  "failed_inputs": [],
+  "failures": [
+    {
+      "id": "b0269/CAB-a1511943bb734a8bd80c1729bc900a3c/2496999412724950441",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0027/CAB-60e3a26e2102499d6f2949e850d46780/1975456344216041620",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/-8718478238720953635",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/-7698371638651848716",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/-4422807680159877135",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/-3851674925869547431",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/-390391224992697624",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/266109797377082934",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/953946241375879458",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/4047395363197107968",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/4714907399671185354",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/5296615614068471939",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/6962290326760699639",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0264/CAB-dc3b4fb1ae6c554e0a1911fa51fc5cdc/8639752421250756404",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-9116497505598059301",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-7666649722519558578",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-6185952434546723042",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-3575600244334244788",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-3555163341473778076",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-3435726892420499095",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-3386453032702831718",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-2923268260161656114",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-1818120995705099838",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-955481086505170498",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/-581155865914801849",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/580649993240510835",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/1480610346346623151",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/2110943648917007195",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/3600330667036671675",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/5233081356079288327",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/6661340047289644880",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0263/CAB-e1ebe7e2b0746487023e089815aab50e/7059809535931502444",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/-7653029853075377986",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/-6064303689882296939",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/-6006738346142742875",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/-5232633085185359262",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/-4813404668133229314",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/48606161709283809",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/837859809720431077",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/1706335604380022311",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/1995000986694137841",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/3645123323024774286",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/5007463647364624713",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0266/CAB-1045e7cd8a9d3c4d47f7956b4894c6c3/8535084079918462837",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-7434518857064338723",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-7129853648459018538",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-6775063517987849604",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-6595281021696446835",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-5032842023285491371",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-1934544903790564135",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/-1134512557143620189",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/485287817635114392",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/3824492850220831820",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/4708114222067066846",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/6055599198993479285",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0267/CAB-1b17abd68ce93c8a9b57972a69c18cae/8584839359826647232",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0265/CAB-0c6e6d03dc580f258d416685813b6f05/478207020357664047",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0265/CAB-0c6e6d03dc580f258d416685813b6f05/512812769368625359",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0265/CAB-0c6e6d03dc580f258d416685813b6f05/1364389946233190286",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0000/CAB-4aaeaa1e2607106acd760b6173b07996/8861072853564010936",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0001/CAB-b157570fefb0a84f75833e16ff69e127/7416971864342888698",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0002/CAB-90f7412f7079d60c1bf6422e05e96db2/-9099104989831716847",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0003/CAB-97f6fa5dd197bab69d05a074f944c8ed/-751372724667203577",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0004/CAB-a6f9f4a5f78704e00b1ee6d84341a9b5/-5212423855354993257",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0005/CAB-db7b7e210a8ecc64b81c224c854eeddb/2434119184800993899",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0006/CAB-e5360e0fba9cfc74fa01023c5e3e265f/-4651934137984547504",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0007/CAB-077f439629b080845708eb5f0991dc19/7653505121130514567",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0008/CAB-fdf93a50cc5872c7cb1b7bdabd124824/596428827918404707",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0009/CAB-65ec78e783d1fb9d8760dabc037d92cc/5435409254453791740",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0010/CAB-5197702eb505cc7e2a4b3c9ca364656c/4869582000725228621",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0011/CAB-14167ece427f8148953eb9fc9c2f7624/3999155030843269672",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0012/CAB-fc4a68f25453667b7f0536e46a50839a/-5466679538548182937",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0013/CAB-d1a1f4a47dda44e47d78c953f5630381/-2791073934789024318",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0014/CAB-a7d6c240256fd1938dcdad97a87d095e/4211446239071072845",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0015/CAB-396170c2d2d07736572e7112c828da82/-1589570941951175045",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0016/CAB-942e0708e5f072e878c231b39da3cdf3/5828521543935876765",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0017/CAB-a6883b5768da06364689f3cf499a9ca8/-8215087755219460671",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0018/CAB-c21b05ebaba76a3cbf5adefb43545c1d/129008758399014843",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0019/CAB-f63163eeeec3c784b4c7c983d17676b5/6755649749304316664",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0020/CAB-270bb9c03519f2f592a772bd3ff1726e/-2838820733461840243",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0021/CAB-2b7f81a88afd242702fb52b669e9cecb/-8659894723585633330",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0022/CAB-502c4c481f9c8272f1c6641b8a60d196/5106201328814683083",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0023/CAB-ec1ed2c7553bd61a079c66b8cfe4b114/4757643454893389266",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0024/CAB-60ad124d7349affc4f05f1b89f32aa7c/4479585610735568208",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0026/CAB-8f4e785eba2d8bfd8a46b36c8067fb0d/-6502900032518728700",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0268/CAB-b8ffcc6fbfd0741f9140109351679476/-5802810146528549218",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0268/CAB-b8ffcc6fbfd0741f9140109351679476/-5142250955569473866",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "b0268/CAB-b8ffcc6fbfd0741f9140109351679476/-1208675592628851605",
+      "type": "TextAsset",
+      "error": "AttributeError: 'PPtr' object has no attribute 'assets_file'"
+    },
+    {
+      "id": "base-10a25524b0986f9488b430e2829bbbe8/10a25524b0986f9488b430e2829bbbe8/7",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-10a25524b0986f9488b430e2829bbbe8/10a25524b0986f9488b430e2829bbbe8/8",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-10a25524b0986f9488b430e2829bbbe8/10a25524b0986f9488b430e2829bbbe8/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-10a25524b0986f9488b430e2829bbbe8/10a25524b0986f9488b430e2829bbbe8/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-10a25524b0986f9488b430e2829bbbe8/10a25524b0986f9488b430e2829bbbe8/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/19",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/20",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/21",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/22",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/24",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/25",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/26",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-1c87ab2ce8b8b304d98fbe9a734b1f74/1c87ab2ce8b8b304d98fbe9a734b1f74/27",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/19",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/20",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/21",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/22",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/24",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/25",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/26",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-2d019437ff89b8d44949727731cd9357/2d019437ff89b8d44949727731cd9357/27",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/33",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/34",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/35",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/36",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/37",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/38",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/39",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/40",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/41",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/42",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/43",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/44",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/45",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/46",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/47",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/48",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-326f7c58aed965d41bf7805a782d1e44/326f7c58aed965d41bf7805a782d1e44/49",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/12",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/13",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/14",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/15",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/16",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-38a07789c9e87004dad98c2909f58369/38a07789c9e87004dad98c2909f58369/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-3f5b5dff67a942289a9defa416b206f3/3f5b5dff67a942289a9defa416b206f3/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/19",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/20",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/21",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/22",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-48fb043c850cadc4a883b53785e14c6e/48fb043c850cadc4a883b53785e14c6e/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-49b821cfc9261c54a8628305406942a7/49b821cfc9261c54a8628305406942a7/3",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5088d0220f0c4df439cf06c5c270eacb/5088d0220f0c4df439cf06c5c270eacb/14",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5088d0220f0c4df439cf06c5c270eacb/5088d0220f0c4df439cf06c5c270eacb/15",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5088d0220f0c4df439cf06c5c270eacb/5088d0220f0c4df439cf06c5c270eacb/16",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5088d0220f0c4df439cf06c5c270eacb/5088d0220f0c4df439cf06c5c270eacb/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5088d0220f0c4df439cf06c5c270eacb/5088d0220f0c4df439cf06c5c270eacb/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-5b4edcce5e6092848b3fa0ccd450a74d/5b4edcce5e6092848b3fa0ccd450a74d/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/52",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/53",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/54",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/55",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/56",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/57",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/58",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/59",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/60",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/61",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/62",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/63",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/64",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/65",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/66",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/67",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/68",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/69",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/70",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/71",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/72",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/73",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/74",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-77c185820dd1a464eac89cae3abccddf/77c185820dd1a464eac89cae3abccddf/75",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/433",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/434",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/435",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/436",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/437",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/438",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/439",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/440",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/441",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/442",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/443",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/444",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/445",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/446",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/447",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/448",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/449",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/450",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/451",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/452",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/453",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/454",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/455",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/456",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/457",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/458",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/459",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/460",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/461",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/462",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/463",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/464",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/465",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/466",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/467",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/468",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/469",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/470",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/471",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/472",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/473",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/474",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/475",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/476",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/477",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/478",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/479",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/480",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/481",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/482",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/483",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/484",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/485",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/486",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/487",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/488",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/489",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/490",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/491",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/492",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/493",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/494",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/495",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/496",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/497",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/498",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/499",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/500",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/501",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/502",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/503",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/504",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/505",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/506",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/507",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/508",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/509",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/510",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/511",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/512",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/513",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/514",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/515",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/516",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/517",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/518",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/519",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/520",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/521",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/522",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/523",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/524",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/525",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/526",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/527",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/528",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/529",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/530",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/531",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/532",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/533",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/534",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/535",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/536",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/537",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/538",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/539",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/540",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/541",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/542",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/543",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/544",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/545",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/546",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/547",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/548",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/549",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/550",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/551",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/552",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/553",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/554",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/555",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/556",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/557",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/558",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/559",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/560",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/561",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/562",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/563",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/564",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/565",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/566",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/567",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/568",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/569",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/570",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/571",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/572",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/573",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/574",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/575",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/576",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/577",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/578",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/579",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/580",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/581",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/582",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/583",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/584",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/585",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/586",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/587",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/588",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/589",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/590",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/591",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/592",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/593",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/594",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/595",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/596",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/597",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/598",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/599",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/600",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/601",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/602",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-7c78b588b2e1f7c4a86ca4a985cf6e4a/7c78b588b2e1f7c4a86ca4a985cf6e4a/603",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-83add6a23e01d654dbf80a7cd94836dc/83add6a23e01d654dbf80a7cd94836dc/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-8778e6b26b51c6a4999b94d7cacd8b5d/8778e6b26b51c6a4999b94d7cacd8b5d/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-8778e6b26b51c6a4999b94d7cacd8b5d/8778e6b26b51c6a4999b94d7cacd8b5d/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-8778e6b26b51c6a4999b94d7cacd8b5d/8778e6b26b51c6a4999b94d7cacd8b5d/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/41",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/42",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/43",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/44",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/45",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/46",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/47",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/48",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/49",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/50",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/51",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/52",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/53",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/54",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/55",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/56",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/57",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/58",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/59",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-94afea5f242d72547979595ba963f335/94afea5f242d72547979595ba963f335/60",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/19",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/20",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/21",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/22",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-988db55689193434fb0b3b89538f978f/988db55689193434fb0b3b89538f978f/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a2148203dd960814ca5db0c293ceda35/a2148203dd960814ca5db0c293ceda35/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a2148203dd960814ca5db0c293ceda35/a2148203dd960814ca5db0c293ceda35/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a2148203dd960814ca5db0c293ceda35/a2148203dd960814ca5db0c293ceda35/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a87cfaef648f17c41b568e842e068c51/a87cfaef648f17c41b568e842e068c51/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a87cfaef648f17c41b568e842e068c51/a87cfaef648f17c41b568e842e068c51/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-a87cfaef648f17c41b568e842e068c51/a87cfaef648f17c41b568e842e068c51/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/19",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/20",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/21",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/22",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ad83bc56407925d44a77a5bd01cd6783/ad83bc56407925d44a77a5bd01cd6783/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/24",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/25",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/26",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/27",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/28",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/29",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/30",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/31",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/32",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ae00bb75e0cd5b04b8fe7fb4ab662629/ae00bb75e0cd5b04b8fe7fb4ab662629/33",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-b2da6b27df236b144b3516ed8e7d36ac/b2da6b27df236b144b3516ed8e7d36ac/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-b2da6b27df236b144b3516ed8e7d36ac/b2da6b27df236b144b3516ed8e7d36ac/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-b2da6b27df236b144b3516ed8e7d36ac/b2da6b27df236b144b3516ed8e7d36ac/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-c41005c129ba4d66911b75229fd70b45/c41005c129ba4d66911b75229fd70b45/2",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ca3e294656861a64b8aeeb9f916da0a9/ca3e294656861a64b8aeeb9f916da0a9/3",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ca3e294656861a64b8aeeb9f916da0a9/ca3e294656861a64b8aeeb9f916da0a9/4",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ca3e294656861a64b8aeeb9f916da0a9/ca3e294656861a64b8aeeb9f916da0a9/5",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ca3e294656861a64b8aeeb9f916da0a9/ca3e294656861a64b8aeeb9f916da0a9/6",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ce347ad101f41ee4ab5c3fbc0ea447db/ce347ad101f41ee4ab5c3fbc0ea447db/14",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ce347ad101f41ee4ab5c3fbc0ea447db/ce347ad101f41ee4ab5c3fbc0ea447db/15",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ce347ad101f41ee4ab5c3fbc0ea447db/ce347ad101f41ee4ab5c3fbc0ea447db/16",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ce347ad101f41ee4ab5c3fbc0ea447db/ce347ad101f41ee4ab5c3fbc0ea447db/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ce347ad101f41ee4ab5c3fbc0ea447db/ce347ad101f41ee4ab5c3fbc0ea447db/18",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-ceff3bd6c85ca944abae8ca27bdbc725/ceff3bd6c85ca944abae8ca27bdbc725/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-cf6cbdd672089a84796e55a21fed1cbe/cf6cbdd672089a84796e55a21fed1cbe/4",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-cf6cbdd672089a84796e55a21fed1cbe/cf6cbdd672089a84796e55a21fed1cbe/5",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-cf6cbdd672089a84796e55a21fed1cbe/cf6cbdd672089a84796e55a21fed1cbe/6",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d3770aaa3bbd8384aabab9ddd383e21e/d3770aaa3bbd8384aabab9ddd383e21e/14",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d3770aaa3bbd8384aabab9ddd383e21e/d3770aaa3bbd8384aabab9ddd383e21e/15",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d3770aaa3bbd8384aabab9ddd383e21e/d3770aaa3bbd8384aabab9ddd383e21e/16",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d3770aaa3bbd8384aabab9ddd383e21e/d3770aaa3bbd8384aabab9ddd383e21e/17",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/49",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/50",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/51",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/52",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/53",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/54",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/55",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/56",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/57",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/58",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/59",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/60",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/61",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/62",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/63",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/64",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/65",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/66",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/67",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/68",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/69",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/70",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d47f009476100f545971a81ede14c750/d47f009476100f545971a81ede14c750/71",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/24",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/25",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/26",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/27",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/28",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/29",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/30",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/31",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/32",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-d8c744701b43c864b88e7f8144e19bc5/d8c744701b43c864b88e7f8144e19bc5/33",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/59",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/60",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/61",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/62",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/63",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/64",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/65",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/66",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/67",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/68",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/69",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/70",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/71",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/72",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/73",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/74",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/75",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/76",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/77",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/78",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/79",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/80",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/81",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/82",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/83",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/84",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/85",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/86",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/87",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/88",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/89",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/90",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/91",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-daa46a58178a6ad41ae1ddc2dc7f856d/daa46a58178a6ad41ae1ddc2dc7f856d/92",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-dc0f88987826e6e48b1fe9c7c2b53a53/dc0f88987826e6e48b1fe9c7c2b53a53/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-dc0f88987826e6e48b1fe9c7c2b53a53/dc0f88987826e6e48b1fe9c7c2b53a53/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-dc0f88987826e6e48b1fe9c7c2b53a53/dc0f88987826e6e48b1fe9c7c2b53a53/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-eb1707cb45797ec4db50a2e394aaf410/eb1707cb45797ec4db50a2e394aaf410/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/23",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/24",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/25",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/26",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/27",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/28",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/29",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/30",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/31",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/32",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f22bcc84a5f4a1944b075a2c4ac71493/f22bcc84a5f4a1944b075a2c4ac71493/33",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/7",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/8",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/11",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6b1a0fe75d5009449cf55ae76220e2b/f6b1a0fe75d5009449cf55ae76220e2b/12",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6ce33b91f6ffe54cadacbf4bb112440/f6ce33b91f6ffe54cadacbf4bb112440/7",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6ce33b91f6ffe54cadacbf4bb112440/f6ce33b91f6ffe54cadacbf4bb112440/8",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6ce33b91f6ffe54cadacbf4bb112440/f6ce33b91f6ffe54cadacbf4bb112440/9",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f6ce33b91f6ffe54cadacbf4bb112440/f6ce33b91f6ffe54cadacbf4bb112440/10",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f7f5e36797cf0c1408561665c67b179b/f7f5e36797cf0c1408561665c67b179b/3",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f7f5e36797cf0c1408561665c67b179b/f7f5e36797cf0c1408561665c67b179b/4",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f7f5e36797cf0c1408561665c67b179b/f7f5e36797cf0c1408561665c67b179b/5",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f7f5e36797cf0c1408561665c67b179b/f7f5e36797cf0c1408561665c67b179b/6",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f8e46506b6b90a449a117551d76f394c/f8e46506b6b90a449a117551d76f394c/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-f952c082cb03451daed3ee968ac6c63e/f952c082cb03451daed3ee968ac6c63e/1",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-globalgamemanagers.assets/globalgamemanagers.assets/3626",
+      "type": "MonoBehaviour",
+      "error": "ValueError: Expected to read 232 bytes, but only read 208 bytes"
+    },
+    {
+      "id": "base-globalgamemanagers.assets/globalgamemanagers.assets/3627",
+      "type": "MonoBehaviour",
+      "error": "ValueError: Expected to read 200 bytes, but only read 192 bytes"
+    },
+    {
+      "id": "base-globalgamemanagers.assets/globalgamemanagers.assets/3628",
+      "type": "MonoBehaviour",
+      "error": "ValueError: Expected to read 200 bytes, but only read 192 bytes"
+    },
+    {
+      "id": "base-globalgamemanagers.assets/globalgamemanagers.assets/3636",
+      "type": "MonoBehaviour",
+      "error": "ValueError: read_str out of bounds"
+    },
+    {
+      "id": "base-level0/level0/8",
+      "type": "MonoBehaviour",
+      "error": "FileNotFoundError: File globalgamemanagers.assets not found in F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data"
+    },
+    {
+      "id": "base-unity default resources/unity default resources/11000",
+      "type": "MonoBehaviour",
+      "error": "AssertionError: failed to dump nodes raw"
+    }
+  ],
+  "seconds": 171.0,
+  "scope": "All APK bundles and base serialized containers; type trees and payload bytes, no original Unity project reconstruction or runtime claim."
+}

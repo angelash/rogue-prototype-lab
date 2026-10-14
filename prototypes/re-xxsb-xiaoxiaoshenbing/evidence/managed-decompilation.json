@@ -1,0 +1,218 @@
+{
+  "assemblies": 21,
+  "source_files": 7319,
+  "failed_exit_codes": 0,
+  "files": [
+    {
+      "assembly": "ConfigDefine",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 4,
+      "bytes": 5867,
+      "log_bytes": 0,
+      "log": "logs/ilspy-ConfigDefine.txt",
+      "seconds": 1.86
+    },
+    {
+      "assembly": "ConfigDefine.Generated",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 145,
+      "bytes": 140640,
+      "log_bytes": 0,
+      "log": "logs/ilspy-ConfigDefine.Generated.txt",
+      "seconds": 1.33
+    },
+    {
+      "assembly": "FNSDK_Core",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 31,
+      "bytes": 24321,
+      "log_bytes": 0,
+      "log": "logs/ilspy-FNSDK_Core.txt",
+      "seconds": 1.09
+    },
+    {
+      "assembly": "GameCore",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 378,
+      "bytes": 1589209,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GameCore.txt",
+      "seconds": 3.98
+    },
+    {
+      "assembly": "GamePlay.BattleRobot.Companion",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 52,
+      "bytes": 273377,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.BattleRobot.Companion.txt",
+      "seconds": 1.53
+    },
+    {
+      "assembly": "GamePlay.BattleRobot",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 93,
+      "bytes": 359349,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.BattleRobot.txt",
+      "seconds": 1.39
+    },
+    {
+      "assembly": "GamePlay.Config",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 14,
+      "bytes": 31009,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.Config.txt",
+      "seconds": 0.95
+    },
+    {
+      "assembly": "GamePlay",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 2430,
+      "bytes": 12490300,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.txt",
+      "seconds": 20.12
+    },
+    {
+      "assembly": "GamePlay.Proto",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 1084,
+      "bytes": 2871798,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.Proto.txt",
+      "seconds": 11.52
+    },
+    {
+      "assembly": "GamePlay.ShareDefine",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 7,
+      "bytes": 85578,
+      "log_bytes": 0,
+      "log": "logs/ilspy-GamePlay.ShareDefine.txt",
+      "seconds": 0.95
+    },
+    {
+      "assembly": "Launcher.Hotfix",
+      "kind": "hotfix DLL",
+      "exit_code": 0,
+      "source_files": 32,
+      "bytes": 97972,
+      "log_bytes": 0,
+      "log": "logs/ilspy-Launcher.Hotfix.txt",
+      "seconds": 1.09
+    },
+    {
+      "assembly": "LitJson",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 22,
+      "bytes": 23377,
+      "log_bytes": 0,
+      "log": "logs/ilspy-LitJson.txt",
+      "seconds": 0.97
+    },
+    {
+      "assembly": "mscorlib",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 1378,
+      "bytes": 1817317,
+      "log_bytes": 0,
+      "log": "logs/ilspy-mscorlib.txt",
+      "seconds": 4.36
+    },
+    {
+      "assembly": "QXPlugins",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 102,
+      "bytes": 98771,
+      "log_bytes": 0,
+      "log": "logs/ilspy-QXPlugins.txt",
+      "seconds": 1.16
+    },
+    {
+      "assembly": "System.Core",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 290,
+      "bytes": 462547,
+      "log_bytes": 0,
+      "log": "logs/ilspy-System.Core.txt",
+      "seconds": 1.62
+    },
+    {
+      "assembly": "Unity.RenderPipelines.Core.Runtime",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 312,
+      "bytes": 351087,
+      "log_bytes": 0,
+      "log": "logs/ilspy-Unity.RenderPipelines.Core.Runtime.txt",
+      "seconds": 1.47
+    },
+    {
+      "assembly": "UnityEngine.AndroidJNIModule",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 23,
+      "bytes": 93236,
+      "log_bytes": 0,
+      "log": "logs/ilspy-UnityEngine.AndroidJNIModule.txt",
+      "seconds": 1.19
+    },
+    {
+      "assembly": "UnityEngine.CoreModule",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 662,
+      "bytes": 1164234,
+      "log_bytes": 0,
+      "log": "logs/ilspy-UnityEngine.CoreModule.txt",
+      "seconds": 2.06
+    },
+    {
+      "assembly": "UnityEngine.JSONSerializeModule",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 2,
+      "bytes": 10962,
+      "log_bytes": 0,
+      "log": "logs/ilspy-UnityEngine.JSONSerializeModule.txt",
+      "seconds": 1.03
+    },
+    {
+      "assembly": "UnityEngine.UI",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 116,
+      "bytes": 153744,
+      "log_bytes": 0,
+      "log": "logs/ilspy-UnityEngine.UI.txt",
+      "seconds": 1.03
+    },
+    {
+      "assembly": "YooAsset",
+      "kind": "AOT supplement",
+      "exit_code": 0,
+      "source_files": 142,
+      "bytes": 108858,
+      "log_bytes": 0,
+      "log": "logs/ilspy-YooAsset.txt",
+      "seconds": 0.97
+    }
+  ],
+  "scope": "Reconstructed C# for reading; all original managed bytes and IL retained. This does not prove recompilation or restore original author source."
+}

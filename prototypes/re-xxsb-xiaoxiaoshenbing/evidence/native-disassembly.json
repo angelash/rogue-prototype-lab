@@ -1,0 +1,625 @@
+{
+  "capstone": "5.0.6",
+  "libraries": 20,
+  "executable_sections": 43,
+  "executable_bytes": 53005796,
+  "instruction_count": 13250506,
+  "skip_data_bytes": 3772,
+  "IL2CPP_method_names": 133186,
+  "unique_IL2CPP_addresses": 133186,
+  "labeled_IL2CPP_method_names": 133186,
+  "files": [
+    {
+      "file": "lib\\arm64-v8a\\lib_burst_generated.so",
+      "input_sha256": "2b5589f949a5f35cd3a0bfbdcb4b4dd42d13af043a85b5222d321885961bd139",
+      "output": "native/arm64/lib_burst_generated.so.asm.gz",
+      "output_sha256": "50d4418b0af868268a274938ae138162463b608e0cf07af00d7d6f332a3ee9e1",
+      "output_bytes": 93688,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 39972,
+          "file_offset": 23588,
+          "bytes": 40152,
+          "disassembled_bytes": 40152,
+          "instruction_count": 10038,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 80128,
+          "file_offset": 63744,
+          "bytes": 880,
+          "disassembled_bytes": 880,
+          "instruction_count": 220,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libBugly.so",
+      "input_sha256": "f9951495829256de7cd63c2da8e32b2b69a92dfe61bece96eac1567530d3d160",
+      "output": "native/arm64/libBugly.so.asm.gz",
+      "output_sha256": "a447ee6aa4ca9297cc17267d9ae31c513983ee28478cf9d66e5837be13ec68d1",
+      "output_bytes": 230630,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 22736,
+          "file_offset": 22736,
+          "bytes": 1648,
+          "disassembled_bytes": 1648,
+          "instruction_count": 412,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 24384,
+          "file_offset": 24384,
+          "bytes": 115440,
+          "disassembled_bytes": 115440,
+          "instruction_count": 28857,
+          "skip_data_bytes": 12,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libBugly_Native.so",
+      "input_sha256": "119ee21151537ae6a173882fdb4e21491a27f220a4250fe4a4fa84fdea616178",
+      "output": "native/arm64/libBugly_Native.so.asm.gz",
+      "output_sha256": "598b02bfcca30cb1f2d983b3015b02cdc8c68b4091c42c59a8b1babf0472f895",
+      "output_bytes": 232651,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 30496,
+          "file_offset": 30496,
+          "bytes": 3584,
+          "disassembled_bytes": 3584,
+          "instruction_count": 896,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 34080,
+          "file_offset": 34080,
+          "bytes": 115524,
+          "disassembled_bytes": 115524,
+          "instruction_count": 28881,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libcrashcatch.so",
+      "input_sha256": "22207460d9ce6bfb9eb99fb48150351a40cecad6e2a9263b5324a36ad7ed724b",
+      "output": "native/arm64/libcrashcatch.so.asm.gz",
+      "output_sha256": "dacd232668f679f4ea7c179859aebbb231dd735d09ad28b9487a2e554aa43d15",
+      "output_bytes": 34167,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 12992,
+          "file_offset": 12992,
+          "bytes": 15332,
+          "disassembled_bytes": 15332,
+          "instruction_count": 3833,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 28336,
+          "file_offset": 28336,
+          "bytes": 1232,
+          "disassembled_bytes": 1232,
+          "instruction_count": 308,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libcrashcatch_dumper.so",
+      "input_sha256": "2984ad9bd38d8a2805cafe6d69b863a9f473c6ded5f52047dd76410afa5be8de",
+      "output": "native/arm64/libcrashcatch_dumper.so.asm.gz",
+      "output_sha256": "6616aaf383a3899c00093a0e616a1a933d7bffba480dfbabde2ad1455c734afa",
+      "output_bytes": 190368,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 52712,
+          "file_offset": 52712,
+          "bytes": 86540,
+          "disassembled_bytes": 86540,
+          "instruction_count": 21635,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 139264,
+          "file_offset": 139264,
+          "bytes": 3072,
+          "disassembled_bytes": 3072,
+          "instruction_count": 768,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libCtaApiLib.so",
+      "input_sha256": "aabb64fce16684415c535cd818f26889870051474b8f8badc2dabc432a2a3888",
+      "output": "native/arm64/libCtaApiLib.so.asm.gz",
+      "output_sha256": "29e8f6f38e2f5dba98e0dbdbfe4bf01b8462f7d76aa6b172033824b23cf2ca36",
+      "output_bytes": 674466,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 48672,
+          "file_offset": 48672,
+          "bytes": 2400,
+          "disassembled_bytes": 2400,
+          "instruction_count": 600,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 51072,
+          "file_offset": 51072,
+          "bytes": 353280,
+          "disassembled_bytes": 353280,
+          "instruction_count": 88305,
+          "skip_data_bytes": 60,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libEncryptorP.so",
+      "input_sha256": "745352e1b6710983e5602908837089da98d6367357264792cd08a5f8e5f3f659",
+      "output": "native/arm64/libEncryptorP.so.asm.gz",
+      "output_sha256": "77d3033cffcf6037de25d04bfb281df835f8ffb80910843af11ffa1a96b3f4d0",
+      "output_bytes": 63492,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 2208,
+          "file_offset": 2208,
+          "bytes": 192,
+          "disassembled_bytes": 192,
+          "instruction_count": 48,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 2400,
+          "file_offset": 2400,
+          "bytes": 28836,
+          "disassembled_bytes": 28836,
+          "instruction_count": 7209,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".mytext",
+          "virtual_address": 31236,
+          "file_offset": 31236,
+          "bytes": 344,
+          "disassembled_bytes": 344,
+          "instruction_count": 86,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libentryexpro.so",
+      "input_sha256": "975b17f2d7bb079bff92d941e507899901145726e76ee71d513cf25fd9a8dc9d",
+      "output": "native/arm64/libentryexpro.so.asm.gz",
+      "output_sha256": "6e212213a267aaf6fa10e1629666b520d2ee8e100108908a258e04774f3157af",
+      "output_bytes": 154928,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 26160,
+          "file_offset": 26160,
+          "bytes": 528,
+          "disassembled_bytes": 528,
+          "instruction_count": 132,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 26688,
+          "file_offset": 26688,
+          "bytes": 78712,
+          "disassembled_bytes": 78712,
+          "instruction_count": 19671,
+          "skip_data_bytes": 28,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libfnupdate.so",
+      "input_sha256": "0dbb22ce32fbfa7386f70e76bbbe5e3b652456719638b0d14de5872f8d3e83dd",
+      "output": "native/arm64/libfnupdate.so.asm.gz",
+      "output_sha256": "8a5f50656eca10a268a5421ee5e7904ba3ad8efddab5815bd1d781a048ad5bba",
+      "output_bytes": 128015,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 6160,
+          "file_offset": 6160,
+          "bytes": 768,
+          "disassembled_bytes": 768,
+          "instruction_count": 192,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 6928,
+          "file_offset": 6928,
+          "bytes": 61384,
+          "disassembled_bytes": 61384,
+          "instruction_count": 15346,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libhttpdns.so",
+      "input_sha256": "81acdad0f27492c83254b8a81ba4412c3163d298c9cb820523817c5709085200",
+      "output": "native/arm64/libhttpdns.so.asm.gz",
+      "output_sha256": "1deb59690843950fbef182506a09c8b396f85bf362e74e3f6fd2250265bce4f0",
+      "output_bytes": 271614,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 59472,
+          "file_offset": 59472,
+          "bytes": 1280,
+          "disassembled_bytes": 1280,
+          "instruction_count": 320,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 60752,
+          "file_offset": 60752,
+          "bytes": 137916,
+          "disassembled_bytes": 137916,
+          "instruction_count": 34479,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libil2cpp.so",
+      "input_sha256": "d288676f3364ecef6781598722d20459181ea3cf415494462f63652fbeddf50b",
+      "output": "native/arm64/libil2cpp.so.asm.gz",
+      "output_sha256": "c9f8f53b08a0cba8789bb4f6ecf486792140df8cf89700fabd4e2c450a7b0ea9",
+      "output_bytes": 57617865,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 20263156,
+          "file_offset": 20246772,
+          "bytes": 4444404,
+          "disassembled_bytes": 4444404,
+          "instruction_count": 1111101,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": "il2cpp",
+          "virtual_address": 24707560,
+          "file_offset": 24691176,
+          "bytes": 24925528,
+          "disassembled_bytes": 24925528,
+          "instruction_count": 6231382,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 133186
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 49633088,
+          "file_offset": 49616704,
+          "bytes": 9664,
+          "disassembled_bytes": 9664,
+          "instruction_count": 2416,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libluster.so",
+      "input_sha256": "9ae1822e3abd46c1b28dcaeac915f7ae061b4b48dee0fb83382466a626eccaab",
+      "output": "native/arm64/libluster.so.asm.gz",
+      "output_sha256": "66c8891702bff661c82cff4705ac0870a98e57911ea362783b813cae383b7de2",
+      "output_bytes": 46566,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 4736,
+          "file_offset": 4736,
+          "bytes": 288,
+          "disassembled_bytes": 288,
+          "instruction_count": 72,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 5024,
+          "file_offset": 5024,
+          "bytes": 18868,
+          "disassembled_bytes": 18868,
+          "instruction_count": 4347,
+          "skip_data_bytes": 1480,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libmain.so",
+      "input_sha256": "6ea35fe1c085530a3d0dc15a98a35cc15a9184819fcf7fa0e57693f9ec87a170",
+      "output": "native/arm64/libmain.so.asm.gz",
+      "output_sha256": "3a18e21d9c5229c3d63094d4bc2702ae2ea71c31bd27756bfdc08ddf3b8053a0",
+      "output_bytes": 2642,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 18972,
+          "file_offset": 2588,
+          "bytes": 1032,
+          "disassembled_bytes": 1032,
+          "instruction_count": 258,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 20016,
+          "file_offset": 3632,
+          "bytes": 208,
+          "disassembled_bytes": 208,
+          "instruction_count": 52,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libsecsdk.so",
+      "input_sha256": "16a59fe3f40137ac3aa2cbb532e9fa1caa2ad153f9f4c016c6dbbbfb201eb200",
+      "output": "native/arm64/libsecsdk.so.asm.gz",
+      "output_sha256": "b976d2a45314f5a89b7ab1b1c6fcaccf7af0bc97fdfd48cf472f422007438fbb",
+      "output_bytes": 549804,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 29776,
+          "file_offset": 29776,
+          "bytes": 1648,
+          "disassembled_bytes": 1648,
+          "instruction_count": 412,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 31424,
+          "file_offset": 31424,
+          "bytes": 258780,
+          "disassembled_bytes": 258780,
+          "instruction_count": 64695,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libtapsdkcore.so",
+      "input_sha256": "e427dd212df5fd6a62906259e5fe7817f21a903278c4579d0a2e9b07774827bc",
+      "output": "native/arm64/libtapsdkcore.so.asm.gz",
+      "output_sha256": "c8ff3cf8b8ebc3950511f52d488f6807ac4862e9c5692057605b64e3eb0cf3e9",
+      "output_bytes": 5120074,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 1510832,
+          "file_offset": 1510832,
+          "bytes": 2484356,
+          "disassembled_bytes": 2484356,
+          "instruction_count": 621089,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": "__lcxx_override",
+          "virtual_address": 3995188,
+          "file_offset": 3995188,
+          "bytes": 268,
+          "disassembled_bytes": 268,
+          "instruction_count": 67,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 3995456,
+          "file_offset": 3995456,
+          "bytes": 11040,
+          "disassembled_bytes": 11040,
+          "instruction_count": 2760,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libterrain.so",
+      "input_sha256": "878e9945b7b8a0527e1809793d5fd588530ae7d0d132db04972ee203d6d35286",
+      "output": "native/arm64/libterrain.so.asm.gz",
+      "output_sha256": "2c7c90b97aed3789c07712f06fb5d28a58b53d1f0ded735555b1e4614f47383e",
+      "output_bytes": 274600,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 58656,
+          "file_offset": 58656,
+          "bytes": 1072,
+          "disassembled_bytes": 1072,
+          "instruction_count": 268,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 59728,
+          "file_offset": 59728,
+          "bytes": 144188,
+          "disassembled_bytes": 144188,
+          "instruction_count": 36035,
+          "skip_data_bytes": 48,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libthemis.so",
+      "input_sha256": "862544d80a1018e17fbe88d0db7e1a666151b2e2e92d4c2e5bad807a0414f74b",
+      "output": "native/arm64/libthemis.so.asm.gz",
+      "output_sha256": "77d098441b773767a4142205b5ea76c1b5bdc4efead46285591ef4b52484078f",
+      "output_bytes": 1394774,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 210468,
+          "file_offset": 210468,
+          "bytes": 615100,
+          "disassembled_bytes": 615100,
+          "instruction_count": 153665,
+          "skip_data_bytes": 440,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 825568,
+          "file_offset": 825568,
+          "bytes": 256,
+          "disassembled_bytes": 256,
+          "instruction_count": 64,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libunity.so",
+      "input_sha256": "4b17b2783b40e96f640e95f6f87e724eea8ff8663332eb7c182f1c7b10ace8cf",
+      "output": "native/arm64/libunity.so.asm.gz",
+      "output_sha256": "5a158b54826e80bd1a90c5e82f54020e90e48b3ca0606080dcca14d64b07b131",
+      "output_bytes": 38435677,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_address": 5108304,
+          "file_offset": 5091920,
+          "bytes": 18199756,
+          "disassembled_bytes": 18199756,
+          "instruction_count": 4549939,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".plt",
+          "virtual_address": 23308064,
+          "file_offset": 23291680,
+          "bytes": 5600,
+          "disassembled_bytes": 5600,
+          "instruction_count": 1400,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libuptsmaddon.so",
+      "input_sha256": "079cc5fdc6107e2ce01629a47c52741382b22f96b9453a369acad0096b9f1a2a",
+      "output": "native/arm64/libuptsmaddon.so.asm.gz",
+      "output_sha256": "8fb9cd2268972cc0796d640790f46bc63c5e434a09c76b399927c88ebc36a328",
+      "output_bytes": 824586,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 118720,
+          "file_offset": 118720,
+          "bytes": 1376,
+          "disassembled_bytes": 1376,
+          "instruction_count": 344,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 120128,
+          "file_offset": 120128,
+          "bytes": 415972,
+          "disassembled_bytes": 415972,
+          "instruction_count": 103780,
+          "skip_data_bytes": 852,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    },
+    {
+      "file": "lib\\arm64-v8a\\libuptsmaddonmi.so",
+      "input_sha256": "9409a3c6a2eedf0a81cd3834d1c6daadfd2806f34a794d97173b0913551f6c4d",
+      "output": "native/arm64/libuptsmaddonmi.so.asm.gz",
+      "output_sha256": "e7eebedff8bc2b13e09738a9d55f8eb0a05ea659bd7bbde75031a2c56b4e61fa",
+      "output_bytes": 824629,
+      "sections": [
+        {
+          "name": ".plt",
+          "virtual_address": 118720,
+          "file_offset": 118720,
+          "bytes": 1376,
+          "disassembled_bytes": 1376,
+          "instruction_count": 344,
+          "skip_data_bytes": 0,
+          "mapped_IL2CPP_names": 0
+        },
+        {
+          "name": ".text",
+          "virtual_address": 120128,
+          "file_offset": 120128,
+          "bytes": 415972,
+          "disassembled_bytes": 415972,
+          "instruction_count": 103780,
+          "skip_data_bytes": 852,
+          "mapped_IL2CPP_names": 0
+        }
+      ]
+    }
+  ],
+  "seconds": 50.27,
+  "scope": "All ARM64 ELF executable sections, including unmapped ranges; linear machine instructions/data markers, not reconstructed C++ or complete high-level algorithms. ARMv7 originals and ELF metadata are separately preserved."
+}

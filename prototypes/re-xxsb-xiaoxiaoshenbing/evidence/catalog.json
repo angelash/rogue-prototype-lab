@@ -1,0 +1,18 @@
+{
+  "database": "local/catalog.sqlite3",
+  "bytes": 410497024,
+  "counts": {
+    "C# reconstructed": 7319,
+    "Java reconstructed": 8114,
+    "Java embedded recovered": 69,
+    "DEX fallback": 17411,
+    "managed_methods": 85028,
+    "native_methods": 133186,
+    "configuration_records": 10625,
+    "assets": 59312,
+    "configuration_tables": 150,
+    "payloads": 92
+  },
+  "sqlite_integrity": "ok",
+  "scope": "Every reconstructed source file, managed method/native address, decoded table row, Unity object and payload. Large path IDs are stored as strings; original bytes remain separate."
+}

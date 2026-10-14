@@ -1,0 +1,19 @@
+{
+  "attempted_objects": 3388,
+  "passed": {
+    "Sprite": 1004,
+    "Texture2D": 1501,
+    "AnimationClip": 190,
+    "Mesh": 230,
+    "Shader": 122,
+    "AudioClip": 215,
+    "Avatar": 114,
+    "Font": 3,
+    "ComputeShader": 6
+  },
+  "empty_runtime_textures": 3,
+  "failed": 0,
+  "exported_bytes": 395394328,
+  "seconds": 159.53,
+  "scope": "PNG images/sprites, static OBJ meshes, decoded audio, raw serialized animations/avatars/shaders/fonts. Original containers retain skinning/materials/scene transforms; no gameplay or listening claim."
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "original": "local/apk/assets/39285EFA.dex",
+  "original_bytes": 71500,
+  "original_sha256": "0b9c032080788add7f5989d0ce145e66a4686ff3a43b0e48dec60bf18bf75701",
+  "decoded": "local/android/decoded/39285EFA.dex",
+  "decoded_sha256": "13502356b7d3f910107aeff131e9c4a2b892744a125a2d1a2a206b219dc36042",
+  "encoding": "four-byte repeating XOR inferred from the standard header; entire DEX signature/checksum/size verified",
+  "sha1_match": true,
+  "adler32_match": true,
+  "classes": 100,
+  "method_bodies": 429,
+  "instruction_units": 11317,
+  "normal_exit": 0,
+  "fallback_exit": 0,
+  "normal_java_files": 69,
+  "fallback_java_files": 100,
+  "SDK_counts_match": true,
+  "scope": "Offline byte-container recovery, without modifying the APK, signing/billing checks or accessing services."
+}

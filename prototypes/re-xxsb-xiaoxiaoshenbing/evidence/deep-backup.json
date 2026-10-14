@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-14",
+  "repository": "local/.git",
+  "remotes": [],
+  "commit": "cadc27e8c7068d697ab22c1e82347df3b0b5980b",
+  "tracked_files": 98413,
+  "input_blob_sha256": "4fb214bc2ed43a871ad2d35c4b2cae4cbe1125b649952795bd6a8e292f8fd07f",
+  "input_matches": true,
+  "git_fsck_pass": true,
+  "working_tree_clean": true,
+  "scope": "All inputs, reconstructed code/IL indexes, Unity trees/config/media, native/DEX derivatives, tools and project snapshot; repeatable SQLite/log/cache output excluded."
+}

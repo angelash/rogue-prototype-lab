@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "tool": "cua_repl, Codex in-app browser",
+  "URL": "http://127.0.0.1:8775/",
+  "HTML_SHA256": "67001d703d6b8906bff340df4d8173aa07ec03ff07ab1226e895091186de53c3",
+  "observed": {
+    "source_search_and_detail": true,
+    "method_search_and_IL_calls": true,
+    "configuration_table_and_localized_rows": true,
+    "Chinese_row_filter": true,
+    "Sprite_preview": true,
+    "64bit_path_ID_display_exact": true
+  },
+  "screenshot_observed": true,
+  "viewport_observed": "1230x902 screenshot; no claimed minimum/mobile viewport test",
+  "scope": "Actual local research-page DOM and screenshot, separate from API QA and Canvas syntax checks; no APK execution, listening or gameplay input."
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "API_checks": {
+    "source_search": true,
+    "source_exact_bytes_text": true,
+    "method_search": true,
+    "method_calls": true,
+    "table_rows": true,
+    "chinese_row": true,
+    "table_coverage": true,
+    "payload_coverage": true,
+    "asset_search": true,
+    "large_path_id_exact": true,
+    "PNG_route_exact": true,
+    "tree_route_exact": true,
+    "pagination": true,
+    "invalid_id": true,
+    "catalog_counts": true
+  },
+  "passed": 15,
+  "total": 15,
+  "counts": {
+    "source": 32913,
+    "method": 218214,
+    "config_row": 10625,
+    "asset": 59312
+  },
+  "browser_observation_record": "evidence/browser-observation.json; actual browser observation is recorded separately, not inferred by this API script.",
+  "scope": "Route identity, pagination, exact media/tree bytes, 64-bit IDs and observed browser flow. Canvas syntax/SDK checks and gameplay/runtime verification are separate."
+}

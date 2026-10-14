@@ -1,0 +1,31 @@
+{
+  "attempted": 98,
+  "passed": 97,
+  "failed": 1,
+  "embedded_types_reused": 0,
+  "total_objects": 59312,
+  "tree_success": 59311,
+  "remaining_tree_failures": 1,
+  "text_assets": 92,
+  "reference_edges": 235902,
+  "unresolved_edges": 0,
+  "failures": [
+    {
+      "id": "base-unity default resources/unity default resources/11000",
+      "type": "MonoBehaviour",
+      "error": "ValueError: read_str out of bounds",
+      "base_only": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 0,
+          "m_PathID": 12001
+        },
+        "m_Name": "GameSkin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "phase": "preparation-only",
+  "repository": "local/.git",
+  "remotes": [],
+  "commit": "4c0192df0d693acfc0ea5196b97aa2f5d4382a0c",
+  "tracked_files": 3,
+  "input_path": "input/a1-debug-0.1.3-x-202609032009_1782290212664330-1-4399--tt1.apk",
+  "input_blob_sha256": "4fb214bc2ed43a871ad2d35c4b2cae4cbe1125b649952795bd6a8e292f8fd07f",
+  "input_sha256": "4fb214bc2ed43a871ad2d35c4b2cae4cbe1125b649952795bd6a8e292f8fd07f",
+  "input_blob_matches": true,
+  "git_fsck_pass": true,
+  "working_tree_clean": true,
+  "excluded_generated_outputs": [
+    "local/logs/"
+  ],
+  "public_backup": "Preparation documentation/tools are in the parent workspace; publication not performed by this script.",
+  "scope": "Original APK only; no decompiled code or extracted media have been generated."
+}

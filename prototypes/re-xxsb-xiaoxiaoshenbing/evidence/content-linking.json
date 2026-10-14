@@ -1,0 +1,909 @@
+{
+  "manifest_assets": 1438,
+  "manifest_assets_linked": 1438,
+  "manifest_bundle_MD5_size_CRC_all_pass": true,
+  "link_failures": [],
+  "localized_links": 1022,
+  "language_hash_source": "GameCore.Lang.LangMgr.StringHash: UTF16 code units, IEEE double operations, modulo 2^32",
+  "managed_IL_call_sites": 236177,
+  "business_system_groups": 127,
+  "business_systems": {
+    "Proto (generated protocol)": {
+      "types": 1081,
+      "methods": 17353,
+      "IL_methods": 17353,
+      "calls": 45151,
+      "fields": 5091
+    },
+    "GamePlay.Combat": {
+      "types": 973,
+      "methods": 6941,
+      "IL_methods": 6793,
+      "calls": 40368,
+      "fields": 5489
+    },
+    "GamePlay.Battle": {
+      "types": 650,
+      "methods": 5822,
+      "IL_methods": 5749,
+      "calls": 32615,
+      "fields": 5172
+    },
+    "Compiler/generated or GamePlay.Proto": {
+      "types": 266,
+      "methods": 263,
+      "IL_methods": 263,
+      "calls": 264,
+      "fields": 527
+    },
+    "GamePlay.Main": {
+      "types": 255,
+      "methods": 2487,
+      "IL_methods": 2451,
+      "calls": 13555,
+      "fields": 2773
+    },
+    "Compiler/generated or GamePlay.ShareDefine": {
+      "types": 229,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 3,
+      "fields": 1115
+    },
+    "GameCore.UI": {
+      "types": 193,
+      "methods": 1728,
+      "IL_methods": 1711,
+      "calls": 8414,
+      "fields": 1230
+    },
+    "GamePlay.AutoChess": {
+      "types": 184,
+      "methods": 2325,
+      "IL_methods": 2255,
+      "calls": 17684,
+      "fields": 1115
+    },
+    "ConfigDefine (generated schema)": {
+      "types": 145,
+      "methods": 172,
+      "IL_methods": 172,
+      "calls": 173,
+      "fields": 1454
+    },
+    "GamePlay.Guide": {
+      "types": 93,
+      "methods": 957,
+      "IL_methods": 953,
+      "calls": 5937,
+      "fields": 741
+    },
+    "GamePlay.Login": {
+      "types": 73,
+      "methods": 660,
+      "IL_methods": 659,
+      "calls": 3792,
+      "fields": 360
+    },
+    "GamePlay.Common": {
+      "types": 70,
+      "methods": 590,
+      "IL_methods": 590,
+      "calls": 2413,
+      "fields": 546
+    },
+    "GamePlay.Activity": {
+      "types": 61,
+      "methods": 591,
+      "IL_methods": 581,
+      "calls": 2893,
+      "fields": 465
+    },
+    "GamePlay.Chat": {
+      "types": 54,
+      "methods": 497,
+      "IL_methods": 481,
+      "calls": 2896,
+      "fields": 428
+    },
+    "GamePlay.Notify": {
+      "types": 51,
+      "methods": 436,
+      "IL_methods": 436,
+      "calls": 1728,
+      "fields": 398
+    },
+    "GameCore.Res": {
+      "types": 45,
+      "methods": 256,
+      "IL_methods": 256,
+      "calls": 1112,
+      "fields": 389
+    },
+    "GameCore.Utils": {
+      "types": 43,
+      "methods": 464,
+      "IL_methods": 464,
+      "calls": 2429,
+      "fields": 249
+    },
+    "GamePlay.Commander": {
+      "types": 41,
+      "methods": 427,
+      "IL_methods": 427,
+      "calls": 2413,
+      "fields": 421
+    },
+    "GamePlay.GM": {
+      "types": 35,
+      "methods": 337,
+      "IL_methods": 327,
+      "calls": 2041,
+      "fields": 233
+    },
+    "GamePlay.Function": {
+      "types": 34,
+      "methods": 295,
+      "IL_methods": 283,
+      "calls": 1176,
+      "fields": 180
+    },
+    "GamePlay.Hud": {
+      "types": 33,
+      "methods": 349,
+      "IL_methods": 344,
+      "calls": 1563,
+      "fields": 275
+    },
+    "GamePlay.BattleTest": {
+      "types": 30,
+      "methods": 420,
+      "IL_methods": 415,
+      "calls": 3541,
+      "fields": 306
+    },
+    "GamePlay.Item": {
+      "types": 30,
+      "methods": 136,
+      "IL_methods": 136,
+      "calls": 621,
+      "fields": 191
+    },
+    "GameCore.Sound": {
+      "types": 28,
+      "methods": 220,
+      "IL_methods": 220,
+      "calls": 667,
+      "fields": 120
+    },
+    "GamePlay.Preload": {
+      "types": 27,
+      "methods": 271,
+      "IL_methods": 270,
+      "calls": 1524,
+      "fields": 172
+    },
+    "GamePlay.Task": {
+      "types": 26,
+      "methods": 338,
+      "IL_methods": 338,
+      "calls": 2416,
+      "fields": 231
+    },
+    "Compiler/generated or GameCore": {
+      "types": 25,
+      "methods": 117,
+      "IL_methods": 101,
+      "calls": 310,
+      "fields": 64
+    },
+    "GamePlay.AIChat": {
+      "types": 25,
+      "methods": 181,
+      "IL_methods": 181,
+      "calls": 898,
+      "fields": 191
+    },
+    "GamePlay.Player": {
+      "types": 24,
+      "methods": 354,
+      "IL_methods": 354,
+      "calls": 1842,
+      "fields": 257
+    },
+    "GamePlay.Scene": {
+      "types": 23,
+      "methods": 236,
+      "IL_methods": 230,
+      "calls": 826,
+      "fields": 178
+    },
+    "Compiler/generated or GamePlay": {
+      "types": 22,
+      "methods": 8,
+      "IL_methods": 8,
+      "calls": 39,
+      "fields": 53
+    },
+    "GamePlay.Loading": {
+      "types": 22,
+      "methods": 265,
+      "IL_methods": 265,
+      "calls": 1231,
+      "fields": 228
+    },
+    "GamePlay.Bag": {
+      "types": 22,
+      "methods": 266,
+      "IL_methods": 266,
+      "calls": 1326,
+      "fields": 102
+    },
+    "GamePlay.Camera": {
+      "types": 22,
+      "methods": 348,
+      "IL_methods": 348,
+      "calls": 798,
+      "fields": 186
+    },
+    "GamePlay.Shop": {
+      "types": 20,
+      "methods": 158,
+      "IL_methods": 158,
+      "calls": 737,
+      "fields": 74
+    },
+    "GamePlay.Friends": {
+      "types": 20,
+      "methods": 200,
+      "IL_methods": 200,
+      "calls": 976,
+      "fields": 132
+    },
+    "GamePlay.Charge": {
+      "types": 20,
+      "methods": 129,
+      "IL_methods": 127,
+      "calls": 561,
+      "fields": 127
+    },
+    "Launcher.Manager": {
+      "types": 19,
+      "methods": 114,
+      "IL_methods": 110,
+      "calls": 499,
+      "fields": 86
+    },
+    "GameCore.Net": {
+      "types": 18,
+      "methods": 167,
+      "IL_methods": 148,
+      "calls": 884,
+      "fields": 127
+    },
+    "GameCore.Config": {
+      "types": 18,
+      "methods": 234,
+      "IL_methods": 216,
+      "calls": 1506,
+      "fields": 61
+    },
+    "GamePlay.SystemSetting": {
+      "types": 18,
+      "methods": 67,
+      "IL_methods": 67,
+      "calls": 230,
+      "fields": 53
+    },
+    "GamePlay.Rank": {
+      "types": 18,
+      "methods": 148,
+      "IL_methods": 148,
+      "calls": 759,
+      "fields": 173
+    },
+    "GamePlay.Mail": {
+      "types": 18,
+      "methods": 204,
+      "IL_methods": 204,
+      "calls": 893,
+      "fields": 163
+    },
+    "Launcher.SDK": {
+      "types": 18,
+      "methods": 85,
+      "IL_methods": 85,
+      "calls": 279,
+      "fields": 75
+    },
+    "GameCore.Event": {
+      "types": 17,
+      "methods": 103,
+      "IL_methods": 101,
+      "calls": 413,
+      "fields": 80
+    },
+    "GameCore.Log": {
+      "types": 16,
+      "methods": 89,
+      "IL_methods": 89,
+      "calls": 376,
+      "fields": 67
+    },
+    "GamePlay.SDK": {
+      "types": 15,
+      "methods": 145,
+      "IL_methods": 145,
+      "calls": 666,
+      "fields": 153
+    },
+    "GameCore.DressableModel": {
+      "types": 14,
+      "methods": 260,
+      "IL_methods": 244,
+      "calls": 1333,
+      "fields": 137
+    },
+    "GamePlay.MiModel": {
+      "types": 14,
+      "methods": 154,
+      "IL_methods": 154,
+      "calls": 666,
+      "fields": 91
+    },
+    "GamePlay.Appearance": {
+      "types": 14,
+      "methods": 129,
+      "IL_methods": 129,
+      "calls": 604,
+      "fields": 73
+    },
+    "GameCore.MVCBase": {
+      "types": 13,
+      "methods": 118,
+      "IL_methods": 87,
+      "calls": 268,
+      "fields": 23
+    },
+    "GamePlay.Config": {
+      "types": 13,
+      "methods": 98,
+      "IL_methods": 98,
+      "calls": 377,
+      "fields": 64
+    },
+    "GamePlay.GameCommunity": {
+      "types": 13,
+      "methods": 82,
+      "IL_methods": 82,
+      "calls": 252,
+      "fields": 46
+    },
+    "GamePlay.ChessMan": {
+      "types": 13,
+      "methods": 131,
+      "IL_methods": 131,
+      "calls": 615,
+      "fields": 56
+    },
+    "GamePlay.Questionnaire": {
+      "types": 12,
+      "methods": 71,
+      "IL_methods": 71,
+      "calls": 408,
+      "fields": 78
+    },
+    "GamePlay.Battleviewer": {
+      "types": 12,
+      "methods": 69,
+      "IL_methods": 69,
+      "calls": 409,
+      "fields": 67
+    },
+    "GameCore.Audio": {
+      "types": 10,
+      "methods": 119,
+      "IL_methods": 119,
+      "calls": 534,
+      "fields": 85
+    },
+    "GamePlay.Hero": {
+      "types": 10,
+      "methods": 98,
+      "IL_methods": 98,
+      "calls": 366,
+      "fields": 34
+    },
+    "GamePlay.Startup": {
+      "types": 10,
+      "methods": 54,
+      "IL_methods": 54,
+      "calls": 113,
+      "fields": 35
+    },
+    "GameCore.Effect": {
+      "types": 9,
+      "methods": 167,
+      "IL_methods": 167,
+      "calls": 912,
+      "fields": 103
+    },
+    "GamePlay.SystemInfo": {
+      "types": 9,
+      "methods": 77,
+      "IL_methods": 77,
+      "calls": 422,
+      "fields": 33
+    },
+    "GameCore.QXBatch": {
+      "types": 8,
+      "methods": 77,
+      "IL_methods": 77,
+      "calls": 314,
+      "fields": 57
+    },
+    "GamePlay.Template": {
+      "types": 8,
+      "methods": 35,
+      "IL_methods": 35,
+      "calls": 21,
+      "fields": 4
+    },
+    "GamePlay.BattleChat": {
+      "types": 8,
+      "methods": 60,
+      "IL_methods": 60,
+      "calls": 215,
+      "fields": 27
+    },
+    "Compiler/generated or Launcher.Hotfix": {
+      "types": 8,
+      "methods": 19,
+      "IL_methods": 19,
+      "calls": 40,
+      "fields": 24
+    },
+    "Compiler/generated or GamePlay.BattleRobot": {
+      "types": 7,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 3,
+      "fields": 8
+    },
+    "GamePlay.Sound": {
+      "types": 7,
+      "methods": 20,
+      "IL_methods": 18,
+      "calls": 33,
+      "fields": 54
+    },
+    "GamePlay.Map": {
+      "types": 7,
+      "methods": 41,
+      "IL_methods": 41,
+      "calls": 119,
+      "fields": 37
+    },
+    "GamePlay.RockerInput": {
+      "types": 7,
+      "methods": 55,
+      "IL_methods": 52,
+      "calls": 157,
+      "fields": 45
+    },
+    "GamePlay.Detour": {
+      "types": 7,
+      "methods": 54,
+      "IL_methods": 54,
+      "calls": 234,
+      "fields": 49
+    },
+    "Launcher.Utils": {
+      "types": 7,
+      "methods": 83,
+      "IL_methods": 79,
+      "calls": 338,
+      "fields": 50
+    },
+    "Launcher.Config": {
+      "types": 7,
+      "methods": 26,
+      "IL_methods": 26,
+      "calls": 92,
+      "fields": 17
+    },
+    "Compiler/generated or ConfigDefine": {
+      "types": 6,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 3,
+      "fields": 7
+    },
+    "Compiler/generated or ConfigDefine.Generated": {
+      "types": 6,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 3,
+      "fields": 7
+    },
+    "GameCore.Touch": {
+      "types": 6,
+      "methods": 48,
+      "IL_methods": 38,
+      "calls": 220,
+      "fields": 35
+    },
+    "GameCore.Timer": {
+      "types": 6,
+      "methods": 79,
+      "IL_methods": 79,
+      "calls": 252,
+      "fields": 62
+    },
+    "GameCore.SceneModel": {
+      "types": 6,
+      "methods": 86,
+      "IL_methods": 86,
+      "calls": 390,
+      "fields": 57
+    },
+    "GameCore.RedPoint": {
+      "types": 6,
+      "methods": 69,
+      "IL_methods": 69,
+      "calls": 332,
+      "fields": 44
+    },
+    "Compiler/generated or GamePlay.BattleRobot.Companion": {
+      "types": 6,
+      "methods": 3,
+      "IL_methods": 3,
+      "calls": 5,
+      "fields": 7
+    },
+    "Compiler/generated or GamePlay.Config": {
+      "types": 6,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 3,
+      "fields": 7
+    },
+    "GamePlay.BindCode": {
+      "types": 6,
+      "methods": 32,
+      "IL_methods": 32,
+      "calls": 121,
+      "fields": 12
+    },
+    "GameCore.DevActivity": {
+      "types": 5,
+      "methods": 51,
+      "IL_methods": 51,
+      "calls": 242,
+      "fields": 38
+    },
+    "GamePlay.GameplaySetup": {
+      "types": 5,
+      "methods": 45,
+      "IL_methods": 45,
+      "calls": 183,
+      "fields": 31
+    },
+    "GamePlay.Utils": {
+      "types": 5,
+      "methods": 25,
+      "IL_methods": 21,
+      "calls": 74,
+      "fields": 17
+    },
+    "GameCore.Profile": {
+      "types": 4,
+      "methods": 17,
+      "IL_methods": 17,
+      "calls": 49,
+      "fields": 12
+    },
+    "GameCore.CSMAnimationInstance": {
+      "types": 4,
+      "methods": 51,
+      "IL_methods": 51,
+      "calls": 191,
+      "fields": 21
+    },
+    "GameCore.Common": {
+      "types": 4,
+      "methods": 55,
+      "IL_methods": 55,
+      "calls": 97,
+      "fields": 37
+    },
+    "GameCore.Cache": {
+      "types": 4,
+      "methods": 31,
+      "IL_methods": 31,
+      "calls": 125,
+      "fields": 32
+    },
+    "GamePlay.Util": {
+      "types": 4,
+      "methods": 32,
+      "IL_methods": 32,
+      "calls": 162,
+      "fields": 26
+    },
+    "GamePlay.Tools": {
+      "types": 4,
+      "methods": 6,
+      "IL_methods": 6,
+      "calls": 19,
+      "fields": 5
+    },
+    "GamePlay.RiskControl": {
+      "types": 4,
+      "methods": 28,
+      "IL_methods": 28,
+      "calls": 46,
+      "fields": 7
+    },
+    "GamePlay.FunctionOpen": {
+      "types": 4,
+      "methods": 28,
+      "IL_methods": 28,
+      "calls": 120,
+      "fields": 9
+    },
+    "GamePlay.Attr": {
+      "types": 4,
+      "methods": 26,
+      "IL_methods": 26,
+      "calls": 105,
+      "fields": 14
+    },
+    "GamePlay.Render": {
+      "types": 4,
+      "methods": 30,
+      "IL_methods": 30,
+      "calls": 26,
+      "fields": 14
+    },
+    "Launcher.Render": {
+      "types": 4,
+      "methods": 27,
+      "IL_methods": 27,
+      "calls": 109,
+      "fields": 26
+    },
+    "GamePlay.Alliance": {
+      "types": 3,
+      "methods": 13,
+      "IL_methods": 13,
+      "calls": 12,
+      "fields": 4
+    },
+    "GamePlay.Achievement": {
+      "types": 3,
+      "methods": 54,
+      "IL_methods": 54,
+      "calls": 146,
+      "fields": 17
+    },
+    "GamePlay.Pool": {
+      "types": 3,
+      "methods": 32,
+      "IL_methods": 32,
+      "calls": 37,
+      "fields": 4
+    },
+    "GameCore.Stub": {
+      "types": 2,
+      "methods": 4,
+      "IL_methods": 4,
+      "calls": 7,
+      "fields": 0
+    },
+    "GameCore.Pool": {
+      "types": 2,
+      "methods": 15,
+      "IL_methods": 7,
+      "calls": 67,
+      "fields": 10
+    },
+    "GameCore.Lang": {
+      "types": 2,
+      "methods": 30,
+      "IL_methods": 30,
+      "calls": 112,
+      "fields": 8
+    },
+    "GameCore.ModelAnimation": {
+      "types": 2,
+      "methods": 26,
+      "IL_methods": 26,
+      "calls": 142,
+      "fields": 10
+    },
+    "GamePlay.Setting": {
+      "types": 2,
+      "methods": 78,
+      "IL_methods": 78,
+      "calls": 479,
+      "fields": 134
+    },
+    "GamePlay.CfgCheck": {
+      "types": 2,
+      "methods": 10,
+      "IL_methods": 10,
+      "calls": 19,
+      "fields": 1
+    },
+    "GamePlay.Net": {
+      "types": 2,
+      "methods": 15,
+      "IL_methods": 15,
+      "calls": 64,
+      "fields": 4
+    },
+    "GamePlay.Inputs": {
+      "types": 2,
+      "methods": 24,
+      "IL_methods": 24,
+      "calls": 84,
+      "fields": 6
+    },
+    "Launcher.Platform": {
+      "types": 2,
+      "methods": 15,
+      "IL_methods": 15,
+      "calls": 15,
+      "fields": 2
+    },
+    "GameCore.Function": {
+      "types": 1,
+      "methods": 0,
+      "IL_methods": 0,
+      "calls": 0,
+      "fields": 3
+    },
+    "GameCore.Collections": {
+      "types": 1,
+      "methods": 22,
+      "IL_methods": 22,
+      "calls": 91,
+      "fields": 3
+    },
+    "GamePlay.A1BaseInclude": {
+      "types": 1,
+      "methods": 4,
+      "IL_methods": 4,
+      "calls": 237,
+      "fields": 0
+    },
+    "GamePlay.AssemblyEntry": {
+      "types": 1,
+      "methods": 1,
+      "IL_methods": 1,
+      "calls": 3,
+      "fields": 0
+    },
+    "GamePlay.MainData": {
+      "types": 1,
+      "methods": 41,
+      "IL_methods": 41,
+      "calls": 43,
+      "fields": 0
+    },
+    "GamePlay.MiniMain": {
+      "types": 1,
+      "methods": 17,
+      "IL_methods": 17,
+      "calls": 93,
+      "fields": 9
+    },
+    "GamePlay.MvcInclude": {
+      "types": 1,
+      "methods": 4,
+      "IL_methods": 4,
+      "calls": 4,
+      "fields": 1
+    },
+    "GamePlay.OverrideCore": {
+      "types": 1,
+      "methods": 12,
+      "IL_methods": 12,
+      "calls": 24,
+      "fields": 1
+    },
+    "GamePlay.UIEnum": {
+      "types": 1,
+      "methods": 0,
+      "IL_methods": 0,
+      "calls": 0,
+      "fields": 72
+    },
+    "GamePlay.UIMgrExtensions": {
+      "types": 1,
+      "methods": 9,
+      "IL_methods": 9,
+      "calls": 9,
+      "fields": 0
+    },
+    "GamePlay.StartupProgressHandoff": {
+      "types": 1,
+      "methods": 9,
+      "IL_methods": 9,
+      "calls": 56,
+      "fields": 0
+    },
+    "GamePlay.UIClsEnum": {
+      "types": 1,
+      "methods": 0,
+      "IL_methods": 0,
+      "calls": 0,
+      "fields": 0
+    },
+    "GamePlay.UIClsMap": {
+      "types": 1,
+      "methods": 1,
+      "IL_methods": 1,
+      "calls": 134,
+      "fields": 0
+    },
+    "GamePlay.Season": {
+      "types": 1,
+      "methods": 12,
+      "IL_methods": 12,
+      "calls": 18,
+      "fields": 2
+    },
+    "GamePlay.Batch": {
+      "types": 1,
+      "methods": 8,
+      "IL_methods": 8,
+      "calls": 29,
+      "fields": 1
+    },
+    "GamePlay.MiniMain+<>c__DisplayClass13_0": {
+      "types": 1,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 1,
+      "fields": 1
+    },
+    "GamePlay.StartupProgressHandoff+<>c__DisplayClass2_0": {
+      "types": 1,
+      "methods": 2,
+      "IL_methods": 2,
+      "calls": 2,
+      "fields": 3
+    },
+    "GamePlay.UIClsEnum+UI": {
+      "types": 1,
+      "methods": 0,
+      "IL_methods": 0,
+      "calls": 0,
+      "fields": 71
+    },
+    "Launcher.Startup": {
+      "types": 1,
+      "methods": 1,
+      "IL_methods": 1,
+      "calls": 3,
+      "fields": 0
+    },
+    "Launcher.Hotfix": {
+      "types": 1,
+      "methods": 1,
+      "IL_methods": 1,
+      "calls": 2,
+      "fields": 0
+    }
+  },
+  "unparsed_objects_retained": [
+    {
+      "id": "base-unity default resources/unity default resources/11000",
+      "raw": "assets/unparsed/base-unity default resources/11000.bin",
+      "sha256": "bbd586768e75a0343b9af7e8570f1ae90853422a8e1d690ad27f588964fe4f55",
+      "error": "ValueError: read_str out of bounds"
+    }
+  ]
+}

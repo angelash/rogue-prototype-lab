@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-14",
+  "ABI": {
+    "arm64": {
+      "methods": 133186,
+      "unique_addresses": 133186,
+      "all_addresses_in_executable_sections": true,
+      "thumb_pointer_flags": 0
+    },
+    "armv7": {
+      "methods": 133186,
+      "unique_addresses": 133186,
+      "all_addresses_in_executable_sections": true,
+      "thumb_pointer_flags": 0
+    }
+  },
+  "same_named_method_multiset": true,
+  "common_unique_names": 115295,
+  "ARM64_only_names": 0,
+  "ARMv7_only_names": 0,
+  "scope": "Both native binaries pair with the registered metadata; declared method names/address ranges checked. This is not a runtime equivalence or complete ARMv7 control-flow/high-level recovery claim."
+}

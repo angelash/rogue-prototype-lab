@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "command": [
+    "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\tools\\il2cppdumper\\Il2CppDumper.exe",
+    "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\lib\\arm64-v8a\\libil2cpp.so",
+    "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\apk\\assets\\bin\\Data\\Managed\\Metadata\\global-metadata.dat",
+    "F:\\workspace\\rogue-prototype-lab\\prototypes\\re-xxsb-xiaoxiaoshenbing\\local\\il2cpp\\arm64"
+  ],
+  "exit_code": 0,
+  "tool_sha256": "97c663f263529f5134155f161594b1dfbbdd0a957e1d4aa465ea860b53a4e014",
+  "tool_source": "Existing local Il2CppDumper from the T1 tooling directory; copied without game data",
+  "binary_sha256": "d288676f3364ecef6781598722d20459181ea3cf415494462f63652fbeddf50b",
+  "metadata_sha256": "56556e127ae5cb3fefae9b57679116e439575ae628a596e77a55a87f6d66b529",
+  "metadata_header_version": 31,
+  "dummy_assemblies": 67,
+  "dump_cs_exists": true,
+  "script_json_exists": true,
+  "log": "local/logs/il2cpp-arm64.txt",
+  "scope": "IL2CPP declarations and native addresses; DummyDll does not recover original method IL or author source."
+}

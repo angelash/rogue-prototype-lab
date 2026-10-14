@@ -1,0 +1,17 @@
+{
+  "text_assets": 92,
+  "classified": 92,
+  "kinds": {
+    "JSON": 24,
+    "astar-grid-block": 12,
+    "astar-packed-or-index": 5,
+    "SDF-grid-block": 24,
+    "managed-PE": 21,
+    "FMOD-RIFF": 3,
+    "other-binary": 3
+  },
+  "failures": [],
+  "all_original_payload_hashes_match": true,
+  "SDF_blocks": 24,
+  "scope": "JSON parses and byte-layout/bank validation; native grid semantics and package-independent authoring consistency remain distinct."
+}
