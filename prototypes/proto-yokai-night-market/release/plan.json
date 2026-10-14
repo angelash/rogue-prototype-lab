@@ -8,10 +8,10 @@
       "stage": 1,
       "title": "确认商业路线与来源",
       "owner": "shared",
-      "status": "awaiting_user",
-      "assistant": "完成逐项来源/权利登记；授权路线核对许可范围，原创路线独立实现并替换受限音频、UI和数据表达。",
-      "user": "说明已有授权及其实际范围，或确认采用独立原创发行路线。",
-      "doneWhen": "足够许可或独立生产证据与最终包逐项闭合。"
+      "status": "authorization_declared_migration_planned",
+      "assistant": "已登记用户授权声明，并完成commercial-migration-v3详细分析；按零资产复用要求独立制作资产、重构代码/配置并保持流程。",
+      "user": "已有授权的事实已提供；具体许可文书保留私有，需要实际签署或平台审核时由本人处理。",
+      "doneWhen": "授权范围及全部新素材谱系与最终包闭合，迁移和发行验收通过。"
     },
     {
       "id": "onboard",
@@ -48,8 +48,8 @@
       "stage": 3,
       "title": "完成可发行工程与素材",
       "owner": "assistant",
-      "status": "blocked_by_rights_route",
-      "assistant": "按确认路线独立生产/许可集成；保留现有研究候选；补完整输入、目标/反制、胜负/重开、窗口失焦和音频。",
+      "status": "migration_plan_prepared",
+      "assistant": "按v3八阶段方案推进：冻结基线→绑定/语义改名→数据/职责拆分→独立图片与表现→91新音频→清理审计→全回归；保留当前研究候选。",
       "user": "只处理真实必须由权利人签署或购买的外部条件。",
       "doneWhen": "来源、代码、UI、音频及内容可商业发行；无未清理受限输入。"
     },

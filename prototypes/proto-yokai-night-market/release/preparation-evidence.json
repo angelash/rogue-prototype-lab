@@ -1,5 +1,7 @@
 {
   "date":"2026-10-14",
+  "historicalScope":"Steam准备初次快照；下述待确认授权是当时事实，现由authorizationFollowUp取代，旧制作/测试计数仍属于初次快照。",
+  "authorizationFollowUp":{"date":"2026-10-14","userDeclaredAuthorized":true,"documentReviewed":false,"originalAssetReuseAllowed":false,"migrationAnalysis":"commercial-migration-v3/audit-summary.json","migrationExecuted":false},
   "status":"preparation_complete_for_current_independent_tasks_release_not_ready",
   "canonicalPlayerChanged":false,
   "canonicalSourceFiles":967,

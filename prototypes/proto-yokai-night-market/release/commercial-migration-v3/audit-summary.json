@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "baselineSourceSHA256": "a618d666e4b63a5d1332602426436aca2f6b92ebcd75532ad11604eebe5cd84a",
+  "sourceFiles": 967,
+  "counts": {
+    "assetFiles": 465,
+    "assetExtensions": {
+      ".dll": 1,
+      ".cs": 41,
+      ".json": 1,
+      ".asset": 133,
+      ".xml": 10,
+      ".png": 124,
+      ".txt": 7,
+      ".wav": 91,
+      ".ttf": 12,
+      ".obj": 13,
+      ".otf": 13,
+      ".prefab": 18,
+      ".unity": 1
+    },
+    "textures": 82,
+    "audio": 91,
+    "audioGroups": {
+      "sfx": 68,
+      "music": 21,
+      "ambience": 2
+    },
+    "originalAudioMatches": 91,
+    "identicalExportFiles": 162,
+    "compiledTypes": 47,
+    "compiledMethods": 667,
+    "compiledFields": 957,
+    "plannedUserTypes": 39,
+    "plannedMethods": 664,
+    "plannedFields": 946,
+    "properties": 62,
+    "parameters": 285,
+    "bindings": {
+      "string-type-factory": 19,
+      "random": 12,
+      "color-state": 72,
+      "object-name": 86,
+      "scene-load": 1,
+      "resource-path": 18,
+      "save-key": 28
+    },
+    "renameCollisions": 0,
+    "fonts": 25
+  },
+  "status": "analysis_complete_execution_not_started",
+  "privateReport": "local/commercial-migration-v3/inventory.json",
+  "findings": [
+    "All 91 WAV files match original exports.",
+    "New illustration RGB does not establish independent alpha, geometry, materials, scenes or imports.",
+    "Four original TXT exports and twelve historical TTF files remain in the source project and must be excluded from the new product.",
+    "Bindings include dynamic object/resource strings and string-based type factories; a text-only rename is unsafe.",
+    "Current .obj exports include Unity built-in geometry; recreate via permitted engine APIs or authored geometry, do not copy recovery files.",
+    "Raw input provenance must be reviewed before reusing existing generated art; changed hashes alone do not establish independent creation."
+  ]
+}

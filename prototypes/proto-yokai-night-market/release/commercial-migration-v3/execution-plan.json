@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "status": "analysis_complete_execution_not_started",
+  "userDecision": "已有授权；不复用原作资产；调整代码和配置结构及夜市命名；保持当前流程；先分析和方案。",
+  "authorization": {"state":"user_declared_authorized","documentReviewed":false,"assetReuseAllowedByThisTask":false,"requiresNewPermissionForRoutineReversibleImplementation":false},
+  "baseline": {"project":"local/UnityProject","sourceSHA256":"a618d666e4b63a5d1332602426436aca2f6b92ebcd75532ad11604eebe5cd84a","files":967,"release":"local/Builds/Release/YokaiNightMarket.exe","scope":"Unity 2022 v2.8; incomplete native/audio acceptance remains explicit"},
+  "target": {"project":"local/CommercialUnityProject","branchSuggestion":"codex/yokai-commercial-v3","namespace":"YokaiNightMarket","engine":"Unity 2022.3.62f3c1 / Windows x64 Mono","gitInputs":"Assets + meta + Packages + ProjectSettings + authoring sources + tests","gitOutputs":"Library/Temp/Logs/UserSettings/builds/reports ignored","newProjectCreated":false},
+  "architecture": [
+    {"layer":"Domain","purpose":"唯一规则和纯状态，包含 RivalStallPlanner","dependsOn":["Content contract"]},
+    {"layer":"Flow","purpose":"初始化、主状态/回合、顺序结算队列","dependsOn":["Domain","Platform interfaces","Presentation bindings"]},
+    {"layer":"Presentation","purpose":"卡/委托/阶段/UI/音频/教程，保持现有渲染和射线输入方式","dependsOn":["Domain results","Content"]},
+    {"layer":"Content","purpose":"新夜市目录、ID、资源和双语","dependsOn":[]},
+    {"layer":"Platform","purpose":"本产品保存与场景服务","dependsOn":["state contracts"]},
+    {"layer":"Authoring/Editor/Tests","purpose":"独立资产制作、绑定和对照；研究迁移器不进入正式包","dependsOn":["approved public contracts"]}
+  ],
+  "phases": [
+    {"id":"M0","title":"冻结基线与隔离制作","status":"not_started","dependsOn":[],"owner":"assistant","inputs":["current source/build","existing native gaps","this plan"],"actions":["核验 Git/包恢复并建立隔离工作树","补完整原生/听感行为基线","给新工程加 Git 输入白名单","生成归一化行为/布局/时序基线，验证探针无扰动"],"exit":["源与包指纹可恢复","当前欠缺基线明确或补验","新项目与研究工程隔离","无真实用户存档改动"],"rollback":"保留原 v2.8 工程与包，删除前核对隔离目录范围；不清理研究历史"},
+    {"id":"M1","title":"显式绑定与语义改名","status":"not_started","dependsOn":["M0"],"owner":"assistant","inputs":["symbol-plan.json","private binding inventory"],"actions":["确认所有类型/方法/字段/属性/参数和局部变量映射","先替换字符串工厂、固定/动态节点名与资源加载绑定","分批迁移命名空间/文件/序列化值；同名按符号解析","暂不拆程序集、不换算法或美术"],"exit":["映射无歧义且人工按调用关系复核","零 Missing Script/悬空引用","规则状态/事件顺序与基线一致","保存未丢失"],"rollback":"每批专属提交，回滚该批代码和序列化变更；旧别名只用于过渡"},
+    {"id":"M2","title":"夜市数据与职责拆分","status":"not_started","dependsOn":["M1"],"owner":"assistant","inputs":["data-plan.json","effective behavior contract"],"actions":["生成新目录/schema与明确岗位/卡/委托关系","保留内部稳定索引与迭代顺序，显式写布符有效目标2","迁移本产品设置/十行成绩，幂等标记","再依次拆规则、Flow与视图；后置 asmdef 调整"],"exit":["95/28/420一对一且有效数字无漂移","AI/随机/计时/队列等价","六设置和十行成绩迁移/重启通过","全路径只有一个规则权威"],"rollback":"分别保留数据导入、保存适配、职责拆分的检查点；失败不启用新保存标记"},
+    {"id":"M3","title":"自有图片及新表现资产","status":"not_started","dependsOn":["M0","M2"],"owner":"assistant","inputs":["asset-plan.json","approved own AI masters","new layout definitions"],"actions":["复核谱系，逐槽自绘/生成与等比导出82张图","独立建立alpha/78 Sprite/48材质与新GUID","重建18类功能prefab、新场景、两画幅锚点/碰撞/排序","四组合Player检查黑带、叠框、缺字、变形、越界"],"exit":["82项精确尺寸和独立谱系闭合","原stencil/顶点/YAML无生产依赖","全部功能槽、目标命中与动画轨迹通过","新轮廓差异逐项验收"],"rollback":"按卡牌、面板、条幅、桌面、教程/成绩分批提交；失败只退该批，不还原旧霓虹包装"},
+    {"id":"M4","title":"制作与替换全部音频","status":"not_started","dependsOn":["M0","M2"],"owner":"assistant","inputs":["91 item audio plan","new recording/composition sources"],"actions":["先68音效与2氛围，再21原创音乐","保留事件槽/变体顺序、PCM规格与帧数","验证随机次数、循环/引子衔接与淡出","逐项和实际场景听验，清掉占位素材"],"exit":["91项自有来源与实际使用对应","无原音轨/采样/改速派生","无削波/错事件/切断/音量突变","原速完整整局听验"],"rollback":"保留音频路由稳定；每批新素材独立提交，不用原音轨回填正式候选"},
+    {"id":"M5","title":"清理过渡内容并审计发行候选","status":"not_started","dependsOn":["M3","M4"],"owner":"assistant","inputs":["new project","provenance and binding registries"],"actions":["排除原TXT/TTF/WAV/RecoverySource/导出内置副本","移除已用完旧名别名/迁移映射，研究记录留私有","检查Assets/Resources/StreamingAssets/插件/真实Player依赖","核对产品文本、程序集符号、资源键和必要许可白名单"],"exit":["无禁止来源资产及派生输入","夜市设定检查全覆盖，无未经解释命中","所有非引擎资产均有来源闭包","商业门禁新增来源独立与迁移等价证据，仍不得绕过其它门禁"],"rollback":"以M3/M4已核验提交为检查点，审计发现问题返回对应制作步骤"},
+    {"id":"M6","title":"完整回归、构建与可恢复备份","status":"not_started","dependsOn":["M5"],"owner":"assistant","inputs":["test-plan.json","current QA cases","new source fingerprint"],"actions":["规则/流程/差分轨迹与四组合渲染","完整真实键鼠、原速/快进/暂停、保存和听感","性能/干净环境/打包提取，QA驱动不进正式","源包/Player/私有Git备份逐文件读回并恢复核验"],"exit":["所有适用用例有当前构建真实证据","未执行项不能记通过","源/包/素材谱系/报告指纹闭合","能从备份恢复同一候选"],"rollback":"发行候选独立目录，失败保留证据并修复后重跑受影响范围"},
+    {"id":"M7","title":"Steam发行材料与安装验证","status":"not_started","dependsOn":["M6"],"owner":"assistant_with_user_identity_and_business_decisions","inputs":["own AppID/depot","final candidate","Steam release preparation"],"actions":["真实新候选拍截图/录像","更新商店、AI披露、依赖声明及Windows配置","按实际后台权限准备上传/送审与反馈修改","Steam安装更新回滚验证"],"exit":["实际Steam门禁与平台审核满足","身份签署付款由本人完成","名称售价地区日期与公开发行按具体决定执行"],"rollback":"上传测试不设SetLive；保持可用分支/包与商店变更记录"}
+  ],
+  "risks": [
+    {"id":"R1","title":"改名破坏动态字符串绑定","mitigation":"类型工厂、86行对象查找、18行加载与数据/数组一起映射，Editor和启动验证"},
+    {"id":"R2","title":"序列化改名造成值或引用丢失","mitigation":"临时迁移读入、显式字段/PPtr审计，再建新资产/GUID；不把别名留进最终版本"},
+    {"id":"R3","title":"重新制作alpha与网格造成黑块/穿帮","mitigation":"新轮廓与新网格一起建立，锁功能bounds/点击/排序，实际Player逐层检查"},
+    {"id":"R4","title":"重构改变随机、队列或帧边界","mitigation":"不排序/洗牌/并发，记录相同输入和时间步的归一化状态/事件轨迹"},
+    {"id":"R5","title":"音频原创生产与听感尚未验证","mitigation":"分音效/氛围/音乐独立生产源，保持事件语义，技术占位不得算完成"},
+    {"id":"R6","title":"清理误删合法许可或私有审计历史","mitigation":"区分产品内容和研究历史，必要引擎/字体声明白名单保留"},
+    {"id":"R7","title":"旧schema被误解为新的玩法","mitigation":"数据以当前有效结果为准；Animation忽略与Testing=2显式验证"},
+    {"id":"R8","title":"保存迁移误读原游戏或破坏现有夜市配置","mitigation":"只在本产品身份读旧键，先核对写入再标记，QA隔离与幂等验证"}
+  ],
+  "finalGates": ["original_game_asset_dependency_zero","own_provenance_complete","semantic_naming_review_complete","binding_and_serialization_integrity","behavior_trace_parity","visual_and_hit_region_acceptance","audio_complete_listening","native_full_flow","save_migration_idempotence","current_source_build_evidence","recoverable_private_backup","all_existing_Steam_gates_still_required"],
+  "estimationPolicy": "不在音频生产能力、完整原生基线与新资产重建试做之前承诺天数；M0/M1完成后按实测单位产能估剩余，不能以批量改名次数计完成。"
+}

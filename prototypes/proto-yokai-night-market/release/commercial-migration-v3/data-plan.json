@@ -1,0 +1,4716 @@
+{
+  "status": "proposal_not_migrated",
+  "fieldMapping": {
+    "ID": "cardId or commissionId by table",
+    "Type": "kind",
+    "Turns": "workTurns",
+    "Target": "targetPolicy",
+    "Function": "effect",
+    "Num": "quantity",
+    "Repair": "repairTags",
+    "Picture": "illustrationId",
+    "Platform": "districtId",
+    "ENG": "zh-Hans",
+    "SPA": "en"
+  },
+  "jobs": [
+    {
+      "old": "Sound",
+      "new": "Guests",
+      "label": "招客",
+      "ordinal": 0
+    },
+    {
+      "old": "Programming",
+      "new": "Cooking",
+      "label": "备餐",
+      "ordinal": 1
+    },
+    {
+      "old": "Design",
+      "new": "Stocking",
+      "label": "备货",
+      "ordinal": 2
+    },
+    {
+      "old": "Art",
+      "new": "Lanterns",
+      "label": "挂灯",
+      "ordinal": 3
+    },
+    {
+      "old": "Testing",
+      "new": "Wards",
+      "label": "布符",
+      "ordinal": 4
+    }
+  ],
+  "cards": [
+    {
+      "oldId": 1,
+      "newId": "nm.card.001",
+      "stableRuleIndex": 1,
+      "name": "阿铃·快工",
+      "category": 0,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGuy"
+    },
+    {
+      "oldId": 2,
+      "newId": "nm.card.002",
+      "stableRuleIndex": 2,
+      "name": "小哨·快工",
+      "category": 0,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGirl"
+    },
+    {
+      "oldId": 3,
+      "newId": "nm.card.003",
+      "stableRuleIndex": 3,
+      "name": "鼓豆·慢工",
+      "category": 0,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGuy"
+    },
+    {
+      "oldId": 4,
+      "newId": "nm.card.004",
+      "stableRuleIndex": 4,
+      "name": "柳声·慢工",
+      "category": 0,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGuy"
+    },
+    {
+      "oldId": 5,
+      "newId": "nm.card.005",
+      "stableRuleIndex": 5,
+      "name": "铜姨·快工",
+      "category": 0,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGirl"
+    },
+    {
+      "oldId": 6,
+      "newId": "nm.card.006",
+      "stableRuleIndex": 6,
+      "name": "苔笛·慢工",
+      "category": 0,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "SNDGirl"
+    },
+    {
+      "oldId": 7,
+      "newId": "nm.card.007",
+      "stableRuleIndex": 7,
+      "name": "锅青·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 8,
+      "newId": "nm.card.008",
+      "stableRuleIndex": 8,
+      "name": "火栗·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 9,
+      "newId": "nm.card.009",
+      "stableRuleIndex": 9,
+      "name": "面团·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 10,
+      "newId": "nm.card.010",
+      "stableRuleIndex": 10,
+      "name": "荷婶·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 11,
+      "newId": "nm.card.011",
+      "stableRuleIndex": 11,
+      "name": "盐尾·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 12,
+      "newId": "nm.card.012",
+      "stableRuleIndex": 12,
+      "name": "炭伯·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGirl"
+    },
+    {
+      "oldId": 13,
+      "newId": "nm.card.013",
+      "stableRuleIndex": 13,
+      "name": "姜黄·快工",
+      "category": 1,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGirl"
+    },
+    {
+      "oldId": 14,
+      "newId": "nm.card.014",
+      "stableRuleIndex": 14,
+      "name": "米满·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 15,
+      "newId": "nm.card.015",
+      "stableRuleIndex": 15,
+      "name": "汤白·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 16,
+      "newId": "nm.card.016",
+      "stableRuleIndex": 16,
+      "name": "藕节·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGirl"
+    },
+    {
+      "oldId": 17,
+      "newId": "nm.card.017",
+      "stableRuleIndex": 17,
+      "name": "椒九·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGirl"
+    },
+    {
+      "oldId": 18,
+      "newId": "nm.card.018",
+      "stableRuleIndex": 18,
+      "name": "灶婆·慢工",
+      "category": 1,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "PRGGuy"
+    },
+    {
+      "oldId": 19,
+      "newId": "nm.card.019",
+      "stableRuleIndex": 19,
+      "name": "筐子·快工",
+      "category": 2,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGirl"
+    },
+    {
+      "oldId": 20,
+      "newId": "nm.card.020",
+      "stableRuleIndex": 20,
+      "name": "苇舟·快工",
+      "category": 2,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGirl"
+    },
+    {
+      "oldId": 21,
+      "newId": "nm.card.021",
+      "stableRuleIndex": 21,
+      "name": "账梨·快工",
+      "category": 2,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGuy"
+    },
+    {
+      "oldId": 22,
+      "newId": "nm.card.022",
+      "stableRuleIndex": 22,
+      "name": "石背·慢工",
+      "category": 2,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGuy"
+    },
+    {
+      "oldId": 23,
+      "newId": "nm.card.023",
+      "stableRuleIndex": 23,
+      "name": "麻绳·慢工",
+      "category": 2,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGirl"
+    },
+    {
+      "oldId": 24,
+      "newId": "nm.card.024",
+      "stableRuleIndex": 24,
+      "name": "纸秤·慢工",
+      "category": 2,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "DSGGuy"
+    },
+    {
+      "oldId": 25,
+      "newId": "nm.card.025",
+      "stableRuleIndex": 25,
+      "name": "灯芽·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 26,
+      "newId": "nm.card.026",
+      "stableRuleIndex": 26,
+      "name": "布云·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 27,
+      "newId": "nm.card.027",
+      "stableRuleIndex": 27,
+      "name": "墨角·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 28,
+      "newId": "nm.card.028",
+      "stableRuleIndex": 28,
+      "name": "伞扣·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 29,
+      "newId": "nm.card.029",
+      "stableRuleIndex": 29,
+      "name": "绣点·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 30,
+      "newId": "nm.card.030",
+      "stableRuleIndex": 30,
+      "name": "竹影·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGuy"
+    },
+    {
+      "oldId": 31,
+      "newId": "nm.card.031",
+      "stableRuleIndex": 31,
+      "name": "漆月·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 32,
+      "newId": "nm.card.032",
+      "stableRuleIndex": 32,
+      "name": "帘子·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 33,
+      "newId": "nm.card.033",
+      "stableRuleIndex": 33,
+      "name": "瓦圆·快工",
+      "category": 3,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 34,
+      "newId": "nm.card.034",
+      "stableRuleIndex": 34,
+      "name": "线雀·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 35,
+      "newId": "nm.card.035",
+      "stableRuleIndex": 35,
+      "name": "叶牌·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 36,
+      "newId": "nm.card.036",
+      "stableRuleIndex": 36,
+      "name": "色婆·慢工",
+      "category": 3,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "ARTGirl"
+    },
+    {
+      "oldId": 37,
+      "newId": "nm.card.037",
+      "stableRuleIndex": 37,
+      "name": "符青·快工",
+      "category": 4,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGirl"
+    },
+    {
+      "oldId": 38,
+      "newId": "nm.card.038",
+      "stableRuleIndex": 38,
+      "name": "门石·快工",
+      "category": 4,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGuy"
+    },
+    {
+      "oldId": 39,
+      "newId": "nm.card.039",
+      "stableRuleIndex": 39,
+      "name": "绳七·快工",
+      "category": 4,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGuy"
+    },
+    {
+      "oldId": 40,
+      "newId": "nm.card.040",
+      "stableRuleIndex": 40,
+      "name": "夜巡·慢工",
+      "category": 4,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGuy"
+    },
+    {
+      "oldId": 41,
+      "newId": "nm.card.041",
+      "stableRuleIndex": 41,
+      "name": "砂眼·慢工",
+      "category": 4,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGirl"
+    },
+    {
+      "oldId": 42,
+      "newId": "nm.card.042",
+      "stableRuleIndex": 42,
+      "name": "印婆·慢工",
+      "category": 4,
+      "turns": 4,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "TSTGirl"
+    },
+    {
+      "oldId": 43,
+      "newId": "nm.card.043",
+      "stableRuleIndex": 43,
+      "name": "小鬼闹场",
+      "category": 6,
+      "turns": 1,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Meeting"
+    },
+    {
+      "oldId": 44,
+      "newId": "nm.card.044",
+      "stableRuleIndex": 44,
+      "name": "阴雨漏棚",
+      "category": 6,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Light Off"
+    },
+    {
+      "oldId": 45,
+      "newId": "nm.card.045",
+      "stableRuleIndex": 45,
+      "name": "暴雨封街",
+      "category": 6,
+      "turns": 3,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Light Off"
+    },
+    {
+      "oldId": 46,
+      "newId": "nm.card.046",
+      "stableRuleIndex": 46,
+      "name": "无名怪风",
+      "category": 6,
+      "turns": 1,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Attack"
+    },
+    {
+      "oldId": 47,
+      "newId": "nm.card.047",
+      "stableRuleIndex": 47,
+      "name": "灯线短路",
+      "category": 6,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Crash"
+    },
+    {
+      "oldId": 48,
+      "newId": "nm.card.048",
+      "stableRuleIndex": 48,
+      "name": "灯芯熄灭",
+      "category": 6,
+      "turns": 1,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Crash"
+    },
+    {
+      "oldId": 49,
+      "newId": "nm.card.049",
+      "stableRuleIndex": 49,
+      "name": "河雾淹摊",
+      "category": 6,
+      "turns": 3,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Light Off"
+    },
+    {
+      "oldId": 50,
+      "newId": "nm.card.050",
+      "stableRuleIndex": 50,
+      "name": "伞海堵门",
+      "category": 6,
+      "turns": 2,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Light Off"
+    },
+    {
+      "oldId": 51,
+      "newId": "nm.card.051",
+      "stableRuleIndex": 51,
+      "name": "嗓子冒烟",
+      "category": 6,
+      "turns": 1,
+      "target": 0,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 52,
+      "newId": "nm.card.052",
+      "stableRuleIndex": 52,
+      "name": "铜铃失声",
+      "category": 6,
+      "turns": 1,
+      "target": 0,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 53,
+      "newId": "nm.card.053",
+      "stableRuleIndex": 53,
+      "name": "锅底结冰",
+      "category": 6,
+      "turns": 1,
+      "target": 1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 54,
+      "newId": "nm.card.054",
+      "stableRuleIndex": 54,
+      "name": "灶火离家",
+      "category": 6,
+      "turns": 1,
+      "target": 1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 55,
+      "newId": "nm.card.055",
+      "stableRuleIndex": 55,
+      "name": "汤勺打结",
+      "category": 6,
+      "turns": 1,
+      "target": 1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 56,
+      "newId": "nm.card.056",
+      "stableRuleIndex": 56,
+      "name": "货单迷路",
+      "category": 6,
+      "turns": 1,
+      "target": 2,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 57,
+      "newId": "nm.card.057",
+      "stableRuleIndex": 57,
+      "name": "筐底漏风",
+      "category": 6,
+      "turns": 1,
+      "target": 2,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 58,
+      "newId": "nm.card.058",
+      "stableRuleIndex": 58,
+      "name": "灯笼乱跑",
+      "category": 6,
+      "turns": 1,
+      "target": 3,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 59,
+      "newId": "nm.card.059",
+      "stableRuleIndex": 59,
+      "name": "彩布褪色",
+      "category": 6,
+      "turns": 1,
+      "target": 3,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 60,
+      "newId": "nm.card.060",
+      "stableRuleIndex": 60,
+      "name": "招牌倒挂",
+      "category": 6,
+      "turns": 1,
+      "target": 3,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 61,
+      "newId": "nm.card.061",
+      "stableRuleIndex": 61,
+      "name": "符绳打结",
+      "category": 6,
+      "turns": 1,
+      "target": 4,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 62,
+      "newId": "nm.card.062",
+      "stableRuleIndex": 62,
+      "name": "安检瞌睡",
+      "category": 6,
+      "turns": 1,
+      "target": 4,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Bug"
+    },
+    {
+      "oldId": 63,
+      "newId": "nm.card.063",
+      "stableRuleIndex": 63,
+      "name": "隔摊借工",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Hunger"
+    },
+    {
+      "oldId": 64,
+      "newId": "nm.card.064",
+      "stableRuleIndex": 64,
+      "name": "铃诱跳槽",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Hunger"
+    },
+    {
+      "oldId": 65,
+      "newId": "nm.card.065",
+      "stableRuleIndex": 65,
+      "name": "送回歇息",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Sick"
+    },
+    {
+      "oldId": 66,
+      "newId": "nm.card.066",
+      "stableRuleIndex": 66,
+      "name": "灯会请假",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Holidays"
+    },
+    {
+      "oldId": 67,
+      "newId": "nm.card.067",
+      "stableRuleIndex": 67,
+      "name": "闹脾气回家",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Resignation"
+    },
+    {
+      "oldId": 68,
+      "newId": "nm.card.068",
+      "stableRuleIndex": 68,
+      "name": "解散小工",
+      "category": 7,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Door"
+    },
+    {
+      "oldId": 69,
+      "newId": "nm.card.069",
+      "stableRuleIndex": 69,
+      "name": "齐心搭把手",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All forward"
+    },
+    {
+      "oldId": 70,
+      "newId": "nm.card.070",
+      "stableRuleIndex": 70,
+      "name": "趁月赶工",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All forward"
+    },
+    {
+      "oldId": 71,
+      "newId": "nm.card.071",
+      "stableRuleIndex": 71,
+      "name": "顺风开干",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All forward"
+    },
+    {
+      "oldId": 72,
+      "newId": "nm.card.072",
+      "stableRuleIndex": 72,
+      "name": "百妖搭棚",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All finish"
+    },
+    {
+      "oldId": 73,
+      "newId": "nm.card.073",
+      "stableRuleIndex": 73,
+      "name": "邻摊来帮",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All finish"
+    },
+    {
+      "oldId": 74,
+      "newId": "nm.card.074",
+      "stableRuleIndex": 74,
+      "name": "一夜收齐",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All finish"
+    },
+    {
+      "oldId": 75,
+      "newId": "nm.card.075",
+      "stableRuleIndex": 75,
+      "name": "旧物显灵",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 2,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All finish"
+    },
+    {
+      "oldId": 76,
+      "newId": "nm.card.076",
+      "stableRuleIndex": 76,
+      "name": "随手好活",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All depts"
+    },
+    {
+      "oldId": 77,
+      "newId": "nm.card.077",
+      "stableRuleIndex": 77,
+      "name": "跨摊支援",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All depts"
+    },
+    {
+      "oldId": 78,
+      "newId": "nm.card.078",
+      "stableRuleIndex": 78,
+      "name": "多面帮工",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "All depts"
+    },
+    {
+      "oldId": 79,
+      "newId": "nm.card.079",
+      "stableRuleIndex": 79,
+      "name": "以小见好",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 3,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "List"
+    },
+    {
+      "oldId": 80,
+      "newId": "nm.card.080",
+      "stableRuleIndex": 80,
+      "name": "减一道手续",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 3,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "List"
+    },
+    {
+      "oldId": 81,
+      "newId": "nm.card.081",
+      "stableRuleIndex": 81,
+      "name": "够用就行",
+      "category": 8,
+      "turns": 0,
+      "target": -1,
+      "function": 3,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "List"
+    },
+    {
+      "oldId": 82,
+      "newId": "nm.card.082",
+      "stableRuleIndex": 82,
+      "name": "补雨布",
+      "category": 9,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "44|45|49|50",
+      "oldPicture": "ITGuy"
+    },
+    {
+      "oldId": 83,
+      "newId": "nm.card.083",
+      "stableRuleIndex": 83,
+      "name": "扎好棚角",
+      "category": 9,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "44|45|49|50",
+      "oldPicture": "ITGuy"
+    },
+    {
+      "oldId": 84,
+      "newId": "nm.card.084",
+      "stableRuleIndex": 84,
+      "name": "疏开水路",
+      "category": 9,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "44|45|49|50",
+      "oldPicture": "ITGuy"
+    },
+    {
+      "oldId": 85,
+      "newId": "nm.card.085",
+      "stableRuleIndex": 85,
+      "name": "换灯芯",
+      "category": 9,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "47|48",
+      "oldPicture": "ITGirl"
+    },
+    {
+      "oldId": 86,
+      "newId": "nm.card.086",
+      "stableRuleIndex": 86,
+      "name": "接好灯线",
+      "category": 9,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "47|48",
+      "oldPicture": "ITGirl"
+    },
+    {
+      "oldId": 87,
+      "newId": "nm.card.087",
+      "stableRuleIndex": 87,
+      "name": "狸掌柜说和",
+      "category": 10,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Negotiator"
+    },
+    {
+      "oldId": 88,
+      "newId": "nm.card.088",
+      "stableRuleIndex": 88,
+      "name": "纸书记调停",
+      "category": 10,
+      "turns": 0,
+      "target": -1,
+      "function": 0,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Negotiator"
+    },
+    {
+      "oldId": 89,
+      "newId": "nm.card.089",
+      "stableRuleIndex": 89,
+      "name": "添两锅热食",
+      "category": 11,
+      "turns": 0,
+      "target": 1,
+      "function": 0,
+      "amount": 2,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 90,
+      "newId": "nm.card.090",
+      "stableRuleIndex": 90,
+      "name": "加一批货架",
+      "category": 11,
+      "turns": 0,
+      "target": 2,
+      "function": 0,
+      "amount": 1,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 91,
+      "newId": "nm.card.091",
+      "stableRuleIndex": 91,
+      "name": "添两组灯彩",
+      "category": 11,
+      "turns": 0,
+      "target": 3,
+      "function": 0,
+      "amount": 2,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 92,
+      "newId": "nm.card.092",
+      "stableRuleIndex": 92,
+      "name": "再巡一遍",
+      "category": 11,
+      "turns": 0,
+      "target": 4,
+      "function": 0,
+      "amount": 1,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 93,
+      "newId": "nm.card.093",
+      "stableRuleIndex": 93,
+      "name": "再吆喝一轮",
+      "category": 11,
+      "turns": 0,
+      "target": 0,
+      "function": 0,
+      "amount": 1,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 94,
+      "newId": "nm.card.094",
+      "stableRuleIndex": 94,
+      "name": "门牌复查",
+      "category": 11,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Phone"
+    },
+    {
+      "oldId": 95,
+      "newId": "nm.card.095",
+      "stableRuleIndex": 95,
+      "name": "通路复核",
+      "category": 11,
+      "turns": 0,
+      "target": -1,
+      "function": 1,
+      "amount": 0,
+      "repair": "",
+      "oldPicture": "Phone"
+    }
+  ],
+  "commissions": [
+    {
+      "oldId": 1,
+      "newId": "nm.commission.001",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 4,
+        "Stocking": 1,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 2,
+      "newId": "nm.commission.002",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 4,
+        "Stocking": 1,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 3,
+      "newId": "nm.commission.003",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 5,
+        "Stocking": 1,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 4,
+      "newId": "nm.commission.004",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 5,
+        "Stocking": 1,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 5,
+      "newId": "nm.commission.005",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 5,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 6,
+      "newId": "nm.commission.006",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 5,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 7,
+      "newId": "nm.commission.007",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 4,
+        "Stocking": 1,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 8,
+      "newId": "nm.commission.008",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 4,
+        "Stocking": 1,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 9,
+      "newId": "nm.commission.009",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 10,
+      "newId": "nm.commission.010",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 11,
+      "newId": "nm.commission.011",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 5,
+        "Stocking": 2,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 12,
+      "newId": "nm.commission.012",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 2,
+        "Stocking": 2,
+        "Lanterns": 5,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 13,
+      "newId": "nm.commission.013",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 5,
+        "Stocking": 2,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 14,
+      "newId": "nm.commission.014",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 2,
+        "Stocking": 2,
+        "Lanterns": 5,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 15,
+      "newId": "nm.commission.015",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 16,
+      "newId": "nm.commission.016",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 17,
+      "newId": "nm.commission.017",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 4,
+        "Stocking": 1,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 18,
+      "newId": "nm.commission.018",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 4,
+        "Stocking": 2,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 19,
+      "newId": "nm.commission.019",
+      "requirements": {
+        "Guests": 3,
+        "Cooking": 2,
+        "Stocking": 1,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 20,
+      "newId": "nm.commission.020",
+      "requirements": {
+        "Guests": 3,
+        "Cooking": 2,
+        "Stocking": 2,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 21,
+      "newId": "nm.commission.021",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 4,
+        "Stocking": 3,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 22,
+      "newId": "nm.commission.022",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 2,
+        "Stocking": 2,
+        "Lanterns": 4,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 23,
+      "newId": "nm.commission.023",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 3,
+        "Stocking": 2,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 24,
+      "newId": "nm.commission.024",
+      "requirements": {
+        "Guests": 2,
+        "Cooking": 3,
+        "Stocking": 3,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 25,
+      "newId": "nm.commission.025",
+      "requirements": {
+        "Guests": 3,
+        "Cooking": 2,
+        "Stocking": 2,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 26,
+      "newId": "nm.commission.026",
+      "requirements": {
+        "Guests": 3,
+        "Cooking": 2,
+        "Stocking": 1,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 27,
+      "newId": "nm.commission.027",
+      "requirements": {
+        "Guests": 1,
+        "Cooking": 2,
+        "Stocking": 3,
+        "Lanterns": 3,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    },
+    {
+      "oldId": 28,
+      "newId": "nm.commission.028",
+      "requirements": {
+        "Guests": 3,
+        "Cooking": 3,
+        "Stocking": 3,
+        "Lanterns": 2,
+        "Wards": 2
+      },
+      "wardDefaultMaterialized": 2,
+      "ignoredHistoricalAnimationNotImported": true
+    }
+  ],
+  "texts": [
+    {
+      "old": "",
+      "new": "nm.text.000",
+      "zh": "",
+      "en": "",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Pause",
+      "new": "nm.text.001",
+      "zh": "设置",
+      "en": "Options",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Resume",
+      "new": "nm.text.002",
+      "zh": "继续",
+      "en": "Resume",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "NextTurn",
+      "new": "nm.text.003",
+      "zh": "结束本轮",
+      "en": "End turn",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "AutoPause",
+      "new": "nm.text.004",
+      "zh": "逐牌停顿",
+      "en": "Pause per Card",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "FastMode",
+      "new": "nm.text.005",
+      "zh": "快进",
+      "en": "Fast Mode",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Tutorial",
+      "new": "nm.text.006",
+      "zh": "教学",
+      "en": "Tutorial",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "PlayAgain",
+      "new": "nm.text.007",
+      "zh": "再开一摊",
+      "en": "Open Again",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "DisableAutoPause",
+      "new": "nm.text.008",
+      "zh": "关闭逐步暂停",
+      "en": "Disable step pauses",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Continue",
+      "new": "nm.text.009",
+      "zh": "点击继续",
+      "en": "Continue",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "ClickToUse",
+      "new": "nm.text.010",
+      "zh": "点击调停",
+      "en": "Click to mediate",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Recruiting",
+      "new": "nm.text.011",
+      "zh": "招募帮工",
+      "en": "Hiring helpers",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SelectingProjects",
+      "new": "nm.text.012",
+      "zh": "抽取开摊委托",
+      "en": "Drawing stall orders",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "YourTurn",
+      "new": "nm.text.013",
+      "zh": "轮到你了",
+      "en": "Your turn",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "AITurn",
+      "new": "nm.text.014",
+      "zh": "隔壁正在忙",
+      "en": "Rival's turn",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "YouWin",
+      "new": "nm.text.015",
+      "zh": "你的夜市开张了",
+      "en": "Your market is open!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "YouLose",
+      "new": "nm.text.016",
+      "zh": "隔壁先开张了",
+      "en": "The rival opened first!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "AI",
+      "new": "nm.text.017",
+      "zh": "隔壁摊",
+      "en": "Rival stall",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "PLAYER",
+      "new": "nm.text.018",
+      "zh": "你的摊",
+      "en": "Your stall",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Player",
+      "new": "nm.text.019",
+      "zh": "你",
+      "en": "You",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "YOURPROJECT",
+      "new": "nm.text.020",
+      "zh": "我的摊位",
+      "en": "My stall",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "EDIT",
+      "new": "nm.text.021",
+      "zh": "改名",
+      "en": "Rename",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Design",
+      "new": "nm.text.022",
+      "zh": "备货",
+      "en": "Supplies",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Programming",
+      "new": "nm.text.023",
+      "zh": "备餐",
+      "en": "Food",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Art",
+      "new": "nm.text.024",
+      "zh": "挂灯",
+      "en": "Lanterns",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Testing",
+      "new": "nm.text.025",
+      "zh": "布符",
+      "en": "Wards",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Sound",
+      "new": "nm.text.026",
+      "zh": "招客",
+      "en": "Guests",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SOUND DESIGNER",
+      "new": "nm.text.027",
+      "zh": "招客帮工",
+      "en": "CALLER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SOUND DESIGNERGirl",
+      "new": "nm.text.028",
+      "zh": "招客帮工",
+      "en": "CALLER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "PROGRAMMER",
+      "new": "nm.text.029",
+      "zh": "备餐帮工",
+      "en": "COOK",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "PROGRAMMERGirl",
+      "new": "nm.text.030",
+      "zh": "备餐帮工",
+      "en": "COOK",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "DESIGNER",
+      "new": "nm.text.031",
+      "zh": "备货帮工",
+      "en": "SUPPLIER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "DESIGNERGirl",
+      "new": "nm.text.032",
+      "zh": "备货帮工",
+      "en": "SUPPLIER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "ARTIST",
+      "new": "nm.text.033",
+      "zh": "挂灯帮工",
+      "en": "LAMPLIGHTER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TESTER",
+      "new": "nm.text.034",
+      "zh": "布符帮工",
+      "en": "WARD KEEPER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TESTERGirl",
+      "new": "nm.text.035",
+      "zh": "布符帮工",
+      "en": "WARD KEEPER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "OUCH",
+      "new": "nm.text.036",
+      "zh": "闹场",
+      "en": "TROUBLE",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "INSTA-OUCH",
+      "new": "nm.text.037",
+      "zh": "挖角",
+      "en": "INTERVENTION",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "COOL",
+      "new": "nm.text.038",
+      "zh": "搭把手",
+      "en": "A HELPING HAND",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SPECIAL",
+      "new": "nm.text.039",
+      "zh": "修补",
+      "en": "REPAIR",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "DIRECTION",
+      "new": "nm.text.040",
+      "zh": "调停",
+      "en": "MEDIATOR",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "HEADQUARTERS",
+      "new": "nm.text.041",
+      "zh": "巡街",
+      "en": "INSPECTION",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "PROJECT",
+      "new": "nm.text.042",
+      "zh": "委托",
+      "en": "ORDER",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Week",
+      "new": "nm.text.043",
+      "zh": "轮次",
+      "en": "Turn ",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "MoneySymbol",
+      "new": "nm.text.044",
+      "zh": "文",
+      "en": " copper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "NewRecord",
+      "new": "nm.text.045",
+      "zh": "新纪录",
+      "en": "New record",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SCORECARDTITLE",
+      "new": "nm.text.046",
+      "zh": "夜市功劳簿",
+      "en": "Market Ledger",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Welcome",
+      "new": "nm.text.047",
+      "zh": "欢迎来到妖怪夜市！",
+      "en": "Welcome to the Yokai Night Market!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Obj",
+      "new": "nm.text.048",
+      "zh": "比隔壁先备好摊位，就算赢。",
+      "en": "Get your stall ready before the rival to win.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Para",
+      "new": "nm.text.049",
+      "zh": "双方各抽一份委托。\n数字左边是已做的，右边是要做的。",
+      "en": "Each stall draws an order.\nThe left number is work done; the right is work needed.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Turno",
+      "new": "nm.text.050",
+      "zh": "轮到你时，先自动修补、让帮工干活，再补牌。\n接着可以连续出牌，准备好了就结束本轮。",
+      "en": "Your turn starts with repairs, helper work and a draw.\nThen play your cards and end the turn when ready.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Cada",
+      "new": "nm.text.051",
+      "zh": "帮工干两轮或四轮，做完一项就离岗。\n本轮先招哪个岗位，后面就只能招这个岗位。",
+      "en": "Helpers finish one task in two or four turns, then leave.\nThe first helper hired sets the department for this turn.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Termina",
+      "new": "nm.text.052",
+      "zh": "招客、备餐、备货、挂灯、布符，五栏都做够就开摊。\n哪边先做够，哪边立刻获胜。",
+      "en": "Complete the guests, food, supplies, lanterns and wards.\nThe first stall to meet all five goals wins immediately.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Cont",
+      "new": "nm.text.053",
+      "zh": "继续认识夜市里的牌。",
+      "en": "Meet the market cards.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Dev",
+      "new": "nm.text.054",
+      "zh": "帮工：到自己摊位干活，做完一项就离岗。",
+      "en": "Helpers finish a task at your stall, then leave.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Neg",
+      "new": "nm.text.055",
+      "zh": "闹场让隔壁停工；挖角可以带走隔壁的帮工。",
+      "en": "Trouble stops rival work. Interventions move rival helpers.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Pos",
+      "new": "nm.text.056",
+      "zh": "搭把手：帮着赶工、完工，或减少要做的事。",
+      "en": "Helping hands advance or finish work, or reduce goals.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Esp",
+      "new": "nm.text.057",
+      "zh": "修补处理指定闹场；巡街倒计时内可以用调停。",
+      "en": "Repairs fix listed trouble; mediators stop inspections.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Juega",
+      "new": "nm.text.058",
+      "zh": "点牌使用；空格或右键结束本轮，Tab 快进。",
+      "en": "Click to play; Space/right-click: end turn; Tab: speed up.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO2_Buena",
+      "new": "nm.text.059",
+      "zh": "牌都认识了，来开摊吧！",
+      "en": "Use a mediator before time runs out. Let's open the stall!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_-1",
+      "new": "nm.text.060",
+      "zh": "可以使用",
+      "en": "Ready to play",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_0",
+      "new": "nm.text.061",
+      "zh": "还没轮到你",
+      "en": "Wait for your shift",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_1",
+      "new": "nm.text.062",
+      "zh": "五个帮工位已满",
+      "en": "All five helper slots are occupied",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_2",
+      "new": "nm.text.063",
+      "zh": "本轮只能再招已选岗位的帮工",
+      "en": "Hire from the department already chosen this turn",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_3",
+      "new": "nm.text.064",
+      "zh": "隔壁五个闹场位已满",
+      "en": "All rival trouble slots are occupied",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_4",
+      "new": "nm.text.065",
+      "zh": "隔壁没有在岗帮工",
+      "en": "The rival has no working helpers",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_5",
+      "new": "nm.text.066",
+      "zh": "隔壁还没有完成工作",
+      "en": "The rival has no completed tasks",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_6",
+      "new": "nm.text.067",
+      "zh": "这位帮工正在隔壁干活",
+      "en": "This helper is already working for the rival",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_7",
+      "new": "nm.text.068",
+      "zh": "没有能继续干活的帮工",
+      "en": "No helper can advance their work",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_8",
+      "new": "nm.text.069",
+      "zh": "手里没有帮工牌",
+      "en": "No helper card in hand",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "REASON_9",
+      "new": "nm.text.070",
+      "zh": "没有对应闹场，或已错过调停时机",
+      "en": "No matching trouble, or the mediator window has closed",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "AFFECT",
+      "new": "nm.text.071",
+      "zh": "受影响：",
+      "en": "Affects: ",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_Anna",
+      "new": "nm.text.072",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_Abel",
+      "new": "nm.text.073",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_Rosa",
+      "new": "nm.text.074",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_Mikis",
+      "new": "nm.text.075",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_English",
+      "new": "nm.text.076",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "TUTO_Dept_Marc",
+      "new": "nm.text.077",
+      "zh": "夜市帮工",
+      "en": "Market helper",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "ExitIn",
+      "new": "nm.text.078",
+      "zh": "即将离开：",
+      "en": "Leaving in ",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name1",
+      "new": "nm.text.079",
+      "zh": "阿铃·快工",
+      "en": "阿铃·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote1",
+      "new": "nm.text.080",
+      "zh": "铃挂这儿。巷口的人一来，我就摇。",
+      "en": "Hang the bell here. I'll ring it when\nsomeone comes.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description1",
+      "new": "nm.text.081",
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name2",
+      "new": "nm.text.082",
+      "zh": "小哨·快工",
+      "en": "小哨·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote2",
+      "new": "nm.text.083",
+      "zh": "喂，里头有热汤！别光在门口闻。",
+      "en": "Hot soup inside! Come in and try it.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description2",
+      "new": "nm.text.084",
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name3",
+      "new": "nm.text.085",
+      "zh": "鼓豆·慢工",
+      "en": "鼓豆·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote3",
+      "new": "nm.text.086",
+      "zh": "我敲三下，你们记得接着喊。",
+      "en": "I'll beat the drum three times. Then you\ncall out.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description3",
+      "new": "nm.text.087",
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name4",
+      "new": "nm.text.088",
+      "zh": "柳声·慢工",
+      "en": "柳声·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote4",
+      "new": "nm.text.089",
+      "zh": "风往桥头吹，咱们朝那边喊。",
+      "en": "The wind's headed for the bridge. Call\nthat way.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description4",
+      "new": "nm.text.090",
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name5",
+      "new": "nm.text.091",
+      "zh": "铜姨·快工",
+      "en": "铜姨·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote5",
+      "new": "nm.text.092",
+      "zh": "这口旧铃，隔两条巷都听得见。",
+      "en": "They can hear this old bell two streets\naway.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description5",
+      "new": "nm.text.093",
+      "zh": "干活 2 轮，完成一项招客工作。",
+      "en": "Work for 2 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name6",
+      "new": "nm.text.094",
+      "zh": "苔笛·慢工",
+      "en": "苔笛·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote6",
+      "new": "nm.text.095",
+      "zh": "等我吹完这段。客人爱听尾音。",
+      "en": "Let me finish. They like the last few\nnotes.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description6",
+      "new": "nm.text.096",
+      "zh": "干活 4 轮，完成一项招客工作。",
+      "en": "Work for 4 turns to finish one guest\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name7",
+      "new": "nm.text.097",
+      "zh": "锅青·快工",
+      "en": "锅青·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote7",
+      "new": "nm.text.098",
+      "zh": "尝一口？烫，先吹吹。",
+      "en": "Want a taste? Careful, it's hot.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description7",
+      "new": "nm.text.099",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name8",
+      "new": "nm.text.100",
+      "zh": "火栗·快工",
+      "en": "火栗·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote8",
+      "new": "nm.text.101",
+      "zh": "火别添了，这锅已经滚了。",
+      "en": "No more fuel. The pot's already boiling.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description8",
+      "new": "nm.text.102",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name9",
+      "new": "nm.text.103",
+      "zh": "面团·快工",
+      "en": "面团·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote9",
+      "new": "nm.text.104",
+      "zh": "别戳了，再戳包子就瘪了。",
+      "en": "Stop poking it. You'll flatten the bun.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description9",
+      "new": "nm.text.105",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name10",
+      "new": "nm.text.106",
+      "zh": "荷婶·快工",
+      "en": "荷婶·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote10",
+      "new": "nm.text.107",
+      "zh": "先把碗摆好，我这就掀盖。",
+      "en": "Set out the bowls. I'm lifting the lid.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description10",
+      "new": "nm.text.108",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name11",
+      "new": "nm.text.109",
+      "zh": "盐尾·慢工",
+      "en": "盐尾·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote11",
+      "new": "nm.text.110",
+      "zh": "盐放哪儿了？我尾巴底下？",
+      "en": "Where's the salt? Under my tail?",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description11",
+      "new": "nm.text.111",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name12",
+      "new": "nm.text.112",
+      "zh": "炭伯·快工",
+      "en": "炭伯·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote12",
+      "new": "nm.text.113",
+      "zh": "炭我看着。你去把葱切了。",
+      "en": "I'll watch the coals. You chop the\nspring onions.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description12",
+      "new": "nm.text.114",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name13",
+      "new": "nm.text.115",
+      "zh": "姜黄·快工",
+      "en": "姜黄·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote13",
+      "new": "nm.text.116",
+      "zh": "这锅添姜，那锅别放，有客人不吃。",
+      "en": "Ginger in this pot, none in that one.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description13",
+      "new": "nm.text.117",
+      "zh": "干活 2 轮，完成一项备餐工作。",
+      "en": "Work for 2 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name14",
+      "new": "nm.text.118",
+      "zh": "米满·慢工",
+      "en": "米满·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote14",
+      "new": "nm.text.119",
+      "zh": "碗递过来，别挡着饭勺。",
+      "en": "Pass me the bowl. Mind the rice scoop.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description14",
+      "new": "nm.text.120",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name15",
+      "new": "nm.text.121",
+      "zh": "汤白·慢工",
+      "en": "汤白·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote15",
+      "new": "nm.text.122",
+      "zh": "碗沿擦一擦，汤都洒外头了。",
+      "en": "Wipe the rim. The soup's spilled over.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description15",
+      "new": "nm.text.123",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name16",
+      "new": "nm.text.124",
+      "zh": "藕节·慢工",
+      "en": "藕节·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote16",
+      "new": "nm.text.125",
+      "zh": "这段藕留着，切坏了正好下汤。",
+      "en": "Keep that bit of lotus root for the\nsoup.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description16",
+      "new": "nm.text.126",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name17",
+      "new": "nm.text.127",
+      "zh": "椒九·慢工",
+      "en": "椒九·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote17",
+      "new": "nm.text.128",
+      "zh": "辣椒另放一碟，谁吃谁添。",
+      "en": "Put the chilli on the side. Let them\nchoose.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description17",
+      "new": "nm.text.129",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name18",
+      "new": "nm.text.130",
+      "zh": "灶婆·慢工",
+      "en": "灶婆·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote18",
+      "new": "nm.text.131",
+      "zh": "锅盖别拿走，我还得焖一会儿。",
+      "en": "Leave the lid. It needs a little longer.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description18",
+      "new": "nm.text.132",
+      "zh": "干活 4 轮，完成一项备餐工作。",
+      "en": "Work for 4 turns to finish one food\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name19",
+      "new": "nm.text.133",
+      "zh": "筐子·快工",
+      "en": "筐子·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote19",
+      "new": "nm.text.134",
+      "zh": "筐别装太满，提手都快断了。",
+      "en": "Don't fill the basket. The handle's\nabout to snap.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description19",
+      "new": "nm.text.135",
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name20",
+      "new": "nm.text.136",
+      "zh": "苇舟·快工",
+      "en": "苇舟·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote20",
+      "new": "nm.text.137",
+      "zh": "这包沾了河水，先摊开晾。",
+      "en": "This parcel got wet. Spread it out to\ndry.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description20",
+      "new": "nm.text.138",
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name21",
+      "new": "nm.text.139",
+      "zh": "账梨·快工",
+      "en": "账梨·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote21",
+      "new": "nm.text.140",
+      "zh": "三捆竹竿，四卷布。我再数一遍。",
+      "en": "Three bundles of poles, four rolls of\ncloth. Let me count.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description21",
+      "new": "nm.text.141",
+      "zh": "干活 2 轮，完成一项备货工作。",
+      "en": "Work for 2 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name22",
+      "new": "nm.text.142",
+      "zh": "石背·慢工",
+      "en": "石背·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote22",
+      "new": "nm.text.143",
+      "zh": "重箱我来。你把门帘掀开。",
+      "en": "I'll take the heavy box. Hold the\ncurtain up.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description22",
+      "new": "nm.text.144",
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name23",
+      "new": "nm.text.145",
+      "zh": "麻绳·慢工",
+      "en": "麻绳·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote23",
+      "new": "nm.text.146",
+      "zh": "这个结还得绕一圈，路上别散了。",
+      "en": "One more loop round that knot, or it'll\ncome loose.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description23",
+      "new": "nm.text.147",
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name24",
+      "new": "nm.text.148",
+      "zh": "纸秤·慢工",
+      "en": "纸秤·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote24",
+      "new": "nm.text.149",
+      "zh": "等秤杆停稳了再报数。",
+      "en": "Wait for the scales to settle before you\nread it.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description24",
+      "new": "nm.text.150",
+      "zh": "干活 4 轮，完成一项备货工作。",
+      "en": "Work for 4 turns to finish one\nsupply task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name25",
+      "new": "nm.text.151",
+      "zh": "灯芽·快工",
+      "en": "灯芽·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote25",
+      "new": "nm.text.152",
+      "zh": "左边那盏歪了。再往上提一点。",
+      "en": "The left lantern's crooked. Lift it a\nlittle.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description25",
+      "new": "nm.text.153",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name26",
+      "new": "nm.text.154",
+      "zh": "布云·快工",
+      "en": "布云·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote26",
+      "new": "nm.text.155",
+      "zh": "布先拉平，别把褶子缝进去了。",
+      "en": "Pull the cloth flat before you stitch\nit.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description26",
+      "new": "nm.text.156",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name27",
+      "new": "nm.text.157",
+      "zh": "墨角·快工",
+      "en": "墨角·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote27",
+      "new": "nm.text.158",
+      "zh": "墨还没干，别靠在招牌上。",
+      "en": "The ink's wet. Don't lean on the sign.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description27",
+      "new": "nm.text.159",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name28",
+      "new": "nm.text.160",
+      "zh": "伞扣·慢工",
+      "en": "伞扣·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote28",
+      "new": "nm.text.161",
+      "zh": "伞转过来，破洞朝墙。",
+      "en": "Turn the umbrella. Put the hole against\nthe wall.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description28",
+      "new": "nm.text.162",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name29",
+      "new": "nm.text.163",
+      "zh": "绣点·慢工",
+      "en": "绣点·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote29",
+      "new": "nm.text.164",
+      "zh": "最后两针。谁也别拽这条边。",
+      "en": "Two stitches left. Nobody pull on that\nedge.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description29",
+      "new": "nm.text.165",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name30",
+      "new": "nm.text.166",
+      "zh": "竹影·慢工",
+      "en": "竹影·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote30",
+      "new": "nm.text.167",
+      "zh": "扶一下竹竿，我腾只手绑绳。",
+      "en": "Hold the pole while I tie the rope.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description30",
+      "new": "nm.text.168",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name31",
+      "new": "nm.text.169",
+      "zh": "漆月·快工",
+      "en": "漆月·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote31",
+      "new": "nm.text.170",
+      "zh": "漆了两遍，今晚先别摸。",
+      "en": "Two coats of lacquer. Don't touch it\ntonight.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description31",
+      "new": "nm.text.171",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name32",
+      "new": "nm.text.172",
+      "zh": "帘子·快工",
+      "en": "帘子·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote32",
+      "new": "nm.text.173",
+      "zh": "帘子留条缝，端汤的人得过。",
+      "en": "Leave a gap in the curtain for the soup\nbowls.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description32",
+      "new": "nm.text.174",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name33",
+      "new": "nm.text.175",
+      "zh": "瓦圆·快工",
+      "en": "瓦圆·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote33",
+      "new": "nm.text.176",
+      "zh": "轻点敲，这块瓦上回就裂过。",
+      "en": "Tap gently. This tile's cracked before.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description33",
+      "new": "nm.text.177",
+      "zh": "干活 2 轮，完成一项挂灯工作。",
+      "en": "Work for 2 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name34",
+      "new": "nm.text.178",
+      "zh": "线雀·慢工",
+      "en": "线雀·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote34",
+      "new": "nm.text.179",
+      "zh": "线头呢？刚才还在我手里。",
+      "en": "Where's the end of the thread? I just\nhad it.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description34",
+      "new": "nm.text.180",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name35",
+      "new": "nm.text.181",
+      "zh": "叶牌·慢工",
+      "en": "叶牌·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote35",
+      "new": "nm.text.182",
+      "zh": "招牌钉高点，别碰着客人的角。",
+      "en": "Hang the sign higher. Mind the\ncustomers' horns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description35",
+      "new": "nm.text.183",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name36",
+      "new": "nm.text.184",
+      "zh": "色婆·慢工",
+      "en": "色婆·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote36",
+      "new": "nm.text.185",
+      "zh": "这块布褪色了，翻面还能用。",
+      "en": "The cloth's faded. We can use the other\nside.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description36",
+      "new": "nm.text.186",
+      "zh": "干活 4 轮，完成一项挂灯工作。",
+      "en": "Work for 4 turns to finish one\nlantern task.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name37",
+      "new": "nm.text.187",
+      "zh": "符青·快工",
+      "en": "符青·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote37",
+      "new": "nm.text.188",
+      "zh": "符贴正了。倒着贴，鬼也看不懂。",
+      "en": "Right way up. Even a ghost can't read it\nupside down.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description37",
+      "new": "nm.text.189",
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name38",
+      "new": "nm.text.190",
+      "zh": "门石·快工",
+      "en": "门石·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote38",
+      "new": "nm.text.191",
+      "zh": "这块石头挪开，门口要留路。",
+      "en": "Move this stone. Keep the entrance\nclear.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description38",
+      "new": "nm.text.192",
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name39",
+      "new": "nm.text.193",
+      "zh": "绳七·快工",
+      "en": "绳七·快工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote39",
+      "new": "nm.text.194",
+      "zh": "绳留长一点，回头还得解开。",
+      "en": "Leave a longer tail. We'll need to undo\nit later.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description39",
+      "new": "nm.text.195",
+      "zh": "干活 2 轮，完成一项布符工作。",
+      "en": "Work for 2 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name40",
+      "new": "nm.text.196",
+      "zh": "夜巡·慢工",
+      "en": "夜巡·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote40",
+      "new": "nm.text.197",
+      "zh": "我从桥头回来，后巷还得走一趟。",
+      "en": "The bridge is checked. I've still got\nthe back lane.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description40",
+      "new": "nm.text.198",
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name41",
+      "new": "nm.text.199",
+      "zh": "砂眼·慢工",
+      "en": "砂眼·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote41",
+      "new": "nm.text.200",
+      "zh": "柜子底下有缝，我蹲下看看。",
+      "en": "There's a gap under the cabinet. Let me\nlook.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description41",
+      "new": "nm.text.201",
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name42",
+      "new": "nm.text.202",
+      "zh": "印婆·慢工",
+      "en": "印婆·慢工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote42",
+      "new": "nm.text.203",
+      "zh": "印泥没干，别把单子摞一起。",
+      "en": "The seal's still wet. Don't stack the\npapers.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description42",
+      "new": "nm.text.204",
+      "zh": "干活 4 轮，完成一项布符工作。",
+      "en": "Work for 4 turns to finish one ward\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name43",
+      "new": "nm.text.205",
+      "zh": "小鬼闹场",
+      "en": "小鬼闹场",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote43",
+      "new": "nm.text.206",
+      "zh": "不买，先看看。让我们再挤两只进来。",
+      "en": "Just looking. Make room for two more of\nus.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description43",
+      "new": "nm.text.207",
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name44",
+      "new": "nm.text.208",
+      "zh": "阴雨漏棚",
+      "en": "阴雨漏棚",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote44",
+      "new": "nm.text.209",
+      "zh": "接雨盆呢？这儿又滴上了。",
+      "en": "Where's the basin? It's dripping again.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description44",
+      "new": "nm.text.210",
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name45",
+      "new": "nm.text.211",
+      "zh": "暴雨封街",
+      "en": "暴雨封街",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote45",
+      "new": "nm.text.212",
+      "zh": "桥头全是水，今晚谁也搬不过去。",
+      "en": "The bridge is flooded. Nothing's getting\nacross tonight.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description45",
+      "new": "nm.text.213",
+      "zh": "隔壁的所有岗位帮工停工 3 轮。",
+      "en": "Block rival helpers in all\ndepartments for 3 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name46",
+      "new": "nm.text.214",
+      "zh": "无名怪风",
+      "en": "无名怪风",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote46",
+      "new": "nm.text.215",
+      "zh": "刚摆好的筐呢？追风去吧！",
+      "en": "Where's that basket? Gone with the wind!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description46",
+      "new": "nm.text.216",
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name47",
+      "new": "nm.text.217",
+      "zh": "灯线短路",
+      "en": "灯线短路",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote47",
+      "new": "nm.text.218",
+      "zh": "先别碰线，灯还在冒火星。",
+      "en": "Leave that wire. The lamp's still\nsparking.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description47",
+      "new": "nm.text.219",
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name48",
+      "new": "nm.text.220",
+      "zh": "灯芯熄灭",
+      "en": "灯芯熄灭",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote48",
+      "new": "nm.text.221",
+      "zh": "谁吹的？刚才还亮着呢。",
+      "en": "Who blew it out? It was lit a moment\nago.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description48",
+      "new": "nm.text.222",
+      "zh": "隔壁的所有岗位帮工停工 1 轮。",
+      "en": "Block rival helpers in all\ndepartments for 1 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name49",
+      "new": "nm.text.223",
+      "zh": "河雾淹摊",
+      "en": "河雾淹摊",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote49",
+      "new": "nm.text.224",
+      "zh": "雾都钻进筐里了，货往高处搬。",
+      "en": "The mist's in the baskets. Move the\ngoods up.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description49",
+      "new": "nm.text.225",
+      "zh": "隔壁的所有岗位帮工停工 3 轮。",
+      "en": "Block rival helpers in all\ndepartments for 3 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name50",
+      "new": "nm.text.226",
+      "zh": "伞海堵门",
+      "en": "伞海堵门",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote50",
+      "new": "nm.text.227",
+      "zh": "收一收伞，后面的人过不来了。",
+      "en": "Fold your umbrellas. Nobody can get\nthrough.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description50",
+      "new": "nm.text.228",
+      "zh": "隔壁的所有岗位帮工停工 2 轮。",
+      "en": "Block rival helpers in all\ndepartments for 2 turns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name51",
+      "new": "nm.text.229",
+      "zh": "嗓子冒烟",
+      "en": "嗓子冒烟",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote51",
+      "new": "nm.text.230",
+      "zh": "咳，咳……今天先别让我喊了。",
+      "en": "Cough, cough... Someone else can call\ntoday.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description51",
+      "new": "nm.text.231",
+      "zh": "隔壁的招客帮工停工 1 轮。",
+      "en": "Block rival helpers in guest for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name52",
+      "new": "nm.text.232",
+      "zh": "铜铃失声",
+      "en": "铜铃失声",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote52",
+      "new": "nm.text.233",
+      "zh": "铃摇得挺响，怎么一点声也没有？",
+      "en": "I'm shaking the bell. Why can't I hear\nit?",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description52",
+      "new": "nm.text.234",
+      "zh": "隔壁的招客帮工停工 1 轮。",
+      "en": "Block rival helpers in guest for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name53",
+      "new": "nm.text.235",
+      "zh": "锅底结冰",
+      "en": "锅底结冰",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote53",
+      "new": "nm.text.236",
+      "zh": "这不是汤块，是整锅冻住了！",
+      "en": "That's no lump of soup. The whole pot's\nfrozen!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description53",
+      "new": "nm.text.237",
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name54",
+      "new": "nm.text.238",
+      "zh": "灶火离家",
+      "en": "灶火离家",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote54",
+      "new": "nm.text.239",
+      "zh": "回来！那团火往隔壁跑了！",
+      "en": "Come back! The flame's off to the next\nstall!",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description54",
+      "new": "nm.text.240",
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name55",
+      "new": "nm.text.241",
+      "zh": "汤勺打结",
+      "en": "汤勺打结",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote55",
+      "new": "nm.text.242",
+      "zh": "勺柄缠一起了，先别硬拽。",
+      "en": "The ladles are tangled. Don't pull so\nhard.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description55",
+      "new": "nm.text.243",
+      "zh": "隔壁的备餐帮工停工 1 轮。",
+      "en": "Block rival helpers in food for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name56",
+      "new": "nm.text.244",
+      "zh": "货单迷路",
+      "en": "货单迷路",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote56",
+      "new": "nm.text.245",
+      "zh": "按这张单子送？上面连摊名都没有。",
+      "en": "Deliver it here? This list has no stall\nname.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description56",
+      "new": "nm.text.246",
+      "zh": "隔壁的备货帮工停工 1 轮。",
+      "en": "Block rival helpers in supply for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name57",
+      "new": "nm.text.247",
+      "zh": "筐底漏风",
+      "en": "筐底漏风",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote57",
+      "new": "nm.text.248",
+      "zh": "少了一把豆子。筐底那个洞呢？",
+      "en": "We're missing some beans. Is that a hole\nin the basket?",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description57",
+      "new": "nm.text.249",
+      "zh": "隔壁的备货帮工停工 1 轮。",
+      "en": "Block rival helpers in supply for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name58",
+      "new": "nm.text.250",
+      "zh": "灯笼乱跑",
+      "en": "灯笼乱跑",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote58",
+      "new": "nm.text.251",
+      "zh": "抓住绳！灯笼又往天上跑了。",
+      "en": "Grab the cord! The lantern's flying off\nagain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description58",
+      "new": "nm.text.252",
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name59",
+      "new": "nm.text.253",
+      "zh": "彩布褪色",
+      "en": "彩布褪色",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote59",
+      "new": "nm.text.254",
+      "zh": "昨晚还是红的，一场雨就白了。",
+      "en": "It was red last night. One shower washed\nit white.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description59",
+      "new": "nm.text.255",
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name60",
+      "new": "nm.text.256",
+      "zh": "招牌倒挂",
+      "en": "招牌倒挂",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote60",
+      "new": "nm.text.257",
+      "zh": "难怪没人进来，招牌朝墙挂着呢。",
+      "en": "No wonder it's empty. The sign's facing\nthe wall.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description60",
+      "new": "nm.text.258",
+      "zh": "隔壁的挂灯帮工停工 1 轮。",
+      "en": "Block rival helpers in lantern for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name61",
+      "new": "nm.text.259",
+      "zh": "符绳打结",
+      "en": "符绳打结",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote61",
+      "new": "nm.text.260",
+      "zh": "这结谁打的？符全缠里面了。",
+      "en": "Who tied this knot? The charms are\ncaught in it.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description61",
+      "new": "nm.text.261",
+      "zh": "隔壁的布符帮工停工 1 轮。",
+      "en": "Block rival helpers in ward for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name62",
+      "new": "nm.text.262",
+      "zh": "安检瞌睡",
+      "en": "安检瞌睡",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote62",
+      "new": "nm.text.263",
+      "zh": "醒醒，后巷还没查呢。",
+      "en": "Wake up. The back lane hasn't been\nchecked.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description62",
+      "new": "nm.text.264",
+      "zh": "隔壁的布符帮工停工 1 轮。",
+      "en": "Block rival helpers in ward for 1\nturns.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name63",
+      "new": "nm.text.265",
+      "zh": "隔摊借工",
+      "en": "隔摊借工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote63",
+      "new": "nm.text.266",
+      "zh": "隔壁给你什么？我这儿也能商量。",
+      "en": "What's the other stall offering? We can\ntalk.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description63",
+      "new": "nm.text.267",
+      "zh": "选隔壁一名在岗帮工，带到自己的空位。",
+      "en": "Take one working rival helper into\nyour empty slot.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name64",
+      "new": "nm.text.268",
+      "zh": "铃诱跳槽",
+      "en": "铃诱跳槽",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote64",
+      "new": "nm.text.269",
+      "zh": "听这铃声。来我摊上试试？",
+      "en": "Hear that bell? Fancy working at my\nstall?",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description64",
+      "new": "nm.text.270",
+      "zh": "选隔壁一名在岗帮工，带到自己的空位。",
+      "en": "Take one working rival helper into\nyour empty slot.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name65",
+      "new": "nm.text.271",
+      "zh": "送回歇息",
+      "en": "送回歇息",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote65",
+      "new": "nm.text.272",
+      "zh": "歇会儿吧，活先放着。",
+      "en": "Take a break. The work can wait.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description65",
+      "new": "nm.text.273",
+      "zh": "选隔壁一名在岗帮工，让他回到隔壁手牌。",
+      "en": "Return one working rival helper to\ntheir hand.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name66",
+      "new": "nm.text.274",
+      "zh": "灯会请假",
+      "en": "灯会请假",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote66",
+      "new": "nm.text.275",
+      "zh": "灯会开了？那我先回去一趟。",
+      "en": "The lantern fair's started? I'll head\nhome first.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description66",
+      "new": "nm.text.276",
+      "zh": "选隔壁一名在岗帮工，让他回到隔壁手牌。",
+      "en": "Return one working rival helper to\ntheir hand.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name67",
+      "new": "nm.text.277",
+      "zh": "闹脾气回家",
+      "en": "闹脾气回家",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote67",
+      "new": "nm.text.278",
+      "zh": "不干了！这围裙谁爱系谁系。",
+      "en": "I quit! Someone else can wear this\napron.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description67",
+      "new": "nm.text.279",
+      "zh": "选隔壁一名在岗帮工，将这张牌弃掉。",
+      "en": "Discard one working rival helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name68",
+      "new": "nm.text.280",
+      "zh": "解散小工",
+      "en": "解散小工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote68",
+      "new": "nm.text.281",
+      "zh": "散了散了，今天不在这儿干了。",
+      "en": "Pack up. We're done working here today.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description68",
+      "new": "nm.text.282",
+      "zh": "选隔壁一名在岗帮工，将这张牌弃掉。",
+      "en": "Discard one working rival helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name69",
+      "new": "nm.text.283",
+      "zh": "齐心搭把手",
+      "en": "齐心搭把手",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote69",
+      "new": "nm.text.284",
+      "zh": "一人扶一边，喊一二三就抬。",
+      "en": "Take one side each. Lift on three.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description69",
+      "new": "nm.text.285",
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name70",
+      "new": "nm.text.286",
+      "zh": "趁月赶工",
+      "en": "趁月赶工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote70",
+      "new": "nm.text.287",
+      "zh": "月亮还没落，咱们再做一点。",
+      "en": "The moon's still up. We can get a bit\nmore done.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description70",
+      "new": "nm.text.288",
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name71",
+      "new": "nm.text.289",
+      "zh": "顺风开干",
+      "en": "顺风开干",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote71",
+      "new": "nm.text.290",
+      "zh": "趁风小，赶紧把棚架起来。",
+      "en": "The wind's eased. Get the awning up.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description71",
+      "new": "nm.text.291",
+      "zh": "自己所有没被闹场拦住的帮工各干一次活。",
+      "en": "Advance every unblocked helper at\nyour stall once.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name72",
+      "new": "nm.text.292",
+      "zh": "百妖搭棚",
+      "en": "百妖搭棚",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote72",
+      "new": "nm.text.293",
+      "zh": "扶的扶，绑的绑，谁也别撒手。",
+      "en": "Hold it, tie it, and nobody let go.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description72",
+      "new": "nm.text.294",
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name73",
+      "new": "nm.text.295",
+      "zh": "邻摊来帮",
+      "en": "邻摊来帮",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote73",
+      "new": "nm.text.296",
+      "zh": "我那边忙完了，过来帮你收尾。",
+      "en": "I'm done over there. I'll help you\nfinish.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description73",
+      "new": "nm.text.297",
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name74",
+      "new": "nm.text.298",
+      "zh": "一夜收齐",
+      "en": "一夜收齐",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote74",
+      "new": "nm.text.299",
+      "zh": "缺的都找齐了，摆好就行。",
+      "en": "We've found the missing bits. Set them\nout.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description74",
+      "new": "nm.text.300",
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name75",
+      "new": "nm.text.301",
+      "zh": "旧物显灵",
+      "en": "旧物显灵",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote75",
+      "new": "nm.text.302",
+      "zh": "旧架子正好合适，省得再做一个。",
+      "en": "The old stand fits. No need to build\nanother.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description75",
+      "new": "nm.text.303",
+      "zh": "自己所有没被闹场拦住的帮工立即完工。",
+      "en": "Finish the current task of every\nunblocked helper.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name76",
+      "new": "nm.text.304",
+      "zh": "随手好活",
+      "en": "随手好活",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote76",
+      "new": "nm.text.305",
+      "zh": "我会一点。锅、灯、货，都能搭把手。",
+      "en": "I can help a bit with the pots, lamps or\ngoods.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description76",
+      "new": "nm.text.306",
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name77",
+      "new": "nm.text.307",
+      "zh": "跨摊支援",
+      "en": "跨摊支援",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote77",
+      "new": "nm.text.308",
+      "zh": "谁缺人就喊，我这会儿有空。",
+      "en": "Call if you need help. I'm free for a\nwhile.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description77",
+      "new": "nm.text.309",
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name78",
+      "new": "nm.text.310",
+      "zh": "多面帮工",
+      "en": "多面帮工",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote78",
+      "new": "nm.text.311",
+      "zh": "别光看围裙，我也会挂灯。",
+      "en": "Don't judge by the apron. I can hang\nlanterns too.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description78",
+      "new": "nm.text.312",
+      "zh": "本轮可以招任意岗位的帮工。",
+      "en": "Hire helpers from any department\nthis turn.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name79",
+      "new": "nm.text.313",
+      "zh": "以小见好",
+      "en": "以小见好",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote79",
+      "new": "nm.text.314",
+      "zh": "这张旧单子还能用，少抄一份。",
+      "en": "This old list will do. No need to copy\nanother.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description79",
+      "new": "nm.text.315",
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name80",
+      "new": "nm.text.316",
+      "zh": "减一道手续",
+      "en": "减一道手续",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote80",
+      "new": "nm.text.317",
+      "zh": "这项不用重报，划掉吧。",
+      "en": "No need to file this twice. Cross it\nout.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description80",
+      "new": "nm.text.318",
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name81",
+      "new": "nm.text.319",
+      "zh": "够用就行",
+      "en": "够用就行",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote81",
+      "new": "nm.text.320",
+      "zh": "先用现成的，少做一件也够开摊。",
+      "en": "Use what we have. One less job before\nopening.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description81",
+      "new": "nm.text.321",
+      "zh": "选自己的一个岗位，少做一项就能开摊。",
+      "en": "Choose a department and reduce its\nrequirement by one.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name82",
+      "new": "nm.text.322",
+      "zh": "补雨布",
+      "en": "补雨布",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote82",
+      "new": "nm.text.323",
+      "zh": "破口在这儿，垫块布再缝。",
+      "en": "The tear's here. Put a patch under it\nand stitch.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description82",
+      "new": "nm.text.324",
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name83",
+      "new": "nm.text.325",
+      "zh": "扎好棚角",
+      "en": "扎好棚角",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote83",
+      "new": "nm.text.326",
+      "zh": "棚角再扎紧点，这回别让雨掀开。",
+      "en": "Tie that corner tight. Keep the rain out\nthis time.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description83",
+      "new": "nm.text.327",
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name84",
+      "new": "nm.text.328",
+      "zh": "疏开水路",
+      "en": "疏开水路",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote84",
+      "new": "nm.text.329",
+      "zh": "扒开落叶，水就能往沟里走。",
+      "en": "Clear the leaves so the water can drain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description84",
+      "new": "nm.text.330",
+      "zh": "解除这些闹场：阴雨漏棚、暴雨封街、\n河雾淹摊或伞海堵门。",
+      "en": "Remove any of these:\n阴雨漏棚 / 暴雨封街\n河雾淹摊 / 伞海堵门.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name85",
+      "new": "nm.text.331",
+      "zh": "换灯芯",
+      "en": "换灯芯",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote85",
+      "new": "nm.text.332",
+      "zh": "旧灯芯烧完了，换根新的。",
+      "en": "The wick's burnt out. Put a new one in.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description85",
+      "new": "nm.text.333",
+      "zh": "解除这些闹场：灯线短路或灯芯熄灭。",
+      "en": "Remove either:\n灯线短路 / 灯芯熄灭.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name86",
+      "new": "nm.text.334",
+      "zh": "接好灯线",
+      "en": "接好灯线",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote86",
+      "new": "nm.text.335",
+      "zh": "断的这头接上，先别开灯。",
+      "en": "Join the broken ends. Leave the lamp off\nfor now.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description86",
+      "new": "nm.text.336",
+      "zh": "解除这些闹场：灯线短路或灯芯熄灭。",
+      "en": "Remove either:\n灯线短路 / 灯芯熄灭.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name87",
+      "new": "nm.text.337",
+      "zh": "狸掌柜说和",
+      "en": "狸掌柜说和",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote87",
+      "new": "nm.text.338",
+      "zh": "都先放下单子，咱们当面说。",
+      "en": "Put the papers down. Let's talk face to\nface.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description87",
+      "new": "nm.text.339",
+      "zh": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。",
+      "en": "Use during the inspection countdown.\nCancel the inspection and discard\nboth cards.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name88",
+      "new": "nm.text.340",
+      "zh": "纸书记调停",
+      "en": "纸书记调停",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote88",
+      "new": "nm.text.341",
+      "zh": "等一下，这条规矩得说清楚。",
+      "en": "Hold on. We need to clear up that rule.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description88",
+      "new": "nm.text.342",
+      "zh": "收到巡街牌时，在倒计时内使用。巡街无效，\n两张牌都弃掉。",
+      "en": "Use during the inspection countdown.\nCancel the inspection and discard\nboth cards.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name89",
+      "new": "nm.text.343",
+      "zh": "添两锅热食",
+      "en": "添两锅热食",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote89",
+      "new": "nm.text.344",
+      "zh": "这几样也得上桌，少了不让开。",
+      "en": "These dishes need to be on the table\nbefore you open.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description89",
+      "new": "nm.text.345",
+      "zh": "隔壁的备餐工作要多做 2 项。",
+      "en": "Add 2 tasks to the rival food\nrequirement.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name90",
+      "new": "nm.text.346",
+      "zh": "加一批货架",
+      "en": "加一批货架",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote90",
+      "new": "nm.text.347",
+      "zh": "货架不够，旁边再摆一排。",
+      "en": "Not enough shelving. Put another row\nbeside it.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description90",
+      "new": "nm.text.348",
+      "zh": "隔壁的备货工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival supply\nrequirement.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name91",
+      "new": "nm.text.349",
+      "zh": "添两组灯彩",
+      "en": "添两组灯彩",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote91",
+      "new": "nm.text.350",
+      "zh": "桥头还黑着，再挂两组。",
+      "en": "The bridge is dark. Hang two more sets\nof lights.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description91",
+      "new": "nm.text.351",
+      "zh": "隔壁的挂灯工作要多做 2 项。",
+      "en": "Add 2 tasks to the rival lantern\nrequirement.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name92",
+      "new": "nm.text.352",
+      "zh": "再巡一遍",
+      "en": "再巡一遍",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote92",
+      "new": "nm.text.353",
+      "zh": "后巷漏了，回去再巡一遍。",
+      "en": "You missed the back lane. Check it\nagain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description92",
+      "new": "nm.text.354",
+      "zh": "隔壁的布符工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival ward\nrequirement.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name93",
+      "new": "nm.text.355",
+      "zh": "再吆喝一轮",
+      "en": "再吆喝一轮",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote93",
+      "new": "nm.text.356",
+      "zh": "街口没人知道，还得再喊一轮。",
+      "en": "They haven't heard at the entrance. Call\nagain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description93",
+      "new": "nm.text.357",
+      "zh": "隔壁的招客工作要多做 1 项。",
+      "en": "Add 1 tasks to the rival guest\nrequirement.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name94",
+      "new": "nm.text.358",
+      "zh": "门牌复查",
+      "en": "门牌复查",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote94",
+      "new": "nm.text.359",
+      "zh": "先别算做完，拿单子再核一遍。",
+      "en": "Don't mark that done yet. Check the list\nagain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description94",
+      "new": "nm.text.360",
+      "zh": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。",
+      "en": "Choose a rival department with\ncompleted work; remove one completed\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Name95",
+      "new": "nm.text.361",
+      "zh": "通路复核",
+      "en": "通路复核",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Quote95",
+      "new": "nm.text.362",
+      "zh": "这处先不算，查过再记。",
+      "en": "Leave this one uncounted until it's\nchecked.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Description95",
+      "new": "nm.text.363",
+      "zh": "选隔壁一个做过工作的岗位，\n扣掉一项已完成工作。",
+      "en": "Choose a rival department with\ncompleted work; remove one completed\ntask.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title1",
+      "new": "nm.text.364",
+      "zh": "巷口第一盏",
+      "en": "巷口第一盏",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle1",
+      "new": "nm.text.365",
+      "zh": "灯先挂在巷口，晚来的客人才找得着。",
+      "en": "Light the entrance.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title2",
+      "new": "nm.text.366",
+      "zh": "两碗热汤",
+      "en": "两碗热汤",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle2",
+      "new": "nm.text.367",
+      "zh": "两位夜班客人说好了，收工来喝热汤。",
+      "en": "Soup for the night shift.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title3",
+      "new": "nm.text.368",
+      "zh": "桥头候月",
+      "en": "桥头候月",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle3",
+      "new": "nm.text.369",
+      "zh": "桥边风大，给等月亮的人留个背风位。",
+      "en": "Shelter the moon-watchers.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title4",
+      "new": "nm.text.370",
+      "zh": "风来旧货摊",
+      "en": "风来旧货摊",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle4",
+      "new": "nm.text.371",
+      "zh": "旧货擦干净再摆，轻东西别让风卷跑。",
+      "en": "Wipe down the old wares.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title5",
+      "new": "nm.text.372",
+      "zh": "河雾补棚",
+      "en": "河雾补棚",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle5",
+      "new": "nm.text.373",
+      "zh": "河雾又漫上来了，补好棚再搬货。",
+      "en": "Patch the misty awning.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title6",
+      "new": "nm.text.374",
+      "zh": "灯下裁衣会",
+      "en": "灯下裁衣会",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle6",
+      "new": "nm.text.375",
+      "zh": "衣服送来了，灯挂近一点才看得清针脚。",
+      "en": "Light the stitching.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title7",
+      "new": "nm.text.376",
+      "zh": "柳街小戏台",
+      "en": "柳街小戏台",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle7",
+      "new": "nm.text.377",
+      "zh": "小戏班今晚来，把台前那条路空出来。",
+      "en": "Clear a path for the troupe.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title8",
+      "new": "nm.text.378",
+      "zh": "回家的纸伞",
+      "en": "回家的纸伞",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle8",
+      "new": "nm.text.379",
+      "zh": "伞骨修好，最后一位客人还要走远路。",
+      "en": "Mend the last umbrella.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title9",
+      "new": "nm.text.380",
+      "zh": "子时干粮铺",
+      "en": "子时干粮铺",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle9",
+      "new": "nm.text.381",
+      "zh": "过了子时还有船，干粮包好，别沾河水。",
+      "en": "Keep the boat food dry.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title10",
+      "new": "nm.text.382",
+      "zh": "铜铃过石桥",
+      "en": "铜铃过石桥",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle10",
+      "new": "nm.text.383",
+      "zh": "铃挂桥头，搬货的听见就知道往哪儿走。",
+      "en": "Ring for bridge deliveries.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title11",
+      "new": "nm.text.384",
+      "zh": "静巷借火",
+      "en": "静巷借火",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle11",
+      "new": "nm.text.385",
+      "zh": "邻摊来借火，记得留一盆炭。",
+      "en": "Save coals for next door.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title12",
+      "new": "nm.text.386",
+      "zh": "狐尾暖锅局",
+      "en": "狐尾暖锅局",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle12",
+      "new": "nm.text.387",
+      "zh": "狐狸们订了一桌，锅边多留几个矮凳。",
+      "en": "Low stools for the foxes.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title13",
+      "new": "nm.text.388",
+      "zh": "渡口亮水摊",
+      "en": "渡口亮水摊",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle13",
+      "new": "nm.text.389",
+      "zh": "水摊摆在渡口，夜船一靠岸就看得见。",
+      "en": "Water by the landing.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title14",
+      "new": "nm.text.390",
+      "zh": "月影布篷会",
+      "en": "月影布篷会",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle14",
+      "new": "nm.text.391",
+      "zh": "篷布拉平，客人今晚就在月下坐。",
+      "en": "Seats under the canopy.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title15",
+      "new": "nm.text.392",
+      "zh": "纸窗安睡摊",
+      "en": "纸窗安睡摊",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle15",
+      "new": "nm.text.393",
+      "zh": "纸客怕吵，灯别太亮，帘子放下来。",
+      "en": "Dim lamps for paper guests.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title16",
+      "new": "nm.text.394",
+      "zh": "敲碗会朋友",
+      "en": "敲碗会朋友",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle16",
+      "new": "nm.text.395",
+      "zh": "朋友们带着碗来了，再添几张凳子。",
+      "en": "Extra stools for friends.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title17",
+      "new": "nm.text.396",
+      "zh": "黑水桥守夜",
+      "en": "黑水桥守夜",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle17",
+      "new": "nm.text.397",
+      "zh": "桥边今晚有人守夜，留灯，也留一锅热的。",
+      "en": "Hot food for the night watch.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title18",
+      "new": "nm.text.398",
+      "zh": "旧木柜开箱",
+      "en": "旧木柜开箱",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle18",
+      "new": "nm.text.399",
+      "zh": "柜子里还有没见过的旧货，一件件摆出来。",
+      "en": "Unpack the cabinet.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title19",
+      "new": "nm.text.400",
+      "zh": "灯火引归客",
+      "en": "灯火引归客",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle19",
+      "new": "nm.text.401",
+      "zh": "末班船快到了，灯挂高些，别让人走错巷。",
+      "en": "A high lamp for the last boat.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title20",
+      "new": "nm.text.402",
+      "zh": "落帘听小雨",
+      "en": "落帘听小雨",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle20",
+      "new": "nm.text.403",
+      "zh": "雨声正好，帘下摆两把椅子。",
+      "en": "Two chairs out of the rain.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title21",
+      "new": "nm.text.404",
+      "zh": "鼓声绕长街",
+      "en": "鼓声绕长街",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle21",
+      "new": "nm.text.405",
+      "zh": "鼓队沿街走，摊前别堆货挡路。",
+      "en": "Clear the drummers' path.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title22",
+      "new": "nm.text.406",
+      "zh": "两把伞留座",
+      "en": "两把伞留座",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle22",
+      "new": "nm.text.407",
+      "zh": "两把旧伞撑开，给约好的人留座。",
+      "en": "Save two umbrella seats.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title23",
+      "new": "nm.text.408",
+      "zh": "河灯照归途",
+      "en": "河灯照归途",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle23",
+      "new": "nm.text.409",
+      "zh": "送灯的客人要过河，先把岸边照亮。",
+      "en": "Light the crossing.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title24",
+      "new": "nm.text.410",
+      "zh": "纸符护小路",
+      "en": "纸符护小路",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle24",
+      "new": "nm.text.411",
+      "zh": "小路通着荒坟，符绳系好，给行人留缝。",
+      "en": "Leave a gap in the ward rope.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title25",
+      "new": "nm.text.412",
+      "zh": "锅边叙旧夜",
+      "en": "锅边叙旧夜",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle25",
+      "new": "nm.text.413",
+      "zh": "旧友们要来叙旧，大锅洗净，多备几个碗。",
+      "en": "More bowls for old friends.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title26",
+      "new": "nm.text.414",
+      "zh": "秋风摆旧货",
+      "en": "秋风摆旧货",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle26",
+      "new": "nm.text.415",
+      "zh": "秋风起了，布压住，旧货按轻重排。",
+      "en": "Weigh down the cloth.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title27",
+      "new": "nm.text.416",
+      "zh": "五巷同开张",
+      "en": "五巷同开张",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle27",
+      "new": "nm.text.417",
+      "zh": "五条巷今晚一起开摊，各摊听见铃就准备。",
+      "en": "Five lanes open at the bell.",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "Title28",
+      "new": "nm.text.418",
+      "zh": "鬼门前最后一摊",
+      "en": "鬼门前最后一摊",
+      "semanticNameReviewRequired": true
+    },
+    {
+      "old": "SubTitle28",
+      "new": "nm.text.419",
+      "zh": "摆在鬼门前，灯、汤和回去的路都要备好。",
+      "en": "Soup by the ghost gate.",
+      "semanticNameReviewRequired": true
+    }
+  ],
+  "districts": [
+    {
+      "old": "Oui",
+      "new": "nm.district.01",
+      "label": "铜铃巷"
+    },
+    {
+      "old": "X720",
+      "new": "nm.district.02",
+      "label": "河灯渡"
+    },
+    {
+      "old": "Doors OS",
+      "new": "nm.district.03",
+      "label": "雨棚街"
+    },
+    {
+      "old": "EnjoyStation",
+      "new": "nm.district.04",
+      "label": "纸月坡"
+    },
+    {
+      "old": "Touch OS",
+      "new": "nm.district.05",
+      "label": "鬼门台"
+    }
+  ],
+  "localization": {
+    "oldSlots": {
+      "ENG": "zh-Hans",
+      "SPA": "en"
+    },
+    "newLocales": [
+      "zh-Hans",
+      "en"
+    ],
+    "indicesUnchanged": [
+      0,
+      1
+    ]
+  },
+  "preferences": [
+    {
+      "old": "AutoPause",
+      "new": "nm.settings.pausePerCard",
+      "default": 1
+    },
+    {
+      "old": "FastMode",
+      "new": "nm.settings.fastMode",
+      "default": 0
+    },
+    {
+      "old": "Sound",
+      "new": "nm.settings.audioEnabled",
+      "default": 1
+    },
+    {
+      "old": "Tutorial",
+      "new": "nm.settings.tutorialEnabled",
+      "default": 1
+    },
+    {
+      "old": "Language",
+      "new": "nm.settings.language",
+      "default": 0
+    },
+    {
+      "old": "Company",
+      "new": "nm.profile.stallName",
+      "default": ""
+    }
+  ],
+  "scoreFields": [
+    {
+      "old": "ScorePts",
+      "new": "nm.ledger.points",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "old": "ScorePrj",
+      "new": "nm.ledger.commission",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "old": "ScorePlayer",
+      "new": "nm.ledger.stall",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

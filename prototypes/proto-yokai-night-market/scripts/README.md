@@ -10,6 +10,7 @@
 - `verify_version_control.py`：全部制作输入、Unity/.meta、资产源与导出、参考夹具、测试源须在 Git 索引且内容对应；缓存、截图、日志和构建须忽略。
 - `audit_steam_release.py`：只读核对研究来源、发行门槛与候选/凭证字节；`--enforce` 在当前未放行状态退出2。`test_steam_release_gates.py` 覆盖错AppID、过期证据、包变化和VDF注入等7项回归。`prepare_steam_preview.py` 仅在门槛满足后生成Preview配置，不登录/上传/发布。
 - `export_steam_media.ps1` / `verify_steam_media.py`：Steam独立宣发图的等比技术采样、Noto原生排字、尺寸/透明Logo及谱系核对；不修改游戏内82张纹理。`build_steam_release_board.py` 从release/plan.json生成本地交互式分工看板；运行/审核状态以实际证据为准。
+- `audit_commercial_migration.py`：只读盘点全部Assets、原导出相等项、82图/91音轨/字体、符号和动态绑定；`--write-plan`仅派生v3方案清单，不修改Unity输入。`verify_commercial_migration_plan.py`核对覆盖、引用、映射和当前源指纹。`build_commercial_migration_board.py`生成方案筛选看板；迁移实现/新QA均未因此执行。
 
 临时独立工程可设置 `NIGHT_MARKET_PROJECT_PATH`、`NIGHT_MARKET_ART_OUTPUT`、`NIGHT_MARKET_BUILD_OUTPUT`；最终交付默认 canonical 工程与完整 Release 目录。不能把样稿、离屏摆牌或历史结果记为当前原生通过。
 
