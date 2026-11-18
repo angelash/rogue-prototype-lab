@@ -1,0 +1,74 @@
+[
+  {
+    "id": "privacy",
+    "query": "site:developers.weixin.qq.com/minigame 隐私 运营规范 备案",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "wx-acquisition",
+    "query": "site:ad.weixin.qq.com 小游戏 投放 数据 回传",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "dy-reward",
+    "query": "site:developer.open-douyin.com 小游戏 激励视频 isEnded",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "dy-distribution",
+    "query": "site:developer.open-douyin.com 小游戏 游戏发行人计划 短视频",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "personal-data",
+    "query": "site:npc.gov.cn 个人信息保护法 第三十一条",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "publication",
+    "query": "site:nppa.gov.cn 网络出版服务管理规定 网络游戏 审批",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "overseas-ip",
+    "query": "site:developers.weixin.qq.com 小游戏 非内购 境外 授权 版号",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  },
+  {
+    "id": "settlement",
+    "query": "site:developers.weixin.qq.com 小游戏 广告 结算 分成",
+    "httpStatus": 200,
+    "resultCount": 10,
+    "status": "discarded_irrelevant_results",
+    "adopted": false,
+    "reason": "返回内容与查询主题不符，未作为证据，也未把HTTP200记为成功。"
+  }
+]
