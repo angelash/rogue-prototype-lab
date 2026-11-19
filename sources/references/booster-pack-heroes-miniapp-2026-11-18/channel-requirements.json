@@ -1,0 +1,63 @@
+{
+  "observedAt": "2026-11-18",
+  "note": "仅归档短引与摘要；完整提取文本仅作本地研究。哈希为提取正文UTF-8，不是网页原始字节。",
+  "sources": [
+    {
+      "id": "S13",
+      "title": "小游戏自审自查事项_抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/operation1/norms/specifications",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "抖音通用自审项；不能单凭此页认定本作资格。",
+      "shortQuote": "在游戏开始画面的显著位置已标明游戏批准文号、网络游戏出版号以及著作权登记号",
+      "extractedTextSha256": "ffc9eb443856ac29da4d97c9217c7c8521c354ad776f2152da48de2e665a941a",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S14",
+      "title": "抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/develop/guide/game-engine/rd-to-SCgame/unity-game-access/sc_stark_sdk",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "navigation_only",
+      "fullRead": false,
+      "summary": "仅取到目录导航；C#广告完成与服务端验证能力未读到正文，须复核。",
+      "shortQuote": "Unity 引擎适配",
+      "extractedTextSha256": "099d734023207de81a0dd77e58f01872805a09ecefcbd5d2b5f987b4424fb409",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S16",
+      "title": "注册与入驻_抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/guide/minigame/register",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "limited_text",
+      "fullRead": false,
+      "summary": "短正文说明主体认证；对公材料与账号实际条件待核实。",
+      "shortQuote": "入驻流程包含注册平台账号与主体认证 & 对公验证。",
+      "extractedTextSha256": "e8e0386cb48769fe8669945023fc271aaed4b0e98e72c5f3cdbf3a839dd8122b",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    }
+  ]
+}

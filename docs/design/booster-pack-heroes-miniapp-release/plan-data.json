@@ -1,0 +1,2189 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0",
+  "date": "2026-11-18",
+  "title": "Booster Pack Heroes 小游戏移植、广告变现与发行计划",
+  "scope": {
+    "market": "中国大陆",
+    "primary": "微信小游戏",
+    "secondary": "抖音小游戏随后验证",
+    "deliverable": "调研、计划、归档和Git提交；不执行平台写入/游戏开发"
+  },
+  "decisions": [
+    {
+      "id": "D01",
+      "status": "user_confirmed",
+      "decision": "微信先行，抖音随后验证"
+    },
+    {
+      "id": "D02",
+      "status": "user_confirmed",
+      "decision": "商业改编授权已取得，范围后续补充"
+    },
+    {
+      "id": "D03",
+      "status": "proposed",
+      "decision": "首版纯IAA；当前及未来不虚拟支付的实际声明须执行前确认"
+    },
+    {
+      "id": "D04",
+      "status": "proposed",
+      "decision": "固定或自选奖励包为提审候选，保留随机机制须先复核"
+    },
+    {
+      "id": "D05",
+      "status": "pending",
+      "decision": "最终主体、账号、发行合作、支持机型和现金预算"
+    }
+  ],
+  "roles": {
+    "PM": "助手／产品与协调",
+    "DEV": "助手／移植研发",
+    "ART": "助手／视听与界面制作",
+    "QA": "助手／质量与测试",
+    "OPS": "助手／发行与运营准备",
+    "BIZ": "用户有权主体／商务与法务，助手准备材料",
+    "FIN": "用户有权主体／财务与付款，助手复算与对账"
+  },
+  "phases": [
+    {
+      "id": "A",
+      "title": "路线与准备",
+      "startWeek": 1,
+      "endWeek": 2
+    },
+    {
+      "id": "B",
+      "title": "核心与手机化",
+      "startWeek": 2,
+      "endWeek": 5
+    },
+    {
+      "id": "C",
+      "title": "广告与数据",
+      "startWeek": 4,
+      "endWeek": 7
+    },
+    {
+      "id": "D",
+      "title": "准入与候选质量",
+      "startWeek": 2,
+      "endWeek": 8
+    },
+    {
+      "id": "E",
+      "title": "发行与推广准备",
+      "startWeek": 6,
+      "endWeek": 8
+    },
+    {
+      "id": "F",
+      "title": "微信发行与观察",
+      "startWeek": 9,
+      "endWeek": 12
+    },
+    {
+      "id": "G",
+      "title": "抖音随后验证",
+      "startWeek": 11,
+      "endWeek": 12,
+      "extendsBeyondWindow": true
+    },
+    {
+      "id": "H",
+      "title": "持续与退出预案",
+      "startWeek": 1,
+      "endWeek": 12
+    }
+  ],
+  "tasks": [
+    {
+      "id": "A01",
+      "phase": "A",
+      "title": "授权范围与商业素材权利链留档",
+      "owner": "BIZ",
+      "estimatedPersonDays": 2,
+      "dependsOn": [],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "私有授权清单、缺口与期限台账",
+      "acceptance": "已有授权按地域/平台/广告/转授权逐项映射；原件不入公开Git",
+      "evidence": "commercial/evidence/a01/ (计划路径，尚未产生)",
+      "externalDependency": "用户提供或由有权主体核对合同原件；本轮已确认获授权"
+    },
+    {
+      "id": "A02",
+      "phase": "A",
+      "title": "随机卡包与IAA/IAP准入路径核查",
+      "owner": "BIZ",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A01"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "平台条款对照、作品属性和支付声明决策",
+      "acceptance": "确认适用材料；不自行把授权海外作品当国产，或替用户承诺永不IAP",
+      "evidence": "commercial/evidence/a02/ (计划路径，尚未产生)",
+      "externalDependency": "平台/主管部门适用确认"
+    },
+    {
+      "id": "A03",
+      "phase": "A",
+      "title": "主体、AppID与权限材料准备",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "A01",
+        "A02"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "主体/账号/域名/CDN/广告权限清单",
+      "acceptance": "材料一致，权限最小化，密钥安全存储",
+      "evidence": "commercial/evidence/a03/ (计划路径，尚未产生)",
+      "externalDependency": "真实主体、账号创建与身份核验"
+    },
+    {
+      "id": "A04",
+      "phase": "A",
+      "title": "冻结可玩基线与整合缺陷清单",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "源码/依赖/规则版本与未完成流程清单",
+      "acceptance": "区分编译、模拟、真实可玩与存档I/O，不重复干扰另一还原任务",
+      "evidence": "commercial/evidence/a04/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "A05",
+      "phase": "A",
+      "title": "四款同类小游戏真实试玩对照",
+      "owner": "PM",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A02"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "微信2款+抖音2款可核对的体验记录",
+      "acceptance": "记录平台身份/版本/日期/广告点，未知收入不估填",
+      "evidence": "commercial/evidence/a05/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "A06",
+      "phase": "A",
+      "title": "首版范围、确定奖励与七日经济草案",
+      "owner": "PM",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "A02",
+        "A04",
+        "A05"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "内容表、资源流、成长与奖励版本",
+      "acceptance": "无广告可完成主循环；候选数量和延期功能明确",
+      "evidence": "commercial/evidence/a06/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B01",
+      "phase": "B",
+      "title": "核心循环整合与PC隔离回归",
+      "owner": "DEV",
+      "estimatedPersonDays": 8,
+      "dependsOn": [
+        "A04",
+        "A06"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "进入—开包—战斗—结算—成长—重试",
+      "acceptance": "真实输入完成胜负和退出；无Steam/原存档副作用",
+      "evidence": "commercial/evidence/b01/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B02",
+      "phase": "B",
+      "title": "内容ID、配置和原经济迁移审计",
+      "owner": "DEV",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A04",
+        "A06"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "版本化配置与合法内容引用清单",
+      "acceptance": "不混用旧PC规则，未知内容和被禁候选不可达",
+      "evidence": "commercial/evidence/b02/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B03",
+      "phase": "B",
+      "title": "明示内容或自选包的移动规则实现",
+      "owner": "DEV",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A02",
+        "A06",
+        "B02"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "确定奖励包、目录及配套说明",
+      "acceptance": "不得用广告/游戏币间接恢复被排除的随机购买",
+      "evidence": "commercial/evidence/b03/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B04",
+      "phase": "B",
+      "title": "官方稳定SDK与最小微信真机样件",
+      "owner": "DEV",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A03",
+        "A04"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "锁定SDK版本、模块/许可检查和真机报告",
+      "acceptance": "真实微信Android/iOS可进入；目录存在不作构建成功",
+      "evidence": "commercial/evidence/b04/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B05",
+      "phase": "B",
+      "title": "移动Shader、贴图、字体与音频适配",
+      "owner": "ART",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B04",
+        "B02"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "移动资源样件和许可清单",
+      "acceptance": "移动/WebGL渲染、中文、音频逐项验证，未复制DX11结论",
+      "evidence": "commercial/evidence/b05/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B06",
+      "phase": "B",
+      "title": "横屏触控、教程与安全区实现",
+      "owner": "ART",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B03",
+        "B04"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "主流程UI、可跳教程、可读辅助",
+      "acceptance": "多比例真机可点击、可返回，必要信息不被遮挡",
+      "evidence": "commercial/evidence/b06/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B07",
+      "phase": "B",
+      "title": "Loading与章节分层加载、缓存和CDN",
+      "owner": "DEV",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "B04",
+        "B05"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "资源包/哈希清单、版本缓存与加载错误UI",
+      "acceptance": "冷启/热启和资源失败重试可复测",
+      "evidence": "commercial/evidence/b07/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B08",
+      "phase": "B",
+      "title": "隐私同意、拒绝和撤回路径",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "A03",
+        "B04"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "数据清单、平台声明与游戏内入口",
+      "acceptance": "非必要处理在同意前不启动，拒绝保留基础体验",
+      "evidence": "commercial/evidence/b08/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B09",
+      "phase": "B",
+      "title": "独立存档、迁移与生命周期恢复",
+      "owner": "DEV",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B01",
+        "B02",
+        "B04"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "保存事务、隔离schema、暂停/恢复",
+      "acceptance": "切后台/杀进程/损坏样本恢复，真实PC存档不触碰",
+      "evidence": "commercial/evidence/b09/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B10",
+      "phase": "B",
+      "title": "轻量登录、奖励票据、配置与监控服务",
+      "owner": "DEV",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "A03",
+        "B08"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "最小后端、限流、权限与备份",
+      "acceptance": "code交换服务端完成，密钥不随包，身份/进度最小收集",
+      "evidence": "commercial/evidence/b10/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "B11",
+      "phase": "B",
+      "title": "低端机启动、帧时和内存优化",
+      "owner": "DEV",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B06",
+        "B07",
+        "B09"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "固定设备/负载性能报告",
+      "acceptance": "按PLAN内部预算复测；不支持设备有明确排除依据",
+      "evidence": "commercial/evidence/b11/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "C01",
+      "phase": "C",
+      "title": "核实流量主能力与合法开通路径",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "A03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "实际后台资格、广告单元与结算材料台账",
+      "acceptance": "UV/游戏圈/已有主体三路择实际路径，不刷广告",
+      "evidence": "commercial/evidence/c01/ (计划路径，尚未产生)",
+      "externalDependency": "平台资格与实际广告单元；公开验证另需发布授权"
+    },
+    {
+      "id": "C02",
+      "phase": "C",
+      "title": "微信激励广告桥接与独立平台接口",
+      "owner": "DEV",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "B04",
+        "C01"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "广告生命周期和模拟/真广告分离",
+      "acceptance": "取消/无填充/失败有正常降级，基础库兼容明确",
+      "evidence": "commercial/evidence/c02/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "C03",
+      "phase": "C",
+      "title": "确定奖励事务、去重与失败恢复",
+      "owner": "DEV",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "C02",
+        "B09",
+        "B10",
+        "B03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "奖励规则、账本、票据与恢复入口",
+      "acceptance": "同事务只提交一次；不把去重当真实观看鉴真",
+      "evidence": "commercial/evidence/c03/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "C04",
+      "phase": "C",
+      "title": "广告全链路故障与受控真机验收",
+      "owner": "QA",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "C03",
+        "B08"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "回调/杀进程/弱网矩阵和真广告报告",
+      "acceptance": "取消零误奖、重复零多奖、正常回调账本可核对",
+      "evidence": "commercial/evidence/c04/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "C05",
+      "phase": "C",
+      "title": "产品漏斗、广告漏斗与匿名事件校验",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B08",
+        "B10",
+        "C03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "事件字典、去重键与采集核对",
+      "acceptance": "事件与数据目的匹配；不记录敏感原始资料",
+      "evidence": "commercial/evidence/c05/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "C06",
+      "phase": "C",
+      "title": "渠道归因与广告平台转化回传",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "C05",
+        "A03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "渠道参数、合法归因与回传账目",
+      "acceptance": "按当时平台API确认能力，剔除测试，平台账与业务账可解释",
+      "evidence": "commercial/evidence/c06/ (计划路径，尚未产生)",
+      "externalDependency": "实际广告账户回传权限与接口"
+    },
+    {
+      "id": "C07",
+      "phase": "C",
+      "title": "广告奖励/频控模拟与经济回归",
+      "owner": "PM",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "A06",
+        "C03",
+        "C05"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "无广告/2次/6次七日策略对照",
+      "acceptance": "主循环不强制广告，资源产出与卡点在可接受范围",
+      "evidence": "commercial/evidence/c07/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D01",
+      "phase": "D",
+      "title": "资质、适龄、软著/授权和备案材料包",
+      "owner": "OPS",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "A01",
+        "A02",
+        "A03",
+        "B03",
+        "B06"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "真实截图/名称/主体一致的提交候选",
+      "acceptance": "材料对应实际版本，无虚构主体或相互矛盾声明",
+      "evidence": "commercial/evidence/d01/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D02",
+      "phase": "D",
+      "title": "完成适用备案、审核反馈与整改闭环",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "D01",
+        "D04"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "平台状态、主管部门结果与对应整改记录",
+      "acceptance": "正式发行需适用资质和两类备案闭合；不以已提交当通过",
+      "evidence": "commercial/evidence/d02/ (计划路径，尚未产生)",
+      "externalDependency": "有权主体身份验证/盖章/平台及主管部门审核；等待不计人日"
+    },
+    {
+      "id": "D03",
+      "phase": "D",
+      "title": "核对微信健康系统与适龄表现",
+      "owner": "QA",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "D01",
+        "B08"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "无IAP/IAP适用链路与受控场景记录",
+      "acceptance": "IAA平台协助接入不重复收身份证；其它渠道另验",
+      "evidence": "commercial/evidence/d03/ (计划路径，尚未产生)",
+      "externalDependency": "平台实际健康系统与可用受控测试方法"
+    },
+    {
+      "id": "D04",
+      "phase": "D",
+      "title": "内容、随机机制和营销用语自审",
+      "owner": "PM",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B03",
+        "B06",
+        "B02"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "逐场景/包/语言/素材内容清单",
+      "acceptance": "涉赌候选及误导链路清除；概率披露不替代准入",
+      "evidence": "commercial/evidence/d04/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D05",
+      "phase": "D",
+      "title": "全部采用资产与依赖许可复核",
+      "owner": "ART",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B05",
+        "A01"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "媒体/字体/插件授权与随包声明",
+      "acceptance": "原作及第三方授权逐项映射，受限原件不入公开包",
+      "evidence": "commercial/evidence/d05/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D06",
+      "phase": "D",
+      "title": "隐私声明、数据流与删除流程验收",
+      "owner": "QA",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B08",
+        "B10",
+        "C05"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "SDK/域名/保存期限/删除入口对照",
+      "acceptance": "非标准API也披露，拒绝/撤回/删除按适用规则可执行",
+      "evidence": "commercial/evidence/d06/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D07",
+      "phase": "D",
+      "title": "Android/iOS设备矩阵与压力回归",
+      "owner": "QA",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B11",
+        "C04",
+        "D03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "设备/系统/宿主版本/网络分组报告",
+      "acceptance": "支持范围内无P0，性能和压力结果有完整样本",
+      "evidence": "commercial/evidence/d07/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D08",
+      "phase": "D",
+      "title": "真实新玩家教学与可读性试玩",
+      "owner": "QA",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B06",
+        "C07"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "8–12名候选真实新玩家问题清单",
+      "acceptance": "不由助手模拟玩家代替；同意、匿名化、缺陷闭环",
+      "evidence": "commercial/evidence/d08/ (计划路径，尚未产生)",
+      "externalDependency": "可实际招募且同意的试玩者"
+    },
+    {
+      "id": "D09",
+      "phase": "D",
+      "title": "游戏名、图标、简介与提审页面包",
+      "owner": "ART",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "D04",
+        "D05",
+        "B06"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "页面素材、权限/功能说明与截图",
+      "acceptance": "宣传和真实玩法一致，名称/权利/备案一致",
+      "evidence": "commercial/evidence/d09/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D10",
+      "phase": "D",
+      "title": "Release配置与审核候选冻结",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D09",
+        "C06"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "环境清单、包与CDN哈希、审核记录",
+      "acceptance": "无测试位/调试菜单/凭据；上线和审核内容一致",
+      "evidence": "commercial/evidence/d10/ (计划路径，尚未产生)",
+      "externalDependency": "平台代码审核结果"
+    },
+    {
+      "id": "D11",
+      "phase": "D",
+      "title": "回滚、奖励停用与备份恢复演练",
+      "owner": "QA",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "D10",
+        "B10",
+        "C03"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "上一包/资源/存档兼容与停投演练",
+      "acceptance": "配置开关可生效，恢复不多奖/丢档，CDN内容不可变",
+      "evidence": "commercial/evidence/d11/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "D12",
+      "phase": "D",
+      "title": "最小安全审查与异常资源预算告警",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B10",
+        "C06",
+        "D10"
+      ],
+      "status": "planned",
+      "priority": "P0",
+      "deliverable": "权限、限流、日志脱敏与花费告警",
+      "acceptance": "密钥不暴露，伪造/重放受控，不能验证的风险明示",
+      "evidence": "commercial/evidence/d12/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "E01",
+      "phase": "E",
+      "title": "自发行/联运资料包与条款对照",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "B11",
+        "C07",
+        "A01"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "一页介绍、真机视频、可用数据与合作问卷",
+      "acceptance": "空缺数据标未测，不发送原作受限内容",
+      "evidence": "commercial/evidence/e01/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "E02",
+      "phase": "E",
+      "title": "发行/创作者成本、独占与数据归属评估",
+      "owner": "BIZ",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "E01",
+        "A02"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "可复算的合作条件与退出迁移方案",
+      "acceptance": "不只比较分成，授权转授/预算/审计/账号归属明确",
+      "evidence": "commercial/evidence/e02/ (计划路径，尚未产生)",
+      "externalDependency": "真实合作报价和合同；本轮不联系或签署"
+    },
+    {
+      "id": "E03",
+      "phase": "E",
+      "title": "12条真实玩法推广样片与画幅版本",
+      "owner": "ART",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "B06",
+        "D04",
+        "D05"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "3主题×2开头×2时长及素材台账",
+      "acceptance": "实机版本、字幕、音乐/配音许可与落地一致",
+      "evidence": "commercial/evidence/e03/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "E04",
+      "phase": "E",
+      "title": "广告账户、预算封顶与事件目标准备",
+      "owner": "OPS",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "C06",
+        "E02"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "投放方案/版位权限/现金上限候选",
+      "acceptance": "不自动充值或投放；创意/代理变动成本纳入CPA",
+      "evidence": "commercial/evidence/e04/ (计划路径，尚未产生)",
+      "externalDependency": "广告主主体、权限和具体预算批准"
+    },
+    {
+      "id": "E05",
+      "phase": "E",
+      "title": "游戏圈/视频号内容与自愿分享入口",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "D09",
+        "E03"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "5篇官方帖草稿、内容日历与反馈入口",
+      "acceptance": "实际有效活跃不伪造，不奖励强制分享/订阅",
+      "evidence": "commercial/evidence/e05/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "E06",
+      "phase": "E",
+      "title": "客服知识库、问题分级和值守准备",
+      "owner": "OPS",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "C04",
+        "B09"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "丢奖/丢档/隐私/未成年人/加载处理手册",
+      "acceptance": "明确当班与升级责任，服务目标有能力支撑",
+      "evidence": "commercial/evidence/e06/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "F01",
+      "phase": "F",
+      "title": "正式小流量发布与首日观察",
+      "owner": "OPS",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "D02",
+        "D03",
+        "D08",
+        "D10",
+        "D11",
+        "D12",
+        "C04",
+        "E06"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "已审核版本、平台真实发布与监控记录",
+      "acceptance": "G3全部证据通过，发行和真广告验证闭合",
+      "evidence": "commercial/evidence/f01/ (计划路径，尚未产生)",
+      "externalDependency": "具体发布授权及实际后台能力"
+    },
+    {
+      "id": "F02",
+      "phase": "F",
+      "title": "受限预算内收集同口径新用户",
+      "owner": "OPS",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "F01",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "去重cohort与渠道消耗台账",
+      "acceptance": "首轮建议现金≤5000元、日≤500元；样本缺口公开",
+      "evidence": "commercial/evidence/f02/ (计划路径，尚未产生)",
+      "externalDependency": "实际投放支出授权，不保证预算能买到目标样本"
+    },
+    {
+      "id": "F03",
+      "phase": "F",
+      "title": "七日留存、漏斗和创意一致性复盘",
+      "owner": "PM",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "F02",
+        "C05"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "完整D7 cohort、分组与不确定性报告",
+      "acceptance": "未成熟cohort不当完整样本，自然/买量和系统分开",
+      "evidence": "commercial/evidence/f03/ (计划路径，尚未产生)",
+      "externalDependency": "首批用户后至少7个自然日观察"
+    },
+    {
+      "id": "F04",
+      "phase": "F",
+      "title": "单变量广告/教程受控实验",
+      "owner": "PM",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "F03",
+        "C07"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "预定窗口、MDE/功效与实验结论",
+      "acceptance": "样本不足只作信号；D1体验护栏触发停查",
+      "evidence": "commercial/evidence/f04/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "F05",
+      "phase": "F",
+      "title": "现金账单、广告金、版权和发行对账",
+      "owner": "FIN",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "F02",
+        "E02"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "平台到账/可结算/广告金三账及合同分成",
+      "acceptance": "净eCPM口径一致，不重复扣平台份额，不将广告金当现金",
+      "evidence": "commercial/evidence/f05/ (计划路径，尚未产生)",
+      "externalDependency": "实际平台账单、合同、税务与结算周期"
+    },
+    {
+      "id": "F06",
+      "phase": "F",
+      "title": "D30回收与保守LTV90放量决策",
+      "owner": "PM",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "继续/修改/暂停和下一阶段预算建议",
+      "acceptance": "D30贡献回收与保守LTV/CPA检查点均通过才放量",
+      "evidence": "commercial/evidence/f06/ (计划路径，尚未产生)",
+      "externalDependency": "完整30日观察；90日模型须披露外推范围"
+    },
+    {
+      "id": "F07",
+      "phase": "F",
+      "title": "90天版本、内容与客服运营",
+      "owner": "OPS",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "F01"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "每周版本与事件响应/内容计划",
+      "acceptance": "按实际数据迭代，重大故障停新增投放而保留用户服务",
+      "evidence": "commercial/evidence/f07/ (计划路径，尚未产生)",
+      "externalDependency": "发行后实际时间与值守能力"
+    },
+    {
+      "id": "F08",
+      "phase": "F",
+      "title": "W1与各检查点重估工期和工作量",
+      "owner": "PM",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "A04"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "更新计划版本、风险与外部等待",
+      "acceptance": "12周不写成保证；实际容量不足则按人日重排",
+      "evidence": "commercial/evidence/f08/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "G01",
+      "phase": "G",
+      "title": "抖音WebGL/Native方案与SDK能力确认",
+      "owner": "DEV",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "F03",
+        "B11"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "独立引擎类型、Android/iOS能力和SDK锁",
+      "acceptance": "仅Android原生与双端WebGL区分，未读正文须补查",
+      "evidence": "commercial/evidence/g01/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "G02",
+      "phase": "G",
+      "title": "抖音登录、广告、保存与分发接口",
+      "owner": "DEV",
+      "estimatedPersonDays": 4,
+      "dependsOn": [
+        "G01",
+        "B09",
+        "C03"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "抖音独立配置/账号/奖励实现",
+      "acceptance": "不带微信商业SDK，平台身份和广告单元隔离",
+      "evidence": "commercial/evidence/g02/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "G03",
+      "phase": "G",
+      "title": "抖音双端、弱网与广告恢复回归",
+      "owner": "QA",
+      "estimatedPersonDays": 3,
+      "dependsOn": [
+        "G02",
+        "D07"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "Android/iOS宿主与故障矩阵",
+      "acceptance": "微信通过不代替本平台证据",
+      "evidence": "commercial/evidence/g03/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "G04",
+      "phase": "G",
+      "title": "抖音准入、版权、隐私与备案对照",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "G01",
+        "A01",
+        "D02"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "平台实际条件、资料与审核回执",
+      "acceptance": "资质正文/账户权限补读，不套用微信资格",
+      "evidence": "commercial/evidence/g04/ (计划路径，尚未产生)",
+      "externalDependency": "抖音账号和主管部门实际审核"
+    },
+    {
+      "id": "G05",
+      "phase": "G",
+      "title": "抖音实机视频、锚点与达人样测准备",
+      "owner": "ART",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "G02",
+        "E03"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "可用能力和独立视频方案",
+      "acceptance": "入口/广告合作声明真实，佣金和流量不虚构",
+      "evidence": "commercial/evidence/g05/ (计划路径，尚未产生)",
+      "externalDependency": "锚点/达人计划实际权限；联系与支出另按授权"
+    },
+    {
+      "id": "G06",
+      "phase": "G",
+      "title": "抖音低预算验证与独立经济结论",
+      "owner": "OPS",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "G03",
+        "G04",
+        "G05",
+        "F06"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "独立平台cohort、成本和回收报告",
+      "acceptance": "微信收益不复制，本平台通过才继续投放",
+      "evidence": "commercial/evidence/g06/ (计划路径，尚未产生)",
+      "externalDependency": "具体发布、推广预算与平台权限"
+    },
+    {
+      "id": "G07",
+      "phase": "G",
+      "title": "第二平台后内容扩张或收缩复盘",
+      "owner": "PM",
+      "estimatedPersonDays": 2,
+      "dependsOn": [
+        "G06",
+        "F06"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "内容产能、留存和现金安全决策",
+      "acceptance": "新增章节有范围/产能/预算，不无限扩张",
+      "evidence": "commercial/evidence/g07/ (计划路径，尚未产生)",
+      "externalDependency": null
+    },
+    {
+      "id": "H01",
+      "phase": "H",
+      "title": "停运/版权到期预案与数据善后",
+      "owner": "OPS",
+      "estimatedPersonDays": 1,
+      "dependsOn": [
+        "A01",
+        "E02"
+      ],
+      "status": "planned",
+      "priority": "P1",
+      "deliverable": "提前告知、数据/资源/尾款处理预案",
+      "acceptance": "微信正常停运按现行至少60天告知要求，紧急安全处置另记",
+      "evidence": "commercial/evidence/h01/ (计划路径，尚未产生)",
+      "externalDependency": null
+    }
+  ],
+  "gates": [
+    {
+      "id": "G0",
+      "title": "路线和材料可执行",
+      "tasks": [
+        "A01",
+        "A02",
+        "A03",
+        "A06"
+      ],
+      "criteria": "授权范围、主体、支付与随机包路径明确，材料可检查",
+      "status": "not_evaluated"
+    },
+    {
+      "id": "G1",
+      "title": "完整可玩且微信真机成立",
+      "tasks": [
+        "B01",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B09",
+        "B11"
+      ],
+      "criteria": "一条真实输入主循环，存档恢复、移动视听和性能达标",
+      "status": "not_evaluated"
+    },
+    {
+      "id": "G2",
+      "title": "广告与数据可核对",
+      "tasks": [
+        "C04",
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "criteria": "真广告、奖励事务、漏斗与归因有据，不把去重当鉴真",
+      "status": "not_evaluated"
+    },
+    {
+      "id": "G3",
+      "title": "具备合规发行候选",
+      "tasks": [
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "C04",
+        "E06"
+      ],
+      "criteria": "适用准入/两类备案/审核、隐私和健康系统闭合；无P0",
+      "status": "not_evaluated"
+    },
+    {
+      "id": "G4",
+      "title": "有效七日数据支持继续实验",
+      "tasks": [
+        "F03",
+        "F04"
+      ],
+      "criteria": "成熟同口径cohort；体验护栏无显著损伤，样本边界明确",
+      "status": "not_evaluated"
+    },
+    {
+      "id": "G5",
+      "title": "现金回收支持放量/第二平台",
+      "tasks": [
+        "F05",
+        "F06"
+      ],
+      "criteria": "D30贡献回收≥70%、保守LTV90/CPA≥1.3，现金预算与存量服务可承担",
+      "status": "not_evaluated"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R01",
+      "priority": "P0",
+      "risk": "金币随机包或广告间接随机抽取不符合平台规则",
+      "owner": "PM",
+      "mitigation": "先审条款及整体经济；提审候选采用固定/自选权益",
+      "tasks": [
+        "A02",
+        "B03",
+        "D04"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R02",
+      "priority": "P0",
+      "risk": "授权范围、境外作品属性与备案材料不一致",
+      "owner": "BIZ",
+      "mitigation": "已获授权按范围留档，平台/主管部门确认具体路径",
+      "tasks": [
+        "A01",
+        "A02",
+        "D01"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R03",
+      "priority": "P0",
+      "risk": "编译通过但核心流程仍不可玩",
+      "owner": "DEV",
+      "mitigation": "冻结缺陷、完整输入流程、保存与生命周期逐项验收",
+      "tasks": [
+        "A04",
+        "B01",
+        "B09"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R04",
+      "priority": "P0",
+      "risk": "真广告资格不足导致上线前验证无法完成",
+      "owner": "OPS",
+      "mitigation": "核实三条开通路径；受控验证发布单独审批，不能刷量",
+      "tasks": [
+        "C01",
+        "C04"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R05",
+      "priority": "P0",
+      "risk": "丢奖、多奖或丢档破坏经济",
+      "owner": "DEV",
+      "mitigation": "事务去重、检查点、故障注入、补发审计",
+      "tasks": [
+        "B09",
+        "C03",
+        "C04"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R06",
+      "priority": "P1",
+      "risk": "Unity6来源的Shader/序列化在2022/WebGL不兼容",
+      "owner": "DEV",
+      "mitigation": "手机真机样件优先；不用DX11字节码通过代替",
+      "tasks": [
+        "B04",
+        "B05",
+        "B11"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R07",
+      "priority": "P1",
+      "risk": "首屏大、低端机内存或广告恢复失败",
+      "owner": "QA",
+      "mitigation": "受控网络/设备矩阵，分层加载和压力观测",
+      "tasks": [
+        "B07",
+        "B11",
+        "D07"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R08",
+      "priority": "P1",
+      "risk": "eCPM、留存或归因不足，买量亏损",
+      "owner": "PM",
+      "mitigation": "先限定学习预算，分平台cohort，真实现金回收再放量",
+      "tasks": [
+        "C06",
+        "F03",
+        "F05",
+        "F06"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R09",
+      "priority": "P1",
+      "risk": "把广告金当现金或漏计合同成本",
+      "owner": "FIN",
+      "mitigation": "现金/广告金/合同分成三账，统一eCPM口径",
+      "tasks": [
+        "F05",
+        "E02"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R10",
+      "priority": "P0",
+      "risk": "隐私声明不覆盖自有SDK/埋点或健康系统缺失",
+      "owner": "DEV",
+      "mitigation": "数据流和平台声明一致，平台协助实名也须核实表现",
+      "tasks": [
+        "B08",
+        "D03",
+        "D06"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R11",
+      "priority": "P1",
+      "risk": "发行合作独占/转授权/账户归属限制退出",
+      "owner": "BIZ",
+      "mitigation": "签约前确认审计、上限、迁移和授权链",
+      "tasks": [
+        "E02",
+        "H01"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R12",
+      "priority": "P1",
+      "risk": "外部审核或实际容量使12周不可行",
+      "owner": "PM",
+      "mitigation": "W1重估，等待单列，公开发行时间取两条路径较晚值",
+      "tasks": [
+        "F08",
+        "D02"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "R13",
+      "priority": "P1",
+      "risk": "抖音引擎类型/SDK权限选错或视频入口未获开放",
+      "owner": "OPS",
+      "mitigation": "先方案确认再建号，独立资质和分发试验",
+      "tasks": [
+        "G01",
+        "G04",
+        "G05"
+      ],
+      "status": "open"
+    }
+  ],
+  "qaCases": [
+    {
+      "id": "QA01",
+      "area": "进入/教程",
+      "scenario": "首次启动、冷缓存、加载超时",
+      "expected": "可恢复且能进入首个完整循环",
+      "status": "not_run"
+    },
+    {
+      "id": "QA02",
+      "area": "进入/教程",
+      "scenario": "跳过/复看教程、安全区与大字",
+      "expected": "不丢必需规则或遮挡操作",
+      "status": "not_run"
+    },
+    {
+      "id": "QA03",
+      "area": "核心循环",
+      "scenario": "胜利、失败、升级、重试",
+      "expected": "资源守恒、目标与判定明确",
+      "status": "not_run"
+    },
+    {
+      "id": "QA04",
+      "area": "奖励包",
+      "scenario": "固定或自选奖励的展示与实收",
+      "expected": "不含未审随机购买或广告间接抽取",
+      "status": "not_run"
+    },
+    {
+      "id": "QA05",
+      "area": "广告",
+      "scenario": "正常完整观看",
+      "expected": "明确完成回调后恰好一次奖励提交",
+      "status": "not_run"
+    },
+    {
+      "id": "QA06",
+      "area": "广告",
+      "scenario": "提前关闭或主动取消",
+      "expected": "零奖励且正常返回",
+      "status": "not_run"
+    },
+    {
+      "id": "QA07",
+      "area": "广告",
+      "scenario": "无填充/加载失败/展示失败",
+      "expected": "零误奖、无死循环重试、不阻断主循环",
+      "status": "not_run"
+    },
+    {
+      "id": "QA08",
+      "area": "广告",
+      "scenario": "回调乱序、重放、重复点击",
+      "expected": "一个事务最多一次提交",
+      "status": "not_run"
+    },
+    {
+      "id": "QA09",
+      "area": "广告",
+      "scenario": "播放中切后台、来电或切场景",
+      "expected": "游戏状态、音频、暂停恢复一致",
+      "status": "not_run"
+    },
+    {
+      "id": "QA10",
+      "area": "广告",
+      "scenario": "奖励提交前杀进程",
+      "expected": "恢复为自洽待核实状态，不猜测完成",
+      "status": "not_run"
+    },
+    {
+      "id": "QA11",
+      "area": "广告",
+      "scenario": "提交后、展示前杀进程",
+      "expected": "已领记录与资源一起恢复，不重复领取",
+      "status": "not_run"
+    },
+    {
+      "id": "QA12",
+      "area": "广告",
+      "scenario": "时钟回拨、跨日、频控更新",
+      "expected": "按约定时区/服务端校正，不能无限重置次数",
+      "status": "not_run"
+    },
+    {
+      "id": "QA13",
+      "area": "存档",
+      "scenario": "正常退出、恢复、升级迁移",
+      "expected": "schema与检查点完整，旧PC用户档不读写",
+      "status": "not_run"
+    },
+    {
+      "id": "QA14",
+      "area": "存档",
+      "scenario": "损坏、写失败、空间不足",
+      "expected": "可解释错误与可用备份，隔离故障样本",
+      "status": "not_run"
+    },
+    {
+      "id": "QA15",
+      "area": "网络",
+      "scenario": "断网、弱网、资源404或缓存满",
+      "expected": "重试/降级可用，不静默换内容/重新抽取",
+      "status": "not_run"
+    },
+    {
+      "id": "QA16",
+      "area": "隐私",
+      "scenario": "同意、拒绝、撤回、删除请求",
+      "expected": "实际数据处理与披露一致，非必要拒绝可玩",
+      "status": "not_run"
+    },
+    {
+      "id": "QA17",
+      "area": "健康系统",
+      "scenario": "适龄、实名/健康系统平台受控场景",
+      "expected": "按实际路径阻断/提示，不模拟身份证通过",
+      "status": "not_run"
+    },
+    {
+      "id": "QA18",
+      "area": "性能",
+      "scenario": "低中高档Android和新旧受支持iPhone",
+      "expected": "帧时、内存、冷/热启按设备/宿主版本记录",
+      "status": "not_run"
+    },
+    {
+      "id": "QA19",
+      "area": "音画",
+      "scenario": "静音、音频中断、透明特效与中文字体",
+      "expected": "实际可见可听，不借PC渲染报告代验",
+      "status": "not_run"
+    },
+    {
+      "id": "QA20",
+      "area": "数据",
+      "scenario": "事件重复/丢失/跨日与渠道参数",
+      "expected": "漏斗可复算，测试剔除与北京时间一致",
+      "status": "not_run"
+    },
+    {
+      "id": "QA21",
+      "area": "收入",
+      "scenario": "后台账单、广告金与到账",
+      "expected": "平台前后口径一致，成本不漏扣或重复扣",
+      "status": "not_run"
+    },
+    {
+      "id": "QA22",
+      "area": "发布",
+      "scenario": "审核包/正式包、调试与秘密扫描",
+      "expected": "内容一致、无测试位/秘密/调试作弊入口",
+      "status": "not_run"
+    },
+    {
+      "id": "QA23",
+      "area": "恢复",
+      "scenario": "停广告、停投、版本与资源回滚",
+      "expected": "存档兼容、正常奖励保留、开关按SLA生效",
+      "status": "not_run"
+    },
+    {
+      "id": "QA24",
+      "area": "第二平台",
+      "scenario": "抖音双端及独立身份/广告/分发",
+      "expected": "不复用微信验收，不导入微信商业SDK",
+      "status": "not_run"
+    }
+  ],
+  "eventDictionary": [
+    {
+      "name": "launch",
+      "definition": "宿主进入一次有效会话",
+      "dedupeKey": "session_id"
+    },
+    {
+      "name": "first_interactive",
+      "definition": "该启动首次可响应必要操作",
+      "dedupeKey": "session_id"
+    },
+    {
+      "name": "tutorial_complete",
+      "definition": "用户完成教程关键动作",
+      "dedupeKey": "user_id+client_version+tutorial_version"
+    },
+    {
+      "name": "battle_start/end",
+      "definition": "对局创建与唯一结算",
+      "dedupeKey": "battle_id+event_type"
+    },
+    {
+      "name": "pack_open",
+      "definition": "确认明示奖励包并消费合法资格",
+      "dedupeKey": "pack_txn_id"
+    },
+    {
+      "name": "upgrade_commit",
+      "definition": "成长资源和节点一并提交",
+      "dedupeKey": "upgrade_txn_id"
+    },
+    {
+      "name": "save_commit/recover",
+      "definition": "检查点成功或恢复结果",
+      "dedupeKey": "checkpoint_id+event_type"
+    },
+    {
+      "name": "ad_offer/request/load/show/close",
+      "definition": "广告漏斗的分别状态，close附完成/取消/未知",
+      "dedupeKey": "ad_txn_id+event_type+attempt_id"
+    },
+    {
+      "name": "reward_commit",
+      "definition": "奖励账本与存档原子提交",
+      "dedupeKey": "reward_txn_id"
+    },
+    {
+      "name": "privacy_choice",
+      "definition": "政策版本下的有效选择",
+      "dedupeKey": "policy_version+choice_time"
+    },
+    {
+      "name": "support_issue",
+      "definition": "匿名问题类别和受理结果",
+      "dedupeKey": "support_case_id"
+    }
+  ],
+  "commonEventFields": [
+    "platform",
+    "client_version",
+    "rules_version",
+    "reward_version",
+    "anonymous_user_id",
+    "session_id",
+    "event_time",
+    "source_scene",
+    "lawful_channel_params",
+    "transaction_id",
+    "result_code"
+  ],
+  "researchSources": [
+    {
+      "id": "S01",
+      "title": "Unity/团结引擎适配 - 微信开放文档 / 小游戏-开发-指南 / 游戏引擎",
+      "url": "https://developers.weixin.qq.com/minigame/dev/guide/game-engine/unity-webgl-transform.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-07-04",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "理论覆盖 Unity 2018–2022；安装入口与后台快适配能力需核实。",
+      "shortQuote": "转换插件理论上支持的引擎版本涵盖：Unity 2018~2022",
+      "extractedTextSha256": "2d95feda052d06925bf7d8ce2b5938f9146276ea99452ea26ecbf2ffeb4c5e41",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S02",
+      "title": "快速开始 - 微信开放文档 / 小游戏-开发-指南 / 游戏引擎 / Unity/团结引擎适配 / 基本",
+      "url": "https://developers.weixin.qq.com/minigame/dev/guide/game-engine/unity-webgl-transform/Design/Transform.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-07-04",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "Loading 场景、CDN、真实 AppID、首资源和预览要求。",
+      "shortQuote": "建议仅勾选Loading场景，后续场景使用AssetsBundle/Addressable进行按需加载。",
+      "extractedTextSha256": "743023803f07d59dc401516e73d54ac50bd8da290f856ddb7c3d66acfb0c61f1",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S03",
+      "title": "Unity 小游戏接入指南_小游戏_抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/develop/guide/game-engine/rd-to-SCgame/unity-game-access/install-connect/sc_access_guide",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "原生仅 Android；WebGL 覆盖 Android/iOS；独立 SDK、账号引擎类型和视频分发。",
+      "shortQuote": "在字节系 App 中运行基于商业引擎（Unity/UE 引擎）的原生游戏（仅 Android，APK 格式）方案。",
+      "extractedTextSha256": "76c80ac9bc41a2c6dce1d53fa48be50b76b9f5d08d79a92803278e4c089568bc",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S04",
+      "title": "广告 - 微信开放文档 / 小游戏-开发-指南 / 开放能力",
+      "url": "https://developers.weixin.qq.com/minigame/dev/guide/open-ability/ad/ad.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-04-09",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "微信三种流量主开通路径，账号资格未验证。",
+      "shortQuote": "小程序累计独立访客 (UV) > 500",
+      "extractedTextSha256": "8323245b2191ec31e8c2b65cc6577528e8e853eec5f0519ca9603be8ac50ca9e",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S05",
+      "title": "广告开通 - 微信开放文档 / 小游戏-介绍-游戏运营指南 / 商业能力 / 广告变现",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/commercialization/ad/",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-04-01",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "官方介绍页交叉核对开通条件，不把两页当两个独立来源机构。",
+      "shortQuote": "流量主资格需要次日刷新，请于满足条件后次日再试",
+      "extractedTextSha256": "de51c7f1c35e9f866cdc01af175597f7bc5cf1d7f5b0f8de793502530be8a00f",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S06",
+      "title": "wx.createRewardedVideoAd - 微信开放文档 / 小游戏-开发-API / 广告",
+      "url": "https://developers.weixin.qq.com/minigame/dev/api/ad/wx.createRewardedVideoAd.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "full",
+      "fullRead": true,
+      "summary": "激励视频基础兼容、广告单元和单例/多例；完成事件需另读。",
+      "shortQuote": "创建激励视频广告组件。",
+      "extractedTextSha256": "c06cee5b26301e5a948b1012e3056b13a1f5b69c1695403ad5cbc9f42e3abc99",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S07",
+      "title": "小游戏备案 - 微信开放文档 / 小游戏-介绍-小游戏指引 / 小游戏接入指南",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/guide/nrjs.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "IAA 小游戏前置审批、已有版号/无支付声明路径、单机联机与更名规则。",
+      "shortQuote": "【小游戏备案】是IAA游戏备案前置审批中的一个环节。",
+      "extractedTextSha256": "07b751ec63c1fd6efb722c7dee3ecd763f384f1eba22fdb2cde746a36d890eb5",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S08",
+      "title": "激励政策概要 - 微信开放文档 / 小游戏-介绍-游戏运营指南 / 商业能力 / 商业政策",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/commercialization/",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-10-23",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "普通 IAA 现金基线、现金与广告金区分、适格渠道和结算时效。",
+      "shortQuote": "现金结算周期：半月结（每月16号、1号发起对上半月、下半月的结算，约13天到账）",
+      "extractedTextSha256": "a64dd02dfb6b624d7b5a3dc0a669ebbbc7893e3e7356573161b711f7a2e72dc5",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S09",
+      "title": "微信小程序平台运营规范 - 微信开放文档 / 小游戏-运营-运营规范",
+      "url": "https://developers.weixin.qq.com/minigame/product/",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "随机投入条款、授权唯一主体、分享、未成年人、内容一致性与至少60天停运告知。",
+      "shortQuote": "不得以随机抽取等偶然方式，诱导用户采取投入法定货币或者网络游戏虚拟货币方式获取小游戏产品和服务。",
+      "extractedTextSha256": "ddaaa27304ef2cb1dcaa1a99848e93aaae2bcee6ca5eabdce524668c846a30ee",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S10",
+      "title": "小程序备案 - 微信开放文档 / 小游戏-介绍-小游戏指引 / 小游戏接入指南",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/guide/xcxba.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "limited_images",
+      "fullRead": false,
+      "summary": "已读短正文，流程细节在图片/链接；IAA/IAP 分路与参考时效可见。",
+      "shortQuote": "IAA 游戏选择情况二",
+      "extractedTextSha256": "1bf465dd5f4c66add9b050d76b5e0c3b656c8ae9b6abbc36fe6c9b94e348e180",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S11",
+      "title": "中宣部实名认证 - 微信开放文档 / 小游戏-介绍-小游戏指引 / 小游戏接入指南",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/guide/zxbsm.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "微信无虚拟支付时平台协助实名接入；不代表其它渠道完成。",
+      "shortQuote": "不开通虚拟支付，平台已统一协助接入中宣实名系统，无需开发者操作。",
+      "extractedTextSha256": "35156164d990233db2da1ea7df454d4cb27981d380209fc3e5c2b4a993242ca9",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S12",
+      "title": "用户隐私保护 - 微信开放文档 / 小游戏-开发-指南 / 开放能力 / 用户信息",
+      "url": "https://developers.weixin.qq.com/minigame/dev/guide/open-ability/privacy.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "标准与非标准接口披露、处理前授权和拒绝兼容。",
+      "shortQuote": "通过非标准API的方式处理用户个人信息的行为也需要进行声明",
+      "extractedTextSha256": "fbb1103bb1d13abae339a2eefb7e4daf1f2609c2234c62ec99add1eead3da0fa",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S13",
+      "title": "小游戏自审自查事项_抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/operation1/norms/specifications",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "抖音通用自审项；不能单凭此页认定本作资格。",
+      "shortQuote": "在游戏开始画面的显著位置已标明游戏批准文号、网络游戏出版号以及著作权登记号",
+      "extractedTextSha256": "ffc9eb443856ac29da4d97c9217c7c8521c354ad776f2152da48de2e665a941a",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S14",
+      "title": "抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/develop/guide/game-engine/rd-to-SCgame/unity-game-access/sc_stark_sdk",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "navigation_only",
+      "fullRead": false,
+      "summary": "仅取到目录导航；C#广告完成与服务端验证能力未读到正文，须复核。",
+      "shortQuote": "Unity 引擎适配",
+      "extractedTextSha256": "099d734023207de81a0dd77e58f01872805a09ecefcbd5d2b5f987b4424fb409",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S15",
+      "title": "广告变现激励政策 - 微信开放文档 / 小游戏-介绍-游戏运营指南 / 商业能力 / 商业政策",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/commercialization/guide/ad-monetization.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-10-23",
+      "effectiveAt": "2026-08-20",
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "30/180天广告金选项、累计活跃、渠道和特殊身份限制；非现金保证。",
+      "shortQuote": "自2026年8月20日起实行IAA小游戏激励方案。",
+      "extractedTextSha256": "3a1224f0042fb873ad0995da9891a1433091889a9011076775e57c6c21ddf9bf",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S16",
+      "title": "注册与入驻_抖音开放平台",
+      "url": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-game/guide/minigame/register",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "Douyin",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "limited_text",
+      "fullRead": false,
+      "summary": "短正文说明主体认证；对公材料与账号实际条件待核实。",
+      "shortQuote": "入驻流程包含注册平台账号与主体认证 & 对公验证。",
+      "extractedTextSha256": "e8e0386cb48769fe8669945023fc271aaed4b0e98e72c5f3cdbf3a839dd8122b",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S17",
+      "title": "备案常见问答 - 微信开放文档 / 小游戏-运营-微信小程序备案",
+      "url": "https://developers.weixin.qq.com/minigame/product/record/record_faq.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "备案一致性、短信核验、变更/注销、实际审批优先。",
+      "shortQuote": "需要在收到短信的24小时内完成短信核验",
+      "extractedTextSha256": "74ff0220ea0b9fdde3854854209d16f6d172fec87661a8ca014962a15fef7471",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S18",
+      "title": "微信小程序平台常见拒绝情形 - 微信开放文档 / 小游戏-运营-常见拒绝情形",
+      "url": "https://developers.weixin.qq.com/minigame/product/reject.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "常见拒绝情形，仅作辅助清单；小游戏特别规范优先。",
+      "shortQuote": "小程序的页面内容中，主要为营销或广告用途",
+      "extractedTextSha256": "2200182fd3878ff0794485f07e2afd6bd104579ab8aaed18efe897be7d935b61",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S19",
+      "title": "国家新闻出版署：防止未成年人沉迷网络游戏的通知",
+      "url": "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+      "source_type": "regulator",
+      "market": "CN",
+      "platform": "all",
+      "publishedAt": "2021-08-30",
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "search_snippet_only",
+      "fullRead": false,
+      "summary": "搜索定位原文；正文未读，不作为本轮新增法律结论。",
+      "shortQuote": "",
+      "legalStatus": "background_unverified"
+    },
+    {
+      "id": "S20",
+      "title": "工业和信息化部关于开展移动互联网应用程序备案工作的通知",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202308/content_6897341.htm",
+      "source_type": "government_reprint",
+      "market": "CN",
+      "platform": "all",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "search_snippet_only",
+      "fullRead": false,
+      "summary": "搜索定位工信部信管〔2023〕105号；日期及正文待完整复核。",
+      "shortQuote": "",
+      "legalStatus": "background_unverified"
+    },
+    {
+      "id": "L01",
+      "title": "本地合同与顺序还原记录的2026-11-18读取快照",
+      "url": null,
+      "source_type": "local_project",
+      "market": "CN",
+      "platform": "PC-restoration",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "local_documents",
+      "fullRead": false,
+      "summary": "合同和原顺序批次快照为27批、47源文件、162托管检查；另有倒序还原持续推进，旧批次不是实时全局总量。完整游戏、保存I/O、移动端未由本轮重验。",
+      "shortQuote": "",
+      "paths": [
+        "prototypes/re-booster-pack-heroes/DEVELOPMENT.md",
+        "prototypes/re-booster-pack-heroes/reports/systems.md",
+        "prototypes/re-booster-pack-heroes/reports/ordered-restoration-progress.md",
+        "prototypes/re-booster-pack-heroes/evidence/ordered-restoration-progress.json",
+        "prototypes/re-booster-pack-heroes/reports/reverse-restoration-progress.md"
+      ],
+      "verificationBoundary": "读取现有文档，不执行原游戏、还原源码或真实存档。"
+    }
+  ],
+  "staffing": {
+    "estimatedTotalPersonDays": 145,
+    "roleTotals": {
+      "PM": 19,
+      "DEV": 57,
+      "ART": 18,
+      "QA": 17,
+      "OPS": 25,
+      "BIZ": 7,
+      "FIN": 2
+    },
+    "calendarWeeksAssumed": 12,
+    "planningEquivalentCapacity": "2–3个等效角色容量；职责可由同一助手承担，非当前团队人数",
+    "singleCoordinatorWindowWeeks": [
+      30,
+      36
+    ],
+    "externalWait": "审核/身份/签署与30/90日数据成熟不计为连续人日，也可能延长总历时",
+    "calendarBasis": "日历按每周5个人工等效工作日估算；145人日/60工作日约2.42等效容量。单一容量至少29周，预留30–36周并单列外部等待；助手实际吞吐在W1重估。"
+  },
+  "budget": {
+    "currency": "CNY",
+    "status": "proposal_not_spend_authorization",
+    "reserveRate": 0.1,
+    "items": [
+      {
+        "id": "legal",
+        "name": "法务/材料外部支持预留",
+        "lean": 5000,
+        "base": 12000,
+        "expanded": 20000
+      },
+      {
+        "id": "devices",
+        "name": "设备与真人测试",
+        "lean": 3000,
+        "base": 6000,
+        "expanded": 10000
+      },
+      {
+        "id": "infra",
+        "name": "服务、CDN与监测",
+        "lean": 2000,
+        "base": 4000,
+        "expanded": 8000
+      },
+      {
+        "id": "creative",
+        "name": "推广样片与创作者样测",
+        "lean": 5000,
+        "base": 10000,
+        "expanded": 20000
+      },
+      {
+        "id": "wx_ua",
+        "name": "微信买量实验",
+        "lean": 5000,
+        "base": 15000,
+        "expanded": 30000
+      },
+      {
+        "id": "dy_validation",
+        "name": "后续抖音验证",
+        "lean": 0,
+        "base": 5000,
+        "expanded": 15000
+      }
+    ],
+    "exclusions": [
+      "版权保底金或预付款",
+      "可能适用的出版申报服务",
+      "公司设立",
+      "薪酬和机会成本",
+      "税费"
+    ],
+    "firstWxCashCap": 5000,
+    "dailyWxCashCap": 500,
+    "scenarios": {
+      "lean": {
+        "subtotal": 20000,
+        "reserve": 2000,
+        "total": 22000
+      },
+      "base": {
+        "subtotal": 52000,
+        "reserve": 5200,
+        "total": 57200
+      },
+      "expanded": {
+        "subtotal": 103000,
+        "reserve": 10300,
+        "total": 113300
+      }
+    }
+  },
+  "economics": {
+    "status": "hypothetical_not_observed_or_market_benchmark",
+    "ecpmDefinition": "平台分成后的可结算现金元/千次有效展示；不含广告金；若输入流水需先统一",
+    "scenarios": [
+      {
+        "id": "conservative",
+        "name": "保守假设",
+        "opportunities": 3,
+        "optIn": 0.35,
+        "fill": 0.7,
+        "show": 0.85,
+        "netEcpm": 20,
+        "extraShare": 0.2,
+        "costPerActiveDay": 0.005,
+        "activeDays90": 4,
+        "impressionsPerDAU": 0.6247499999999999,
+        "cashARPDAU": 0.012494999999999997,
+        "contributionLTV90": 0.01998399999999999,
+        "hypotheticalCPAAt1_3Ratio": 0.015372307692307685
+      },
+      {
+        "id": "base",
+        "name": "基准假设",
+        "opportunities": 5,
+        "optIn": 0.55,
+        "fill": 0.9,
+        "show": 0.9,
+        "netEcpm": 40,
+        "extraShare": 0.2,
+        "costPerActiveDay": 0.006,
+        "activeDays90": 7,
+        "impressionsPerDAU": 2.2275,
+        "cashARPDAU": 0.0891,
+        "contributionLTV90": 0.4569599999999999,
+        "hypotheticalCPAAt1_3Ratio": 0.35150769230769224
+      },
+      {
+        "id": "optimistic",
+        "name": "乐观假设",
+        "opportunities": 7,
+        "optIn": 0.65,
+        "fill": 0.95,
+        "show": 0.95,
+        "netEcpm": 70,
+        "extraShare": 0.2,
+        "costPerActiveDay": 0.01,
+        "activeDays90": 12,
+        "impressionsPerDAU": 4.106375,
+        "cashARPDAU": 0.28744624999999996,
+        "contributionLTV90": 2.6394839999999995,
+        "hypotheticalCPAAt1_3Ratio": 2.030372307692307
+      }
+    ],
+    "formula": "LTV90 = [opportunities*optIn*fill*show*netEcpm/1000*(1-extraShare)-costPerActiveDay]*activeDays90",
+    "scaleRequirements": {
+      "realizedD30ContributionRecoveryAtLeast": 0.7,
+      "conservativeLTV90ToCPAAtLeast": 1.3
+    },
+    "forecastBoundary": "不含固定研发/税费/资金成本；合同扣除顺序须实际替换；完成率不在展示eCPM上重复相乘"
+  },
+  "metrics": {
+    "status": "internal_initial_targets_not_industry_average",
+    "timezone": "Asia/Shanghai",
+    "tutorialCompletion": 0.75,
+    "firstBattleSettlement": 0.7,
+    "D1": 0.3,
+    "D7": 0.1,
+    "crashFreeSessions": 0.995,
+    "firstSampleForTriage": 500,
+    "retentionDecisionSample": [
+      1000,
+      2000
+    ],
+    "adD1GuardrailAbsoluteDrop": 0.03,
+    "coldStartP95Seconds": 8,
+    "warmStartP95Seconds": 4,
+    "firstSceneDownloadMiB": 12,
+    "lowTierP95FrameMs": 33.3,
+    "exploratoryP95MemoryMiB": 350,
+    "performanceBoundary": "约定真实设备、宿主和网络；均未实测"
+  },
+  "researchLimits": [
+    "浏览器出现BROWSER_ACTION_OUTCOME_UNKNOWN后停止后续导航，仅继续已开页面读取；独立新公开页面使用无账号HTTP读取，不重试被拒绝页面。",
+    "hatch-cli 0.7.2与服务端要求0.8.x不兼容，upgrade返回UPGRADE_REQUIRES_INSTALLED_BINARY，未安装/升级环境；无孵化库市场/近期新闻结果。",
+    "独立HTTP搜索返回与查询无关结果，全部不采用；不把HTTP200当证据命中。",
+    "未登录任何平台后台核验主体、广告资格、费用、账号权限、审核状态、创意/CPS资格。",
+    "抖音SDK接口正文、资质细则、监管原文完整适用仍需后续复核。",
+    "无本品真实移动性能、广告收入、市场排名、竞品收入、买量报价或真实玩家留存。"
+  ]
+}

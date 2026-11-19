@@ -30,3 +30,9 @@
 平台、商业模式和预算尚未指定。仅核对过少量相邻作品，本归档不声称所有候选均为原创。
 
 来源：[最终修订答复](https://chatgpt.com/c/6ac781cd-a38c-83ee-919d-ad5b4904149a?messageId=0f782f82-bad3-59e7-8aa2-8dd30fae291b)。
+
+
+## Booster Pack Heroes 阶段接续
+
+- [阶段一交付与第二阶段入口](../development/booster-pack-heroes-phase1-handoff.md)：PC可玩基线iteration-14、完整私有工程与研究资料、微信小游戏技术纵切接续。
+- [小游戏移植、广告与发行计划](booster-pack-heroes-miniapp-release/README.md)：微信先行、抖音随后；平台、真机、广告及发行独立验收。

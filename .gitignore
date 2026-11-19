@@ -73,3 +73,6 @@ yarn-error.log*
 /prototypes/**/game/*/*.slnx
 /prototypes/**/game/*/*.unityproj
 /prototypes/**/game/*/*.userprefs
+
+# Booster Pack Heroes full sources/assets live in the dedicated private repository.
+/prototypes/re-booster-pack-heroes/

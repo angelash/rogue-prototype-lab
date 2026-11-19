@@ -1,0 +1,63 @@
+{
+  "observedAt": "2026-11-18",
+  "note": "仅归档短引与摘要；完整提取文本仅作本地研究。哈希为提取正文UTF-8，不是网页原始字节。",
+  "sources": [
+    {
+      "id": "S08",
+      "title": "激励政策概要 - 微信开放文档 / 小游戏-介绍-游戏运营指南 / 商业能力 / 商业政策",
+      "url": "https://developers.weixin.qq.com/minigame/introduction/commercialization/",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": "2026-10-23",
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "普通 IAA 现金基线、现金与广告金区分、适格渠道和结算时效。",
+      "shortQuote": "现金结算周期：半月结（每月16号、1号发起对上半月、下半月的结算，约13天到账）",
+      "extractedTextSha256": "a64dd02dfb6b624d7b5a3dc0a669ebbbc7893e3e7356573161b711f7a2e72dc5",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S12",
+      "title": "用户隐私保护 - 微信开放文档 / 小游戏-开发-指南 / 开放能力 / 用户信息",
+      "url": "https://developers.weixin.qq.com/minigame/dev/guide/open-ability/privacy.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "标准与非标准接口披露、处理前授权和拒绝兼容。",
+      "shortQuote": "通过非标准API的方式处理用户个人信息的行为也需要进行声明",
+      "extractedTextSha256": "fbb1103bb1d13abae339a2eefb7e4daf1f2609c2234c62ec99add1eead3da0fa",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    },
+    {
+      "id": "S18",
+      "title": "微信小程序平台常见拒绝情形 - 微信开放文档 / 小游戏-运营-常见拒绝情形",
+      "url": "https://developers.weixin.qq.com/minigame/product/reject.html",
+      "source_type": "official_platform",
+      "market": "CN",
+      "platform": "WeChat",
+      "publishedAt": null,
+      "lastEditedAt": null,
+      "effectiveAt": null,
+      "observedAt": "2026-11-18",
+      "readLevel": "text",
+      "fullRead": false,
+      "summary": "常见拒绝情形，仅作辅助清单；小游戏特别规范优先。",
+      "shortQuote": "小程序的页面内容中，主要为营销或广告用途",
+      "extractedTextSha256": "2200182fd3878ff0794485f07e2afd6bd104579ab8aaed18efe897be7d935b61",
+      "legalStatus": "platform_rule_or_guidance",
+      "verificationBoundary": "Public source only; no logged-in account entitlement checked"
+    }
+  ]
+}

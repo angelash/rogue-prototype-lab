@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-11-18T09:41:30.867511+00:00",
+  "status": "passed",
+  "scope": "planning_documents_and_offline_preview_only",
+  "checks": [
+    {
+      "name": "task_integrity",
+      "status": "passed",
+      "details": {
+        "tasks": 58,
+        "dependencyGraph": "acyclic",
+        "personDays": 145,
+        "gates": 6,
+        "productionStatus": "all planned; all gates not_evaluated"
+      }
+    },
+    {
+      "name": "budget_and_economics",
+      "status": "passed",
+      "details": {
+        "budgetTotalsCNY": {
+          "lean": 22000,
+          "base": 57200,
+          "expanded": 113300
+        },
+        "baseHypotheticalLTV90": 0.45696,
+        "scope": "Arithmetic only; no actual ad revenue or spending"
+      }
+    },
+    {
+      "name": "source_boundaries",
+      "status": "passed",
+      "details": {
+        "sources": 21,
+        "officialPlatformEntries": 18,
+        "completeArticleReads": 6,
+        "unreadBodySources": [
+          "S14",
+          "S19",
+          "S20"
+        ]
+      }
+    },
+    {
+      "name": "markdown_local_links",
+      "status": "passed",
+      "details": {
+        "checked": 26,
+        "broken": 0
+      }
+    },
+    {
+      "name": "offline_preview",
+      "status": "passed",
+      "details": {
+        "browser": "installed Microsoft Edge (Chromium) via isolated local Playwright context",
+        "tasksAndSources": "58 tasks, 21 sources rendered",
+        "interactions": [
+          "task search/phase/clear",
+          "three budget scenarios",
+          "three earnings scenarios",
+          "zero/negative input handling",
+          "source coverage filters and citation reset"
+        ],
+        "viewports": [
+          1360,
+          768,
+          390,
+          320
+        ],
+        "horizontalOverflow": false,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "networkRequests": 0,
+        "printCSS": "print button hidden",
+        "screenshotsLocalOnly": [
+          ".local/bph-miniapp-plan/screenshots/desktop-finance.png",
+          ".local/bph-miniapp-plan/screenshots/desktop-overview.png",
+          ".local/bph-miniapp-plan/screenshots/mobile-finance.png",
+          ".local/bph-miniapp-plan/screenshots/preview-320.png",
+          ".local/bph-miniapp-plan/screenshots/preview-390.png",
+          ".local/bph-miniapp-plan/screenshots/preview-768.png"
+        ]
+      }
+    },
+    {
+      "name": "scoped_content_scan",
+      "status": "passed",
+      "details": {
+        "files": 13,
+        "findings": 0,
+        "scope": "private key and common token patterns; no original game code/media included"
+      }
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "details": {
+        "reviewedAtUtc": "2026-11-18T09:42:29.193777+00:00",
+        "files": [
+          "desktop-overview.png",
+          "desktop-finance.png",
+          "preview-390.png",
+          "mobile-finance.png"
+        ],
+        "result": "桌面首屏/预算、手机首屏/预算已目检；手机副标题断行已修正。最终页面自动检查320/390/768/1360宽度无横向溢出。最后排期口径文字调整未改变这些视图布局。",
+        "scope": "计划预览；不是游戏或平台验收"
+      }
+    }
+  ],
+  "gameChecksExecuted": false,
+  "adSDKOrRevenueVerified": false,
+  "platformAccountOrFilingVerified": false,
+  "budgetAuthorized": false,
+  "gitCommitOrPushVerifiedHere": false,
+  "screenshotsVisuallyReviewed": true,
+  "artifacts": {
+    "docs/design/booster-pack-heroes-miniapp-release/DEVELOPMENT.md": "9fc0f6710cfc2fdcfa84d80e6759a8ed3f07033c92c7c4332ea1db24cc284b49",
+    "docs/design/booster-pack-heroes-miniapp-release/index.html": "7e97a3f572a48bcd82525dc8d8b43085e9d9f60cf91cca8dd0a12ac0b6be307b",
+    "docs/design/booster-pack-heroes-miniapp-release/plan-data.json": "07d5aab0224b10f9afd8ee369b8026934506c2886d9d0ed31d7784fbda943199",
+    "docs/design/booster-pack-heroes-miniapp-release/PLAN.md": "11e5ba635d1ca5f2fb658e6c1202320864b3eeef759fdb729e510a7b692ffda9",
+    "docs/design/booster-pack-heroes-miniapp-release/README.md": "93d8c9a84c41e444c1d76a84a2135643a4d27db631fef0b4a14a798f2840bd8d",
+    "docs/design/booster-pack-heroes-miniapp-release/render_plan.py": "fa8469e3117452c6347368cfa30721fb6905f927a1f958ef18226a69cf904f05",
+    "docs/design/booster-pack-heroes-miniapp-release/WORKBREAKDOWN.md": "b2a0403e1618ac14b8eed16da2addfea0aea22f89a91ce336480bd118065f2d8",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/additional-public-pages.json": "b6705cf4013db88537653eca20f36adea5d8e3a10ee030dbf294301f8d4e77f7",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/channel-requirements.json": "9676d1e12c2cea327da8df1b1488750b33a23433f3f9d4b8dc1a6054da4827d3",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/official-excerpts.json": "811e0072d98e0c2959f5b69a931f0b33e6ae8bb1dc45aa3d02c99e45e88965de",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/public-searches.json": "88ee7b2fa214484edca3a134b9bdcf3284dc61bd6dcad3d39d06808b8f610a4e",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/README.md": "5bb3cfdaf7071bcb4ee3643d08822d74f33ead19f16566eb6e4f9a5760222b8d",
+    "sources/references/booster-pack-heroes-miniapp-2026-11-18/wechat-requirements.json": "3da81c91b468073f344cd3c8d656bee419c20756f143de8e99cb58c65305a073"
+  },
+  "limitations": [
+    "Screenshots visually reviewed as recorded. Source/account/product verification gaps remain explicit.",
+    "Source gaps and account eligibility remain as documented.",
+    "This is not product QA or an authorization to spend/publish."
+  ],
+  "visualReview": {
+    "reviewedAtUtc": "2026-11-18T09:42:29.193777+00:00",
+    "files": [
+      "desktop-overview.png",
+      "desktop-finance.png",
+      "preview-390.png",
+      "mobile-finance.png"
+    ],
+    "result": "桌面首屏/预算、手机首屏/预算已目检；手机副标题断行已修正。最终页面自动检查320/390/768/1360宽度无横向溢出。最后排期口径文字调整未改变这些视图布局。",
+    "scope": "计划预览；不是游戏或平台验收"
+  }
+}

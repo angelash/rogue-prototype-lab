@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "utc": "2026-11-19T02:02:18.334984+00:00",
+  "scope": "Current handoff, static planning data, local links and deterministic HTML regeneration; no browser/game/platform/ad tests in this verification",
+  "checks": [
+    {
+      "name": "task_integrity",
+      "status": "passed",
+      "details": {
+        "tasks": 58,
+        "dependencyGraph": "acyclic",
+        "personDays": 145,
+        "gates": 6,
+        "productionStatus": "all planned; all gates not_evaluated"
+      }
+    },
+    {
+      "name": "budget_and_economics",
+      "status": "passed",
+      "details": {
+        "budgetTotalsCNY": {
+          "lean": 22000,
+          "base": 57200,
+          "expanded": 113300
+        },
+        "baseHypotheticalLTV90": 0.45696,
+        "scope": "Arithmetic only; no actual ad revenue or spending"
+      }
+    },
+    {
+      "name": "source_boundaries",
+      "status": "passed",
+      "details": {
+        "sources": 21,
+        "officialPlatformEntries": 18,
+        "completeArticleReads": 6,
+        "unreadBodySources": [
+          "S14",
+          "S19",
+          "S20"
+        ]
+      }
+    }
+  ],
+  "markdown_links_checked": 26,
+  "private_project_links_mapped": [],
+  "html_sha256": "f6e4a146c70f2f303d5642942c61e3a1d6d671128c69da0c6b7185c63f788acb",
+  "production_tasks_marked_complete": 0
+}
