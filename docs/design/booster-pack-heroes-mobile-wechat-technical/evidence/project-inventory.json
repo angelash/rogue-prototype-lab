@@ -1,0 +1,2171 @@
+{
+  "schemaVersion": 1,
+  "observedAtUtc": "2026-11-19T01:50:56.981845+00:00",
+  "project": "prototypes/re-booster-pack-heroes/local/UnityProject",
+  "method": "read_only_static_scan",
+  "assetFilesIncludingMeta": 9174,
+  "assetFilesExcludingMeta": 4407,
+  "assetSourceBytesExcludingMeta": 254636752,
+  "extensions": {
+    ".ogg": {
+      "count": 394,
+      "bytes": 100531377
+    },
+    ".ttf": {
+      "count": 8,
+      "bytes": 39971100
+    },
+    ".asset": {
+      "count": 909,
+      "bytes": 35856981
+    },
+    ".png": {
+      "count": 356,
+      "bytes": 30235977
+    },
+    ".unity": {
+      "count": 2,
+      "bytes": 29086531
+    },
+    ".cs": {
+      "count": 2277,
+      "bytes": 8589177
+    },
+    ".prefab": {
+      "count": 164,
+      "bytes": 8580122
+    },
+    ".meta": {
+      "count": 4767,
+      "bytes": 5148293
+    },
+    ".txt": {
+      "count": 15,
+      "bytes": 636200
+    },
+    ".json": {
+      "count": 16,
+      "bytes": 452904
+    },
+    ".shader": {
+      "count": 110,
+      "bytes": 304598
+    },
+    ".dll": {
+      "count": 1,
+      "bytes": 175616
+    },
+    ".mat": {
+      "count": 95,
+      "bytes": 150630
+    },
+    ".anim": {
+      "count": 10,
+      "bytes": 26228
+    },
+    ".controller": {
+      "count": 8,
+      "bytes": 19201
+    },
+    ".cginc": {
+      "count": 4,
+      "bytes": 13994
+    },
+    ".asmdef": {
+      "count": 38,
+      "bytes": 6116
+    }
+  },
+  "topFolders": {
+    "AudioClip": {
+      "count": 788,
+      "bytes": 100962807
+    },
+    "Font": {
+      "count": 16,
+      "bytes": 39975485
+    },
+    "Texture2D": {
+      "count": 678,
+      "bytes": 32898401
+    },
+    "Scenes": {
+      "count": 4,
+      "bytes": 29086919
+    },
+    "Resources": {
+      "count": 394,
+      "bytes": 21633378
+    },
+    "MonoBehaviour": {
+      "count": 1678,
+      "bytes": 16724428
+    },
+    "Scripts": {
+      "count": 4924,
+      "bytes": 9096733
+    },
+    "GameObject": {
+      "count": 326,
+      "bytes": 8568819
+    },
+    "Plugins": {
+      "count": 23,
+      "bytes": 293313
+    },
+    "Shader": {
+      "count": 64,
+      "bytes": 183894
+    },
+    "Material": {
+      "count": 174,
+      "bytes": 153859
+    },
+    "TextMesh Pro": {
+      "count": 35,
+      "bytes": 98126
+    },
+    "RestorationTools": {
+      "count": 16,
+      "bytes": 53800
+    },
+    "AnimationClip": {
+      "count": 20,
+      "bytes": 28498
+    },
+    "AnimatorController": {
+      "count": 16,
+      "bytes": 21017
+    },
+    "StreamingAssets": {
+      "count": 2,
+      "bytes": 2816
+    },
+    "AnimationClip.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "AnimatorController.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "AudioClip.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Font.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "GameObject.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Material.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "MonoBehaviour.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Plugins.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Resources.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "RestorationTools.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Scenes.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Scripts.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Shader.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "StreamingAssets.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "TextMesh Pro.meta": {
+      "count": 1,
+      "bytes": 172
+    },
+    "Texture2D.meta": {
+      "count": 1,
+      "bytes": 172
+    }
+  },
+  "sourceFiles": 2277,
+  "mainGameSourceFiles": 727,
+  "codePatternStats": {
+    "reflection": {
+      "fileCount": 3,
+      "lineMatches": 7,
+      "mainGameFileCount": 0
+    },
+    "lifecycle": {
+      "fileCount": 5,
+      "lineMatches": 6,
+      "mainGameFileCount": 2
+    },
+    "filesystem": {
+      "fileCount": 13,
+      "lineMatches": 50,
+      "mainGameFileCount": 5
+    },
+    "gpu_readback": {
+      "fileCount": 4,
+      "lineMatches": 9,
+      "mainGameFileCount": 3
+    },
+    "managed_thread_or_blocking_candidates": {
+      "fileCount": 1,
+      "lineMatches": 2,
+      "mainGameFileCount": 0
+    },
+    "allocation_hotspot": {
+      "fileCount": 102,
+      "lineMatches": 294,
+      "mainGameFileCount": 102
+    },
+    "touch_direct": {
+      "fileCount": 12,
+      "lineMatches": 19,
+      "mainGameFileCount": 12
+    },
+    "pointer_callbacks": {
+      "fileCount": 13,
+      "lineMatches": 30,
+      "mainGameFileCount": 13
+    },
+    "resource_load": {
+      "fileCount": 22,
+      "lineMatches": 23,
+      "mainGameFileCount": 22
+    },
+    "keyboard_direct": {
+      "fileCount": 13,
+      "lineMatches": 14,
+      "mainGameFileCount": 13
+    },
+    "mouse_direct": {
+      "fileCount": 9,
+      "lineMatches": 12,
+      "mainGameFileCount": 9
+    },
+    "right_middle": {
+      "fileCount": 5,
+      "lineMatches": 6,
+      "mainGameFileCount": 5
+    },
+    "pointer_consumer": {
+      "fileCount": 8,
+      "lineMatches": 11,
+      "mainGameFileCount": 8
+    },
+    "playerprefs": {
+      "fileCount": 15,
+      "lineMatches": 71,
+      "mainGameFileCount": 15
+    },
+    "native_interop": {
+      "fileCount": 1,
+      "lineMatches": 3,
+      "mainGameFileCount": 1
+    }
+  },
+  "textures": {
+    "pngCount": 356,
+    "sourceBytes": 30235977,
+    "rgba32BaseBytesEstimate": 375627388,
+    "readableCount": 21,
+    "mipmappedCount": 3,
+    "dimensions": {
+      "370x44": 2,
+      "121x48": 2,
+      "128x128": 9,
+      "150x40": 2,
+      "432x172": 2,
+      "424x80": 2,
+      "94x40": 1,
+      "40x40": 2,
+      "1x1": 1,
+      "1024x1024": 20,
+      "2048x2048": 5,
+      "46x81": 1,
+      "288x512": 1,
+      "352x832": 1,
+      "384x416": 1,
+      "544x832": 1,
+      "352x384": 1,
+      "1104x48": 1,
+      "1008x48": 1,
+      "640x32": 1,
+      "320x32": 9,
+      "256x32": 37,
+      "16x16": 8,
+      "13x15": 17,
+      "3840x1792": 1,
+      "480x480": 2,
+      "960x540": 2,
+      "960x960": 1,
+      "1152x96": 1,
+      "288x32": 1,
+      "384x96": 1,
+      "512x64": 8,
+      "1152x64": 2,
+      "640x64": 6,
+      "896x64": 1,
+      "1550x850": 1,
+      "2048x968": 4,
+      "600x900": 1,
+      "462x174": 1,
+      "816x64": 1,
+      "768x64": 2,
+      "704x64": 2,
+      "960x64": 2,
+      "320x640": 2,
+      "256x49": 1,
+      "288x48": 2,
+      "45x60": 1,
+      "15x15": 10,
+      "256x128": 4,
+      "45x75": 1,
+      "64x64": 9,
+      "26x29": 1,
+      "20x20": 5,
+      "480x256": 18,
+      "48x48": 1,
+      "2048x384": 1,
+      "1488x56": 1,
+      "336x48": 2,
+      "816x48": 2,
+      "576x48": 2,
+      "1920x512": 1,
+      "300x152": 1,
+      "432x127": 1,
+      "512x512": 2,
+      "160x32": 3,
+      "225x32": 1,
+      "864x1632": 1,
+      "176x64": 1,
+      "400x336": 1,
+      "192x32": 7,
+      "512x32": 1,
+      "80x16": 1,
+      "368x208": 1,
+      "175x25": 1,
+      "828x100": 1,
+      "384x400": 1,
+      "1056x96": 2,
+      "1536x128": 1,
+      "384x32": 1,
+      "448x32": 1,
+      "240x32": 1,
+      "224x32": 2,
+      "768x48": 1,
+      "1600x80": 1,
+      "1536x1056": 1,
+      "1664x64": 1,
+      "384x64": 2,
+      "256x2192": 1,
+      "512x4384": 1,
+      "256x256": 5,
+      "192x288": 1,
+      "24x17": 4,
+      "24x18": 4,
+      "128x16": 1,
+      "640x128": 1,
+      "64x80": 1,
+      "25x20": 4,
+      "34x16": 1,
+      "18x19": 1,
+      "64x32": 1,
+      "132x44": 1,
+      "176x88": 1,
+      "44x44": 2,
+      "20x25": 1,
+      "120x80": 14,
+      "88x88": 1,
+      "448x112": 1,
+      "15x16": 1,
+      "240x200": 1,
+      "156x26": 1,
+      "500x500": 1,
+      "150x150": 2,
+      "320x320": 6,
+      "32x32": 1,
+      "240x40": 1,
+      "768x1824": 1,
+      "12x4": 1,
+      "240x48": 1,
+      "624x48": 1,
+      "432x32": 1,
+      "732x416": 1,
+      "736x416": 1,
+      "2048x1024": 1,
+      "1536x1536": 1,
+      "1696x1696": 1,
+      "160x256": 1,
+      "240x240": 1,
+      "908x511": 3,
+      "640x424": 1,
+      "80x80": 1,
+      "1007x315": 1,
+      "288x288": 1,
+      "320x400": 1,
+      "912x64": 1,
+      "1540x837": 1,
+      "1056x960": 1,
+      "1536x672": 1,
+      "704x32": 1
+    },
+    "largestByPixels": [
+      {
+        "path": "Assets/Texture2D/Aura-ALL.png",
+        "bytes": 766384,
+        "width": 3840,
+        "height": 1792,
+        "rgba32BaseBytesEstimate": 27525120,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "1",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/0. SKY + MOON_BPH.png",
+        "bytes": 2714651,
+        "width": 2048,
+        "height": 2048,
+        "rgba32BaseBytesEstimate": 16777216,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/1. BACKGROUND MOUNTAINS_BPH.png",
+        "bytes": 322845,
+        "width": 2048,
+        "height": 2048,
+        "rgba32BaseBytesEstimate": 16777216,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/2. CASTLE_BPH.png",
+        "bytes": 711337,
+        "width": 2048,
+        "height": 2048,
+        "rgba32BaseBytesEstimate": 16777216,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/3. FOREGROUND TREES AND ROCKS_BPH.png",
+        "bytes": 395607,
+        "width": 2048,
+        "height": 2048,
+        "rgba32BaseBytesEstimate": 16777216,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/Final_Sprites_Test.png",
+        "bytes": 230484,
+        "width": 2048,
+        "height": 2048,
+        "rgba32BaseBytesEstimate": 16777216,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/sprite sheet items B.png",
+        "bytes": 2138064,
+        "width": 1696,
+        "height": 1696,
+        "rgba32BaseBytesEstimate": 11505664,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/sprite sheet items A.png",
+        "bytes": 1707157,
+        "width": 1536,
+        "height": 1536,
+        "rgba32BaseBytesEstimate": 9437184,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/Icons_Colored_32x32.png",
+        "bytes": 1050388,
+        "width": 512,
+        "height": 4384,
+        "rgba32BaseBytesEstimate": 8978432,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/Splash Screen Unity Logo.png",
+        "bytes": 172719,
+        "width": 2048,
+        "height": 1024,
+        "rgba32BaseBytesEstimate": 8388608,
+        "readable": "0",
+        "mipmaps": "1",
+        "textureCompression": "2",
+        "spriteMode": "2",
+        "filterMode": "1"
+      },
+      {
+        "path": "Assets/Texture2D/BPH_LOGO_ENG.png",
+        "bytes": 191814,
+        "width": 2048,
+        "height": 968,
+        "rgba32BaseBytesEstimate": 7929856,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "1",
+        "filterMode": "0"
+      },
+      {
+        "path": "Assets/Texture2D/BPH_LOGO_JA.png",
+        "bytes": 151936,
+        "width": 2048,
+        "height": 968,
+        "rgba32BaseBytesEstimate": 7929856,
+        "readable": "0",
+        "mipmaps": "0",
+        "textureCompression": "2",
+        "spriteMode": "1",
+        "filterMode": "0"
+      }
+    ]
+  },
+  "audio": {
+    "fileCount": 394,
+    "sourceBytes": 100531377
+  },
+  "fonts": [
+    {
+      "path": "Assets/Font/Jacquard12-Regular.ttf",
+      "bytes": 114268
+    },
+    {
+      "path": "Assets/Font/Jersey10-Foil.ttf",
+      "bytes": 76636
+    },
+    {
+      "path": "Assets/Font/Jersey10-Regular.ttf",
+      "bytes": 76636
+    },
+    {
+      "path": "Assets/Font/LiberationSans.ttf",
+      "bytes": 350200
+    },
+    {
+      "path": "Assets/Font/NotoSans-VariableFont_wdth_wght.ttf",
+      "bytes": 2044548
+    },
+    {
+      "path": "Assets/Font/NotoSansJP-VariableFont_wght.ttf",
+      "bytes": 9135128
+    },
+    {
+      "path": "Assets/Font/NotoSansKR-VariableFont_wght.ttf",
+      "bytes": 10400436
+    },
+    {
+      "path": "Assets/Font/NotoSansSC-VariableFont_wght.ttf",
+      "bytes": 17773248
+    }
+  ],
+  "tmpFontAssets": [
+    {
+      "path": "Assets/MonoBehaviour/Jacquard12-Regular SDF.asset",
+      "bytes": 33441,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 51
+    },
+    {
+      "path": "Assets/MonoBehaviour/JERSEY OUTLINE 1.asset",
+      "bytes": 121014,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 111
+    },
+    {
+      "path": "Assets/MonoBehaviour/JERSEY OUTLINE.asset",
+      "bytes": 217916,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 141
+    },
+    {
+      "path": "Assets/MonoBehaviour/Jersey10-Foil SDF.asset",
+      "bytes": 67504,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 47
+    },
+    {
+      "path": "Assets/MonoBehaviour/Jersey10-Regular SDF.asset",
+      "bytes": 239937,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 158
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSans SDF.asset",
+      "bytes": 6417675,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 85
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSansJP SDF.asset",
+      "bytes": 5069595,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 1085
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSansKR SDF.asset",
+      "bytes": 183588,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 346
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSansSC SDF.asset",
+      "bytes": 109158,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "1",
+      "characterEntries": 236
+    },
+    {
+      "path": "Assets/Resources/fonts & materials/LiberationSans SDF - Fallback.asset",
+      "bytes": 849331,
+      "atlasWidth": "512",
+      "atlasHeight": "512",
+      "populationMode": "1",
+      "characterEntries": 0
+    },
+    {
+      "path": "Assets/Resources/fonts & materials/LiberationSans SDF.asset",
+      "bytes": 164806,
+      "atlasWidth": "1024",
+      "atlasHeight": "1024",
+      "populationMode": "0",
+      "characterEntries": 250
+    }
+  ],
+  "shaderCount": 110,
+  "materialCount": 95,
+  "resources": {
+    "count": 191,
+    "sourceBytes": 21414584,
+    "largest": [
+      {
+        "path": "Assets/Resources/sentis/computeshaders/ConvGeneric.asset",
+        "bytes": 13747230
+      },
+      {
+        "path": "Assets/Resources/sentis/computeshaders/Dense.asset",
+        "bytes": 944088
+      },
+      {
+        "path": "Assets/Resources/fonts & materials/LiberationSans SDF - Fallback.asset",
+        "bytes": 849331
+      },
+      {
+        "path": "Assets/Resources/fonts & materials/LiberationSans SDF Atlas_0.png",
+        "bytes": 765546
+      },
+      {
+        "path": "Assets/Resources/sentis/computeshaders/Compute.Shaders.Broadcast.gen.asset",
+        "bytes": 578958
+      },
+      {
+        "path": "Assets/Resources/sentis/computeshaders/Compute.Shaders.Reduction.gen.asset",
+        "bytes": 417080
+      },
+      {
+        "path": "Assets/Resources/sentis/computeshaders/Compute.Shaders.Conv.gen.asset",
+        "bytes": 296999
+      },
+      {
+        "path": "Assets/Resources/localization/BPH_Localization - Upgrades.txt",
+        "bytes": 295644
+      }
+    ]
+  },
+  "streamingAssets": {
+    "count": 1,
+    "sourceBytes": 2661,
+    "paths": [
+      "Assets/StreamingAssets/UnityServicesProjectConfiguration.json"
+    ]
+  },
+  "sceneSerializedGuidClosure": {
+    "Assets/Scenes/Boot.unity": {
+      "fileCount": 5,
+      "sourceFileBytes": 73357,
+      "unresolvedGuidCount": 0
+    },
+    "Assets/Scenes/SampleScene.unity": {
+      "fileCount": 2035,
+      "sourceFileBytes": 168017728,
+      "unresolvedGuidCount": 24
+    }
+  },
+  "scriptReferences": {
+    "SafeAreaFitter": {
+      "guid": "9cb19f2c56bf18542576a9e261c8fc18",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            685893
+          ]
+        }
+      ]
+    },
+    "SkillTreeUI": {
+      "guid": "8c3002f358291e236dbc02da819a4e36",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            774221,
+            963711
+          ]
+        }
+      ]
+    },
+    "InputHandler": {
+      "guid": "928a0d971698f339dbe344eb12726385",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            683536
+          ]
+        }
+      ]
+    },
+    "CursorDamagePerSecond": {
+      "guid": "a654b7405cc057c4da7eeabcbc49cfd8",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            979620
+          ]
+        }
+      ]
+    },
+    "SlashDetector": {
+      "guid": "029b0d5ad58372bc6bdcdf20e380003a",
+      "serializedReferences": []
+    },
+    "GuideStep": {
+      "guid": "0982eb824d95e37ac93975210068bbc5",
+      "serializedReferences": []
+    },
+    "CrtScreenFilter": {
+      "guid": "e0e3f9b03ec620e907b8a623f1538272",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            545482
+          ]
+        }
+      ]
+    },
+    "CastSpellManager": {
+      "guid": "28a0b78792327c9faf42955516656b75",
+      "serializedReferences": [
+        {
+          "path": "Assets/Scenes/SampleScene.unity",
+          "lines": [
+            897001
+          ]
+        }
+      ]
+    }
+  },
+  "canvasScalers": [
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "canvasScalers": [
+        {
+          "line": 683578,
+          "mode": "1",
+          "referenceResolution": "{x: 1920, y: 1080}",
+          "matchWidthOrHeight": "0.5"
+        },
+        {
+          "line": 687260,
+          "mode": "1",
+          "referenceResolution": "{x: 1920, y: 1080}",
+          "matchWidthOrHeight": "0.5"
+        },
+        {
+          "line": 687591,
+          "mode": "1",
+          "referenceResolution": "{x: 1920, y: 1080}",
+          "matchWidthOrHeight": "0.5"
+        },
+        {
+          "line": 890121,
+          "mode": "0",
+          "referenceResolution": "{x: 800, y: 600}",
+          "matchWidthOrHeight": "0"
+        },
+        {
+          "line": 1026029,
+          "mode": "0",
+          "referenceResolution": "{x: 800, y: 600}",
+          "matchWidthOrHeight": "0"
+        }
+      ]
+    }
+  ],
+  "playerSettings": {
+    "defaultScreenWidth": "1920",
+    "defaultScreenHeight": "1080",
+    "defaultScreenWidthWeb": "960",
+    "defaultScreenHeightWeb": "600",
+    "activeInputHandler": "2",
+    "m_ActiveColorSpace": "1",
+    "webGLThreadsSupport": "0",
+    "webGLInitialMemorySize": "32",
+    "webGLMaximumMemorySize": "2048",
+    "webGLCompressionFormat": "1",
+    "webGLDecompressionFallback": "0",
+    "stripEngineCode": "1",
+    "allowUnsafeCode": "1"
+  },
+  "guidDuplicates": [],
+  "largestSourceAssets": [
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "bytes": 29079334
+    },
+    {
+      "path": "Assets/Font/NotoSansSC-VariableFont_wght.ttf",
+      "bytes": 17773248
+    },
+    {
+      "path": "Assets/AudioClip/DavidKBD-03 - Ghastly Apparition - first half.ogg",
+      "bytes": 14700489
+    },
+    {
+      "path": "Assets/Resources/sentis/computeshaders/ConvGeneric.asset",
+      "bytes": 13747230
+    },
+    {
+      "path": "Assets/Font/NotoSansKR-VariableFont_wght.ttf",
+      "bytes": 10400436
+    },
+    {
+      "path": "Assets/Font/NotoSansJP-VariableFont_wght.ttf",
+      "bytes": 9135128
+    },
+    {
+      "path": "Assets/AudioClip/DavidKBD-03 - Ghastly Apparition - second half.ogg",
+      "bytes": 8687510
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSans SDF.asset",
+      "bytes": 6417675
+    },
+    {
+      "path": "Assets/AudioClip/DavidKBD-03 - Ghastly Apparition- first half without intro.ogg",
+      "bytes": 6074280
+    },
+    {
+      "path": "Assets/MonoBehaviour/NotoSansJP SDF.asset",
+      "bytes": 5069595
+    },
+    {
+      "path": "Assets/AudioClip/Sketchbook 2024-02-14_L03.ogg",
+      "bytes": 3051786
+    },
+    {
+      "path": "Assets/AudioClip/blizzard.ogg",
+      "bytes": 2894374
+    },
+    {
+      "path": "Assets/AudioClip/Gregor Quendel - Designed Atmospheres - Wind - 001 - II.ogg",
+      "bytes": 2809606
+    },
+    {
+      "path": "Assets/Texture2D/0. SKY + MOON_BPH.png",
+      "bytes": 2714651
+    },
+    {
+      "path": "Assets/AudioClip/music 1.ogg",
+      "bytes": 2650401
+    }
+  ],
+  "sdkIndicators": {
+    "wechatNamedFiles": [],
+    "addressableNamedFiles": []
+  },
+  "boundaries": [
+    "Asset-source sizes are not player/package/download sizes.",
+    "RGBA32 estimate excludes mips and is not runtime memory; assets may be unloaded, compressed or duplicated.",
+    "GUID closure follows text serialized references, not Unity BuildReport; runtime loads, code inclusion, built-ins and package assets not fully covered.",
+    "Code regex matches are candidate locations, not confirmed reachable defects.",
+    "No Unity build, game input, ad SDK or phone tests performed."
+  ],
+  "baselineComparison": {
+    "registeredFiles": 2337,
+    "different": [],
+    "missing": [],
+    "comparedAtUtc": "2026-11-19T01:58:39.829724+00:00"
+  },
+  "sentisResources": {
+    "fileCount": 107,
+    "sourceBytes": 18274000,
+    "inclusionBoundary": "Resources候选，需要实际依赖/BuildReport验证，不是保证节省的构建字节"
+  },
+  "audioSamples": [
+    {
+      "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/AudioClip/DavidKBD-03 - Ghastly Apparition - first half.ogg",
+      "sourceBytes": 14700489,
+      "seconds": 232.45542,
+      "rate": 44100,
+      "channels": 2,
+      "codec": "vorbis",
+      "float32PCMBytesEstimate": 82010272
+    },
+    {
+      "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/AudioClip/DavidKBD-03 - Ghastly Apparition - second half.ogg",
+      "sourceBytes": 8687510,
+      "seconds": 132.084898,
+      "rate": 44100,
+      "channels": 2,
+      "codec": "vorbis",
+      "float32PCMBytesEstimate": 46599552
+    },
+    {
+      "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/AudioClip/DavidKBD-03 - Ghastly Apparition- first half without intro.ogg",
+      "sourceBytes": 6074280,
+      "seconds": 97.21737,
+      "rate": 44100,
+      "channels": 2,
+      "codec": "vorbis",
+      "float32PCMBytesEstimate": 34298288
+    }
+  ],
+  "sceneComponentFacts": [
+    {
+      "class": "CrtScreenFilter",
+      "line": 545473,
+      "componentId": "33991",
+      "objectPath": "Main Camera",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "enableEffect": "1",
+        "distortion": "0.054",
+        "scanlineIntensity": "0.5"
+      }
+    },
+    {
+      "class": "GameVersionManager",
+      "line": 661866,
+      "componentId": "35244",
+      "objectPath": "GameManager",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "currentVersion": "2"
+      }
+    },
+    {
+      "class": "InputHandler",
+      "line": 683527,
+      "componentId": "35541",
+      "objectPath": "InputHandler",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "forceDevice": "0",
+        "forcedDevice": "0"
+      }
+    },
+    {
+      "class": "GraphicRaycaster",
+      "line": 683549,
+      "componentId": "35542",
+      "objectPath": "Main Camera/CRT Overlay Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "0"
+      }
+    },
+    {
+      "class": "CanvasScaler",
+      "line": 683566,
+      "componentId": "35543",
+      "objectPath": "Main Camera/CRT Overlay Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_UiScaleMode": "1",
+        "m_ReferenceResolution": "{x: 1920, y: 1080}",
+        "m_MatchWidthOrHeight": "0.5"
+      }
+    },
+    {
+      "class": "SafeAreaFitter",
+      "line": 685884,
+      "componentId": "35618",
+      "objectPath": "Canvas/SafeArea",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "safeAreaTransform": "{fileID: 22189}"
+      }
+    },
+    {
+      "class": "GraphicRaycaster",
+      "line": 687231,
+      "componentId": "35664",
+      "objectPath": "Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CanvasScaler",
+      "line": 687248,
+      "componentId": "35665",
+      "objectPath": "Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_UiScaleMode": "1",
+        "m_ReferenceResolution": "{x: 1920, y: 1080}",
+        "m_MatchWidthOrHeight": "0.5"
+      }
+    },
+    {
+      "class": "GraphicRaycaster",
+      "line": 687562,
+      "componentId": "35673",
+      "objectPath": "CutsceneCanvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CanvasScaler",
+      "line": 687579,
+      "componentId": "35674",
+      "objectPath": "CutsceneCanvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_UiScaleMode": "1",
+        "m_ReferenceResolution": "{x: 1920, y: 1080}",
+        "m_MatchWidthOrHeight": "0.5"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 695595,
+      "componentId": "35938",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Slots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 698870,
+      "componentId": "36046",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 701824,
+      "componentId": "36145",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 705764,
+      "componentId": "36279",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (10)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 708582,
+      "componentId": "36372",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 715220,
+      "componentId": "36582",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 718434,
+      "componentId": "36687",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (11)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 718797,
+      "componentId": "36699",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (9)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 720093,
+      "componentId": "36744",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (3)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 722082,
+      "componentId": "36810",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (6)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 724597,
+      "componentId": "36887",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 726161,
+      "componentId": "36936",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 728039,
+      "componentId": "37003",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 730591,
+      "componentId": "37078",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (7)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 736503,
+      "componentId": "37270",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (6)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 740952,
+      "componentId": "37413",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 741595,
+      "componentId": "37436",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (7)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 742397,
+      "componentId": "37462",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 751617,
+      "componentId": "37747",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 759500,
+      "componentId": "37997",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 767225,
+      "componentId": "38249",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 775426,
+      "componentId": "38507",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 787273,
+      "componentId": "38859",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 788911,
+      "componentId": "38917",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 789341,
+      "componentId": "38931",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 789880,
+      "componentId": "38948",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (9)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 798579,
+      "componentId": "39217",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (7)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 800883,
+      "componentId": "39291",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 800982,
+      "componentId": "39295",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (8)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 804800,
+      "componentId": "39410",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (11)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "InputSystemUIInputModule",
+      "line": 808791,
+      "componentId": "39539",
+      "objectPath": "EventSystem",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_ActionsAsset": "{fileID: 11400000, guid: 43617c54a2e0180409328586a55784d8, type: 2}",
+        "m_PointAction": "{fileID: 11400000, guid: f05a450db5e0fed478c3ecf64ca4aa1c, type: 2}",
+        "m_LeftClickAction": "{fileID: 11400000, guid: 1576b86dccad47e45a255ee3022d5b88, type: 2}",
+        "m_DeselectOnBackgroundClick": "1",
+        "m_PointerBehavior": "0"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 811753,
+      "componentId": "39632",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 820170,
+      "componentId": "39908",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (7)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 821674,
+      "componentId": "39957",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 826258,
+      "componentId": "40114",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Slots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "GraphicRaycaster",
+      "line": 827929,
+      "componentId": "40174",
+      "objectPath": "TutorialDay1/Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 828145,
+      "componentId": "40181",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 830021,
+      "componentId": "40239",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 838284,
+      "componentId": "40509",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 839902,
+      "componentId": "40556",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 841278,
+      "componentId": "40599",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 841853,
+      "componentId": "40617",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 851246,
+      "componentId": "40896",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 857351,
+      "componentId": "41093",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Slots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 860306,
+      "componentId": "41195",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 863586,
+      "componentId": "41298",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (10)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 867909,
+      "componentId": "41436",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (4)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 871289,
+      "componentId": "41541",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 873899,
+      "componentId": "41622",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/OffersArea/PackShopEntryUI/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 874361,
+      "componentId": "41639",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (10)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 875472,
+      "componentId": "41676",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (5)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 884531,
+      "componentId": "41951",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CanvasScaler",
+      "line": 890109,
+      "componentId": "42125",
+      "objectPath": "TutorialDay1/Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_UiScaleMode": "0",
+        "m_ReferenceResolution": "{x: 800, y: 600}",
+        "m_MatchWidthOrHeight": "0"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 895033,
+      "componentId": "42282",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 895895,
+      "componentId": "42312",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CastSpellManager",
+      "line": 896992,
+      "componentId": "42341",
+      "objectPath": "SpellCastManager",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "0",
+        "castOnLeftClick": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 897563,
+      "componentId": "42360",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 898186,
+      "componentId": "42383",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CursesSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 906956,
+      "componentId": "42648",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 911289,
+      "componentId": "42794",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 913050,
+      "componentId": "42848",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 921065,
+      "componentId": "43121",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (7)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 923265,
+      "componentId": "43186",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/OffersArea/PackShopEntryUI (1)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 923985,
+      "componentId": "43212",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/RelicsLayout/RelicsContent/RelicSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 924543,
+      "componentId": "43232",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (8)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 924652,
+      "componentId": "43236",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "GraphicRaycaster",
+      "line": 926785,
+      "componentId": "43293",
+      "objectPath": "PlatformManager/Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 928178,
+      "componentId": "43337",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (11)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 934656,
+      "componentId": "43545",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 935834,
+      "componentId": "43589",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 936498,
+      "componentId": "43610",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/OffersArea/PackShopEntryUI (2)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 937609,
+      "componentId": "43645",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/ModifiersScroll/UnlockedContent/Slots/SkillNodeUI (9)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 939284,
+      "componentId": "43701",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 944463,
+      "componentId": "43869",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 944662,
+      "componentId": "43876",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 952684,
+      "componentId": "44127",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 955699,
+      "componentId": "44222",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (6)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 957240,
+      "componentId": "44273",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/RelicsScroll/UnlockedContent/CosmicSlots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 960466,
+      "componentId": "44367",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (1)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 965939,
+      "componentId": "44547",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (6)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 966042,
+      "componentId": "44551",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (8)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 976195,
+      "componentId": "44893",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 977208,
+      "componentId": "44925",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (3)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CursorDamagePerSecond",
+      "line": 979611,
+      "componentId": "45000",
+      "objectPath": "CursorDamagePerSecond",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 980779,
+      "componentId": "45041",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Slots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 984728,
+      "componentId": "45178",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (1)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 989157,
+      "componentId": "45312",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (2)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 991595,
+      "componentId": "45391",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (5)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 996194,
+      "componentId": "45531",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI (3)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 999562,
+      "componentId": "45649",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1000065,
+      "componentId": "45667",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ModifiersScroll/Slots/SkillNodeUI (6)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "PackEntryHoverProxy",
+      "line": 1001715,
+      "componentId": "45725",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/ShopScroll/Viewport/Content/PacksArea/PackShopEntryUI (4)/GamepadMobileUI/SelectableButton",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1003099,
+      "componentId": "45764",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1004363,
+      "componentId": "45803",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 1008330,
+      "componentId": "45937",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 1015707,
+      "componentId": "46168",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (4)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1016398,
+      "componentId": "46194",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CursesSlots/SkillNodeUI (2)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 1025596,
+      "componentId": "46486",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (5)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "CanvasScaler",
+      "line": 1026017,
+      "componentId": "46498",
+      "objectPath": "PlatformManager/Canvas",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1",
+        "m_UiScaleMode": "0",
+        "m_ReferenceResolution": "{x: 800, y: 600}",
+        "m_MatchWidthOrHeight": "0"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1030247,
+      "componentId": "46635",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/RelicSlots/SkillNodeUI (1)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 1034079,
+      "componentId": "46761",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Binder/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "SkillNodeHoverProxy",
+      "line": 1043790,
+      "componentId": "47075",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanel/RelicsScroll/CosmicSlots/SkillNodeUI/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": false,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    },
+    {
+      "class": "BinderCardHoverProxy",
+      "line": 1043869,
+      "componentId": "47078",
+      "objectPath": "Canvas/SafeArea/ImprovementsPanelTabs/TabContent/TabPages/Bestiary/BinderUI/CardsScroll/Viewport/CardsGrid/BinderCardPrefab (6)/MobileGamepadUI/HoverProxy",
+      "serializedActiveHierarchy": true,
+      "fields": {
+        "m_Enabled": "1"
+      }
+    }
+  ]
+}

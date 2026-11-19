@@ -21,3 +21,5 @@ python -X utf8 docs/design/booster-pack-heroes-miniapp-release/render_plan.py
 ```
 
 原还原项目的合同与 README 增补了本计划的本地入口；它们原先未跟踪的还原工作不随本次归档整批加入公开仓库。原件、派生代码、媒体和账号材料保持既有本地/私有保存边界。本归档可独立阅读，不依赖那些未提交的文件才能理解结论。
+
+2026-11-19 后续：[手机点击操作与微信包技术评估](../booster-pack-heroes-mobile-wechat-technical/README.md)已经按更新后的可玩工程重新盘点，覆盖触摸、界面、资产、WebGL编译/打包、存储与部署。该报告补充本历史计划，不把11月18日的工程快照或生产检查点改写为已完成。

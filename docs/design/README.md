@@ -34,3 +34,4 @@
 ## 专项商业发行计划
 
 - 2026-11-18：[Booster Pack Heroes 小游戏移植、广告与发行推广计划](booster-pack-heroes-miniapp-release/README.md)。用户确认微信小游戏先行、抖音随后，商业改编授权已取得、范围后续补充；本轮为调研计划归档，含任务、预算、收益假设、准入与验收，生产和发布尚未执行。此项独立于上文原始候选方案的历史平台状态。
+- 2026-11-19：[Booster Pack Heroes 手机点击与微信包技术评估](booster-pack-heroes-mobile-wechat-technical/README.md)。按当前可玩PC基线重新核查输入/界面、资产与场景依赖、WebGL编译/加载、存档/广告生命周期和部署，含25项有据整改与离线预览；本轮只读分析，微信移植未执行。

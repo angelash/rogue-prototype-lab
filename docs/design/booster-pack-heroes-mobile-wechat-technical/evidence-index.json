@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-19",
+  "scope": "read_only_engineering_analysis",
+  "baselineComparison": {
+    "registeredFiles": 2337,
+    "different": [],
+    "missing": [],
+    "comparedAtUtc": "2026-11-19T01:58:39.829724+00:00"
+  },
+  "entries": [
+    {
+      "id": "E01",
+      "title": "当前PC验收、目标图集修复与源码登记基线",
+      "evidenceType": "existing_records_readback",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/evidence/playability-acceptance.json",
+          "line": 1,
+          "sha256": "711220d37d72cbb091a39a0e89fc3c7dcac94a8bb24b7700b00994d769ca789d",
+          "observation": "iteration-14定向验收，完整核心范围另有先前记录"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/evidence/shop-art-repair.json",
+          "line": 1,
+          "sha256": "609a76be7ec154cce588b9a0c2c6ca16b0c0212ad8a4d2d434954d6a6171c59c",
+          "observation": "图集源/Player像素一致、Windows构建与定向输入"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/reports/playability-known-gaps.md",
+          "line": 1,
+          "sha256": "866fa9c8663629e8df7074ad652de981b8a2fede0af5b69ee61dd9a2b91fe547",
+          "observation": "后期/平台/听感等未穷尽范围"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/runtime-repair/20261118-playable/iteration-14/source-before.json",
+          "line": 1,
+          "sha256": "522f9a27ab1f8a28d6874be25e31526381492315037ec465aefff078cd872db0",
+          "observation": "本轮逐项回读2337登记文件，见baselineComparison"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/PHASE2_HANDOFF.md",
+          "line": 1,
+          "sha256": "f50a0a18fc1aac36f43f1a8f01da329e56d807954070eddfeedd1a646c8a2a81",
+          "observation": "只读核对当前第二阶段接续方向；未代验私有交付收据或执行微信开发"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "Assets盘点与统计边界",
+      "evidenceType": "current_static_scan",
+      "locations": [
+        {
+          "path": "docs/design/booster-pack-heroes-mobile-wechat-technical/audit_project.py",
+          "line": 1,
+          "sha256": "144cc37a2e7f82f752d6eacf90a8a18a1d007a258fdc482dcaf80e3cdcff2739",
+          "observation": "只读遍历、代码候选、PNG尺寸和近似GUID闭包；不等于BuildReport"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "包依赖与编辑器版本",
+      "evidenceType": "current_configuration",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Packages/manifest.json",
+          "line": 1,
+          "sha256": "391008b1e3d59b477f2e5814e9bfd9801c0e58fc3c2dd237e3d6506516e9db2b",
+          "observation": "InputSystem1.14、TMP3.0.7、Steamworks/UniTask本地包"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/ProjectSettings/ProjectVersion.txt",
+          "line": 1,
+          "sha256": "b42279cfd794d9f1825f3b7c1f318b861fa9e2e2b3c6c146737bdbd41c01b389",
+          "observation": "2022.3.62f3c1"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "当前Windows构建与设置入口",
+      "evidenceType": "current_source",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/RestorationTools/Editor/RestorationBuild.cs",
+          "line": 50,
+          "sha256": "e6c2abfe1a49d4df9261e654e4f70fd8b403a5ac992eb1e9c5cae595a2f01a3b",
+          "observation": "StandaloneWindows64固定目标"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/RestorationTools/Editor/RestorationSetup.cs",
+          "line": 20,
+          "sha256": "5ff93b7442f8c604b28eab088e842c47904bed4a0a1a5d133e61b2e34299d28a",
+          "observation": "1920x1080、Linear、Standalone Mono及Both输入"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Boot/主场景引用与加载",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/BootLoader.cs",
+          "line": 15,
+          "sha256": "d68a5f252d23bc5489e1def82baaba2e48d435685ed0248849b3b13191769189",
+          "observation": "按build index预载/切入主场景"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/LoadingScreen.cs",
+          "line": 54,
+          "sha256": "7f2ea8e11ce63997596759ac0286cdd7bfb3c7ea49dcd53e8b5ec0d83fd0fcb0",
+          "observation": "SceneManager.LoadSceneAsync和Resources加载配置"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/ProjectSettings/EditorBuildSettings.asset",
+          "line": 8,
+          "sha256": "b1621c636361a2ca113f53f8678f45140e2903175b527da09daf80fbc0f35da7",
+          "observation": "Boot和SampleScene均勾选"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 1,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "大主场景序列化依赖；闭包扫描非Unity运行分析"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "title": "强制Steam版本与移动能力Gate",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GameVersionManager.cs",
+          "line": 114,
+          "sha256": "6520b28a2452a11b5c2935b5ef7faaa24fd1106f597e6f4e62662baee3bbcedf",
+          "observation": "非Editor全部强制FullSteam"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GameVersionManager.cs",
+          "line": 82,
+          "sha256": "6520b28a2452a11b5c2935b5ef7faaa24fd1106f597e6f4e62662baee3bbcedf",
+          "observation": "Android/iOS能力由原生发行枚举决定"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GameVersionGate.cs",
+          "line": 13,
+          "sha256": "ac948a79ddf0a69f3d9dc1431deabbf5a840a90f94ce38828667907427a0d1e3",
+          "observation": "版本驱动GameObject启用"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 661866,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "当前版本序列化值2"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "触屏Action与单指针提供器",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/InputHandler.cs",
+          "line": 121,
+          "sha256": "42ce58cf27894e9a9d9249a4d841039d0897fdcf77ae1f8c9eaaba0e5daa3fb7",
+          "observation": "初始输入依据版本，设备事件会切换Current"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/InputHandler.cs",
+          "line": 148,
+          "sha256": "42ce58cf27894e9a9d9249a4d841039d0897fdcf77ae1f8c9eaaba0e5daa3fb7",
+          "observation": "统一指针接口和设备事件"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/InputHandler.cs",
+          "line": 232,
+          "sha256": "42ce58cf27894e9a9d9249a4d841039d0897fdcf77ae1f8c9eaaba0e5daa3fb7",
+          "observation": "单一pointerPosition读取UI Point"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/MonoBehaviour/InputSystem_Actions.asset",
+          "line": 367,
+          "sha256": "c18d41113bf34038cb6ab59a0282585b8cdba2b3ce44e6a86850d0c53c5ec00f",
+          "observation": "实际UI Action含Touchscreen位置与按下"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/InputSystem_Actions.cs",
+          "line": 827,
+          "sha256": "ef4773737988d44fe73be66080eafad4f1c4116aa41c05aee4530e5011c57dda",
+          "observation": "生成类也有触摸绑定"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 808791,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "InputSystemUIInputModule启用并绑定实际Action"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "持续光标与防遮挡偏移",
+      "evidenceType": "current_source",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CursorDamagePerSecond.cs",
+          "line": 1279,
+          "sha256": "f3fbf0f787de2753ed5fe78a4f7a0e1a34bf9cd4d53a9082b8c71644adcd5261",
+          "observation": "资格允许时unscaledDeltaTime计时并持续ApplyTick，无触摸按住门槛"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CursorDamagePerSecond.cs",
+          "line": 1260,
+          "sha256": "f3fbf0f787de2753ed5fe78a4f7a0e1a34bf9cd4d53a9082b8c71644adcd5261",
+          "observation": "指针转世界与CursorModeSettings偏移"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CursorDamagePerSecond.cs",
+          "line": 1544,
+          "sha256": "f3fbf0f787de2753ed5fe78a4f7a0e1a34bf9cd4d53a9082b8c71644adcd5261",
+          "observation": "范围碰撞命中"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CursorModeSettings.cs",
+          "line": 54,
+          "sha256": "5b9a96700c9dc87080bafed0de1d75d89f5e415c4983ef432a606eeaf41df9ce",
+          "observation": "仅原Android/iOS版本启用偏移"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "title": "商店/收藏触摸预览与实际动作",
+      "evidenceType": "current_source",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/PackEntryHoverProxy.cs",
+          "line": 105,
+          "sha256": "14996cbc54b2fff482c76e53216c7df6c52da80b0035d484b0a8c4858dc02337",
+          "observation": "Touch首次Enter，后续调用目标按钮"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/BinderCardHoverProxy.cs",
+          "line": 46,
+          "sha256": "da21e7abb8c8806cb235406ef3df19805f99f42cbf8ceb52d990089f63b790cf",
+          "observation": "Touch首次预览，后续可能WantedHunt"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/PackShopEntryUI.Part02.cs",
+          "line": 310,
+          "sha256": "b3044c8412c4bd0f9383272fbe889e2a13c70d3a74025caad34d74716835ca57",
+          "observation": "普通鼠标悬停显示说明"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "title": "技能树缩放与点击仲裁",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SkillNodeHoverProxy.cs",
+          "line": 61,
+          "sha256": "4cf040d68e31897d63c102be077d3a08328be02ad6c0eea90df228c84d1c555b",
+          "observation": "TapMovementTolerancePixels=40"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SkillNodeHoverProxy.cs",
+          "line": 243,
+          "sha256": "4cf040d68e31897d63c102be077d3a08328be02ad6c0eea90df228c84d1c555b",
+          "observation": "首次预览/后续触发目标按钮"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SkillNodeHoverProxy.cs",
+          "line": 366,
+          "sha256": "4cf040d68e31897d63c102be077d3a08328be02ad6c0eea90df228c84d1c555b",
+          "observation": "PointerUp判断触摸位移"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SkillTreeUI.Part03.cs",
+          "line": 392,
+          "sha256": "145a26a718de23650ea35c1264b81370c22307be1fd49183000cf3f6e956d7ff",
+          "observation": "两指缩放与ScrollRect互斥"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 774301,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "主树cellSize150、minZoom0.1、maxZoom1、pinchStep0.0008"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "title": "持续触摸推进与鼠标依赖的教学候选",
+      "evidenceType": "current_source_reachability_partial",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SalaryManager.cs",
+          "line": 541,
+          "sha256": "60e553f49be06eab95eec90551e63adcce476e3471cd85097d10a70540c748c4",
+          "observation": "任意输入中Touch.press.isPressed"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/PackShopUI.Part01.cs",
+          "line": 269,
+          "sha256": "2692683605ae6a50a9048bbadec70c5ad8156d4834eb9abccf40c4c2a1a4a699",
+          "observation": "重复帧按住状态"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/ImprovementsScreen.Part01.cs",
+          "line": 1194,
+          "sha256": "60fd80fe392b032cb1c08d5f133020db6f961f6c289a20e7f43cc4b0a31061d5",
+          "observation": "持续Touch判定"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GuideStep.cs",
+          "line": 289,
+          "sha256": "a9ecc7f3817d120359aeec47ffdfaf1420c473a272ff4112cbee28ce5741cd29",
+          "observation": "非按钮目标和命中直接读取Mouse，未找到直接序列化引用"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/HoverInfoGuide.cs",
+          "line": 203,
+          "sha256": "4a2329359e2e6e5538021e50894a964e9be9d88495640ee87703f6f4b3543442",
+          "observation": "primaryTouch与Mouse命中判断混合"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "消耗品、返回与危险操作",
+      "evidenceType": "current_source",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CardInHandUI.cs",
+          "line": 96,
+          "sha256": "c3fe764c014959cc0b5687b6418d77f8e62976ec2bd17e22006cb38142ac0cca",
+          "observation": "PointerEnter说明、PointerClick使用"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/HoldToConfirmButton.cs",
+          "line": 67,
+          "sha256": "8b67d98f80cce45e2c88b5bc01c3a0333e9d9ac6d69e2cd78119aae2fe444a9b",
+          "observation": "按下计时、抬起和滑出取消"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/BackStack.cs",
+          "line": 1,
+          "sha256": "2e14fb2cdc62e9ef1909cd76112896fe2441cc37522cce6e8e558461f92e5d83",
+          "observation": "已有返回业务堆栈"
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "title": "保存与原离线适配",
+      "evidenceType": "current_source",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GamePersistence.cs",
+          "line": 9,
+          "sha256": "86e9edcd2adcd3b172e8f97a83ff24e62ac919b3a3c7af409d2e229b5b186d90",
+          "observation": "schema27与同步File.WriteAllText；失败记Warning"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/GameManager.Part09.cs",
+          "line": 1166,
+          "sha256": "b68391085bcf8c8e681dc1126b96786e1ac2d0ce73b15e97f9ee1619416a8c9b",
+          "observation": "Quit/Pause保存"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/RestorationRuntime.cs",
+          "line": 12,
+          "sha256": "b5010ff66f9b85f7a24f6b8d64315a8692393a791dbdc14dcfa14ca2173e168a",
+          "observation": "离线能力依据本地公司/产品身份，不是微信服务"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SettingsMenu.cs",
+          "line": 35,
+          "sha256": "b0a4b70efb0b7dde9b9f4d62e8e200ce639a1eef5569f0593c8c9323baa56df7",
+          "observation": "桌面SetResolution入口"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "title": "需先确认可达性的候选",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CastSpellManager.cs",
+          "line": 62,
+          "sha256": "cb404726ade3d52d34bca5359b9753bffc4c96456b1cc2db373b702b2dd3bd1e",
+          "observation": "鼠标施法源码"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 896992,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "该施法组件m_Enabled=0"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SlashDetector.cs",
+          "line": 96,
+          "sha256": "0becab8af2dfcc443cbc9ec018facf2fb90af884163aa7a91b533aaca6d4e5ae",
+          "observation": "按连续坐标/速度划切；静态场景/预制件未找到直接引用"
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "title": "CRT、坐标与渲染路径",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CrtScreenFilter.cs",
+          "line": 338,
+          "sha256": "ef404d8affa6f2812ef7ad1c2655ae6495552529f9af8d51cb364036a23836af",
+          "observation": "OnRenderImage全屏Blit"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/CrtScreenSpace.cs",
+          "line": 23,
+          "sha256": "bc47161526e85a57e6657d660cb43015d0afd792d42be25fae347a693a37f3a9",
+          "observation": "UI坐标CRT映射"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 545473,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "主Camera启用CRT、distortion0.054、scanline0.5"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/ProjectSettings/GraphicsSettings.asset",
+          "line": 1,
+          "sha256": "6f1fcb661398149c47b27f72bd3872c39923a32713e29bbf8241ecb42c81bce2",
+          "observation": "Built-in渲染，包含大量AlwaysIncluded"
+        }
+      ]
+    },
+    {
+      "id": "E16",
+      "title": "Canvas缩放和安全区",
+      "evidenceType": "current_source_and_serialization",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SafeAreaFitter.cs",
+          "line": 10,
+          "sha256": "d12f5045f4896dac3af452e347c3b6868de28faf37819da18d564d8794094ead",
+          "observation": "Screen.safeArea转换为Canvas锚点"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 687248,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "主Canvas1920x1080、match0.5"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scenes/SampleScene.unity",
+          "line": 890109,
+          "sha256": "b24adbcacdbae5ee292174ca83c90404b142f38bc84be5e28e6271dc7ad376ba",
+          "observation": "教程Canvas为Constant Pixel Size"
+        }
+      ]
+    },
+    {
+      "id": "E17",
+      "title": "换色图集无损例外与运行时读回",
+      "evidenceType": "current_source_and_previous_targeted_proof",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/ColorKeySprites.cs",
+          "line": 50,
+          "sha256": "78b5e7a56fcade2e0c6320ba2cd990aba6286982be8903c8dc311950a5ec6e1f",
+          "observation": "Graphics.Blit/ReadPixels/RGBA32 Sprite缓存换色"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Texture2D/UI_Elements.png.meta",
+          "line": 171,
+          "sha256": "fb9a559741d2425bf343ad25d4454c2d1ca5d5e7441e17d5591377aadbf41928",
+          "observation": "Default及WebGL等保留无压缩"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/evidence/shop-art-repair.json",
+          "line": 1,
+          "sha256": "609a76be7ec154cce588b9a0c2c6ca16b0c0212ad8a4d2d434954d6a6171c59c",
+          "observation": "先前BC7漏色62像素，现Player像素一致；非本轮运行"
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "title": "音频源和播放样本",
+      "evidenceType": "current_static_and_ffprobe",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/SoundManager.cs",
+          "line": 1578,
+          "sha256": "43283318e0c00c58441480bbaa5d2adc132ecf8fd5982491e0ae41af3dd36d56",
+          "observation": "多源PlayOneShot/混音路径"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/AudioClip/DavidKBD-03 - Ghastly Apparition - first half.ogg.meta",
+          "line": 8,
+          "sha256": "9de31824eeab6da0f8861c9293f142ef2ff685662d1b6292023dc37a7642c594",
+          "observation": "长音频Importer设置；实际SDK导出待验证"
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "title": "字体和多语言资源",
+      "evidenceType": "current_source_and_import_metadata",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/LocalizationManager.cs",
+          "line": 339,
+          "sha256": "e2318066bcd960cfe0b6e41233fd35a83bfc2c5a3c3ee87f926e1b9ff91139db",
+          "observation": "Awake阶段Resources.LoadAll读取CSV"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Font/NotoSansSC-VariableFont_wght.ttf.meta",
+          "line": 12,
+          "sha256": "e26faa8150803b5071389b75c611c363748207e9b4c0e6b3f66dfac0d7bc0476",
+          "observation": "includeFontData1，源字体存在不等于最终全部入包"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/MonoBehaviour/NotoSansSC SDF.asset",
+          "line": 1,
+          "sha256": "fa48817ba7e6dedb6f7739fddb913b58e00be2a4dd311e9480c77a2c8bf8cd22",
+          "observation": "动态TMP FontAsset；引用/字集与fallback需实际检查"
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "title": "Resources/Sentis候选",
+      "evidenceType": "current_static_scan",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Resources/sentis/computeshaders/ConvGeneric.asset",
+          "line": 1,
+          "sha256": "778a44ebd9fdf087c6a041d50a262ee30a1d3c6141d024f500022d6303d19e21",
+          "observation": "最大候选计算资源；必须先查动态依赖再移出移动构建"
+        }
+      ]
+    },
+    {
+      "id": "E21",
+      "title": "未优化WebGL原始设置",
+      "evidenceType": "current_configuration",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/ProjectSettings/ProjectSettings.asset",
+          "line": 738,
+          "sha256": "c840833a31382e27c4ee47a3a92283e197f8d6528c15515968f31270da98a7dd",
+          "observation": "memory/compression/threads/exception的当前原始值，尚未构建验证"
+        }
+      ]
+    },
+    {
+      "id": "E22",
+      "title": "Steam平台编译边界",
+      "evidenceType": "current_source_and_assembly_config",
+      "locations": [
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Packages/com.rlabrecque.steamworks.net/Runtime/com.rlabrecque.steamworks.net.asmdef",
+          "line": 5,
+          "sha256": "7f02036188a671bcf2e445875e3201629636700aee6d3b3f4d0ad58d7d4606f2",
+          "observation": "平台列表排除WebGL"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/FundayGames.PlatformService.Steam/FundayGames.PlatformService.Steam.asmdef",
+          "line": 1,
+          "sha256": "006a52d0a2492dbea703c74c1c8e053535f9d14fcf9f02cd5b4e0fba4c1d0ea0",
+          "observation": "上层仍引用Steam程序集且无平台限制"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/Scripts/Assembly-CSharp/InputGlyphUtility.cs",
+          "line": 1,
+          "sha256": "25eaea28ec26ca26a1ff9dd8699e7f6379c907af179eecfefc7888fc0b7ca42e",
+          "observation": "业务直接引用Steam类型，无微信编译隔离"
+        }
+      ]
+    },
+    {
+      "id": "E23",
+      "title": "线程扫描的解释与QA代码隔离",
+      "evidenceType": "current_static_scan",
+      "locations": [
+        {
+          "path": "docs/design/booster-pack-heroes-mobile-wechat-technical/audit_project.py",
+          "line": 20,
+          "sha256": "144cc37a2e7f82f752d6eacf90a8a18a1d007a258fdc482dcaf80e3cdcff2739",
+          "observation": "线程模式区分协程Wait与真正线程调用"
+        },
+        {
+          "path": "prototypes/re-booster-pack-heroes/local/UnityProject/Assets/RestorationTools/Runtime/RestorationAudioObservation.cs",
+          "line": 32,
+          "sha256": "83314f56c50b3d99188e3ede7a9a0e4d408f7b07fe4ac5fbc013ae112a26b266",
+          "observation": "线程ID观察仅用于QA，不等于业务Task.Run"
+        }
+      ]
+    }
+  ],
+  "phoneTested": false,
+  "webglBuilt": false,
+  "sdkInstalled": false,
+  "gameInputsModified": false
+}

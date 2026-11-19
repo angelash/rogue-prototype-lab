@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-19",
+  "scope": "engineering_recommendations_not_implemented",
+  "items": [
+    {
+      "id": "M01",
+      "group": "交互",
+      "priority": "P0",
+      "title": "分离发行版本与触屏能力",
+      "current": "非Editor强制FullSteam；移动偏移和Gate依赖原枚举",
+      "action": "增加微信Profile/能力定义，审计所有版本Gate",
+      "acceptance": "正式Player首帧触屏正确，PC行为保持独立",
+      "evidence": [
+        "E06",
+        "E07"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M02",
+      "group": "交互",
+      "priority": "P0",
+      "title": "明确战斗指针的按住/拖动/抬手",
+      "current": "CursorDPS在资格满足时持续Tick，不检测触摸有效期",
+      "action": "建议按住激活、拖动瞄准、抬手停止，规则伤害/间隔先不变",
+      "acceptance": "抬手和cancel无残留伤害；反馈与命中同位置",
+      "evidence": [
+        "E07",
+        "E08"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M03",
+      "group": "交互",
+      "priority": "P0",
+      "title": "统一UI与世界手势归属",
+      "current": "多个系统分别读指针/触摸/Pointer事件",
+      "action": "一次手势只归属一个上下文，锁touch ID，cancel统一清状态",
+      "acceptance": "按钮/拖动/缩放不穿透世界，单动作不重复扣资源",
+      "evidence": [
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M04",
+      "group": "交互",
+      "priority": "P1",
+      "title": "商店与收藏的详情和提交",
+      "current": "已有Touch首次预览、之后购买或WantedHunt",
+      "action": "优先明示详情+购买/目标按钮，保留代理逻辑并清理重复路径",
+      "acceptance": "首次可见反馈、动作含义明确、重复输入最多提交一次",
+      "evidence": [
+        "E09"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M05",
+      "group": "交互",
+      "priority": "P1",
+      "title": "技能树点击/拖动/缩放仲裁",
+      "current": "两指缩放已实现，点击容差40屏幕像素，minZoom0.1",
+      "action": "缩放开始取消待点击，按逻辑尺寸校验容差，远景仅浏览",
+      "acceptance": "缩放/滚动结束不误升级，第三指/cancel能恢复ScrollRect",
+      "evidence": [
+        "E10"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M06",
+      "group": "交互",
+      "priority": "P1",
+      "title": "结算与过场的新输入边沿",
+      "current": "部分AnyInput使用Touch.press.isPressed",
+      "action": "过滤唤起输入，等待新手势推进；逐路径核查教学",
+      "acceptance": "同一根未抬手触摸不会连续跳过多层UI",
+      "evidence": [
+        "E11"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M07",
+      "group": "交互",
+      "priority": "P1",
+      "title": "消耗品先读说明再使用",
+      "current": "PointerEnter显示说明、点击可能直接UseCard",
+      "action": "详情与使用/跳过明确分开，不新增免费资源或无限暂停",
+      "acceptance": "触屏能读完整规则，取消不误用，掉落资格不变",
+      "evidence": [
+        "E12"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M08",
+      "group": "界面",
+      "priority": "P1",
+      "title": "横屏布局、热区与微信安全区",
+      "current": "1920x1080缩放，教程存在Constant Pixel Size；SafeArea仅Screen值",
+      "action": "商店抽屉/详情板，44–48逻辑像素热区起步，接WX窗口换算",
+      "acceptance": "16:9/长屏/平板不遮挡不重叠，点击与可见位置一致",
+      "evidence": [
+        "E16",
+        "W07"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M09",
+      "group": "界面",
+      "priority": "P2",
+      "title": "返回、软键盘和危险长按",
+      "current": "有BackStack/hold基础，但仍有桌面设置和TMP输入路径",
+      "action": "可见返回、按能力隐藏PC设置，按SDK接中文键盘与取消",
+      "acceptance": "不依赖键鼠，全流程可返回，切后台重置长按",
+      "evidence": [
+        "E12",
+        "E13",
+        "W11"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "M10",
+      "group": "交互",
+      "priority": "P2",
+      "title": "未启用输入源码的条件性债务",
+      "current": "CastSpell组件禁用；SlashDetector无直接序列化引用",
+      "action": "先证明运行可达再改，启用划切时重置跨触点轨迹",
+      "acceptance": "两次不同位置点按不当连续挥砍，不虚报当前阻断",
+      "evidence": [
+        "E14"
+      ],
+      "status": "conditional"
+    },
+    {
+      "id": "B01",
+      "group": "构建",
+      "priority": "P0",
+      "title": "解除Steam跨平台编译引用",
+      "current": "Steamworks Runtime排除WebGL，上层asmdef/业务仍引用",
+      "action": "桌面Steam隔离，业务依赖公共接口，微信有真实实现",
+      "acceptance": "WebGL构建真实通过，无缺失Steam类型/程序集",
+      "evidence": [
+        "E22"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B02",
+      "group": "构建",
+      "priority": "P0",
+      "title": "独立微信构建入口与SDK版本锁",
+      "current": "现入口固定Windows；尚无微信SDK/构建Profile",
+      "action": "隔离副本锁SDK/Loader，设置WebGL/IL2CPP/编译条件和版本清单",
+      "acceptance": "导出可复现，不污染PC参考；准确版本兼容另验",
+      "evidence": [
+        "E03",
+        "E04",
+        "E21",
+        "W01",
+        "W02"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B03",
+      "group": "加载",
+      "priority": "P0",
+      "title": "把Boot到大场景改成实际异步资源链",
+      "current": "两个场景均勾入构建，Boot按index1加载",
+      "action": "建立最小Bootstrap，异步下载依赖并按Bundle/场景路径激活",
+      "acceptance": "冷缓存能完成一局，失败可重试；首包不含后期依赖",
+      "evidence": [
+        "E05",
+        "W03",
+        "W04"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B04",
+      "group": "资产",
+      "priority": "P1",
+      "title": "核对并移出移动候选的无用Resources",
+      "current": "Resources191源文件，Sentis候选约17.43MiB",
+      "action": "先查运行/动态依赖，再保留原件并从移动候选剥离",
+      "acceptance": "BuildReport证明减少且动态加载无null；不承诺源字节等于节省",
+      "evidence": [
+        "E20",
+        "W04"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B05",
+      "group": "加载",
+      "priority": "P1",
+      "title": "AB或AA分组与生命周期",
+      "current": "无现成AB/AA资源体系，配置直引媒体",
+      "action": "先粗分组验证，统一异步句柄、依赖/释放和错误路径",
+      "acceptance": "无首包/Bundle重复资源，切章释放不破坏存档ID",
+      "evidence": [
+        "E05",
+        "W04",
+        "W09"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B06",
+      "group": "资产",
+      "priority": "P1",
+      "title": "纹理分级与无损换色例外",
+      "current": "356PNG，UI_Elements压缩历史已出现像素漏色",
+      "action": "普通纹理测试ETC2/ASTC，UI图集保无损，评估CPU换色替代",
+      "acceptance": "图集/动画/透明边与换色正确，像素证据与内存独立记录",
+      "evidence": [
+        "E17",
+        "W05"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B07",
+      "group": "渲染",
+      "priority": "P1",
+      "title": "Shader跨编译与CRT成本",
+      "current": "110Shader/95材质，主Camera启用CRT全屏Blit",
+      "action": "保留Built-in先跑通，手机低档简化效果，控制变体/分辨率",
+      "acceptance": "双端无粉色/黑块，GPU帧时和读图可接受",
+      "evidence": [
+        "E15",
+        "W05",
+        "W13"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B08",
+      "group": "资产",
+      "priority": "P1",
+      "title": "长音乐和音效移动派生",
+      "current": "394OGG约95.87MiB源；长音频解码成本高",
+      "action": "四类样件先验，按章加载BGM，限制并发并验证循环/pitch",
+      "acceptance": "后台/广告/静音恢复与听感正常，无音频内存持续增长",
+      "evidence": [
+        "E18",
+        "W06"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B09",
+      "group": "资产",
+      "priority": "P1",
+      "title": "中文字体/Atlas/fallback与发布语言",
+      "current": "8TTF约38.12MiB源，不代表全部已入包",
+      "action": "查UsedAssets和运行路径，生成中文必要字集，按需fallback",
+      "acceptance": "首局不缺字，输入/动态文案可用，真实体积可复算",
+      "evidence": [
+        "E19",
+        "W12"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B10",
+      "group": "存档",
+      "priority": "P0",
+      "title": "微信持久化和奖励提交边界",
+      "current": "GamePersistence同步File.WriteAllText，失败仅Warning",
+      "action": "业务快照下替换存储层，写回执/备份/校验/迁移/失败UI",
+      "acceptance": "杀进程/写失败恢复自洽，不能先成功提示再丢存档",
+      "evidence": [
+        "E13",
+        "W09",
+        "W12"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B11",
+      "group": "平台",
+      "priority": "P0",
+      "title": "宿主/广告暂停与触摸清理",
+      "current": "有Unity Pause保存，但DPS使用unscaledDeltaTime",
+      "action": "接宿主show/hide/广告状态，明确停Tick/清手势/检查点",
+      "acceptance": "timeScale0或广告覆盖时无残留伤害，恢复不误领取",
+      "evidence": [
+        "E08",
+        "E13"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B12",
+      "group": "构建",
+      "priority": "P1",
+      "title": "AOT、裁剪、托管插件和QA隔离",
+      "current": "使用UniTask、托管DOTween及恢复/观察代码",
+      "action": "编译验证泛型/回调/序列化，仅保留确需反射项，移出QA自动执行",
+      "acceptance": "Release可启动核心流程且无自动输入/秘密/调试服务",
+      "evidence": [
+        "E03",
+        "E23",
+        "U01"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B13",
+      "group": "部署",
+      "priority": "P1",
+      "title": "CDN、压缩、缓存和版本回滚",
+      "current": "当前没有微信CDN资源链；WebGL压缩原始值1",
+      "action": "按SDK处理Unity不压缩/转换压缩，hash版本目录、域名和CORS",
+      "acceptance": "新旧客户端均可加载，错误编码/缓存可解释，可回滚",
+      "evidence": [
+        "E21",
+        "W08",
+        "W09",
+        "W10",
+        "W12"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B14",
+      "group": "平台",
+      "priority": "P1",
+      "title": "真实微信能力替代离线平台占位",
+      "current": "当前离线Steam/UGS适配不是微信登录/云档",
+      "action": "按需接登录/配置/广告/客服/隐私，秘密放服务端",
+      "acceptance": "前台不含secret，失败不伪装成功，拒绝非必要同意可玩",
+      "evidence": [
+        "E13",
+        "W10",
+        "W11"
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "B15",
+      "group": "验收",
+      "priority": "P1",
+      "title": "双端真实包与性能矩阵",
+      "current": "只有Windows特定范围验收，无WebGL/微信结果",
+      "action": "实际构建/首包与首局下载测量，Android+iOS触摸/恢复/压力",
+      "acceptance": "版本与设备有据，工具预览不代真机，旧资源/存档可兼容",
+      "evidence": [
+        "E01",
+        "W03",
+        "W13",
+        "U02"
+      ],
+      "status": "proposed"
+    }
+  ],
+  "priorities": {
+    "P0": "首个有效微信纵切之前必须解决的阻断/规则边界",
+    "P1": "候选发布之前必做",
+    "P2": "按实际采用功能和测试缺口处理"
+  }
+}

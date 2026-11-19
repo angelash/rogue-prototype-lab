@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-11-19T02:11:47.810721+00:00",
+  "status": "passed",
+  "scope": "report_static_evidence_and_offline_preview_only",
+  "checks": [
+    {
+      "name": "findings_and_evidence",
+      "status": "passed",
+      "details": {
+        "items": 25,
+        "P0": 8,
+        "P1": 15,
+        "P2": 2,
+        "evidenceGroups": 23,
+        "sourceHashesCurrent": true,
+        "phoneOrWebglTestsClaimed": false
+      }
+    },
+    {
+      "name": "inventory_arithmetic",
+      "status": "passed",
+      "details": {
+        "nonMetaAssetFiles": 4407,
+        "sourceBytes": 254636752,
+        "assetSourceMiB": 242.8405303955078,
+        "audioSampleCount": 3,
+        "boundary": "Source sizes, serialized closure and PCM/RGBA estimates are not runtime or package measurements."
+      }
+    },
+    {
+      "name": "official_source_records",
+      "status": "passed",
+      "details": {
+        "pages": 15,
+        "quotesMatchReadText": true,
+        "sourceTextHashes": true,
+        "accountOrSDKEntitlementsVerified": false
+      }
+    },
+    {
+      "name": "document_links",
+      "status": "passed",
+      "details": {
+        "checked": 26,
+        "broken": 0
+      }
+    },
+    {
+      "name": "offline_preview",
+      "status": "passed",
+      "details": {
+        "browser": "Installed Edge/Chromium, isolated headless local-file context",
+        "viewports": [
+          1360,
+          768,
+          390,
+          320
+        ],
+        "interactions": [
+          "priority/group/search/clear filters",
+          "source citation opens exact evidence details"
+        ],
+        "horizontalOverflow": false,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "networkRequests": 0,
+        "allFragmentTargetsExist": true,
+        "printCSS": "verified",
+        "screenshotFiles": [
+          "desktop-findings.png",
+          "desktop-overview.png",
+          "mobile-assets.png",
+          "overview-320.png",
+          "overview-390.png",
+          "overview-768.png"
+        ]
+      }
+    },
+    {
+      "name": "read_only_input_check",
+      "status": "passed",
+      "details": {
+        "hashedSourceAndTopLevelSettingsFiles": 2299,
+        "differentAfterAnalysis": [],
+        "scope": "Audited C# and top-level Packages/ProjectSettings files; not an all-assets snapshot"
+      }
+    },
+    {
+      "name": "scoped_content_scan",
+      "status": "passed",
+      "details": {
+        "files": 11,
+        "commonSecretPatternFindings": 0,
+        "originalGameCodeOrMediaIncluded": false
+      }
+    }
+  ],
+  "visualReview": {
+    "status": "passed",
+    "reviewedAtUtc": "2026-11-19T02:11:38.895864+00:00",
+    "method": "Assistant inspected all four rendered screenshot images with view_image",
+    "files": [
+      "desktop-overview.png",
+      "desktop-findings.png",
+      "overview-390.png",
+      "mobile-assets.png"
+    ],
+    "observations": [
+      "Desktop title, metrics and navigation are readable.",
+      "Finding rows, priorities and evidence links are legible without overlapping columns.",
+      "390px overview preserves reading order and fits the viewport.",
+      "390px asset chart, table and lossless-texture exception are readable."
+    ],
+    "scope": "Offline report presentation only; no game or phone acceptance."
+  },
+  "gameBuildOrPhoneTestsExecuted": false,
+  "productionChangesExecuted": false,
+  "actualWxPackageSizeOrMemoryMeasured": false,
+  "artifacts": {
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/audit_project.py": "144cc37a2e7f82f752d6eacf90a8a18a1d007a258fdc482dcaf80e3cdcff2739",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/DEVELOPMENT.md": "dcc7ee6f26804139a3b0049389e8239f08eda84bc41def19e33f196cbd7e155d",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/evidence-index.json": "e1ad7511d4413bfe2af40d12eb9ee99f3a68fc675213769ac8d89ea0bd0688f7",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/findings.json": "8684edeecd5a3a646ada1f62b0c586c5aa5e5ce7bad01031b74cec7f1f8c93c9",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/index.html": "26770d930d9edb9dbceb0f13d8a4addd48ac591daba0472629733c4450baab19",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/README.md": "4948d09af70b74a646f9f579a17794a5cacde80db8258846d332855b8b8d2d61",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/render_report.py": "d8eae5eae935208113da392f894dd78c15d86d00a2a1410a6717e6c5fc164ef8",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/REPORT.md": "38c95b2bdeb29563bc8a942503e0b8c9b7d6129703b3d1490362ed8ad5f338f0",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/sources.md": "7a130159d8613d53fca1c4836e5d42dd2a9b3e4e0f97931cb43b219734ac8092",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/evidence/official-sources.json": "d11fd1b6e0c11cca2858d7f9c9887d89eb01a8730c36e30023bb090790f0e5ee",
+    "docs/design/booster-pack-heroes-mobile-wechat-technical/evidence/project-inventory.json": "6e68526b83f2ef9af1a9492ca81dbec8b9883792a66e02c5b9cc0c3d110d59a8"
+  },
+  "limitations": [
+    "Input check covers hashed source/settings only.",
+    "Static GUID closure is not Unity dependency/BuildReport.",
+    "Original game screenshots were inspected locally and are not published.",
+    "Official text does not establish installed SDK compatibility or account entitlement."
+  ]
+}
