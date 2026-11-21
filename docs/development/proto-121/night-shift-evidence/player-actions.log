@@ -1,0 +1,52 @@
+release-window.log
+SHIFT_READY level=blind-pocket history=PRRPP poster=True font=True
+SHIFT_ACTION level=blind-pocket moves=PRRPPP delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUUU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUUUU delivered=2 won=True lost=False
+release-all-jobs.log
+SHIFT_READY level=shaft history= poster=True font=True
+SHIFT_ACTION level=shaft moves=P delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=PP delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=PPU delivered=1 won=True lost=False
+SHIFT_ACTION level=overhang moves=P delivered=0 won=False lost=False
+SHIFT_ACTION level=overhang moves=PR delivered=0 won=False lost=False
+SHIFT_ACTION level=overhang moves=PRP delivered=0 won=False lost=False
+SHIFT_ACTION level=overhang moves=PRPP delivered=0 won=False lost=False
+SHIFT_ACTION level=overhang moves=PRPPU delivered=1 won=True lost=False
+SHIFT_ACTION level=gantry moves=P delivered=0 won=False lost=False
+SHIFT_ACTION level=gantry moves=PP delivered=0 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPU delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUU delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUUR delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURR delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURRR delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURRRR delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURRRRR delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURRRRRP delivered=1 won=False lost=False
+SHIFT_ACTION level=gantry moves=PPUURRRRRPU delivered=2 won=True lost=False
+SHIFT_ACTION level=scales moves=P delivered=0 won=False lost=False
+SHIFT_ACTION level=scales moves=PR delivered=0 won=False lost=False
+SHIFT_ACTION level=scales moves=PRR delivered=0 won=False lost=False
+SHIFT_ACTION level=scales moves=PRRP delivered=0 won=False lost=False
+SHIFT_ACTION level=scales moves=PRRPU delivered=1 won=False lost=False
+SHIFT_ACTION level=scales moves=PRRPUU delivered=2 won=True lost=False
+SHIFT_ACTION level=blind-pocket moves=P delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PR delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRR delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRP delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPP delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPP delivered=0 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUUU delivered=1 won=False lost=False
+SHIFT_ACTION level=blind-pocket moves=PRRPPPUUUU delivered=2 won=True lost=False
+SHIFT_ACTION level=shaft moves=L delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LR delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRL delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRLR delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRLRL delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRLRLR delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRLRLRL delivered=0 won=False lost=False
+SHIFT_ACTION level=shaft moves=LRLRLRLR delivered=0 won=False lost=True

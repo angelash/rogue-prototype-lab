@@ -1,6 +1,22 @@
 # MagnetScavenger / 磁铁拾荒者
 
-版本：0.2.0-slice；日期：2026-10-10。Unity2022.3.62f3c1，Windows x64 Mono PC单机；当前首次候选已实现，34/34 Unity测试通过，Windows包0错0警告与初态相机已核对，Prepare/Test/Build/初態相机已核对；正常窗口/动态/HUD/听感待验，不预称完整纵切或Steam发行。
+## 夜班 1.0（当前 Windows 版）
+
+工程使用 Unity 2022.3.62f3c1。打开 Bootstrap 场景并进入 Play，或运行普通包中的 MagnetScavenger.exe。规则、提示与关卡在 Assets/MagnetScavenger/Core/Shift*.cs，现场输入/绘制在 Presentation 的 MagnetRuntime、ShiftDesk 与 ShiftBoard。工单完成可接下一单，最后一单后可看交班单，并回到已开放工单重玩。
+
+在仓库根运行下方 Test 命令执行新版与历史回归。构建可用下方 Build 命令。若要复现本轮启用图形设备的批处理构建，可从仓库根在 PowerShell 执行：
+
+```powershell
+$editor = 'D:\Program files\2022.3.62f3c1\Editor\Unity.exe'
+$project = (Resolve-Path 'prototypes/proto-121-magnet-scavenger/game/MagnetScavenger').Path
+& $editor -batchmode -quit -projectPath $project -executeMethod PrototypeBuild.Editor.ProjectBuilder.BuildWindows -logFile "$project/Builds/night-shift-build.log" | Out-Null
+```
+
+新版输出目录为 Builds/NightShift-1.0-Win64。请整体分发 exe、Data、Mono 和同目录 DLL。在[交付记录](../../../../docs/development/proto-121/2026-11-21-night-shift.md)核对实际验证与包装清单。
+
+## v0.2 首次纵切历史记录
+
+2026-10-10 的版本为 0.2.0-slice，本节以下所述输入、存档与输出路径对应旧版。
 
 ## 范围与权威
 

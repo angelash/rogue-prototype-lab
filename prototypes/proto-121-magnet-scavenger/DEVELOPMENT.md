@@ -1,6 +1,18 @@
 # 121 磁铁拾荒者：开发要求与规范
 
-版本：v0.2；日期：2026-10-10（Asia/Shanghai）。当前首次候选已实现，34/34 Unity测试通过，Windows包0错0警告与初态相机已核对；真实验证与备份以[开发记录](../../docs/development/proto-121/2026-10-10-slice-01.md)为准，原生/完整HUD/动态及听感仍待验。2026-10-09的v0.1“仅文档、不启动”是此前归档状态，已由后续授权接续。
+## 当前合同 · 夜班 1.0（2026-11-21）
+
+用户授权挑选系列中的一项，从原案重新设计并制作到 Windows 可运行包。助手选定 121，按[新版设计复核](../../docs/design/first-batch/proto-121-magnet-scavenger/night-shift.md)实现固定横轨、随车回收、逐件卸尾与五张有限订单。Unity 2022.3.62f3c1，Windows x64 Mono，离线运行。原案、旧三维方案与历史证据分别保留。
+
+- 正式规则由 [ShiftGame](game/MagnetScavenger/Assets/MagnetScavenger/Core/ShiftGame.cs) 持有，地图、顺序、限电、限载和目标步数见 [ShiftLevels](game/MagnetScavenger/Assets/MagnetScavenger/Core/ShiftLevels.cs)。每次合法横移、吸取或卸货花一电。拒绝操作保留原状态，撤销恢复原电量，最后一电交齐优先结算。
+- 现场提供四种零件与单链；长杆上钩时展开两格，弯头改变出口，首件、墙、承重与碰撞均由预览和执行共用。解谜重点是先把货当工具、带件过梁与卸掉占道的长杆。成绩记录为各工单最少行动数。
+- UI 使用顶视棋盘、链尾磁口、目标菱标、虚线、当前预吸结果、订单据及回收站横幅。键盘/鼠标均能游玩。工单簿可静音与退出。制作源为 [ShiftBoard](game/MagnetScavenger/Assets/MagnetScavenger/Presentation/ShiftBoard.cs) 和 [横幅归档](../../sources/art/proto-121-magnet-scavenger/night-shift-banner.md)。音效、音乐、中文字体和 OFL 延用同项目已登记资源。
+- [ShiftProgress](game/MagnetScavenger/Assets/MagnetScavenger/Core/ShiftProgress.cs) 存每关动作串、最优通关动作串、当前单及静音设置。读档先校验再复演，保留有效备份。产品标识为 Magnet Scavenger Night Shift，路径为 persistentDataPath 下的 night-shift-v1。QA 使用独立练习档。关卡顺序、地图或规则有不兼容变更时须迁移或升级存档版本。
+- 验收覆盖五单可解、去留反例、提示状态空间、存档回退、最终普通包和真实操作。正式执行结果、输出路径、音画与体验边界见[本轮交付记录](../../docs/development/proto-121/2026-11-21-night-shift.md)。真实新玩家评价和 Steam 发布另行验证。
+
+## 历史合同 · v0.2（2026-10-10）
+
+首次候选已实现，34/34 Unity测试通过，Windows包0错0警告与初态相机已核对；当时的验证与备份以[开发记录](../../docs/development/proto-121/2026-10-10-slice-01.md)为准。
 
 ## 1. 决策、依据与适用范围
 
